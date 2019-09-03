@@ -471,11 +471,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj",
+      "projectUniqueName": "C:\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj",
       "projectName": "MealPlanner",
-      "projectPath": "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj",
+      "projectPath": "C:\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj",
       "packagesPath": "C:\\Users\\User-pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner\\obj\\",
+      "outputPath": "C:\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

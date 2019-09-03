@@ -1116,11 +1116,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner.Android\\MealPlanner.Android.csproj",
+      "projectUniqueName": "C:\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner.Android\\MealPlanner.Android.csproj",
       "projectName": "MealPlanner.Android",
-      "projectPath": "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner.Android\\MealPlanner.Android.csproj",
+      "projectPath": "C:\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner.Android\\MealPlanner.Android.csproj",
       "packagesPath": "C:\\Users\\User-pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner.Android\\obj\\",
+      "outputPath": "C:\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1141,8 +1141,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj": {
-              "projectPath": "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj"
+            "C:\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj": {
+              "projectPath": "C:\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj"
             }
           }
         }
