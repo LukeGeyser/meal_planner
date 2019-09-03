@@ -257,7 +257,7 @@
       ]
     },
     "Xamarin.Essentials/1.0.1": {
-      "sha512": "TUsMSXqdLEZlx0O3EcWMwOF5e8X3Gh0GX28FlH3q8iyKAQBYd8tV+Ja7tHMplf7D8V4NVCG9ELqx2nk/jPWPew==",
+      "sha512": "cGSje2LlYsCdscPt2zAG4e0Zzr08zc21Cj4DAMub3GR37lc/vzAVwGxco8NeCSzcZs147wYbXkFCXwOr4LUO9A==",
       "type": "package",
       "path": "xamarin.essentials/1.0.1",
       "files": [
@@ -291,7 +291,7 @@
       ]
     },
     "Xamarin.Forms/3.6.0.264807": {
-      "sha512": "T7gYS3PoGNtp6D7GAX7fF4QzR7NC36NNQSiuEb5TXO8rEqkZGwpC4u/6S62rH0wL3dabWNVpJPPnL5jZvWeoVg==",
+      "sha512": "PbnXpStyxNYJzPrXXMW17F4YeMsFAs6YT9LL2vxObDWCGtaKkLia4UyBPF3Qbhy+lQPeap/ijV1Rlvasp4DFiA==",
       "type": "package",
       "path": "xamarin.forms/3.6.0.264807",
       "files": [
@@ -465,20 +465,20 @@
   },
   "packageFolders": {
     "C:\\Users\\User-pc\\.nuget\\packages\\": {},
-    "C:\\ProgramData\\Xamarin\\NuGet\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj",
+      "projectUniqueName": "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj",
       "projectName": "MealPlanner",
-      "projectPath": "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj",
+      "projectPath": "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj",
       "packagesPath": "C:\\Users\\User-pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\MealPlanner\\MealPlanner\\MealPlanner\\obj\\",
+      "outputPath": "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\ProgramData\\Xamarin\\NuGet\\",
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [

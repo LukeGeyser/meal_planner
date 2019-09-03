@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\MealPlanner\\MealPlanner\\MealPlanner.iOS\\MealPlanner.iOS.csproj": {}
+    "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner.iOS\\MealPlanner.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\MealPlanner\\MealPlanner\\MealPlanner.iOS\\MealPlanner.iOS.csproj": {
+    "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner.iOS\\MealPlanner.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\MealPlanner\\MealPlanner\\MealPlanner.iOS\\MealPlanner.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner.iOS\\MealPlanner.iOS.csproj",
         "projectName": "MealPlanner.iOS",
-        "projectPath": "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\MealPlanner\\MealPlanner\\MealPlanner.iOS\\MealPlanner.iOS.csproj",
+        "projectPath": "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner.iOS\\MealPlanner.iOS.csproj",
         "packagesPath": "C:\\Users\\User-pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\MealPlanner\\MealPlanner\\MealPlanner.iOS\\obj\\",
+        "outputPath": "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "C:\\ProgramData\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\User-pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj": {
-                "projectPath": "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj"
+              "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj": {
+                "projectPath": "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj"
               }
             }
           }
@@ -65,17 +65,17 @@
         }
       }
     },
-    "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj": {
+    "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj",
+        "projectUniqueName": "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj",
         "projectName": "MealPlanner",
-        "projectPath": "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj",
+        "projectPath": "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj",
         "packagesPath": "C:\\Users\\User-pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\MealPlanner\\MealPlanner\\MealPlanner\\obj\\",
+        "outputPath": "C:\\Users\\User-pc\\Desktop\\UNIVERSITY WORK\\SECOND YEAR BC\\INL281\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
