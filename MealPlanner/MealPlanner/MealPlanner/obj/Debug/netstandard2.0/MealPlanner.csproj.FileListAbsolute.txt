@@ -21,7 +21,6 @@ C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\App
 C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
 C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
 C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
 C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
 C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
 C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\SignInPage.xaml.g.cs
@@ -32,3 +31,5 @@ C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Xam
 C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\MealPlanner.dll
 C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\MealPlanner.pdb
 C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\MealPlanner.csprojAssemblyReference.cache
+C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\SignUpPage.xaml.g.cs

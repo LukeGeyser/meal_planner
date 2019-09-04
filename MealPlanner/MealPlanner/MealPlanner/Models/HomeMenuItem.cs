@@ -7,7 +7,9 @@ namespace MealPlanner.Models
     public enum MenuItemType
     {
         Browse,
-        About
+        About,
+        SignIn,
+        SignUp
     }
     public class HomeMenuItem
     {

@@ -13,7 +13,7 @@ namespace MealPlanner.Views
     [DesignTimeVisible(true)]
     public partial class MenuPage : ContentPage
     {
-        MainPage RootPage { get => Application.Current.MainPage as MainPage; }
+        HomePage RootPage { get => Application.Current.MainPage as HomePage; }
         List<HomeMenuItem> menuItems;
         public MenuPage()
         {

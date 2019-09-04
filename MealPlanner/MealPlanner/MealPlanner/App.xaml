@@ -12,7 +12,6 @@
             <Style TargetType="NavigationPage">
                 <Setter Property="BarBackgroundColor" Value="{StaticResource NavigationPrimary}" />
                 <Setter Property="BarTextColor" Value="White" />
-                <Setter Property="Title" Value="SIGN IN" />
             </Style>
         </ResourceDictionary>
     </Application.Resources>

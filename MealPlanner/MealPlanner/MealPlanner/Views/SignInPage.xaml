@@ -51,17 +51,33 @@
                    x:Name="Password"
                    IsPassword="True"></Entry>
             
-            <Button Text="Sign In" 
+            
+
+            <FlexLayout VerticalOptions="Center"
+                        HorizontalOptions="Center">
+                <Button Text="Sign In" 
                     x:Name="Sign_In"
                     Padding="0,0,0,0"
-                    Margin="0,25,0,0"
-                    WidthRequest="75" 
-                    HeightRequest="35"
-                    HorizontalOptions="Center"
+                    Margin="10,25,0,0"
+                    WidthRequest="60" 
+                    HeightRequest="30"
                     FontSize="Micro"
                     BackgroundColor="{StaticResource Primary-Green}"
                     TextColor="White"
                     Clicked="Sign_In_Clicked"></Button>
+
+                <Button Text="Sign Up" 
+                    x:Name="Sign_Up"
+                    Padding="0,0,0,0"
+                    Margin="10,25,0,0"
+                    WidthRequest="60" 
+                    HeightRequest="30"
+                    FontSize="Micro"
+                    BackgroundColor="{StaticResource Primary-Green}"
+                    TextColor="White"
+                    Clicked="Sign_Up_Clicked"></Button>
+            </FlexLayout>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
