@@ -8,11 +8,21 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+using MealPlanner.Models;
+
 namespace MealPlanner.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class SignInPage : ContentPage
     {
+
+        #region Variables 
+
+        List<User> userList;
+
+        #endregion
+
+
         public SignInPage()
         {
             InitializeComponent();
@@ -20,18 +30,25 @@ namespace MealPlanner.Views
 
         private void Sign_In_Clicked(object sender, EventArgs e)
         {
+
+            if (Username.Text == null || Password.Text == null || Username.Text == "" || Password.Text == "") { 
+                Error.IsVisible = true;
+            } else if (Username.Text != null || Password.Text != null) {
+                Error.IsVisible = false;
+            }
+
             // Check if user input credentials are valid inputs
 
                 // if user input credentials are valid, sign user in and continue
 
                 // else if user input credentials are invalid, display an error!
 
-            DisplayAlert("URGENT ALERT", $"Username: {Username.Text}, Password: {Password.Text}", "Coolio");
         }
 
         private void Sign_Up_Clicked(object sender, EventArgs e)
         {
             Application.Current.MainPage = new SignUpPage();
         }
+
     }
 }

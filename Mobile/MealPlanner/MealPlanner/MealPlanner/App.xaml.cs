@@ -3,12 +3,15 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using MealPlanner.Services;
 using MealPlanner.Views;
+using System.Data.SqlClient;
+using System.Diagnostics;
 
 namespace MealPlanner
 {
     public partial class App : Application
     {
         Page currentPage = null;
+
         public App()
         {
             InitializeComponent();

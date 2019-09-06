@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj": {}
+    "C:\\meal_planner\\Mobile\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj": {}
   },
   "projects": {
-    "C:\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj": {
+    "C:\\meal_planner\\Mobile\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj",
+        "projectUniqueName": "C:\\meal_planner\\Mobile\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj",
         "projectName": "MealPlanner",
-        "projectPath": "C:\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj",
+        "projectPath": "C:\\meal_planner\\Mobile\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj",
         "packagesPath": "C:\\Users\\User-pc\\.nuget\\packages\\",
-        "outputPath": "C:\\meal_planner\\MealPlanner\\MealPlanner\\MealPlanner\\obj\\",
+        "outputPath": "C:\\meal_planner\\Mobile\\MealPlanner\\MealPlanner\\MealPlanner\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -49,13 +49,17 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.6.1, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.0.1, )"
+              "version": "[1.3.0, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[3.6.0.264807, )"
+              "version": "[4.2.0.709249, )"
             }
           },
           "imports": [

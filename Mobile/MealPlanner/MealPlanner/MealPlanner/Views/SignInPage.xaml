@@ -18,6 +18,7 @@
             <Color x:Key="Accent">#96d1ff</Color>
             <Color x:Key="LightTextColor">#999999</Color>
             <Color x:Key="OffWhiteTextColor">#e8e8e8</Color>
+            <Color x:Key="alert">#db5151</Color>
         </ResourceDictionary>
     </ContentPage.Resources>
 
@@ -33,32 +34,41 @@
                    TextColor="{StaticResource Primary-Green}">
                 
             </Label>
+            
             <Label Text="Username:"
                    FontSize="Micro"></Label>
-            
+
             <Entry FontSize="Micro"
                    WidthRequest="20"
                    Placeholder="Enter Your Username"
                    x:Name="Username"></Entry>
-            
+
             <Label Text="Password:" 
                    FontSize="Micro"></Label>
             
             <Entry FontSize="Micro"
                    WidthRequest="20"
                    Placeholder="Enter Your Password"
-                   Margin="0,0,0,10"
+                   Margin="0,0,0,0"
                    x:Name="Password"
                    IsPassword="True"></Entry>
-            
-            
+
+            <Label x:Name="Error"
+                   Text="Username and Password are Incorrect!"
+                   FontSize="Micro"
+                   HorizontalOptions="Center"
+                   TextColor="{StaticResource alert}"
+                   IsVisible="False"
+                   HorizontalTextAlignment="Center"></Label>
+
+
 
             <FlexLayout VerticalOptions="Center"
                         HorizontalOptions="Center">
                 <Button Text="Sign In" 
                     x:Name="Sign_In"
                     Padding="0,0,0,0"
-                    Margin="10,25,0,0"
+                    Margin="10,15,0,0"
                     WidthRequest="60" 
                     HeightRequest="30"
                     FontSize="Micro"
@@ -69,7 +79,7 @@
                 <Button Text="Sign Up" 
                     x:Name="Sign_Up"
                     Padding="0,0,0,0"
-                    Margin="10,25,0,0"
+                    Margin="10,15,0,0"
                     WidthRequest="60" 
                     HeightRequest="30"
                     FontSize="Micro"
