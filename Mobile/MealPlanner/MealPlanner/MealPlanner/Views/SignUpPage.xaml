@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MealPlanner.Views.SignUpPage"
+             xmlns:vm="clr-namespace:MealPlanner.ViewModels">
+    
+    <ContentPage.BindingContext>
+        <vm:SignUpViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Primary-Green">#50a177</Color>
+            <Color x:Key="Accent">#96d1ff</Color>
+            <Color x:Key="LightTextColor">#999999</Color>
+            <Color x:Key="OffWhiteTextColor">#e8e8e8</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout Padding="50,0,50,0"
+                     VerticalOptions="Center">
+
+            <Label Text="MEAL PLANNER"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   FontSize="21"
+                   Margin="0,0,0,25"
+                   TextColor="{StaticResource Primary-Green}">
+
+            </Label>
+            <Label Text="Username:"
+                   FontSize="Micro"></Label>
+
+            <Entry FontSize="Micro"
+                   WidthRequest="20"
+                   Placeholder="Enter Your Username"
+                   x:Name="Username"></Entry>
+
+            <Label Text="Email Address:"
+                   FontSize="Micro"></Label>
+
+            <Entry FontSize="Micro"
+                   WidthRequest="20"
+                   Placeholder="Enter Your Email Address"
+                   x:Name="Email"></Entry>
+
+            <Label Text="Password:" 
+                   FontSize="Micro"></Label>
+
+            <Entry FontSize="Micro"
+                   WidthRequest="20"
+                   Placeholder="Enter Your Password"
+                   Margin="0,0,0,10"
+                   x:Name="Password"
+                   IsPassword="True"></Entry>
+
+            <Label Text="Re-Enter Password:"
+                   FontSize="Micro"></Label>
+
+            <Entry FontSize="Micro"
+                   WidthRequest="20"
+                   Placeholder="Enter Your Password"
+                   Margin="0,0,0,10"
+                   x:Name="RePassword"
+                   IsPassword="True"></Entry>
+
+            <Button Text="Sign Up" 
+                    x:Name="Sign_Up"
+                    Padding="0,0,0,0"
+                    Margin="50,0,50,0"
+                    WidthRequest="40" 
+                    HeightRequest="30"
+                    FontSize="Micro"
+                    BackgroundColor="{StaticResource Primary-Green}"
+                    TextColor="White"></Button>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
