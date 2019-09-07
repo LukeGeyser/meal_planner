@@ -53,6 +53,11 @@ namespace MealPlanner.Models
         /// </summary>
         private double height;
 
+        /// <summary>
+        /// Private User Salt, for encrypting password
+        /// </summary>
+        private byte[] salt;
+
         #endregion
 
         #region Public Properties
@@ -138,6 +143,15 @@ namespace MealPlanner.Models
             set => height = value;
         }
 
+        /// <summary>
+        /// Public User Salt, for encrypting the Password
+        /// </summary>
+        public byte[] Salt
+        {
+            get => salt;
+            set => salt = value;
+        }
+
         #endregion
 
         #region Constructors
@@ -154,8 +168,9 @@ namespace MealPlanner.Models
         /// <param name="dob"></param>
         /// <param name="weight"></param>
         /// <param name="height"></param>
+        /// <param name="salt"></param>
         public User(string username, string password, string firstname, string lastname, string email,
-            string phoneNumber, DateTime dob, double weight, double height)
+            string phoneNumber, DateTime dob, double weight, double height, byte[] salt = null)
         {
             this.username = username;
             this.password = password;
@@ -166,6 +181,7 @@ namespace MealPlanner.Models
             this.dob = dob;
             this.weight = weight;
             this.height = height;
+            this.salt = salt;
         }
 
         /// <summary>

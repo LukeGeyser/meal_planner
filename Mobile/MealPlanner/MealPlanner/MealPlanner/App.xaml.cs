@@ -5,18 +5,24 @@ using MealPlanner.Services;
 using MealPlanner.Views;
 using System.Data.SqlClient;
 using System.Diagnostics;
+using System.Collections.Generic;
+using MealPlanner.Models;
 
 namespace MealPlanner
 {
     public partial class App : Application
     {
         Page currentPage = null;
+        DataHandler dataHandler = new DataHandler();
+        public static List<User> users;
 
         public App()
         {
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
+
+            users = dataHandler.GetAllUsers();
         }
 
         protected override void OnStart()
