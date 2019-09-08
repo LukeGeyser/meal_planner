@@ -21,8 +21,8 @@ namespace MealPlanner
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
-
             users = dataHandler.GetAllUsers();
+
         }
 
         protected override void OnStart()

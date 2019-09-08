@@ -22,13 +22,13 @@ namespace MealPlanner.Services
             Array.Copy(salt, 0, hashBytes, 0, 16);
             Array.Copy(hash, 0, hashBytes, 16, 20);
 
-            string encryptedPassword = Convert.ToBase64String(hashBytes);
-            u.Password = encryptedPassword;
+            string savedPasswordHash = Convert.ToBase64String(hashBytes);
+            u.Password = savedPasswordHash;
             u.Salt = salt;
             return u;
         }
 
-        static public User EncryptExistingPassword(User u)
+        static public User EncryptPassword(User u)
         {
             var pbkdf2 = new Rfc2898DeriveBytes(u.Password, u.Salt, 10000);
             byte[] hash = pbkdf2.GetBytes(20);
