@@ -50,6 +50,8 @@
             this.dtpDOB = new System.Windows.Forms.DateTimePicker();
             this.btnCreate = new System.Windows.Forms.Button();
             this.btnBack = new System.Windows.Forms.Button();
+            this.txtPhone = new System.Windows.Forms.TextBox();
+            this.lblPhone = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -98,7 +100,7 @@
             // 
             this.lblEmail.AutoSize = true;
             this.lblEmail.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEmail.Location = new System.Drawing.Point(327, 197);
+            this.lblEmail.Location = new System.Drawing.Point(327, 257);
             this.lblEmail.Name = "lblEmail";
             this.lblEmail.Size = new System.Drawing.Size(101, 19);
             this.lblEmail.TabIndex = 8;
@@ -108,7 +110,7 @@
             // 
             this.lblWeight.AutoSize = true;
             this.lblWeight.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWeight.Location = new System.Drawing.Point(327, 257);
+            this.lblWeight.Location = new System.Drawing.Point(327, 317);
             this.lblWeight.Name = "lblWeight";
             this.lblWeight.Size = new System.Drawing.Size(53, 19);
             this.lblWeight.TabIndex = 9;
@@ -118,7 +120,7 @@
             // 
             this.lblHeight.AutoSize = true;
             this.lblHeight.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHeight.Location = new System.Drawing.Point(327, 315);
+            this.lblHeight.Location = new System.Drawing.Point(327, 375);
             this.lblHeight.Name = "lblHeight";
             this.lblHeight.Size = new System.Drawing.Size(52, 19);
             this.lblHeight.TabIndex = 10;
@@ -128,7 +130,7 @@
             // 
             this.lblUsername.AutoSize = true;
             this.lblUsername.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsername.Location = new System.Drawing.Point(327, 377);
+            this.lblUsername.Location = new System.Drawing.Point(327, 437);
             this.lblUsername.Name = "lblUsername";
             this.lblUsername.Size = new System.Drawing.Size(75, 19);
             this.lblUsername.TabIndex = 11;
@@ -138,7 +140,7 @@
             // 
             this.lblPassword.AutoSize = true;
             this.lblPassword.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPassword.Location = new System.Drawing.Point(327, 438);
+            this.lblPassword.Location = new System.Drawing.Point(327, 498);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.Size = new System.Drawing.Size(71, 19);
             this.lblPassword.TabIndex = 12;
@@ -148,7 +150,7 @@
             // 
             this.lblConfirmP.AutoSize = true;
             this.lblConfirmP.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblConfirmP.Location = new System.Drawing.Point(327, 501);
+            this.lblConfirmP.Location = new System.Drawing.Point(327, 561);
             this.lblConfirmP.Name = "lblConfirmP";
             this.lblConfirmP.Size = new System.Drawing.Size(129, 19);
             this.lblConfirmP.TabIndex = 13;
@@ -173,7 +175,7 @@
             // txtEmail
             // 
             this.txtEmail.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmail.Location = new System.Drawing.Point(330, 219);
+            this.txtEmail.Location = new System.Drawing.Point(330, 279);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(296, 26);
             this.txtEmail.TabIndex = 17;
@@ -181,7 +183,7 @@
             // txtWeight
             // 
             this.txtWeight.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtWeight.Location = new System.Drawing.Point(330, 279);
+            this.txtWeight.Location = new System.Drawing.Point(330, 339);
             this.txtWeight.Name = "txtWeight";
             this.txtWeight.Size = new System.Drawing.Size(296, 26);
             this.txtWeight.TabIndex = 18;
@@ -189,7 +191,7 @@
             // txtHeight
             // 
             this.txtHeight.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtHeight.Location = new System.Drawing.Point(330, 337);
+            this.txtHeight.Location = new System.Drawing.Point(330, 397);
             this.txtHeight.Name = "txtHeight";
             this.txtHeight.Size = new System.Drawing.Size(296, 26);
             this.txtHeight.TabIndex = 19;
@@ -197,7 +199,7 @@
             // txtUsername
             // 
             this.txtUsername.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsername.Location = new System.Drawing.Point(330, 399);
+            this.txtUsername.Location = new System.Drawing.Point(330, 459);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(296, 26);
             this.txtUsername.TabIndex = 20;
@@ -205,7 +207,7 @@
             // txtPassword
             // 
             this.txtPassword.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.Location = new System.Drawing.Point(330, 460);
+            this.txtPassword.Location = new System.Drawing.Point(330, 520);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(296, 26);
@@ -214,7 +216,7 @@
             // txtConfirmP
             // 
             this.txtConfirmP.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtConfirmP.Location = new System.Drawing.Point(330, 523);
+            this.txtConfirmP.Location = new System.Drawing.Point(330, 583);
             this.txtConfirmP.Name = "txtConfirmP";
             this.txtConfirmP.PasswordChar = '*';
             this.txtConfirmP.Size = new System.Drawing.Size(296, 26);
@@ -232,17 +234,18 @@
             // btnCreate
             // 
             this.btnCreate.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCreate.Location = new System.Drawing.Point(375, 564);
+            this.btnCreate.Location = new System.Drawing.Point(375, 624);
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.Size = new System.Drawing.Size(197, 43);
             this.btnCreate.TabIndex = 24;
             this.btnCreate.Text = "Create Account";
             this.btnCreate.UseVisualStyleBackColor = true;
+            this.btnCreate.Click += new System.EventHandler(this.btnCreate_Click);
             // 
             // btnBack
             // 
             this.btnBack.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBack.Location = new System.Drawing.Point(12, 564);
+            this.btnBack.Location = new System.Drawing.Point(12, 624);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(131, 43);
             this.btnBack.TabIndex = 25;
@@ -250,12 +253,32 @@
             this.btnBack.UseVisualStyleBackColor = true;
             this.btnBack.Click += new System.EventHandler(this.BtnBack_Click);
             // 
+            // txtPhone
+            // 
+            this.txtPhone.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPhone.Location = new System.Drawing.Point(330, 219);
+            this.txtPhone.Name = "txtPhone";
+            this.txtPhone.Size = new System.Drawing.Size(296, 26);
+            this.txtPhone.TabIndex = 29;
+            // 
+            // lblPhone
+            // 
+            this.lblPhone.AutoSize = true;
+            this.lblPhone.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPhone.Location = new System.Drawing.Point(327, 197);
+            this.lblPhone.Name = "lblPhone";
+            this.lblPhone.Size = new System.Drawing.Size(106, 19);
+            this.lblPhone.TabIndex = 28;
+            this.lblPhone.Text = "Phone Number";
+            // 
             // frmSignUp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(648, 622);
+            this.ClientSize = new System.Drawing.Size(648, 676);
+            this.Controls.Add(this.txtPhone);
+            this.Controls.Add(this.lblPhone);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnCreate);
             this.Controls.Add(this.dtpDOB);
@@ -313,5 +336,7 @@
         private System.Windows.Forms.DateTimePicker dtpDOB;
         private System.Windows.Forms.Button btnCreate;
         private System.Windows.Forms.Button btnBack;
+        private System.Windows.Forms.TextBox txtPhone;
+        private System.Windows.Forms.Label lblPhone;
     }
 }
