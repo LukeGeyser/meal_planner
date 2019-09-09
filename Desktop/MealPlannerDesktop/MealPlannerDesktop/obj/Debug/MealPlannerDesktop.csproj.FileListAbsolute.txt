@@ -20,3 +20,14 @@ C:\Users\Janay Sander\Desktop\MealPlannerDesktop\MealPlannerDesktop\MealPlannerD
 C:\Users\Janay Sander\Desktop\MealPlannerDesktop\MealPlannerDesktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\MealPlannerDesktop.csproj.CoreCompileInputs.cache
 C:\Users\Janay Sander\Desktop\MealPlannerDesktop\MealPlannerDesktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\MealPlannerDesktop.exe
 C:\Users\Janay Sander\Desktop\MealPlannerDesktop\MealPlannerDesktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\MealPlannerDesktop.pdb
+C:\Users\kalan\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\MealPlannerDesktop.exe.config
+C:\Users\kalan\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\MealPlannerDesktop.exe
+C:\Users\kalan\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\MealPlannerDesktop.pdb
+C:\Users\kalan\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\MealPlannerDesktop.csprojAssemblyReference.cache
+C:\Users\kalan\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\MealPlannerDesktop.Properties.Resources.resources
+C:\Users\kalan\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\MealPlannerDesktop.frmSignIn.resources
+C:\Users\kalan\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\MealPlannerDesktop.frmSignUp.resources
+C:\Users\kalan\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\MealPlannerDesktop.csproj.GenerateResource.cache
+C:\Users\kalan\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\MealPlannerDesktop.csproj.CoreCompileInputs.cache
+C:\Users\kalan\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\MealPlannerDesktop.exe
+C:\Users\kalan\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\MealPlannerDesktop.pdb

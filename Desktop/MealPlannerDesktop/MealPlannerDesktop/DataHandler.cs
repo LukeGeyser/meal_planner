@@ -53,7 +53,7 @@ namespace MealPlannerDesktop
             {
                 conn.Open();
                 SqlCommand cmd = new SqlCommand("INSERT INTO tblUsers (Username,Password,FirstName,LastName,"
-                    + "DOB,Weight,Height,Email,Phone) VALUES (@User,@Pass,@Name,@Surname,@DOB,@Weight,@Height,"
+                    + "DOB,Weight,Height,Email,Phone,Salt) VALUES (@User,@Pass,@Name,@Surname,@DOB,@Weight,@Height,"
                     + "@Email,@Phone,@Salt)", conn);
                 cmd.Parameters.AddWithValue("@User", newPerson.Username);
                 cmd.Parameters.AddWithValue("@Pass", newPerson.Password);
