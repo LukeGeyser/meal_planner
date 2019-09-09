@@ -38,7 +38,7 @@ namespace MealPlanner.Services
                     users.Add(new User(dr[0].ToString(), dr[1].ToString(), dr[2].ToString(), dr[3].ToString(), dr[7].ToString(),
                         dr[8].ToString(), Convert.ToDateTime(dr[4].ToString()), double.Parse(dr[5].ToString()), double.Parse(dr[6].ToString()), dr[9].ToString()));
                 }
-
+                cmdSelectAll.Dispose();
             }
             catch (Exception e)
             {
@@ -75,6 +75,7 @@ namespace MealPlanner.Services
                     cmdInsert.Parameters.AddWithValue("@salt", user.Salt);
                     cmdInsert.ExecuteNonQuery();
                 }
+                cmdInsert.Dispose();
             }
             catch (Exception e)
             {
