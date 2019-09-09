@@ -23,6 +23,10 @@ namespace MealPlannerDesktop
         private string phone;
         private byte[] salt;
 
+        public User()
+        {
+
+        }
         public User(string username, string password, string firstname, 
             string lastname, DateTime dob, double weight, double height, 
             string email, string phone, byte[] salt = null)

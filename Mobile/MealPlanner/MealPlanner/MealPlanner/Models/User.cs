@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using System.Text;
 
 namespace MealPlanner.Models
@@ -170,7 +171,35 @@ namespace MealPlanner.Models
         /// <param name="height"></param>
         /// <param name="salt"></param>
         public User(string username, string password, string firstname, string lastname, string email,
-            string phoneNumber, DateTime dob, double weight, double height, byte[] salt = null)
+            string phoneNumber, DateTime dob, double weight, double height)
+        {
+            this.username = username;
+            this.password = password;
+            this.firstname = firstname;
+            this.lastname = lastname;
+            this.email = email;
+            this.phoneNumber = phoneNumber;
+            this.dob = dob;
+            this.weight = weight;
+            this.height = height;
+            new RNGCryptoServiceProvider().GetBytes(salt = new byte[16]);
+        }
+
+        /// <summary>
+        /// Used when creating a brand new User
+        /// </summary>
+        /// <param name="username"></param>
+        /// <param name="password"></param>
+        /// <param name="firstname"></param>
+        /// <param name="lastname"></param>
+        /// <param name="email"></param>
+        /// <param name="phoneNumber"></param>
+        /// <param name="dob"></param>
+        /// <param name="weight"></param>
+        /// <param name="height"></param>
+        /// <param name="salt"></param>
+        public User(string username, string password, string firstname, string lastname, string email,
+            string phoneNumber, DateTime dob, double weight, double height, byte[] salt)
         {
             this.username = username;
             this.password = password;
@@ -189,17 +218,26 @@ namespace MealPlanner.Models
         /// </summary>
         /// <param name="username">Username recieved when logging into Application</param>
         /// <param name="password">Password recieved when logging into Application</param>
-        public User(string username, string password)
+        public User(string username, string password, byte[] salt = null)
         {
             this.username = username;
             this.password = password;
+            this.salt = salt;
         }
 
         #endregion
 
         #region Helper Functions
 
+        public int GetAge()
+        {
+            TimeSpan diff = DateTime.Now.Subtract(this.dob);
+            int days = (int)diff.TotalDays;
 
+            int age = Convert.ToInt32(Math.Floor(days / 365.25));
+
+            return age;
+        }
 
         #endregion
     }

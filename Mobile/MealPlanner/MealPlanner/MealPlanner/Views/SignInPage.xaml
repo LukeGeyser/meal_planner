@@ -14,10 +14,10 @@
     
     <ContentPage.Resources>
         <ResourceDictionary>
-            <Color x:Key="Primary-Green">#50a177</Color>
-            <Color x:Key="Accent">#96d1ff</Color>
-            <Color x:Key="LightTextColor">#999999</Color>
-            <Color x:Key="OffWhiteTextColor">#e8e8e8</Color>
+            <Color x:Key="Primary-Green">#669e2f</Color>
+            <Color x:Key="Accent">#669e2f</Color>
+            <Color x:Key="LightTextColor">#143046</Color>
+            <Color x:Key="OffWhiteTextColor">#143046</Color>
             <Color x:Key="alert">#db5151</Color>
         </ResourceDictionary>
     </ContentPage.Resources>
@@ -25,30 +25,30 @@
     <ContentPage.Content>
         <StackLayout Padding="50,0,50,0"
                      VerticalOptions="Center">
-            
-            <Label Text="MEAL PLANNER"
-                   VerticalOptions="Center"
-                   HorizontalOptions="Center"
-                   FontSize="21"
-                   Margin="0,0,0,25"
-                   TextColor="{StaticResource Primary-Green}">
-                
-            </Label>
+
+            <Image Source="icon.png"
+                   VerticalOptions="Center"></Image>
             
             <Label Text="Username:"
+                   TextColor="{StaticResource LightTextColor}"
                    FontSize="Micro"></Label>
 
             <Entry FontSize="Micro"
                    WidthRequest="20"
                    Placeholder="Enter Your Username"
+                   TextColor="{StaticResource LightTextColor}"
+                   PlaceholderColor="{StaticResource LightTextColor}"
                    x:Name="Username"></Entry>
 
             <Label Text="Password:" 
+                   TextColor="{StaticResource LightTextColor}"
                    FontSize="Micro"></Label>
             
             <Entry FontSize="Micro"
                    WidthRequest="20"
                    Placeholder="Enter Your Password"
+                   TextColor="{StaticResource LightTextColor}"
+                   PlaceholderColor="{StaticResource LightTextColor}"
                    Margin="0,0,0,0"
                    x:Name="Password"
                    IsPassword="True"></Entry>
