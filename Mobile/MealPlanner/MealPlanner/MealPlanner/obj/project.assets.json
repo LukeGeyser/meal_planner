@@ -1153,26 +1153,29 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User-pc\\.nuget\\packages\\": {},
+    "C:\\Users\\Janay Sander\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\meal_planner\\Mobile\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj",
+      "projectUniqueName": "C:\\Users\\Janay Sander\\Documents\\GitHub\\meal_planner\\Mobile\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj",
       "projectName": "MealPlanner",
-      "projectPath": "C:\\meal_planner\\Mobile\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj",
-      "packagesPath": "C:\\Users\\User-pc\\.nuget\\packages\\",
-      "outputPath": "C:\\meal_planner\\Mobile\\MealPlanner\\MealPlanner\\MealPlanner\\obj\\",
+      "projectPath": "C:\\Users\\Janay Sander\\Documents\\GitHub\\meal_planner\\Mobile\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj",
+      "packagesPath": "C:\\Users\\Janay Sander\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Janay Sander\\Documents\\GitHub\\meal_planner\\Mobile\\MealPlanner\\MealPlanner\\MealPlanner\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\User-pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Janay Sander\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
