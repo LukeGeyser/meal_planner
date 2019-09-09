@@ -21,7 +21,7 @@ namespace MealPlanner.Views
 
         List<User> userList = App.users;
         User loggedInUser;
-        DataHandler dataHandler = new DataHandler();
+        //DataHandler dataHandler = new DataHandler();
 
         #endregion
 
@@ -36,10 +36,10 @@ namespace MealPlanner.Views
 
             if (Username.Text == null || Password.Text == null || Username.Text == "" || Password.Text == "") {
                 Error.IsVisible = true;
-            } else if (Username.Text != null || Password.Text != null) {
-
+            }
+            else if (Username.Text != null || Password.Text != null) {
                 Error.IsVisible = false;
-                //dataHandler.AddSingleUser(SecurityService.EncryptPassword(new User(Username.Text, Password.Text, "Janay", "Sander", "JanaySander17@gmail.com", "02411", DateTime.Now, 0, 0)));
+                //dataHandler.AddSingleUser(SecurityService.EncryptNewPassword(new User(Username.Text, Password.Text, "Janay", "Sander", "JanaySander17@gmail.com", "02411", DateTime.Now, 0, 0)));
 
                 User attemptLogin = new User(Username.Text, Password.Text);
 
@@ -50,12 +50,10 @@ namespace MealPlanner.Views
                     loggedInUser = userList.Find(user => user.Username == Username.Text);
                     attemptLogin.Salt = loggedInUser.Salt;
                     attemptLogin = SecurityService.EncryptPassword(attemptLogin);
-                    DisplayAlert($"dad{Encoding.UTF8.GetString(loggedInUser.Salt)}dad", $"dad{Encoding.UTF8.GetString(attemptLogin.Salt)}dad", "OKAY");
-                    DisplayAlert($"{loggedInUser.Password}", $"{attemptLogin.Password}", "OKAY");
 
                     if (loggedInUser.Password == attemptLogin.Password)
                     {
-                        DisplayAlert($"{loggedInUser.Firstname}", $"{loggedInUser.Dob}", "WORKING");
+                        DisplayAlert($"{loggedInUser.Username}", $"{loggedInUser.Dob}", "WORKING");
                     }
                     else if (loggedInUser.Password == attemptLogin.Password)
                     {
@@ -77,6 +75,11 @@ namespace MealPlanner.Views
         private void Sign_Up_Clicked(object sender, EventArgs e)
         {
             Application.Current.MainPage = new SignUpPage();
+        }
+
+        private void Next_Clicked(object sender, EventArgs e)
+        {
+
         }
     }
 }

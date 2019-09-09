@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MealPlanner.Views.ClientDetailsSignUpPage">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Primary-Green">#669e2f</Color>
+            <Color x:Key="Accent">#669e2f</Color>
+            <Color x:Key="LightTextColor">#143046</Color>
+            <Color x:Key="OffWhiteTextColor">#143046</Color>
+            <Color x:Key="alert">#db5151</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout Padding="50,0,50,0"
+                     VerticalOptions="Center">
+
+            <!-- LOGO -->
+            <Image Source="icon.png"
+                   VerticalOptions="Center"
+                   HeightRequest="70"></Image>
+
+            <Label Text="Personal Infomation"
+                   TextColor="{StaticResource Primary-Green}"
+                   FontSize="16"
+                   HorizontalOptions="Center"
+                   Margin="0,0,0,10"></Label>
+
+            <!-- FIRTNAME -->
+            <Label Text="First Name:"
+                   TextColor="{StaticResource LightTextColor}"
+                   FontSize="Micro"></Label>
+
+            <!-- FIRTNAME -->
+            <Entry FontSize="Micro"
+                   WidthRequest="20"
+                   Placeholder="Enter Your First Name"
+                   TextColor="{StaticResource LightTextColor}"
+                   PlaceholderColor="{StaticResource LightTextColor}"
+                   x:Name="FName"></Entry>
+
+            <!-- SURNAME -->
+            <Label Text="Last Name:"
+                   TextColor="{StaticResource LightTextColor}"
+                   FontSize="Micro"></Label>
+
+            <!-- SURNAME -->
+            <Entry FontSize="Micro"
+                   WidthRequest="20"
+                   Placeholder="Enter Your Last Name"
+                   TextColor="{StaticResource LightTextColor}"
+                   PlaceholderColor="{StaticResource LightTextColor}"
+                   x:Name="LName"></Entry>
+
+
+            <!-- EMAIL ADDRESS -->
+            <Label Text="Email Address:"
+                   TextColor="{StaticResource LightTextColor}"
+                   FontSize="Micro"></Label>
+
+            <!-- EMAIL ADDRESS -->
+            <Entry FontSize="Micro"
+                   WidthRequest="20"
+                   Placeholder="Enter Your Email Address"
+                   TextColor="{StaticResource LightTextColor}"
+                   PlaceholderColor="{StaticResource LightTextColor}"
+                   x:Name="Email"></Entry>
+
+            <!-- Phone Number -->
+            <Label Text="Phone Number:"
+                   TextColor="{StaticResource LightTextColor}"
+                   FontSize="Micro"></Label>
+
+            <!-- Phone Number -->
+            <Entry FontSize="Micro"
+                   WidthRequest="20"
+                   Placeholder="Enter Your Phone Number"
+                   TextColor="{StaticResource LightTextColor}"
+                   PlaceholderColor="{StaticResource LightTextColor}"
+                   x:Name="Phone"></Entry>
+
+            <FlexLayout VerticalOptions="Center"
+                            HorizontalOptions="Center"
+                            Margin="0,0,0,20">
+                <Button Text="Back" 
+                    x:Name="Back"
+                    Padding="0,0,0,0"
+                    Margin="10,5,0,0"
+                    WidthRequest="60" 
+                    HeightRequest="30"
+                    FontSize="Micro"
+                    BackgroundColor="{StaticResource Primary-Green}"
+                    TextColor="White"
+                    Clicked="Back_Clicked"></Button>
+
+                <Button Text="Next" 
+                    x:Name="Next"
+                    Padding="0,0,0,0"
+                    Margin="10,5,0,0"
+                    WidthRequest="60" 
+                    HeightRequest="30"
+                    FontSize="Micro"
+                    BackgroundColor="{StaticResource Primary-Green}"
+                    TextColor="White"
+                    Clicked="Next_Clicked"></Button>
+            </FlexLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

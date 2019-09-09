@@ -57,7 +57,7 @@ namespace MealPlanner.Models
         /// <summary>
         /// Private User Salt, for encrypting password
         /// </summary>
-        private byte[] salt;
+        private string salt;
 
         #endregion
 
@@ -147,7 +147,7 @@ namespace MealPlanner.Models
         /// <summary>
         /// Public User Salt, for encrypting the Password
         /// </summary>
-        public byte[] Salt
+        public string Salt
         {
             get => salt;
             set => salt = value;
@@ -156,6 +156,14 @@ namespace MealPlanner.Models
         #endregion
 
         #region Constructors
+
+        /// <summary>
+        /// Default Contructor
+        /// </summary>
+        public User()
+        {
+
+        }
 
         /// <summary>
         /// Used when creating a brand new User
@@ -182,7 +190,6 @@ namespace MealPlanner.Models
             this.dob = dob;
             this.weight = weight;
             this.height = height;
-            new RNGCryptoServiceProvider().GetBytes(salt = new byte[16]);
         }
 
         /// <summary>
@@ -199,7 +206,7 @@ namespace MealPlanner.Models
         /// <param name="height"></param>
         /// <param name="salt"></param>
         public User(string username, string password, string firstname, string lastname, string email,
-            string phoneNumber, DateTime dob, double weight, double height, byte[] salt)
+            string phoneNumber, DateTime dob, double weight, double height, string salt)
         {
             this.username = username;
             this.password = password;
@@ -218,11 +225,10 @@ namespace MealPlanner.Models
         /// </summary>
         /// <param name="username">Username recieved when logging into Application</param>
         /// <param name="password">Password recieved when logging into Application</param>
-        public User(string username, string password, byte[] salt = null)
+        public User(string username, string password)
         {
             this.username = username;
             this.password = password;
-            this.salt = salt;
         }
 
         #endregion

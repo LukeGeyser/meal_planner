@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MealPlanner.Views.AdditionalInfoSignUpPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Primary-Green">#669e2f</Color>
+            <Color x:Key="Accent">#669e2f</Color>
+            <Color x:Key="LightTextColor">#143046</Color>
+            <Color x:Key="OffWhiteTextColor">#143046</Color>
+            <Color x:Key="alert">#db5151</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="50,0,50,0"
+                     VerticalOptions="Center">
+
+                <!-- LOGO -->
+                <Image Source="icon.png"
+                   VerticalOptions="Center"
+                   HeightRequest="70"></Image>
+
+                <Label Text="Additional Infomation"
+                   TextColor="{StaticResource Primary-Green}"
+                   FontSize="16"
+                   HorizontalOptions="Center"
+                   Margin="0,0,0,10"></Label>
+
+                <!-- DATE OF BIRTH -->
+                <Label Text="Date Of Birth:"
+                   TextColor="{StaticResource LightTextColor}"
+                   FontSize="Micro"></Label>
+
+                <!-- DATE OF BIRTH -->
+                <DatePicker x:Name="DOB"
+                            FontSize="Micro"
+                            TextColor="{StaticResource LightTextColor}"></DatePicker>
+
+                <!-- USERNAME -->
+                <Label Text="Weight:"
+                   TextColor="{StaticResource LightTextColor}"
+                   FontSize="Micro"></Label>
+
+                <!-- USERNAME -->
+                <Entry FontSize="Micro"
+                   WidthRequest="20"
+                   Placeholder="Enter Your Weight"
+                   TextColor="{StaticResource LightTextColor}"
+                   PlaceholderColor="{StaticResource LightTextColor}"
+                   x:Name="Weight"></Entry>
+
+                <!-- PASSWORD -->
+                <Label Text="Height:" 
+                   TextColor="{StaticResource LightTextColor}"
+                   FontSize="Micro"></Label>
+
+                <!-- PASSWORD -->
+                <Entry FontSize="Micro"
+                   WidthRequest="20"
+                   Placeholder="Enter Your Height"
+                   Margin="0,0,0,10"
+                   x:Name="Height"
+                   TextColor="{StaticResource LightTextColor}"
+                   PlaceholderColor="{StaticResource LightTextColor}"></Entry>
+
+                <FlexLayout VerticalOptions="Center"
+                            HorizontalOptions="Center"
+                            Margin="0,0,0,20">
+                    <Button Text="Back" 
+                    x:Name="Back"
+                    Padding="0,0,0,0"
+                    Margin="10,5,0,0"
+                    WidthRequest="60" 
+                    HeightRequest="30"
+                    FontSize="Micro"
+                    BackgroundColor="{StaticResource Primary-Green}"
+                    TextColor="White"
+                    Clicked="Back_Clicked"></Button>
+
+                    <Button Text="Finish"
+                    x:Name="Finish"
+                    Padding="0,0,0,0"
+                    Margin="10,5,0,0"
+                    WidthRequest="60" 
+                    HeightRequest="30"
+                    FontSize="Micro"
+                    BackgroundColor="{StaticResource Primary-Green}"
+                    TextColor="White"
+                    Clicked="Finish_Clicked"></Button>
+                </FlexLayout>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
