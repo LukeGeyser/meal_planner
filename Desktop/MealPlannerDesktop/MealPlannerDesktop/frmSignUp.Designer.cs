@@ -52,6 +52,8 @@
             this.btnBack = new System.Windows.Forms.Button();
             this.txtPhone = new System.Windows.Forms.TextBox();
             this.lblPhone = new System.Windows.Forms.Label();
+            this.lblKG = new System.Windows.Forms.Label();
+            this.lblCM = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -187,7 +189,7 @@
             this.txtWeight.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtWeight.Location = new System.Drawing.Point(330, 339);
             this.txtWeight.Name = "txtWeight";
-            this.txtWeight.Size = new System.Drawing.Size(296, 26);
+            this.txtWeight.Size = new System.Drawing.Size(230, 26);
             this.txtWeight.TabIndex = 18;
             // 
             // txtHeight
@@ -195,7 +197,7 @@
             this.txtHeight.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtHeight.Location = new System.Drawing.Point(330, 397);
             this.txtHeight.Name = "txtHeight";
-            this.txtHeight.Size = new System.Drawing.Size(296, 26);
+            this.txtHeight.Size = new System.Drawing.Size(230, 26);
             this.txtHeight.TabIndex = 19;
             // 
             // txtUsername
@@ -235,9 +237,10 @@
             // 
             // btnCreate
             // 
-            this.btnCreate.BackColor = System.Drawing.Color.White;
+            this.btnCreate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(199)))), ((int)(((byte)(80)))));
             this.btnCreate.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCreate.Location = new System.Drawing.Point(429, 621);
+            this.btnCreate.ForeColor = System.Drawing.Color.White;
+            this.btnCreate.Location = new System.Drawing.Point(389, 621);
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.Size = new System.Drawing.Size(197, 43);
             this.btnCreate.TabIndex = 24;
@@ -247,11 +250,12 @@
             // 
             // btnBack
             // 
-            this.btnBack.BackColor = System.Drawing.Color.White;
+            this.btnBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(199)))), ((int)(((byte)(80)))));
             this.btnBack.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBack.Location = new System.Drawing.Point(12, 621);
+            this.btnBack.ForeColor = System.Drawing.Color.White;
+            this.btnBack.Location = new System.Drawing.Point(69, 621);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(131, 43);
+            this.btnBack.Size = new System.Drawing.Size(197, 43);
             this.btnBack.TabIndex = 25;
             this.btnBack.Text = "Back";
             this.btnBack.UseVisualStyleBackColor = false;
@@ -275,12 +279,34 @@
             this.lblPhone.TabIndex = 28;
             this.lblPhone.Text = "Phone Number";
             // 
+            // lblKG
+            // 
+            this.lblKG.AutoSize = true;
+            this.lblKG.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblKG.Location = new System.Drawing.Point(566, 342);
+            this.lblKG.Name = "lblKG";
+            this.lblKG.Size = new System.Drawing.Size(33, 21);
+            this.lblKG.TabIndex = 30;
+            this.lblKG.Text = "Kg";
+            // 
+            // lblCM
+            // 
+            this.lblCM.AutoSize = true;
+            this.lblCM.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCM.Location = new System.Drawing.Point(566, 400);
+            this.lblCM.Name = "lblCM";
+            this.lblCM.Size = new System.Drawing.Size(32, 21);
+            this.lblCM.TabIndex = 31;
+            this.lblCM.Text = "cm";
+            // 
             // frmSignUp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(199)))), ((int)(((byte)(80)))));
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(648, 676);
+            this.Controls.Add(this.lblCM);
+            this.Controls.Add(this.lblKG);
             this.Controls.Add(this.txtPhone);
             this.Controls.Add(this.lblPhone);
             this.Controls.Add(this.btnBack);
@@ -342,5 +368,7 @@
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.TextBox txtPhone;
         private System.Windows.Forms.Label lblPhone;
+        private System.Windows.Forms.Label lblKG;
+        private System.Windows.Forms.Label lblCM;
     }
 }
