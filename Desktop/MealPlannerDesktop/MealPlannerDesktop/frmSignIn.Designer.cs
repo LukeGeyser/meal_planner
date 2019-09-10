@@ -60,22 +60,23 @@
             // 
             // btnSubmit
             // 
+            this.btnSubmit.BackColor = System.Drawing.Color.White;
             this.btnSubmit.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSubmit.Location = new System.Drawing.Point(46, 196);
+            this.btnSubmit.Location = new System.Drawing.Point(46, 177);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(197, 43);
             this.btnSubmit.TabIndex = 4;
             this.btnSubmit.Text = "Sign In";
-            this.btnSubmit.UseVisualStyleBackColor = true;
+            this.btnSubmit.UseVisualStyleBackColor = false;
             this.btnSubmit.Click += new System.EventHandler(this.BtnSubmit_Click);
             // 
             // txtPass
             // 
             this.txtPass.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPass.Location = new System.Drawing.Point(9, 148);
+            this.txtPass.Location = new System.Drawing.Point(10, 126);
             this.txtPass.Name = "txtPass";
             this.txtPass.PasswordChar = '*';
-            this.txtPass.Size = new System.Drawing.Size(276, 29);
+            this.txtPass.Size = new System.Drawing.Size(275, 29);
             this.txtPass.TabIndex = 3;
             // 
             // txtUser
@@ -90,7 +91,7 @@
             // 
             this.lblPass.AutoSize = true;
             this.lblPass.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPass.Location = new System.Drawing.Point(5, 126);
+            this.lblPass.Location = new System.Drawing.Point(6, 104);
             this.lblPass.Name = "lblPass";
             this.lblPass.Size = new System.Drawing.Size(71, 19);
             this.lblPass.TabIndex = 1;
@@ -119,22 +120,25 @@
             // 
             // btnSignUp
             // 
+            this.btnSignUp.BackColor = System.Drawing.Color.White;
             this.btnSignUp.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSignUp.Location = new System.Drawing.Point(46, 35);
+            this.btnSignUp.Location = new System.Drawing.Point(46, 28);
             this.btnSignUp.Name = "btnSignUp";
             this.btnSignUp.Size = new System.Drawing.Size(197, 43);
             this.btnSignUp.TabIndex = 5;
             this.btnSignUp.Text = "Sign Up!";
-            this.btnSignUp.UseVisualStyleBackColor = true;
+            this.btnSignUp.UseVisualStyleBackColor = false;
             this.btnSignUp.Click += new System.EventHandler(this.btnSignUp_Click);
             // 
             // pbLogo
             // 
+            this.pbLogo.BackColor = System.Drawing.Color.White;
+            this.pbLogo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pbLogo.Image = ((System.Drawing.Image)(resources.GetObject("pbLogo.Image")));
             this.pbLogo.InitialImage = null;
-            this.pbLogo.Location = new System.Drawing.Point(88, 3);
+            this.pbLogo.Location = new System.Drawing.Point(12, 3);
             this.pbLogo.Name = "pbLogo";
-            this.pbLogo.Size = new System.Drawing.Size(129, 103);
+            this.pbLogo.Size = new System.Drawing.Size(291, 103);
             this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbLogo.TabIndex = 3;
             this.pbLogo.TabStop = false;
@@ -143,7 +147,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(199)))), ((int)(((byte)(80)))));
             this.ClientSize = new System.Drawing.Size(315, 462);
             this.Controls.Add(this.pbLogo);
             this.Controls.Add(this.gbSignUp);

@@ -57,11 +57,13 @@
             // 
             // pbLogo
             // 
+            this.pbLogo.BackColor = System.Drawing.Color.White;
+            this.pbLogo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pbLogo.Image = ((System.Drawing.Image)(resources.GetObject("pbLogo.Image")));
             this.pbLogo.InitialImage = null;
-            this.pbLogo.Location = new System.Drawing.Point(12, 161);
+            this.pbLogo.Location = new System.Drawing.Point(12, 17);
             this.pbLogo.Name = "pbLogo";
-            this.pbLogo.Size = new System.Drawing.Size(296, 256);
+            this.pbLogo.Size = new System.Drawing.Size(296, 592);
             this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbLogo.TabIndex = 4;
             this.pbLogo.TabStop = false;
@@ -233,24 +235,26 @@
             // 
             // btnCreate
             // 
+            this.btnCreate.BackColor = System.Drawing.Color.White;
             this.btnCreate.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCreate.Location = new System.Drawing.Point(375, 624);
+            this.btnCreate.Location = new System.Drawing.Point(429, 621);
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.Size = new System.Drawing.Size(197, 43);
             this.btnCreate.TabIndex = 24;
             this.btnCreate.Text = "Create Account";
-            this.btnCreate.UseVisualStyleBackColor = true;
+            this.btnCreate.UseVisualStyleBackColor = false;
             this.btnCreate.Click += new System.EventHandler(this.btnCreate_Click);
             // 
             // btnBack
             // 
+            this.btnBack.BackColor = System.Drawing.Color.White;
             this.btnBack.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBack.Location = new System.Drawing.Point(12, 624);
+            this.btnBack.Location = new System.Drawing.Point(12, 621);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(131, 43);
             this.btnBack.TabIndex = 25;
             this.btnBack.Text = "Back";
-            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.BtnBack_Click);
             // 
             // txtPhone
@@ -275,7 +279,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(199)))), ((int)(((byte)(80)))));
             this.ClientSize = new System.Drawing.Size(648, 676);
             this.Controls.Add(this.txtPhone);
             this.Controls.Add(this.lblPhone);
