@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MealPlanner.Views.MainPage"
+             xmlns:vm="clr-namespace:MealPlanner.ViewModels"
+             Title="{Binding Title}">
+    
+    <ContentPage.BindingContext>
+        <vm:SignInViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Primary-Green">#669e2f</Color>
+            <Color x:Key="Accent">#669e2f</Color>
+            <Color x:Key="LightTextColor">#143046</Color>
+            <Color x:Key="OffWhiteTextColor">#ebebeb</Color>
+            <Color x:Key="alert">#db5151</Color>
+            <Color x:Key="dark-theme-grey">#2d2d2d</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout
+            Margin="5,0,5,5">
+
+            <Frame CornerRadius="5"
+                   BackgroundColor="{StaticResource dark-theme-grey}"
+                   Padding="0,2,0,2">
+                <Label HorizontalOptions="Center"
+                       TextColor="{StaticResource OffWhiteTextColor}">Meal Plans</Label>
+            </Frame>
+            
+            <Grid Margin="0,0,0,0"
+                  VerticalOptions="Center"
+                  HorizontalOptions="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="70"></RowDefinition>
+                    <RowDefinition Height="70"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="120"></ColumnDefinition>
+                    <ColumnDefinition Width="120"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <RelativeLayout Grid.Row="0" Grid.Column="0"
+                                x:Name="first">
+                    <Image Source="veg.jpg"
+                           Aspect="AspectFill"
+                           HorizontalOptions="Fill"
+                           RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
+                           Opacity="0.5"></Image>
+                    
+                    <Label VerticalOptions="Center" HorizontalOptions="Center"
+                           x:Name="Veg"
+                           TextColor="{StaticResource OffWhiteTextColor}">VEGETARIAN</Label>
+                </RelativeLayout>
+
+                <RelativeLayout Grid.Row="0" Grid.Column="1"
+                                x:Name="second">
+                    <Image Source="pesc.jpg"
+                           Aspect="AspectFill"
+                           HorizontalOptions="FillAndExpand"
+                           RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
+                           Opacity="0.5"></Image>
+                    
+                    <Label  VerticalTextAlignment="Center" HorizontalTextAlignment="Center"
+                            x:Name="Pesc"
+                            TextColor="{StaticResource OffWhiteTextColor}">PESC</Label>
+                </RelativeLayout>
+
+                <RelativeLayout Grid.Row="1" Grid.Column="0"
+                                x:Name="third">
+                    <Image Source="weightLoss.jpeg"
+                           Aspect="AspectFill"
+                           HorizontalOptions="Fill"
+                           RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
+                           Opacity="0.5"></Image>
+                    
+                    <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center"
+                           x:Name="WeightLoss"
+                           TextColor="{StaticResource OffWhiteTextColor}">Weight Loss</Label>
+                </RelativeLayout>
+
+                <RelativeLayout Grid.Row="1" Grid.Column="1"
+                                x:Name="fourth">
+                    <Image Source="weightGain.jpeg"
+                           Aspect="AspectFill"
+                           HorizontalOptions="Fill"
+                           RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
+                           Opacity="0.5"></Image>
+                    
+                    <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center"
+                           x:Name="WeightGain"
+                           TextColor="{StaticResource OffWhiteTextColor}">Weight Gain</Label>
+                </RelativeLayout>
+                
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
