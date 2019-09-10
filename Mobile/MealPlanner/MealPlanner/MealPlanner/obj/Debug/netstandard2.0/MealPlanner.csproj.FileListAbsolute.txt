@@ -36,6 +36,10 @@ C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Vie
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\bin\Debug\netstandard2.0\MealPlanner.deps.json
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\bin\Debug\netstandard2.0\MealPlanner.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\bin\Debug\netstandard2.0\MealPlanner.pdb
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\MealPlanner.csprojAssemblyReference.cache
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\AdditionalInfoSignUpPage.xaml.g.cs
@@ -52,6 +56,6 @@ C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\MealPlanner.AssemblyInfoInputs.cache
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\MealPlanner.AssemblyInfo.cs
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\XamlC.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\MealPlanner.csproj.CopyComplete
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\MealPlanner.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\MealPlanner.pdb
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\MealPlanner.csprojAssemblyReference.cache

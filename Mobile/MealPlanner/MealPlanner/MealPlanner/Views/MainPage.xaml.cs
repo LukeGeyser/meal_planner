@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Windows.Input;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -12,11 +14,18 @@ namespace MealPlanner.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MainPage : ContentPage
     {
+        string url = String.Format("https://maps.googleapis.com/maps/api/place/nearbysearch/json?");
+
+        private const string _PrivateKey = "AIzaSyCxTWHUpzXjM1twanD2-wMkYCBRnx7v7DE";
+
         public MainPage()
         {
             InitializeComponent();
 
             CenterLabels();
+
+            string completeUrl = String.Format("{0}location={1},{2}&radius={3}&type={4}&key={5}", url, -26.152755799999998, 28.3111148, 10000, "supermarket", _PrivateKey);
+            Debug.WriteLine(completeUrl);
         }
 
         #region Private Helpers
@@ -46,6 +55,47 @@ namespace MealPlanner.Views
 
             fourth.Children.Add(WeightGain, Constraint.RelativeToParent(parent => parent.Width / 2 - getWeightGainWidth(parent) / 2),
                 Constraint.RelativeToParent(parent => parent.Height / 2 - getWeightGainHeight(parent) / 2));
+        }
+
+        private async void GetLocation()
+        {
+            try
+            {
+                var location = await Geolocation.GetLocationAsync();
+                if (location != null)
+                {
+                    await DisplayAlert($"{location.Latitude.ToString()}", $"{location.Longitude.ToString()}", "Coolio");
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
+        #endregion
+
+        #region Public Events
+
+        private void PescTapped_Tapped(object sender, EventArgs e)
+        {
+            DisplayAlert("Pesc", "TAPPED", "okay");
+        }
+
+        private void VegTapped_Tapped(object sender, EventArgs e)
+        {
+            DisplayAlert("Veg", "TAPPED", "okay");
+        }
+
+        private void LossTapped_Tapped(object sender, EventArgs e)
+        {
+            DisplayAlert("Loss", "TAPPED", "okay");
+        }
+
+        private void GainTapped_Tapped(object sender, EventArgs e)
+        {
+            DisplayAlert("Gain", "TAPPED", "okay");
         }
 
         #endregion

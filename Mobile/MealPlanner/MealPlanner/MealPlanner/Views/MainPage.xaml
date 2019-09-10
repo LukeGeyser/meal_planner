@@ -24,16 +24,18 @@
     </ContentPage.Resources>
 
     <ContentPage.Content>
-        <StackLayout
+        <ScrollView>
+            <StackLayout
             Margin="5,0,5,5">
-
+            
+            <!-- MEAL PLANS -->
             <Frame CornerRadius="5"
-                   BackgroundColor="{StaticResource dark-theme-grey}"
+                   BackgroundColor="{StaticResource Primary-Green}"
                    Padding="0,2,0,2">
                 <Label HorizontalOptions="Center"
                        TextColor="{StaticResource OffWhiteTextColor}">Meal Plans</Label>
             </Frame>
-            
+            <!-- MEAL PLANS CONTENT-->
             <Grid Margin="0,0,0,0"
                   VerticalOptions="Center"
                   HorizontalOptions="Center">
@@ -46,59 +48,148 @@
                     <ColumnDefinition Width="120"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
 
+                <!-- VEGETARIAN -->
                 <RelativeLayout Grid.Row="0" Grid.Column="0"
-                                x:Name="first">
+                                x:Name="first"
+                                BackgroundColor="{StaticResource dark-theme-grey}">
                     <Image Source="veg.jpg"
                            Aspect="AspectFill"
                            HorizontalOptions="Fill"
                            RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
-                           Opacity="0.5"></Image>
-                    
+                           Opacity="0.5"
+                           x:Name="VegImg">
+
+                        <Image.GestureRecognizers >
+                            <TapGestureRecognizer x:Name="VegTapped" Tapped="VegTapped_Tapped" />
+                        </Image.GestureRecognizers>
+
+                    </Image>
+
                     <Label VerticalOptions="Center" HorizontalOptions="Center"
                            x:Name="Veg"
-                           TextColor="{StaticResource OffWhiteTextColor}">VEGETARIAN</Label>
+                           TextColor="White"
+                           Text="VEGETARIAN"
+                           FontAttributes="Bold">
+
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="VegTapped_Tapped" />
+                        </Label.GestureRecognizers>
+
+                    </Label>
                 </RelativeLayout>
 
+                <!-- PESCATERIAN -->
                 <RelativeLayout Grid.Row="0" Grid.Column="1"
-                                x:Name="second">
+                                x:Name="second"
+                                BackgroundColor="{StaticResource dark-theme-grey}">
                     <Image Source="pesc.jpg"
                            Aspect="AspectFill"
                            HorizontalOptions="FillAndExpand"
                            RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
-                           Opacity="0.5"></Image>
+                           Opacity="0.5"
+                           x:Name="PescImg">
+
+                        <Image.GestureRecognizers >
+                            <TapGestureRecognizer x:Name="PescTapped" Tapped="PescTapped_Tapped" />
+                        </Image.GestureRecognizers>
+
+                    </Image>
                     
                     <Label  VerticalTextAlignment="Center" HorizontalTextAlignment="Center"
                             x:Name="Pesc"
-                            TextColor="{StaticResource OffWhiteTextColor}">PESC</Label>
+                            TextColor="White"
+                            Text="PESCATARIAN"
+                            FontAttributes="Bold">
+
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="PescTapped_Tapped" />
+                        </Label.GestureRecognizers>
+                        
+                    </Label>
                 </RelativeLayout>
 
+                <!-- WEIGHT LOSS -->
                 <RelativeLayout Grid.Row="1" Grid.Column="0"
-                                x:Name="third">
+                                x:Name="third"
+                                BackgroundColor="{StaticResource dark-theme-grey}">
                     <Image Source="weightLoss.jpeg"
                            Aspect="AspectFill"
                            HorizontalOptions="Fill"
                            RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
-                           Opacity="0.5"></Image>
-                    
+                           Opacity="0.5">
+
+                        <Image.GestureRecognizers >
+                            <TapGestureRecognizer x:Name="LossTapped" Tapped="LossTapped_Tapped" />
+                        </Image.GestureRecognizers>
+
+                    </Image>
+
                     <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center"
                            x:Name="WeightLoss"
-                           TextColor="{StaticResource OffWhiteTextColor}">Weight Loss</Label>
-                </RelativeLayout>
+                           TextColor="White"
+                           Text="WEIGHT LOSS"
+                           FontAttributes="Bold">
 
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="LossTapped_Tapped" />
+                        </Label.GestureRecognizers>
+
+                    </Label>
+                </RelativeLayout>
+                
+                <!-- WEIGHT GAIN -->
                 <RelativeLayout Grid.Row="1" Grid.Column="1"
-                                x:Name="fourth">
+                                x:Name="fourth"
+                                BackgroundColor="{StaticResource dark-theme-grey}">
                     <Image Source="weightGain.jpeg"
                            Aspect="AspectFill"
                            HorizontalOptions="Fill"
                            RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
-                           Opacity="0.5"></Image>
-                    
+                           Opacity="0.5">
+
+                        <Image.GestureRecognizers >
+                            <TapGestureRecognizer x:Name="GainTapped" Tapped="GainTapped_Tapped" />
+                        </Image.GestureRecognizers>
+
+                    </Image>
+
                     <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center"
                            x:Name="WeightGain"
-                           TextColor="{StaticResource OffWhiteTextColor}">Weight Gain</Label>
+                           TextColor="White"
+                           Text="WEIGHT GAIN"
+                           FontAttributes="Bold">
+
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="GainTapped_Tapped" />
+                        </Label.GestureRecognizers>
+
+                    </Label>
                 </RelativeLayout>
                 
             </Grid>
+
+            <!-- TIPS FOR WEIGHT GAIN -->
+            <Frame CornerRadius="5"
+                   BackgroundColor="{StaticResource Primary-Green}"
+                   Padding="0,2,0,2">
+                <Label HorizontalOptions="Center"
+                       TextColor="{StaticResource OffWhiteTextColor}"
+                       Text="Tips for Weight Loss"></Label>
+            </Frame>
+            <!-- TIPS FOR WEIGHT GAIN CONTENT -->
+
+            <!-- TIPS FOR WEIGHT LOSS -->
+            <Frame CornerRadius="5"
+                   BackgroundColor="{StaticResource Primary-Green}"
+                   Padding="0,2,0,2">
+                <Label HorizontalOptions="Center"
+                       TextColor="{StaticResource OffWhiteTextColor}"
+                       Text="Tips for Weight Gain"></Label>
+            </Frame>
+            <!-- TIPS FOR WEIGHT GAIN CONTENT -->
+
+
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
