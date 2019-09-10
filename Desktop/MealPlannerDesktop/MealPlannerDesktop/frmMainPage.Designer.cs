@@ -33,7 +33,8 @@
             this.myProfileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.browseRecipesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.priceCheckToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.CalorietoolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.otherToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pbLogo = new System.Windows.Forms.PictureBox();
             this.picSlideShow = new System.Windows.Forms.PictureBox();
             this.signOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -50,7 +51,8 @@
             this.myProfileToolStripMenuItem,
             this.browseRecipesToolStripMenuItem,
             this.priceCheckToolStripMenuItem,
-            this.toolStripMenuItem1,
+            this.CalorietoolStripMenuItem,
+            this.otherToolStripMenuItem,
             this.signOutToolStripMenuItem});
             this.menuChoices.Location = new System.Drawing.Point(0, 0);
             this.menuChoices.Name = "menuChoices";
@@ -76,11 +78,17 @@
             this.priceCheckToolStripMenuItem.Size = new System.Drawing.Size(127, 28);
             this.priceCheckToolStripMenuItem.Text = "Price Check";
             // 
-            // toolStripMenuItem1
+            // CalorietoolStripMenuItem
             // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(55, 28);
-            this.toolStripMenuItem1.Text = "???";
+            this.CalorietoolStripMenuItem.Name = "CalorietoolStripMenuItem";
+            this.CalorietoolStripMenuItem.Size = new System.Drawing.Size(184, 28);
+            this.CalorietoolStripMenuItem.Text = "Calorie Calculator";
+            // 
+            // otherToolStripMenuItem
+            // 
+            this.otherToolStripMenuItem.Name = "otherToolStripMenuItem";
+            this.otherToolStripMenuItem.Size = new System.Drawing.Size(85, 28);
+            this.otherToolStripMenuItem.Text = "BMI??";
             // 
             // pbLogo
             // 
@@ -99,7 +107,7 @@
             // picSlideShow
             // 
             this.picSlideShow.Image = ((System.Drawing.Image)(resources.GetObject("picSlideShow.Image")));
-            this.picSlideShow.Location = new System.Drawing.Point(284, 35);
+            this.picSlideShow.Location = new System.Drawing.Point(129, 35);
             this.picSlideShow.Name = "picSlideShow";
             this.picSlideShow.Size = new System.Drawing.Size(582, 343);
             this.picSlideShow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -142,9 +150,10 @@
         private System.Windows.Forms.ToolStripMenuItem myProfileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem browseRecipesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem priceCheckToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem CalorietoolStripMenuItem;
         private System.Windows.Forms.PictureBox pbLogo;
         private System.Windows.Forms.PictureBox picSlideShow;
+        private System.Windows.Forms.ToolStripMenuItem otherToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem signOutToolStripMenuItem;
     }
 }

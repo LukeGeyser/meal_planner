@@ -51,8 +51,7 @@ namespace MealPlannerDesktop
                 
                 NUser.DOB = dtpDOB.Value;
                 NUser.Weight = double.Parse(txtWeight.Text);
-                NUser.Height = double.Parse(txtHeight.Text);
-                
+                NUser.Height = double.Parse(txtHeight.Text);                
 
                 foreach (var item in check)
                 {

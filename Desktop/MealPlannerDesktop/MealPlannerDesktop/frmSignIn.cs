@@ -55,6 +55,7 @@ namespace MealPlannerDesktop
                 {
                     MessageBox.Show("Invalid sign in details", "Sign in failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     txtPass.Clear();
+                    txtUser.Clear();
                 }
             }
             else if (!userList.Any(user => user.Username == txtUser.Text && user.Password == txtPass.Text))
@@ -63,7 +64,6 @@ namespace MealPlannerDesktop
                 txtPass.Clear();
                 txtUser.Clear();
             }
-
         }
     }
 }
