@@ -282,20 +282,20 @@
             // lblKG
             // 
             this.lblKG.AutoSize = true;
-            this.lblKG.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblKG.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblKG.Location = new System.Drawing.Point(566, 342);
             this.lblKG.Name = "lblKG";
-            this.lblKG.Size = new System.Drawing.Size(28, 19);
+            this.lblKG.Size = new System.Drawing.Size(33, 21);
             this.lblKG.TabIndex = 30;
             this.lblKG.Text = "Kg";
             // 
             // lblCM
             // 
             this.lblCM.AutoSize = true;
-            this.lblCM.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCM.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCM.Location = new System.Drawing.Point(566, 400);
             this.lblCM.Name = "lblCM";
-            this.lblCM.Size = new System.Drawing.Size(28, 19);
+            this.lblCM.Size = new System.Drawing.Size(32, 21);
             this.lblCM.TabIndex = 31;
             this.lblCM.Text = "cm";
             // 
