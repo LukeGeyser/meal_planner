@@ -46,16 +46,22 @@ namespace MealPlannerDesktop
 
                 if (loggedInUser.Password == attemptLogin.Password)
                 {
-                    MessageBox.Show("Cool!!", "Okay", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Welcome!", "Sign in successful", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    frmMainPage main = new frmMainPage();
+                    main.Show();
+                    this.Hide();
                 }
                 else if (loggedInUser.Password != attemptLogin.Password)
                 {
-                    MessageBox.Show("NOOOOOOOOOO!!", "Okay", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Invalid sign in details", "Sign in failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    txtPass.Clear();
                 }
             }
             else if (!userList.Any(user => user.Username == txtUser.Text && user.Password == txtPass.Text))
             {
-                MessageBox.Show("Not Working");
+                MessageBox.Show("An unexpected error occurred. Please try again", "Sign in failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtPass.Clear();
+                txtUser.Clear();
             }
 
         }

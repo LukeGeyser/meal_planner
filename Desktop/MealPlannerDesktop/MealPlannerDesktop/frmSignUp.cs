@@ -77,6 +77,9 @@ namespace MealPlannerDesktop
                         txtSurname.Clear();
                         txtUsername.Clear();
                         txtWeight.Clear();
+                        frmSignIn frm = new frmSignIn();
+                        frm.Show();
+                        this.Close();
                         break;
                     }
                     else
