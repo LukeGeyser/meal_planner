@@ -44,6 +44,7 @@ namespace MealPlanner.Views
                     signUpUser.Height = double.Parse(Height.Text);
                     App.users.Add(signUpUser);
                     dataHandler.AddSingleUser(signUpUser);
+                    Application.Current.MainPage = new HomePage();
                 }
             }
         }

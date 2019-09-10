@@ -53,7 +53,8 @@ namespace MealPlanner.Views
 
                     if (loggedInUser.Password == attemptLogin.Password)
                     {
-                        DisplayAlert($"{loggedInUser.Username}", $"{loggedInUser.Dob}", "WORKING");
+                        //DisplayAlert($"{loggedInUser.Username}", $"{loggedInUser.Dob}", "WORKING");
+                        Application.Current.MainPage = new HomePage();
                     }
                     else if (loggedInUser.Password != attemptLogin.Password)
                     {

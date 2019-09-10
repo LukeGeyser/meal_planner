@@ -20,7 +20,20 @@ namespace MealPlanner.Views
 
             MasterBehavior = MasterBehavior.Popover;
 
-            MenuPages.Add((int)MenuItemType.Browse, (NavigationPage)Detail);
+            masterPage.listView.ItemSelected += OnItemSelected;
+
+            //MenuPages.Add((int)MenuItemType.Browse, (NavigationPage)Detail);
+        }
+
+        private void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            var item = e.SelectedItem as HomeMenuItem;
+            if (item != null)
+            {
+                Detail = new NavigationPage((Page)Activator.CreateInstance(item.TargetType));
+                masterPage.listView.SelectedItem = null;
+                IsPresented = false;
+            }
         }
 
         public async Task NavigateFromMenu(int id)
@@ -30,7 +43,7 @@ namespace MealPlanner.Views
                 switch (id)
                 {
                     case (int)MenuItemType.Browse:
-                        MenuPages.Add(id, new NavigationPage(new ItemsPage()));
+                        MenuPages.Add(id, new NavigationPage(new HomePage()));
                         break;
                     case (int)MenuItemType.About:
                         MenuPages.Add(id, new NavigationPage(new AboutPage()));
