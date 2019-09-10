@@ -21,7 +21,7 @@ namespace MealPlannerDesktop
         private double height;
         private string email;
         private string phone;
-        private byte[] salt;
+        private string salt;
 
         public User()
         {
@@ -29,7 +29,7 @@ namespace MealPlannerDesktop
         }
         public User(string username, string password, string firstname, 
             string lastname, DateTime dob, double weight, double height, 
-            string email, string phone, byte[] salt = null)
+            string email, string phone, string salt)
         {
             this.username = username;
             this.password = password;
@@ -43,7 +43,7 @@ namespace MealPlannerDesktop
             this.salt = salt;
         }
 
-        public byte[] Salt
+        public string Salt
         {
             get { return salt; }
             set { salt = value; }
@@ -103,6 +103,12 @@ namespace MealPlannerDesktop
             int age = Convert.ToInt32(Math.Floor(days / 365.25));
 
             return age;
+        }
+
+        public User(string username, string password)
+        {
+            this.username = username;
+            this.password = password;
         }
     }
 }

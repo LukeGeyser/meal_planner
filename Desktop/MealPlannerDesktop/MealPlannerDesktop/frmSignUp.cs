@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.Data;
 using System.Drawing;
 using System.Linq;
@@ -34,18 +35,24 @@ namespace MealPlannerDesktop
             try
             {
                 check = DataHandler.getUsers();
-                User NUser = new User();
+                User NUser = SecurityService.EncryptNewPassword(new User(txtUsername.Text,txtPassword.Text));
                 NUser.FirstName = txtName.Text;
                 NUser.LastName = txtSurname.Text;
                 NUser.Phone = txtPhone.Text;
-                NUser.Email = txtEmail.Text;
-                NUser.Username = txtUsername.Text;
-                NUser.Password = txtPassword.Text;
+
+                if (IsValidEmail(txtEmail.Text))
+                {
+                    NUser.Email = txtEmail.Text;
+                }
+                else
+                {
+                    throw new Exception("Invalid email address entered.");
+                }
+                
                 NUser.DOB = dtpDOB.Value;
                 NUser.Weight = double.Parse(txtWeight.Text);
                 NUser.Height = double.Parse(txtHeight.Text);
-                string salt = SecurityService.EncryptNewPassword(NUser).Password;
-                NUser.Salt = Encoding.ASCII.GetBytes(salt);
+                
 
                 foreach (var item in check)
                 {
@@ -88,6 +95,11 @@ namespace MealPlannerDesktop
             {
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }           
+        }
+
+        public bool IsValidEmail(string source)
+        {
+            return new EmailAddressAttribute().IsValid(source);
         }
     }
 }

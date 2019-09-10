@@ -30,7 +30,7 @@ namespace MealPlannerDesktop
                         , reader["FirstName"].ToString(), reader["LastName"].ToString()
                         , Convert.ToDateTime(reader["DOB"]), Convert.ToDouble(reader["Weight"])
                         , Convert.ToDouble(reader["Height"]), reader["Email"].ToString(), 
-                        reader["Phone"].ToString(), Encoding.ASCII.GetBytes(reader["Salt"].ToString())));
+                        reader["Phone"].ToString(), reader["Salt"].ToString()));
                 }
                 cmd.Dispose();
             }

@@ -12,7 +12,8 @@ namespace MealPlannerDesktop
 {
     public partial class frmSignIn : Form
     {
-        List<User> ValidUsers = DataHandler.getUsers();
+        List<User> userList = DataHandler.getUsers();
+        User loggedInUser;
 
         public frmSignIn()
         {
@@ -33,28 +34,30 @@ namespace MealPlannerDesktop
 
         private void BtnSubmit_Click(object sender, EventArgs e)
         {
-            bool found = false;
-            int count = 0;
-            while(found == false && count < ValidUsers.Count)
+            User attemptLogin = new User(txtUser.Text, txtPass.Text);
+
+            // Check if user input credentials are valid inputs
+
+            if (userList.Any(user => user.Username == txtUser.Text))
             {
-                User test = new User(txtUser.Text, txtPass.Text, "", "", DateTime.Now, 0, 0, "", "");
-                if(test.Username == ValidUsers[count].Username
-                    && SecurityService.EncryptNewPassword(test).Password == ValidUsers[count].Password)
+                loggedInUser = userList.Find(user => user.Username == txtUser.Text);
+                attemptLogin.Salt = loggedInUser.Salt;
+                attemptLogin = SecurityService.EncryptPassword(attemptLogin);
+
+                if (loggedInUser.Password == attemptLogin.Password)
                 {
-                    found = true;
-                    MessageBox.Show("You successfully signed in!");
+                    MessageBox.Show("Cool!!", "Okay", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
-                else
+                else if (loggedInUser.Password != attemptLogin.Password)
                 {
-                    found = false;
-                    count++;
+                    MessageBox.Show("NOOOOOOOOOO!!", "Okay", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-            if(found == false)
+            else if (!userList.Any(user => user.Username == txtUser.Text && user.Password == txtPass.Text))
             {
-                MessageBox.Show("Invalid login details entered", "Sign in Error", MessageBoxButtons.OKCancel
-                    , MessageBoxIcon.Warning);
+                MessageBox.Show("Not Working");
             }
+
         }
     }
 }

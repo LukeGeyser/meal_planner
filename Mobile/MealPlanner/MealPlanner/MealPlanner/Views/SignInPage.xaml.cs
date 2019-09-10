@@ -55,7 +55,7 @@ namespace MealPlanner.Views
                     {
                         DisplayAlert($"{loggedInUser.Username}", $"{loggedInUser.Dob}", "WORKING");
                     }
-                    else if (loggedInUser.Password == attemptLogin.Password)
+                    else if (loggedInUser.Password != attemptLogin.Password)
                     {
                         DisplayAlert("PASSWORD NOT CORRECT", "Password Incorrect", "NO");
                     }
