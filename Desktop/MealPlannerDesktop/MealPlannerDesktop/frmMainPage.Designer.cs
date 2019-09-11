@@ -189,6 +189,7 @@
             this.MinimizeBox = false;
             this.Name = "frmMainPage";
             this.Text = "Eat Right, Pay Light";
+            this.Load += new System.EventHandler(this.FrmMainPage_Load);
             this.menuChoices.ResumeLayout(false);
             this.menuChoices.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();

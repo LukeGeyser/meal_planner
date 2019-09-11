@@ -19,11 +19,12 @@ namespace MealPlannerDesktop
 
         string[] slideshowImages = new string[]
         {
-            "slide1.jpg","slide2.jpg"
+            "slide1.jpg","slide2.jpg","slide3.jpg","slide4.jpg","slide5.jpg"
         };
         int count = 0;
         private void TmrSlideshow_Tick(object sender, EventArgs e)
         {
+          
             if(count < slideshowImages.Length)
             {
                 picSlideShow.ImageLocation = slideshowImages[count];
@@ -34,7 +35,7 @@ namespace MealPlannerDesktop
                 count = 0;
                 picSlideShow.ImageLocation = slideshowImages[count];
             }
-            
+           
         }
 
         private void CalorietoolStripMenuItem1_Click(object sender, EventArgs e)
@@ -64,5 +65,12 @@ namespace MealPlannerDesktop
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void FrmMainPage_Load(object sender, EventArgs e)
+        {
+            tmrSlideshow.Interval = 2000;
+            tmrSlideshow.Enabled = true;
+        }
+
     }
 }
