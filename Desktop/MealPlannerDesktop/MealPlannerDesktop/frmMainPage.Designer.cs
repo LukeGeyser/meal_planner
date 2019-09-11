@@ -32,6 +32,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMainPage));
             this.menuChoices = new System.Windows.Forms.MenuStrip();
             this.myProfileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.updateMyDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.trackMyProgressToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.browseRecipesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.PricetoolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.CalorietoolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -44,8 +46,7 @@
             this.lblQuote = new System.Windows.Forms.Label();
             this.lblQuoteTitle = new System.Windows.Forms.Label();
             this.tmrSlideshow = new System.Windows.Forms.Timer(this.components);
-            this.updateMyDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.trackMyProgressToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lblWelcome = new System.Windows.Forms.Label();
             this.menuChoices.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSlideShow)).BeginInit();
@@ -79,6 +80,21 @@
             this.myProfileToolStripMenuItem.Name = "myProfileToolStripMenuItem";
             this.myProfileToolStripMenuItem.Size = new System.Drawing.Size(114, 28);
             this.myProfileToolStripMenuItem.Text = "My Profile";
+            // 
+            // updateMyDetailsToolStripMenuItem
+            // 
+            this.updateMyDetailsToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
+            this.updateMyDetailsToolStripMenuItem.Name = "updateMyDetailsToolStripMenuItem";
+            this.updateMyDetailsToolStripMenuItem.Size = new System.Drawing.Size(244, 28);
+            this.updateMyDetailsToolStripMenuItem.Text = "Update My Details";
+            this.updateMyDetailsToolStripMenuItem.Click += new System.EventHandler(this.UpdateMyDetailsToolStripMenuItem_Click);
+            // 
+            // trackMyProgressToolStripMenuItem
+            // 
+            this.trackMyProgressToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
+            this.trackMyProgressToolStripMenuItem.Name = "trackMyProgressToolStripMenuItem";
+            this.trackMyProgressToolStripMenuItem.Size = new System.Drawing.Size(244, 28);
+            this.trackMyProgressToolStripMenuItem.Text = "Track My Progress";
             // 
             // browseRecipesToolStripMenuItem
             // 
@@ -155,7 +171,7 @@
             // lblQuote
             // 
             this.lblQuote.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQuote.Location = new System.Drawing.Point(63, 129);
+            this.lblQuote.Location = new System.Drawing.Point(62, 176);
             this.lblQuote.Name = "lblQuote";
             this.lblQuote.Size = new System.Drawing.Size(194, 181);
             this.lblQuote.TabIndex = 7;
@@ -166,7 +182,7 @@
             // 
             this.lblQuoteTitle.AutoSize = true;
             this.lblQuoteTitle.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQuoteTitle.Location = new System.Drawing.Point(41, 87);
+            this.lblQuoteTitle.Location = new System.Drawing.Point(40, 134);
             this.lblQuoteTitle.Name = "lblQuoteTitle";
             this.lblQuoteTitle.Size = new System.Drawing.Size(216, 31);
             this.lblQuoteTitle.TabIndex = 8;
@@ -177,20 +193,15 @@
             this.tmrSlideshow.Interval = 2000;
             this.tmrSlideshow.Tick += new System.EventHandler(this.TmrSlideshow_Tick);
             // 
-            // updateMyDetailsToolStripMenuItem
+            // lblWelcome
             // 
-            this.updateMyDetailsToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
-            this.updateMyDetailsToolStripMenuItem.Name = "updateMyDetailsToolStripMenuItem";
-            this.updateMyDetailsToolStripMenuItem.Size = new System.Drawing.Size(244, 28);
-            this.updateMyDetailsToolStripMenuItem.Text = "Update My Details";
-            this.updateMyDetailsToolStripMenuItem.Click += new System.EventHandler(this.UpdateMyDetailsToolStripMenuItem_Click);
-            // 
-            // trackMyProgressToolStripMenuItem
-            // 
-            this.trackMyProgressToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
-            this.trackMyProgressToolStripMenuItem.Name = "trackMyProgressToolStripMenuItem";
-            this.trackMyProgressToolStripMenuItem.Size = new System.Drawing.Size(244, 28);
-            this.trackMyProgressToolStripMenuItem.Text = "Track My Progress";
+            this.lblWelcome.AutoSize = true;
+            this.lblWelcome.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblWelcome.Location = new System.Drawing.Point(23, 78);
+            this.lblWelcome.Name = "lblWelcome";
+            this.lblWelcome.Size = new System.Drawing.Size(181, 22);
+            this.lblWelcome.TabIndex = 9;
+            this.lblWelcome.Text = "Welcome {Username}";
             // 
             // frmMainPage
             // 
@@ -198,6 +209,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(183)))), ((int)(((byte)(43)))));
             this.ClientSize = new System.Drawing.Size(866, 493);
+            this.Controls.Add(this.lblWelcome);
             this.Controls.Add(this.lblQuoteTitle);
             this.Controls.Add(this.lblQuote);
             this.Controls.Add(this.picSlideShow);
@@ -239,5 +251,6 @@
         private System.Windows.Forms.Timer tmrSlideshow;
         private System.Windows.Forms.ToolStripMenuItem updateMyDetailsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem trackMyProgressToolStripMenuItem;
+        private System.Windows.Forms.Label lblWelcome;
     }
 }

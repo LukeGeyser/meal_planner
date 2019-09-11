@@ -40,7 +40,7 @@ namespace MealPlannerDesktop
             txtEmail.Text = frmSignIn.SuccessfulLogin.Email;
             txtWeight.Text = frmSignIn.SuccessfulLogin.Weight.ToString();
             txtHeight.Text = frmSignIn.SuccessfulLogin.Height.ToString();
-            txtUsername.Text = frmSignIn.SuccessfulLogin.Username;
+            
         }
     }
 }

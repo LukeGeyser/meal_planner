@@ -31,13 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmProfile));
             this.tabProfile = new System.Windows.Forms.TabControl();
             this.tabPersonal = new System.Windows.Forms.TabPage();
-            this.tabPreferences = new System.Windows.Forms.TabPage();
-            this.pbLogo = new System.Windows.Forms.PictureBox();
-            this.btnBack = new System.Windows.Forms.Button();
-            this.txtName = new System.Windows.Forms.TextBox();
-            this.lblName = new System.Windows.Forms.Label();
-            this.txtSurname = new System.Windows.Forms.TextBox();
-            this.lblSurname = new System.Windows.Forms.Label();
+            this.btnApply = new System.Windows.Forms.Button();
+            this.txtConfirmP = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.lblConfirmP = new System.Windows.Forms.Label();
+            this.lblPassword = new System.Windows.Forms.Label();
             this.lblCM = new System.Windows.Forms.Label();
             this.lblKG = new System.Windows.Forms.Label();
             this.txtPhone = new System.Windows.Forms.TextBox();
@@ -50,13 +48,13 @@
             this.lblWeight = new System.Windows.Forms.Label();
             this.lblEmail = new System.Windows.Forms.Label();
             this.lblDOB = new System.Windows.Forms.Label();
-            this.txtConfirmP = new System.Windows.Forms.TextBox();
-            this.txtPassword = new System.Windows.Forms.TextBox();
-            this.lblConfirmP = new System.Windows.Forms.Label();
-            this.lblPassword = new System.Windows.Forms.Label();
-            this.txtUsername = new System.Windows.Forms.TextBox();
-            this.lblUsername = new System.Windows.Forms.Label();
-            this.btnApply = new System.Windows.Forms.Button();
+            this.txtSurname = new System.Windows.Forms.TextBox();
+            this.lblSurname = new System.Windows.Forms.Label();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.lblName = new System.Windows.Forms.Label();
+            this.tabPreferences = new System.Windows.Forms.TabPage();
+            this.pbLogo = new System.Windows.Forms.PictureBox();
+            this.btnBack = new System.Windows.Forms.Button();
             this.tabProfile.SuspendLayout();
             this.tabPersonal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
@@ -71,15 +69,13 @@
             this.tabProfile.Location = new System.Drawing.Point(12, 99);
             this.tabProfile.Name = "tabProfile";
             this.tabProfile.SelectedIndex = 0;
-            this.tabProfile.Size = new System.Drawing.Size(580, 419);
+            this.tabProfile.Size = new System.Drawing.Size(580, 386);
             this.tabProfile.TabIndex = 0;
             // 
             // tabPersonal
             // 
             this.tabPersonal.BackColor = System.Drawing.Color.White;
             this.tabPersonal.Controls.Add(this.btnApply);
-            this.tabPersonal.Controls.Add(this.txtUsername);
-            this.tabPersonal.Controls.Add(this.lblUsername);
             this.tabPersonal.Controls.Add(this.txtConfirmP);
             this.tabPersonal.Controls.Add(this.txtPassword);
             this.tabPersonal.Controls.Add(this.lblConfirmP);
@@ -103,81 +99,59 @@
             this.tabPersonal.Location = new System.Drawing.Point(4, 32);
             this.tabPersonal.Name = "tabPersonal";
             this.tabPersonal.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPersonal.Size = new System.Drawing.Size(572, 383);
+            this.tabPersonal.Size = new System.Drawing.Size(572, 350);
             this.tabPersonal.TabIndex = 0;
             this.tabPersonal.Text = "Personal Information";
             // 
-            // tabPreferences
+            // btnApply
             // 
-            this.tabPreferences.ForeColor = System.Drawing.Color.Black;
-            this.tabPreferences.Location = new System.Drawing.Point(4, 32);
-            this.tabPreferences.Name = "tabPreferences";
-            this.tabPreferences.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPreferences.Size = new System.Drawing.Size(572, 383);
-            this.tabPreferences.TabIndex = 1;
-            this.tabPreferences.Text = "App Preferences";
-            this.tabPreferences.UseVisualStyleBackColor = true;
+            this.btnApply.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(183)))), ((int)(((byte)(43)))));
+            this.btnApply.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnApply.ForeColor = System.Drawing.Color.White;
+            this.btnApply.Location = new System.Drawing.Point(383, 305);
+            this.btnApply.Name = "btnApply";
+            this.btnApply.Size = new System.Drawing.Size(137, 32);
+            this.btnApply.TabIndex = 50;
+            this.btnApply.Text = "Apply Changes";
+            this.btnApply.UseVisualStyleBackColor = false;
             // 
-            // pbLogo
+            // txtConfirmP
             // 
-            this.pbLogo.BackColor = System.Drawing.Color.White;
-            this.pbLogo.Image = ((System.Drawing.Image)(resources.GetObject("pbLogo.Image")));
-            this.pbLogo.InitialImage = null;
-            this.pbLogo.Location = new System.Drawing.Point(12, 3);
-            this.pbLogo.Name = "pbLogo";
-            this.pbLogo.Size = new System.Drawing.Size(576, 90);
-            this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pbLogo.TabIndex = 9;
-            this.pbLogo.TabStop = false;
+            this.txtConfirmP.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtConfirmP.Location = new System.Drawing.Point(224, 273);
+            this.txtConfirmP.Name = "txtConfirmP";
+            this.txtConfirmP.PasswordChar = '*';
+            this.txtConfirmP.Size = new System.Drawing.Size(296, 26);
+            this.txtConfirmP.TabIndex = 47;
             // 
-            // btnBack
+            // txtPassword
             // 
-            this.btnBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(183)))), ((int)(((byte)(43)))));
-            this.btnBack.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBack.ForeColor = System.Drawing.Color.White;
-            this.btnBack.Location = new System.Drawing.Point(455, 524);
-            this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(137, 32);
-            this.btnBack.TabIndex = 10;
-            this.btnBack.Text = "Back";
-            this.btnBack.UseVisualStyleBackColor = false;
-            this.btnBack.Click += new System.EventHandler(this.BtnBack_Click);
+            this.txtPassword.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPassword.Location = new System.Drawing.Point(224, 238);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
+            this.txtPassword.Size = new System.Drawing.Size(296, 26);
+            this.txtPassword.TabIndex = 46;
             // 
-            // txtName
+            // lblConfirmP
             // 
-            this.txtName.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtName.Location = new System.Drawing.Point(224, 14);
-            this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(296, 26);
-            this.txtName.TabIndex = 16;
+            this.lblConfirmP.AutoSize = true;
+            this.lblConfirmP.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConfirmP.Location = new System.Drawing.Point(42, 276);
+            this.lblConfirmP.Name = "lblConfirmP";
+            this.lblConfirmP.Size = new System.Drawing.Size(162, 19);
+            this.lblConfirmP.TabIndex = 45;
+            this.lblConfirmP.Text = "Confirm New Password";
             // 
-            // lblName
+            // lblPassword
             // 
-            this.lblName.AutoSize = true;
-            this.lblName.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblName.Location = new System.Drawing.Point(41, 17);
-            this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(82, 19);
-            this.lblName.TabIndex = 15;
-            this.lblName.Text = "First Name";
-            // 
-            // txtSurname
-            // 
-            this.txtSurname.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSurname.Location = new System.Drawing.Point(224, 46);
-            this.txtSurname.Name = "txtSurname";
-            this.txtSurname.Size = new System.Drawing.Size(296, 26);
-            this.txtSurname.TabIndex = 18;
-            // 
-            // lblSurname
-            // 
-            this.lblSurname.AutoSize = true;
-            this.lblSurname.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSurname.Location = new System.Drawing.Point(41, 49);
-            this.lblSurname.Name = "lblSurname";
-            this.lblSurname.Size = new System.Drawing.Size(79, 19);
-            this.lblSurname.TabIndex = 17;
-            this.lblSurname.Text = "Last Name";
+            this.lblPassword.AutoSize = true;
+            this.lblPassword.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPassword.Location = new System.Drawing.Point(42, 241);
+            this.lblPassword.Name = "lblPassword";
+            this.lblPassword.Size = new System.Drawing.Size(125, 19);
+            this.lblPassword.TabIndex = 44;
+            this.lblPassword.Text = "Change Password";
             // 
             // lblCM
             // 
@@ -290,80 +264,84 @@
             this.lblDOB.TabIndex = 32;
             this.lblDOB.Text = "Date Of Birth";
             // 
-            // txtConfirmP
+            // txtSurname
             // 
-            this.txtConfirmP.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtConfirmP.Location = new System.Drawing.Point(224, 308);
-            this.txtConfirmP.Name = "txtConfirmP";
-            this.txtConfirmP.PasswordChar = '*';
-            this.txtConfirmP.Size = new System.Drawing.Size(296, 26);
-            this.txtConfirmP.TabIndex = 47;
+            this.txtSurname.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSurname.Location = new System.Drawing.Point(224, 46);
+            this.txtSurname.Name = "txtSurname";
+            this.txtSurname.Size = new System.Drawing.Size(296, 26);
+            this.txtSurname.TabIndex = 18;
             // 
-            // txtPassword
+            // lblSurname
             // 
-            this.txtPassword.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.Location = new System.Drawing.Point(224, 273);
-            this.txtPassword.Name = "txtPassword";
-            this.txtPassword.PasswordChar = '*';
-            this.txtPassword.Size = new System.Drawing.Size(296, 26);
-            this.txtPassword.TabIndex = 46;
+            this.lblSurname.AutoSize = true;
+            this.lblSurname.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSurname.Location = new System.Drawing.Point(41, 49);
+            this.lblSurname.Name = "lblSurname";
+            this.lblSurname.Size = new System.Drawing.Size(79, 19);
+            this.lblSurname.TabIndex = 17;
+            this.lblSurname.Text = "Last Name";
             // 
-            // lblConfirmP
+            // txtName
             // 
-            this.lblConfirmP.AutoSize = true;
-            this.lblConfirmP.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblConfirmP.Location = new System.Drawing.Point(42, 311);
-            this.lblConfirmP.Name = "lblConfirmP";
-            this.lblConfirmP.Size = new System.Drawing.Size(129, 19);
-            this.lblConfirmP.TabIndex = 45;
-            this.lblConfirmP.Text = "Confirm Password";
+            this.txtName.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtName.Location = new System.Drawing.Point(224, 14);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(296, 26);
+            this.txtName.TabIndex = 16;
             // 
-            // lblPassword
+            // lblName
             // 
-            this.lblPassword.AutoSize = true;
-            this.lblPassword.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPassword.Location = new System.Drawing.Point(42, 276);
-            this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(71, 19);
-            this.lblPassword.TabIndex = 44;
-            this.lblPassword.Text = "Password";
+            this.lblName.AutoSize = true;
+            this.lblName.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName.Location = new System.Drawing.Point(41, 17);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(82, 19);
+            this.lblName.TabIndex = 15;
+            this.lblName.Text = "First Name";
             // 
-            // txtUsername
+            // tabPreferences
             // 
-            this.txtUsername.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsername.Location = new System.Drawing.Point(224, 238);
-            this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(296, 26);
-            this.txtUsername.TabIndex = 49;
+            this.tabPreferences.ForeColor = System.Drawing.Color.Black;
+            this.tabPreferences.Location = new System.Drawing.Point(4, 32);
+            this.tabPreferences.Name = "tabPreferences";
+            this.tabPreferences.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPreferences.Size = new System.Drawing.Size(572, 350);
+            this.tabPreferences.TabIndex = 1;
+            this.tabPreferences.Text = "App Preferences";
+            this.tabPreferences.UseVisualStyleBackColor = true;
             // 
-            // lblUsername
+            // pbLogo
             // 
-            this.lblUsername.AutoSize = true;
-            this.lblUsername.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsername.Location = new System.Drawing.Point(41, 241);
-            this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(75, 19);
-            this.lblUsername.TabIndex = 48;
-            this.lblUsername.Text = "Username";
+            this.pbLogo.BackColor = System.Drawing.Color.White;
+            this.pbLogo.Image = ((System.Drawing.Image)(resources.GetObject("pbLogo.Image")));
+            this.pbLogo.InitialImage = null;
+            this.pbLogo.Location = new System.Drawing.Point(12, 3);
+            this.pbLogo.Name = "pbLogo";
+            this.pbLogo.Size = new System.Drawing.Size(576, 90);
+            this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbLogo.TabIndex = 9;
+            this.pbLogo.TabStop = false;
             // 
-            // btnApply
+            // btnBack
             // 
-            this.btnApply.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(183)))), ((int)(((byte)(43)))));
-            this.btnApply.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnApply.ForeColor = System.Drawing.Color.White;
-            this.btnApply.Location = new System.Drawing.Point(383, 340);
-            this.btnApply.Name = "btnApply";
-            this.btnApply.Size = new System.Drawing.Size(137, 32);
-            this.btnApply.TabIndex = 50;
-            this.btnApply.Text = "Apply Changes";
-            this.btnApply.UseVisualStyleBackColor = false;
+            this.btnBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(183)))), ((int)(((byte)(43)))));
+            this.btnBack.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBack.ForeColor = System.Drawing.Color.White;
+            this.btnBack.Location = new System.Drawing.Point(455, 491);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(137, 32);
+            this.btnBack.TabIndex = 10;
+            this.btnBack.Text = "Back";
+            this.btnBack.UseVisualStyleBackColor = false;
+            this.btnBack.Click += new System.EventHandler(this.BtnBack_Click);
             // 
             // frmProfile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(604, 568);
+            this.ClientSize = new System.Drawing.Size(604, 531);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.pbLogo);
             this.Controls.Add(this.tabProfile);
@@ -411,7 +389,5 @@
         private System.Windows.Forms.Label lblConfirmP;
         private System.Windows.Forms.Label lblPassword;
         private System.Windows.Forms.Button btnApply;
-        private System.Windows.Forms.TextBox txtUsername;
-        private System.Windows.Forms.Label lblUsername;
     }
 }

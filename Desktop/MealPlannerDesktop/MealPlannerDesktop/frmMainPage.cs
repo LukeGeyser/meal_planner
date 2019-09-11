@@ -76,6 +76,7 @@ namespace MealPlannerDesktop
         {
             tmrSlideshow.Interval = 2000;
             tmrSlideshow.Enabled = true;
+            lblWelcome.Text = "Welcome " + frmSignIn.SuccessfulLogin.Username;
         }
 
         private void UpdateMyDetailsToolStripMenuItem_Click(object sender, EventArgs e)
