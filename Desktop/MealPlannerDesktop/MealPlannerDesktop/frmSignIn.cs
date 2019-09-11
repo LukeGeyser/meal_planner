@@ -14,6 +14,7 @@ namespace MealPlannerDesktop
     {
         List<User> userList = DataHandler.getUsers();
         User loggedInUser;
+        public static User SuccessfulLogin;
 
         public frmSignIn()
         {
@@ -52,6 +53,7 @@ namespace MealPlannerDesktop
                     weight = Convert.ToString(loggedInUser.Weight);
                     height = Convert.ToString(loggedInUser.Height);
                     age = Convert.ToString(loggedInUser.GetAge());
+                    SuccessfulLogin = loggedInUser;
                     frmMainPage main = new frmMainPage();
                     main.Show();
                     this.Hide();

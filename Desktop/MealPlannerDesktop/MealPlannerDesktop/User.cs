@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MealPlannerDesktop
 {
-    class User
+    public class User
     {
         //Class consisting of all information for users to sign in or sign up
         //to use application. Class fields correspond to fields of tblUsers in  

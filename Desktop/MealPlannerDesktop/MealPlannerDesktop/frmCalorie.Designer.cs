@@ -154,6 +154,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmCalorie";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calorie Calculator";
             this.Load += new System.EventHandler(this.frmCalorie_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nudMeal)).EndInit();

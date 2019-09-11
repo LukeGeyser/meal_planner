@@ -56,9 +56,15 @@ namespace MealPlannerDesktop
         {
             try
             {
-                frmSignIn frs = new frmSignIn();
-                frs.Show();
-                this.Hide();
+                DialogResult result = MessageBox.Show("Are you sure you want to sign out?"
+                    , "Sign Out", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if(result == DialogResult.Yes)
+                {
+                    frmSignIn frs = new frmSignIn();
+                    frs.Show();
+                    this.Hide();
+                }
+                
             }
             catch (Exception ex)
             {
@@ -72,5 +78,18 @@ namespace MealPlannerDesktop
             tmrSlideshow.Enabled = true;
         }
 
+        private void UpdateMyDetailsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                frmProfile pf = new frmProfile();
+                pf.Show();
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }

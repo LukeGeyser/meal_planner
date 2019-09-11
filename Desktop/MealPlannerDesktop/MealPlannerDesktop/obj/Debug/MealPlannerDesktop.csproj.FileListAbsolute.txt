@@ -396,3 +396,4 @@ C:\Users\kalan\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlan
 C:\Users\Janay Sander\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\MealPlannerDesktop.frmMainPage.resources
 C:\Users\kalan\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\MealPlannerDesktop.frmCalorie.resources
 C:\Users\Janay Sander\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\MealPlannerDesktop.frmCalorie.resources
+C:\Users\Janay Sander\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\MealPlannerDesktop.frmProfile.resources

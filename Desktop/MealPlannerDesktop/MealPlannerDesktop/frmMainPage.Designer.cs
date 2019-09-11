@@ -44,6 +44,8 @@
             this.lblQuote = new System.Windows.Forms.Label();
             this.lblQuoteTitle = new System.Windows.Forms.Label();
             this.tmrSlideshow = new System.Windows.Forms.Timer(this.components);
+            this.updateMyDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.trackMyProgressToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuChoices.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSlideShow)).BeginInit();
@@ -70,6 +72,9 @@
             // 
             // myProfileToolStripMenuItem
             // 
+            this.myProfileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.updateMyDetailsToolStripMenuItem,
+            this.trackMyProgressToolStripMenuItem});
             this.myProfileToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
             this.myProfileToolStripMenuItem.Name = "myProfileToolStripMenuItem";
             this.myProfileToolStripMenuItem.Size = new System.Drawing.Size(114, 28);
@@ -172,6 +177,21 @@
             this.tmrSlideshow.Interval = 2000;
             this.tmrSlideshow.Tick += new System.EventHandler(this.TmrSlideshow_Tick);
             // 
+            // updateMyDetailsToolStripMenuItem
+            // 
+            this.updateMyDetailsToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
+            this.updateMyDetailsToolStripMenuItem.Name = "updateMyDetailsToolStripMenuItem";
+            this.updateMyDetailsToolStripMenuItem.Size = new System.Drawing.Size(244, 28);
+            this.updateMyDetailsToolStripMenuItem.Text = "Update My Details";
+            this.updateMyDetailsToolStripMenuItem.Click += new System.EventHandler(this.UpdateMyDetailsToolStripMenuItem_Click);
+            // 
+            // trackMyProgressToolStripMenuItem
+            // 
+            this.trackMyProgressToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
+            this.trackMyProgressToolStripMenuItem.Name = "trackMyProgressToolStripMenuItem";
+            this.trackMyProgressToolStripMenuItem.Size = new System.Drawing.Size(244, 28);
+            this.trackMyProgressToolStripMenuItem.Text = "Track My Progress";
+            // 
             // frmMainPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -183,11 +203,13 @@
             this.Controls.Add(this.picSlideShow);
             this.Controls.Add(this.pbLogo);
             this.Controls.Add(this.menuChoices);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuChoices;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmMainPage";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Eat Right, Pay Light";
             this.Load += new System.EventHandler(this.FrmMainPage_Load);
             this.menuChoices.ResumeLayout(false);
@@ -215,5 +237,7 @@
         private System.Windows.Forms.Label lblQuote;
         private System.Windows.Forms.Label lblQuoteTitle;
         private System.Windows.Forms.Timer tmrSlideshow;
+        private System.Windows.Forms.ToolStripMenuItem updateMyDetailsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem trackMyProgressToolStripMenuItem;
     }
 }
