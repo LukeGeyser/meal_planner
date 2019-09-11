@@ -16,5 +16,25 @@ namespace MealPlannerDesktop
         {
             InitializeComponent();
         }
+
+        string[] slideshowImages = new string[]
+        {
+            "slide1.jpg","slide2.jpg"
+        };
+        int count = 0;
+        private void TmrSlideshow_Tick(object sender, EventArgs e)
+        {
+            if(count < slideshowImages.Length)
+            {
+                picSlideShow.ImageLocation = slideshowImages[count];
+                count++;
+            }
+            else
+            {
+                count = 0;
+                picSlideShow.ImageLocation = slideshowImages[count];
+            }
+            
+        }
     }
 }
