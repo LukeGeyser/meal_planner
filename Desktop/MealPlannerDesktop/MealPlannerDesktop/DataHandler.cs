@@ -81,5 +81,39 @@ namespace MealPlannerDesktop
                 conn.Close();
             }
         }
+
+
+        public static void UpdateUserDetails(User Person)
+        {
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("UPDATE tblUsers SET Password=@pass,FirstName=@name,LastName=@surname,"
+                    + "DOB=@dob,Weight=@weight,Height=@height,Email=@email,Phone=@phone,Salt=@salt "+
+                    "WHERE Username = @user", conn);
+                cmd.Parameters.AddWithValue("@pass", Person.Password);
+                cmd.Parameters.AddWithValue("@name", Person.FirstName);
+                cmd.Parameters.AddWithValue("@surname", Person.LastName);
+                cmd.Parameters.AddWithValue("@dob", Person.DOB);
+                cmd.Parameters.AddWithValue("@weight", Person.Weight);
+                cmd.Parameters.AddWithValue("@height", Person.Height);
+                cmd.Parameters.AddWithValue("@email", Person.Email);
+                cmd.Parameters.AddWithValue("@phone", Person.Phone);
+                cmd.Parameters.AddWithValue("@salt", Person.Salt);
+                cmd.Parameters.AddWithValue("@user", Person.Username);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Profile Successfully Updated.", "Apply Changes"
+                    , MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message, "Database error occurred", MessageBoxButtons.OK
+                    , MessageBoxIcon.Error);
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
     }
 }
