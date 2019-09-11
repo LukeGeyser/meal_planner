@@ -36,5 +36,33 @@ namespace MealPlannerDesktop
             }
             
         }
+
+        private void CalorietoolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                frmCalorie frc = new frmCalorie();
+                frc.Show();
+                this.Hide();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void logoutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                frmSignIn frs = new frmSignIn();
+                frs.Show();
+                this.Hide();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }

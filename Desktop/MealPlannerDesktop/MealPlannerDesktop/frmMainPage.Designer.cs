@@ -33,14 +33,14 @@
             this.menuChoices = new System.Windows.Forms.MenuStrip();
             this.myProfileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.browseRecipesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.priceCheckToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.PricetoolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.CalorietoolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.logoutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.CalorietoolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.otherToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.signOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pbLogo = new System.Windows.Forms.PictureBox();
             this.picSlideShow = new System.Windows.Forms.PictureBox();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.lblQuote = new System.Windows.Forms.Label();
             this.lblQuoteTitle = new System.Windows.Forms.Label();
             this.tmrSlideshow = new System.Windows.Forms.Timer(this.components);
@@ -56,9 +56,9 @@
             this.menuChoices.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.myProfileToolStripMenuItem,
             this.browseRecipesToolStripMenuItem,
-            this.toolStripMenuItem2,
-            this.toolStripMenuItem1,
-            this.priceCheckToolStripMenuItem,
+            this.PricetoolStripMenuItem2,
+            this.CalorietoolStripMenuItem1,
+            this.logoutToolStripMenuItem,
             this.CalorietoolStripMenuItem,
             this.otherToolStripMenuItem,
             this.signOutToolStripMenuItem});
@@ -82,12 +82,28 @@
             this.browseRecipesToolStripMenuItem.Size = new System.Drawing.Size(156, 28);
             this.browseRecipesToolStripMenuItem.Text = "Browse Recipes";
             // 
-            // priceCheckToolStripMenuItem
+            // PricetoolStripMenuItem2
             // 
-            this.priceCheckToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
-            this.priceCheckToolStripMenuItem.Name = "priceCheckToolStripMenuItem";
-            this.priceCheckToolStripMenuItem.Size = new System.Drawing.Size(127, 28);
-            this.priceCheckToolStripMenuItem.Text = "Price Check";
+            this.PricetoolStripMenuItem2.ForeColor = System.Drawing.Color.Green;
+            this.PricetoolStripMenuItem2.Name = "PricetoolStripMenuItem2";
+            this.PricetoolStripMenuItem2.Size = new System.Drawing.Size(127, 28);
+            this.PricetoolStripMenuItem2.Text = "Price Check";
+            // 
+            // CalorietoolStripMenuItem1
+            // 
+            this.CalorietoolStripMenuItem1.ForeColor = System.Drawing.Color.Green;
+            this.CalorietoolStripMenuItem1.Name = "CalorietoolStripMenuItem1";
+            this.CalorietoolStripMenuItem1.Size = new System.Drawing.Size(184, 28);
+            this.CalorietoolStripMenuItem1.Text = "Calorie Calculator";
+            this.CalorietoolStripMenuItem1.Click += new System.EventHandler(this.CalorietoolStripMenuItem1_Click);
+            // 
+            // logoutToolStripMenuItem
+            // 
+            this.logoutToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
+            this.logoutToolStripMenuItem.Name = "logoutToolStripMenuItem";
+            this.logoutToolStripMenuItem.Size = new System.Drawing.Size(101, 28);
+            this.logoutToolStripMenuItem.Text = "Sign Out";
+            this.logoutToolStripMenuItem.Click += new System.EventHandler(this.logoutToolStripMenuItem_Click);
             // 
             // CalorietoolStripMenuItem
             // 
@@ -130,20 +146,6 @@
             this.picSlideShow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picSlideShow.TabIndex = 6;
             this.picSlideShow.TabStop = false;
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.ForeColor = System.Drawing.Color.Green;
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(156, 28);
-            this.toolStripMenuItem1.Text = "Browse Recipes";
-            // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.ForeColor = System.Drawing.Color.Green;
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(127, 28);
-            this.toolStripMenuItem2.Text = "Price Check";
             // 
             // lblQuote
             // 
@@ -201,14 +203,14 @@
         private System.Windows.Forms.MenuStrip menuChoices;
         private System.Windows.Forms.ToolStripMenuItem myProfileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem browseRecipesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem priceCheckToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem logoutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem CalorietoolStripMenuItem;
         private System.Windows.Forms.PictureBox pbLogo;
         private System.Windows.Forms.PictureBox picSlideShow;
         private System.Windows.Forms.ToolStripMenuItem otherToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem signOutToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem PricetoolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem CalorietoolStripMenuItem1;
         private System.Windows.Forms.Label lblQuote;
         private System.Windows.Forms.Label lblQuoteTitle;
         private System.Windows.Forms.Timer tmrSlideshow;

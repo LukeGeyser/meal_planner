@@ -31,7 +31,9 @@ namespace MealPlannerDesktop
         {
             
         }
-
+        public static string weight="";
+        public static string height="";
+        public static string age = "";
         private void BtnSubmit_Click(object sender, EventArgs e)
         {
             User attemptLogin = new User(txtUser.Text, txtPass.Text);
@@ -47,6 +49,9 @@ namespace MealPlannerDesktop
                 if (loggedInUser.Password == attemptLogin.Password)
                 {
                     MessageBox.Show("Welcome!", "Sign in successful", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    weight = Convert.ToString(loggedInUser.Weight);
+                    height = Convert.ToString(loggedInUser.Height);
+                    age = Convert.ToString(loggedInUser.GetAge());
                     frmMainPage main = new frmMainPage();
                     main.Show();
                     this.Hide();
