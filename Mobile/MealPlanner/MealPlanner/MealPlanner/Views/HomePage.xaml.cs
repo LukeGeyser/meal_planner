@@ -30,7 +30,10 @@ namespace MealPlanner.Views
             var item = e.SelectedItem as HomeMenuItem;
             if (item != null)
             {
-                Detail = new NavigationPage((Page)Activator.CreateInstance(item.TargetType));
+                Detail = new NavigationPage((Page)Activator.CreateInstance(item.TargetType))
+                {
+                    BarBackgroundColor = Color.FromHex("#fafafa")
+                };
                 masterPage.listView.SelectedItem = null;
                 IsPresented = false;
             }

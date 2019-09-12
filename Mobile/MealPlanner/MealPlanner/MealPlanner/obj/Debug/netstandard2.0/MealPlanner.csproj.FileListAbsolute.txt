@@ -50,6 +50,7 @@ C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\ProfilePage.xaml.g.cs
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\SignInPage.xaml.g.cs
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\SignUpPage.xaml.g.cs
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\MealPlanner.csproj.CoreCompileInputs.cache

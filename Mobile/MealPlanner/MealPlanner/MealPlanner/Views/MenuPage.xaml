@@ -13,8 +13,8 @@
             <ListView x:Name="listView" x:FieldModifier="public">
                 <ListView.ItemsSource>
                     <x:Array Type="{x:Type vm:HomeMenuItem}">
-                        <vm:HomeMenuItem Title="TodoList" TargetType="{x:Type local:AdditionalInfoSignUpPage}"/>
-                        <vm:HomeMenuItem Title="Reminders" TargetType="{x:Type local:ClientDetailsSignUpPage}"/>
+                        <vm:HomeMenuItem Title="Home" IconSource="home.png" TargetType="{x:Type local:MainPage}"/>
+                        <vm:HomeMenuItem Title="Profile" IconSource="profile.png" TargetType="{x:Type local:ProfilePage}"/>
                     </x:Array>
                 </ListView.ItemsSource>
                 <ListView.ItemTemplate>
@@ -22,11 +22,11 @@
                         <ViewCell>
                             <Grid Padding="5,10">
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="30"/>
+                                    <ColumnDefinition Width="50"/>
                                     <ColumnDefinition Width="*" />
                                 </Grid.ColumnDefinitions>
-                                <!--<Image Source="{Binding IconSource}" />-->
-                                <Label Grid.Column="1" Text="{Binding Title}" />
+                                <Image Source="{Binding IconSource}" />
+                                <Label Grid.Column="1" Text="{Binding Title}" FontAttributes="Bold" TextColor="#2d2d2d"/>
                             </Grid>
                         </ViewCell>
                     </DataTemplate>

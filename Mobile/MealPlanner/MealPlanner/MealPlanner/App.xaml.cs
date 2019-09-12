@@ -7,6 +7,8 @@ using System.Data.SqlClient;
 using System.Diagnostics;
 using System.Collections.Generic;
 using MealPlanner.Models;
+using System.Collections.ObjectModel;
+using static MealPlanner.Models.MapResultDataWrapper;
 
 namespace MealPlanner
 {
@@ -15,19 +17,23 @@ namespace MealPlanner
         Page currentPage = null;
         DataHandler dataHandler = new DataHandler();
         public static List<User> users;
+        public static ObservableCollection<Result> MapsResults { get; set; }
+        private MapsAPI mapsAPI = new MapsAPI();
 
         public App()
         {
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
+            MapsResults = new ObservableCollection<Result>();
             users = dataHandler.GetAllUsers();
         }
 
-        protected override void OnStart()
+        protected async override void OnStart()
         {
             // Handle when your app starts
             MainPage = new SignInPage();
+            await mapsAPI.PopulateMaps(MapsResults, "-26.152755799999998", "28.3111148");
         }
 
         protected override void OnSleep()

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MealPlanner.Models
 {
-    class MapResultDataWrapper
+    public class MapResultDataWrapper
     {
         public class Location
         {

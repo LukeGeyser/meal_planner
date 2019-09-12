@@ -1,5 +1,7 @@
-﻿using System;
+﻿using MealPlanner.Services;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
@@ -8,6 +10,7 @@ using System.Windows.Input;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using static MealPlanner.Models.MapResultDataWrapper;
 
 namespace MealPlanner.Views
 {
@@ -27,6 +30,8 @@ namespace MealPlanner.Views
             string completeUrl = String.Format("{0}location={1},{2}&radius={3}&type={4}&key={5}", url, -26.152755799999998, 28.3111148, 10000, "supermarket", _PrivateKey);
             Debug.WriteLine(completeUrl);
         }
+
+
 
         #region Private Helpers
 
@@ -86,6 +91,7 @@ namespace MealPlanner.Views
         private void VegTapped_Tapped(object sender, EventArgs e)
         {
             DisplayAlert("Veg", "TAPPED", "okay");
+            DisplayAlert(App.MapsResults[0].name, "", "OKAY");
         }
 
         private void LossTapped_Tapped(object sender, EventArgs e)

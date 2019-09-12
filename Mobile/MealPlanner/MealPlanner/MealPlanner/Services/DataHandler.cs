@@ -88,5 +88,36 @@ namespace MealPlanner.Services
             }
         }
 
+        public void UpdateUserDetails(User Person)
+        {
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("UPDATE tblUsers SET Password=@pass,FirstName=@name,LastName=@surname,"
+                    + "DOB=@dob,Weight=@weight,Height=@height,Email=@email,Phone=@phone,Salt=@salt " +
+                    "WHERE Username = @user", conn);
+                cmd.Parameters.AddWithValue("@pass", Person.Password);
+                cmd.Parameters.AddWithValue("@name", Person.Firstname);
+                cmd.Parameters.AddWithValue("@surname", Person.Lastname);
+                cmd.Parameters.AddWithValue("@dob", Person.Dob);
+                cmd.Parameters.AddWithValue("@weight", Person.Weight);
+                cmd.Parameters.AddWithValue("@height", Person.Height);
+                cmd.Parameters.AddWithValue("@email", Person.Email);
+                cmd.Parameters.AddWithValue("@phone", Person.PhoneNumber);
+                cmd.Parameters.AddWithValue("@salt", Person.Salt);
+                cmd.Parameters.AddWithValue("@user", Person.Username);
+                cmd.ExecuteNonQuery();
+            }
+            catch (Exception error)
+            {
+
+            }
+            finally
+            {
+                if (conn != null)
+                    conn.Close();
+            }
+        }
+
     }
 }
