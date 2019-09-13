@@ -173,8 +173,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmAddAllergy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddAllergy.Designer.cs">
+      <DependentUpon>frmAddAllergy.cs</DependentUpon>
+    </Compile>
     <Compile Include="Allergies.cs" />
     <Compile Include="DataHandler.cs" />
+    <Compile Include="frmAddMealPlan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddMealPlan.Designer.cs">
+      <DependentUpon>frmAddMealPlan.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmCalorie.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -220,6 +232,12 @@
     <Compile Include="User.cs" />
     <Compile Include="UserAllergies.cs" />
     <Compile Include="UserMealPlan.cs" />
+    <EmbeddedResource Include="frmAddAllergy.resx">
+      <DependentUpon>frmAddAllergy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddMealPlan.resx">
+      <DependentUpon>frmAddMealPlan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmCalorie.resx">
       <DependentUpon>frmCalorie.cs</DependentUpon>
     </EmbeddedResource>
