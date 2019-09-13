@@ -9,13 +9,167 @@
              BarTextColor="#fafafa">
   <!--Pages can be added as references or inline-->
 
+    
+    
     <!-- CLIENT DETAILS -->
     <ContentPage Title="Details">
+
+        <ContentPage.Resources>
+            <ResourceDictionary>
+                <Color x:Key="Primary-Green">#669e2f</Color>
+                <Color x:Key="Accent">#669e2f</Color>
+                <Color x:Key="LightTextColor">#143046</Color>
+                <Color x:Key="OffWhiteTextColor">#143046</Color>
+                <Color x:Key="alert">#db5151</Color>
+            </ResourceDictionary>
+        </ContentPage.Resources>
+
+        <ScrollView>
+            <StackLayout Padding="50,0,50,0">
+
+                <Label Text="Client Details"
+               TextColor="#669e2f"
+               FontSize="16"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               Margin="0,10,0,0"></Label>
+
+                <!-- FIRTNAME -->
+                <Label Text="Fullname: "
+                   x:Name="FName"
+                   TextColor="{StaticResource LightTextColor}"
+                   FontSize="Micro"
+                   HorizontalTextAlignment="Center"></Label>
+
+                <Label Text="Username: "
+                   x:Name="UName"
+                   TextColor="{StaticResource LightTextColor}"
+                   FontSize="Micro"
+                   HorizontalTextAlignment="Center"></Label>
+
+                <!-- CHANGABLE DETAILS -->
+                <Label Text="Changable Details"
+               TextColor="#669e2f"
+               FontSize="12"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               Margin="0,0,0,0"></Label>
+
+                <!-- EMAIL ADDRESS -->
+                <Label Text="Email Address:"
+                   TextColor="{StaticResource LightTextColor}"
+                   FontSize="8"
+                   Margin="0"></Label>
+
+                <!-- EMAIL ADDRESS -->
+                <Entry FontSize="8"
+                   WidthRequest="20"
+                   Placeholder="Enter Your Email Address"
+                   TextColor="{StaticResource LightTextColor}"
+                   PlaceholderColor="{StaticResource LightTextColor}"
+                   x:Name="Email"
+                   Margin="0,-10,0,0"></Entry>
+
+                <!-- Phone Number -->
+                <Label Text="Phone Number:"
+                   TextColor="{StaticResource LightTextColor}"
+                   FontSize="8"
+                   Margin="0"></Label>
+
+                <!-- Phone Number -->
+                <Entry FontSize="8"
+                   WidthRequest="20"
+                   Placeholder="Enter Your Phone Number"
+                   TextColor="{StaticResource LightTextColor}"
+                   PlaceholderColor="{StaticResource LightTextColor}"
+                   x:Name="Phone"
+                   Margin="0,-10,0,0"></Entry>
+
+                <!-- DATE OF BIRTH -->
+                <Label Text="Date Of Birth:"
+                   TextColor="{StaticResource LightTextColor}"
+                   FontSize="8"></Label>
+
+                <!-- DATE OF BIRTH -->
+                <DatePicker x:Name="DOB"
+                        FontSize="8"
+                        TextColor="{StaticResource LightTextColor}"
+                        Margin="0,-10,0,0"></DatePicker>
+
+                <FlexLayout>
+                    <StackLayout WidthRequest="100">
+                        <Label Text="Weight:"
+                           TextColor="{StaticResource LightTextColor}"
+                           FontSize="8"></Label>
+
+                        <!-- USERNAME -->
+                        <Entry FontSize="8"
+                           WidthRequest="20"
+                           Placeholder="Enter Weight"
+                           TextColor="{StaticResource LightTextColor}"
+                           PlaceholderColor="{StaticResource LightTextColor}"
+                           x:Name="Weight"
+                           Margin="0,-10,0,0"></Entry>
+                    </StackLayout>
+
+                    <StackLayout WidthRequest="100">
+                        <Label Text="Height:"
+                           TextColor="{StaticResource LightTextColor}"
+                           FontSize="8"></Label>
+
+                        <!-- USERNAME -->
+                        <Entry FontSize="8"
+                           WidthRequest="20"
+                           Placeholder="Enter Height"
+                           TextColor="{StaticResource LightTextColor}"
+                           PlaceholderColor="{StaticResource LightTextColor}"
+                           x:Name="Height"
+                           Margin="0,-10,0,0"></Entry>
+                    </StackLayout>
+                </FlexLayout>
+
+                <Label Text="New Password:"
+                   TextColor="{StaticResource LightTextColor}"
+                   FontSize="8"></Label>
+
+                <Entry FontSize="8"
+                   WidthRequest="20"
+                   Placeholder="Enter Your New Password"
+                   TextColor="{StaticResource LightTextColor}"
+                   PlaceholderColor="{StaticResource LightTextColor}"
+                   Margin="0,-10,0,-10"
+                   x:Name="Password"
+                   IsPassword="True"></Entry>
+
+                <Button Text="Save Changes" 
+                    x:Name="Save_Changes"
+                    Padding="0,0,0,0"
+                    WidthRequest="50" 
+                    Margin="40,20,40,20"
+                    HeightRequest="30"
+                    FontSize="8"
+                    BackgroundColor="{StaticResource Primary-Green}"
+                    TextColor="White"
+                    Clicked="Save_Changes_Clicked"></Button>
+
+            </StackLayout>
+        </ScrollView>
+
     </ContentPage>
     
     <!-- APP PREFERENCE -->
     <ContentPage Title="App Preferences">
-        
+
+        <ContentPage.Resources>
+            <ResourceDictionary>
+                <Color x:Key="Primary-Green">#669e2f</Color>
+                <Color x:Key="Accent">#669e2f</Color>
+                <Color x:Key="LightTextColor">#143046</Color>
+                <Color x:Key="OffWhiteTextColor">#143046</Color>
+                <Color x:Key="alert">#db5151</Color>
+            </ResourceDictionary>
+        </ContentPage.Resources>
+
     </ContentPage>
 
 </TabbedPage>

@@ -20,7 +20,7 @@ namespace MealPlanner.Views
         #region Variables 
 
         List<User> userList = App.users;
-        User loggedInUser;
+        public static User loggedInUser;
         //DataHandler dataHandler = new DataHandler();
 
         #endregion
@@ -53,7 +53,6 @@ namespace MealPlanner.Views
 
                     if (loggedInUser.Password == attemptLogin.Password)
                     {
-                        //DisplayAlert($"{loggedInUser.Username}", $"{loggedInUser.Dob}", "WORKING");
                         Application.Current.MainPage = new HomePage();
                     }
                     else if (loggedInUser.Password != attemptLogin.Password)

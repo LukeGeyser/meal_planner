@@ -1145,3 +1145,4 @@ C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_GeneratePackageManagerJava.stamp
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_ResolveLibraryProjectImports.stamp
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\bin\Debug\MealPlanner.dll.mdb
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Mono.Android.pdb
