@@ -82,7 +82,7 @@ namespace MealPlannerDesktop
             }
         }
 
-
+        //Update user profile
         public static void UpdateUserDetails(User Person)
         {
             try
@@ -114,6 +114,120 @@ namespace MealPlannerDesktop
             {
                 conn.Close();
             }
+        }
+
+        public static List<Allergies> GetAllAllergies()
+        {
+            List<Allergies> allergies = new List<Allergies>();
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT * FROM tblAllergies", conn);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    allergies.Add(new Allergies(Convert.ToInt32(reader["AllergyID"])
+                        , reader["AllergyName"].ToString(), reader["Description"].ToString()));
+                }
+                cmd.Dispose();
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message, "Database error occurred", MessageBoxButtons.OK
+                    , MessageBoxIcon.Error);
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return allergies;
+
+        }
+
+        public static List<UserAllergies> GetSelectedAllergies(string username)
+        {
+            List<UserAllergies> chosen = new List<UserAllergies>();
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT * FROM tblUsersAllergies WHERE "
+                    + "Username = @user", conn);
+                cmd.Parameters.AddWithValue("@user", username);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    chosen.Add(new UserAllergies(reader["Username"].ToString()
+                        , Convert.ToInt32(reader["AllergyID"])));
+                }
+                cmd.Dispose();
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message, "Database error occurred", MessageBoxButtons.OK
+                    , MessageBoxIcon.Error);
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return chosen;
+        }
+
+        public static List<MealPlans> GetAllMealPlans()
+        {
+            List<MealPlans> plans = new List<MealPlans>();
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT * FROM tblMealPlans", conn);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    plans.Add(new MealPlans(Convert.ToInt32(reader["MealPlanID"]),
+                        reader["MealPlanName"].ToString(), reader["Description"].ToString(),
+                        reader["Advantages"].ToString(), reader["Disadvantages"].ToString()));
+                }
+                cmd.Dispose();
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message, "Database error occurred", MessageBoxButtons.OK
+                    , MessageBoxIcon.Error);
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return plans;
+        }
+
+        public static List<UserMealPlan> GetSelectedMealPlans(string username)
+        {
+            List<UserMealPlan> plans = new List<UserMealPlan>();
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT * FROM tblUsersMealPlans WHERE "
+                    + " Username = @user", conn);
+                cmd.Parameters.AddWithValue("@user", username);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    plans.Add(new UserMealPlan(reader["Username"].ToString(),
+                        Convert.ToInt32(reader["MealPlanID"])));
+                }
+                cmd.Dispose();
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message, "Database error occurred", MessageBoxButtons.OK
+                    , MessageBoxIcon.Error);
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return plans;
         }
     }
 }

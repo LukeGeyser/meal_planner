@@ -18,6 +18,11 @@ namespace MealPlannerDesktop
             InitializeComponent();
         }
 
+        List<Allergies> allergies;
+        List<UserAllergies> selectedAllegies;
+        List<MealPlans> mealplans;
+        List<UserMealPlan> selectedMealPlans;
+
         private void BtnBack_Click(object sender, EventArgs e)
         {
             try
@@ -42,6 +47,31 @@ namespace MealPlannerDesktop
             txtWeight.Text = frmSignIn.SuccessfulLogin.Weight.ToString();
             txtHeight.Text = frmSignIn.SuccessfulLogin.Height.ToString();
 
+            allergies = DataHandler.GetAllAllergies();
+            selectedAllegies = DataHandler.GetSelectedAllergies(frmSignIn.SuccessfulLogin.Username);
+            lstAllergies.Items.Clear();
+            for(int i = 0; i < allergies.Count; i++)
+            {
+                lstAllergies.Items.Add(allergies[i].AllergyName);
+                if (selectedAllegies.Contains(new UserAllergies(frmSignIn.SuccessfulLogin.Username,
+                    allergies[i].AllergyID)))
+                {
+                    lstAllergies.SetItemChecked(i, true);
+                }
+            }
+
+            mealplans = DataHandler.GetAllMealPlans();
+            selectedMealPlans = DataHandler.GetSelectedMealPlans(frmSignIn.SuccessfulLogin.Username);
+            lstMealplans.Items.Clear();
+            for(int i = 0; i < mealplans.Count; i++)
+            {
+                lstMealplans.Items.Add(mealplans[i].MealPlanName);
+                if (selectedMealPlans.Contains(new UserMealPlan(frmSignIn.SuccessfulLogin.Username
+                    , mealplans[i].MealPlanID)))
+                {
+                    lstMealplans.SetItemChecked(i, true);
+                }
+            }
         }
 
         private void BtnApply_Click(object sender, EventArgs e)
@@ -95,6 +125,32 @@ namespace MealPlannerDesktop
         public bool IsValidEmail(string source)
         {
             return new EmailAddressAttribute().IsValid(source);
+        }
+
+        private void LstAllergies_Enter(object sender, EventArgs e)
+        {
+            
+
+        }
+
+        private void LstAllergies_Click(object sender, EventArgs e)
+        {
+            if (lstAllergies.SelectedIndex < allergies.Count &&
+                lstAllergies.SelectedIndex > -1)
+            {
+                rtxtDescription.Text = allergies[lstAllergies.SelectedIndex].Description;
+            }
+        }
+
+        private void LstMealplans_Click(object sender, EventArgs e)
+        {
+            if(lstMealplans.SelectedIndex < mealplans.Count &&
+                lstMealplans.SelectedIndex > -1)
+            {
+                rtxtMealDescription.Text = mealplans[lstMealplans.SelectedIndex].Description;
+                txtAdvantages.Text = mealplans[lstMealplans.SelectedIndex].Advantages;
+                txtDisadvantages.Text = mealplans[lstMealplans.SelectedIndex].Disadvantages;
+            }
         }
     }
 }

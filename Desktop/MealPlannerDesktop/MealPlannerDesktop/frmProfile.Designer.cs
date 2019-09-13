@@ -54,23 +54,23 @@
             this.txtName = new System.Windows.Forms.TextBox();
             this.lblName = new System.Windows.Forms.Label();
             this.tabPreferences = new System.Windows.Forms.TabPage();
-            this.pbLogo = new System.Windows.Forms.PictureBox();
-            this.btnBack = new System.Windows.Forms.Button();
-            this.lstAllergies = new System.Windows.Forms.CheckedListBox();
-            this.lblAllergies = new System.Windows.Forms.Label();
-            this.rtxtDescription = new System.Windows.Forms.RichTextBox();
-            this.lblMealPlans = new System.Windows.Forms.Label();
-            this.cbxMealplan = new System.Windows.Forms.ComboBox();
-            this.btnAddAllergy = new System.Windows.Forms.Button();
-            this.lblAllergyDescribe = new System.Windows.Forms.Label();
-            this.lblMealPlanDescribe = new System.Windows.Forms.Label();
-            this.rtxtMealDescription = new System.Windows.Forms.RichTextBox();
-            this.lblAdvantages = new System.Windows.Forms.Label();
-            this.txtDisadvantages = new System.Windows.Forms.RichTextBox();
+            this.btnSavePreferences = new System.Windows.Forms.Button();
+            this.btnNewMealPlan = new System.Windows.Forms.Button();
             this.lblDisadvantages = new System.Windows.Forms.Label();
             this.txtAdvantages = new System.Windows.Forms.RichTextBox();
-            this.btnNewMealPlan = new System.Windows.Forms.Button();
-            this.btnSavePreferences = new System.Windows.Forms.Button();
+            this.lblAdvantages = new System.Windows.Forms.Label();
+            this.txtDisadvantages = new System.Windows.Forms.RichTextBox();
+            this.lblMealPlanDescribe = new System.Windows.Forms.Label();
+            this.rtxtMealDescription = new System.Windows.Forms.RichTextBox();
+            this.lblAllergyDescribe = new System.Windows.Forms.Label();
+            this.btnAddAllergy = new System.Windows.Forms.Button();
+            this.lblMealPlans = new System.Windows.Forms.Label();
+            this.rtxtDescription = new System.Windows.Forms.RichTextBox();
+            this.lblAllergies = new System.Windows.Forms.Label();
+            this.lstAllergies = new System.Windows.Forms.CheckedListBox();
+            this.pbLogo = new System.Windows.Forms.PictureBox();
+            this.btnBack = new System.Windows.Forms.Button();
+            this.lstMealplans = new System.Windows.Forms.CheckedListBox();
             this.tabProfile.SuspendLayout();
             this.tabPersonal.SuspendLayout();
             this.tabPreferences.SuspendLayout();
@@ -331,6 +331,7 @@
             // 
             // tabPreferences
             // 
+            this.tabPreferences.Controls.Add(this.lstMealplans);
             this.tabPreferences.Controls.Add(this.btnSavePreferences);
             this.tabPreferences.Controls.Add(this.btnNewMealPlan);
             this.tabPreferences.Controls.Add(this.lblDisadvantages);
@@ -341,7 +342,6 @@
             this.tabPreferences.Controls.Add(this.rtxtMealDescription);
             this.tabPreferences.Controls.Add(this.lblAllergyDescribe);
             this.tabPreferences.Controls.Add(this.btnAddAllergy);
-            this.tabPreferences.Controls.Add(this.cbxMealplan);
             this.tabPreferences.Controls.Add(this.lblMealPlans);
             this.tabPreferences.Controls.Add(this.rtxtDescription);
             this.tabPreferences.Controls.Add(this.lblAllergies);
@@ -354,6 +354,154 @@
             this.tabPreferences.TabIndex = 1;
             this.tabPreferences.Text = "App Preferences";
             this.tabPreferences.UseVisualStyleBackColor = true;
+            // 
+            // btnSavePreferences
+            // 
+            this.btnSavePreferences.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(183)))), ((int)(((byte)(43)))));
+            this.btnSavePreferences.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSavePreferences.ForeColor = System.Drawing.Color.White;
+            this.btnSavePreferences.Location = new System.Drawing.Point(383, 345);
+            this.btnSavePreferences.Name = "btnSavePreferences";
+            this.btnSavePreferences.Size = new System.Drawing.Size(183, 32);
+            this.btnSavePreferences.TabIndex = 24;
+            this.btnSavePreferences.Text = "Save Preferences";
+            this.btnSavePreferences.UseVisualStyleBackColor = false;
+            // 
+            // btnNewMealPlan
+            // 
+            this.btnNewMealPlan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(183)))), ((int)(((byte)(43)))));
+            this.btnNewMealPlan.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNewMealPlan.ForeColor = System.Drawing.Color.White;
+            this.btnNewMealPlan.Location = new System.Drawing.Point(19, 345);
+            this.btnNewMealPlan.Name = "btnNewMealPlan";
+            this.btnNewMealPlan.Size = new System.Drawing.Size(133, 32);
+            this.btnNewMealPlan.TabIndex = 23;
+            this.btnNewMealPlan.Text = "Add new mealplan";
+            this.btnNewMealPlan.UseVisualStyleBackColor = false;
+            // 
+            // lblDisadvantages
+            // 
+            this.lblDisadvantages.AutoSize = true;
+            this.lblDisadvantages.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDisadvantages.Location = new System.Drawing.Point(283, 261);
+            this.lblDisadvantages.Name = "lblDisadvantages";
+            this.lblDisadvantages.Size = new System.Drawing.Size(109, 19);
+            this.lblDisadvantages.TabIndex = 22;
+            this.lblDisadvantages.Text = "Disadvantages:";
+            // 
+            // txtAdvantages
+            // 
+            this.txtAdvantages.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAdvantages.Location = new System.Drawing.Point(287, 198);
+            this.txtAdvantages.Name = "txtAdvantages";
+            this.txtAdvantages.ReadOnly = true;
+            this.txtAdvantages.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
+            this.txtAdvantages.Size = new System.Drawing.Size(258, 63);
+            this.txtAdvantages.TabIndex = 21;
+            this.txtAdvantages.Text = "";
+            // 
+            // lblAdvantages
+            // 
+            this.lblAdvantages.AutoSize = true;
+            this.lblAdvantages.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAdvantages.Location = new System.Drawing.Point(281, 176);
+            this.lblAdvantages.Name = "lblAdvantages";
+            this.lblAdvantages.Size = new System.Drawing.Size(90, 19);
+            this.lblAdvantages.TabIndex = 20;
+            this.lblAdvantages.Text = "Advantages:";
+            // 
+            // txtDisadvantages
+            // 
+            this.txtDisadvantages.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDisadvantages.Location = new System.Drawing.Point(287, 283);
+            this.txtDisadvantages.Name = "txtDisadvantages";
+            this.txtDisadvantages.ReadOnly = true;
+            this.txtDisadvantages.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
+            this.txtDisadvantages.Size = new System.Drawing.Size(258, 56);
+            this.txtDisadvantages.TabIndex = 19;
+            this.txtDisadvantages.Text = "";
+            // 
+            // lblMealPlanDescribe
+            // 
+            this.lblMealPlanDescribe.AutoSize = true;
+            this.lblMealPlanDescribe.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMealPlanDescribe.Location = new System.Drawing.Point(15, 261);
+            this.lblMealPlanDescribe.Name = "lblMealPlanDescribe";
+            this.lblMealPlanDescribe.Size = new System.Drawing.Size(88, 19);
+            this.lblMealPlanDescribe.TabIndex = 18;
+            this.lblMealPlanDescribe.Text = "Description:";
+            // 
+            // rtxtMealDescription
+            // 
+            this.rtxtMealDescription.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rtxtMealDescription.Location = new System.Drawing.Point(19, 283);
+            this.rtxtMealDescription.Name = "rtxtMealDescription";
+            this.rtxtMealDescription.ReadOnly = true;
+            this.rtxtMealDescription.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
+            this.rtxtMealDescription.Size = new System.Drawing.Size(258, 56);
+            this.rtxtMealDescription.TabIndex = 17;
+            this.rtxtMealDescription.Text = "";
+            // 
+            // lblAllergyDescribe
+            // 
+            this.lblAllergyDescribe.AutoSize = true;
+            this.lblAllergyDescribe.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAllergyDescribe.Location = new System.Drawing.Point(283, 24);
+            this.lblAllergyDescribe.Name = "lblAllergyDescribe";
+            this.lblAllergyDescribe.Size = new System.Drawing.Size(88, 19);
+            this.lblAllergyDescribe.TabIndex = 16;
+            this.lblAllergyDescribe.Text = "Description:";
+            // 
+            // btnAddAllergy
+            // 
+            this.btnAddAllergy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(183)))), ((int)(((byte)(43)))));
+            this.btnAddAllergy.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddAllergy.ForeColor = System.Drawing.Color.White;
+            this.btnAddAllergy.Location = new System.Drawing.Point(19, 118);
+            this.btnAddAllergy.Name = "btnAddAllergy";
+            this.btnAddAllergy.Size = new System.Drawing.Size(133, 32);
+            this.btnAddAllergy.TabIndex = 11;
+            this.btnAddAllergy.Text = "Add new allergy";
+            this.btnAddAllergy.UseVisualStyleBackColor = false;
+            // 
+            // lblMealPlans
+            // 
+            this.lblMealPlans.AutoSize = true;
+            this.lblMealPlans.Location = new System.Drawing.Point(15, 153);
+            this.lblMealPlans.Name = "lblMealPlans";
+            this.lblMealPlans.Size = new System.Drawing.Size(409, 23);
+            this.lblMealPlans.TabIndex = 3;
+            this.lblMealPlans.Text = "Please select any mealplans you wish to folow:";
+            // 
+            // rtxtDescription
+            // 
+            this.rtxtDescription.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rtxtDescription.Location = new System.Drawing.Point(287, 46);
+            this.rtxtDescription.Name = "rtxtDescription";
+            this.rtxtDescription.ReadOnly = true;
+            this.rtxtDescription.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
+            this.rtxtDescription.Size = new System.Drawing.Size(258, 66);
+            this.rtxtDescription.TabIndex = 2;
+            this.rtxtDescription.Text = "";
+            // 
+            // lblAllergies
+            // 
+            this.lblAllergies.AutoSize = true;
+            this.lblAllergies.Location = new System.Drawing.Point(15, 1);
+            this.lblAllergies.Name = "lblAllergies";
+            this.lblAllergies.Size = new System.Drawing.Size(247, 23);
+            this.lblAllergies.TabIndex = 1;
+            this.lblAllergies.Text = "Please select your allergies:";
+            // 
+            // lstAllergies
+            // 
+            this.lstAllergies.FormattingEnabled = true;
+            this.lstAllergies.Location = new System.Drawing.Point(19, 27);
+            this.lstAllergies.Name = "lstAllergies";
+            this.lstAllergies.Size = new System.Drawing.Size(258, 85);
+            this.lstAllergies.TabIndex = 0;
+            this.lstAllergies.Click += new System.EventHandler(this.LstAllergies_Click);
+            this.lstAllergies.Enter += new System.EventHandler(this.LstAllergies_Enter);
             // 
             // pbLogo
             // 
@@ -380,156 +528,14 @@
             this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.BtnBack_Click);
             // 
-            // lstAllergies
+            // lstMealplans
             // 
-            this.lstAllergies.FormattingEnabled = true;
-            this.lstAllergies.Location = new System.Drawing.Point(19, 39);
-            this.lstAllergies.Name = "lstAllergies";
-            this.lstAllergies.Size = new System.Drawing.Size(222, 85);
-            this.lstAllergies.TabIndex = 0;
-            // 
-            // lblAllergies
-            // 
-            this.lblAllergies.AutoSize = true;
-            this.lblAllergies.Location = new System.Drawing.Point(15, 13);
-            this.lblAllergies.Name = "lblAllergies";
-            this.lblAllergies.Size = new System.Drawing.Size(428, 23);
-            this.lblAllergies.TabIndex = 1;
-            this.lblAllergies.Text = "Please select allergies to take into consideration:";
-            // 
-            // rtxtDescription
-            // 
-            this.rtxtDescription.Location = new System.Drawing.Point(265, 58);
-            this.rtxtDescription.Name = "rtxtDescription";
-            this.rtxtDescription.ReadOnly = true;
-            this.rtxtDescription.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
-            this.rtxtDescription.Size = new System.Drawing.Size(280, 66);
-            this.rtxtDescription.TabIndex = 2;
-            this.rtxtDescription.Text = "";
-            // 
-            // lblMealPlans
-            // 
-            this.lblMealPlans.AutoSize = true;
-            this.lblMealPlans.Location = new System.Drawing.Point(15, 169);
-            this.lblMealPlans.Name = "lblMealPlans";
-            this.lblMealPlans.Size = new System.Drawing.Size(381, 23);
-            this.lblMealPlans.TabIndex = 3;
-            this.lblMealPlans.Text = "Please select a mealplan you wish to folow:";
-            // 
-            // cbxMealplan
-            // 
-            this.cbxMealplan.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbxMealplan.FormattingEnabled = true;
-            this.cbxMealplan.Location = new System.Drawing.Point(19, 204);
-            this.cbxMealplan.Name = "cbxMealplan";
-            this.cbxMealplan.Size = new System.Drawing.Size(222, 31);
-            this.cbxMealplan.TabIndex = 4;
-            // 
-            // btnAddAllergy
-            // 
-            this.btnAddAllergy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(183)))), ((int)(((byte)(43)))));
-            this.btnAddAllergy.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddAllergy.ForeColor = System.Drawing.Color.White;
-            this.btnAddAllergy.Location = new System.Drawing.Point(19, 130);
-            this.btnAddAllergy.Name = "btnAddAllergy";
-            this.btnAddAllergy.Size = new System.Drawing.Size(133, 32);
-            this.btnAddAllergy.TabIndex = 11;
-            this.btnAddAllergy.Text = "Add new allergy";
-            this.btnAddAllergy.UseVisualStyleBackColor = false;
-            // 
-            // lblAllergyDescribe
-            // 
-            this.lblAllergyDescribe.AutoSize = true;
-            this.lblAllergyDescribe.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAllergyDescribe.Location = new System.Drawing.Point(261, 39);
-            this.lblAllergyDescribe.Name = "lblAllergyDescribe";
-            this.lblAllergyDescribe.Size = new System.Drawing.Size(88, 19);
-            this.lblAllergyDescribe.TabIndex = 16;
-            this.lblAllergyDescribe.Text = "Description:";
-            // 
-            // lblMealPlanDescribe
-            // 
-            this.lblMealPlanDescribe.AutoSize = true;
-            this.lblMealPlanDescribe.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMealPlanDescribe.Location = new System.Drawing.Point(15, 242);
-            this.lblMealPlanDescribe.Name = "lblMealPlanDescribe";
-            this.lblMealPlanDescribe.Size = new System.Drawing.Size(88, 19);
-            this.lblMealPlanDescribe.TabIndex = 18;
-            this.lblMealPlanDescribe.Text = "Description:";
-            // 
-            // rtxtMealDescription
-            // 
-            this.rtxtMealDescription.Location = new System.Drawing.Point(19, 261);
-            this.rtxtMealDescription.Name = "rtxtMealDescription";
-            this.rtxtMealDescription.ReadOnly = true;
-            this.rtxtMealDescription.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
-            this.rtxtMealDescription.Size = new System.Drawing.Size(222, 66);
-            this.rtxtMealDescription.TabIndex = 17;
-            this.rtxtMealDescription.Text = "";
-            // 
-            // lblAdvantages
-            // 
-            this.lblAdvantages.AutoSize = true;
-            this.lblAdvantages.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAdvantages.Location = new System.Drawing.Point(261, 192);
-            this.lblAdvantages.Name = "lblAdvantages";
-            this.lblAdvantages.Size = new System.Drawing.Size(90, 19);
-            this.lblAdvantages.TabIndex = 20;
-            this.lblAdvantages.Text = "Advantages:";
-            // 
-            // txtDisadvantages
-            // 
-            this.txtDisadvantages.Location = new System.Drawing.Point(265, 283);
-            this.txtDisadvantages.Name = "txtDisadvantages";
-            this.txtDisadvantages.ReadOnly = true;
-            this.txtDisadvantages.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
-            this.txtDisadvantages.Size = new System.Drawing.Size(280, 44);
-            this.txtDisadvantages.TabIndex = 19;
-            this.txtDisadvantages.Text = "";
-            // 
-            // lblDisadvantages
-            // 
-            this.lblDisadvantages.AutoSize = true;
-            this.lblDisadvantages.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDisadvantages.Location = new System.Drawing.Point(261, 261);
-            this.lblDisadvantages.Name = "lblDisadvantages";
-            this.lblDisadvantages.Size = new System.Drawing.Size(109, 19);
-            this.lblDisadvantages.TabIndex = 22;
-            this.lblDisadvantages.Text = "Disadvantages:";
-            // 
-            // txtAdvantages
-            // 
-            this.txtAdvantages.Location = new System.Drawing.Point(265, 214);
-            this.txtAdvantages.Name = "txtAdvantages";
-            this.txtAdvantages.ReadOnly = true;
-            this.txtAdvantages.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
-            this.txtAdvantages.Size = new System.Drawing.Size(280, 44);
-            this.txtAdvantages.TabIndex = 21;
-            this.txtAdvantages.Text = "";
-            // 
-            // btnNewMealPlan
-            // 
-            this.btnNewMealPlan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(183)))), ((int)(((byte)(43)))));
-            this.btnNewMealPlan.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNewMealPlan.ForeColor = System.Drawing.Color.White;
-            this.btnNewMealPlan.Location = new System.Drawing.Point(19, 333);
-            this.btnNewMealPlan.Name = "btnNewMealPlan";
-            this.btnNewMealPlan.Size = new System.Drawing.Size(133, 32);
-            this.btnNewMealPlan.TabIndex = 23;
-            this.btnNewMealPlan.Text = "Add new mealplan";
-            this.btnNewMealPlan.UseVisualStyleBackColor = false;
-            // 
-            // btnSavePreferences
-            // 
-            this.btnSavePreferences.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(183)))), ((int)(((byte)(43)))));
-            this.btnSavePreferences.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSavePreferences.ForeColor = System.Drawing.Color.White;
-            this.btnSavePreferences.Location = new System.Drawing.Point(383, 345);
-            this.btnSavePreferences.Name = "btnSavePreferences";
-            this.btnSavePreferences.Size = new System.Drawing.Size(183, 32);
-            this.btnSavePreferences.TabIndex = 24;
-            this.btnSavePreferences.Text = "Save Preferences";
-            this.btnSavePreferences.UseVisualStyleBackColor = false;
+            this.lstMealplans.FormattingEnabled = true;
+            this.lstMealplans.Location = new System.Drawing.Point(19, 179);
+            this.lstMealplans.Name = "lstMealplans";
+            this.lstMealplans.Size = new System.Drawing.Size(258, 85);
+            this.lstMealplans.TabIndex = 25;
+            this.lstMealplans.Click += new System.EventHandler(this.LstMealplans_Click);
             // 
             // frmProfile
             // 
@@ -590,7 +596,6 @@
         private System.Windows.Forms.RichTextBox rtxtDescription;
         private System.Windows.Forms.Label lblAllergies;
         private System.Windows.Forms.CheckedListBox lstAllergies;
-        private System.Windows.Forms.ComboBox cbxMealplan;
         private System.Windows.Forms.Label lblMealPlans;
         private System.Windows.Forms.Button btnAddAllergy;
         private System.Windows.Forms.Label lblAllergyDescribe;
@@ -602,5 +607,6 @@
         private System.Windows.Forms.RichTextBox txtDisadvantages;
         private System.Windows.Forms.Button btnNewMealPlan;
         private System.Windows.Forms.Button btnSavePreferences;
+        private System.Windows.Forms.CheckedListBox lstMealplans;
     }
 }
