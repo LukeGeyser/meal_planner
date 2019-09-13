@@ -54,6 +54,7 @@
             this.txtName = new System.Windows.Forms.TextBox();
             this.lblName = new System.Windows.Forms.Label();
             this.tabPreferences = new System.Windows.Forms.TabPage();
+            this.lstMealplans = new System.Windows.Forms.CheckedListBox();
             this.btnSavePreferences = new System.Windows.Forms.Button();
             this.btnNewMealPlan = new System.Windows.Forms.Button();
             this.lblDisadvantages = new System.Windows.Forms.Label();
@@ -70,7 +71,6 @@
             this.lstAllergies = new System.Windows.Forms.CheckedListBox();
             this.pbLogo = new System.Windows.Forms.PictureBox();
             this.btnBack = new System.Windows.Forms.Button();
-            this.lstMealplans = new System.Windows.Forms.CheckedListBox();
             this.tabProfile.SuspendLayout();
             this.tabPersonal.SuspendLayout();
             this.tabPreferences.SuspendLayout();
@@ -355,6 +355,15 @@
             this.tabPreferences.Text = "App Preferences";
             this.tabPreferences.UseVisualStyleBackColor = true;
             // 
+            // lstMealplans
+            // 
+            this.lstMealplans.FormattingEnabled = true;
+            this.lstMealplans.Location = new System.Drawing.Point(19, 179);
+            this.lstMealplans.Name = "lstMealplans";
+            this.lstMealplans.Size = new System.Drawing.Size(258, 85);
+            this.lstMealplans.TabIndex = 25;
+            this.lstMealplans.Click += new System.EventHandler(this.LstMealplans_Click);
+            // 
             // btnSavePreferences
             // 
             this.btnSavePreferences.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(183)))), ((int)(((byte)(43)))));
@@ -374,10 +383,11 @@
             this.btnNewMealPlan.ForeColor = System.Drawing.Color.White;
             this.btnNewMealPlan.Location = new System.Drawing.Point(19, 345);
             this.btnNewMealPlan.Name = "btnNewMealPlan";
-            this.btnNewMealPlan.Size = new System.Drawing.Size(133, 32);
+            this.btnNewMealPlan.Size = new System.Drawing.Size(146, 32);
             this.btnNewMealPlan.TabIndex = 23;
-            this.btnNewMealPlan.Text = "Add new mealplan";
+            this.btnNewMealPlan.Text = "Add new meal plan";
             this.btnNewMealPlan.UseVisualStyleBackColor = false;
+            this.btnNewMealPlan.Click += new System.EventHandler(this.btnNewMealPlan_Click);
             // 
             // lblDisadvantages
             // 
@@ -459,10 +469,11 @@
             this.btnAddAllergy.ForeColor = System.Drawing.Color.White;
             this.btnAddAllergy.Location = new System.Drawing.Point(19, 118);
             this.btnAddAllergy.Name = "btnAddAllergy";
-            this.btnAddAllergy.Size = new System.Drawing.Size(133, 32);
+            this.btnAddAllergy.Size = new System.Drawing.Size(146, 32);
             this.btnAddAllergy.TabIndex = 11;
             this.btnAddAllergy.Text = "Add new allergy";
             this.btnAddAllergy.UseVisualStyleBackColor = false;
+            this.btnAddAllergy.Click += new System.EventHandler(this.btnAddAllergy_Click);
             // 
             // lblMealPlans
             // 
@@ -527,15 +538,6 @@
             this.btnBack.Text = "Back";
             this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.BtnBack_Click);
-            // 
-            // lstMealplans
-            // 
-            this.lstMealplans.FormattingEnabled = true;
-            this.lstMealplans.Location = new System.Drawing.Point(19, 179);
-            this.lstMealplans.Name = "lstMealplans";
-            this.lstMealplans.Size = new System.Drawing.Size(258, 85);
-            this.lstMealplans.TabIndex = 25;
-            this.lstMealplans.Click += new System.EventHandler(this.LstMealplans_Click);
             // 
             // frmProfile
             // 

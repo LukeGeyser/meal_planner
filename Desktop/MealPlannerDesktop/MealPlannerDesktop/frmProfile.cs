@@ -39,38 +39,45 @@ namespace MealPlannerDesktop
 
         private void FrmProfile_Load(object sender, EventArgs e)
         {
-            txtName.Text = frmSignIn.SuccessfulLogin.FirstName;
-            txtSurname.Text = frmSignIn.SuccessfulLogin.LastName;
-            dtpDOB.Value = frmSignIn.SuccessfulLogin.DOB;
-            txtPhone.Text = frmSignIn.SuccessfulLogin.Phone;
-            txtEmail.Text = frmSignIn.SuccessfulLogin.Email;
-            txtWeight.Text = frmSignIn.SuccessfulLogin.Weight.ToString();
-            txtHeight.Text = frmSignIn.SuccessfulLogin.Height.ToString();
-
-            allergies = DataHandler.GetAllAllergies();
-            selectedAllegies = DataHandler.GetSelectedAllergies(frmSignIn.SuccessfulLogin.Username);
-            lstAllergies.Items.Clear();
-            for(int i = 0; i < allergies.Count; i++)
+            try
             {
-                lstAllergies.Items.Add(allergies[i].AllergyName);
-                if (selectedAllegies.Contains(new UserAllergies(frmSignIn.SuccessfulLogin.Username,
-                    allergies[i].AllergyID)))
+                txtName.Text = frmSignIn.SuccessfulLogin.FirstName;
+                txtSurname.Text = frmSignIn.SuccessfulLogin.LastName;
+                dtpDOB.Value = frmSignIn.SuccessfulLogin.DOB;
+                txtPhone.Text = frmSignIn.SuccessfulLogin.Phone;
+                txtEmail.Text = frmSignIn.SuccessfulLogin.Email;
+                txtWeight.Text = frmSignIn.SuccessfulLogin.Weight.ToString();
+                txtHeight.Text = frmSignIn.SuccessfulLogin.Height.ToString();
+
+                allergies = DataHandler.GetAllAllergies();
+                selectedAllegies = DataHandler.GetSelectedAllergies(frmSignIn.SuccessfulLogin.Username);
+                lstAllergies.Items.Clear();
+                for (int i = 0; i < allergies.Count; i++)
                 {
-                    lstAllergies.SetItemChecked(i, true);
+                    lstAllergies.Items.Add(allergies[i].AllergyName);
+                    if (selectedAllegies.Contains(new UserAllergies(frmSignIn.SuccessfulLogin.Username,
+                        allergies[i].AllergyID)))
+                    {
+                        lstAllergies.SetItemChecked(i, true);
+                    }
+                }
+
+                mealplans = DataHandler.GetAllMealPlans();
+                selectedMealPlans = DataHandler.GetSelectedMealPlans(frmSignIn.SuccessfulLogin.Username);
+                lstMealplans.Items.Clear();
+                for (int i = 0; i < mealplans.Count; i++)
+                {
+                    lstMealplans.Items.Add(mealplans[i].MealPlanName);
+                    if (selectedMealPlans.Contains(new UserMealPlan(frmSignIn.SuccessfulLogin.Username
+                        , mealplans[i].MealPlanID)))
+                    {
+                        lstMealplans.SetItemChecked(i, true);
+                    }
                 }
             }
-
-            mealplans = DataHandler.GetAllMealPlans();
-            selectedMealPlans = DataHandler.GetSelectedMealPlans(frmSignIn.SuccessfulLogin.Username);
-            lstMealplans.Items.Clear();
-            for(int i = 0; i < mealplans.Count; i++)
+            catch (Exception ex)
             {
-                lstMealplans.Items.Add(mealplans[i].MealPlanName);
-                if (selectedMealPlans.Contains(new UserMealPlan(frmSignIn.SuccessfulLogin.Username
-                    , mealplans[i].MealPlanID)))
-                {
-                    lstMealplans.SetItemChecked(i, true);
-                }
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -112,8 +119,6 @@ namespace MealPlannerDesktop
                         txtPassword.Clear();
                         txtConfirmP.Clear();
                     }
-
-
                 }
             }
 
@@ -135,21 +140,63 @@ namespace MealPlannerDesktop
 
         private void LstAllergies_Click(object sender, EventArgs e)
         {
-            if (lstAllergies.SelectedIndex < allergies.Count &&
-                lstAllergies.SelectedIndex > -1)
+            try
             {
-                rtxtDescription.Text = allergies[lstAllergies.SelectedIndex].Description;
+                if (lstAllergies.SelectedIndex < allergies.Count &&
+               lstAllergies.SelectedIndex > -1)
+                {
+                    rtxtDescription.Text = allergies[lstAllergies.SelectedIndex].Description;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
         private void LstMealplans_Click(object sender, EventArgs e)
         {
-            if(lstMealplans.SelectedIndex < mealplans.Count &&
-                lstMealplans.SelectedIndex > -1)
+            try
             {
-                rtxtMealDescription.Text = mealplans[lstMealplans.SelectedIndex].Description;
-                txtAdvantages.Text = mealplans[lstMealplans.SelectedIndex].Advantages;
-                txtDisadvantages.Text = mealplans[lstMealplans.SelectedIndex].Disadvantages;
+                if (lstMealplans.SelectedIndex < mealplans.Count &&
+                lstMealplans.SelectedIndex > -1)
+                {
+                    rtxtMealDescription.Text = mealplans[lstMealplans.SelectedIndex].Description;
+                    txtAdvantages.Text = mealplans[lstMealplans.SelectedIndex].Advantages;
+                    txtDisadvantages.Text = mealplans[lstMealplans.SelectedIndex].Disadvantages;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btnAddAllergy_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                frmAddAllergy fra = new frmAddAllergy();
+                fra.Show();
+                this.Hide();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }            
+        }
+
+        private void btnNewMealPlan_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                frmAddMealPlan frm = new frmAddMealPlan();
+                frm.Show();
+                this.Hide();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

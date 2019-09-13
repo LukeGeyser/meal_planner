@@ -229,5 +229,55 @@ namespace MealPlannerDesktop
             }
             return plans;
         }
+
+        public static void AddAllergy(Allergies allergie)
+        {
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("INSERT INTO tblAllergies (AllergyName, Description) VALUES (@Name, @Desc)", conn);
+                cmd.Parameters.AddWithValue("@Name", allergie.AllergyName);
+                cmd.Parameters.AddWithValue("@Desc", allergie.Description);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Allergy Added!", "Add New Allergy", MessageBoxButtons.OK
+                    , MessageBoxIcon.Information);
+                cmd.Dispose();
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message, "Database error occurred", MessageBoxButtons.OK
+                    , MessageBoxIcon.Error);
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+
+        public static void AddMealPlan(MealPlans meal)
+        {
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("INSERT INTO tblMealPlans (MealPlanName, Description, Advantages, Disadvantages) VALUES (@Name, @Desc, @Advant, @Disadvant)", conn);
+                cmd.Parameters.AddWithValue("@Name", meal.MealPlanName);
+                cmd.Parameters.AddWithValue("@Desc", meal.Description);
+                cmd.Parameters.AddWithValue("@Advant", meal.Advantages);
+                cmd.Parameters.AddWithValue("@Disadvant", meal.Disadvantages);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Meal Plan Added!", "Add New Meal Plan", MessageBoxButtons.OK
+                    , MessageBoxIcon.Information);
+                cmd.Dispose();
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message, "Database error occurred", MessageBoxButtons.OK
+                    , MessageBoxIcon.Error);
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
     }
 }
