@@ -18,5 +18,11 @@ namespace MealPlanner.Models
         public string IconSource { get; set; }
 
         public Type TargetType { get; set; }
+
+        public string ColorHex { get; set; }
+
+        public string TextColorHex { get; set; }
+
+        public string RowDefinition { get; set; }
     }
 }

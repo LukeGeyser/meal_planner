@@ -15,6 +15,7 @@ namespace MealPlanner.Views
         public MenuPage()
         {
             InitializeComponent();
+            //CLICK_ME.VerticalOptions = LayoutOptions.EndAndExpand;
         }
     }
 }

@@ -10,28 +10,41 @@
              Title="Personal Organizer">
     <ContentPage.Content>
         <StackLayout>
+
+            <Grid Padding="5,5,5,-5" VerticalOptions="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Frame BorderColor="Gray">
+                    <Image Source="icon.png" HeightRequest="120"/>
+                </Frame>
+            </Grid>
+            
             <ListView x:Name="listView" x:FieldModifier="public">
                 <ListView.ItemsSource>
                     <x:Array Type="{x:Type vm:HomeMenuItem}">
-                        <vm:HomeMenuItem Title="Home" IconSource="home.png" TargetType="{x:Type local:MainPage}"/>
-                        <vm:HomeMenuItem Title="Profile" IconSource="profile.png" TargetType="{x:Type local:ProfilePage}"/>
+                        <vm:HomeMenuItem Title="Home" IconSource="home.png" TargetType="{x:Type local:MainPage}" ColorHex="#fafafa" TextColorHex="#2d2d2d" RowDefinition="0"/>
+                        <vm:HomeMenuItem Title="Profile" IconSource="profile.png" TargetType="{x:Type local:ProfilePage}" ColorHex="#fafafa" TextColorHex="#2d2d2d" RowDefinition="0"/>
+                        <vm:HomeMenuItem Title="Calorie Calculator" IconSource="calculator.png" TargetType="{x:Type local:CalorieCalculatorPage}" ColorHex="#fafafa" TextColorHex="#2d2d2d" RowDefinition="0"/>
                     </x:Array>
                 </ListView.ItemsSource>
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <Grid Padding="5,10">
+                            <Grid Padding="5,10" BackgroundColor="{Binding ColorHex}" Grid.Row="{Binding RowDefinition}">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="50"/>
                                     <ColumnDefinition Width="*" />
                                 </Grid.ColumnDefinitions>
+
                                 <Image Source="{Binding IconSource}" />
-                                <Label Grid.Column="1" Text="{Binding Title}" FontAttributes="Bold" TextColor="#2d2d2d"/>
+                                <Label Grid.Column="1" Text="{Binding Title}" FontAttributes="Bold" TextColor="{Binding TextColorHex}"/>
                             </Grid>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -279,5 +279,76 @@ namespace MealPlannerDesktop
                 conn.Close();
             }
         }
+
+        public static void RemoveAllPreferences(string username)
+        {
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("DELETE FROM tblUsersAllergies WHERE Username = @user"
+                    , conn);
+                cmd.Parameters.AddWithValue("@user", username);
+                cmd.ExecuteNonQuery();
+                SqlCommand cmd2 = new SqlCommand("DELETE FROM tblUsersMealPlans WHERE Username = @user"
+                    , conn);
+                cmd2.Parameters.AddWithValue("@user", username);
+                cmd2.ExecuteNonQuery();
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message, "Database error occurred", MessageBoxButtons.OK
+                    , MessageBoxIcon.Error);
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+
+        public static void AddSelectedAllergy(string username,Allergies chosen)
+        {
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("INSERT INTO tblUsersAllergies(Username,AllergyID)"
+                    + " VALUES(@user,@allergy)", conn);
+                cmd.Parameters.AddWithValue("@user", username);
+                cmd.Parameters.AddWithValue("@allergy", chosen.AllergyID);
+                cmd.ExecuteNonQuery();
+                
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message, "Database error occurred", MessageBoxButtons.OK
+                    , MessageBoxIcon.Error);
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+
+        public static void AddSelectedMealplans(string username, MealPlans chosen)
+        {
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("INSERT INTO tblUsersMealPlans(Username,MealPlanID)"
+                    + " VALUES(@user,@plan)", conn);
+                cmd.Parameters.AddWithValue("@user", username);
+                cmd.Parameters.AddWithValue("@plan", chosen.MealPlanID);
+                cmd.ExecuteNonQuery();
+
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message, "Database error occurred", MessageBoxButtons.OK
+                    , MessageBoxIcon.Error);
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
     }
 }

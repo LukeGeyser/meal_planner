@@ -33,7 +33,7 @@ namespace MealPlanner
         {
             // Handle when your app starts
             MainPage = new SignInPage();
-            await mapsAPI.PopulateMaps(MapsResults, "-26.152755799999998", "28.3111148");
+            //await mapsAPI.PopulateMaps(MapsResults, "-26.152755799999998", "28.3111148");
         }
 
         protected override void OnSleep()

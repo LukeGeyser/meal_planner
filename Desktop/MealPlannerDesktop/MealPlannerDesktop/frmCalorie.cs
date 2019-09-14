@@ -22,8 +22,10 @@ namespace MealPlannerDesktop
             try
             {
                 int count = Convert.ToInt32(nudMeal.Value);
-                double mealc = Math.Round(double.Parse(txtCal.Text) / count, 2);
-                txtCalMeal.Text = mealc.ToString();
+                // Changed this so it doesnt Display Infinity, Can remove comment
+                // just wanted to show where I changed the code 
+                if (count != 0) txtCalMeal.Text = Math.Round(double.Parse(txtCal.Text) / count, 2).ToString();
+                else txtCalMeal.Text = "0";
             }
             catch (Exception ex)
             {

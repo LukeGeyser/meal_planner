@@ -375,6 +375,7 @@
             this.btnSavePreferences.TabIndex = 24;
             this.btnSavePreferences.Text = "Save Preferences";
             this.btnSavePreferences.UseVisualStyleBackColor = false;
+            this.btnSavePreferences.Click += new System.EventHandler(this.BtnSavePreferences_Click);
             // 
             // btnNewMealPlan
             // 
