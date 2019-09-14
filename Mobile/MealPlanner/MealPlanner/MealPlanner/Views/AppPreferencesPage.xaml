@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MealPlanner.Views.AppPreferencesPage"
+             xmlns:vm="clr-namespace:MealPlanner.Models"
+             xmlns:local="clr-namespace:MealPlanner.Views"
+             xmlns:controls="clr-namespace:MealPlanner.Custom_Renderer"
+             Title="App Preferences">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Primary-Green">#669e2f</Color>
+            <Color x:Key="Accent">#669e2f</Color>
+            <Color x:Key="LightTextColor">#2d2d2d</Color>
+            <Color x:Key="OffWhiteTextColor">#ebebeb</Color>
+            <Color x:Key="alert">#db5151</Color>
+            <Color x:Key="dark-theme-grey">#2d2d2d</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout Margin="5,5,5,5">
+
+            <!-- ALERGIES -->
+            <Frame CornerRadius="5"
+                   BackgroundColor="{StaticResource Primary-Green}"
+                   Padding="0,2,0,2">
+                <Label HorizontalOptions="Center"
+                       TextColor="{StaticResource OffWhiteTextColor}">Please Select Your Allergies</Label>
+            </Frame>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <ListView x:Name="AllergiesList" x:FieldModifier="public" ItemsSource="{Binding Alergies}"
+                          ItemSelected="AllergiesList_ItemSelected">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell Tapped="ViewCell_Tapped">
+                                <Grid Padding="5,10">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="50"/>
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <CheckBox IsEnabled="False" IsChecked="{Binding IsChecked}"></CheckBox>
+                                    <Label Grid.Column="1" Text="{Binding Name}" FontAttributes="Bold"/>
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+                <ScrollView Grid.Row="2">
+                    <StackLayout>
+                        <Label Text="Description:"
+                       TextColor="{StaticResource dark-theme-grey}" 
+                       FontAttributes="Bold"/>
+                        <Label  x:Name="Description"
+                       TextColor="{StaticResource Primary-Green}"/>
+                        
+                    </StackLayout>
+                </ScrollView>
+
+            </Grid>
+
+            
+
+            <!-- MEAL PLANS -->
+            <Frame CornerRadius="5"
+                   BackgroundColor="{StaticResource Primary-Green}"
+                   Padding="0,2,0,2">
+                <Label HorizontalOptions="Center"
+                       TextColor="{StaticResource OffWhiteTextColor}">Please Select Your Allergies</Label>
+            </Frame>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -119,5 +119,60 @@ namespace MealPlanner.Services
             }
         }
 
+        public List<Allergies> GetAllAllergies()
+        {
+            List<Allergies> allergies = new List<Allergies>();
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT * FROM tblAllergies", conn);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    allergies.Add(new Allergies(Convert.ToInt32(reader["AllergyID"])
+                        , reader["AllergyName"].ToString(), reader["Description"].ToString()));
+                }
+                cmd.Dispose();
+            }
+            catch (Exception)
+            {
+                
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return allergies;
+
+        }
+
+        public List<UserAllergies> GetSelectedAllergies(string username)
+        {
+            List<UserAllergies> chosen = new List<UserAllergies>();
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT * FROM tblUsersAllergies WHERE "
+                    + "Username = @user", conn);
+                cmd.Parameters.AddWithValue("@user", username);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    chosen.Add(new UserAllergies(reader["Username"].ToString()
+                        , Convert.ToInt32(reader["AllergyID"])));
+                }
+                cmd.Dispose();
+            }
+            catch (Exception)
+            {
+
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return chosen;
+        }
+
     }
 }

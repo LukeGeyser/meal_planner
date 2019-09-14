@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MealPlannerDesktop
+namespace MealPlanner.Models
 {
-    class Allergies
+    public class Allergies
     {
         private int allergyID;
         private string allergyName, description;
