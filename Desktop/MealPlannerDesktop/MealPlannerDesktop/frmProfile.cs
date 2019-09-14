@@ -243,7 +243,7 @@ namespace MealPlannerDesktop
                             , mealplans[i]);
                     }
                 }
-                MessageBox.Show("Your preferences have been saved.", "Save", MessageBoxButtons.OK,
+                MessageBox.Show("Your preferences have been saved.", "Saved", MessageBoxButtons.OK,
                     MessageBoxIcon.Information);
             }
             catch (Exception ex)
