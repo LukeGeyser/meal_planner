@@ -55,11 +55,23 @@ namespace MealPlannerDesktop
                 for (int i = 0; i < allergies.Count; i++)
                 {
                     lstAllergies.Items.Add(allergies[i].AllergyName);
-                    if (selectedAllegies.Contains(new UserAllergies(frmSignIn.SuccessfulLogin.Username,
-                        allergies[i].AllergyID)))
+                    bool found = false;
+                    int count = 0;
+                    while(found == false && count < selectedAllegies.Count)
                     {
-                        lstAllergies.SetItemChecked(i, true);
+                        if (selectedAllegies[count].AllergyID == allergies[i].AllergyID)
+                        {
+                            found = true;
+                            lstAllergies.SetItemChecked(i, true);
+                        }
+                        else
+                        {
+                            found = false;
+                            count++;
+                        }
                     }
+
+                    
                 }
 
                 mealplans = DataHandler.GetAllMealPlans();
@@ -68,10 +80,20 @@ namespace MealPlannerDesktop
                 for (int i = 0; i < mealplans.Count; i++)
                 {
                     lstMealplans.Items.Add(mealplans[i].MealPlanName);
-                    if (selectedMealPlans.Contains(new UserMealPlan(frmSignIn.SuccessfulLogin.Username
-                        , mealplans[i].MealPlanID)))
+                    bool found = false;
+                    int count = 0;
+                    while (found == false && count < selectedMealPlans.Count)
                     {
-                        lstMealplans.SetItemChecked(i, true);
+                        if (selectedMealPlans[count].MealPlanID == mealplans[i].MealPlanID)
+                        {
+                            found = true;
+                            lstMealplans.SetItemChecked(i, true);
+                        }
+                        else
+                        {
+                            found = false;
+                            count++;
+                        }
                     }
                 }
             }
@@ -193,6 +215,36 @@ namespace MealPlannerDesktop
                 frmAddMealPlan frm = new frmAddMealPlan();
                 frm.Show();
                 this.Hide();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void BtnSavePreferences_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                DataHandler.RemoveAllPreferences(frmSignIn.SuccessfulLogin.Username);
+                for(int i = 0; i < lstAllergies.Items.Count; i++)
+                {
+                    if(Convert.ToBoolean(lstAllergies.GetItemCheckState(i)) == true)
+                    {
+                        DataHandler.AddSelectedAllergy(frmSignIn.SuccessfulLogin.Username
+                            , allergies[i]);
+                    }
+                }
+                for (int i = 0; i < lstMealplans.Items.Count; i++)
+                {
+                    if (Convert.ToBoolean(lstMealplans.GetItemCheckState(i)) == true)
+                    {
+                        DataHandler.AddSelectedMealplans(frmSignIn.SuccessfulLogin.Username
+                            , mealplans[i]);
+                    }
+                }
+                MessageBox.Show("Your preferences have been saved.", "Save", MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
