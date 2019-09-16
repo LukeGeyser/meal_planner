@@ -1246,7 +1246,7 @@
           "lib/netstandard2.0/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.2.0.709249": {
+      "Xamarin.Forms/4.2.0.778463": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
@@ -4640,10 +4640,10 @@
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/4.2.0.709249": {
-      "sha512": "3DWqPSn9kSKJW5mwjmICV/+4IpPQrequEN1VXUhsF0i9KKnfj49jFk9VbJnT9o2aesJAk00NED67XPbSmbxKjw==",
+    "Xamarin.Forms/4.2.0.778463": {
+      "sha512": "0dGuPOn9KrS65rmVgOrV5knDYHxWkWEm7c/CLp6AKSlvOpZ40+YrN+7oX5hHE6lpX+dizLCaOE/RvYS3ONy9/Q==",
       "type": "package",
-      "path": "xamarin.forms/4.2.0.709249",
+      "path": "xamarin.forms/4.2.0.778463",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4882,7 +4882,7 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.4.2.0.709249.nupkg.sha512",
+        "xamarin.forms.4.2.0.778463.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     }
@@ -4893,7 +4893,7 @@
       "NETStandard.Library >= 2.0.3",
       "System.Data.SqlClient >= 4.6.1",
       "Xamarin.Essentials >= 1.3.0",
-      "Xamarin.Forms >= 4.2.0.709249"
+      "Xamarin.Forms >= 4.2.0.778463"
     ]
   },
   "packageFolders": {
@@ -4960,7 +4960,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[4.2.0.709249, )"
+            "version": "[4.2.0.778463, )"
           }
         },
         "imports": [

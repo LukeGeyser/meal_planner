@@ -174,5 +174,58 @@ namespace MealPlanner.Services
             return chosen;
         }
 
+        public List<MealPlans> GetAllMealPlans()
+        {
+            List<MealPlans> plans = new List<MealPlans>();
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT * FROM tblMealPlans", conn);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    plans.Add(new MealPlans(Convert.ToInt32(reader["MealPlanID"]),
+                        reader["MealPlanName"].ToString(), reader["Description"].ToString(),
+                        reader["Advantages"].ToString(), reader["Disadvantages"].ToString()));
+                }
+                cmd.Dispose();
+            }
+            catch (Exception)
+            {
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return plans;
+        }
+
+        public List<UserMealPlan> GetSelectedMealPlans(string username)
+        {
+            List<UserMealPlan> plans = new List<UserMealPlan>();
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT * FROM tblUsersMealPlans WHERE "
+                    + " Username = @user", conn);
+                cmd.Parameters.AddWithValue("@user", username);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    plans.Add(new UserMealPlan(reader["Username"].ToString(),
+                        Convert.ToInt32(reader["MealPlanID"])));
+                }
+                cmd.Dispose();
+            }
+            catch (Exception)
+            {
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return plans;
+        }
+
     }
 }

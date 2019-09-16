@@ -38,7 +38,8 @@
                    Placeholder="Enter Your Username"
                    TextColor="{StaticResource LightTextColor}"
                    PlaceholderColor="{StaticResource LightTextColor}"
-                   x:Name="Username"></Entry>
+                   x:Name="Username"
+                   Text="Test"></Entry>
 
             <Label Text="Password:" 
                    TextColor="{StaticResource LightTextColor}"
@@ -51,7 +52,8 @@
                    PlaceholderColor="{StaticResource LightTextColor}"
                    Margin="0,0,0,0"
                    x:Name="Password"
-                   IsPassword="True"></Entry>
+                   IsPassword="True"
+                   Text="12345"></Entry>
 
             <Label x:Name="Error"
                    Text="Username and Password are Incorrect!"

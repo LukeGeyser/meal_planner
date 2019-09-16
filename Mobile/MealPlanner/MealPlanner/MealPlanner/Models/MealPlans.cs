@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MealPlanner.Models
 {
-    class MealPlans
+    public class MealPlans
     {
         private int mealPlanID;
         private string mealPlanName, description, advantages, disadvantages;

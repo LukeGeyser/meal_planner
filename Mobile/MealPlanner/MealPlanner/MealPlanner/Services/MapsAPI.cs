@@ -13,7 +13,6 @@ namespace MealPlanner.Services
 {
     class MapsAPI
     {
-
         private string url = String.Format("https://maps.googleapis.com/maps/api/place/nearbysearch/json?");
 
         private const string _PrivateKey = "AIzaSyCxTWHUpzXjM1twanD2-wMkYCBRnx7v7DE";
