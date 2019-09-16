@@ -34,28 +34,29 @@
             this.lblRecipeName = new System.Windows.Forms.Label();
             this.btnSearch = new System.Windows.Forms.Button();
             this.pnlRecipe = new System.Windows.Forms.Panel();
+            this.btnProducts = new System.Windows.Forms.Button();
+            this.lstAllergies = new System.Windows.Forms.ListBox();
+            this.lstMealplans = new System.Windows.Forms.ListBox();
+            this.lblAllergies = new System.Windows.Forms.Label();
+            this.lblMealplans = new System.Windows.Forms.Label();
+            this.picPreview = new System.Windows.Forms.PictureBox();
+            this.lblDifficultyValue = new System.Windows.Forms.Label();
+            this.lblDifficult = new System.Windows.Forms.Label();
+            this.lblTimeToPrepare = new System.Windows.Forms.Label();
+            this.lblTime = new System.Windows.Forms.Label();
+            this.rtxtInstructions = new System.Windows.Forms.RichTextBox();
+            this.lblInstructions = new System.Windows.Forms.Label();
+            this.rtxtDescription = new System.Windows.Forms.RichTextBox();
+            this.lblDescription = new System.Windows.Forms.Label();
+            this.lblRecipeNameValue = new System.Windows.Forms.Label();
+            this.lblName = new System.Windows.Forms.Label();
             this.btnPrevious = new System.Windows.Forms.Button();
             this.tnNext = new System.Windows.Forms.Button();
-            this.lblName = new System.Windows.Forms.Label();
-            this.lblRecipeNameValue = new System.Windows.Forms.Label();
-            this.lblDescription = new System.Windows.Forms.Label();
-            this.rtxtDescription = new System.Windows.Forms.RichTextBox();
-            this.lblInstructions = new System.Windows.Forms.Label();
-            this.rtxtInstructions = new System.Windows.Forms.RichTextBox();
-            this.lblTime = new System.Windows.Forms.Label();
-            this.lblTimeToPrepare = new System.Windows.Forms.Label();
-            this.lblDifficult = new System.Windows.Forms.Label();
-            this.lblDifficultyValue = new System.Windows.Forms.Label();
-            this.picPreview = new System.Windows.Forms.PictureBox();
-            this.lblMealplans = new System.Windows.Forms.Label();
-            this.lblAllergies = new System.Windows.Forms.Label();
-            this.lstMealplans = new System.Windows.Forms.ListBox();
-            this.lstAllergies = new System.Windows.Forms.ListBox();
             this.btnBack = new System.Windows.Forms.Button();
             this.gbxSearch = new System.Windows.Forms.GroupBox();
-            this.radAll = new System.Windows.Forms.RadioButton();
             this.radPreference = new System.Windows.Forms.RadioButton();
-            this.btnProducts = new System.Windows.Forms.Button();
+            this.radAll = new System.Windows.Forms.RadioButton();
+            this.lblTimeUnit = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             this.pnlRecipe.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picPreview)).BeginInit();
@@ -109,6 +110,7 @@
             // 
             this.pnlRecipe.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.pnlRecipe.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnlRecipe.Controls.Add(this.lblTimeUnit);
             this.pnlRecipe.Controls.Add(this.btnProducts);
             this.pnlRecipe.Controls.Add(this.lstAllergies);
             this.pnlRecipe.Controls.Add(this.lstMealplans);
@@ -131,6 +133,156 @@
             this.pnlRecipe.Size = new System.Drawing.Size(835, 296);
             this.pnlRecipe.TabIndex = 52;
             // 
+            // btnProducts
+            // 
+            this.btnProducts.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(183)))), ((int)(((byte)(43)))));
+            this.btnProducts.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProducts.ForeColor = System.Drawing.Color.White;
+            this.btnProducts.Location = new System.Drawing.Point(474, 248);
+            this.btnProducts.Name = "btnProducts";
+            this.btnProducts.Size = new System.Drawing.Size(185, 32);
+            this.btnProducts.TabIndex = 52;
+            this.btnProducts.Text = "View Products Required";
+            this.btnProducts.UseVisualStyleBackColor = false;
+            // 
+            // lstAllergies
+            // 
+            this.lstAllergies.FormattingEnabled = true;
+            this.lstAllergies.ItemHeight = 17;
+            this.lstAllergies.Location = new System.Drawing.Point(665, 180);
+            this.lstAllergies.Name = "lstAllergies";
+            this.lstAllergies.Size = new System.Drawing.Size(153, 89);
+            this.lstAllergies.TabIndex = 14;
+            // 
+            // lstMealplans
+            // 
+            this.lstMealplans.FormattingEnabled = true;
+            this.lstMealplans.ItemHeight = 17;
+            this.lstMealplans.Location = new System.Drawing.Point(665, 37);
+            this.lstMealplans.Name = "lstMealplans";
+            this.lstMealplans.Size = new System.Drawing.Size(153, 89);
+            this.lstMealplans.TabIndex = 13;
+            // 
+            // lblAllergies
+            // 
+            this.lblAllergies.Location = new System.Drawing.Point(662, 136);
+            this.lblAllergies.Name = "lblAllergies";
+            this.lblAllergies.Size = new System.Drawing.Size(156, 41);
+            this.lblAllergies.TabIndex = 12;
+            this.lblAllergies.Text = "Not suitable for people with following allergies:";
+            // 
+            // lblMealplans
+            // 
+            this.lblMealplans.AutoSize = true;
+            this.lblMealplans.Location = new System.Drawing.Point(662, 17);
+            this.lblMealplans.Name = "lblMealplans";
+            this.lblMealplans.Size = new System.Drawing.Size(142, 17);
+            this.lblMealplans.TabIndex = 11;
+            this.lblMealplans.Text = "Suitable for Mealplans:";
+            // 
+            // picPreview
+            // 
+            this.picPreview.Location = new System.Drawing.Point(474, 28);
+            this.picPreview.Name = "picPreview";
+            this.picPreview.Size = new System.Drawing.Size(182, 169);
+            this.picPreview.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPreview.TabIndex = 10;
+            this.picPreview.TabStop = false;
+            // 
+            // lblDifficultyValue
+            // 
+            this.lblDifficultyValue.AutoSize = true;
+            this.lblDifficultyValue.Location = new System.Drawing.Point(587, 228);
+            this.lblDifficultyValue.Name = "lblDifficultyValue";
+            this.lblDifficultyValue.Size = new System.Drawing.Size(35, 17);
+            this.lblDifficultyValue.TabIndex = 9;
+            this.lblDifficultyValue.Text = "easy";
+            // 
+            // lblDifficult
+            // 
+            this.lblDifficult.AutoSize = true;
+            this.lblDifficult.Location = new System.Drawing.Point(486, 228);
+            this.lblDifficult.Name = "lblDifficult";
+            this.lblDifficult.Size = new System.Drawing.Size(66, 17);
+            this.lblDifficult.TabIndex = 8;
+            this.lblDifficult.Text = "Difficulty:";
+            // 
+            // lblTimeToPrepare
+            // 
+            this.lblTimeToPrepare.AutoSize = true;
+            this.lblTimeToPrepare.Location = new System.Drawing.Point(587, 200);
+            this.lblTimeToPrepare.Name = "lblTimeToPrepare";
+            this.lblTimeToPrepare.Size = new System.Drawing.Size(33, 17);
+            this.lblTimeToPrepare.TabIndex = 7;
+            this.lblTimeToPrepare.Text = "time";
+            this.lblTimeToPrepare.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // lblTime
+            // 
+            this.lblTime.AutoSize = true;
+            this.lblTime.Location = new System.Drawing.Point(486, 200);
+            this.lblTime.Name = "lblTime";
+            this.lblTime.Size = new System.Drawing.Size(104, 17);
+            this.lblTime.TabIndex = 6;
+            this.lblTime.Text = "Time to prepare:";
+            // 
+            // rtxtInstructions
+            // 
+            this.rtxtInstructions.Location = new System.Drawing.Point(127, 114);
+            this.rtxtInstructions.Name = "rtxtInstructions";
+            this.rtxtInstructions.ReadOnly = true;
+            this.rtxtInstructions.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
+            this.rtxtInstructions.Size = new System.Drawing.Size(340, 155);
+            this.rtxtInstructions.TabIndex = 5;
+            this.rtxtInstructions.Text = "";
+            // 
+            // lblInstructions
+            // 
+            this.lblInstructions.AutoSize = true;
+            this.lblInstructions.Location = new System.Drawing.Point(18, 114);
+            this.lblInstructions.Name = "lblInstructions";
+            this.lblInstructions.Size = new System.Drawing.Size(79, 17);
+            this.lblInstructions.TabIndex = 4;
+            this.lblInstructions.Text = "Instructions:";
+            // 
+            // rtxtDescription
+            // 
+            this.rtxtDescription.Location = new System.Drawing.Point(127, 44);
+            this.rtxtDescription.Name = "rtxtDescription";
+            this.rtxtDescription.ReadOnly = true;
+            this.rtxtDescription.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
+            this.rtxtDescription.Size = new System.Drawing.Size(340, 61);
+            this.rtxtDescription.TabIndex = 3;
+            this.rtxtDescription.Text = "";
+            // 
+            // lblDescription
+            // 
+            this.lblDescription.AutoSize = true;
+            this.lblDescription.Location = new System.Drawing.Point(18, 44);
+            this.lblDescription.Name = "lblDescription";
+            this.lblDescription.Size = new System.Drawing.Size(78, 17);
+            this.lblDescription.TabIndex = 2;
+            this.lblDescription.Text = "Description:";
+            // 
+            // lblRecipeNameValue
+            // 
+            this.lblRecipeNameValue.AutoSize = true;
+            this.lblRecipeNameValue.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRecipeNameValue.Location = new System.Drawing.Point(124, 17);
+            this.lblRecipeNameValue.Name = "lblRecipeNameValue";
+            this.lblRecipeNameValue.Size = new System.Drawing.Size(112, 17);
+            this.lblRecipeNameValue.TabIndex = 1;
+            this.lblRecipeNameValue.Text = "Name of Recipe";
+            // 
+            // lblName
+            // 
+            this.lblName.AutoSize = true;
+            this.lblName.Location = new System.Drawing.Point(15, 17);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(92, 17);
+            this.lblName.TabIndex = 0;
+            this.lblName.Text = "Recipe Name:";
+            // 
             // btnPrevious
             // 
             this.btnPrevious.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(183)))), ((int)(((byte)(43)))));
@@ -142,6 +294,7 @@
             this.btnPrevious.TabIndex = 53;
             this.btnPrevious.Text = "< Previous Recipe";
             this.btnPrevious.UseVisualStyleBackColor = false;
+            this.btnPrevious.Click += new System.EventHandler(this.BtnPrevious_Click);
             // 
             // tnNext
             // 
@@ -154,143 +307,7 @@
             this.tnNext.TabIndex = 54;
             this.tnNext.Text = "Next Recipe >";
             this.tnNext.UseVisualStyleBackColor = false;
-            // 
-            // lblName
-            // 
-            this.lblName.AutoSize = true;
-            this.lblName.Location = new System.Drawing.Point(15, 17);
-            this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(92, 17);
-            this.lblName.TabIndex = 0;
-            this.lblName.Text = "Recipe Name:";
-            // 
-            // lblRecipeNameValue
-            // 
-            this.lblRecipeNameValue.AutoSize = true;
-            this.lblRecipeNameValue.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRecipeNameValue.Location = new System.Drawing.Point(124, 17);
-            this.lblRecipeNameValue.Name = "lblRecipeNameValue";
-            this.lblRecipeNameValue.Size = new System.Drawing.Size(112, 17);
-            this.lblRecipeNameValue.TabIndex = 1;
-            this.lblRecipeNameValue.Text = "Name of Recipe";
-            // 
-            // lblDescription
-            // 
-            this.lblDescription.AutoSize = true;
-            this.lblDescription.Location = new System.Drawing.Point(18, 44);
-            this.lblDescription.Name = "lblDescription";
-            this.lblDescription.Size = new System.Drawing.Size(78, 17);
-            this.lblDescription.TabIndex = 2;
-            this.lblDescription.Text = "Description:";
-            // 
-            // rtxtDescription
-            // 
-            this.rtxtDescription.Location = new System.Drawing.Point(127, 44);
-            this.rtxtDescription.Name = "rtxtDescription";
-            this.rtxtDescription.ReadOnly = true;
-            this.rtxtDescription.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
-            this.rtxtDescription.Size = new System.Drawing.Size(340, 61);
-            this.rtxtDescription.TabIndex = 3;
-            this.rtxtDescription.Text = "";
-            // 
-            // lblInstructions
-            // 
-            this.lblInstructions.AutoSize = true;
-            this.lblInstructions.Location = new System.Drawing.Point(18, 114);
-            this.lblInstructions.Name = "lblInstructions";
-            this.lblInstructions.Size = new System.Drawing.Size(79, 17);
-            this.lblInstructions.TabIndex = 4;
-            this.lblInstructions.Text = "Instructions:";
-            // 
-            // rtxtInstructions
-            // 
-            this.rtxtInstructions.Location = new System.Drawing.Point(127, 114);
-            this.rtxtInstructions.Name = "rtxtInstructions";
-            this.rtxtInstructions.ReadOnly = true;
-            this.rtxtInstructions.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
-            this.rtxtInstructions.Size = new System.Drawing.Size(340, 155);
-            this.rtxtInstructions.TabIndex = 5;
-            this.rtxtInstructions.Text = "";
-            // 
-            // lblTime
-            // 
-            this.lblTime.AutoSize = true;
-            this.lblTime.Location = new System.Drawing.Point(486, 200);
-            this.lblTime.Name = "lblTime";
-            this.lblTime.Size = new System.Drawing.Size(104, 17);
-            this.lblTime.TabIndex = 6;
-            this.lblTime.Text = "Time to prepare:";
-            // 
-            // lblTimeToPrepare
-            // 
-            this.lblTimeToPrepare.AutoSize = true;
-            this.lblTimeToPrepare.Location = new System.Drawing.Point(596, 200);
-            this.lblTimeToPrepare.Name = "lblTimeToPrepare";
-            this.lblTimeToPrepare.Size = new System.Drawing.Size(33, 17);
-            this.lblTimeToPrepare.TabIndex = 7;
-            this.lblTimeToPrepare.Text = "time";
-            // 
-            // lblDifficult
-            // 
-            this.lblDifficult.AutoSize = true;
-            this.lblDifficult.Location = new System.Drawing.Point(486, 228);
-            this.lblDifficult.Name = "lblDifficult";
-            this.lblDifficult.Size = new System.Drawing.Size(66, 17);
-            this.lblDifficult.TabIndex = 8;
-            this.lblDifficult.Text = "Difficulty:";
-            // 
-            // lblDifficultyValue
-            // 
-            this.lblDifficultyValue.AutoSize = true;
-            this.lblDifficultyValue.Location = new System.Drawing.Point(596, 228);
-            this.lblDifficultyValue.Name = "lblDifficultyValue";
-            this.lblDifficultyValue.Size = new System.Drawing.Size(35, 17);
-            this.lblDifficultyValue.TabIndex = 9;
-            this.lblDifficultyValue.Text = "easy";
-            // 
-            // picPreview
-            // 
-            this.picPreview.Location = new System.Drawing.Point(489, 37);
-            this.picPreview.Name = "picPreview";
-            this.picPreview.Size = new System.Drawing.Size(157, 148);
-            this.picPreview.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPreview.TabIndex = 10;
-            this.picPreview.TabStop = false;
-            // 
-            // lblMealplans
-            // 
-            this.lblMealplans.AutoSize = true;
-            this.lblMealplans.Location = new System.Drawing.Point(662, 17);
-            this.lblMealplans.Name = "lblMealplans";
-            this.lblMealplans.Size = new System.Drawing.Size(142, 17);
-            this.lblMealplans.TabIndex = 11;
-            this.lblMealplans.Text = "Suitable for Mealplans:";
-            // 
-            // lblAllergies
-            // 
-            this.lblAllergies.Location = new System.Drawing.Point(662, 136);
-            this.lblAllergies.Name = "lblAllergies";
-            this.lblAllergies.Size = new System.Drawing.Size(156, 41);
-            this.lblAllergies.TabIndex = 12;
-            this.lblAllergies.Text = "Not suitable for people with following allergies:";
-            // 
-            // lstMealplans
-            // 
-            this.lstMealplans.FormattingEnabled = true;
-            this.lstMealplans.ItemHeight = 17;
-            this.lstMealplans.Location = new System.Drawing.Point(665, 37);
-            this.lstMealplans.Name = "lstMealplans";
-            this.lstMealplans.Size = new System.Drawing.Size(153, 89);
-            this.lstMealplans.TabIndex = 13;
-            // 
-            // lstAllergies
-            // 
-            this.lstAllergies.FormattingEnabled = true;
-            this.lstAllergies.ItemHeight = 17;
-            this.lstAllergies.Location = new System.Drawing.Point(665, 180);
-            this.lstAllergies.Name = "lstAllergies";
-            this.lstAllergies.Size = new System.Drawing.Size(153, 89);
-            this.lstAllergies.TabIndex = 14;
+            this.tnNext.Click += new System.EventHandler(this.TnNext_Click);
             // 
             // btnBack
             // 
@@ -317,6 +334,17 @@
             this.gbxSearch.TabStop = false;
             this.gbxSearch.Text = "Search Options:";
             // 
+            // radPreference
+            // 
+            this.radPreference.AutoSize = true;
+            this.radPreference.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.radPreference.Location = new System.Drawing.Point(188, 21);
+            this.radPreference.Name = "radPreference";
+            this.radPreference.Size = new System.Drawing.Size(195, 21);
+            this.radPreference.TabIndex = 1;
+            this.radPreference.Text = "Search by own Preferences";
+            this.radPreference.UseVisualStyleBackColor = true;
+            // 
             // radAll
             // 
             this.radAll.AutoSize = true;
@@ -330,28 +358,14 @@
             this.radAll.Text = "Search All";
             this.radAll.UseVisualStyleBackColor = true;
             // 
-            // radPreference
+            // lblTimeUnit
             // 
-            this.radPreference.AutoSize = true;
-            this.radPreference.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.radPreference.Location = new System.Drawing.Point(188, 21);
-            this.radPreference.Name = "radPreference";
-            this.radPreference.Size = new System.Drawing.Size(195, 21);
-            this.radPreference.TabIndex = 1;
-            this.radPreference.Text = "Search by own Preferences";
-            this.radPreference.UseVisualStyleBackColor = true;
-            // 
-            // btnProducts
-            // 
-            this.btnProducts.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(183)))), ((int)(((byte)(43)))));
-            this.btnProducts.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProducts.ForeColor = System.Drawing.Color.White;
-            this.btnProducts.Location = new System.Drawing.Point(474, 248);
-            this.btnProducts.Name = "btnProducts";
-            this.btnProducts.Size = new System.Drawing.Size(185, 32);
-            this.btnProducts.TabIndex = 52;
-            this.btnProducts.Text = "View Products Required";
-            this.btnProducts.UseVisualStyleBackColor = false;
+            this.lblTimeUnit.AutoSize = true;
+            this.lblTimeUnit.Location = new System.Drawing.Point(624, 200);
+            this.lblTimeUnit.Name = "lblTimeUnit";
+            this.lblTimeUnit.Size = new System.Drawing.Size(35, 17);
+            this.lblTimeUnit.TabIndex = 53;
+            this.lblTimeUnit.Text = "mins";
             // 
             // frmBrowseRecipes
             // 
@@ -416,5 +430,6 @@
         private System.Windows.Forms.RadioButton radPreference;
         private System.Windows.Forms.RadioButton radAll;
         private System.Windows.Forms.Button btnProducts;
+        private System.Windows.Forms.Label lblTimeUnit;
     }
 }

@@ -19,7 +19,7 @@ namespace MealPlannerDesktop
         public string Instructions { get => instructions; set => instructions = value; }
         public string Difficulty { get => difficulty; set => difficulty = value; }
         public int TimeToPrepare { get => timeToPrepare; set => timeToPrepare = value; }
-        public string Imagepreview { get => imagepreview; set => imagepreview = value; }
+        public string ImagePreview { get => imagepreview; set => imagepreview = value; }
 
         public Recipes()
         {

@@ -17,15 +17,87 @@ namespace MealPlannerDesktop
             InitializeComponent();
         }
 
-        List<Recipes> AllRecipes = DataHandler.GetAllRecipes();
+        List<Recipes> AllRecipes;
+        BindingSource bs = new BindingSource();
+
+        private void CreateBindings()
+        {
+            AllRecipes = DataHandler.GetAllRecipes();
+            bs.DataSource = AllRecipes;
+            lblRecipeNameValue.DataBindings.Add("Text", bs, "RecipeName");
+            rtxtDescription.DataBindings.Add("Text", bs, "ShortDescription");
+            rtxtInstructions.DataBindings.Add("Text", bs, "Instructions");
+            picPreview.DataBindings.Add("ImageLocation", bs, "ImagePreview");
+            lblTimeToPrepare.DataBindings.Add("Text", bs, "TimeToPrepare");
+            lblDifficultyValue.DataBindings.Add("Text", bs, "Difficulty");
+
+        }
+
+        private void LinkData()
+        {
+            
+            Recipes current = (Recipes)bs.Current;
+            List<RecipeMealPlans> mealplans = DataHandler.GetRecipeMealplans(current.RecipeID);
+            lstMealplans.Items.Clear();
+            for(int i = 0; i < mealplans.Count; i++)
+            {
+                lstMealplans.Items.Add(SearchMealPlan(mealplans[i].MealPlanID).MealPlanName);
+            }
+
+            List<RecipeAllergies> allergies = DataHandler.GetRecipeAllergies(current.RecipeID);
+            lstAllergies.Items.Clear();
+            for(int i = 0; i < allergies.Count; i++)
+            {
+                lstAllergies.Items.Add(SearchAllergy(allergies[i].AllergyID).AllergyName);
+            }
+        }
+
+        private MealPlans SearchMealPlan(int mealPlanID)
+        {
+            List<MealPlans> plans = DataHandler.GetAllMealPlans();
+            MealPlans foundPlan = null;
+            bool found = false;
+            int count = 0;
+            while(found == false && count < plans.Count)
+            {
+                if(plans[count].MealPlanID == mealPlanID)
+                {
+                    found = true;
+                    foundPlan = plans[count];
+                }
+                else
+                {
+                    count++;
+                }
+            }
+            return foundPlan;
+        }
+
+        private Allergies SearchAllergy(int allergyID)
+        {
+            List<Allergies> allergies = DataHandler.GetAllAllergies();
+            Allergies foundAllergy = null;
+            bool found = false;
+            int count = 0;
+            while (found == false && count < allergies.Count)
+            {
+                if (allergies[count].AllergyID == allergyID)
+                {
+                    found = true;
+                    foundAllergy = allergies[count];
+                }
+                else
+                {
+                    count++;
+                }
+            }
+            return foundAllergy;
+        }
+
         private void FrmBrowseRecipes_Load(object sender, EventArgs e)
         {
-            lblRecipeNameValue.Text = AllRecipes[0].RecipeName;
-            rtxtDescription.Text = AllRecipes[0].ShortDescription;
-            rtxtInstructions.Text = AllRecipes[0].Instructions;
-            picPreview.ImageLocation = AllRecipes[0].Imagepreview;
-            lblTimeToPrepare.Text = AllRecipes[0].TimeToPrepare.ToString() + " mins";
-            lblDifficultyValue.Text = AllRecipes[0].Difficulty;
+            CreateBindings();
+            LinkData();
         }
 
         private void BtnBack_Click(object sender, EventArgs e)
@@ -40,6 +112,18 @@ namespace MealPlannerDesktop
             {
                 MessageBox.Show(err.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void BtnPrevious_Click(object sender, EventArgs e)
+        {
+            bs.MovePrevious();
+            LinkData();
+        }
+
+        private void TnNext_Click(object sender, EventArgs e)
+        {
+            bs.MoveNext();
+            LinkData();
         }
     }
 }
