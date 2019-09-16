@@ -350,5 +350,93 @@ namespace MealPlannerDesktop
                 conn.Close();
             }
         }
+
+
+        public static List<Recipes> GetAllRecipes()
+        {
+            List<Recipes> recipes = new List<Recipes>();
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT * FROM tblRecipes", conn);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    recipes.Add(new Recipes(Convert.ToInt32(reader["RecipeID"])
+                        , reader["RecipeName"].ToString(), reader["ShortDescription"].ToString(),
+                        reader["Instructions"].ToString(), reader["Difficulty"].ToString()
+                        , Convert.ToInt32(reader["TimeToPrepare"]), reader["ImagePreview"].ToString()));
+                }
+                cmd.Dispose();
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message, "Database error occurred", MessageBoxButtons.OK
+                    , MessageBoxIcon.Error);
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return recipes;
+        }
+
+        public static List<RecipeMealPlans> GetRecipeMealplans(int recipeID)
+        {
+            List<RecipeMealPlans> plans = new List<RecipeMealPlans>();
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT * FROM tblRecipeMealPlans WHERE "
+                    + "RecipeID = @id", conn);
+                cmd.Parameters.AddWithValue("@id", recipeID);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    plans.Add(new RecipeMealPlans(Convert.ToInt32(reader["RecipeID"])
+                        , Convert.ToInt32(reader["MealPlanID"])));
+                }
+                cmd.Dispose();
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message, "Database error occurred", MessageBoxButtons.OK
+                    , MessageBoxIcon.Error);
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return plans;
+        }
+
+        public static List<RecipeAllergies> GetRecipeAllergies(int recipeID)
+        {
+            List<RecipeAllergies> allergies = new List<RecipeAllergies>();
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT * FROM tblRecipeAllergies WHERE "
+                    + "RecipeID = @id", conn);
+                cmd.Parameters.AddWithValue("@id", recipeID);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    allergies.Add(new RecipeAllergies(Convert.ToInt32(reader["RecipeID"])
+                        , Convert.ToInt32(reader["AllergyID"])));
+                }
+                cmd.Dispose();
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message, "Database error occurred", MessageBoxButtons.OK
+                    , MessageBoxIcon.Error);
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return allergies;
+        }
     }
 }

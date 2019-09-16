@@ -92,5 +92,19 @@ namespace MealPlannerDesktop
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void BrowseRecipesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                frmBrowseRecipes rep = new frmBrowseRecipes();
+                rep.Show();
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }

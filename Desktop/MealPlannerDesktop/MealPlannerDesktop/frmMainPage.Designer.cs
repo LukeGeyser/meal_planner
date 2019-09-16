@@ -102,6 +102,7 @@
             this.browseRecipesToolStripMenuItem.Name = "browseRecipesToolStripMenuItem";
             this.browseRecipesToolStripMenuItem.Size = new System.Drawing.Size(156, 28);
             this.browseRecipesToolStripMenuItem.Text = "Browse Recipes";
+            this.browseRecipesToolStripMenuItem.Click += new System.EventHandler(this.BrowseRecipesToolStripMenuItem_Click);
             // 
             // PricetoolStripMenuItem2
             // 

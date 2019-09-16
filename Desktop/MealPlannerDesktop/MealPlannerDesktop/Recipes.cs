@@ -11,6 +11,7 @@ namespace MealPlannerDesktop
         private int recipeID;
         private string recipeName, shortDescription, instructions, difficulty;
         private int timeToPrepare;
+        private string imagepreview;
 
         public int RecipeID { get => recipeID; set => recipeID = value; }
         public string RecipeName { get => recipeName; set => recipeName = value; }
@@ -18,13 +19,15 @@ namespace MealPlannerDesktop
         public string Instructions { get => instructions; set => instructions = value; }
         public string Difficulty { get => difficulty; set => difficulty = value; }
         public int TimeToPrepare { get => timeToPrepare; set => timeToPrepare = value; }
+        public string Imagepreview { get => imagepreview; set => imagepreview = value; }
 
         public Recipes()
         {
 
         }
 
-        public Recipes(int id, string name, string des, string instruct, string difficult, int time)
+        public Recipes(int id, string name, string des, string instruct, string difficult, int time,
+            string img)
         {
             recipeID = id;
             recipeName = name;
@@ -32,6 +35,7 @@ namespace MealPlannerDesktop
             instructions = instruct;
             difficulty = difficult;
             timeToPrepare = time;
+            imagepreview = img;
         }
     }
 }
