@@ -17,21 +17,13 @@ namespace MealPlanner.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MainPage : ContentPage
     {
-        string url = String.Format("https://maps.googleapis.com/maps/api/place/nearbysearch/json?");
-
-        private const string _PrivateKey = "AIzaSyCxTWHUpzXjM1twanD2-wMkYCBRnx7v7DE";
 
         public MainPage()
         {
             InitializeComponent();
 
             CenterLabels();
-
-            string completeUrl = String.Format("{0}location={1},{2}&radius={3}&type={4}&key={5}", url, -26.152755799999998, 28.3111148, 10000, "supermarket", _PrivateKey);
-            Debug.WriteLine(completeUrl);
         }
-
-
 
         #region Private Helpers
 
@@ -62,23 +54,6 @@ namespace MealPlanner.Views
                 Constraint.RelativeToParent(parent => parent.Height / 2 - getWeightGainHeight(parent) / 2));
         }
 
-        private async void GetLocation()
-        {
-            try
-            {
-                var location = await Geolocation.GetLocationAsync();
-                if (location != null)
-                {
-                    await DisplayAlert($"{location.Latitude.ToString()}", $"{location.Longitude.ToString()}", "Coolio");
-                }
-            }
-            catch (Exception)
-            {
-
-                throw;
-            }
-        }
-
         #endregion
 
         #region Public Events
@@ -91,7 +66,6 @@ namespace MealPlanner.Views
         private void VegTapped_Tapped(object sender, EventArgs e)
         {
             DisplayAlert("Veg", "TAPPED", "okay");
-            DisplayAlert(App.MapsResults[0].name, "", "OKAY");
         }
 
         private void LossTapped_Tapped(object sender, EventArgs e)

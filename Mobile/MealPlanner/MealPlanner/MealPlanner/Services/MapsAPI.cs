@@ -17,9 +17,9 @@ namespace MealPlanner.Services
 
         private const string _PrivateKey = "AIzaSyCxTWHUpzXjM1twanD2-wMkYCBRnx7v7DE";
 
-        public async Task PopulateMaps(ObservableCollection<Result> stores, string lat, string lon)
+        public async Task PopulateMaps(ObservableCollection<Result> stores, string lat, string lon, string shopName)
         {
-            var mapResults = await GetMapResiltDataWrapperAsync(url, lat, lon);
+            var mapResults = await GetMapResiltDataWrapperAsync(url, lat, lon, shopName);
 
             var storesList = mapResults.results;
 
@@ -29,19 +29,18 @@ namespace MealPlanner.Services
             }
         }
 
-        public async static Task<string> CallGoogleMapAPIAsync(string url, string lat, string lon)
+        public async static Task<string> CallGoogleMapAPIAsync(string url, string lat, string lon, string shopName)
         {
-            string completeUrl = String.Format("{0}location={1},{2}&radius={3}&type={4}&key={5}", url, lat, lon, 10000, "supermarket", _PrivateKey);
-
+            string completeUrl = String.Format("{0}location={1},{2}&name={3}&radius={4}&type={5}&key={6}", url, lat, lon, shopName, 10000, "supermarket", _PrivateKey);
             // Call out to Marvel
             HttpClient http = new HttpClient();
             var response = await http.GetAsync(completeUrl);
             return await response.Content.ReadAsStringAsync();
         }
 
-        private static async Task<RootObject> GetMapResiltDataWrapperAsync(string url, string lat, string lon)
+        private static async Task<RootObject> GetMapResiltDataWrapperAsync(string url, string lat, string lon, string shopName)
         {
-            var jsonMessage = await CallGoogleMapAPIAsync(url, lat, lon);
+            var jsonMessage = await CallGoogleMapAPIAsync(url, lat, lon, shopName);
 
             // Response -> string / json -> deserialize
             var serializer = new DataContractJsonSerializer(typeof(RootObject));

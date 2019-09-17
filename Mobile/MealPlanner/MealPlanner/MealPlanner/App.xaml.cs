@@ -17,23 +17,20 @@ namespace MealPlanner
         Page currentPage = null;
         DataHandler dataHandler = new DataHandler();
         public static List<User> users;
-        public static ObservableCollection<Result> MapsResults { get; set; }
-        private MapsAPI mapsAPI = new MapsAPI();
+        
 
         public App()
         {
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
-            MapsResults = new ObservableCollection<Result>();
             users = dataHandler.GetAllUsers();
         }
 
-        protected async override void OnStart()
+        protected override void OnStart()
         {
             // Handle when your app starts
             MainPage = new SignInPage();
-            //await mapsAPI.PopulateMaps(MapsResults, "-26.152755799999998", "28.3111148");
         }
 
         protected override void OnSleep()

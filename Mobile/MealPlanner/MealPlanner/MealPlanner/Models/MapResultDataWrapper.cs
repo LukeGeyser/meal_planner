@@ -6,7 +6,7 @@ namespace MealPlanner.Models
 {
     public class MapResultDataWrapper
     {
-        public class Location
+        public class Locations
         {
             public double lat { get; set; }
             public double lng { get; set; }
@@ -32,7 +32,7 @@ namespace MealPlanner.Models
 
         public class Geometry
         {
-            public Location location { get; set; }
+            public Locations location { get; set; }
             public Viewport viewport { get; set; }
         }
 

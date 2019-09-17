@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MealPlanner.Views.ShopsDisplayPage">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Primary-Green">#669e2f</Color>
+            <Color x:Key="Accent">#669e2f</Color>
+            <Color x:Key="LightTextColor">#2d2d2d</Color>
+            <Color x:Key="OffWhiteTextColor">#ebebeb</Color>
+            <Color x:Key="alert">#db5151</Color>
+            <Color x:Key="dark-theme-grey">#2d2d2d</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout Margin="5,0,5,0">
+            
+            <Frame BackgroundColor="{StaticResource Primary-Green}" CornerRadius="5">
+
+                <Label Text="Store Locator"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="{StaticResource OffWhiteTextColor}"
+                   HorizontalOptions="Center"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center" />
+
+            </Frame>
+
+            <Picker Title="Select a Store"
+                    FontSize="12"
+                    x:Name="StorePicker"
+                    SelectedIndexChanged="StorePicker_SelectedIndexChanged">
+                <Picker.Items>
+                    <x:String>WoolWorths</x:String>
+                    <x:String>Pick n Pay</x:String>
+                    <x:String>Spa</x:String>
+                    <x:String>Checkers</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <ListView ItemsSource="{Binding DisplayingList}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell Tapped="ViewCell_Tapped">
+                            <Grid Padding="5,10">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+
+                                <Label FontAttributes="Bold" Text="{Binding Name}"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

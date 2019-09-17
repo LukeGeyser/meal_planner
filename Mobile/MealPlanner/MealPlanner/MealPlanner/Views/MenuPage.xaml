@@ -26,6 +26,7 @@
                         <vm:HomeMenuItem Title="Home" IconSource="home.png" TargetType="{x:Type local:MainPage}" ColorHex="#fafafa" TextColorHex="#2d2d2d" RowDefinition="0"/>
                         <vm:HomeMenuItem Title="Profile" IconSource="profile.png" TargetType="{x:Type local:ProfilePage}" ColorHex="#fafafa" TextColorHex="#2d2d2d" RowDefinition="0"/>
                         <vm:HomeMenuItem Title="Calorie Calculator" IconSource="calculator.png" TargetType="{x:Type local:CalorieCalculatorPage}" ColorHex="#fafafa" TextColorHex="#2d2d2d" RowDefinition="0"/>
+                        <vm:HomeMenuItem Title="Store Locator" IconSource="location.png" TargetType="{x:Type local:ShopsDisplayPage}" ColorHex="#fafafa" TextColorHex="#2d2d2d" RowDefinition="0"/>
                     </x:Array>
                 </ListView.ItemsSource>
                 <ListView.ItemTemplate>
