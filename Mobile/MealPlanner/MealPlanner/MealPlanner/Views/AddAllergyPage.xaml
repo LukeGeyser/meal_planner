@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MealPlanner.Views.AddAllergyPage">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Primary-Green">#669e2f</Color>
+            <Color x:Key="Accent">#669e2f</Color>
+            <Color x:Key="LightTextColor">#2d2d2d</Color>
+            <Color x:Key="OffWhiteTextColor">#ebebeb</Color>
+            <Color x:Key="alert">#db5151</Color>
+            <Color x:Key="dark-theme-grey">#2d2d2d</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout Padding="5,0,5,0">
+
+            <Frame BackgroundColor="{StaticResource Primary-Green}" CornerRadius="5">
+
+                <Label Text="Add Allergy Item"
+                   FontSize="24" 
+                   FontAttributes="Bold" 
+                   TextColor="{StaticResource OffWhiteTextColor}"
+                   HorizontalOptions="Center"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"/>
+
+            </Frame>
+
+            <StackLayout Margin="48,20,48,0">
+                
+                <StackLayout Orientation="Horizontal"
+                         Margin="0,0,0,0">
+
+                    <Label Text="Allergy Name:"
+                       FontSize="12"
+                       TextColor="{StaticResource dark-theme-grey}"
+                       VerticalOptions="Center"/>
+
+                    <Entry VerticalOptions="Center" x:Name="AllergyName"
+                       TextColor="{StaticResource dark-theme-grey}"
+                       HorizontalOptions="FillAndExpand"
+                       FontSize="12"/>
+
+                </StackLayout>
+
+                <Label Text="Allergy Description : "
+                   FontSize="12"
+                   Margin="0,20,0,0"
+                   TextColor="{StaticResource dark-theme-grey}"
+                   VerticalOptions="Center"/>
+
+                <Editor IsSpellCheckEnabled="True"
+                    AutoSize="TextChanges"
+                    IsTextPredictionEnabled="True"
+                    TextColor="{StaticResource dark-theme-grey}"
+                    Placeholder="Description"
+                    FontSize="12"
+                    x:Name="AllergyDescription">
+                </Editor>
+
+                <Button Text="Add Allergy" 
+                        Margin="0,15,0,0"
+                        HorizontalOptions="Center"
+                        FontAttributes="Bold"
+                        x:Name="AddAllergy"
+                        WidthRequest="120" 
+                        HeightRequest="40"
+                        FontSize="12"
+                        BackgroundColor="{StaticResource Primary-Green}"
+                        TextColor="{StaticResource OffWhiteTextColor}" 
+                        Clicked="AddAllergy_Clicked"/>
+
+            </StackLayout>
+            
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

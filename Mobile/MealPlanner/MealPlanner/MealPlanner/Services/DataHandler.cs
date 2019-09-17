@@ -146,6 +146,35 @@ namespace MealPlanner.Services
 
         }
 
+        public Allergies GetSelectedAllergie(string AllergyName)
+        {
+            Allergies allergies = null;
+            try
+            {
+                conn.Open();
+                
+                SqlCommand cmd = new SqlCommand("SELECT * FROM tblAllergies WHERE AllergyName=@name", conn);
+                cmd.Parameters.AddWithValue("@name", AllergyName);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    allergies = new Allergies(Convert.ToInt32(reader["AllergyID"])
+                        , reader["AllergyName"].ToString(), reader["Description"].ToString());
+                }
+                cmd.Dispose();
+            }
+            catch (Exception)
+            {
+
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return allergies;
+
+        }
+
         public List<UserAllergies> GetSelectedAllergies(string username)
         {
             List<UserAllergies> chosen = new List<UserAllergies>();
@@ -200,6 +229,33 @@ namespace MealPlanner.Services
             return plans;
         }
 
+        public MealPlans GetSelectedMealPlan(string MealPlanName)
+        {
+            MealPlans plan = null;
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT * FROM tblMealPlans WHERE MealPlanName=@name", conn);
+                cmd.Parameters.AddWithValue("@name", MealPlanName);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    plan = new MealPlans(Convert.ToInt32(reader["MealPlanID"]),
+                        reader["MealPlanName"].ToString(), reader["Description"].ToString(),
+                        reader["Advantages"].ToString(), reader["Disadvantages"].ToString());
+                }
+                cmd.Dispose();
+            }
+            catch (Exception)
+            {
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return plan;
+        }
+
         public List<UserMealPlan> GetSelectedMealPlans(string username)
         {
             List<UserMealPlan> plans = new List<UserMealPlan>();
@@ -225,6 +281,113 @@ namespace MealPlanner.Services
                 conn.Close();
             }
             return plans;
+        }
+
+        public void AddAllergy(Allergies allergie)
+        {
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("INSERT INTO tblAllergies (AllergyName, Description) VALUES (@Name, @Desc)", conn);
+                cmd.Parameters.AddWithValue("@Name", allergie.AllergyName);
+                cmd.Parameters.AddWithValue("@Desc", allergie.Description);
+                cmd.ExecuteNonQuery();
+                cmd.Dispose();
+            }
+            catch (Exception)
+            {
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+
+        public  void AddMealPlan(MealPlans meal)
+        {
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("INSERT INTO tblMealPlans (MealPlanName, Description, Advantages, Disadvantages) VALUES (@Name, @Desc, @Advant, @Disadvant)", conn);
+                cmd.Parameters.AddWithValue("@Name", meal.MealPlanName);
+                cmd.Parameters.AddWithValue("@Desc", meal.Description);
+                cmd.Parameters.AddWithValue("@Advant", meal.Advantages);
+                cmd.Parameters.AddWithValue("@Disadvant", meal.Disadvantages);
+                cmd.ExecuteNonQuery();
+                cmd.Dispose();
+            }
+            catch (Exception)
+            {
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+
+        public void RemoveAllPreferences(string username)
+        {
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("DELETE FROM tblUsersAllergies WHERE Username = @user"
+                    , conn);
+                cmd.Parameters.AddWithValue("@user", username);
+                cmd.ExecuteNonQuery();
+                SqlCommand cmd2 = new SqlCommand("DELETE FROM tblUsersMealPlans WHERE Username = @user"
+                    , conn);
+                cmd2.Parameters.AddWithValue("@user", username);
+                cmd2.ExecuteNonQuery();
+            }
+            catch (Exception)
+            {
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+
+        public void AddSelectedAllergy(string username, Allergies chosen)
+        {
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("INSERT INTO tblUsersAllergies(Username,AllergyID)"
+                    + " VALUES(@user,@allergy)", conn);
+                cmd.Parameters.AddWithValue("@user", username);
+                cmd.Parameters.AddWithValue("@allergy", chosen.AllergyID);
+                cmd.ExecuteNonQuery();
+
+            }
+            catch (Exception)
+            {
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+
+        public void AddSelectedMealplans(string username, MealPlans chosen)
+        {
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("INSERT INTO tblUsersMealPlans(Username,MealPlanID)"
+                    + " VALUES(@user,@plan)", conn);
+                cmd.Parameters.AddWithValue("@user", username);
+                cmd.Parameters.AddWithValue("@plan", chosen.MealPlanID);
+                cmd.ExecuteNonQuery();
+
+            }
+            catch (Exception)
+            {
+            }
+            finally
+            {
+                conn.Close();
+            }
         }
 
     }

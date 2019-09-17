@@ -62,3 +62,5 @@ C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\MealPlanner.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\MealPlanner.pdb
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\MealPlanner.csprojAssemblyReference.cache
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\AddAllergyPage.xaml.g.cs
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\AddMealPlanPage.xaml.g.cs

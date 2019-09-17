@@ -67,6 +67,7 @@ namespace MealPlanner.Views
             {
                 Alergies.Add(new AlergieListItem()
                 {
+                    id = allAllergies[i].AllergyID,
                     Name = allAllergies[i].AllergyName,
                     Description = allAllergies[i].Description
                 });
@@ -91,6 +92,7 @@ namespace MealPlanner.Views
             {
                 MealPlans.Add(new MealPlanListItem()
                 {
+                    id = allMealPlans[i].MealPlanID,
                     Name = allMealPlans[i].MealPlanName,
                     Description = allMealPlans[i].Description,
                     Advantage = allMealPlans[i].Advantages,
@@ -113,21 +115,39 @@ namespace MealPlanner.Views
                 }
             }
 
+            MessagingCenter.Subscribe<AddAllergyPage, AlergieListItem>(this, "AddedAllergy", (obj, item) =>
+            {
+                var newItem = item as AlergieListItem;
+                Alergies.Add(newItem);
+            });
+
+            MessagingCenter.Subscribe<AddMealPlanPage, MealPlanListItem>(this, "AddedMealPlan", (obj, item) =>
+            {
+                var newItem = item as MealPlanListItem;
+                MealPlans.Add(newItem);
+            });
+
             BindingContext = this;
         }
 
         private void AllergiesList_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
+            MealPlanList.SelectedItem = null;
+            
             var item = e.SelectedItem as AlergieListItem;
-            allergyDescription = item.Description;
-            if (item.IsChecked == true)
+            if (item != null)
             {
-                Alergies[e.SelectedItemIndex].IsChecked = false;
+                allergyDescription = item.Description;
+                if (item.IsChecked == true)
+                {
+                    Alergies[e.SelectedItemIndex].IsChecked = false;
+                }
+                else if (item.IsChecked == false)
+                {
+                    Alergies[e.SelectedItemIndex].IsChecked = true;
+                }
             }
-            else if (item.IsChecked == false)
-            {
-                Alergies[e.SelectedItemIndex].IsChecked = true;
-            }
+            
         }
 
         private void ViewCell_Tapped(object sender, EventArgs e)
@@ -150,18 +170,23 @@ namespace MealPlanner.Views
 
         private void MealPlanList_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
+            AllergiesList.SelectedItem = null;
             var item = e.SelectedItem as MealPlanListItem;
-            mealPlanDescription = item.Description;
-            mealPlanAdvantage = item.Advantage;
-            mealPlandisadvantage = item.Disadvantage;
-            if (item.IsChecked == true)
+            if (item != null)
             {
-                MealPlans[e.SelectedItemIndex].IsChecked = false;
+                mealPlanDescription = item.Description;
+                mealPlanAdvantage = item.Advantage;
+                mealPlandisadvantage = item.Disadvantage;
+                if (item.IsChecked == true)
+                {
+                    MealPlans[e.SelectedItemIndex].IsChecked = false;
+                }
+                else if (item.IsChecked == false)
+                {
+                    MealPlans[e.SelectedItemIndex].IsChecked = true;
+                }
             }
-            else if (item.IsChecked == false)
-            {
-                MealPlans[e.SelectedItemIndex].IsChecked = true;
-            }
+            
         }
 
         private void MealViewCell_Tapped(object sender, EventArgs e)
@@ -194,6 +219,46 @@ namespace MealPlanner.Views
             else if (mealPlandisadvantage != "") DisplayAlert("Meal Plan Disadvantage", $"{mealPlandisadvantage}", "Close");
         }
 
-        
+        async private void AddAllergy_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new AddAllergyPage());
+        }
+
+        async private void AddMealPlan_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new AddMealPlanPage());
+        }
+
+        private void Save_Clicked(object sender, EventArgs e)
+        {
+            dh.RemoveAllPreferences(SignInPage.loggedInUser.Username);
+            for (int i = 0; i < allergies.Count; i++)
+            {
+                if (allergies[i].IsChecked == true)
+                {
+                    dh.AddSelectedAllergy(SignInPage.loggedInUser.Username, new Allergies()
+                    {
+                        AllergyID =  allergies[i].id,
+                        AllergyName = allergies[i].Name,
+                        Description = allergies[i].Description
+                    });
+                }
+            }
+            for (int i = 0; i < mealPlans.Count; i++)
+            {
+                if (mealPlans[i].IsChecked == true)
+                {
+                    dh.AddSelectedMealplans(SignInPage.loggedInUser.Username, new MealPlans()
+                    {
+                        MealPlanID = mealPlans[i].id,
+                        MealPlanName = mealPlans[i].Name,
+                        Description = mealPlans[i].Description,
+                        Advantages = mealPlans[i].Advantage,
+                        Disadvantages = mealPlans[i].Disadvantage
+                    });
+                }
+            }
+        }
+
     }
 }

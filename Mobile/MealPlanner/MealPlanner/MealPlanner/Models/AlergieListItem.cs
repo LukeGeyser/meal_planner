@@ -8,6 +8,8 @@ namespace MealPlanner.Models
 {
     public class AlergieListItem : INotifyPropertyChanged
     {
+        public int id { get; set; }
+
         private string _name { get; set; }
 
         public string Description { get; set; }

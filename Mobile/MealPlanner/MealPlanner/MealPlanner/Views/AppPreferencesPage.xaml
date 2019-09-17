@@ -79,7 +79,7 @@
 
                 </Image>
 
-                <Button Text="+" 
+                <Button Text="+"
                         BackgroundColor="{StaticResource Primary-Green}"
                         TextColor="{StaticResource OffWhiteTextColor}"
                         Grid.Row="2"
@@ -90,7 +90,9 @@
                         FontSize="12"
                         Padding="0"
                         HorizontalOptions="Center"
-                        VerticalOptions="End" />
+                        VerticalOptions="End" 
+                        x:Name="AddAllergy"
+                        Clicked="AddAllergy_Clicked"/>
 
             </Grid>
 
@@ -187,7 +189,9 @@
                         FontAttributes="Bold"
                         FontSize="12"
                         Padding="0"
-                        VerticalOptions="End" />
+                        VerticalOptions="End" 
+                        x:Name="AddMealPlan"
+                        Clicked="AddMealPlan_Clicked"/>
 
                     <Button Text="Save" 
                         BackgroundColor="{StaticResource Primary-Green}"
@@ -197,7 +201,9 @@
                         FontAttributes="Bold"
                         FontSize="8"
                         Padding="0"
-                        VerticalOptions="End" />
+                        VerticalOptions="End" 
+                        x:Name="Save" 
+                        Clicked="Save_Clicked"/>
                 </StackLayout>
 
 
