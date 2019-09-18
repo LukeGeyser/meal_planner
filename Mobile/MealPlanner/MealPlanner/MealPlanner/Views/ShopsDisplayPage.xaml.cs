@@ -48,7 +48,6 @@ namespace MealPlanner.Views
             SpaResults = new ObservableCollection<Result>();
             CheckersResults = new ObservableCollection<Result>();
             DisplayingList = new ObservableCollection<DisplayStoreInfoViewModel>();
-
             BindingContext = this;
         }
 
@@ -78,15 +77,15 @@ namespace MealPlanner.Views
             return location;
         }
 
-        private async void LoadAllStores(Location location)
+        private void LoadAllStores(Location location)
         {
-            await mapsAPI.PopulateMaps(WoolworthsResults, "-26.152755799999998", "28.3111148", "woolworths");
-            await mapsAPI.PopulateMaps(PicknPayResults, "-26.152755799999998", "28.3111148", "PicknPay");
-            await mapsAPI.PopulateMaps(SpaResults, "-26.152755799999998", "28.3111148", "spa");
-            await mapsAPI.PopulateMaps(CheckersResults, "-26.152755799999998", "28.3111148", "checkers");
+            mapsAPI.PopulateMaps(WoolworthsResults, "-26.152755799999998", "28.3111148", "woolworths");
+            mapsAPI.PopulateMaps(PicknPayResults, "-26.152755799999998", "28.3111148", "PicknPay");
+            mapsAPI.PopulateMaps(SpaResults, "-26.152755799999998", "28.3111148", "spar");
+            mapsAPI.PopulateMaps(CheckersResults, "-26.152755799999998", "28.3111148", "checkers");
         }
 
-        private void GenerateDisplayingList(ObservableCollection<Result> results)
+        private void GenerateDisplayingList(ObservableCollection<Result> results, string Icon_Source, string Title)
         {
             displayingList.Clear();
             foreach (var item in results)
@@ -102,9 +101,21 @@ namespace MealPlanner.Views
                     Price_Level = item.price_level,
                     Rating = item.rating,
                     User_Ratings_Total = item.user_ratings_total,
-                    Vicinity = item.vicinity
+                    Vicinity = item.vicinity,
+                    Icon_Source = Icon_Source,
+                    open_Text = (item.opening_hours == null ? false : true) ? "Open Now" : "Closed",
+                    ColorHex = (item.opening_hours == null ? false : true) ? "#669e2f" : "#db5151",
+                    Distance = "Around " + GetDistanceFromStore(-26.152755799999998, 28.3111148, item.geometry.location.lat, item.geometry.location.lng).ToString("0") + "km from you"
                 });
             }
+            NearYou.Text = Title + " near you:";
+        }
+
+        private double GetDistanceFromStore(double sLatitude, double sLongitude, double eLatitude, double eLongitude)
+        {
+            var sCoords = new Location(sLatitude, sLongitude);
+            var eCoords = new Location(eLatitude, eLongitude);
+            return sCoords.CalculateDistance(eCoords, DistanceUnits.Kilometers);
         }
 
         #endregion
@@ -114,10 +125,10 @@ namespace MealPlanner.Views
         private void StorePicker_SelectedIndexChanged(object sender, EventArgs e)
         {
             storeSelected = StorePicker.SelectedItem.ToString();
-            if (storeSelected == "WoolWorths") GenerateDisplayingList(WoolworthsResults);
-            else if (storeSelected == "Pick n Pay") GenerateDisplayingList(PicknPayResults);
-            else if (storeSelected == "Spa") GenerateDisplayingList(SpaResults);
-            else if (storeSelected == "Checkers") GenerateDisplayingList(CheckersResults);
+            if (storeSelected == "WoolWorths") GenerateDisplayingList(WoolworthsResults, "woolworths.png", "WoolWorths");
+            else if (storeSelected == "Pick n Pay") GenerateDisplayingList(PicknPayResults, "picknpay.png", "Pick n Pay's");
+            else if (storeSelected == "Spar") GenerateDisplayingList(SpaResults, "spa.png", "Spa's");
+            else if (storeSelected == "Checkers") GenerateDisplayingList(CheckersResults, "checkers.png", "Checkers");
         }
 
         private void ViewCell_Tapped(object sender, EventArgs e)

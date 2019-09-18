@@ -17,7 +17,7 @@ namespace MealPlanner.Services
 
         private const string _PrivateKey = "AIzaSyCxTWHUpzXjM1twanD2-wMkYCBRnx7v7DE";
 
-        public async Task PopulateMaps(ObservableCollection<Result> stores, string lat, string lon, string shopName)
+        public async void PopulateMaps(ObservableCollection<Result> stores, string lat, string lon, string shopName)
         {
             var mapResults = await GetMapResiltDataWrapperAsync(url, lat, lon, shopName);
 
@@ -31,7 +31,7 @@ namespace MealPlanner.Services
 
         public async static Task<string> CallGoogleMapAPIAsync(string url, string lat, string lon, string shopName)
         {
-            string completeUrl = String.Format("{0}location={1},{2}&name={3}&radius={4}&type={5}&key={6}", url, lat, lon, shopName, 10000, "supermarket", _PrivateKey);
+            string completeUrl = String.Format("{0}location={1},{2}&name={3}&rankby={4}&type={5}&key={6}", url, lat, lon, shopName, "distance", "supermarket", _PrivateKey);
             // Call out to Marvel
             HttpClient http = new HttpClient();
             var response = await http.GetAsync(completeUrl);
