@@ -34,6 +34,7 @@
             this.lblRecipeName = new System.Windows.Forms.Label();
             this.btnSearch = new System.Windows.Forms.Button();
             this.pnlRecipe = new System.Windows.Forms.Panel();
+            this.lblTimeUnit = new System.Windows.Forms.Label();
             this.btnProducts = new System.Windows.Forms.Button();
             this.lstAllergies = new System.Windows.Forms.ListBox();
             this.lstMealplans = new System.Windows.Forms.ListBox();
@@ -56,7 +57,6 @@
             this.gbxSearch = new System.Windows.Forms.GroupBox();
             this.radPreference = new System.Windows.Forms.RadioButton();
             this.radAll = new System.Windows.Forms.RadioButton();
-            this.lblTimeUnit = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             this.pnlRecipe.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picPreview)).BeginInit();
@@ -105,6 +105,7 @@
             this.btnSearch.TabIndex = 51;
             this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = false;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // pnlRecipe
             // 
@@ -132,6 +133,15 @@
             this.pnlRecipe.Name = "pnlRecipe";
             this.pnlRecipe.Size = new System.Drawing.Size(835, 296);
             this.pnlRecipe.TabIndex = 52;
+            // 
+            // lblTimeUnit
+            // 
+            this.lblTimeUnit.AutoSize = true;
+            this.lblTimeUnit.Location = new System.Drawing.Point(624, 200);
+            this.lblTimeUnit.Name = "lblTimeUnit";
+            this.lblTimeUnit.Size = new System.Drawing.Size(35, 17);
+            this.lblTimeUnit.TabIndex = 53;
+            this.lblTimeUnit.Text = "mins";
             // 
             // btnProducts
             // 
@@ -357,15 +367,6 @@
             this.radAll.TabStop = true;
             this.radAll.Text = "Search All";
             this.radAll.UseVisualStyleBackColor = true;
-            // 
-            // lblTimeUnit
-            // 
-            this.lblTimeUnit.AutoSize = true;
-            this.lblTimeUnit.Location = new System.Drawing.Point(624, 200);
-            this.lblTimeUnit.Name = "lblTimeUnit";
-            this.lblTimeUnit.Size = new System.Drawing.Size(35, 17);
-            this.lblTimeUnit.TabIndex = 53;
-            this.lblTimeUnit.Text = "mins";
             // 
             // frmBrowseRecipes
             // 

@@ -20,15 +20,22 @@ namespace MealPlannerDesktop
         List<Recipes> AllRecipes;
         BindingSource bs = new BindingSource();
 
-        private void CreateBindings()
+        private void CreateBindings(List<Recipes> rec)
         {
-            AllRecipes = DataHandler.GetAllRecipes();
-            bs.DataSource = AllRecipes;
+            // AllRecipes = DataHandler.GetAllRecipes();
+            // bs.DataSource = AllRecipes;
+            bs.DataSource = rec;
+            lblRecipeNameValue.DataBindings.Clear();
             lblRecipeNameValue.DataBindings.Add("Text", bs, "RecipeName");
+            rtxtDescription.DataBindings.Clear();
             rtxtDescription.DataBindings.Add("Text", bs, "ShortDescription");
+            rtxtInstructions.DataBindings.Clear();
             rtxtInstructions.DataBindings.Add("Text", bs, "Instructions");
+            picPreview.DataBindings.Clear();
             picPreview.DataBindings.Add("ImageLocation", bs, "ImagePreview");
+            lblTimeToPrepare.DataBindings.Clear();
             lblTimeToPrepare.DataBindings.Add("Text", bs, "TimeToPrepare");
+            lblDifficultyValue.DataBindings.Clear();
             lblDifficultyValue.DataBindings.Add("Text", bs, "Difficulty");
 
         }
@@ -96,7 +103,8 @@ namespace MealPlannerDesktop
 
         private void FrmBrowseRecipes_Load(object sender, EventArgs e)
         {
-            CreateBindings();
+            AllRecipes = DataHandler.GetAllRecipes();
+            CreateBindings(AllRecipes);
             LinkData();
         }
 
@@ -124,6 +132,36 @@ namespace MealPlannerDesktop
         {
             bs.MoveNext();
             LinkData();
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            //MessageBox.Show("AY", "Valid Recipe", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            string user = frmSignIn.SuccessfulLogin.Username;
+            List<Recipes> Validrec = DataHandler.GetAllRecipes();
+            List<UserAllergies> UserA = DataHandler.GetSelectedAllergies(user);
+            List<RecipeAllergies> recA = DataHandler.GetRecipeAllergiesAll();
+
+            List<RecipeAllergies> ID = new List<RecipeAllergies>();
+
+            for (int i = 0; i < UserA.Count; i++)
+            {
+                if (UserA[i].AllergyID == recA[i].AllergyID)
+                {
+                    MessageBox.Show(recA[i].AllergyID.ToString(), "INvalid Recipe", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    ID.Add(recA[i]);
+                }
+            }
+
+            // for (int j = 0; j < Validrec.Count; j++)
+            // {
+            //     if (recA[j].RecipeID== Validrec[j].RecipeID)
+            //     {
+            //         Validrec.RemoveAt(j);
+            //     }
+            // }
+            //CreateBindings(Validrec);
         }
     }
 }

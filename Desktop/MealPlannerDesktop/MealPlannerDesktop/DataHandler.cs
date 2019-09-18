@@ -29,7 +29,7 @@ namespace MealPlannerDesktop
                     people.Add(new User(reader["Username"].ToString(), reader["Password"].ToString()
                         , reader["FirstName"].ToString(), reader["LastName"].ToString()
                         , Convert.ToDateTime(reader["DOB"]), Convert.ToDouble(reader["Weight"])
-                        , Convert.ToDouble(reader["Height"]), reader["Email"].ToString(), 
+                        , Convert.ToDouble(reader["Height"]), reader["Email"].ToString(),
                         reader["Phone"].ToString(), reader["Salt"].ToString()));
                 }
                 cmd.Dispose();
@@ -89,7 +89,7 @@ namespace MealPlannerDesktop
             {
                 conn.Open();
                 SqlCommand cmd = new SqlCommand("UPDATE tblUsers SET Password=@pass,FirstName=@name,LastName=@surname,"
-                    + "DOB=@dob,Weight=@weight,Height=@height,Email=@email,Phone=@phone,Salt=@salt "+
+                    + "DOB=@dob,Weight=@weight,Height=@height,Email=@email,Phone=@phone,Salt=@salt " +
                     "WHERE Username = @user", conn);
                 cmd.Parameters.AddWithValue("@pass", Person.Password);
                 cmd.Parameters.AddWithValue("@name", Person.FirstName);
@@ -305,7 +305,7 @@ namespace MealPlannerDesktop
             }
         }
 
-        public static void AddSelectedAllergy(string username,Allergies chosen)
+        public static void AddSelectedAllergy(string username, Allergies chosen)
         {
             try
             {
@@ -315,7 +315,7 @@ namespace MealPlannerDesktop
                 cmd.Parameters.AddWithValue("@user", username);
                 cmd.Parameters.AddWithValue("@allergy", chosen.AllergyID);
                 cmd.ExecuteNonQuery();
-                
+
             }
             catch (Exception error)
             {
@@ -419,6 +419,33 @@ namespace MealPlannerDesktop
                 SqlCommand cmd = new SqlCommand("SELECT * FROM tblRecipeAllergies WHERE "
                     + "RecipeID = @id", conn);
                 cmd.Parameters.AddWithValue("@id", recipeID);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    allergies.Add(new RecipeAllergies(Convert.ToInt32(reader["RecipeID"])
+                        , Convert.ToInt32(reader["AllergyID"])));
+                }
+                cmd.Dispose();
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message, "Database error occurred", MessageBoxButtons.OK
+                    , MessageBoxIcon.Error);
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return allergies;
+        }
+
+        public static List<RecipeAllergies> GetRecipeAllergiesAll()
+        {
+            List<RecipeAllergies> allergies = new List<RecipeAllergies>();
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT * FROM tblRecipeAllergies", conn);
                 SqlDataReader reader = cmd.ExecuteReader();
                 while (reader.Read())
                 {
