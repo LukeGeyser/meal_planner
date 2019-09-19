@@ -23,75 +23,76 @@
                 <!-- LOGO -->
                 <Image Source="icon.png"
                    VerticalOptions="Center"
-                   HeightRequest="70"></Image>
+                   HeightRequest="140"></Image>
 
                 <Label Text="Additional Infomation"
                    TextColor="{StaticResource Primary-Green}"
-                   FontSize="16"
+                   FontSize="Large"
                    HorizontalOptions="Center"
                    Margin="0,0,0,10"></Label>
 
                 <!-- DATE OF BIRTH -->
                 <Label Text="Date Of Birth:"
                    TextColor="{StaticResource LightTextColor}"
-                   FontSize="Micro"></Label>
+                   FontSize="Medium"></Label>
 
                 <!-- DATE OF BIRTH -->
                 <DatePicker x:Name="DOB"
-                            FontSize="Micro"
-                            TextColor="{StaticResource LightTextColor}"></DatePicker>
+                            FontSize="Medium"
+                            TextColor="{StaticResource Primary-Green}"></DatePicker>
 
                 <!-- USERNAME -->
                 <Label Text="Weight:"
                    TextColor="{StaticResource LightTextColor}"
-                   FontSize="Micro"></Label>
+                   FontSize="Medium"></Label>
 
                 <!-- USERNAME -->
-                <Entry FontSize="Micro"
+                <Entry FontSize="Medium"
                    WidthRequest="20"
                    Placeholder="Enter Your Weight"
-                   TextColor="{StaticResource LightTextColor}"
-                   PlaceholderColor="{StaticResource LightTextColor}"
+                   TextColor="{StaticResource Primary-Green}"
                    x:Name="Weight"></Entry>
 
                 <!-- PASSWORD -->
                 <Label Text="Height:" 
                    TextColor="{StaticResource LightTextColor}"
-                   FontSize="Micro"></Label>
+                   FontSize="Medium"></Label>
 
                 <!-- PASSWORD -->
-                <Entry FontSize="Micro"
+                <Entry FontSize="Medium"
                    WidthRequest="20"
                    Placeholder="Enter Your Height"
                    Margin="0,0,0,10"
                    x:Name="Height"
-                   TextColor="{StaticResource LightTextColor}"
-                   PlaceholderColor="{StaticResource LightTextColor}"></Entry>
+                   TextColor="{StaticResource Primary-Green}"></Entry>
 
                 <FlexLayout VerticalOptions="Center"
                             HorizontalOptions="Center"
-                            Margin="0,0,0,20">
+                            Margin="0,0,0,20"
+                            JustifyContent="Center">
                     <Button Text="Back" 
                     x:Name="Back"
                     Padding="0,0,0,0"
-                    Margin="10,5,0,0"
-                    WidthRequest="60" 
-                    HeightRequest="30"
-                    FontSize="Micro"
+                    Margin="0,5,0,0"
+                    WidthRequest="120" 
+                    HeightRequest="60"
+                    FontSize="Medium"
                     BackgroundColor="{StaticResource Primary-Green}"
                     TextColor="White"
-                    Clicked="Back_Clicked"></Button>
+                    Clicked="Back_Clicked"
+                    CornerRadius="10"></Button>
 
                     <Button Text="Finish"
                     x:Name="Finish"
                     Padding="0,0,0,0"
                     Margin="10,5,0,0"
-                    WidthRequest="60" 
-                    HeightRequest="30"
-                    FontSize="Micro"
+                    WidthRequest="120" 
+                    HeightRequest="60"
+                    FontSize="Medium"
                     BackgroundColor="{StaticResource Primary-Green}"
                     TextColor="White"
-                    Clicked="Finish_Clicked"></Button>
+                    Clicked="Finish_Clicked"
+                    CornerRadius="10"></Button>
                 </FlexLayout>
 
             </StackLayout>

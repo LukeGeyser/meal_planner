@@ -29,81 +29,81 @@
                 <!-- LOGO -->
                 <Image Source="icon.png"
                    VerticalOptions="Center"
-                   HeightRequest="70"></Image>
+                   HeightRequest="140"></Image>
 
                 <Label Text="Initial Setup"
                    TextColor="{StaticResource Primary-Green}"
-                   FontSize="16"
+                   FontSize="Large"
                    HorizontalOptions="Center"
                    Margin="0,0,0,10"></Label>
 
                 <!-- USERNAME -->
                 <Label Text="Username:"
                    TextColor="{StaticResource LightTextColor}"
-                   FontSize="Micro"></Label>
+                   FontSize="Medium"></Label>
 
                 <!-- USERNAME -->
-                <Entry FontSize="Micro"
+                <Entry FontSize="Medium"
                    WidthRequest="20"
                    Placeholder="Enter Your Username"
-                   TextColor="{StaticResource LightTextColor}"
-                   PlaceholderColor="{StaticResource LightTextColor}"
+                   TextColor="{StaticResource Primary-Green}"
                    x:Name="Username"></Entry>
 
                 <!-- PASSWORD -->
                 <Label Text="Password:" 
                    TextColor="{StaticResource LightTextColor}"
-                   FontSize="Micro"></Label>
+                   FontSize="Medium"></Label>
 
                 <!-- PASSWORD -->
-                <Entry FontSize="Micro"
+                <Entry FontSize="Medium"
                    WidthRequest="20"
                    Placeholder="Enter Your Password"
                    Margin="0,0,0,10"
                    x:Name="Password"
-                   TextColor="{StaticResource LightTextColor}"
-                   PlaceholderColor="{StaticResource LightTextColor}"
+                   TextColor="{StaticResource Primary-Green}"
                    IsPassword="True"></Entry>
 
                 <!-- RE-PASSWORD -->
                 <Label Text="Re-Enter Password:"
                    TextColor="{StaticResource LightTextColor}"
-                   FontSize="Micro"></Label>
+                   FontSize="Medium"></Label>
 
                 <!-- RE-PASSWORD -->
-                <Entry FontSize="Micro"
+                <Entry FontSize="Medium"
                    WidthRequest="20"
                    Placeholder="Enter Your Password"
                    Margin="0,0,0,5"
                    x:Name="RePassword"
-                   TextColor="{StaticResource LightTextColor}"
-                   PlaceholderColor="{StaticResource LightTextColor}"
+                   TextColor="{StaticResource Primary-Green}"
                    IsPassword="True"></Entry>
 
                 <FlexLayout VerticalOptions="Center"
                             HorizontalOptions="Center"
-                            Margin="0,0,0,20">
+                            Margin="0,0,0,20"
+                            JustifyContent="Center">
                     <Button Text="Back" 
                     x:Name="Back"
                     Padding="0,0,0,0"
-                    Margin="10,5,0,0"
-                    WidthRequest="60" 
-                    HeightRequest="30"
-                    FontSize="Micro"
+                    Margin="0,5,0,0"
+                    WidthRequest="120" 
+                    HeightRequest="60"
+                    FontSize="Medium"
                     BackgroundColor="{StaticResource Primary-Green}"
                     TextColor="White"
-                    Clicked="Back_Clicked"></Button>
+                    Clicked="Back_Clicked"
+                    CornerRadius="10"></Button>
 
                     <Button Text="Next"
                     x:Name="Next"
                     Padding="0,0,0,0"
                     Margin="10,5,0,0"
-                    WidthRequest="60" 
-                    HeightRequest="30"
-                    FontSize="Micro"
+                    WidthRequest="120" 
+                    HeightRequest="60"
+                    FontSize="Medium"
                     BackgroundColor="{StaticResource Primary-Green}"
                     TextColor="White"
-                    Clicked="Next_Clicked"></Button>
+                    Clicked="Next_Clicked"
+                    CornerRadius="10"></Button>
                 </FlexLayout>
 
             </StackLayout>

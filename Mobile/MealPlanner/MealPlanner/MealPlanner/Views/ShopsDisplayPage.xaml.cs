@@ -11,17 +11,17 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Xamarin.Essentials;
 using MealPlanner.ViewModels;
+using System.Text.RegularExpressions;
 
 namespace MealPlanner.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ShopsDisplayPage : ContentPage
     {
-
-        public static ObservableCollection<Result> WoolworthsResults { get; set; }
-        public static ObservableCollection<Result> PicknPayResults { get; set; }
-        public static ObservableCollection<Result> SpaResults { get; set; }
-        public static ObservableCollection<Result> CheckersResults { get; set; }
+        private ObservableCollection<Result> WoolworthsResults { get; set; }
+        private ObservableCollection<Result> PicknPayResults { get; set; }
+        private ObservableCollection<Result> SpaResults { get; set; }
+        private ObservableCollection<Result> CheckersResults { get; set; }
 
         private ObservableCollection<DisplayStoreInfoViewModel> displayingList;
         public ObservableCollection<DisplayStoreInfoViewModel> DisplayingList
@@ -53,22 +53,20 @@ namespace MealPlanner.Views
 
         protected override async void OnAppearing()
         {
+            location = await GetLastKnownLocation();
+            if (location != null)
+                LoadAllStores(location);
             location = await GetLocation();
-            LoadAllStores(location);
         }
 
         #region Private Helpers
 
-        private async Task<Location> GetLocation()
+        private async Task<Location> GetLastKnownLocation()
         {
             Location location;
             try
             {
-                location = await Geolocation.GetLocationAsync();
-                if (location != null)
-                {
-                    //await DisplayAlert($"{location.Latitude.ToString()}", $"{location.Longitude.ToString()}", "Coolio");
-                }
+                location = await Geolocation.GetLastKnownLocationAsync();
             }
             catch (Exception)
             {
@@ -77,12 +75,26 @@ namespace MealPlanner.Views
             return location;
         }
 
-        private void LoadAllStores(Location location)
+        private async Task<Location> GetLocation()
         {
-            mapsAPI.PopulateMaps(WoolworthsResults, "-26.152755799999998", "28.3111148", "woolworths");
-            mapsAPI.PopulateMaps(PicknPayResults, "-26.152755799999998", "28.3111148", "PicknPay");
-            mapsAPI.PopulateMaps(SpaResults, "-26.152755799999998", "28.3111148", "spar");
-            mapsAPI.PopulateMaps(CheckersResults, "-26.152755799999998", "28.3111148", "checkers");
+            Location location;
+            try
+            {
+                location = await Geolocation.GetLocationAsync(new GeolocationRequest(GeolocationAccuracy.Lowest));
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            return location;
+        }
+
+        async private void LoadAllStores(Location location)
+        {
+            await mapsAPI.PopulateMaps(WoolworthsResults, location.Latitude, location.Longitude, "woolworths");
+            await mapsAPI.PopulateMaps(PicknPayResults, location.Latitude, location.Longitude, "PicknPay");
+            await mapsAPI.PopulateMaps(SpaResults, location.Latitude, location.Longitude, "spar");
+            await mapsAPI.PopulateMaps(CheckersResults, location.Latitude, location.Longitude, "checkers");
         }
 
         private void GenerateDisplayingList(ObservableCollection<Result> results, string Icon_Source, string Title)
@@ -105,7 +117,7 @@ namespace MealPlanner.Views
                     Icon_Source = Icon_Source,
                     open_Text = (item.opening_hours == null ? false : true) ? "Open Now" : "Closed",
                     ColorHex = (item.opening_hours == null ? false : true) ? "#669e2f" : "#db5151",
-                    Distance = "Around " + GetDistanceFromStore(-26.152755799999998, 28.3111148, item.geometry.location.lat, item.geometry.location.lng).ToString("0") + "km from you"
+                    Distance = "Around " + GetDistanceFromStore(location.Latitude, location.Longitude, item.geometry.location.lat, item.geometry.location.lng).ToString("0") + "km from you"
                 });
             }
             NearYou.Text = Title + " near you:";

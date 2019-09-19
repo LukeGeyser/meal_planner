@@ -20,10 +20,10 @@
     <ContentPage.Content>
         <StackLayout Padding="5,0,5,0">
 
-            <Frame BackgroundColor="{StaticResource Primary-Green}" CornerRadius="5">
+            <Frame BackgroundColor="{StaticResource Primary-Green}" CornerRadius="10">
 
                 <Label Text="Add Allergy Item"
-                   FontSize="24" 
+                   FontSize="32" 
                    FontAttributes="Bold" 
                    TextColor="{StaticResource OffWhiteTextColor}"
                    HorizontalOptions="Center"
@@ -38,19 +38,19 @@
                          Margin="0,0,0,0">
 
                     <Label Text="Allergy Name:"
-                       FontSize="12"
+                       FontSize="Medium"
                        TextColor="{StaticResource dark-theme-grey}"
                        VerticalOptions="Center"/>
 
                     <Entry VerticalOptions="Center" x:Name="AllergyName"
                        TextColor="{StaticResource dark-theme-grey}"
                        HorizontalOptions="FillAndExpand"
-                       FontSize="12"/>
+                       FontSize="Medium"/>
 
                 </StackLayout>
 
                 <Label Text="Allergy Description : "
-                   FontSize="12"
+                   FontSize="Medium"
                    Margin="0,20,0,0"
                    TextColor="{StaticResource dark-theme-grey}"
                    VerticalOptions="Center"/>
@@ -60,7 +60,7 @@
                     IsTextPredictionEnabled="True"
                     TextColor="{StaticResource dark-theme-grey}"
                     Placeholder="Description"
-                    FontSize="12"
+                    FontSize="Medium"
                     x:Name="AllergyDescription">
                 </Editor>
 
@@ -69,9 +69,10 @@
                         HorizontalOptions="Center"
                         FontAttributes="Bold"
                         x:Name="AddAllergy"
-                        WidthRequest="120" 
-                        HeightRequest="40"
-                        FontSize="12"
+                        WidthRequest="160" 
+                        HeightRequest="80"
+                        FontSize="Medium"
+                        CornerRadius="10"
                         BackgroundColor="{StaticResource Primary-Green}"
                         TextColor="{StaticResource OffWhiteTextColor}" 
                         Clicked="AddAllergy_Clicked"/>

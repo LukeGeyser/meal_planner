@@ -31,25 +31,23 @@
             
             <Label Text="Username:"
                    TextColor="{StaticResource LightTextColor}"
-                   FontSize="Micro"></Label>
+                   FontSize="Medium"></Label>
 
-            <Entry FontSize="Micro"
+            <Entry FontSize="Medium"
                    WidthRequest="20"
                    Placeholder="Enter Your Username"
-                   TextColor="{StaticResource LightTextColor}"
-                   PlaceholderColor="{StaticResource LightTextColor}"
+                   TextColor="{StaticResource Primary-Green}"
                    x:Name="Username"
                    Text="Test"></Entry>
 
             <Label Text="Password:" 
                    TextColor="{StaticResource LightTextColor}"
-                   FontSize="Micro"></Label>
-            
-            <Entry FontSize="Micro"
+                   FontSize="Medium"></Label>
+
+            <Entry FontSize="Medium"
                    WidthRequest="20"
                    Placeholder="Enter Your Password"
-                   TextColor="{StaticResource LightTextColor}"
-                   PlaceholderColor="{StaticResource LightTextColor}"
+                   TextColor="{StaticResource Primary-Green}"
                    Margin="0,0,0,0"
                    x:Name="Password"
                    IsPassword="True"
@@ -57,7 +55,7 @@
 
             <Label x:Name="Error"
                    Text="Username and Password are Incorrect!"
-                   FontSize="Micro"
+                   FontSize="Medium"
                    HorizontalOptions="Center"
                    TextColor="{StaticResource alert}"
                    IsVisible="False"
@@ -66,25 +64,28 @@
 
 
             <FlexLayout VerticalOptions="Center"
-                        HorizontalOptions="Center">
+                        HorizontalOptions="Center"
+                        JustifyContent="Center">
                 <Button Text="Sign In" 
                     x:Name="Sign_In"
                     Padding="0,0,0,0"
-                    Margin="10,15,0,0"
-                    WidthRequest="60" 
-                    HeightRequest="30"
-                    FontSize="Micro"
+                    Margin="0,15,0,0"
+                    WidthRequest="120" 
+                    HeightRequest="60"
+                    FontSize="Medium"
                     BackgroundColor="{StaticResource Primary-Green}"
                     TextColor="White"
-                    Clicked="Sign_In_Clicked"></Button>
+                    Clicked="Sign_In_Clicked"
+                    CornerRadius="10"></Button>
 
                 <Button Text="Sign Up" 
                     x:Name="Sign_Up"
                     Padding="0,0,0,0"
                     Margin="10,15,0,0"
-                    WidthRequest="60" 
-                    HeightRequest="30"
-                    FontSize="Micro"
+                    WidthRequest="120" 
+                    HeightRequest="60"
+                    FontSize="Medium"
+                    CornerRadius="10"
                     BackgroundColor="{StaticResource Primary-Green}"
                     TextColor="White"
                     Clicked="Sign_Up_Clicked"></Button>

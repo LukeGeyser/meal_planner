@@ -30,90 +30,101 @@
             <StackLayout Margin="5,5,5,5">
 
                 <!-- CLIENT DETAIL -->
-                <Frame CornerRadius="5"
+                <Frame CornerRadius="10"
                    BackgroundColor="{StaticResource Primary-Green}"
                    Padding="0,2,0,2">
                     <Label HorizontalOptions="Center"
-                       TextColor="{StaticResource OffWhiteTextColor}">Client Details</Label>
+                           FontSize="Title"
+                           TextColor="{StaticResource OffWhiteTextColor}">Client Details</Label>
                 </Frame>
 
                 <StackLayout Padding="50,0,50,0">
                     <!-- FIRTNAME -->
-                    <Label Text="Fullname: "
-                   x:Name="FName"
-                   TextColor="{StaticResource LightTextColor}"
-                   FontSize="Micro"
-                   HorizontalTextAlignment="Center"></Label>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                        <Label Text="Fullname: "
+                               TextColor="{StaticResource LightTextColor}"
+                               FontSize="Small"
+                               HorizontalTextAlignment="Center"></Label>
+                        <Label Text=""
+                               x:Name="FName"
+                               TextColor="{StaticResource Primary-Green}"
+                               FontSize="Small"
+                               HorizontalTextAlignment="Center"></Label>
+                    </StackLayout>
 
-                    <Label Text="Username: "
-                   x:Name="UName"
-                   TextColor="{StaticResource LightTextColor}"
-                   FontSize="Micro"
-                   HorizontalTextAlignment="Center"></Label>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                        <Label Text="Username: "
+                               TextColor="{StaticResource LightTextColor}"
+                               FontSize="Small"
+                               HorizontalTextAlignment="Center"></Label>
+                        <Label Text=""
+                               x:Name="UName"
+                               TextColor="{StaticResource Primary-Green}"
+                               FontSize="Small"
+                               HorizontalTextAlignment="Center"></Label>
+                    </StackLayout>
                 </StackLayout>
                 
                 <!-- CHANGABLE DETAILS -->
-                <Frame CornerRadius="5"
+                <Frame CornerRadius="10"
                    BackgroundColor="{StaticResource Primary-Green}"
                    Padding="0,2,0,2">
                     <Label HorizontalOptions="Center"
-                       TextColor="{StaticResource OffWhiteTextColor}">Changable Details</Label>
+                           FontSize="Large"
+                           TextColor="{StaticResource OffWhiteTextColor}">Changable Details</Label>
                 </Frame>
 
                 <StackLayout Padding="50,0,50,0">
                     <!-- EMAIL ADDRESS -->
                     <Label Text="Email Address:"
                    TextColor="{StaticResource LightTextColor}"
-                   FontSize="8"
+                   FontSize="Small"
                    Margin="0"></Label>
 
                     <!-- EMAIL ADDRESS -->
-                    <Entry FontSize="8"
+                    <Entry FontSize="Small"
                    WidthRequest="20"
                    Placeholder="Enter Your Email Address"
-                   TextColor="{StaticResource LightTextColor}"
-                   PlaceholderColor="{StaticResource LightTextColor}"
+                   TextColor="{StaticResource Primary-Green}"
                    x:Name="Email"
                    Margin="0,-10,0,0"></Entry>
 
                     <!-- Phone Number -->
                     <Label Text="Phone Number:"
                    TextColor="{StaticResource LightTextColor}"
-                   FontSize="8"
+                   FontSize="Small"
                    Margin="0"></Label>
 
                     <!-- Phone Number -->
-                    <Entry FontSize="8"
+                    <Entry FontSize="Small"
                    WidthRequest="20"
                    Placeholder="Enter Your Phone Number"
-                   TextColor="{StaticResource LightTextColor}"
-                   PlaceholderColor="{StaticResource LightTextColor}"
+                   TextColor="{StaticResource Primary-Green}"
                    x:Name="Phone"
                    Margin="0,-10,0,0"></Entry>
 
                     <!-- DATE OF BIRTH -->
                     <Label Text="Date Of Birth:"
                    TextColor="{StaticResource LightTextColor}"
-                   FontSize="8"></Label>
+                   FontSize="Small"></Label>
 
                     <!-- DATE OF BIRTH -->
                     <DatePicker x:Name="DOB"
-                        FontSize="8"
-                        TextColor="{StaticResource LightTextColor}"
+                        FontSize="Small"
+                        TextColor="{StaticResource Primary-Green}"
                         Margin="0,-10,0,0"></DatePicker>
 
                     <FlexLayout>
                         <StackLayout WidthRequest="100">
                             <Label Text="Weight:"
                            TextColor="{StaticResource LightTextColor}"
-                           FontSize="8"></Label>
+                           FontSize="Small"></Label>
 
                             <!-- USERNAME -->
-                            <Entry FontSize="8"
+                            <Entry FontSize="Small"
                            WidthRequest="20"
                            Placeholder="Enter Weight"
-                           TextColor="{StaticResource LightTextColor}"
-                           PlaceholderColor="{StaticResource LightTextColor}"
+                           TextColor="{StaticResource Primary-Green}"
                            x:Name="Weight"
                            Margin="0,-10,0,0"></Entry>
                         </StackLayout>
@@ -121,14 +132,13 @@
                         <StackLayout WidthRequest="100">
                             <Label Text="Height:"
                            TextColor="{StaticResource LightTextColor}"
-                           FontSize="8"></Label>
+                           FontSize="Small"></Label>
 
                             <!-- USERNAME -->
-                            <Entry FontSize="8"
+                            <Entry FontSize="Small"
                            WidthRequest="20"
                            Placeholder="Enter Height"
-                           TextColor="{StaticResource LightTextColor}"
-                           PlaceholderColor="{StaticResource LightTextColor}"
+                           TextColor="{StaticResource Primary-Green}"
                            x:Name="Height"
                            Margin="0,-10,0,0"></Entry>
                         </StackLayout>
@@ -136,13 +146,12 @@
 
                     <Label Text="New Password:"
                    TextColor="{StaticResource LightTextColor}"
-                   FontSize="8"></Label>
+                   FontSize="Small"></Label>
 
-                    <Entry FontSize="8"
+                    <Entry FontSize="Small"
                    WidthRequest="20"
                    Placeholder="Enter Your New Password"
-                   TextColor="{StaticResource LightTextColor}"
-                   PlaceholderColor="{StaticResource LightTextColor}"
+                   TextColor="{StaticResource Primary-Green}"
                    Margin="0,-10,0,-10"
                    x:Name="Password"
                    IsPassword="True"></Entry>
@@ -152,10 +161,11 @@
                     Padding="0,0,0,0"
                     WidthRequest="50" 
                     Margin="40,20,40,20"
-                    HeightRequest="30"
-                    FontSize="8"
+                    HeightRequest="60"
+                    FontSize="Medium"
                     BackgroundColor="{StaticResource Primary-Green}"
                     TextColor="White"
+                    CornerRadius="10"
                     Clicked="Save_Changes_Clicked"></Button>
                 </StackLayout>
             </StackLayout>

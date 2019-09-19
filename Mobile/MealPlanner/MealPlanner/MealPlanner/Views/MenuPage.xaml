@@ -16,11 +16,11 @@
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
                 <Frame BorderColor="Gray">
-                    <Image Source="icon.png" HeightRequest="120"/>
+                    <Image Source="icon.png" HeightRequest="140"/>
                 </Frame>
             </Grid>
             
-            <ListView x:Name="listView" x:FieldModifier="public">
+            <ListView x:Name="listView" x:FieldModifier="public" RowHeight="70">
                 <ListView.ItemsSource>
                     <x:Array Type="{x:Type vm:HomeMenuItem}">
                         <vm:HomeMenuItem Title="Home" IconSource="home.png" TargetType="{x:Type local:MainPage}" ColorHex="#fafafa" TextColorHex="#2d2d2d" RowDefinition="0"/>
@@ -34,12 +34,17 @@
                         <ViewCell>
                             <Grid Padding="5,10" BackgroundColor="{Binding ColorHex}" Grid.Row="{Binding RowDefinition}">
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="50"/>
+                                    <ColumnDefinition Width="70"/>
                                     <ColumnDefinition Width="*" />
                                 </Grid.ColumnDefinitions>
 
                                 <Image Source="{Binding IconSource}" />
-                                <Label Grid.Column="1" Text="{Binding Title}" FontAttributes="Bold" TextColor="{Binding TextColorHex}"/>
+                                <Label Grid.Column="1" 
+                                       Text="{Binding Title}"
+                                       FontAttributes="Bold" 
+                                       TextColor="{Binding TextColorHex}" 
+                                       FontSize="Medium" 
+                                       VerticalOptions="Center"/>
                             </Grid>
                         </ViewCell>
                     </DataTemplate>

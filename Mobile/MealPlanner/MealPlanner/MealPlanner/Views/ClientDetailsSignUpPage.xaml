@@ -23,91 +23,90 @@
             <!-- LOGO -->
             <Image Source="icon.png"
                    VerticalOptions="Center"
-                   HeightRequest="70"></Image>
+                   HeightRequest="140"></Image>
 
             <Label Text="Personal Infomation"
                    TextColor="{StaticResource Primary-Green}"
-                   FontSize="16"
+                   FontSize="Large"
                    HorizontalOptions="Center"
                    Margin="0,0,0,10"></Label>
 
             <!-- FIRTNAME -->
             <Label Text="First Name:"
                    TextColor="{StaticResource LightTextColor}"
-                   FontSize="Micro"></Label>
+                   FontSize="Medium"></Label>
 
             <!-- FIRTNAME -->
-            <Entry FontSize="Micro"
+            <Entry FontSize="Medium"
                    WidthRequest="20"
                    Placeholder="Enter Your First Name"
-                   TextColor="{StaticResource LightTextColor}"
-                   PlaceholderColor="{StaticResource LightTextColor}"
+                   TextColor="{StaticResource Primary-Green}"
                    x:Name="FName"></Entry>
 
             <!-- SURNAME -->
             <Label Text="Last Name:"
                    TextColor="{StaticResource LightTextColor}"
-                   FontSize="Micro"></Label>
+                   FontSize="Medium"></Label>
 
             <!-- SURNAME -->
-            <Entry FontSize="Micro"
+            <Entry FontSize="Medium"
                    WidthRequest="20"
                    Placeholder="Enter Your Last Name"
-                   TextColor="{StaticResource LightTextColor}"
-                   PlaceholderColor="{StaticResource LightTextColor}"
+                   TextColor="{StaticResource Primary-Green}"
                    x:Name="LName"></Entry>
 
 
             <!-- EMAIL ADDRESS -->
             <Label Text="Email Address:"
                    TextColor="{StaticResource LightTextColor}"
-                   FontSize="Micro"></Label>
+                   FontSize="Medium"></Label>
 
             <!-- EMAIL ADDRESS -->
-            <Entry FontSize="Micro"
+            <Entry FontSize="Medium"
                    WidthRequest="20"
                    Placeholder="Enter Your Email Address"
-                   TextColor="{StaticResource LightTextColor}"
-                   PlaceholderColor="{StaticResource LightTextColor}"
+                   TextColor="{StaticResource Primary-Green}"
                    x:Name="Email"></Entry>
 
             <!-- Phone Number -->
             <Label Text="Phone Number:"
                    TextColor="{StaticResource LightTextColor}"
-                   FontSize="Micro"></Label>
+                   FontSize="Medium"></Label>
 
             <!-- Phone Number -->
-            <Entry FontSize="Micro"
+            <Entry FontSize="Medium"
                    WidthRequest="20"
                    Placeholder="Enter Your Phone Number"
-                   TextColor="{StaticResource LightTextColor}"
-                   PlaceholderColor="{StaticResource LightTextColor}"
+                   TextColor="{StaticResource Primary-Green}"
                    x:Name="Phone"></Entry>
 
             <FlexLayout VerticalOptions="Center"
-                            HorizontalOptions="Center"
-                            Margin="0,0,0,20">
+                        HorizontalOptions="Center"
+                        Margin="0,0,0,20"
+                        JustifyContent="Center">
                 <Button Text="Back" 
                     x:Name="Back"
                     Padding="0,0,0,0"
-                    Margin="10,5,0,0"
-                    WidthRequest="60" 
-                    HeightRequest="30"
-                    FontSize="Micro"
+                    Margin="0,5,0,0"
+                    WidthRequest="120" 
+                    HeightRequest="60"
+                    FontSize="Medium"
                     BackgroundColor="{StaticResource Primary-Green}"
                     TextColor="White"
-                    Clicked="Back_Clicked"></Button>
+                    Clicked="Back_Clicked"
+                    CornerRadius="10"></Button>
 
                 <Button Text="Next" 
                     x:Name="Next"
                     Padding="0,0,0,0"
                     Margin="10,5,0,0"
-                    WidthRequest="60" 
-                    HeightRequest="30"
-                    FontSize="Micro"
+                    WidthRequest="120" 
+                    HeightRequest="60"
+                    FontSize="Medium"
                     BackgroundColor="{StaticResource Primary-Green}"
                     TextColor="White"
-                    Clicked="Next_Clicked"></Button>
+                    Clicked="Next_Clicked"
+                    CornerRadius="10"></Button>
             </FlexLayout>
 
         </StackLayout>
