@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Text.RegularExpressions;
 
 namespace MealPlannerDesktop
 {
@@ -263,8 +264,33 @@ namespace MealPlannerDesktop
 
 
                 }
+                else
+                {
+                    AllRecipes = DataHandler.GetAllRecipes();
+                    List<Recipes> FoundRecipes = new List<Recipes>();
+                    bool found = false;
+                    int count = 0;
+                    while(found == false && count < AllRecipes.Count)
+                    {
+                        if(AllRecipes[count].RecipeName.ToUpper() == txtRecipeName.Text.ToUpper()
+                            || AllRecipes[count].RecipeName.ToUpper().Contains(txtRecipeName.Text.ToUpper()))
+                        {
+                            found = true;
+                            FoundRecipes.Add(AllRecipes[count]);
+                        }
+                        else
+                        {
+                            count++;
+                        }
+                    }
+                    if(found == true)
+                    {
+                        CreateBindings(FoundRecipes);
+                    }
+                                       
+                }
                 MessageBox.Show("Search Complete!", "Search", MessageBoxButtons.OK
-                    , MessageBoxIcon.Information);
+                   , MessageBoxIcon.Information);
             }            
             catch (Exception err)
             {
