@@ -57,6 +57,7 @@
             this.gbxSearch = new System.Windows.Forms.GroupBox();
             this.radPreference = new System.Windows.Forms.RadioButton();
             this.radAll = new System.Windows.Forms.RadioButton();
+            this.lblNumRecipes = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             this.pnlRecipe.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picPreview)).BeginInit();
@@ -154,6 +155,7 @@
             this.btnProducts.TabIndex = 52;
             this.btnProducts.Text = "View Products Required";
             this.btnProducts.UseVisualStyleBackColor = false;
+            this.btnProducts.Click += new System.EventHandler(this.BtnProducts_Click);
             // 
             // lstAllergies
             // 
@@ -368,12 +370,22 @@
             this.radAll.Text = "Search All";
             this.radAll.UseVisualStyleBackColor = true;
             // 
+            // lblNumRecipes
+            // 
+            this.lblNumRecipes.AutoSize = true;
+            this.lblNumRecipes.Location = new System.Drawing.Point(383, 411);
+            this.lblNumRecipes.Name = "lblNumRecipes";
+            this.lblNumRecipes.Size = new System.Drawing.Size(98, 13);
+            this.lblNumRecipes.TabIndex = 57;
+            this.lblNumRecipes.Text = "Number of Recipes";
+            // 
             // frmBrowseRecipes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(859, 443);
+            this.Controls.Add(this.lblNumRecipes);
             this.Controls.Add(this.gbxSearch);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnPrevious);
@@ -432,5 +444,6 @@
         private System.Windows.Forms.RadioButton radAll;
         private System.Windows.Forms.Button btnProducts;
         private System.Windows.Forms.Label lblTimeUnit;
+        private System.Windows.Forms.Label lblNumRecipes;
     }
 }
