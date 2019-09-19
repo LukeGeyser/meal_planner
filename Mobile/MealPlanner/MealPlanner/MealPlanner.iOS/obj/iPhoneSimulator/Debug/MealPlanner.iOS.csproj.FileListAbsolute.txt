@@ -1,59 +1,179 @@
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\MealPlanner.iOS.exe
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\MealPlanner.iOS.pdb
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.pdb
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.pdb
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.pdb
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.pdb
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\ca\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\cs\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\da\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\de\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\el\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\es\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\he\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\hi\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\hr\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\hu\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\id\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\it\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\ja\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\ko\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\ms\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\nb\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\nl\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\pl\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\pt-BR\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\pt\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\ro\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\ru\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\sk\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\sv\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\th\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\tr\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\uk\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\vi\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\MealPlanner.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\MealPlanner.pdb
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\optimized\
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\MealPlanner.iOS.csprojAssemblyReference.cache
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\MealPlanner.iOS.csproj.CoreCompileInputs.cache
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\XamlC.stamp
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\MealPlanner.iOS.csproj.CopyComplete
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\MealPlanner.iOS.exe
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\MealPlanner.iOS.pdb
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\MealPlanner.iOS.exe
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\MealPlanner.iOS.pdb
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Microsoft.AspNetCore.Authentication.Core.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Microsoft.AspNetCore.Authorization.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Microsoft.AspNetCore.Http.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Microsoft.AspNetCore.Http.Extensions.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Microsoft.AspNetCore.Http.Features.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Microsoft.AspNetCore.Mvc.Core.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Microsoft.AspNetCore.Routing.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Microsoft.AspNetCore.WebUtilities.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Microsoft.DotNet.PlatformAbstractions.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Microsoft.Extensions.DependencyModel.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Microsoft.Extensions.Localization.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Microsoft.Extensions.Localization.Abstractions.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Microsoft.Extensions.ObjectPool.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Microsoft.Extensions.Options.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Microsoft.Extensions.Primitives.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Microsoft.Net.Http.Headers.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\System.Buffers.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\System.Data.SqlClient.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\System.Memory.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\System.Text.Encodings.Web.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.pdb
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.pdb
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.pdb
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.pdb
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\ca\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\cs\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\da\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\de\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\el\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\es\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\he\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\hi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\hr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\hu\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\id\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\it\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\ja\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\ko\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\ms\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\nb\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\nl\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\pl\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\pt-BR\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\pt\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\ro\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\ru\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\sk\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\sv\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\th\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\tr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\uk\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\vi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\MealPlanner.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\MealPlanner.pdb
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\bin\iPhoneSimulator\Debug\MealPlanner.dll.mdb
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\Contents.json.ResolveUTIs.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\Icon1024.png.ResolveUTIs.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\Icon180.png.ResolveUTIs.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\Icon167.png.ResolveUTIs.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\Icon152.png.ResolveUTIs.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\Icon120.png.ResolveUTIs.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\Icon87.png.ResolveUTIs.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\Icon80.png.ResolveUTIs.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\Icon76.png.ResolveUTIs.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\Icon60.png.ResolveUTIs.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\Icon58.png.ResolveUTIs.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\Icon40.png.ResolveUTIs.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\Icon29.png.ResolveUTIs.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\Icon20.png.ResolveUTIs.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\optimized\tab_about.png
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\optimized\tab_about@2x.png
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\optimized\tab_about@3x.png
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\optimized\tab_feed.png
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\optimized\tab_feed@2x.png
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\optimized\tab_feed@3x.png
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\optimized\xamarin_logo.png
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\optimized\xamarin_logo@2x.png
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\optimized\xamarin_logo@3x.png
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\optimized\
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\MealPlanner.iOS.csprojAssemblyReference.cache
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\MealPlanner.iOS.csproj.CoreCompileInputs.cache
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\XamlC.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\MealPlanner.iOS.csproj.CopyComplete
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\MealPlanner.iOS.exe
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\MealPlanner.iOS.pdb
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.AspNetCore.Authentication.Abstractions.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.AspNetCore.Authentication.Core.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.AspNetCore.Authorization.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.AspNetCore.Authorization.Policy.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.AspNetCore.Hosting.Abstractions.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.AspNetCore.Http.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.AspNetCore.Http.Abstractions.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.AspNetCore.Http.Extensions.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.AspNetCore.Http.Features.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.AspNetCore.Mvc.Abstractions.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.AspNetCore.Mvc.Core.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.AspNetCore.Mvc.DataAnnotations.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.AspNetCore.Routing.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.AspNetCore.Routing.Abstractions.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.AspNetCore.WebUtilities.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.DotNet.PlatformAbstractions.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.Extensions.Configuration.Abstractions.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.Extensions.DependencyInjection.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.Extensions.DependencyInjection.Abstractions.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.Extensions.DependencyModel.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.Extensions.FileProviders.Abstractions.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.Extensions.Hosting.Abstractions.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.Extensions.Localization.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.Extensions.Localization.Abstractions.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.Extensions.Logging.Abstractions.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.Extensions.ObjectPool.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.Extensions.Options.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.Extensions.Primitives.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Microsoft.Net.Http.Headers.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Newtonsoft.Json.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\System.Buffers.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\System.Data.SqlClient.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\System.Diagnostics.DiagnosticSource.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\System.Memory.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\System.Runtime.CompilerServices.Unsafe.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\System.Runtime.InteropServices.RuntimeInformation.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\System.Text.Encodings.Web.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Essentials.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Essentials.pdb.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Core.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Core.pdb.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Platform.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Platform.iOS.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Platform.iOS.pdb.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Xaml.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Xaml.pdb.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Platform.iOS.resources.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\MealPlanner.dll.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\MealPlanner.pdb.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\MealPlanner.dll.mdb.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Platform.iOS.dll.mdb.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\MealPlanner.iOS.exe.mdb.ReferenceCopyLocalPaths.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\MealPlanner.iOS.pdb.DebugSymbolsProjectOutputGroupOutput.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Entitlements.plist.NoneOutput.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Info.plist.NoneOutput.stamp
