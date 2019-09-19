@@ -38,15 +38,14 @@
             this.PricetoolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.CalorietoolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.logoutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.CalorietoolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.otherToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.signOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pbLogo = new System.Windows.Forms.PictureBox();
             this.picSlideShow = new System.Windows.Forms.PictureBox();
             this.lblQuote = new System.Windows.Forms.Label();
             this.lblQuoteTitle = new System.Windows.Forms.Label();
             this.tmrSlideshow = new System.Windows.Forms.Timer(this.components);
             this.lblWelcome = new System.Windows.Forms.Label();
+            this.browseShopsMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuChoices.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSlideShow)).BeginInit();
@@ -55,19 +54,18 @@
             // menuChoices
             // 
             this.menuChoices.BackColor = System.Drawing.Color.White;
-            this.menuChoices.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuChoices.Font = new System.Drawing.Font("Times New Roman", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuChoices.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.myProfileToolStripMenuItem,
             this.browseRecipesToolStripMenuItem,
             this.PricetoolStripMenuItem2,
-            this.CalorietoolStripMenuItem1,
-            this.logoutToolStripMenuItem,
-            this.CalorietoolStripMenuItem,
+            this.browseShopsMenuItem,
             this.otherToolStripMenuItem,
-            this.signOutToolStripMenuItem});
+            this.CalorietoolStripMenuItem1,
+            this.logoutToolStripMenuItem});
             this.menuChoices.Location = new System.Drawing.Point(0, 0);
             this.menuChoices.Name = "menuChoices";
-            this.menuChoices.Size = new System.Drawing.Size(866, 32);
+            this.menuChoices.Size = new System.Drawing.Size(866, 31);
             this.menuChoices.TabIndex = 0;
             this.menuChoices.Text = "menuStrip1";
             // 
@@ -127,23 +125,12 @@
             this.logoutToolStripMenuItem.Text = "Sign Out";
             this.logoutToolStripMenuItem.Click += new System.EventHandler(this.logoutToolStripMenuItem_Click);
             // 
-            // CalorietoolStripMenuItem
-            // 
-            this.CalorietoolStripMenuItem.Name = "CalorietoolStripMenuItem";
-            this.CalorietoolStripMenuItem.Size = new System.Drawing.Size(184, 28);
-            this.CalorietoolStripMenuItem.Text = "Calorie Calculator";
-            // 
             // otherToolStripMenuItem
             // 
+            this.otherToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
             this.otherToolStripMenuItem.Name = "otherToolStripMenuItem";
             this.otherToolStripMenuItem.Size = new System.Drawing.Size(63, 28);
             this.otherToolStripMenuItem.Text = "BMI";
-            // 
-            // signOutToolStripMenuItem
-            // 
-            this.signOutToolStripMenuItem.Name = "signOutToolStripMenuItem";
-            this.signOutToolStripMenuItem.Size = new System.Drawing.Size(101, 28);
-            this.signOutToolStripMenuItem.Text = "Sign Out";
             // 
             // pbLogo
             // 
@@ -205,6 +192,13 @@
             this.lblWelcome.TabIndex = 9;
             this.lblWelcome.Text = "Welcome {Username}";
             // 
+            // browseShopsMenuItem
+            // 
+            this.browseShopsMenuItem.ForeColor = System.Drawing.Color.Green;
+            this.browseShopsMenuItem.Name = "browseShopsMenuItem";
+            this.browseShopsMenuItem.Size = new System.Drawing.Size(122, 28);
+            this.browseShopsMenuItem.Text = "Find Shops";
+            // 
             // frmMainPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -241,11 +235,9 @@
         private System.Windows.Forms.ToolStripMenuItem myProfileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem browseRecipesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem logoutToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem CalorietoolStripMenuItem;
         private System.Windows.Forms.PictureBox pbLogo;
         private System.Windows.Forms.PictureBox picSlideShow;
         private System.Windows.Forms.ToolStripMenuItem otherToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem signOutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem PricetoolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem CalorietoolStripMenuItem1;
         private System.Windows.Forms.Label lblQuote;
@@ -254,5 +246,6 @@
         private System.Windows.Forms.ToolStripMenuItem updateMyDetailsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem trackMyProgressToolStripMenuItem;
         private System.Windows.Forms.Label lblWelcome;
+        private System.Windows.Forms.ToolStripMenuItem browseShopsMenuItem;
     }
 }
