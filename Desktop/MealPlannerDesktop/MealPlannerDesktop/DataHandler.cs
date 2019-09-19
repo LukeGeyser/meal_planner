@@ -465,5 +465,32 @@ namespace MealPlannerDesktop
             }
             return allergies;
         }
+
+        public static List<RecipeMealPlans> GetAllRecipeMealplans()
+        {
+            List<RecipeMealPlans> plans = new List<RecipeMealPlans>();
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT * FROM tblRecipeMealPlans", conn);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    plans.Add(new RecipeMealPlans(Convert.ToInt32(reader["RecipeID"])
+                        , Convert.ToInt32(reader["MealPlanID"])));
+                }
+                cmd.Dispose();
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message, "Database error occurred", MessageBoxButtons.OK
+                    , MessageBoxIcon.Error);
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return plans;
+        }
     }
 }

@@ -42,7 +42,6 @@ namespace MealPlannerDesktop
 
         private void LinkData()
         {
-            
             Recipes current = (Recipes)bs.Current;
             List<RecipeMealPlans> mealplans = DataHandler.GetRecipeMealplans(current.RecipeID);
             lstMealplans.Items.Clear();
@@ -136,32 +135,99 @@ namespace MealPlannerDesktop
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
-            //MessageBox.Show("AY", "Valid Recipe", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-            string user = frmSignIn.SuccessfulLogin.Username;
-            List<Recipes> Validrec = DataHandler.GetAllRecipes();
-            List<UserAllergies> UserA = DataHandler.GetSelectedAllergies(user);
-            List<RecipeAllergies> recA = DataHandler.GetRecipeAllergiesAll();
-
-            List<RecipeAllergies> ID = new List<RecipeAllergies>();
-
-            for (int i = 0; i < UserA.Count; i++)
+            try
             {
-                if (UserA[i].AllergyID == recA[i].AllergyID)
+                if (radPreference.Checked==true)
                 {
-                    MessageBox.Show(recA[i].AllergyID.ToString(), "INvalid Recipe", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    ID.Add(recA[i]);
-                }
-            }
+                    string user = frmSignIn.SuccessfulLogin.Username;
 
-            // for (int j = 0; j < Validrec.Count; j++)
-            // {
-            //     if (recA[j].RecipeID== Validrec[j].RecipeID)
-            //     {
-            //         Validrec.RemoveAt(j);
-            //     }
-            // }
-            //CreateBindings(Validrec);
+                    List<Recipes> Validrec = DataHandler.GetAllRecipes();
+                    List<UserAllergies> UserA = DataHandler.GetSelectedAllergies(user);
+                    List<RecipeAllergies> recA = DataHandler.GetRecipeAllergiesAll();
+                    List<UserMealPlan> userMeals = DataHandler.GetSelectedMealPlans(user);
+                    List<RecipeMealPlans> recipeMealPlans = DataHandler.GetAllRecipeMealplans();
+
+                    List<RecipeAllergies> ID = new List<RecipeAllergies>();
+
+                    foreach (var item in recA)
+                    {
+                        foreach (var un in UserA)
+                        {
+                            if (item.AllergyID == un.AllergyID)
+                            {
+                                MessageBox.Show(item.AllergyID.ToString(), "Allergy ID", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                ID.Add(item);
+                            }
+                        }
+                    }
+                    List<Recipes> UserV = new List<Recipes>();
+                    foreach (var recipe in Validrec)
+                    {
+                        foreach (var invalid in ID)
+                        {
+                            if (recipe.RecipeID != invalid.RecipeID)
+                            {
+                                MessageBox.Show(recipe.RecipeName, "Valid recipe based on allergies", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                UserV.Add(recipe);
+                            }
+                        }
+                    }
+
+                    List<RecipeMealPlans> recM = new List<RecipeMealPlans>();
+                    foreach (var meal in recipeMealPlans)
+                    {
+                        foreach (var userm in userMeals)
+                        {
+                            if (meal.MealPlanID == userm.MealPlanID)
+                            {
+                                MessageBox.Show(meal.MealPlanID.ToString(), "Meal Plan ID", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                recM.Add(meal);
+                            }
+                        }
+                    }
+
+                    List<Recipes> final = new List<Recipes>();
+                    foreach (var frec in Validrec)
+                    {
+                        foreach (var mealID in recM)
+                        {
+                            if (frec.RecipeID == mealID.RecipeID)
+                            {
+                                MessageBox.Show(frec.RecipeName, "Recipe with suitable meal plan", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                final.Add(frec);
+                            }
+                        }
+                    }
+
+                    List<Recipes> AllUse = new List<Recipes>();
+                    foreach (var v in UserV)
+                    {
+                        foreach (var r in final)
+                        {
+                            if (v.RecipeID == r.RecipeID)
+                            {
+                                MessageBox.Show(v.RecipeName, "Final recipe to use", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                AllUse.Add(v);
+                            }
+                        }
+                    }
+                    CreateBindings(AllUse);
+                }
+                else if (radAll.Checked==true)               
+                {
+                    AllRecipes = DataHandler.GetAllRecipes();
+                    foreach (var item in AllRecipes)
+                    {
+                        MessageBox.Show(item.RecipeName, "All recipes", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    CreateBindings(AllRecipes);
+                    LinkData();
+                }
+            }            
+            catch (Exception err)
+            {
+                MessageBox.Show(err.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }
