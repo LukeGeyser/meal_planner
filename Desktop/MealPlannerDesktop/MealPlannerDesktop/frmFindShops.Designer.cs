@@ -32,6 +32,7 @@
             this.pbLogo = new System.Windows.Forms.PictureBox();
             this.cbxStoreName = new System.Windows.Forms.ComboBox();
             this.lblSelect = new System.Windows.Forms.Label();
+            this.NearYou = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -68,12 +69,22 @@
             this.lblSelect.TabIndex = 8;
             this.lblSelect.Text = "Select a Store:";
             // 
+            // NearYou
+            // 
+            this.NearYou.AutoSize = true;
+            this.NearYou.Location = new System.Drawing.Point(206, 67);
+            this.NearYou.Name = "NearYou";
+            this.NearYou.Size = new System.Drawing.Size(38, 15);
+            this.NearYou.TabIndex = 9;
+            this.NearYou.Text = "label1";
+            // 
             // frmFindShops
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(777, 365);
+            this.Controls.Add(this.NearYou);
             this.Controls.Add(this.lblSelect);
             this.Controls.Add(this.cbxStoreName);
             this.Controls.Add(this.pbLogo);
@@ -83,7 +94,9 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmFindShops";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Find Nearby Stores";
+            this.Load += new System.EventHandler(this.FrmFindShops_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -95,5 +108,6 @@
         private System.Windows.Forms.PictureBox pbLogo;
         private System.Windows.Forms.ComboBox cbxStoreName;
         private System.Windows.Forms.Label lblSelect;
+        private System.Windows.Forms.Label NearYou;
     }
 }

@@ -36,16 +36,15 @@
             this.trackMyProgressToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.browseRecipesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.PricetoolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.browseShopsMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.CalorietoolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.logoutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.otherToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pbLogo = new System.Windows.Forms.PictureBox();
             this.picSlideShow = new System.Windows.Forms.PictureBox();
             this.lblQuote = new System.Windows.Forms.Label();
             this.lblQuoteTitle = new System.Windows.Forms.Label();
             this.tmrSlideshow = new System.Windows.Forms.Timer(this.components);
             this.lblWelcome = new System.Windows.Forms.Label();
-            this.browseShopsMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuChoices.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSlideShow)).BeginInit();
@@ -60,7 +59,6 @@
             this.browseRecipesToolStripMenuItem,
             this.PricetoolStripMenuItem2,
             this.browseShopsMenuItem,
-            this.otherToolStripMenuItem,
             this.CalorietoolStripMenuItem1,
             this.logoutToolStripMenuItem});
             this.menuChoices.Location = new System.Drawing.Point(0, 0);
@@ -76,14 +74,14 @@
             this.trackMyProgressToolStripMenuItem});
             this.myProfileToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
             this.myProfileToolStripMenuItem.Name = "myProfileToolStripMenuItem";
-            this.myProfileToolStripMenuItem.Size = new System.Drawing.Size(114, 28);
+            this.myProfileToolStripMenuItem.Size = new System.Drawing.Size(111, 27);
             this.myProfileToolStripMenuItem.Text = "My Profile";
             // 
             // updateMyDetailsToolStripMenuItem
             // 
             this.updateMyDetailsToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
             this.updateMyDetailsToolStripMenuItem.Name = "updateMyDetailsToolStripMenuItem";
-            this.updateMyDetailsToolStripMenuItem.Size = new System.Drawing.Size(244, 28);
+            this.updateMyDetailsToolStripMenuItem.Size = new System.Drawing.Size(237, 28);
             this.updateMyDetailsToolStripMenuItem.Text = "Update My Details";
             this.updateMyDetailsToolStripMenuItem.Click += new System.EventHandler(this.UpdateMyDetailsToolStripMenuItem_Click);
             // 
@@ -91,14 +89,14 @@
             // 
             this.trackMyProgressToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
             this.trackMyProgressToolStripMenuItem.Name = "trackMyProgressToolStripMenuItem";
-            this.trackMyProgressToolStripMenuItem.Size = new System.Drawing.Size(244, 28);
+            this.trackMyProgressToolStripMenuItem.Size = new System.Drawing.Size(237, 28);
             this.trackMyProgressToolStripMenuItem.Text = "Track My Progress";
             // 
             // browseRecipesToolStripMenuItem
             // 
             this.browseRecipesToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
             this.browseRecipesToolStripMenuItem.Name = "browseRecipesToolStripMenuItem";
-            this.browseRecipesToolStripMenuItem.Size = new System.Drawing.Size(156, 28);
+            this.browseRecipesToolStripMenuItem.Size = new System.Drawing.Size(153, 27);
             this.browseRecipesToolStripMenuItem.Text = "Browse Recipes";
             this.browseRecipesToolStripMenuItem.Click += new System.EventHandler(this.BrowseRecipesToolStripMenuItem_Click);
             // 
@@ -106,14 +104,22 @@
             // 
             this.PricetoolStripMenuItem2.ForeColor = System.Drawing.Color.Green;
             this.PricetoolStripMenuItem2.Name = "PricetoolStripMenuItem2";
-            this.PricetoolStripMenuItem2.Size = new System.Drawing.Size(127, 28);
+            this.PricetoolStripMenuItem2.Size = new System.Drawing.Size(123, 27);
             this.PricetoolStripMenuItem2.Text = "Price Check";
+            // 
+            // browseShopsMenuItem
+            // 
+            this.browseShopsMenuItem.ForeColor = System.Drawing.Color.Green;
+            this.browseShopsMenuItem.Name = "browseShopsMenuItem";
+            this.browseShopsMenuItem.Size = new System.Drawing.Size(119, 27);
+            this.browseShopsMenuItem.Text = "Find Stores";
+            this.browseShopsMenuItem.Click += new System.EventHandler(this.BrowseShopsMenuItem_Click);
             // 
             // CalorietoolStripMenuItem1
             // 
             this.CalorietoolStripMenuItem1.ForeColor = System.Drawing.Color.Green;
             this.CalorietoolStripMenuItem1.Name = "CalorietoolStripMenuItem1";
-            this.CalorietoolStripMenuItem1.Size = new System.Drawing.Size(184, 28);
+            this.CalorietoolStripMenuItem1.Size = new System.Drawing.Size(178, 27);
             this.CalorietoolStripMenuItem1.Text = "Calorie Calculator";
             this.CalorietoolStripMenuItem1.Click += new System.EventHandler(this.CalorietoolStripMenuItem1_Click);
             // 
@@ -121,16 +127,9 @@
             // 
             this.logoutToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
             this.logoutToolStripMenuItem.Name = "logoutToolStripMenuItem";
-            this.logoutToolStripMenuItem.Size = new System.Drawing.Size(101, 28);
+            this.logoutToolStripMenuItem.Size = new System.Drawing.Size(96, 27);
             this.logoutToolStripMenuItem.Text = "Sign Out";
             this.logoutToolStripMenuItem.Click += new System.EventHandler(this.logoutToolStripMenuItem_Click);
-            // 
-            // otherToolStripMenuItem
-            // 
-            this.otherToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
-            this.otherToolStripMenuItem.Name = "otherToolStripMenuItem";
-            this.otherToolStripMenuItem.Size = new System.Drawing.Size(63, 28);
-            this.otherToolStripMenuItem.Text = "BMI";
             // 
             // pbLogo
             // 
@@ -192,13 +191,6 @@
             this.lblWelcome.TabIndex = 9;
             this.lblWelcome.Text = "Welcome {Username}";
             // 
-            // browseShopsMenuItem
-            // 
-            this.browseShopsMenuItem.ForeColor = System.Drawing.Color.Green;
-            this.browseShopsMenuItem.Name = "browseShopsMenuItem";
-            this.browseShopsMenuItem.Size = new System.Drawing.Size(119, 27);
-            this.browseShopsMenuItem.Text = "Find Stores";
-            // 
             // frmMainPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -237,7 +229,6 @@
         private System.Windows.Forms.ToolStripMenuItem logoutToolStripMenuItem;
         private System.Windows.Forms.PictureBox pbLogo;
         private System.Windows.Forms.PictureBox picSlideShow;
-        private System.Windows.Forms.ToolStripMenuItem otherToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem PricetoolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem CalorietoolStripMenuItem1;
         private System.Windows.Forms.Label lblQuote;

@@ -111,5 +111,19 @@ namespace MealPlannerDesktop
         {
 
         }
+
+        private void BrowseShopsMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                frmFindShops shops = new frmFindShops();
+                shops.Show();
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }

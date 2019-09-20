@@ -596,3 +596,21 @@ C:\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\MealPlan
 C:\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\MealPlannerDesktop.exe
 C:\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\MealPlannerDesktop.pdb
 C:\Users\kalan\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\MealPlannerDesktop.frmBrowseRecipes.resources
+C:\Users\Janay Sander\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Elasticsearch.Net.dll
+C:\Users\Janay Sander\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Geolocation.dll
+C:\Users\Janay Sander\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Nest.dll
+C:\Users\Janay Sander\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Xamarin.Essentials.dll
+C:\Users\Janay Sander\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Janay Sander\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Janay Sander\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Janay Sander\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Elasticsearch.Net.xml
+C:\Users\Janay Sander\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Geolocation.pdb
+C:\Users\Janay Sander\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Nest.xml
+C:\Users\Janay Sander\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Xamarin.Essentials.pdb
+C:\Users\Janay Sander\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Xamarin.Essentials.xml
+C:\Users\Janay Sander\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Janay Sander\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Janay Sander\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Janay Sander\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Janay Sander\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\MealPlannerDesktop.frmFindShops.resources
+C:\Users\Janay Sander\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\XamlC.stamp
