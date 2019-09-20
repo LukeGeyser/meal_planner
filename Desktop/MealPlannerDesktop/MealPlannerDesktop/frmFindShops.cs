@@ -9,7 +9,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Xamarin.Essentials;
-using Xamarin.Forms;
 using static MealPlannerDesktop.MapResultDataWrapper;
 
 namespace MealPlannerDesktop
@@ -34,47 +33,18 @@ namespace MealPlannerDesktop
 
         private void OnPropertyChanged()
         {
-            throw new NotImplementedException();
+            for(int i = 0; i < DisplayingList.Count; i++)
+            {
+                lstStoresDisplay.Items.Add(DisplayingList[i].Name);
+            }
         }
 
         private MapsAPI mapsAPI = new MapsAPI();
-        Xamarin.Essentials.Location location;
-        ViewCell lastCell;
+        Xamarin.Essentials.Location location = new Xamarin.Essentials.Location(0,0);
 
         private string storeSelected { get; set; }
         
-        #region Private Helpers
-
-        private async Task<Location> GetLastKnownLocation()
-        {
-            Location location;
-            try
-            {
-               // location = await GeoLocation.GetLastKnownLocationAsync();
-            }
-            catch (Exception)
-            {
-                throw;
-            }
-            //return location;
-            return null;
-        }
-
-        private async Task<Location> GetLocation()
-        {
-            Location location;
-            try
-            {
-                //location = await Geolocation.GetLocationAsync(new GeolocationRequest(GeolocationAccuracy.Lowest));
-            }
-            catch (Exception)
-            {
-                throw;
-            }
-            //return location;
-            return null;
-        }
-
+    
         async private void LoadAllStores(Xamarin.Essentials.Location location)
         {
             await mapsAPI.PopulateMaps(WoolworthsResults, location.Latitude, location.Longitude, "woolworths");
@@ -116,49 +86,20 @@ namespace MealPlannerDesktop
             return sCoords.CalculateDistance(eCoords, DistanceUnits.Kilometers);
         }
 
-        #endregion
 
-        #region Private Events
 
-        private void StorePicker_SelectedIndexChanged(object sender, EventArgs e)
+        private void FrmFindShops_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void CbxStoreName_SelectedIndexChanged(object sender, EventArgs e)
         {
             storeSelected = cbxStoreName.SelectedItem.ToString();
             if (storeSelected == "WoolWorths") GenerateDisplayingList(WoolworthsResults, "woolworths.png", "WoolWorths");
             else if (storeSelected == "Pick n Pay") GenerateDisplayingList(PicknPayResults, "picknpay.png", "Pick n Pay's");
             else if (storeSelected == "Spar") GenerateDisplayingList(SpaResults, "spa.png", "Spa's");
             else if (storeSelected == "Checkers") GenerateDisplayingList(CheckersResults, "checkers.png", "Checkers");
-        }
-
-        private void ViewCell_Tapped(object sender, EventArgs e)
-        {
-            if (lastCell != null)
-                lastCell.View.BackgroundColor = Xamarin.Forms.Color.Transparent;
-            var viewCell = (ViewCell)sender;
-            if (viewCell.View != null)
-            {
-                viewCell.View.BackgroundColor = Xamarin.Forms.Color.FromHex("#d4d4d4");
-                lastCell = viewCell;
-            }
-        }
-
-        #endregion
-        public frmFindShops()
-        {
-            InitializeComponent();
-            WoolworthsResults = new ObservableCollection<Result>();
-            PicknPayResults = new ObservableCollection<Result>();
-            SpaResults = new ObservableCollection<Result>();
-            CheckersResults = new ObservableCollection<Result>();
-            DisplayingList = new ObservableCollection<DisplayStoreInfoViewModel>();
-            BindingContext = this.BindingContext;
-        }
-
-        async private void FrmFindShops_Load(object sender, EventArgs e)
-        {
-            //location = await GetLastKnownLocation();
-            //if (location != null)
-            //    LoadAllStores(location);
-            //location = await GetLocation();
         }
     }
 }

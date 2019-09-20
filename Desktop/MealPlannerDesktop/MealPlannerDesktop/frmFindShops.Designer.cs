@@ -33,6 +33,7 @@
             this.cbxStoreName = new System.Windows.Forms.ComboBox();
             this.lblSelect = new System.Windows.Forms.Label();
             this.NearYou = new System.Windows.Forms.Label();
+            this.lstStoresDisplay = new System.Windows.Forms.ListView();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,6 +59,7 @@
             this.cbxStoreName.Name = "cbxStoreName";
             this.cbxStoreName.Size = new System.Drawing.Size(335, 23);
             this.cbxStoreName.TabIndex = 7;
+            this.cbxStoreName.SelectedIndexChanged += new System.EventHandler(this.CbxStoreName_SelectedIndexChanged);
             // 
             // lblSelect
             // 
@@ -78,12 +80,21 @@
             this.NearYou.TabIndex = 9;
             this.NearYou.Text = "label1";
             // 
+            // lstStoresDisplay
+            // 
+            this.lstStoresDisplay.Location = new System.Drawing.Point(220, 104);
+            this.lstStoresDisplay.Name = "lstStoresDisplay";
+            this.lstStoresDisplay.Size = new System.Drawing.Size(445, 178);
+            this.lstStoresDisplay.TabIndex = 10;
+            this.lstStoresDisplay.UseCompatibleStateImageBehavior = false;
+            // 
             // frmFindShops
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(777, 365);
+            this.Controls.Add(this.lstStoresDisplay);
             this.Controls.Add(this.NearYou);
             this.Controls.Add(this.lblSelect);
             this.Controls.Add(this.cbxStoreName);
@@ -109,5 +120,6 @@
         private System.Windows.Forms.ComboBox cbxStoreName;
         private System.Windows.Forms.Label lblSelect;
         private System.Windows.Forms.Label NearYou;
+        private System.Windows.Forms.ListView lstStoresDisplay;
     }
 }
