@@ -1,18 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d"
-             xmlns:pages="clr-namespace:MealPlanner.Views"
-             x:Class="MealPlanner.Views.ProfilePage"
-             BarBackgroundColor="#2d2d2d"
-             BarTextColor="#fafafa">
-  <!--Pages can be added as references or inline-->
+<TabbedPage
+    x:Class="MealPlanner.Views.ProfilePage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:pages="clr-namespace:MealPlanner.Views"
+    BarBackgroundColor="#2d2d2d"
+    BarTextColor="#fafafa"
+    mc:Ignorable="d">
+    <!--  Pages can be added as references or inline  -->
 
-    
-    
-    <!-- CLIENT DETAILS -->
+
+
+    <!--  CLIENT DETAILS  -->
     <ContentPage Title="Details">
 
         <ContentPage.Resources>
@@ -29,151 +30,176 @@
         <ScrollView>
             <StackLayout Margin="5,5,5,5">
 
-                <!-- CLIENT DETAIL -->
-                <Frame CornerRadius="10"
-                   BackgroundColor="{StaticResource Primary-Green}"
-                   Padding="0,2,0,2">
-                    <Label HorizontalOptions="Center"
-                           FontSize="Title"
-                           TextColor="{StaticResource OffWhiteTextColor}">Client Details</Label>
+                <!--  CLIENT DETAIL  -->
+                <Frame
+                    Padding="0,2,0,2"
+                    BackgroundColor="{StaticResource Primary-Green}"
+                    CornerRadius="10">
+                    <Label
+                        FontSize="Title"
+                        HorizontalOptions="Center"
+                        TextColor="{StaticResource OffWhiteTextColor}">
+                        Client Details
+                    </Label>
                 </Frame>
 
                 <StackLayout Padding="50,0,50,0">
-                    <!-- FIRTNAME -->
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                        <Label Text="Fullname: "
-                               TextColor="{StaticResource LightTextColor}"
-                               FontSize="Small"
-                               HorizontalTextAlignment="Center"></Label>
-                        <Label Text=""
-                               x:Name="FName"
-                               TextColor="{StaticResource Primary-Green}"
-                               FontSize="Small"
-                               HorizontalTextAlignment="Center"></Label>
+                    <!--  FIRTNAME  -->
+                    <StackLayout HorizontalOptions="Center" Orientation="Horizontal">
+                        <Label
+                            FontSize="Small"
+                            HorizontalTextAlignment="Center"
+                            Text="Fullname: "
+                            TextColor="{StaticResource LightTextColor}" />
+                        <Label
+                            x:Name="FName"
+                            FontSize="Small"
+                            HorizontalTextAlignment="Center"
+                            Text=""
+                            TextColor="{StaticResource Primary-Green}" />
                     </StackLayout>
 
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                        <Label Text="Username: "
-                               TextColor="{StaticResource LightTextColor}"
-                               FontSize="Small"
-                               HorizontalTextAlignment="Center"></Label>
-                        <Label Text=""
-                               x:Name="UName"
-                               TextColor="{StaticResource Primary-Green}"
-                               FontSize="Small"
-                               HorizontalTextAlignment="Center"></Label>
+                    <StackLayout HorizontalOptions="Center" Orientation="Horizontal">
+                        <Label
+                            FontSize="Small"
+                            HorizontalTextAlignment="Center"
+                            Text="Username: "
+                            TextColor="{StaticResource LightTextColor}" />
+                        <Label
+                            x:Name="UName"
+                            FontSize="Small"
+                            HorizontalTextAlignment="Center"
+                            Text=""
+                            TextColor="{StaticResource Primary-Green}" />
                     </StackLayout>
                 </StackLayout>
-                
-                <!-- CHANGABLE DETAILS -->
-                <Frame CornerRadius="10"
-                   BackgroundColor="{StaticResource Primary-Green}"
-                   Padding="0,2,0,2">
-                    <Label HorizontalOptions="Center"
-                           FontSize="Large"
-                           TextColor="{StaticResource OffWhiteTextColor}">Changable Details</Label>
+
+                <!--  CHANGABLE DETAILS  -->
+                <Frame
+                    Padding="0,2,0,2"
+                    BackgroundColor="{StaticResource Primary-Green}"
+                    CornerRadius="10">
+                    <Label
+                        FontSize="Large"
+                        HorizontalOptions="Center"
+                        TextColor="{StaticResource OffWhiteTextColor}">
+                        Changable Details
+                    </Label>
                 </Frame>
 
                 <StackLayout Padding="50,0,50,0">
-                    <!-- EMAIL ADDRESS -->
-                    <Label Text="Email Address:"
-                   TextColor="{StaticResource LightTextColor}"
-                   FontSize="Small"
-                   Margin="0"></Label>
-
-                    <!-- EMAIL ADDRESS -->
-                    <Entry FontSize="Small"
-                   WidthRequest="20"
-                   Placeholder="Enter Your Email Address"
-                   TextColor="{StaticResource Primary-Green}"
-                   x:Name="Email"
-                   Margin="0,-10,0,0"></Entry>
-
-                    <!-- Phone Number -->
-                    <Label Text="Phone Number:"
-                   TextColor="{StaticResource LightTextColor}"
-                   FontSize="Small"
-                   Margin="0"></Label>
-
-                    <!-- Phone Number -->
-                    <Entry FontSize="Small"
-                   WidthRequest="20"
-                   Placeholder="Enter Your Phone Number"
-                   TextColor="{StaticResource Primary-Green}"
-                   x:Name="Phone"
-                   Margin="0,-10,0,0"></Entry>
-
-                    <!-- DATE OF BIRTH -->
-                    <Label Text="Date Of Birth:"
-                   TextColor="{StaticResource LightTextColor}"
-                   FontSize="Small"></Label>
-
-                    <!-- DATE OF BIRTH -->
-                    <DatePicker x:Name="DOB"
+                    <!--  EMAIL ADDRESS  -->
+                    <Label
+                        Margin="0"
                         FontSize="Small"
+                        Text="Email Address:"
+                        TextColor="{StaticResource LightTextColor}" />
+
+                    <!--  EMAIL ADDRESS  -->
+                    <Entry
+                        x:Name="Email"
+                        Margin="0,-10,0,0"
+                        FontSize="Small"
+                        Placeholder="Enter Your Email Address"
                         TextColor="{StaticResource Primary-Green}"
-                        Margin="0,-10,0,0"></DatePicker>
+                        WidthRequest="20" />
+
+                    <!--  Phone Number  -->
+                    <Label
+                        Margin="0"
+                        FontSize="Small"
+                        Text="Phone Number:"
+                        TextColor="{StaticResource LightTextColor}" />
+
+                    <!--  Phone Number  -->
+                    <Entry
+                        x:Name="Phone"
+                        Margin="0,-10,0,0"
+                        FontSize="Small"
+                        Placeholder="Enter Your Phone Number"
+                        TextColor="{StaticResource Primary-Green}"
+                        WidthRequest="20" />
+
+                    <!--  DATE OF BIRTH  -->
+                    <Label
+                        FontSize="Small"
+                        Text="Date Of Birth:"
+                        TextColor="{StaticResource LightTextColor}" />
+
+                    <!--  DATE OF BIRTH  -->
+                    <DatePicker
+                        x:Name="DOB"
+                        Margin="0,-10,0,0"
+                        FontSize="Small"
+                        TextColor="{StaticResource Primary-Green}" />
 
                     <FlexLayout>
                         <StackLayout WidthRequest="100">
-                            <Label Text="Weight:"
-                           TextColor="{StaticResource LightTextColor}"
-                           FontSize="Small"></Label>
+                            <Label
+                                FontSize="Small"
+                                Text="Weight:"
+                                TextColor="{StaticResource LightTextColor}" />
 
-                            <!-- USERNAME -->
-                            <Entry FontSize="Small"
-                           WidthRequest="20"
-                           Placeholder="Enter Weight"
-                           TextColor="{StaticResource Primary-Green}"
-                           x:Name="Weight"
-                           Margin="0,-10,0,0"></Entry>
+                            <!--  USERNAME  -->
+                            <Entry
+                                x:Name="Weight"
+                                Margin="0,-10,0,0"
+                                FontSize="Small"
+                                Placeholder="Enter Weight"
+                                TextColor="{StaticResource Primary-Green}"
+                                WidthRequest="20" />
                         </StackLayout>
 
                         <StackLayout WidthRequest="100">
-                            <Label Text="Height:"
-                           TextColor="{StaticResource LightTextColor}"
-                           FontSize="Small"></Label>
+                            <Label
+                                FontSize="Small"
+                                Text="Height:"
+                                TextColor="{StaticResource LightTextColor}" />
 
-                            <!-- USERNAME -->
-                            <Entry FontSize="Small"
-                           WidthRequest="20"
-                           Placeholder="Enter Height"
-                           TextColor="{StaticResource Primary-Green}"
-                           x:Name="Height"
-                           Margin="0,-10,0,0"></Entry>
+                            <!--  USERNAME  -->
+                            <Entry
+                                x:Name="Height"
+                                Margin="0,-10,0,0"
+                                FontSize="Small"
+                                Placeholder="Enter Height"
+                                TextColor="{StaticResource Primary-Green}"
+                                WidthRequest="20" />
                         </StackLayout>
                     </FlexLayout>
 
-                    <Label Text="New Password:"
-                   TextColor="{StaticResource LightTextColor}"
-                   FontSize="Small"></Label>
+                    <Label
+                        FontSize="Small"
+                        Text="New Password:"
+                        TextColor="{StaticResource LightTextColor}" />
 
-                    <Entry FontSize="Small"
-                   WidthRequest="20"
-                   Placeholder="Enter Your New Password"
-                   TextColor="{StaticResource Primary-Green}"
-                   Margin="0,-10,0,-10"
-                   x:Name="Password"
-                   IsPassword="True"></Entry>
+                    <Entry
+                        x:Name="Password"
+                        Margin="0,-10,0,-10"
+                        FontSize="Small"
+                        IsPassword="True"
+                        Placeholder="Enter Your New Password"
+                        TextColor="{StaticResource Primary-Green}"
+                        WidthRequest="20" />
 
-                    <Button Text="Save Changes" 
-                    x:Name="Save_Changes"
-                    Padding="0,0,0,0"
-                    WidthRequest="50" 
-                    Margin="40,20,40,20"
-                    HeightRequest="60"
-                    FontSize="Medium"
-                    BackgroundColor="{StaticResource Primary-Green}"
-                    TextColor="White"
-                    CornerRadius="10"
-                    Clicked="Save_Changes_Clicked"></Button>
+                    <Button
+                        x:Name="Save_Changes"
+                        Margin="40,20,40,20"
+                        Padding="0,0,0,0"
+                        BackgroundColor="{StaticResource Primary-Green}"
+                        Clicked="Save_Changes_Clicked"
+                        CornerRadius="10"
+                        FontSize="Medium"
+                        HeightRequest="60"
+                        Text="Save Changes"
+                        TextColor="White"
+                        WidthRequest="50" />
                 </StackLayout>
             </StackLayout>
         </ScrollView>
 
     </ContentPage>
-    
-    <!-- APP PREFERENCE -->
+
+    <!--  APP PREFERENCE  -->
     <pages:AppPreferencesPage />
 
 </TabbedPage>

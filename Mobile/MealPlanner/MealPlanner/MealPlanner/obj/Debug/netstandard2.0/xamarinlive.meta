@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XamlProjectMeta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Files>
+    <XamlFileMeta>
+      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\App.xaml</FilePath>
+      <Hash>89-3C-A7-BF-55-96-D2-30-5C-1D-84-D5-A1-06-7E-FA</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\AboutPage.xaml</FilePath>
+      <Hash>65-56-43-5F-8A-CE-4A-0B-E9-48-1B-5A-8F-E0-05-A8</Hash>
+      <Properties>
+        <string>Title</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\AddAllergyPage.xaml</FilePath>
+      <Hash>CF-7F-6A-6B-4F-1C-CE-F9-6E-BB-03-2B-FF-83-E6-09</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\AdditionalInfoSignUpPage.xaml</FilePath>
+      <Hash>D4-01-8E-90-09-FC-1A-BA-27-69-6C-D6-8A-E0-23-CF</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\AddMealPlanPage.xaml</FilePath>
+      <Hash>E6-C4-9A-AC-3F-F8-39-14-F9-0F-DF-DD-5D-78-42-C3</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\AppPreferencesPage.xaml</FilePath>
+      <Hash>C8-05-F1-0C-93-A9-5C-15-B5-AA-A5-0E-4A-B6-53-F8</Hash>
+      <Properties>
+        <string>Title</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\CalorieCalculatorPage.xaml</FilePath>
+      <Hash>67-DC-B6-03-10-2F-6B-DA-D6-D4-80-72-B2-B6-C2-FF</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\ClientDetailsSignUpPage.xaml</FilePath>
+      <Hash>E2-09-82-D5-1F-2B-FD-74-42-EA-5C-D9-41-D3-97-2B</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\HomePage.xaml</FilePath>
+      <Hash>A1-55-B0-9C-CA-3A-1C-39-3D-C2-EA-CA-AA-41-BD-C7</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\ItemDetailPage.xaml</FilePath>
+      <Hash>74-35-42-C9-1D-89-0F-4F-E3-21-F3-DE-84-BC-C9-EB</Hash>
+      <Properties>
+        <string>Title</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\ItemsPage.xaml</FilePath>
+      <Hash>D2-CC-A9-77-34-7C-3D-61-07-66-5D-61-45-DA-18-88</Hash>
+      <Properties>
+        <string>Title</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\MainPage.xaml</FilePath>
+      <Hash>CF-7E-4C-E2-F8-67-47-95-0E-82-0F-2B-26-23-59-21</Hash>
+      <Properties>
+        <string>Title</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\MenuPage.xaml</FilePath>
+      <Hash>53-E0-82-74-67-14-A7-42-EB-85-74-56-D7-5D-F6-89</Hash>
+      <Properties>
+        <string>Title</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\NewItemPage.xaml</FilePath>
+      <Hash>A7-CD-B1-4A-1B-EF-07-9F-A4-27-EA-2D-19-1B-12-A1</Hash>
+      <Properties>
+        <string>Title</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\ProfilePage.xaml</FilePath>
+      <Hash>6B-D4-81-D7-63-64-39-3A-D8-67-D6-F5-1F-A8-E5-CD</Hash>
+      <Properties>
+        <string>BarBackgroundColor</string>
+        <string>BarTextColor</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\ShopsDisplayPage.xaml</FilePath>
+      <Hash>10-C0-6B-AF-5B-04-B0-85-66-87-32-0A-C6-F2-CE-02</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\SignInPage.xaml</FilePath>
+      <Hash>D6-15-EC-3F-99-0B-64-E4-68-A9-02-F7-30-E9-FF-56</Hash>
+      <Properties>
+        <string>Title</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\SignUpPage.xaml</FilePath>
+      <Hash>C5-5B-92-5B-B7-F2-A0-E9-76-27-82-61-47-76-A2-1D</Hash>
+      <Properties />
+    </XamlFileMeta>
+  </Files>
+</XamlProjectMeta>

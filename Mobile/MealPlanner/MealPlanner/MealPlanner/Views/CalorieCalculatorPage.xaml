@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d"
-             x:Class="MealPlanner.Views.CalorieCalculatorPage">
+<ContentPage
+    x:Class="MealPlanner.Views.CalorieCalculatorPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
 
     <ContentPage.Resources>
         <ResourceDictionary>
@@ -21,100 +22,119 @@
         <StackLayout Padding="5,0,5,0">
 
             <Frame BackgroundColor="{StaticResource Primary-Green}" CornerRadius="10">
-                
-                <Label Text="Calorie Calculator" 
-                   FontSize="32" 
-                   FontAttributes="Bold" 
-                   TextColor="{StaticResource OffWhiteTextColor}"
-                   HorizontalOptions="Center"
-                   VerticalTextAlignment="Center"
-                   HorizontalTextAlignment="Center"/>
-                
+
+                <Label
+                    FontAttributes="Bold"
+                    FontSize="32"
+                    HorizontalOptions="Center"
+                    HorizontalTextAlignment="Center"
+                    Text="Calorie Calculator"
+                    TextColor="{StaticResource OffWhiteTextColor}"
+                    VerticalTextAlignment="Center" />
+
             </Frame>
 
-            <StackLayout Orientation="Horizontal" Padding="15,10,15,20">
+            <StackLayout Padding="15,10,15,20" Orientation="Horizontal">
 
-                <Label Text="Daily Calorie need: "
-                       FontSize="Medium"
-                       TextColor="{StaticResource dark-theme-grey}"
-                       VerticalOptions="Center"/>
-
-                <Entry IsReadOnly="True" 
-                       VerticalOptions="Center"
-                       FontSize="Medium"
-                       WidthRequest="120" x:Name="CalorieNeed"
-                       TextColor="{StaticResource Primary-Green}" 
-                       HorizontalOptions="EndAndExpand"
-                       HorizontalTextAlignment="Center"/>
-
-            </StackLayout>
-
-            <Label Text="Daily Calorie need is calculated based on your Height, Weight and your age that you provided" 
-                   TextColor="{StaticResource Primary-Green}"
-                   FontSize="Small"
-                   Margin="15,0,15,20"
-                   HorizontalTextAlignment="Center"/>
-
-            <StackLayout Orientation="Horizontal" Padding="15,0,15,20">
-
-                <Label Text="How Many Meals Per Day: " 
-                       FontSize="Medium"
-                       TextColor="{StaticResource dark-theme-grey}" 
-                       VerticalOptions="Center"/>
-
-                <Entry IsReadOnly="True" 
-                       VerticalOptions="Center"
-                       FontSize="Medium"
-                       WidthRequest="120" x:Name="MealsPerDay" 
-                       TextColor="{StaticResource Primary-Green}"
-                       HorizontalOptions="EndAndExpand"
-                       HorizontalTextAlignment="Center"/>
-
-            </StackLayout>
-
-            <StackLayout HorizontalOptions="EndAndExpand" Orientation="Horizontal" Padding="15,0,13,20">
-                <Button Margin="10,0,0,0" 
-                        Text="-"
-                        FontSize="Small"
-                        WidthRequest="60"
-                        HeightRequest="40"
-                        x:Name="Minus"
-                        Clicked="Minus_Clicked"
-                        CornerRadius="10"/>
-                <Button Margin="0,0,0,0"
-                        FontSize="Small"
-                        Text="+"
-                        WidthRequest="60"
-                        HeightRequest="40"
-                        x:Name="Add"
-                        Clicked="Add_Clicked" 
-                        CornerRadius="10"/> 
-            </StackLayout>
-
-            <Button Margin="80,5,80,20" 
-                    Text="Calculate" 
-                    x:Name="Calculate"
-                    WidthRequest="120" 
-                    HeightRequest="60"
+                <Label
                     FontSize="Medium"
-                    BackgroundColor="{StaticResource Primary-Green}"
-                    TextColor="{StaticResource OffWhiteTextColor}"
-                    Clicked="Calculate_Clicked"
-                    CornerRadius="10"/>
+                    Text="Daily Calorie need: "
+                    TextColor="{StaticResource dark-theme-grey}"
+                    VerticalOptions="Center" />
 
-            <StackLayout Orientation="Horizontal" Padding="15,0,15,0" Margin="0,0,0,0">
+                <Entry
+                    x:Name="CalorieNeed"
+                    FontSize="Medium"
+                    HorizontalOptions="EndAndExpand"
+                    HorizontalTextAlignment="Center"
+                    IsReadOnly="True"
+                    TextColor="{StaticResource Primary-Green}"
+                    VerticalOptions="Center"
+                    WidthRequest="120" />
 
-                <Label Text="Calories Per Meal: "
-                       FontSize="Medium"
-                       TextColor="{StaticResource dark-theme-grey}" 
-                       VerticalOptions="Center"/>
+            </StackLayout>
 
-                <Label Text=""
-                       x:Name="CalPerMeal"
-                       FontSize="32"
-                       TextColor="{StaticResource Primary-Green}"
-                       HorizontalOptions="EndAndExpand"
-                       VerticalOptions="Center"/>
+            <Label
+                Margin="15,0,15,20"
+                FontSize="Small"
+                HorizontalTextAlignment="Center"
+                Text="Daily Calorie need is calculated based on your Height, Weight and your age that you provided"
+                TextColor="{StaticResource Primary-Green}" />
+
+            <StackLayout Padding="15,0,15,20" Orientation="Horizontal">
+
+                <Label
+                    FontSize="Medium"
+                    Text="How Many Meals Per Day: "
+                    TextColor="{StaticResource dark-theme-grey}"
+                    VerticalOptions="Center" />
+
+                <Entry
+                    x:Name="MealsPerDay"
+                    FontSize="Medium"
+                    HorizontalOptions="EndAndExpand"
+                    HorizontalTextAlignment="Center"
+                    IsReadOnly="True"
+                    TextColor="{StaticResource Primary-Green}"
+                    VerticalOptions="Center"
+                    WidthRequest="120" />
+
+            </StackLayout>
+
+            <StackLayout
+                Padding="15,0,13,20"
+                HorizontalOptions="EndAndExpand"
+                Orientation="Horizontal">
+                <Button
+                    x:Name="Minus"
+                    Margin="10,0,0,0"
+                    Clicked="Minus_Clicked"
+                    CornerRadius="10"
+                    FontSize="Small"
+                    HeightRequest="40"
+                    Text="-"
+                    WidthRequest="60" />
+                <Button
+                    x:Name="Add"
+                    Margin="0,0,0,0"
+                    Clicked="Add_Clicked"
+                    CornerRadius="10"
+                    FontSize="Small"
+                    HeightRequest="40"
+                    Text="+"
+                    WidthRequest="60" />
+            </StackLayout>
+
+            <Button
+                x:Name="Calculate"
+                Margin="80,5,80,20"
+                BackgroundColor="{StaticResource Primary-Green}"
+                Clicked="Calculate_Clicked"
+                CornerRadius="10"
+                FontSize="Medium"
+                HeightRequest="60"
+                Text="Calculate"
+                TextColor="{StaticResource OffWhiteTextColor}"
+                WidthRequest="120" />
+
+            <StackLayout
+                Margin="0,0,0,0"
+                Padding="15,0,15,0"
+                Orientation="Horizontal">
+
+                <Label
+                    FontSize="Medium"
+                    Text="Calories Per Meal: "
+                    TextColor="{StaticResource dark-theme-grey}"
+                    VerticalOptions="Center" />
+
+                <Label
+                    x:Name="CalPerMeal"
+                    FontSize="32"
+                    HorizontalOptions="EndAndExpand"
+                    Text=""
+                    TextColor="{StaticResource Primary-Green}"
+                    VerticalOptions="Center" />
 
             </StackLayout>
 

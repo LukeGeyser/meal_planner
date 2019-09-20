@@ -1,17 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d"
-             x:Class="MealPlanner.Views.SignInPage"
-             xmlns:vm="clr-namespace:MealPlanner.ViewModels"
-             Title="{Binding Title}">
-    
+<ContentPage
+    x:Class="MealPlanner.Views.SignInPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="clr-namespace:MealPlanner.ViewModels"
+    Title="{Binding Title}"
+    mc:Ignorable="d">
+
     <ContentPage.BindingContext>
         <vm:SignInViewModel />
     </ContentPage.BindingContext>
-    
+
     <ContentPage.Resources>
         <ResourceDictionary>
             <Color x:Key="Primary-Green">#669e2f</Color>
@@ -23,74 +24,80 @@
     </ContentPage.Resources>
 
     <ContentPage.Content>
-        <StackLayout Padding="50,0,50,0"
-                     VerticalOptions="Center">
+        <StackLayout Padding="50,0,50,0" VerticalOptions="Center">
 
-            <Image Source="icon.png"
-                   VerticalOptions="Center"></Image>
-            
-            <Label Text="Username:"
-                   TextColor="{StaticResource LightTextColor}"
-                   FontSize="Medium"></Label>
+            <Image Source="icon.png" VerticalOptions="Center" />
 
-            <Entry FontSize="Medium"
-                   WidthRequest="20"
-                   Placeholder="Enter Your Username"
-                   TextColor="{StaticResource Primary-Green}"
-                   x:Name="Username"
-                   Text="Test"></Entry>
+            <Label
+                FontSize="Medium"
+                Text="Username:"
+                TextColor="{StaticResource LightTextColor}" />
 
-            <Label Text="Password:" 
-                   TextColor="{StaticResource LightTextColor}"
-                   FontSize="Medium"></Label>
+            <Entry
+                x:Name="Username"
+                FontSize="Medium"
+                Placeholder="Enter Your Username"
+                Text="Test"
+                TextColor="{StaticResource Primary-Green}"
+                WidthRequest="20" />
 
-            <Entry FontSize="Medium"
-                   WidthRequest="20"
-                   Placeholder="Enter Your Password"
-                   TextColor="{StaticResource Primary-Green}"
-                   Margin="0,0,0,0"
-                   x:Name="Password"
-                   IsPassword="True"
-                   Text="12345"></Entry>
+            <Label
+                FontSize="Medium"
+                Text="Password:"
+                TextColor="{StaticResource LightTextColor}" />
 
-            <Label x:Name="Error"
-                   Text="Username and Password are Incorrect!"
-                   FontSize="Medium"
-                   HorizontalOptions="Center"
-                   TextColor="{StaticResource alert}"
-                   IsVisible="False"
-                   HorizontalTextAlignment="Center"></Label>
+            <Entry
+                x:Name="Password"
+                Margin="0,0,0,0"
+                FontSize="Medium"
+                IsPassword="True"
+                Placeholder="Enter Your Password"
+                Text="12345"
+                TextColor="{StaticResource Primary-Green}"
+                WidthRequest="20" />
+
+            <Label
+                x:Name="Error"
+                FontSize="Medium"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"
+                IsVisible="False"
+                Text="Username and Password are Incorrect!"
+                TextColor="{StaticResource alert}" />
 
 
 
-            <FlexLayout VerticalOptions="Center"
-                        HorizontalOptions="Center"
-                        JustifyContent="Center">
-                <Button Text="Sign In" 
+            <FlexLayout
+                HorizontalOptions="Center"
+                JustifyContent="Center"
+                VerticalOptions="Center">
+                <Button
                     x:Name="Sign_In"
-                    Padding="0,0,0,0"
                     Margin="0,15,0,0"
-                    WidthRequest="120" 
-                    HeightRequest="60"
-                    FontSize="Medium"
-                    BackgroundColor="{StaticResource Primary-Green}"
-                    TextColor="White"
-                    Clicked="Sign_In_Clicked"
-                    CornerRadius="10"></Button>
-
-                <Button Text="Sign Up" 
-                    x:Name="Sign_Up"
                     Padding="0,0,0,0"
-                    Margin="10,15,0,0"
-                    WidthRequest="120" 
-                    HeightRequest="60"
-                    FontSize="Medium"
-                    CornerRadius="10"
                     BackgroundColor="{StaticResource Primary-Green}"
+                    Clicked="Sign_In_Clicked"
+                    CornerRadius="10"
+                    FontSize="Medium"
+                    HeightRequest="60"
+                    Text="Sign In"
                     TextColor="White"
-                    Clicked="Sign_Up_Clicked"></Button>
+                    WidthRequest="120" />
+
+                <Button
+                    x:Name="Sign_Up"
+                    Margin="10,15,0,0"
+                    Padding="0,0,0,0"
+                    BackgroundColor="{StaticResource Primary-Green}"
+                    Clicked="Sign_Up_Clicked"
+                    CornerRadius="10"
+                    FontSize="Medium"
+                    HeightRequest="60"
+                    Text="Sign Up"
+                    TextColor="White"
+                    WidthRequest="120" />
             </FlexLayout>
-            
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

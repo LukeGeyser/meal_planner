@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d"
-             x:Class="MealPlanner.Views.AdditionalInfoSignUpPage">
+<ContentPage
+    x:Class="MealPlanner.Views.AdditionalInfoSignUpPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
     <ContentPage.Resources>
         <ResourceDictionary>
             <Color x:Key="Primary-Green">#669e2f</Color>
@@ -17,82 +18,92 @@
 
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout Padding="50,0,50,0"
-                     VerticalOptions="Center">
+            <StackLayout Padding="50,0,50,0" VerticalOptions="Center">
 
-                <!-- LOGO -->
-                <Image Source="icon.png"
-                   VerticalOptions="Center"
-                   HeightRequest="140"></Image>
+                <!--  LOGO  -->
+                <Image
+                    HeightRequest="140"
+                    Source="icon.png"
+                    VerticalOptions="Center" />
 
-                <Label Text="Additional Infomation"
-                   TextColor="{StaticResource Primary-Green}"
-                   FontSize="Large"
-                   HorizontalOptions="Center"
-                   Margin="0,0,0,10"></Label>
+                <Label
+                    Margin="0,0,0,10"
+                    FontSize="Large"
+                    HorizontalOptions="Center"
+                    Text="Additional Infomation"
+                    TextColor="{StaticResource Primary-Green}" />
 
-                <!-- DATE OF BIRTH -->
-                <Label Text="Date Of Birth:"
-                   TextColor="{StaticResource LightTextColor}"
-                   FontSize="Medium"></Label>
-
-                <!-- DATE OF BIRTH -->
-                <DatePicker x:Name="DOB"
-                            FontSize="Medium"
-                            TextColor="{StaticResource Primary-Green}"></DatePicker>
-
-                <!-- USERNAME -->
-                <Label Text="Weight:"
-                   TextColor="{StaticResource LightTextColor}"
-                   FontSize="Medium"></Label>
-
-                <!-- USERNAME -->
-                <Entry FontSize="Medium"
-                   WidthRequest="20"
-                   Placeholder="Enter Your Weight"
-                   TextColor="{StaticResource Primary-Green}"
-                   x:Name="Weight"></Entry>
-
-                <!-- PASSWORD -->
-                <Label Text="Height:" 
-                   TextColor="{StaticResource LightTextColor}"
-                   FontSize="Medium"></Label>
-
-                <!-- PASSWORD -->
-                <Entry FontSize="Medium"
-                   WidthRequest="20"
-                   Placeholder="Enter Your Height"
-                   Margin="0,0,0,10"
-                   x:Name="Height"
-                   TextColor="{StaticResource Primary-Green}"></Entry>
-
-                <FlexLayout VerticalOptions="Center"
-                            HorizontalOptions="Center"
-                            Margin="0,0,0,20"
-                            JustifyContent="Center">
-                    <Button Text="Back" 
-                    x:Name="Back"
-                    Padding="0,0,0,0"
-                    Margin="0,5,0,0"
-                    WidthRequest="120" 
-                    HeightRequest="60"
+                <!--  DATE OF BIRTH  -->
+                <Label
                     FontSize="Medium"
-                    BackgroundColor="{StaticResource Primary-Green}"
-                    TextColor="White"
-                    Clicked="Back_Clicked"
-                    CornerRadius="10"></Button>
+                    Text="Date Of Birth:"
+                    TextColor="{StaticResource LightTextColor}" />
 
-                    <Button Text="Finish"
-                    x:Name="Finish"
-                    Padding="0,0,0,0"
-                    Margin="10,5,0,0"
-                    WidthRequest="120" 
-                    HeightRequest="60"
+                <!--  DATE OF BIRTH  -->
+                <DatePicker
+                    x:Name="DOB"
                     FontSize="Medium"
-                    BackgroundColor="{StaticResource Primary-Green}"
-                    TextColor="White"
-                    Clicked="Finish_Clicked"
-                    CornerRadius="10"></Button>
+                    TextColor="{StaticResource Primary-Green}" />
+
+                <!--  USERNAME  -->
+                <Label
+                    FontSize="Medium"
+                    Text="Weight:"
+                    TextColor="{StaticResource LightTextColor}" />
+
+                <!--  USERNAME  -->
+                <Entry
+                    x:Name="Weight"
+                    FontSize="Medium"
+                    Placeholder="Enter Your Weight"
+                    TextColor="{StaticResource Primary-Green}"
+                    WidthRequest="20" />
+
+                <!--  PASSWORD  -->
+                <Label
+                    FontSize="Medium"
+                    Text="Height:"
+                    TextColor="{StaticResource LightTextColor}" />
+
+                <!--  PASSWORD  -->
+                <Entry
+                    x:Name="Height"
+                    Margin="0,0,0,10"
+                    FontSize="Medium"
+                    Placeholder="Enter Your Height"
+                    TextColor="{StaticResource Primary-Green}"
+                    WidthRequest="20" />
+
+                <FlexLayout
+                    Margin="0,0,0,20"
+                    HorizontalOptions="Center"
+                    JustifyContent="Center"
+                    VerticalOptions="Center">
+                    <Button
+                        x:Name="Back"
+                        Margin="0,5,0,0"
+                        Padding="0,0,0,0"
+                        BackgroundColor="{StaticResource Primary-Green}"
+                        Clicked="Back_Clicked"
+                        CornerRadius="10"
+                        FontSize="Medium"
+                        HeightRequest="60"
+                        Text="Back"
+                        TextColor="White"
+                        WidthRequest="120" />
+
+                    <Button
+                        x:Name="Finish"
+                        Margin="10,5,0,0"
+                        Padding="0,0,0,0"
+                        BackgroundColor="{StaticResource Primary-Green}"
+                        Clicked="Finish_Clicked"
+                        CornerRadius="10"
+                        FontSize="Medium"
+                        HeightRequest="60"
+                        Text="Finish"
+                        TextColor="White"
+                        WidthRequest="120" />
                 </FlexLayout>
 
             </StackLayout>

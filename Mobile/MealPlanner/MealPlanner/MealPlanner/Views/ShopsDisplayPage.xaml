@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d"
-             x:Class="MealPlanner.Views.ShopsDisplayPage"
-             xmlns:vm="clr-namespace:MealPlanner.ViewModels">
+<ContentPage
+    x:Class="MealPlanner.Views.ShopsDisplayPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="clr-namespace:MealPlanner.ViewModels"
+    mc:Ignorable="d">
 
     <ContentPage.Resources>
         <ResourceDictionary>
@@ -20,23 +21,25 @@
 
     <ContentPage.Content>
         <StackLayout Margin="5,0,5,0">
-            
+
             <Frame BackgroundColor="{StaticResource Primary-Green}" CornerRadius="10">
 
-                <Label Text="Store Locator"
-                   FontSize="32"
-                   FontAttributes="Bold"
-                   TextColor="{StaticResource OffWhiteTextColor}"
-                   HorizontalOptions="Center"
-                   VerticalTextAlignment="Center"
-                   HorizontalTextAlignment="Center" />
+                <Label
+                    FontAttributes="Bold"
+                    FontSize="32"
+                    HorizontalOptions="Center"
+                    HorizontalTextAlignment="Center"
+                    Text="Store Locator"
+                    TextColor="{StaticResource OffWhiteTextColor}"
+                    VerticalTextAlignment="Center" />
 
             </Frame>
 
-            <Picker Title="Select a Store"
-                    FontSize="Medium"
-                    x:Name="StorePicker"
-                    SelectedIndexChanged="StorePicker_SelectedIndexChanged">
+            <Picker
+                x:Name="StorePicker"
+                Title="Select a Store"
+                FontSize="Medium"
+                SelectedIndexChanged="StorePicker_SelectedIndexChanged">
                 <Picker.Items>
                     <x:String>WoolWorths</x:String>
                     <x:String>Pick n Pay</x:String>
@@ -45,8 +48,11 @@
                 </Picker.Items>
             </Picker>
 
-            <Label TextColor="{StaticResource Primary-Green}" x:Name="NearYou"
-                   FontSize="Large" FontAttributes="Bold"/>
+            <Label
+                x:Name="NearYou"
+                FontAttributes="Bold"
+                FontSize="Large"
+                TextColor="{StaticResource Primary-Green}" />
 
             <ListView ItemsSource="{Binding DisplayingList}" RowHeight="100">
                 <ListView.ItemTemplate>
@@ -54,31 +60,44 @@
                         <ViewCell Tapped="ViewCell_Tapped">
                             <Grid Padding="5,10">
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="70"/>
+                                    <ColumnDefinition Width="70" />
                                     <ColumnDefinition Width="*" />
                                     <ColumnDefinition Width="70" />
                                 </Grid.ColumnDefinitions>
 
-                                <Image Source="{Binding Icon_Source}" Grid.Column="0" />
+                                <Image Grid.Column="0" Source="{Binding Icon_Source}" />
 
                                 <Grid Grid.Column="1" Padding="0">
                                     <Grid.RowDefinitions>
                                         <RowDefinition Height="*" />
                                         <RowDefinition Height="15" />
                                     </Grid.RowDefinitions>
-                                    
-                                    <Label FontAttributes="Bold" Text="{Binding Name}" FontSize="Medium"
-                                       TextColor="{StaticResource dark-theme-grey}"  Grid.Row="0"
-                                       VerticalTextAlignment="Center" Margin="0"/>
 
-                                    <Label Text="{Binding Distance}" FontSize="Micro"
-                                           Grid.Row="1" Margin="0"
-                                           VerticalTextAlignment="Center"/>
+                                    <Label
+                                        Grid.Row="0"
+                                        Margin="0"
+                                        FontAttributes="Bold"
+                                        FontSize="Medium"
+                                        Text="{Binding Name}"
+                                        TextColor="{StaticResource dark-theme-grey}"
+                                        VerticalTextAlignment="Center" />
+
+                                    <Label
+                                        Grid.Row="1"
+                                        Margin="0"
+                                        FontSize="Micro"
+                                        Text="{Binding Distance}"
+                                        VerticalTextAlignment="Center" />
                                 </Grid>
-                                
 
-                                <Label Text="{Binding open_Text}" TextColor="{Binding ColorHex}" FontSize="Medium" Grid.Column="2"
-                                       VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+
+                                <Label
+                                    Grid.Column="2"
+                                    FontSize="Medium"
+                                    HorizontalTextAlignment="Center"
+                                    Text="{Binding open_Text}"
+                                    TextColor="{Binding ColorHex}"
+                                    VerticalTextAlignment="Center" />
                             </Grid>
                         </ViewCell>
                     </DataTemplate>

@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d"
-             x:Class="MealPlanner.Views.AddMealPlanPage">
+<ContentPage
+    x:Class="MealPlanner.Views.AddMealPlanPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
 
     <ContentPage.Resources>
         <ResourceDictionary>
@@ -23,93 +24,100 @@
 
                 <Frame BackgroundColor="{StaticResource Primary-Green}" CornerRadius="10">
 
-                    <Label Text="Add Allergy Item"
-                   FontSize="32" 
-                   FontAttributes="Bold" 
-                   TextColor="{StaticResource OffWhiteTextColor}"
-                   HorizontalOptions="Center"
-                   VerticalTextAlignment="Center"
-                   HorizontalTextAlignment="Center"/>
+                    <Label
+                        FontAttributes="Bold"
+                        FontSize="32"
+                        HorizontalOptions="Center"
+                        HorizontalTextAlignment="Center"
+                        Text="Add Allergy Item"
+                        TextColor="{StaticResource OffWhiteTextColor}"
+                        VerticalTextAlignment="Center" />
 
                 </Frame>
 
                 <StackLayout Margin="48,20,48,0">
 
-                    <StackLayout Orientation="Horizontal"
-                         Margin="0,0,0,0">
+                    <StackLayout Margin="0,0,0,0" Orientation="Horizontal">
 
-                        <Label Text="Meal Plan Name:"
-                       FontSize="Medium"
-                       TextColor="{StaticResource dark-theme-grey}"
-                       VerticalOptions="Center"/>
+                        <Label
+                            FontSize="Medium"
+                            Text="Meal Plan Name:"
+                            TextColor="{StaticResource dark-theme-grey}"
+                            VerticalOptions="Center" />
 
-                        <Entry VerticalOptions="Center" x:Name="MealPlanName"
-                       TextColor="{StaticResource dark-theme-grey}"
-                       HorizontalOptions="FillAndExpand"
-                       FontSize="Medium"/>
+                        <Entry
+                            x:Name="MealPlanName"
+                            FontSize="Medium"
+                            HorizontalOptions="FillAndExpand"
+                            TextColor="{StaticResource dark-theme-grey}"
+                            VerticalOptions="Center" />
 
                     </StackLayout>
 
-                    <!-- DESCRIPTION -->
-                    <Label Text="Meal Plan Description : "
-                   FontSize="Medium"
-                   Margin="0,20,0,0"
-                   TextColor="{StaticResource dark-theme-grey}"
-                   VerticalOptions="Center"/>
-
-                    <Editor IsSpellCheckEnabled="True"
-                    AutoSize="TextChanges"
-                    IsTextPredictionEnabled="True"
-                    TextColor="{StaticResource dark-theme-grey}"
-                    Placeholder="Description"
-                    FontSize="Medium"
-                    x:Name="MealPlanDescription">
-                    </Editor>
-
-                    <!-- ADVANTAGES -->
-                    <Label Text="Meal Plan Advantages : "
-                   FontSize="Medium"
-                   Margin="0,20,0,0"
-                   TextColor="{StaticResource dark-theme-grey}"
-                   VerticalOptions="Center"/>
-
-                    <Editor IsSpellCheckEnabled="True"
-                    AutoSize="TextChanges"
-                    IsTextPredictionEnabled="True"
-                    TextColor="{StaticResource dark-theme-grey}"
-                    Placeholder="Advantages"
-                    FontSize="Medium"
-                    x:Name="MealPlanAdvantage">
-                    </Editor>
-
-                    <!-- DISADVANTAGES -->
-                    <Label Text="Meal Plan Disadvantages : "
-                   FontSize="Medium"
-                   Margin="0,20,0,0"
-                   TextColor="{StaticResource dark-theme-grey}"
-                   VerticalOptions="Center"/>
-
-                    <Editor IsSpellCheckEnabled="True"
-                    AutoSize="TextChanges"
-                    IsTextPredictionEnabled="True"
-                    TextColor="{StaticResource dark-theme-grey}"
-                    Placeholder="Disadvantages"
-                    FontSize="Medium"
-                    x:Name="MealPlanDisadvantages">
-                    </Editor>
-
-                    <Button Text="Add Meal Plan" 
-                        Margin="0,15,0,0"
-                        HorizontalOptions="Center"
-                        FontAttributes="Bold"
-                        x:Name="AddMealPlan"
-                        WidthRequest="160" 
-                        HeightRequest="80"
+                    <!--  DESCRIPTION  -->
+                    <Label
+                        Margin="0,20,0,0"
                         FontSize="Medium"
-                        CornerRadius="10"
+                        Text="Meal Plan Description : "
+                        TextColor="{StaticResource dark-theme-grey}"
+                        VerticalOptions="Center" />
+
+                    <Editor
+                        x:Name="MealPlanDescription"
+                        AutoSize="TextChanges"
+                        FontSize="Medium"
+                        IsSpellCheckEnabled="True"
+                        IsTextPredictionEnabled="True"
+                        Placeholder="Description"
+                        TextColor="{StaticResource dark-theme-grey}" />
+
+                    <!--  ADVANTAGES  -->
+                    <Label
+                        Margin="0,20,0,0"
+                        FontSize="Medium"
+                        Text="Meal Plan Advantages : "
+                        TextColor="{StaticResource dark-theme-grey}"
+                        VerticalOptions="Center" />
+
+                    <Editor
+                        x:Name="MealPlanAdvantage"
+                        AutoSize="TextChanges"
+                        FontSize="Medium"
+                        IsSpellCheckEnabled="True"
+                        IsTextPredictionEnabled="True"
+                        Placeholder="Advantages"
+                        TextColor="{StaticResource dark-theme-grey}" />
+
+                    <!--  DISADVANTAGES  -->
+                    <Label
+                        Margin="0,20,0,0"
+                        FontSize="Medium"
+                        Text="Meal Plan Disadvantages : "
+                        TextColor="{StaticResource dark-theme-grey}"
+                        VerticalOptions="Center" />
+
+                    <Editor
+                        x:Name="MealPlanDisadvantages"
+                        AutoSize="TextChanges"
+                        FontSize="Medium"
+                        IsSpellCheckEnabled="True"
+                        IsTextPredictionEnabled="True"
+                        Placeholder="Disadvantages"
+                        TextColor="{StaticResource dark-theme-grey}" />
+
+                    <Button
+                        x:Name="AddMealPlan"
+                        Margin="0,15,0,0"
                         BackgroundColor="{StaticResource Primary-Green}"
-                        TextColor="{StaticResource OffWhiteTextColor}" 
-                        Clicked="AddMealPlan_Clicked"/>
+                        Clicked="AddMealPlan_Clicked"
+                        CornerRadius="10"
+                        FontAttributes="Bold"
+                        FontSize="Medium"
+                        HeightRequest="80"
+                        HorizontalOptions="Center"
+                        Text="Add Meal Plan"
+                        TextColor="{StaticResource OffWhiteTextColor}"
+                        WidthRequest="160" />
 
                 </StackLayout>
 

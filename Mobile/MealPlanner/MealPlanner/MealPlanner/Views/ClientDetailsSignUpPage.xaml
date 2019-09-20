@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d"
-             x:Class="MealPlanner.Views.ClientDetailsSignUpPage">
+<ContentPage
+    x:Class="MealPlanner.Views.ClientDetailsSignUpPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
 
     <ContentPage.Resources>
         <ResourceDictionary>
@@ -17,96 +18,108 @@
     </ContentPage.Resources>
 
     <ContentPage.Content>
-        <StackLayout Padding="50,0,50,0"
-                     VerticalOptions="Center">
+        <StackLayout Padding="50,0,50,0" VerticalOptions="Center">
 
-            <!-- LOGO -->
-            <Image Source="icon.png"
-                   VerticalOptions="Center"
-                   HeightRequest="140"></Image>
+            <!--  LOGO  -->
+            <Image
+                HeightRequest="140"
+                Source="icon.png"
+                VerticalOptions="Center" />
 
-            <Label Text="Personal Infomation"
-                   TextColor="{StaticResource Primary-Green}"
-                   FontSize="Large"
-                   HorizontalOptions="Center"
-                   Margin="0,0,0,10"></Label>
+            <Label
+                Margin="0,0,0,10"
+                FontSize="Large"
+                HorizontalOptions="Center"
+                Text="Personal Infomation"
+                TextColor="{StaticResource Primary-Green}" />
 
-            <!-- FIRTNAME -->
-            <Label Text="First Name:"
-                   TextColor="{StaticResource LightTextColor}"
-                   FontSize="Medium"></Label>
+            <!--  FIRTNAME  -->
+            <Label
+                FontSize="Medium"
+                Text="First Name:"
+                TextColor="{StaticResource LightTextColor}" />
 
-            <!-- FIRTNAME -->
-            <Entry FontSize="Medium"
-                   WidthRequest="20"
-                   Placeholder="Enter Your First Name"
-                   TextColor="{StaticResource Primary-Green}"
-                   x:Name="FName"></Entry>
+            <!--  FIRTNAME  -->
+            <Entry
+                x:Name="FName"
+                FontSize="Medium"
+                Placeholder="Enter Your First Name"
+                TextColor="{StaticResource Primary-Green}"
+                WidthRequest="20" />
 
-            <!-- SURNAME -->
-            <Label Text="Last Name:"
-                   TextColor="{StaticResource LightTextColor}"
-                   FontSize="Medium"></Label>
+            <!--  SURNAME  -->
+            <Label
+                FontSize="Medium"
+                Text="Last Name:"
+                TextColor="{StaticResource LightTextColor}" />
 
-            <!-- SURNAME -->
-            <Entry FontSize="Medium"
-                   WidthRequest="20"
-                   Placeholder="Enter Your Last Name"
-                   TextColor="{StaticResource Primary-Green}"
-                   x:Name="LName"></Entry>
+            <!--  SURNAME  -->
+            <Entry
+                x:Name="LName"
+                FontSize="Medium"
+                Placeholder="Enter Your Last Name"
+                TextColor="{StaticResource Primary-Green}"
+                WidthRequest="20" />
 
 
-            <!-- EMAIL ADDRESS -->
-            <Label Text="Email Address:"
-                   TextColor="{StaticResource LightTextColor}"
-                   FontSize="Medium"></Label>
+            <!--  EMAIL ADDRESS  -->
+            <Label
+                FontSize="Medium"
+                Text="Email Address:"
+                TextColor="{StaticResource LightTextColor}" />
 
-            <!-- EMAIL ADDRESS -->
-            <Entry FontSize="Medium"
-                   WidthRequest="20"
-                   Placeholder="Enter Your Email Address"
-                   TextColor="{StaticResource Primary-Green}"
-                   x:Name="Email"></Entry>
+            <!--  EMAIL ADDRESS  -->
+            <Entry
+                x:Name="Email"
+                FontSize="Medium"
+                Placeholder="Enter Your Email Address"
+                TextColor="{StaticResource Primary-Green}"
+                WidthRequest="20" />
 
-            <!-- Phone Number -->
-            <Label Text="Phone Number:"
-                   TextColor="{StaticResource LightTextColor}"
-                   FontSize="Medium"></Label>
+            <!--  Phone Number  -->
+            <Label
+                FontSize="Medium"
+                Text="Phone Number:"
+                TextColor="{StaticResource LightTextColor}" />
 
-            <!-- Phone Number -->
-            <Entry FontSize="Medium"
-                   WidthRequest="20"
-                   Placeholder="Enter Your Phone Number"
-                   TextColor="{StaticResource Primary-Green}"
-                   x:Name="Phone"></Entry>
+            <!--  Phone Number  -->
+            <Entry
+                x:Name="Phone"
+                FontSize="Medium"
+                Placeholder="Enter Your Phone Number"
+                TextColor="{StaticResource Primary-Green}"
+                WidthRequest="20" />
 
-            <FlexLayout VerticalOptions="Center"
-                        HorizontalOptions="Center"
-                        Margin="0,0,0,20"
-                        JustifyContent="Center">
-                <Button Text="Back" 
+            <FlexLayout
+                Margin="0,0,0,20"
+                HorizontalOptions="Center"
+                JustifyContent="Center"
+                VerticalOptions="Center">
+                <Button
                     x:Name="Back"
-                    Padding="0,0,0,0"
                     Margin="0,5,0,0"
-                    WidthRequest="120" 
-                    HeightRequest="60"
-                    FontSize="Medium"
-                    BackgroundColor="{StaticResource Primary-Green}"
-                    TextColor="White"
-                    Clicked="Back_Clicked"
-                    CornerRadius="10"></Button>
-
-                <Button Text="Next" 
-                    x:Name="Next"
                     Padding="0,0,0,0"
-                    Margin="10,5,0,0"
-                    WidthRequest="120" 
-                    HeightRequest="60"
-                    FontSize="Medium"
                     BackgroundColor="{StaticResource Primary-Green}"
+                    Clicked="Back_Clicked"
+                    CornerRadius="10"
+                    FontSize="Medium"
+                    HeightRequest="60"
+                    Text="Back"
                     TextColor="White"
+                    WidthRequest="120" />
+
+                <Button
+                    x:Name="Next"
+                    Margin="10,5,0,0"
+                    Padding="0,0,0,0"
+                    BackgroundColor="{StaticResource Primary-Green}"
                     Clicked="Next_Clicked"
-                    CornerRadius="10"></Button>
+                    CornerRadius="10"
+                    FontSize="Medium"
+                    HeightRequest="60"
+                    Text="Next"
+                    TextColor="White"
+                    WidthRequest="120" />
             </FlexLayout>
 
         </StackLayout>

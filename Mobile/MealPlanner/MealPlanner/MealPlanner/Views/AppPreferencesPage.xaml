@@ -1,14 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d"
-             x:Class="MealPlanner.Views.AppPreferencesPage"
-             xmlns:vm="clr-namespace:MealPlanner.Models"
-             xmlns:local="clr-namespace:MealPlanner.Views"
-             xmlns:controls="clr-namespace:MealPlanner.Custom_Renderer"
-             Title="App Preferences">
+<ContentPage
+    x:Class="MealPlanner.Views.AppPreferencesPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:controls="clr-namespace:MealPlanner.Custom_Renderer"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:local="clr-namespace:MealPlanner.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="clr-namespace:MealPlanner.Models"
+    Title="App Preferences"
+    mc:Ignorable="d">
 
     <ContentPage.Resources>
         <ResourceDictionary>
@@ -24,13 +25,17 @@
     <ContentPage.Content>
         <StackLayout Margin="5,5,5,5">
 
-            <!-- ALERGIES -->
-            <Frame CornerRadius="10"
-                   BackgroundColor="{StaticResource Primary-Green}"
-                   Padding="0,2,0,2">
-                <Label HorizontalOptions="Center"
-                       FontSize="Title"
-                       TextColor="{StaticResource OffWhiteTextColor}">Please Select Your Allergies</Label>
+            <!--  ALERGIES  -->
+            <Frame
+                Padding="0,2,0,2"
+                BackgroundColor="{StaticResource Primary-Green}"
+                CornerRadius="10">
+                <Label
+                    FontSize="Title"
+                    HorizontalOptions="Center"
+                    TextColor="{StaticResource OffWhiteTextColor}">
+                    Please Select Your Allergies
+                </Label>
             </Frame>
 
             <Grid Margin="0,5,0,0">
@@ -45,25 +50,39 @@
                     <ColumnDefinition Width="100" />
                 </Grid.ColumnDefinitions>
 
-                <Frame BorderColor="{StaticResource dark-theme-grey}" Padding="1" Grid.Column="0" Grid.Row="0" IsClippedToBounds="True" CornerRadius="10">
-                    <ListView x:Name="AllergiesList" x:FieldModifier="public" ItemsSource="{Binding Alergies}"
-                                           ItemSelected="AllergiesList_ItemSelected" Grid.Row="0" Grid.Column="0"
-                                           SeparatorColor="{StaticResource Primary-Green}" RowHeight="50">
+                <Frame
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Padding="1"
+                    BorderColor="{StaticResource dark-theme-grey}"
+                    CornerRadius="10"
+                    IsClippedToBounds="True">
+                    <ListView
+                        x:Name="AllergiesList"
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        x:FieldModifier="public"
+                        ItemSelected="AllergiesList_ItemSelected"
+                        ItemsSource="{Binding Alergies}"
+                        RowHeight="50"
+                        SeparatorColor="{StaticResource Primary-Green}">
 
                         <ListView.ItemTemplate>
                             <DataTemplate>
                                 <ViewCell Tapped="ViewCell_Tapped">
                                     <Grid Padding="5,10">
                                         <Grid.ColumnDefinitions>
-                                            <ColumnDefinition Width="70"/>
+                                            <ColumnDefinition Width="70" />
                                             <ColumnDefinition Width="*" />
                                         </Grid.ColumnDefinitions>
-                                        <CheckBox IsEnabled="False" IsChecked="{Binding IsChecked}" ></CheckBox>
-                                        <Label Grid.Column="1" Text="{Binding Name}" 
-                                               FontAttributes="Bold" 
-                                               FontSize="Small" 
-                                               VerticalOptions="Center"
-                                               VerticalTextAlignment="Center"/>
+                                        <CheckBox IsChecked="{Binding IsChecked}" IsEnabled="False" />
+                                        <Label
+                                            Grid.Column="1"
+                                            FontAttributes="Bold"
+                                            FontSize="Small"
+                                            Text="{Binding Name}"
+                                            VerticalOptions="Center"
+                                            VerticalTextAlignment="Center" />
                                     </Grid>
                                 </ViewCell>
                             </DataTemplate>
@@ -71,40 +90,50 @@
                     </ListView>
                 </Frame>
 
-                <Image Source="information.png"  VerticalOptions="Center"
-                       HorizontalOptions="Center" Grid.Column="1" Grid.Row="0" HeightRequest="30">
+                <Image
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    HeightRequest="30"
+                    HorizontalOptions="Center"
+                    Source="information.png"
+                    VerticalOptions="Center">
 
-                    <Image.GestureRecognizers >
-                        <TapGestureRecognizer x:Name="AllergiesInfo" Tapped="AllergiesInfo_Tapped"/>
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="AllergiesInfo" Tapped="AllergiesInfo_Tapped" />
                     </Image.GestureRecognizers>
 
                 </Image>
 
-                <Button Text="+"
-                        BackgroundColor="{StaticResource Primary-Green}"
-                        TextColor="{StaticResource OffWhiteTextColor}"
-                        Grid.Row="1"
-                        Grid.Column="1"
-                        WidthRequest="100" 
-                        HeightRequest="40"
-                        FontAttributes="Bold"
-                        FontSize="Small"
-                        Padding="0"
-                        HorizontalOptions="Center"
-                        VerticalOptions="End" 
-                        x:Name="AddAllergy"
-                        Clicked="AddAllergy_Clicked"
-                        CornerRadius="10"/>
+                <Button
+                    x:Name="AddAllergy"
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Padding="0"
+                    BackgroundColor="{StaticResource Primary-Green}"
+                    Clicked="AddAllergy_Clicked"
+                    CornerRadius="10"
+                    FontAttributes="Bold"
+                    FontSize="Small"
+                    HeightRequest="40"
+                    HorizontalOptions="Center"
+                    Text="+"
+                    TextColor="{StaticResource OffWhiteTextColor}"
+                    VerticalOptions="End"
+                    WidthRequest="100" />
 
             </Grid>
-            
-            <!-- MEAL PLANS -->
-            <Frame CornerRadius="10"
-                   BackgroundColor="{StaticResource Primary-Green}"
-                   Padding="0,2,0,2">
-                <Label HorizontalOptions="Center"
-                       FontSize="Title"
-                       TextColor="{StaticResource OffWhiteTextColor}">Please Select Your Meal Plan</Label>
+
+            <!--  MEAL PLANS  -->
+            <Frame
+                Padding="0,2,0,2"
+                BackgroundColor="{StaticResource Primary-Green}"
+                CornerRadius="10">
+                <Label
+                    FontSize="Title"
+                    HorizontalOptions="Center"
+                    TextColor="{StaticResource OffWhiteTextColor}">
+                    Please Select Your Meal Plan
+                </Label>
             </Frame>
 
             <Grid Margin="0,5,0,0">
@@ -119,25 +148,39 @@
                     <ColumnDefinition Width="100" />
                 </Grid.ColumnDefinitions>
 
-                <Frame BorderColor="{StaticResource dark-theme-grey}" Padding="1" Grid.Column="0" Grid.Row="0" IsClippedToBounds="True" CornerRadius="10">
-                    <ListView x:Name="MealPlanList" x:FieldModifier="public" ItemsSource="{Binding MealPlans}"
-                                           ItemSelected="MealPlanList_ItemSelected" Grid.Row="0" Grid.Column="0"
-                                           SeparatorColor="{StaticResource Primary-Green}" RowHeight="50">
+                <Frame
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Padding="1"
+                    BorderColor="{StaticResource dark-theme-grey}"
+                    CornerRadius="10"
+                    IsClippedToBounds="True">
+                    <ListView
+                        x:Name="MealPlanList"
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        x:FieldModifier="public"
+                        ItemSelected="MealPlanList_ItemSelected"
+                        ItemsSource="{Binding MealPlans}"
+                        RowHeight="50"
+                        SeparatorColor="{StaticResource Primary-Green}">
 
                         <ListView.ItemTemplate>
                             <DataTemplate>
                                 <ViewCell Tapped="MealViewCell_Tapped">
                                     <Grid Padding="5,10">
                                         <Grid.ColumnDefinitions>
-                                            <ColumnDefinition Width="70"/>
+                                            <ColumnDefinition Width="70" />
                                             <ColumnDefinition Width="*" />
                                         </Grid.ColumnDefinitions>
-                                        <CheckBox IsEnabled="False" IsChecked="{Binding IsChecked}" ></CheckBox>
-                                        <Label Grid.Column="1" Text="{Binding Name}" 
-                                               FontAttributes="Bold" 
-                                               FontSize="Small" 
-                                               VerticalOptions="Center"
-                                               VerticalTextAlignment="Center"/>
+                                        <CheckBox IsChecked="{Binding IsChecked}" IsEnabled="False" />
+                                        <Label
+                                            Grid.Column="1"
+                                            FontAttributes="Bold"
+                                            FontSize="Small"
+                                            Text="{Binding Name}"
+                                            VerticalOptions="Center"
+                                            VerticalTextAlignment="Center" />
                                     </Grid>
                                 </ViewCell>
                             </DataTemplate>
@@ -145,72 +188,94 @@
                     </ListView>
                 </Frame>
 
-                <!-- Display Information for Meal Plan -->
-                <Image Source="information.png"  VerticalOptions="Center"
-                       HorizontalOptions="Center" Grid.Column="1" Grid.Row="0" HeightRequest="30">
+                <!--  Display Information for Meal Plan  -->
+                <Image
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    HeightRequest="30"
+                    HorizontalOptions="Center"
+                    Source="information.png"
+                    VerticalOptions="Center">
 
-                    <Image.GestureRecognizers >
-                        <TapGestureRecognizer x:Name="MealPlanInfo" Tapped="MealPlanInfo_Tapped"/>
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="MealPlanInfo" Tapped="MealPlanInfo_Tapped" />
                     </Image.GestureRecognizers>
 
                 </Image>
 
-                <!-- LAYOUT FOR ADVANTAGES / DISADVANTAGES -->
-                <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
-                    
-                    <!-- Display Advantages for Meal Plan -->
-                    <Image Source="advantage.png"  VerticalOptions="Center"
-                       HorizontalOptions="Center" Grid.Column="1" Grid.Row="0" HeightRequest="40" Margin="10,10,20,0">
+                <!--  LAYOUT FOR ADVANTAGES / DISADVANTAGES  -->
+                <StackLayout
+                    Grid.Row="1"
+                    HorizontalOptions="Center"
+                    Orientation="Horizontal"
+                    VerticalOptions="Center">
 
-                        <Image.GestureRecognizers >
-                            <TapGestureRecognizer x:Name="MealPlanAdvantages" Tapped="MealPlanAdvantages_Tapped"/>
+                    <!--  Display Advantages for Meal Plan  -->
+                    <Image
+                        Grid.Row="0"
+                        Grid.Column="1"
+                        Margin="10,10,20,0"
+                        HeightRequest="40"
+                        HorizontalOptions="Center"
+                        Source="advantage.png"
+                        VerticalOptions="Center">
+
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="MealPlanAdvantages" Tapped="MealPlanAdvantages_Tapped" />
                         </Image.GestureRecognizers>
 
                     </Image>
 
-                    <!-- Display Disadvantages for Meal Plan -->
-                    <Image Source="disadvantage.png"  VerticalOptions="Center"
-                       HorizontalOptions="Center" Grid.Column="1" Grid.Row="0" HeightRequest="40" Margin="20,10,10,0">
+                    <!--  Display Disadvantages for Meal Plan  -->
+                    <Image
+                        Grid.Row="0"
+                        Grid.Column="1"
+                        Margin="20,10,10,0"
+                        HeightRequest="40"
+                        HorizontalOptions="Center"
+                        Source="disadvantage.png"
+                        VerticalOptions="Center">
 
-                        <Image.GestureRecognizers >
-                            <TapGestureRecognizer x:Name="MealPlanDisadvantages" Tapped="MealPlanDisadvantages_Tapped"/>
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="MealPlanDisadvantages" Tapped="MealPlanDisadvantages_Tapped" />
                         </Image.GestureRecognizers>
 
                     </Image>
-                    
+
                 </StackLayout>
 
-                <StackLayout Grid.Row="1"
-                             Grid.Column="1">
-                    <Button Text="+" 
-                        BackgroundColor="{StaticResource Primary-Green}"
-                        TextColor="{StaticResource OffWhiteTextColor}"
-                        WidthRequest="100" 
-                        HeightRequest="40"
-                        FontAttributes="Bold"
-                        FontSize="Small"
-                        Padding="0"
-                        VerticalOptions="End" 
+                <StackLayout Grid.Row="1" Grid.Column="1">
+                    <Button
                         x:Name="AddMealPlan"
-                        Clicked="AddMealPlan_Clicked"
-                        CornerRadius="10"/>
-
-                    <Button Text="Save" 
+                        Padding="0"
                         BackgroundColor="{StaticResource Primary-Green}"
-                        TextColor="{StaticResource OffWhiteTextColor}"
-                        WidthRequest="100" 
-                        HeightRequest="40"
+                        Clicked="AddMealPlan_Clicked"
+                        CornerRadius="10"
                         FontAttributes="Bold"
                         FontSize="Small"
+                        HeightRequest="40"
+                        Text="+"
+                        TextColor="{StaticResource OffWhiteTextColor}"
+                        VerticalOptions="End"
+                        WidthRequest="100" />
+
+                    <Button
+                        x:Name="Save"
                         Padding="0"
-                        VerticalOptions="End" 
-                        x:Name="Save" 
+                        BackgroundColor="{StaticResource Primary-Green}"
                         Clicked="Save_Clicked"
-                        CornerRadius="10"/>
+                        CornerRadius="10"
+                        FontAttributes="Bold"
+                        FontSize="Small"
+                        HeightRequest="40"
+                        Text="Save"
+                        TextColor="{StaticResource OffWhiteTextColor}"
+                        VerticalOptions="End"
+                        WidthRequest="100" />
                 </StackLayout>
-                
+
             </Grid>
-            
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

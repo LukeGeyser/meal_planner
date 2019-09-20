@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d"
-             xmlns:local="clr-namespace:MealPlanner.Views"
-             xmlns:vm="clr-namespace:MealPlanner.Models"
-             x:Class="MealPlanner.Views.MenuPage"
-             Title="Personal Organizer">
+<ContentPage
+    x:Class="MealPlanner.Views.MenuPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:local="clr-namespace:MealPlanner.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="clr-namespace:MealPlanner.Models"
+    Title="Personal Organizer"
+    mc:Ignorable="d">
     <ContentPage.Content>
         <StackLayout>
 
@@ -16,35 +17,66 @@
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
                 <Frame BorderColor="Gray">
-                    <Image Source="icon.png" HeightRequest="140"/>
+                    <Image HeightRequest="140" Source="icon.png" />
                 </Frame>
             </Grid>
-            
-            <ListView x:Name="listView" x:FieldModifier="public" RowHeight="70">
+
+            <ListView
+                x:Name="listView"
+                x:FieldModifier="public"
+                RowHeight="70">
                 <ListView.ItemsSource>
                     <x:Array Type="{x:Type vm:HomeMenuItem}">
-                        <vm:HomeMenuItem Title="Home" IconSource="home.png" TargetType="{x:Type local:MainPage}" ColorHex="#fafafa" TextColorHex="#2d2d2d" RowDefinition="0"/>
-                        <vm:HomeMenuItem Title="Profile" IconSource="profile.png" TargetType="{x:Type local:ProfilePage}" ColorHex="#fafafa" TextColorHex="#2d2d2d" RowDefinition="0"/>
-                        <vm:HomeMenuItem Title="Calorie Calculator" IconSource="calculator.png" TargetType="{x:Type local:CalorieCalculatorPage}" ColorHex="#fafafa" TextColorHex="#2d2d2d" RowDefinition="0"/>
-                        <vm:HomeMenuItem Title="Store Locator" IconSource="location.png" TargetType="{x:Type local:ShopsDisplayPage}" ColorHex="#fafafa" TextColorHex="#2d2d2d" RowDefinition="0"/>
+                        <vm:HomeMenuItem
+                            Title="Home"
+                            ColorHex="#fafafa"
+                            IconSource="home.png"
+                            RowDefinition="0"
+                            TargetType="{x:Type local:MainPage}"
+                            TextColorHex="#2d2d2d" />
+                        <vm:HomeMenuItem
+                            Title="Profile"
+                            ColorHex="#fafafa"
+                            IconSource="profile.png"
+                            RowDefinition="0"
+                            TargetType="{x:Type local:ProfilePage}"
+                            TextColorHex="#2d2d2d" />
+                        <vm:HomeMenuItem
+                            Title="Calorie Calculator"
+                            ColorHex="#fafafa"
+                            IconSource="calculator.png"
+                            RowDefinition="0"
+                            TargetType="{x:Type local:CalorieCalculatorPage}"
+                            TextColorHex="#2d2d2d" />
+                        <vm:HomeMenuItem
+                            Title="Store Locator"
+                            ColorHex="#fafafa"
+                            IconSource="location.png"
+                            RowDefinition="0"
+                            TargetType="{x:Type local:ShopsDisplayPage}"
+                            TextColorHex="#2d2d2d" />
                     </x:Array>
                 </ListView.ItemsSource>
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <Grid Padding="5,10" BackgroundColor="{Binding ColorHex}" Grid.Row="{Binding RowDefinition}">
+                            <Grid
+                                Grid.Row="{Binding RowDefinition}"
+                                Padding="5,10"
+                                BackgroundColor="{Binding ColorHex}">
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="70"/>
+                                    <ColumnDefinition Width="70" />
                                     <ColumnDefinition Width="*" />
                                 </Grid.ColumnDefinitions>
 
                                 <Image Source="{Binding IconSource}" />
-                                <Label Grid.Column="1" 
-                                       Text="{Binding Title}"
-                                       FontAttributes="Bold" 
-                                       TextColor="{Binding TextColorHex}" 
-                                       FontSize="Medium" 
-                                       VerticalOptions="Center"/>
+                                <Label
+                                    Grid.Column="1"
+                                    FontAttributes="Bold"
+                                    FontSize="Medium"
+                                    Text="{Binding Title}"
+                                    TextColor="{Binding TextColorHex}"
+                                    VerticalOptions="Center" />
                             </Grid>
                         </ViewCell>
                     </DataTemplate>
