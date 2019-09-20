@@ -196,8 +196,8 @@
             // 
             this.browseShopsMenuItem.ForeColor = System.Drawing.Color.Green;
             this.browseShopsMenuItem.Name = "browseShopsMenuItem";
-            this.browseShopsMenuItem.Size = new System.Drawing.Size(122, 28);
-            this.browseShopsMenuItem.Text = "Find Shops";
+            this.browseShopsMenuItem.Size = new System.Drawing.Size(119, 27);
+            this.browseShopsMenuItem.Text = "Find Stores";
             // 
             // frmMainPage
             // 

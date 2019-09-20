@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmFindShops));
             this.pbLogo = new System.Windows.Forms.PictureBox();
+            this.cbxStoreName = new System.Windows.Forms.ComboBox();
+            this.lblSelect = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -37,35 +39,61 @@
             // 
             this.pbLogo.BackColor = System.Drawing.Color.White;
             this.pbLogo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pbLogo.Dock = System.Windows.Forms.DockStyle.Left;
             this.pbLogo.Image = ((System.Drawing.Image)(resources.GetObject("pbLogo.Image")));
             this.pbLogo.InitialImage = null;
-            this.pbLogo.Location = new System.Drawing.Point(0, -3);
+            this.pbLogo.Location = new System.Drawing.Point(0, 0);
             this.pbLogo.Name = "pbLogo";
-            this.pbLogo.Size = new System.Drawing.Size(114, 483);
+            this.pbLogo.Size = new System.Drawing.Size(132, 365);
             this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbLogo.TabIndex = 6;
             this.pbLogo.TabStop = false;
             // 
+            // cbxStoreName
+            // 
+            this.cbxStoreName.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxStoreName.FormattingEnabled = true;
+            this.cbxStoreName.Location = new System.Drawing.Point(330, 20);
+            this.cbxStoreName.Name = "cbxStoreName";
+            this.cbxStoreName.Size = new System.Drawing.Size(335, 23);
+            this.cbxStoreName.TabIndex = 7;
+            // 
+            // lblSelect
+            // 
+            this.lblSelect.AutoSize = true;
+            this.lblSelect.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSelect.Location = new System.Drawing.Point(202, 21);
+            this.lblSelect.Name = "lblSelect";
+            this.lblSelect.Size = new System.Drawing.Size(122, 22);
+            this.lblSelect.TabIndex = 8;
+            this.lblSelect.Text = "Select a Store:";
+            // 
             // frmFindShops
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(881, 478);
+            this.ClientSize = new System.Drawing.Size(777, 365);
+            this.Controls.Add(this.lblSelect);
+            this.Controls.Add(this.cbxStoreName);
             this.Controls.Add(this.pbLogo);
+            this.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmFindShops";
-            this.Text = "Find Nearby Shops";
+            this.Text = "Find Nearby Stores";
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.PictureBox pbLogo;
+        private System.Windows.Forms.ComboBox cbxStoreName;
+        private System.Windows.Forms.Label lblSelect;
     }
 }
