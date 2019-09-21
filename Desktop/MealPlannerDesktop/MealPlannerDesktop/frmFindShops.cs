@@ -28,44 +28,61 @@ namespace MealPlannerDesktop
 
         private MapsAPI mapsAPI = new MapsAPI();
 
-        private string latitude;
-        private string longitute;
+        private double latitude = 0;
+        private double longitute = 0;
         private GeoCoordinateWatcher watcher = new GeoCoordinateWatcher();
 
-        private void Watcher_StatusChanged(object sender, GeoPositionStatusChangedEventArgs e) // Find GeoLocation of Device  
-        {
-            try
-            {
-                if (e.Status == GeoPositionStatus.Ready)
-                {
-                    // Display the latitude and longitude.  
-                    if (watcher.Position.Location.IsUnknown)
-                    {
-                        latitude = "0";
-                        longitute = "0";
-                    }
-                    else
-                    {
-                        latitude = watcher.Position.Location.Latitude.ToString();
-                        longitute = watcher.Position.Location.Longitude.ToString();
-                    }
-                }
-                else
-                {
-                    latitude = "0";
-                    longitute = "0";
-                }
-            }
-            catch (Exception)
-            {
-                latitude = "0";
-                longitute = "0";
-            }
-        }
+        //private void Watcher_StatusChanged(object sender, GeoPositionStatusChangedEventArgs e) // Find GeoLocation of Device  
+        //{
+        //    try
+        //    {
+        //        if (e.Status == GeoPositionStatus.Ready)
+        //        {
+        //            // Display the latitude and longitude.  
+        //            if (watcher.Position.Location.IsUnknown)
+        //            {
+        //                latitude = 0;
+        //                longitute = 0;
+        //            }
+        //            else
+        //            {
+        //                latitude = watcher.Position.Location.Latitude;
+        //                longitute = watcher.Position.Location.Longitude;
+        //            }
+        //        }
+        //        else
+        //        {
+        //            latitude = 0;
+        //            longitute = 0;
+        //        }
+        //    }
+        //    catch (Exception)
+        //    {
+        //        latitude = 0;
+        //        longitute = 0;
+        //    }
+        //}
 
         public frmFindShops()
         {
             InitializeComponent();
+        }
+
+        private void Watcher_StatusChanged(object sender, GeoPositionStatusChangedEventArgs e)
+        {
+            if (e.Status == GeoPositionStatus.Ready)
+            {
+                MessageBox.Show("Watcher is ready. First location: The current location is: " +
+              watcher.Position.Location.Latitude + "/" +
+              watcher.Position.Location.Longitude + ".");
+            }
+        }
+
+        private static void GeoPositionChanged(object sender, GeoPositionChangedEventArgs<GeoCoordinate> e)
+        {
+            MessageBox.Show("The current location is: " +
+                e.Position.Location.Latitude + "/" +
+                e.Position.Location.Longitude + ".");
         }
 
         private void FrmFindShops_Load(object sender, EventArgs e)
@@ -73,8 +90,14 @@ namespace MealPlannerDesktop
             watcher = new GeoCoordinateWatcher();
             // Catch the StatusChanged event.  
             watcher.StatusChanged += Watcher_StatusChanged;
-            // Start the watcher.  
+            watcher.PositionChanged += GeoPositionChanged;
+
             watcher.Start();
+            // Start the watcher. 
+
+                var coord = watcher.Position.Location;
+                this.latitude = coord.Latitude;
+                this.longitute = coord.Longitude;
 
             WoolworthsResults = new ObservableCollection<Result>();
             PicknPayResults = new ObservableCollection<Result>();

@@ -614,4 +614,3 @@ C:\Users\Janay Sander\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\M
 C:\Users\Janay Sander\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\Janay Sander\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\MealPlannerDesktop.frmFindShops.resources
 C:\Users\Janay Sander\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\XamlC.stamp
-C:\Users\Janay Sander\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\System.Device.Portable.dll
