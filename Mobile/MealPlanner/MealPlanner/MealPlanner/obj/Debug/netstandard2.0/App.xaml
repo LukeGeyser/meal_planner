@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Application x:Class="MealPlanner.App" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:__xl="clr-namespace:__livexaml" __xl:Runtime.Register="C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\App.xaml">
+<Application x:Class="MealPlanner.App" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:__xl="clr-namespace:__livexaml" __xl:Runtime.Register="C:\Users\Janay Sander\Documents\GitHub\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\App.xaml">
   <Application.Resources>
     <ResourceDictionary>
       <!--  Global Styles  -->

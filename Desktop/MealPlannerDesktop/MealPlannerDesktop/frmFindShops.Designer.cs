@@ -32,21 +32,24 @@
             this.pbLogo = new System.Windows.Forms.PictureBox();
             this.cbxStoreName = new System.Windows.Forms.ComboBox();
             this.lblSelect = new System.Windows.Forms.Label();
-            this.NearYou = new System.Windows.Forms.Label();
-            this.lstStoresDisplay = new System.Windows.Forms.ListView();
+            this.txtNearYou = new System.Windows.Forms.Label();
+            this.btnBack = new System.Windows.Forms.Button();
+            this.pbStoreLogo = new System.Windows.Forms.PictureBox();
+            this.dgvStoresDisplay = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbStoreLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvStoresDisplay)).BeginInit();
             this.SuspendLayout();
             // 
             // pbLogo
             // 
             this.pbLogo.BackColor = System.Drawing.Color.White;
-            this.pbLogo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pbLogo.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pbLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.pbLogo.Image = ((System.Drawing.Image)(resources.GetObject("pbLogo.Image")));
             this.pbLogo.InitialImage = null;
             this.pbLogo.Location = new System.Drawing.Point(0, 0);
             this.pbLogo.Name = "pbLogo";
-            this.pbLogo.Size = new System.Drawing.Size(132, 365);
+            this.pbLogo.Size = new System.Drawing.Size(777, 84);
             this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbLogo.TabIndex = 6;
             this.pbLogo.TabStop = false;
@@ -54,10 +57,16 @@
             // cbxStoreName
             // 
             this.cbxStoreName.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxStoreName.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxStoreName.FormattingEnabled = true;
-            this.cbxStoreName.Location = new System.Drawing.Point(330, 20);
+            this.cbxStoreName.Items.AddRange(new object[] {
+            "Woolworths",
+            "Pick n Pay",
+            "Spar",
+            "Checkers"});
+            this.cbxStoreName.Location = new System.Drawing.Point(269, 106);
             this.cbxStoreName.Name = "cbxStoreName";
-            this.cbxStoreName.Size = new System.Drawing.Size(335, 23);
+            this.cbxStoreName.Size = new System.Drawing.Size(420, 27);
             this.cbxStoreName.TabIndex = 7;
             this.cbxStoreName.SelectedIndexChanged += new System.EventHandler(this.CbxStoreName_SelectedIndexChanged);
             // 
@@ -65,37 +74,63 @@
             // 
             this.lblSelect.AutoSize = true;
             this.lblSelect.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSelect.Location = new System.Drawing.Point(202, 21);
+            this.lblSelect.Location = new System.Drawing.Point(92, 108);
             this.lblSelect.Name = "lblSelect";
             this.lblSelect.Size = new System.Drawing.Size(122, 22);
             this.lblSelect.TabIndex = 8;
             this.lblSelect.Text = "Select a Store:";
             // 
-            // NearYou
+            // txtNearYou
             // 
-            this.NearYou.AutoSize = true;
-            this.NearYou.Location = new System.Drawing.Point(206, 67);
-            this.NearYou.Name = "NearYou";
-            this.NearYou.Size = new System.Drawing.Size(38, 15);
-            this.NearYou.TabIndex = 9;
-            this.NearYou.Text = "label1";
+            this.txtNearYou.AutoSize = true;
+            this.txtNearYou.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNearYou.Location = new System.Drawing.Point(96, 154);
+            this.txtNearYou.Name = "txtNearYou";
+            this.txtNearYou.Size = new System.Drawing.Size(131, 19);
+            this.txtNearYou.TabIndex = 9;
+            this.txtNearYou.Text = "Please select a store";
             // 
-            // lstStoresDisplay
+            // btnBack
             // 
-            this.lstStoresDisplay.Location = new System.Drawing.Point(220, 104);
-            this.lstStoresDisplay.Name = "lstStoresDisplay";
-            this.lstStoresDisplay.Size = new System.Drawing.Size(445, 178);
-            this.lstStoresDisplay.TabIndex = 10;
-            this.lstStoresDisplay.UseCompatibleStateImageBehavior = false;
+            this.btnBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(183)))), ((int)(((byte)(43)))));
+            this.btnBack.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBack.ForeColor = System.Drawing.Color.White;
+            this.btnBack.Location = new System.Drawing.Point(683, 382);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(82, 32);
+            this.btnBack.TabIndex = 56;
+            this.btnBack.Text = "Back";
+            this.btnBack.UseVisualStyleBackColor = false;
+            this.btnBack.Click += new System.EventHandler(this.BtnBack_Click);
+            // 
+            // pbStoreLogo
+            // 
+            this.pbStoreLogo.Image = ((System.Drawing.Image)(resources.GetObject("pbStoreLogo.Image")));
+            this.pbStoreLogo.Location = new System.Drawing.Point(86, 191);
+            this.pbStoreLogo.Name = "pbStoreLogo";
+            this.pbStoreLogo.Size = new System.Drawing.Size(177, 165);
+            this.pbStoreLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbStoreLogo.TabIndex = 58;
+            this.pbStoreLogo.TabStop = false;
+            // 
+            // dgvStoresDisplay
+            // 
+            this.dgvStoresDisplay.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvStoresDisplay.Location = new System.Drawing.Point(269, 191);
+            this.dgvStoresDisplay.Name = "dgvStoresDisplay";
+            this.dgvStoresDisplay.Size = new System.Drawing.Size(420, 165);
+            this.dgvStoresDisplay.TabIndex = 59;
             // 
             // frmFindShops
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(777, 365);
-            this.Controls.Add(this.lstStoresDisplay);
-            this.Controls.Add(this.NearYou);
+            this.ClientSize = new System.Drawing.Size(777, 426);
+            this.Controls.Add(this.dgvStoresDisplay);
+            this.Controls.Add(this.pbStoreLogo);
+            this.Controls.Add(this.btnBack);
+            this.Controls.Add(this.txtNearYou);
             this.Controls.Add(this.lblSelect);
             this.Controls.Add(this.cbxStoreName);
             this.Controls.Add(this.pbLogo);
@@ -109,6 +144,8 @@
             this.Text = "Find Nearby Stores";
             this.Load += new System.EventHandler(this.FrmFindShops_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbStoreLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvStoresDisplay)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -119,7 +156,9 @@
         private System.Windows.Forms.PictureBox pbLogo;
         private System.Windows.Forms.ComboBox cbxStoreName;
         private System.Windows.Forms.Label lblSelect;
-        private System.Windows.Forms.Label NearYou;
-        private System.Windows.Forms.ListView lstStoresDisplay;
+        private System.Windows.Forms.Label txtNearYou;
+        private System.Windows.Forms.Button btnBack;
+        private System.Windows.Forms.PictureBox pbStoreLogo;
+        private System.Windows.Forms.DataGridView dgvStoresDisplay;
     }
 }
