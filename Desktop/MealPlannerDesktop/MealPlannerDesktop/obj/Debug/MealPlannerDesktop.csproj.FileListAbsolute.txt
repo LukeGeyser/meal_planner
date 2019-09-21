@@ -614,3 +614,21 @@ C:\Users\Janay Sander\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\M
 C:\Users\Janay Sander\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\Janay Sander\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\MealPlannerDesktop.frmFindShops.resources
 C:\Users\Janay Sander\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\XamlC.stamp
+C:\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Elasticsearch.Net.dll
+C:\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Geolocation.dll
+C:\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Nest.dll
+C:\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Xamarin.Essentials.dll
+C:\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Xamarin.Forms.Core.dll
+C:\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Xamarin.Forms.Platform.dll
+C:\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Elasticsearch.Net.xml
+C:\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Geolocation.pdb
+C:\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Nest.xml
+C:\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Xamarin.Essentials.pdb
+C:\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Xamarin.Essentials.xml
+C:\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Xamarin.Forms.Core.pdb
+C:\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Xamarin.Forms.Core.xml
+C:\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\MealPlannerDesktop.frmFindShops.resources
+C:\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\XamlC.stamp

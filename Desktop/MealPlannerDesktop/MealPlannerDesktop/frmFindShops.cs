@@ -32,37 +32,6 @@ namespace MealPlannerDesktop
         private double longitute = 0;
         private GeoCoordinateWatcher watcher = new GeoCoordinateWatcher();
 
-        //private void Watcher_StatusChanged(object sender, GeoPositionStatusChangedEventArgs e) // Find GeoLocation of Device  
-        //{
-        //    try
-        //    {
-        //        if (e.Status == GeoPositionStatus.Ready)
-        //        {
-        //            // Display the latitude and longitude.  
-        //            if (watcher.Position.Location.IsUnknown)
-        //            {
-        //                latitude = 0;
-        //                longitute = 0;
-        //            }
-        //            else
-        //            {
-        //                latitude = watcher.Position.Location.Latitude;
-        //                longitute = watcher.Position.Location.Longitude;
-        //            }
-        //        }
-        //        else
-        //        {
-        //            latitude = 0;
-        //            longitute = 0;
-        //        }
-        //    }
-        //    catch (Exception)
-        //    {
-        //        latitude = 0;
-        //        longitute = 0;
-        //    }
-        //}
-
         public frmFindShops()
         {
             InitializeComponent();
@@ -87,18 +56,6 @@ namespace MealPlannerDesktop
 
         private void FrmFindShops_Load(object sender, EventArgs e)
         {
-            //watcher = new GeoCoordinateWatcher();
-            //// Catch the StatusChanged event.  
-            //watcher.StatusChanged += Watcher_StatusChanged;
-            //watcher.PositionChanged += GeoPositionChanged;
-            //GeoCoordinate coord = watcher.Position.Location;
-            //while(coord.IsUnknown == true)
-            //{
-            //    watcher.TryStart(false, TimeSpan.FromMilliseconds(2000));
-            //    coord = watcher.Position.Location;
-            //    this.latitude = coord.Latitude;
-            //    this.longitute = coord.Longitude;
-            //}
             GeoCoordinateWatcher watcher = new GeoCoordinateWatcher();
             bool found = false;
             while(found == false)
@@ -114,6 +71,8 @@ namespace MealPlannerDesktop
                     Console.WriteLine("Lat: {0}, Long: {1}",
                         coord.Latitude,
                         coord.Longitude);
+                    latitude = coord.Latitude;
+                    longitute = coord.Longitude;
                     found = true;
                 }
                 else
@@ -185,11 +144,9 @@ namespace MealPlannerDesktop
 
         private double GetDistanceFromStore(double sLatitude, double sLongitude, double eLatitude, double eLongitude)
         {
-            return 0;
-
-            //var sCoords = new Location(sLatitude, sLongitude);
-            //var eCoords = new Location(eLatitude, eLongitude);
-            //return sCoords.CalculateDistance(eCoords, DistanceUnits.Kilometers);
+            var sCoords = new GeoCoordinate(sLatitude, sLongitude);
+            var eCoords = new GeoCoordinate(eLatitude, eLongitude);
+            return sCoords.GetDistanceTo(eCoords) / 1000;
         }
 
         private void CbxStoreName_SelectedIndexChanged(object sender, EventArgs e)
