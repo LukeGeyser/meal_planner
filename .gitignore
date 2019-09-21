@@ -259,3 +259,5 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+Desktop/MealPlannerDesktop/.vs/MealPlannerDesktop/v16/.suo
+Desktop/MealPlannerDesktop/.vs/MealPlannerDesktop/v16/Server/sqlite3/storage.ide
