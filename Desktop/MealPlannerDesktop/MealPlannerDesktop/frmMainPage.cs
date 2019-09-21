@@ -125,5 +125,19 @@ namespace MealPlannerDesktop
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void trackMyProgressToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                frmProgress frp = new frmProgress();
+                frp.Show();
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }

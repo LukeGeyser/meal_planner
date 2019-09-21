@@ -91,6 +91,7 @@
             this.trackMyProgressToolStripMenuItem.Name = "trackMyProgressToolStripMenuItem";
             this.trackMyProgressToolStripMenuItem.Size = new System.Drawing.Size(237, 28);
             this.trackMyProgressToolStripMenuItem.Text = "Track My Progress";
+            this.trackMyProgressToolStripMenuItem.Click += new System.EventHandler(this.trackMyProgressToolStripMenuItem_Click);
             // 
             // browseRecipesToolStripMenuItem
             // 

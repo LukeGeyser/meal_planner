@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Windows.Forms;
+using System.Data;
 
 namespace MealPlannerDesktop
 {
@@ -491,6 +492,28 @@ namespace MealPlannerDesktop
                 conn.Close();
             }
             return plans;
+        }
+
+        public static void UpdateUserProgress(string username, double weight)
+        {
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("INSERT INTO tblProgress(Username, Weight) Values(@user, @weight)", conn);
+                cmd.Parameters.AddWithValue("@user", username);
+                cmd.Parameters.AddWithValue("@weight", weight);
+                cmd.ExecuteNonQuery();
+               // MessageBox.Show("Progress Successfully Updated.", "Apply Changes", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message, "Database error occurred", MessageBoxButtons.OK
+                    , MessageBoxIcon.Error);
+            }
+            finally
+            {
+                conn.Close();
+            }
         }
     }
 }

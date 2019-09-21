@@ -129,6 +129,7 @@ namespace MealPlannerDesktop
                 if (txtPassword.Text == txtConfirmP.Text)
                 {
                     DataHandler.UpdateUserDetails(NUser);
+                    DataHandler.UpdateUserProgress(NUser.Username, double.Parse(txtWeight.Text));
                     txtPassword.Clear();
                     txtConfirmP.Clear();
                     frmSignIn.SuccessfulLogin = NUser;
