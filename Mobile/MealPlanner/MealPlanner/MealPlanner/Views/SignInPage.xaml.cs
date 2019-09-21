@@ -10,6 +10,7 @@ using Xamarin.Forms.Xaml;
 
 using MealPlanner.Models;
 using MealPlanner.Services;
+using System.Threading;
 
 namespace MealPlanner.Views
 {
@@ -33,42 +34,71 @@ namespace MealPlanner.Views
 
         private void Sign_In_Clicked(object sender, EventArgs e)
         {
-
-            if (Username.Text == null || Password.Text == null || Username.Text == "" || Password.Text == "") {
+            Device.BeginInvokeOnMainThread(() =>
+            {
+                Sign_In.IsEnabled = false;
+                Sign_Up.IsEnabled = false;
                 Error.IsVisible = true;
-            }
-            else if (Username.Text != null || Password.Text != null) {
-                Error.IsVisible = false;
-                //dataHandler.AddSingleUser(SecurityService.EncryptNewPassword(new User(Username.Text, Password.Text, "Janay", "Sander", "JanaySander17@gmail.com", "02411", DateTime.Now, 0, 0)));
+            });
 
-                User attemptLogin = new User(Username.Text, Password.Text);
-
-                // Check if user input credentials are valid inputs
-
-                if (userList.Any(user => user.Username == Username.Text))
+            Task.Run(async () =>
+            {
+                if (Username.Text == null || Password.Text == null || Username.Text == "" || Password.Text == "")
                 {
-                    loggedInUser = userList.Find(user => user.Username == Username.Text);
-                    attemptLogin.Salt = loggedInUser.Salt;
-                    attemptLogin = SecurityService.EncryptPassword(attemptLogin);
-
-                    if (loggedInUser.Password == attemptLogin.Password)
-                    {
-                        Application.Current.MainPage = new HomePage();
-                    }
-                    else if (loggedInUser.Password != attemptLogin.Password)
-                    {
-                        DisplayAlert("PASSWORD NOT CORRECT", "Password Incorrect", "NO");
-                    }
+                    Error.IsVisible = true;
                 }
-                else if (!userList.Any(user => user.Username == Username.Text && user.Password == Password.Text))
+                else if (Username.Text != null || Password.Text != null)
                 {
-                    DisplayAlert("NOT WORKING", "NOT WORKING", "NO");
+                    //Device.BeginInvokeOnMainThread(() =>
+                    //{
+                    //    Error.IsVisible = false;
+                    //});
+
+                    User attemptLogin = new User(Username.Text, Password.Text);
+
+                    // Check if user input credentials are valid inputs
+
+                    if (userList.Any(user => user.Username == Username.Text))
+                    {
+                        loggedInUser = userList.Find(user => user.Username == Username.Text);
+                        attemptLogin.Salt = loggedInUser.Salt;
+                        attemptLogin = SecurityService.EncryptPassword(attemptLogin);
+
+                        if (loggedInUser.Password == attemptLogin.Password)
+                        {
+                            Device.BeginInvokeOnMainThread(() =>
+                            {
+                                Application.Current.MainPage = new HomePage();
+                            });
+                            
+                        }
+                        else if (loggedInUser.Password != attemptLogin.Password)
+                        {
+                            Device.BeginInvokeOnMainThread(() =>
+                            {
+                                DisplayAlert("PASSWORD NOT CORRECT", "Password Incorrect", "NO");
+                                Sign_In.IsEnabled = true;
+                                Sign_Up.IsEnabled = true;
+                            });
+                            
+                        }
+                    }
+                    else if (!userList.Any(user => user.Username == Username.Text && user.Password == Password.Text))
+                    {
+                        Device.BeginInvokeOnMainThread(() =>
+                        {
+                            DisplayAlert("NOT WORKING", "NOT WORKING", "NO");
+                            Sign_In.IsEnabled = true;
+                            Sign_Up.IsEnabled = true;
+                        });
+                        
+                    }
+
+                    // if user input credentials are valid, sign user in and continue
+
+                    // else if user input credentials are invalid, display an error!
                 }
-
-                // if user input credentials are valid, sign user in and continue
-
-                // else if user input credentials are invalid, display an error!
-            }
+            });
 
         }
 

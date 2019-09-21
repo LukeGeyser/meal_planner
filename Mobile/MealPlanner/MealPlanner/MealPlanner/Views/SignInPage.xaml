@@ -4,6 +4,7 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:ffimageloading="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:vm="clr-namespace:MealPlanner.ViewModels"
     Title="{Binding Title}"
@@ -24,7 +25,7 @@
     </ContentPage.Resources>
 
     <ContentPage.Content>
-        <StackLayout Padding="50,0,50,0" VerticalOptions="Center">
+        <StackLayout Padding="50,0,50,0" VerticalOptions="CenterAndExpand">
 
             <Image Source="icon.png" VerticalOptions="Center" />
 
@@ -97,6 +98,14 @@
                     TextColor="White"
                     WidthRequest="120" />
             </FlexLayout>
+
+            <ffimageloading:SvgCachedImage
+                x:Name="imageWave"
+                Margin="0"
+                HeightRequest="50"
+                HorizontalOptions="FillAndExpand"
+                Source="loading.gif"
+                VerticalOptions="Center" />
 
         </StackLayout>
     </ContentPage.Content>

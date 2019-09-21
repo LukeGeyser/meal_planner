@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MealPlanner.Android", "Meal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MealPlanner.iOS", "MealPlanner\MealPlanner.iOS\MealPlanner.iOS.csproj", "{D85D142F-DCB5-4FBD-BAAA-680F8E998A9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MealPlanner", "MealPlanner\MealPlanner\MealPlanner.csproj", "{AFCCBB69-EE71-4387-AE33-27E1B66BD431}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MealPlanner", "MealPlanner\MealPlanner\MealPlanner.csproj", "{AFCCBB69-EE71-4387-AE33-27E1B66BD431}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

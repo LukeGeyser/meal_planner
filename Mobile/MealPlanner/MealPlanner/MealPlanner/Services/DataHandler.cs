@@ -4,6 +4,8 @@ using System.Text;
 using System.Data.SqlClient;
 using MealPlanner.Models;
 using System.Diagnostics;
+using System.Threading.Tasks;
+using System.Collections.ObjectModel;
 
 namespace MealPlanner.Services
 {
@@ -24,16 +26,15 @@ namespace MealPlanner.Services
             conn = new SqlConnection(cb.ConnectionString);
         }
 
-        public List<User> GetAllUsers()
+        public async Task GetAllUsers(List<User> users)
         {
-            List<User> users = new List<User>();
             try
             {
-                conn.Open();
+                await conn.OpenAsync();
                 SqlCommand cmdSelectAll = new SqlCommand("SELECT * FROM tblUsers", conn);
-                dr = cmdSelectAll.ExecuteReader();
+                dr = await cmdSelectAll.ExecuteReaderAsync();
 
-                while (dr.Read())
+                while (await dr.ReadAsync())
                 {
                     users.Add(new User(dr[0].ToString(), dr[1].ToString(), dr[2].ToString(), dr[3].ToString(), dr[7].ToString(),
                         dr[8].ToString(), Convert.ToDateTime(dr[4].ToString()), double.Parse(dr[5].ToString()), double.Parse(dr[6].ToString()), dr[9].ToString()));
@@ -51,7 +52,6 @@ namespace MealPlanner.Services
                     conn.Close();
             }
             Debug.WriteLine(users.Count);
-            return users;
         }
 
         public void AddSingleUser(User user)

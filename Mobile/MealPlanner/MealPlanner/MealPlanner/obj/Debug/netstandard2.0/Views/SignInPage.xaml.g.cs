@@ -32,6 +32,9 @@ namespace MealPlanner.Views {
         private global::Xamarin.Forms.Button Sign_Up;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::FFImageLoading.Svg.Forms.SvgCachedImage imageWave;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(SignInPage));
             Username = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "Username");
@@ -39,6 +42,7 @@ namespace MealPlanner.Views {
             Error = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "Error");
             Sign_In = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "Sign_In");
             Sign_Up = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "Sign_Up");
+            imageWave = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::FFImageLoading.Svg.Forms.SvgCachedImage>(this, "imageWave");
         }
     }
 }

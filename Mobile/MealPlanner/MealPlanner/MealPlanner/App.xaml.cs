@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using MealPlanner.Models;
 using System.Collections.ObjectModel;
 using static MealPlanner.Models.MapResultDataWrapper;
+using System.Threading.Tasks;
 
 namespace MealPlanner
 {
@@ -16,21 +17,24 @@ namespace MealPlanner
     {
         Page currentPage = null;
         DataHandler dataHandler = new DataHandler();
-        public static List<User> users;
+        public static List<User> users = new List<User>();
         
 
         public App()
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
-            users = dataHandler.GetAllUsers();
+            //DependencyService.Register<MockDataStore>();
+            Task.Run(async () =>
+            {
+                await dataHandler.GetAllUsers(users);
+            });
+            MainPage = new SignInPage();
         }
 
         protected override void OnStart()
         {
-            // Handle when your app starts
-            MainPage = new SignInPage();
+            // Handle when your app starts            
         }
 
         protected override void OnSleep()

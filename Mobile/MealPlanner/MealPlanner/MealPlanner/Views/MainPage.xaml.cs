@@ -22,13 +22,18 @@ namespace MealPlanner.Views
         {
             InitializeComponent();
 
-            CenterLabels();
+            Device.BeginInvokeOnMainThread(() =>
+            {
+                CenterLabels();
+            });
+            
         }
 
         #region Private Helpers
 
         private void CenterLabels()
         {
+
             Func<RelativeLayout, double> getVegWidth = (parent) => Veg.Measure(parent.Width, parent.Height).Request.Width;
             Func<RelativeLayout, double> getVegHeight = (parent) => Veg.Measure(parent.Width, parent.Height).Request.Height;
 
