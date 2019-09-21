@@ -87,17 +87,42 @@ namespace MealPlannerDesktop
 
         private void FrmFindShops_Load(object sender, EventArgs e)
         {
-            watcher = new GeoCoordinateWatcher();
-            // Catch the StatusChanged event.  
-            watcher.StatusChanged += Watcher_StatusChanged;
-            watcher.PositionChanged += GeoPositionChanged;
+            //watcher = new GeoCoordinateWatcher();
+            //// Catch the StatusChanged event.  
+            //watcher.StatusChanged += Watcher_StatusChanged;
+            //watcher.PositionChanged += GeoPositionChanged;
+            //GeoCoordinate coord = watcher.Position.Location;
+            //while(coord.IsUnknown == true)
+            //{
+            //    watcher.TryStart(false, TimeSpan.FromMilliseconds(2000));
+            //    coord = watcher.Position.Location;
+            //    this.latitude = coord.Latitude;
+            //    this.longitute = coord.Longitude;
+            //}
+            GeoCoordinateWatcher watcher = new GeoCoordinateWatcher();
+            bool found = false;
+            while(found == false)
+            {
 
-            watcher.Start();
-            // Start the watcher. 
+                watcher.TryStart(false, TimeSpan.FromMilliseconds(2000));
+                GeoCoordinate coord = watcher.Position.Location;
 
-                var coord = watcher.Position.Location;
-                this.latitude = coord.Latitude;
-                this.longitute = coord.Longitude;
+                Console.WriteLine("status: " + watcher.Status.ToString());
+
+                if (coord.IsUnknown != true)
+                {
+                    Console.WriteLine("Lat: {0}, Long: {1}",
+                        coord.Latitude,
+                        coord.Longitude);
+                    found = true;
+                }
+                else
+                {
+                    Console.WriteLine("Unknown latitude and longitude.");
+                }
+            }
+
+
 
             WoolworthsResults = new ObservableCollection<Result>();
             PicknPayResults = new ObservableCollection<Result>();

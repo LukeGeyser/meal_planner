@@ -115,6 +115,10 @@
             // 
             // dgvStoresDisplay
             // 
+            this.dgvStoresDisplay.AllowUserToAddRows = false;
+            this.dgvStoresDisplay.AllowUserToDeleteRows = false;
+            this.dgvStoresDisplay.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dgvStoresDisplay.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dgvStoresDisplay.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvStoresDisplay.Location = new System.Drawing.Point(269, 191);
             this.dgvStoresDisplay.Name = "dgvStoresDisplay";
