@@ -8,8 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Xamarin.Essentials;
 using static MealPlannerDesktop.MapResultDataWrapper;
+using System.Device.Location;
 
 namespace MealPlannerDesktop
 {
@@ -20,42 +20,137 @@ namespace MealPlannerDesktop
         private ObservableCollection<Result> SpaResults { get; set; }
         private ObservableCollection<Result> CheckersResults { get; set; }
 
-        private ObservableCollection<DisplayStoreInfoViewModel> displayingList;
-        public ObservableCollection<DisplayStoreInfoViewModel> DisplayingList
-        {
-            get { return displayingList; }
-            set
-            {
-                displayingList = value;
-                OnPropertyChanged();
-            }
-        }
+        private ObservableCollection<DisplayStoreInfoViewModel> displayingList
+            = new ObservableCollection<DisplayStoreInfoViewModel>();
 
-        private void OnPropertyChanged()
-        {
-            for(int i = 0; i < DisplayingList.Count; i++)
-            {
-                lstStoresDisplay.Items.Add(DisplayingList[i].Name);
-            }
-        }
+        List<StoreNearYou> DisplayStores = new List<StoreNearYou>();
+        BindingSource bs = new BindingSource();
 
         private MapsAPI mapsAPI = new MapsAPI();
-        Xamarin.Essentials.Location location = new Xamarin.Essentials.Location(0,0);
 
-        private string storeSelected { get; set; }
-        
-    
-        async private void LoadAllStores(Xamarin.Essentials.Location location)
+        private double latitude = 0;
+        private double longitute = 0;
+        private GeoCoordinateWatcher watcher = new GeoCoordinateWatcher();
+
+        //private void Watcher_StatusChanged(object sender, GeoPositionStatusChangedEventArgs e) // Find GeoLocation of Device  
+        //{
+        //    try
+        //    {
+        //        if (e.Status == GeoPositionStatus.Ready)
+        //        {
+        //            // Display the latitude and longitude.  
+        //            if (watcher.Position.Location.IsUnknown)
+        //            {
+        //                latitude = 0;
+        //                longitute = 0;
+        //            }
+        //            else
+        //            {
+        //                latitude = watcher.Position.Location.Latitude;
+        //                longitute = watcher.Position.Location.Longitude;
+        //            }
+        //        }
+        //        else
+        //        {
+        //            latitude = 0;
+        //            longitute = 0;
+        //        }
+        //    }
+        //    catch (Exception)
+        //    {
+        //        latitude = 0;
+        //        longitute = 0;
+        //    }
+        //}
+
+        public frmFindShops()
         {
-            await mapsAPI.PopulateMaps(WoolworthsResults, location.Latitude, location.Longitude, "woolworths");
-            await mapsAPI.PopulateMaps(PicknPayResults, location.Latitude, location.Longitude, "PicknPay");
-            await mapsAPI.PopulateMaps(SpaResults, location.Latitude, location.Longitude, "spar");
-            await mapsAPI.PopulateMaps(CheckersResults, location.Latitude, location.Longitude, "checkers");
+            InitializeComponent();
         }
 
-        private void GenerateDisplayingList(ObservableCollection<Result> results, string Icon_Source, string Title)
+        private void Watcher_StatusChanged(object sender, GeoPositionStatusChangedEventArgs e)
+        {
+            if (e.Status == GeoPositionStatus.Ready)
+            {
+                MessageBox.Show("Watcher is ready. First location: The current location is: " +
+              watcher.Position.Location.Latitude + "/" +
+              watcher.Position.Location.Longitude + ".");
+            }
+        }
+
+        private static void GeoPositionChanged(object sender, GeoPositionChangedEventArgs<GeoCoordinate> e)
+        {
+            MessageBox.Show("The current location is: " +
+                e.Position.Location.Latitude + "/" +
+                e.Position.Location.Longitude + ".");
+        }
+
+        private void FrmFindShops_Load(object sender, EventArgs e)
+        {
+            //watcher = new GeoCoordinateWatcher();
+            //// Catch the StatusChanged event.  
+            //watcher.StatusChanged += Watcher_StatusChanged;
+            //watcher.PositionChanged += GeoPositionChanged;
+            //GeoCoordinate coord = watcher.Position.Location;
+            //while(coord.IsUnknown == true)
+            //{
+            //    watcher.TryStart(false, TimeSpan.FromMilliseconds(2000));
+            //    coord = watcher.Position.Location;
+            //    this.latitude = coord.Latitude;
+            //    this.longitute = coord.Longitude;
+            //}
+            GeoCoordinateWatcher watcher = new GeoCoordinateWatcher();
+            bool found = false;
+            while(found == false)
+            {
+
+                watcher.TryStart(false, TimeSpan.FromMilliseconds(2000));
+                GeoCoordinate coord = watcher.Position.Location;
+
+                Console.WriteLine("status: " + watcher.Status.ToString());
+
+                if (coord.IsUnknown != true)
+                {
+                    Console.WriteLine("Lat: {0}, Long: {1}",
+                        coord.Latitude,
+                        coord.Longitude);
+                    found = true;
+                }
+                else
+                {
+                    Console.WriteLine("Unknown latitude and longitude.");
+                }
+            }
+
+
+
+            WoolworthsResults = new ObservableCollection<Result>();
+            PicknPayResults = new ObservableCollection<Result>();
+            SpaResults = new ObservableCollection<Result>();
+            CheckersResults = new ObservableCollection<Result>();
+            DisplayStores = new List<StoreNearYou>();
+
+            PopulateStores();
+        }
+
+
+        private async void PopulateStores()
+        {
+            await mapsAPI.PopulateMaps(WoolworthsResults, Convert.ToDouble(latitude), 
+                Convert.ToDouble(longitute), "woolworths");
+            await mapsAPI.PopulateMaps(PicknPayResults, Convert.ToDouble(latitude),
+                Convert.ToDouble(longitute), "PicknPay");
+            await mapsAPI.PopulateMaps(SpaResults, Convert.ToDouble(latitude),
+                Convert.ToDouble(longitute), "spar");
+            await mapsAPI.PopulateMaps(CheckersResults, Convert.ToDouble(latitude),
+                Convert.ToDouble(longitute), "checkers");
+        }
+
+
+        private List<StoreNearYou> GenerateDisplayingList(ObservableCollection<Result> results)
         {
             displayingList.Clear();
+            DisplayStores.Clear();
             foreach (var item in results)
             {
                 displayingList.Add(new DisplayStoreInfoViewModel()
@@ -70,36 +165,84 @@ namespace MealPlannerDesktop
                     Rating = item.rating,
                     User_Ratings_Total = item.user_ratings_total,
                     Vicinity = item.vicinity,
-                    Icon_Source = Icon_Source,
+                    Icon_Source = null,
                     open_Text = (item.opening_hours == null ? false : true) ? "Open Now" : "Closed",
                     ColorHex = (item.opening_hours == null ? false : true) ? "#669e2f" : "#db5151",
-                    Distance = "Around " + GetDistanceFromStore(location.Latitude, location.Longitude, item.geometry.location.lat, item.geometry.location.lng).ToString("0") + "km from you"
+                    Distance = "Around " + GetDistanceFromStore(Convert.ToDouble(latitude), Convert.ToDouble(longitute),
+                    item.geometry.location.lat, item.geometry.location.lng).ToString("0") + "km from you"
                 });
             }
-            NearYou.Text = Title + " near you:";
+            for(var i = 0; i < displayingList.Count; i++)
+            {
+                DisplayStores.Add(new StoreNearYou(displayingList[i].Name
+                    , displayingList[i].Distance, displayingList[i].open_Text));
+            }
+
+            return DisplayStores;
         }
+
+
 
         private double GetDistanceFromStore(double sLatitude, double sLongitude, double eLatitude, double eLongitude)
         {
-            var sCoords = new Xamarin.Essentials.Location(sLatitude, sLongitude);
-            var eCoords = new Xamarin.Essentials.Location(eLatitude, eLongitude);
-            return sCoords.CalculateDistance(eCoords, DistanceUnits.Kilometers);
-        }
+            return 0;
 
-
-
-        private void FrmFindShops_Load(object sender, EventArgs e)
-        {
-            
+            //var sCoords = new Location(sLatitude, sLongitude);
+            //var eCoords = new Location(eLatitude, eLongitude);
+            //return sCoords.CalculateDistance(eCoords, DistanceUnits.Kilometers);
         }
 
         private void CbxStoreName_SelectedIndexChanged(object sender, EventArgs e)
         {
-            storeSelected = cbxStoreName.SelectedItem.ToString();
-            if (storeSelected == "WoolWorths") GenerateDisplayingList(WoolworthsResults, "woolworths.png", "WoolWorths");
-            else if (storeSelected == "Pick n Pay") GenerateDisplayingList(PicknPayResults, "picknpay.png", "Pick n Pay's");
-            else if (storeSelected == "Spar") GenerateDisplayingList(SpaResults, "spa.png", "Spa's");
-            else if (storeSelected == "Checkers") GenerateDisplayingList(CheckersResults, "checkers.png", "Checkers");
+            try
+            {
+                bs.DataSource = null;
+                dgvStoresDisplay.DataSource = null;
+                switch (cbxStoreName.SelectedIndex)
+                {
+                    case 0:
+                        pbStoreLogo.ImageLocation = "woolworths.jpg";
+                        bs.DataSource = GenerateDisplayingList(WoolworthsResults);
+                        break;
+                    case 1:
+                        pbStoreLogo.ImageLocation = "picknpay.jpg";
+                        bs.DataSource = GenerateDisplayingList(PicknPayResults);
+                        break;
+                    case 2:
+                        pbStoreLogo.ImageLocation = "spar.jpg";
+                        bs.DataSource = GenerateDisplayingList(SpaResults);
+                        break;
+                    case 3:
+                        pbStoreLogo.ImageLocation = "checkers.jpg";
+                        bs.DataSource = GenerateDisplayingList(CheckersResults);
+                        break;
+                    default:
+                        pbStoreLogo.ImageLocation = "selectShop.png";
+                        break;
+                }
+                txtNearYou.Text = cbxStoreName.Items[cbxStoreName.SelectedIndex].ToString()
+                    + " near you...";
+                dgvStoresDisplay.DataSource = bs;
+            }
+            catch(Exception err)
+            {
+                MessageBox.Show(err.Message, "Error", MessageBoxButtons.OK
+                    , MessageBoxIcon.Error);
+            }
+        }
+
+        private void BtnBack_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                frmMainPage main = new frmMainPage();
+                main.Show();
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

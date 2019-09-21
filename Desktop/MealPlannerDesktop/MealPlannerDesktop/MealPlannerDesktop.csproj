@@ -166,6 +166,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Core" />
+    <Reference Include="System.Device" />
     <Reference Include="System.Diagnostics.DiagnosticSource, Version=4.0.3.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Diagnostics.DiagnosticSource.4.5.1\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
     </Reference>
@@ -340,6 +341,7 @@
     <Compile Include="SecurityService.cs" />
     <Compile Include="ShopProducts.cs" />
     <Compile Include="Shops.cs" />
+    <Compile Include="StoreNearYou.cs" />
     <Compile Include="User.cs" />
     <Compile Include="UserAllergies.cs" />
     <Compile Include="UserMealPlan.cs" />

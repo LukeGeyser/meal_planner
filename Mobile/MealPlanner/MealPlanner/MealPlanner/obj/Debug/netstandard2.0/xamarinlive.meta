@@ -2,91 +2,91 @@
 <XamlProjectMeta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Files>
     <XamlFileMeta>
-      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\App.xaml</FilePath>
+      <FilePath>C:\Users\Janay Sander\Documents\GitHub\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\App.xaml</FilePath>
       <Hash>ED-DE-7D-4E-1C-42-05-79-EC-D3-AB-CF-D6-0C-44-BE</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
-      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\AboutPage.xaml</FilePath>
+      <FilePath>C:\Users\Janay Sander\Documents\GitHub\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\AboutPage.xaml</FilePath>
       <Hash>65-56-43-5F-8A-CE-4A-0B-E9-48-1B-5A-8F-E0-05-A8</Hash>
       <Properties>
         <string>Title</string>
       </Properties>
     </XamlFileMeta>
     <XamlFileMeta>
-      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\AddAllergyPage.xaml</FilePath>
+      <FilePath>C:\Users\Janay Sander\Documents\GitHub\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\AddAllergyPage.xaml</FilePath>
       <Hash>AA-0C-03-EB-72-7B-ED-84-84-D3-7D-7C-8C-2D-EC-80</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
-      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\AdditionalInfoSignUpPage.xaml</FilePath>
+      <FilePath>C:\Users\Janay Sander\Documents\GitHub\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\AdditionalInfoSignUpPage.xaml</FilePath>
       <Hash>50-DF-8E-61-A8-D8-D0-22-E0-8C-F5-26-97-AD-1D-CF</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
-      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\AddMealPlanPage.xaml</FilePath>
+      <FilePath>C:\Users\Janay Sander\Documents\GitHub\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\AddMealPlanPage.xaml</FilePath>
       <Hash>F3-52-1F-E2-F0-49-EF-04-5E-83-3D-32-35-0E-6A-0D</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
-      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\AppPreferencesPage.xaml</FilePath>
+      <FilePath>C:\Users\Janay Sander\Documents\GitHub\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\AppPreferencesPage.xaml</FilePath>
       <Hash>AC-5F-AE-11-91-40-03-BB-CD-10-44-C3-4A-4A-26-F0</Hash>
       <Properties>
         <string>Title</string>
       </Properties>
     </XamlFileMeta>
     <XamlFileMeta>
-      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\CalorieCalculatorPage.xaml</FilePath>
+      <FilePath>C:\Users\Janay Sander\Documents\GitHub\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\CalorieCalculatorPage.xaml</FilePath>
       <Hash>18-E7-44-05-CC-D4-64-03-0F-3A-D2-DD-38-38-3E-88</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
-      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\ClientDetailsSignUpPage.xaml</FilePath>
+      <FilePath>C:\Users\Janay Sander\Documents\GitHub\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\ClientDetailsSignUpPage.xaml</FilePath>
       <Hash>C7-CF-C5-DF-88-B4-FC-97-18-93-3B-3C-76-58-34-18</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
-      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\HomePage.xaml</FilePath>
+      <FilePath>C:\Users\Janay Sander\Documents\GitHub\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\HomePage.xaml</FilePath>
       <Hash>3B-79-63-8B-59-00-1D-BA-7D-1F-46-C3-22-8B-B6-F9</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
-      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\ItemDetailPage.xaml</FilePath>
+      <FilePath>C:\Users\Janay Sander\Documents\GitHub\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\ItemDetailPage.xaml</FilePath>
       <Hash>B5-8F-32-49-6F-08-F0-E4-45-3F-2F-0E-62-59-91-FC</Hash>
       <Properties>
         <string>Title</string>
       </Properties>
     </XamlFileMeta>
     <XamlFileMeta>
-      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\ItemsPage.xaml</FilePath>
+      <FilePath>C:\Users\Janay Sander\Documents\GitHub\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\ItemsPage.xaml</FilePath>
       <Hash>2E-6C-1E-BC-78-AF-21-D1-50-DD-05-3D-60-5F-C7-49</Hash>
       <Properties>
         <string>Title</string>
       </Properties>
     </XamlFileMeta>
     <XamlFileMeta>
-      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\MainPage.xaml</FilePath>
+      <FilePath>C:\Users\Janay Sander\Documents\GitHub\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\MainPage.xaml</FilePath>
       <Hash>48-05-A6-5A-3B-15-9A-CB-1E-21-AA-17-FF-7F-55-B2</Hash>
       <Properties>
         <string>Title</string>
       </Properties>
     </XamlFileMeta>
     <XamlFileMeta>
-      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\MenuPage.xaml</FilePath>
+      <FilePath>C:\Users\Janay Sander\Documents\GitHub\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\MenuPage.xaml</FilePath>
       <Hash>A4-AF-88-58-83-E7-50-FF-3F-9A-56-4E-3F-94-EB-12</Hash>
       <Properties>
         <string>Title</string>
       </Properties>
     </XamlFileMeta>
     <XamlFileMeta>
-      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\NewItemPage.xaml</FilePath>
+      <FilePath>C:\Users\Janay Sander\Documents\GitHub\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\NewItemPage.xaml</FilePath>
       <Hash>76-94-3B-6D-56-C1-D4-26-20-8D-BB-B1-AA-E0-6E-A8</Hash>
       <Properties>
         <string>Title</string>
       </Properties>
     </XamlFileMeta>
     <XamlFileMeta>
-      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\ProfilePage.xaml</FilePath>
+      <FilePath>C:\Users\Janay Sander\Documents\GitHub\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\ProfilePage.xaml</FilePath>
       <Hash>0F-2B-D5-D7-18-E5-ED-27-C1-C5-0F-18-4E-D9-DC-D0</Hash>
       <Properties>
         <string>BarBackgroundColor</string>
@@ -94,19 +94,19 @@
       </Properties>
     </XamlFileMeta>
     <XamlFileMeta>
-      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\ShopsDisplayPage.xaml</FilePath>
+      <FilePath>C:\Users\Janay Sander\Documents\GitHub\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\ShopsDisplayPage.xaml</FilePath>
       <Hash>10-C0-6B-AF-5B-04-B0-85-66-87-32-0A-C6-F2-CE-02</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
-      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\SignInPage.xaml</FilePath>
+      <FilePath>C:\Users\Janay Sander\Documents\GitHub\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\SignInPage.xaml</FilePath>
       <Hash>D6-15-EC-3F-99-0B-64-E4-68-A9-02-F7-30-E9-FF-56</Hash>
       <Properties>
         <string>Title</string>
       </Properties>
     </XamlFileMeta>
     <XamlFileMeta>
-      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\SignUpPage.xaml</FilePath>
+      <FilePath>C:\Users\Janay Sander\Documents\GitHub\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\SignUpPage.xaml</FilePath>
       <Hash>AE-4E-A4-E8-FD-2C-4F-63-B0-7C-D3-54-A6-B8-A1-0C</Hash>
       <Properties />
     </XamlFileMeta>

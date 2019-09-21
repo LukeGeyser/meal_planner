@@ -63,7 +63,7 @@
             this.logoutToolStripMenuItem});
             this.menuChoices.Location = new System.Drawing.Point(0, 0);
             this.menuChoices.Name = "menuChoices";
-            this.menuChoices.Size = new System.Drawing.Size(866, 31);
+            this.menuChoices.Size = new System.Drawing.Size(867, 31);
             this.menuChoices.TabIndex = 0;
             this.menuChoices.Text = "menuStrip1";
             // 
@@ -140,7 +140,7 @@
             this.pbLogo.InitialImage = null;
             this.pbLogo.Location = new System.Drawing.Point(0, 384);
             this.pbLogo.Name = "pbLogo";
-            this.pbLogo.Size = new System.Drawing.Size(866, 109);
+            this.pbLogo.Size = new System.Drawing.Size(867, 109);
             this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbLogo.TabIndex = 5;
             this.pbLogo.TabStop = false;
@@ -196,7 +196,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(183)))), ((int)(((byte)(43)))));
-            this.ClientSize = new System.Drawing.Size(866, 493);
+            this.ClientSize = new System.Drawing.Size(867, 493);
             this.Controls.Add(this.lblWelcome);
             this.Controls.Add(this.lblQuoteTitle);
             this.Controls.Add(this.lblQuote);
