@@ -1206,3 +1206,5 @@ C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Plugin.Settings.Abstractions.dll.mdb
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Plugin.Settings.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Plugin.Settings.dll.mdb
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\background.png
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\gradient.png

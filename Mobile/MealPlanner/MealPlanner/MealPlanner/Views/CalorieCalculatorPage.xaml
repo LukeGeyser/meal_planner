@@ -8,17 +8,6 @@
     BackgroundColor="{DynamicResource BackGroundColor}"
     mc:Ignorable="d">
 
-    <ContentPage.Resources>
-        <ResourceDictionary>
-            <Color x:Key="Primary-Green">#669e2f</Color>
-            <Color x:Key="Accent">#669e2f</Color>
-            <Color x:Key="LightTextColor">#2d2d2d</Color>
-            <Color x:Key="OffWhiteTextColor">#ebebeb</Color>
-            <Color x:Key="alert">#db5151</Color>
-            <Color x:Key="LightThemeTextColor">#2d2d2d</Color>
-        </ResourceDictionary>
-    </ContentPage.Resources>
-
     <ContentPage.Content>
         <StackLayout Padding="5,0,5,0">
 

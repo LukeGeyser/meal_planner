@@ -4,6 +4,7 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:ffimageloading="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     BackgroundColor="{DynamicResource ebebeb}"
     mc:Ignorable="d">
@@ -106,6 +107,16 @@
                         TextColor="{DynamicResource BtnHeaderText}"
                         WidthRequest="120" />
                 </FlexLayout>
+
+                <ffimageloading:SvgCachedImage
+                    x:Name="loadingPNG"
+                    Margin="0"
+                    HeightRequest="50"
+                    HorizontalOptions="FillAndExpand"
+                    IsVisible="False"
+                    Opacity="0"
+                    Source="loading.gif"
+                    VerticalOptions="Center" />
 
             </StackLayout>
         </ScrollView>

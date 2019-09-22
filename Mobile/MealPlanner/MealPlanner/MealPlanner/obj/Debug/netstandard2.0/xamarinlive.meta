@@ -13,7 +13,7 @@
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Resources\LightTheme.xaml</FilePath>
-      <Hash>B6-3B-7A-F0-16-C8-59-5A-C6-9E-7B-1C-87-B5-26-1B</Hash>
+      <Hash>45-71-CE-1B-B4-BF-3D-C5-ED-EB-56-EE-64-98-A1-45</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
@@ -32,7 +32,7 @@
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\AdditionalInfoSignUpPage.xaml</FilePath>
-      <Hash>F7-DA-BD-D9-7A-D2-AD-F5-09-72-90-92-87-00-A0-ED</Hash>
+      <Hash>1C-BC-EA-2E-C8-52-4B-FF-70-E2-1F-17-73-10-D2-1E</Hash>
       <Properties>
         <string>BackgroundColor</string>
       </Properties>
@@ -54,7 +54,7 @@
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\CalorieCalculatorPage.xaml</FilePath>
-      <Hash>AC-54-7E-87-7E-CE-3A-01-FB-7C-4D-7C-36-8A-44-6D</Hash>
+      <Hash>92-8A-3E-D2-8C-AC-77-5D-76-53-52-F8-AF-20-ED-43</Hash>
       <Properties>
         <string>BackgroundColor</string>
       </Properties>
@@ -72,6 +72,11 @@
       <Properties>
         <string>BackgroundColor</string>
       </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\InitialAllergySetupPage.xaml</FilePath>
+      <Hash>15-7D-BD-FA-AA-9B-5F-1D-55-3A-34-A3-DA-45-14-51</Hash>
+      <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\ItemDetailPage.xaml</FilePath>

@@ -39,7 +39,7 @@ namespace MealPlanner.Views
                 Sign_In.IsEnabled = false;
                 Sign_Up.IsEnabled = false;
                 loadingPNG.IsVisible = true;
-                loadingPNG.FadeTo(100, 250, Easing.Linear);
+                loadingPNG.FadeTo(100, 500, Easing.Linear);
             });
 
             Task.Run(async () =>
@@ -50,15 +50,10 @@ namespace MealPlanner.Views
                 }
                 else if (Username.Text != null || Password.Text != null)
                 {
-                    //Device.BeginInvokeOnMainThread(() =>
-                    //{
-                    //    Error.IsVisible = false;
-                    //});
 
                     User attemptLogin = new User(Username.Text, Password.Text);
 
                     // Check if user input credentials are valid inputs
-
                     if (userList.Any(user => user.Username == Username.Text))
                     {
                         loggedInUser = userList.Find(user => user.Username == Username.Text);

@@ -54,11 +54,11 @@ namespace MealPlanner.Services
             Debug.WriteLine(users.Count);
         }
 
-        public void AddSingleUser(User user)
+        public async Task AddSingleUser(User user)
         {
             try
             {
-                conn.Open();
+                await conn.OpenAsync();
                 SqlCommand cmdInsert = new SqlCommand("INSERT INTO tblUsers (Username,Password,FirstName,LastName,DOB,Weight,Height,Email,Phone,Salt)" +
                     "VALUES(@uname,@pwd,@fname,@sname,@dob,@weight,@height,@email,@phone,@salt)", conn);
                 using (cmdInsert)
@@ -88,11 +88,11 @@ namespace MealPlanner.Services
             }
         }
 
-        public void UpdateUserDetails(User Person)
+        public async Task UpdateUserDetails(User Person)
         {
             try
             {
-                conn.Open();
+                await conn.OpenAsync();
                 SqlCommand cmd = new SqlCommand("UPDATE tblUsers SET Password=@pass,FirstName=@name,LastName=@surname,"
                     + "DOB=@dob,Weight=@weight,Height=@height,Email=@email,Phone=@phone,Salt=@salt " +
                     "WHERE Username = @user", conn);
@@ -108,7 +108,7 @@ namespace MealPlanner.Services
                 cmd.Parameters.AddWithValue("@user", Person.Username);
                 cmd.ExecuteNonQuery();
             }
-            catch (Exception error)
+            catch (Exception)
             {
 
             }
@@ -119,15 +119,15 @@ namespace MealPlanner.Services
             }
         }
 
-        public List<Allergies> GetAllAllergies()
+        public async Task<List<Allergies>> GetAllAllergies()
         {
             List<Allergies> allergies = new List<Allergies>();
             try
             {
-                conn.Open();
+                await conn.OpenAsync();
                 SqlCommand cmd = new SqlCommand("SELECT * FROM tblAllergies", conn);
                 SqlDataReader reader = cmd.ExecuteReader();
-                while (reader.Read())
+                while (await reader.ReadAsync())
                 {
                     allergies.Add(new Allergies(Convert.ToInt32(reader["AllergyID"])
                         , reader["AllergyName"].ToString(), reader["Description"].ToString()));
@@ -175,17 +175,17 @@ namespace MealPlanner.Services
 
         }
 
-        public List<UserAllergies> GetSelectedAllergies(string username)
+        public async Task<List<UserAllergies>> GetSelectedAllergies(string username)
         {
             List<UserAllergies> chosen = new List<UserAllergies>();
             try
             {
-                conn.Open();
+                await conn.OpenAsync();
                 SqlCommand cmd = new SqlCommand("SELECT * FROM tblUsersAllergies WHERE "
                     + "Username = @user", conn);
                 cmd.Parameters.AddWithValue("@user", username);
                 SqlDataReader reader = cmd.ExecuteReader();
-                while (reader.Read())
+                while (await reader.ReadAsync())
                 {
                     chosen.Add(new UserAllergies(reader["Username"].ToString()
                         , Convert.ToInt32(reader["AllergyID"])));
@@ -203,15 +203,15 @@ namespace MealPlanner.Services
             return chosen;
         }
 
-        public List<MealPlans> GetAllMealPlans()
+        public async Task<List<MealPlans>> GetAllMealPlans()
         {
             List<MealPlans> plans = new List<MealPlans>();
             try
             {
-                conn.Open();
+                await conn.OpenAsync();
                 SqlCommand cmd = new SqlCommand("SELECT * FROM tblMealPlans", conn);
                 SqlDataReader reader = cmd.ExecuteReader();
-                while (reader.Read())
+                while (await reader.ReadAsync())
                 {
                     plans.Add(new MealPlans(Convert.ToInt32(reader["MealPlanID"]),
                         reader["MealPlanName"].ToString(), reader["Description"].ToString(),
@@ -256,17 +256,17 @@ namespace MealPlanner.Services
             return plan;
         }
 
-        public List<UserMealPlan> GetSelectedMealPlans(string username)
+        public async Task<List<UserMealPlan>> GetSelectedMealPlans(string username)
         {
             List<UserMealPlan> plans = new List<UserMealPlan>();
             try
             {
-                conn.Open();
+                await conn.OpenAsync();
                 SqlCommand cmd = new SqlCommand("SELECT * FROM tblUsersMealPlans WHERE "
                     + " Username = @user", conn);
                 cmd.Parameters.AddWithValue("@user", username);
                 SqlDataReader reader = cmd.ExecuteReader();
-                while (reader.Read())
+                while (await reader.ReadAsync())
                 {
                     plans.Add(new UserMealPlan(reader["Username"].ToString(),
                         Convert.ToInt32(reader["MealPlanID"])));
@@ -325,11 +325,11 @@ namespace MealPlanner.Services
             }
         }
 
-        public void RemoveAllPreferences(string username)
+        public async Task RemoveAllPreferences(string username)
         {
             try
             {
-                conn.Open();
+                await conn.OpenAsync();
                 SqlCommand cmd = new SqlCommand("DELETE FROM tblUsersAllergies WHERE Username = @user"
                     , conn);
                 cmd.Parameters.AddWithValue("@user", username);
@@ -348,11 +348,11 @@ namespace MealPlanner.Services
             }
         }
 
-        public void AddSelectedAllergy(string username, Allergies chosen)
+        public async Task AddSelectedAllergy(string username, Allergies chosen)
         {
             try
             {
-                conn.Open();
+                await conn.OpenAsync();
                 SqlCommand cmd = new SqlCommand("INSERT INTO tblUsersAllergies(Username,AllergyID)"
                     + " VALUES(@user,@allergy)", conn);
                 cmd.Parameters.AddWithValue("@user", username);
@@ -369,11 +369,11 @@ namespace MealPlanner.Services
             }
         }
 
-        public void AddSelectedMealplans(string username, MealPlans chosen)
+        public async Task AddSelectedMealplans(string username, MealPlans chosen)
         {
             try
             {
-                conn.Open();
+                await conn.OpenAsync();
                 SqlCommand cmd = new SqlCommand("INSERT INTO tblUsersMealPlans(Username,MealPlanID)"
                     + " VALUES(@user,@plan)", conn);
                 cmd.Parameters.AddWithValue("@user", username);

@@ -22,36 +22,69 @@ namespace MealPlanner.Views
         public AdditionalInfoSignUpPage()
         {
             InitializeComponent();
-            DOB.MaximumDate = DateTime.Today;
+            Device.BeginInvokeOnMainThread(() =>
+            {
+                DOB.MaximumDate = DateTime.Today;
+            });
         }
 
         private void Finish_Clicked(object sender, EventArgs e)
         {
-            if (DOB.Date == null || Height.Text == null || Weight == null)
+            Device.BeginInvokeOnMainThread(() =>
             {
-                DisplayAlert("Not filled In", "Not all field are filled in...", "Got it!");
-            }
-            else if (DOB.Date != null && Height.Text != null && Weight != null)
+                Back.IsEnabled = false;
+                Finish.IsEnabled = false;
+                loadingPNG.IsVisible = true;
+                loadingPNG.FadeTo(100, 500, Easing.Linear);
+            });
+
+            Task.Run(async () =>
             {
-                if (Regex.IsMatch(Height.Text, @"^\d+$") == false || Regex.IsMatch(Weight.Text, @"^\d+$") == false)
+                if (DOB.Date == null || Height.Text == null || Weight == null)
                 {
-                    DisplayAlert("Field Input Invalid", "Weight or Height input is incorrect...", "Got it!");
+                    
+                    Device.BeginInvokeOnMainThread(() =>
+                    {
+                        DisplayAlert("Not filled In", "Not all field are filled in...", "Got it!");
+                        Back.IsEnabled = true;
+                        Finish.IsEnabled = true;
+                    });
                 }
-                else if (Regex.IsMatch(Height.Text, @"^\d+$") == true || Regex.IsMatch(Weight.Text, @"^\d+$") == true)
+                else if (DOB.Date != null && Height.Text != null && Weight != null)
                 {
-                    signUpUser.Dob = DOB.Date;
-                    signUpUser.Weight = double.Parse(Weight.Text);
-                    signUpUser.Height = double.Parse(Height.Text);
-                    App.users.Add(signUpUser);
-                    dataHandler.AddSingleUser(signUpUser);
-                    Application.Current.MainPage = new HomePage();
+                    if (Regex.IsMatch(Height.Text, @"^\d+$") == false || Regex.IsMatch(Weight.Text, @"^\d+$") == false)
+                    {
+                        Device.BeginInvokeOnMainThread(() =>
+                        {
+                            DisplayAlert("Field Input Invalid", "Weight or Height input is incorrect...", "Got it!");
+                            Back.IsEnabled = true;
+                            Finish.IsEnabled = true;
+                        });
+                    }
+                    else if (Regex.IsMatch(Height.Text, @"^\d+$") == true || Regex.IsMatch(Weight.Text, @"^\d+$") == true)
+                    {
+                        signUpUser.Dob = DOB.Date;
+                        signUpUser.Weight = double.Parse(Weight.Text);
+                        signUpUser.Height = double.Parse(Height.Text);
+                        App.users.Add(signUpUser);
+                        SignInPage.loggedInUser = signUpUser;
+                        await dataHandler.AddSingleUser(signUpUser);
+                        
+                        Device.BeginInvokeOnMainThread(() =>
+                        {
+                            Application.Current.MainPage = new InitialAllergySetupPage();
+                        });
+                    }
                 }
-            }
+            });
         }
 
         private void Back_Clicked(object sender, EventArgs e)
         {
-            Application.Current.MainPage = new ClientDetailsSignUpPage();
+            Device.BeginInvokeOnMainThread(() =>
+            {
+                Application.Current.MainPage = new ClientDetailsSignUpPage();
+            });
         }
     }
 }

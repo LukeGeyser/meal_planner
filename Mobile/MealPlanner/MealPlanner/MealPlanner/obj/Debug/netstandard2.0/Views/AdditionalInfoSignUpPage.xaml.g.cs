@@ -32,6 +32,9 @@ namespace MealPlanner.Views {
         private global::Xamarin.Forms.Button Finish;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::FFImageLoading.Svg.Forms.SvgCachedImage loadingPNG;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(AdditionalInfoSignUpPage));
             DOB = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.DatePicker>(this, "DOB");
@@ -39,6 +42,7 @@ namespace MealPlanner.Views {
             Height = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "Height");
             Back = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "Back");
             Finish = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "Finish");
+            loadingPNG = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::FFImageLoading.Svg.Forms.SvgCachedImage>(this, "loadingPNG");
         }
     }
 }
