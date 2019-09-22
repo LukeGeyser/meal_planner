@@ -13,6 +13,8 @@ namespace MealPlannerDesktop
 {
     public partial class frmSignUp : Form
     {
+        public static string username = "";
+
         public frmSignUp()
         {
             InitializeComponent();
@@ -51,48 +53,59 @@ namespace MealPlannerDesktop
                 
                 NUser.DOB = dtpDOB.Value;
                 NUser.Weight = double.Parse(txtWeight.Text);
-                NUser.Height = double.Parse(txtHeight.Text);                
+                NUser.Height = double.Parse(txtHeight.Text);
 
-                foreach (var item in check)
+                if (string.IsNullOrEmpty(txtName.Text) || (string.IsNullOrEmpty(txtSurname.Text)|| string.IsNullOrEmpty(txtWeight.Text)|| string.IsNullOrEmpty(txtHeight.Text) ||
+                    string.IsNullOrEmpty(txtPassword.Text)|| string.IsNullOrEmpty(txtConfirmP.Text)|| string.IsNullOrEmpty(txtName.Text)|| string.IsNullOrEmpty(txtPhone.Text)||
+                    string.IsNullOrEmpty(txtEmail.Text)))
                 {
-                    if (item.Username == txtUsername.Text)
+                    MessageBox.Show("Please enter all your details.", "Missing Information", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else
+                {
+                    foreach (var item in check)
                     {
-                        DialogResult r = MessageBox.Show("Username already exists", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                        if (r == DialogResult.OK)
+                        if (item.Username == txtUsername.Text)
                         {
-                            txtUsername.Clear();
+                            DialogResult r = MessageBox.Show("Username already exists.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            if (r == DialogResult.OK)
+                            {
+                                txtUsername.Clear();
+                            }
+                            break;
                         }
-                        break;
-                    }
-                    else if (txtPassword.Text == txtConfirmP.Text)
-                    {
-                        DataHandler.SignUpUser(NUser);
-                        txtConfirmP.Clear();
-                        txtEmail.Clear();
-                        txtHeight.Clear();
-                        txtName.Clear();
-                        txtPassword.Clear();
-                        txtPhone.Clear();
-                        txtSurname.Clear();
-                        txtUsername.Clear();
-                        txtWeight.Clear();
-                        frmSignIn frm = new frmSignIn();
-                        frm.Show();
-                        this.Close();
-                        break;
-                    }
-                    else
-                    {
-                        DialogResult w = MessageBox.Show("Passwords do not match. Please try again.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                        if (w == DialogResult.OK)
+                        else if (txtPassword.Text == txtConfirmP.Text)
                         {
-                            txtPassword.Clear();
+                            username = txtUsername.Text;
+                            DataHandler.UpdateUserProgress(NUser.Username, NUser.Weight);
+                            DataHandler.SignUpUser(NUser);
                             txtConfirmP.Clear();
+                            txtEmail.Clear();
+                            txtHeight.Clear();
+                            txtName.Clear();
+                            txtPassword.Clear();
+                            txtPhone.Clear();
+                            txtSurname.Clear();
+                            txtUsername.Clear();
+                            txtWeight.Clear();
+                            frmPreferences frm = new frmPreferences();
+                            frm.Show();
+                            this.Close();
+                            break;
                         }
-                        break;
+                        else
+                        {
+                            DialogResult w = MessageBox.Show("Passwords do not match. Please try again.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            if (w == DialogResult.OK)
+                            {
+                                txtPassword.Clear();
+                                txtConfirmP.Clear();
+                            }
+                            break;
+                        }
                     }
                 }
-            }
+            }                
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);

@@ -33,7 +33,6 @@ namespace MealPlannerDesktop
                 bs.DataSource = DataHandler.GetAllRecipes();
             }
 
-
             lblRecipeNameValue.DataBindings.Clear();
             lblRecipeNameValue.DataBindings.Add("Text", bs, "RecipeName");
             rtxtDescription.DataBindings.Clear();
@@ -260,9 +259,6 @@ namespace MealPlannerDesktop
                         }
                         CreateBindings(AllUse);
                     }
-
-
-
                 }
                 else
                 {

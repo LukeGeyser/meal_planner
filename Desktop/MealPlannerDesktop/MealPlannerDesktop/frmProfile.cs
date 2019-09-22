@@ -69,9 +69,7 @@ namespace MealPlannerDesktop
                             found = false;
                             count++;
                         }
-                    }
-
-                    
+                    }                    
                 }
 
                 mealplans = DataHandler.GetAllMealPlans();
@@ -107,44 +105,52 @@ namespace MealPlannerDesktop
         {
             try
             {
-                User NUser = SecurityService.EncryptNewPassword(new User(frmSignIn.SuccessfulLogin.Username
+                if (string.IsNullOrEmpty(txtName.Text) || (string.IsNullOrEmpty(txtSurname.Text) || string.IsNullOrEmpty(txtWeight.Text) || string.IsNullOrEmpty(txtHeight.Text) ||
+                   string.IsNullOrEmpty(txtPassword.Text) || string.IsNullOrEmpty(txtConfirmP.Text) || string.IsNullOrEmpty(txtName.Text) || string.IsNullOrEmpty(txtPhone.Text) ||
+                   string.IsNullOrEmpty(txtEmail.Text)))
+                {
+                    MessageBox.Show("Please make sure all details are entered.", "Missing Information", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else
+                {
+                    User NUser = SecurityService.EncryptNewPassword(new User(frmSignIn.SuccessfulLogin.Username
                     , txtPassword.Text));
-                NUser.FirstName = txtName.Text;
-                NUser.LastName = txtSurname.Text;
-                NUser.Phone = txtPhone.Text;
+                    NUser.FirstName = txtName.Text;
+                    NUser.LastName = txtSurname.Text;
+                    NUser.Phone = txtPhone.Text;
 
-                if (IsValidEmail(txtEmail.Text))
-                {
-                    NUser.Email = txtEmail.Text;
-                }
-                else
-                {
-                    throw new Exception("Invalid email address entered.");
-                }
-
-                NUser.DOB = dtpDOB.Value;
-                NUser.Weight = double.Parse(txtWeight.Text);
-                NUser.Height = double.Parse(txtHeight.Text);
-
-                if (txtPassword.Text == txtConfirmP.Text)
-                {
-                    DataHandler.UpdateUserDetails(NUser);
-                    DataHandler.UpdateUserProgress(NUser.Username, double.Parse(txtWeight.Text));
-                    txtPassword.Clear();
-                    txtConfirmP.Clear();
-                    frmSignIn.SuccessfulLogin = NUser;
-                }
-                else
-                {
-                    DialogResult w = MessageBox.Show("Passwords do not match. Please try again.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    if (w == DialogResult.OK)
+                    if (IsValidEmail(txtEmail.Text))
                     {
+                        NUser.Email = txtEmail.Text;
+                    }
+                    else
+                    {
+                        throw new Exception("Invalid email address entered.");
+                    }
+
+                    NUser.DOB = dtpDOB.Value;
+                    NUser.Weight = double.Parse(txtWeight.Text);
+                    NUser.Height = double.Parse(txtHeight.Text);
+
+                    if (txtPassword.Text == txtConfirmP.Text)
+                    {
+                        DataHandler.UpdateUserDetails(NUser);
+                        DataHandler.UpdateUserProgress(NUser.Username, double.Parse(txtWeight.Text));
                         txtPassword.Clear();
                         txtConfirmP.Clear();
+                        frmSignIn.SuccessfulLogin = NUser;
                     }
-                }
+                    else
+                    {
+                        DialogResult w = MessageBox.Show("Passwords do not match. Please try again.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        if (w == DialogResult.OK)
+                        {
+                            txtPassword.Clear();
+                            txtConfirmP.Clear();
+                        }
+                    }
+                }                   
             }
-
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
