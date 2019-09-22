@@ -68,7 +68,7 @@ namespace MealPlannerDesktop
                 cmd.Parameters.AddWithValue("@Salt", newPerson.Salt);
 
                 cmd.ExecuteNonQuery();
-                MessageBox.Show("You are successfully signed up!", "Sign Up", MessageBoxButtons.OK
+                MessageBox.Show("You are successfully signed up! Please select your preferences on the next page.", "Sign Up", MessageBoxButtons.OK
                     , MessageBoxIcon.Information);
                 cmd.Dispose();
             }
@@ -503,7 +503,6 @@ namespace MealPlannerDesktop
                 cmd.Parameters.AddWithValue("@user", username);
                 cmd.Parameters.AddWithValue("@weight", weight);
                 cmd.ExecuteNonQuery();
-               // MessageBox.Show("Progress Successfully Updated.", "Apply Changes", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception error)
             {

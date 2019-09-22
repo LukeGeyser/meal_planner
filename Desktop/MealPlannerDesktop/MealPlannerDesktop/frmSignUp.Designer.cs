@@ -244,7 +244,7 @@
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.Size = new System.Drawing.Size(197, 43);
             this.btnCreate.TabIndex = 24;
-            this.btnCreate.Text = "Create Account";
+            this.btnCreate.Text = "Next Page";
             this.btnCreate.UseVisualStyleBackColor = false;
             this.btnCreate.Click += new System.EventHandler(this.btnCreate_Click);
             // 

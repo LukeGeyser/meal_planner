@@ -651,3 +651,4 @@ C:\Users\kalan\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlan
 C:\Users\kalan\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\MealPlannerDesktop.frmFindShops.resources
 C:\Users\kalan\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\XamlC.stamp
 C:\Users\kalan\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\MealPlannerDesktop.frmProgress.resources
+C:\Users\kalan\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\MealPlannerDesktop.frmPreferences.resources
