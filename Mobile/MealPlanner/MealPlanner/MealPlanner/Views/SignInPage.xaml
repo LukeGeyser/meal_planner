@@ -8,21 +8,12 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:vm="clr-namespace:MealPlanner.ViewModels"
     Title="{Binding Title}"
+    BackgroundColor="{DynamicResource BackGroundColor}"
     mc:Ignorable="d">
 
     <ContentPage.BindingContext>
         <vm:SignInViewModel />
     </ContentPage.BindingContext>
-
-    <ContentPage.Resources>
-        <ResourceDictionary>
-            <Color x:Key="Primary-Green">#669e2f</Color>
-            <Color x:Key="Accent">#669e2f</Color>
-            <Color x:Key="LightTextColor">#2d2d2d</Color>
-            <Color x:Key="OffWhiteTextColor">#143046</Color>
-            <Color x:Key="alert">#db5151</Color>
-        </ResourceDictionary>
-    </ContentPage.Resources>
 
     <ContentPage.Content>
         <StackLayout Padding="50,0,50,0" VerticalOptions="CenterAndExpand">
@@ -32,20 +23,20 @@
             <Label
                 FontSize="Medium"
                 Text="Username:"
-                TextColor="{StaticResource LightTextColor}" />
+                TextColor="{DynamicResource TextColor}" />
 
             <Entry
                 x:Name="Username"
                 FontSize="Medium"
                 Placeholder="Enter Your Username"
                 Text="Test"
-                TextColor="{StaticResource Primary-Green}"
+                TextColor="{DynamicResource Primary-Green}"
                 WidthRequest="20" />
 
             <Label
                 FontSize="Medium"
                 Text="Password:"
-                TextColor="{StaticResource LightTextColor}" />
+                TextColor="{DynamicResource TextColor}" />
 
             <Entry
                 x:Name="Password"
@@ -54,7 +45,7 @@
                 IsPassword="True"
                 Placeholder="Enter Your Password"
                 Text="12345"
-                TextColor="{StaticResource Primary-Green}"
+                TextColor="{DynamicResource Primary-Green}"
                 WidthRequest="20" />
 
             <Label
@@ -64,7 +55,7 @@
                 HorizontalTextAlignment="Center"
                 IsVisible="False"
                 Text="Username and Password are Incorrect!"
-                TextColor="{StaticResource alert}" />
+                TextColor="{DynamicResource alert}" />
 
 
 
@@ -76,34 +67,36 @@
                     x:Name="Sign_In"
                     Margin="0,15,0,0"
                     Padding="0,0,0,0"
-                    BackgroundColor="{StaticResource Primary-Green}"
+                    BackgroundColor="{DynamicResource Primary-Green}"
                     Clicked="Sign_In_Clicked"
                     CornerRadius="10"
                     FontSize="Medium"
                     HeightRequest="60"
                     Text="Sign In"
-                    TextColor="White"
+                    TextColor="{DynamicResource BtnHeaderText}"
                     WidthRequest="120" />
 
                 <Button
                     x:Name="Sign_Up"
                     Margin="10,15,0,0"
                     Padding="0,0,0,0"
-                    BackgroundColor="{StaticResource Primary-Green}"
+                    BackgroundColor="{DynamicResource Primary-Green}"
                     Clicked="Sign_Up_Clicked"
                     CornerRadius="10"
                     FontSize="Medium"
                     HeightRequest="60"
                     Text="Sign Up"
-                    TextColor="White"
+                    TextColor="{DynamicResource BtnHeaderText}"
                     WidthRequest="120" />
             </FlexLayout>
 
             <ffimageloading:SvgCachedImage
-                x:Name="imageWave"
+                x:Name="loadingPNG"
                 Margin="0"
                 HeightRequest="50"
                 HorizontalOptions="FillAndExpand"
+                IsVisible="False"
+                Opacity="0"
                 Source="loading.gif"
                 VerticalOptions="Center" />
 

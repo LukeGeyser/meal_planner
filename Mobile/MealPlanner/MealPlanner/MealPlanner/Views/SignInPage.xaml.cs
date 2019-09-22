@@ -38,7 +38,8 @@ namespace MealPlanner.Views
             {
                 Sign_In.IsEnabled = false;
                 Sign_Up.IsEnabled = false;
-                Error.IsVisible = true;
+                loadingPNG.IsVisible = true;
+                loadingPNG.FadeTo(100, 250, Easing.Linear);
             });
 
             Task.Run(async () =>

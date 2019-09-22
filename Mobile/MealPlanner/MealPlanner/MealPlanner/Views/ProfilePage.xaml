@@ -6,8 +6,8 @@
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:pages="clr-namespace:MealPlanner.Views"
-    BarBackgroundColor="#2d2d2d"
-    BarTextColor="#fafafa"
+    BarBackgroundColor="{DynamicResource BarBackGround}"
+    BarTextColor="{DynamicResource BarText}"
     mc:Ignorable="d">
     <!--  Pages can be added as references or inline  -->
 
@@ -16,29 +16,18 @@
     <!--  CLIENT DETAILS  -->
     <ContentPage Title="Details">
 
-        <ContentPage.Resources>
-            <ResourceDictionary>
-                <Color x:Key="Primary-Green">#669e2f</Color>
-                <Color x:Key="Accent">#669e2f</Color>
-                <Color x:Key="LightTextColor">#2d2d2d</Color>
-                <Color x:Key="OffWhiteTextColor">#ebebeb</Color>
-                <Color x:Key="alert">#db5151</Color>
-                <Color x:Key="dark-theme-grey">#2d2d2d</Color>
-            </ResourceDictionary>
-        </ContentPage.Resources>
-
         <ScrollView>
             <StackLayout Margin="5,5,5,5">
 
                 <!--  CLIENT DETAIL  -->
                 <Frame
                     Padding="0,2,0,2"
-                    BackgroundColor="{StaticResource Primary-Green}"
+                    BackgroundColor="{DynamicResource Primary-Green}"
                     CornerRadius="10">
                     <Label
                         FontSize="Title"
                         HorizontalOptions="Center"
-                        TextColor="{StaticResource OffWhiteTextColor}">
+                        TextColor="{DynamicResource BtnHeaderText}">
                         Client Details
                     </Label>
                 </Frame>
@@ -50,13 +39,13 @@
                             FontSize="Small"
                             HorizontalTextAlignment="Center"
                             Text="Fullname: "
-                            TextColor="{StaticResource LightTextColor}" />
+                            TextColor="{DynamicResource TextColor}" />
                         <Label
                             x:Name="FName"
                             FontSize="Small"
                             HorizontalTextAlignment="Center"
                             Text=""
-                            TextColor="{StaticResource Primary-Green}" />
+                            TextColor="{DynamicResource Primary-Green}" />
                     </StackLayout>
 
                     <StackLayout HorizontalOptions="Center" Orientation="Horizontal">
@@ -64,25 +53,25 @@
                             FontSize="Small"
                             HorizontalTextAlignment="Center"
                             Text="Username: "
-                            TextColor="{StaticResource LightTextColor}" />
+                            TextColor="{DynamicResource TextColor}" />
                         <Label
                             x:Name="UName"
                             FontSize="Small"
                             HorizontalTextAlignment="Center"
                             Text=""
-                            TextColor="{StaticResource Primary-Green}" />
+                            TextColor="{DynamicResource Primary-Green}" />
                     </StackLayout>
                 </StackLayout>
 
                 <!--  CHANGABLE DETAILS  -->
                 <Frame
                     Padding="0,2,0,2"
-                    BackgroundColor="{StaticResource Primary-Green}"
+                    BackgroundColor="{DynamicResource Primary-Green}"
                     CornerRadius="10">
                     <Label
                         FontSize="Large"
                         HorizontalOptions="Center"
-                        TextColor="{StaticResource OffWhiteTextColor}">
+                        TextColor="{DynamicResource BtnHeaderText}">
                         Changable Details
                     </Label>
                 </Frame>
@@ -93,7 +82,7 @@
                         Margin="0"
                         FontSize="Small"
                         Text="Email Address:"
-                        TextColor="{StaticResource LightTextColor}" />
+                        TextColor="{DynamicResource TextColor}" />
 
                     <!--  EMAIL ADDRESS  -->
                     <Entry
@@ -101,7 +90,7 @@
                         Margin="0,-10,0,0"
                         FontSize="Small"
                         Placeholder="Enter Your Email Address"
-                        TextColor="{StaticResource Primary-Green}"
+                        TextColor="{DynamicResource Primary-Green}"
                         WidthRequest="20" />
 
                     <!--  Phone Number  -->
@@ -109,7 +98,7 @@
                         Margin="0"
                         FontSize="Small"
                         Text="Phone Number:"
-                        TextColor="{StaticResource LightTextColor}" />
+                        TextColor="{DynamicResource TextColor}" />
 
                     <!--  Phone Number  -->
                     <Entry
@@ -117,28 +106,28 @@
                         Margin="0,-10,0,0"
                         FontSize="Small"
                         Placeholder="Enter Your Phone Number"
-                        TextColor="{StaticResource Primary-Green}"
+                        TextColor="{DynamicResource Primary-Green}"
                         WidthRequest="20" />
 
                     <!--  DATE OF BIRTH  -->
                     <Label
                         FontSize="Small"
                         Text="Date Of Birth:"
-                        TextColor="{StaticResource LightTextColor}" />
+                        TextColor="{DynamicResource TextColor}" />
 
                     <!--  DATE OF BIRTH  -->
                     <DatePicker
                         x:Name="DOB"
                         Margin="0,-10,0,0"
                         FontSize="Small"
-                        TextColor="{StaticResource Primary-Green}" />
+                        TextColor="{DynamicResource Primary-Green}" />
 
                     <FlexLayout>
                         <StackLayout WidthRequest="100">
                             <Label
                                 FontSize="Small"
                                 Text="Weight:"
-                                TextColor="{StaticResource LightTextColor}" />
+                                TextColor="{DynamicResource TextColor}" />
 
                             <!--  USERNAME  -->
                             <Entry
@@ -146,7 +135,7 @@
                                 Margin="0,-10,0,0"
                                 FontSize="Small"
                                 Placeholder="Enter Weight"
-                                TextColor="{StaticResource Primary-Green}"
+                                TextColor="{DynamicResource Primary-Green}"
                                 WidthRequest="20" />
                         </StackLayout>
 
@@ -154,7 +143,7 @@
                             <Label
                                 FontSize="Small"
                                 Text="Height:"
-                                TextColor="{StaticResource LightTextColor}" />
+                                TextColor="{DynamicResource TextColor}" />
 
                             <!--  USERNAME  -->
                             <Entry
@@ -162,7 +151,7 @@
                                 Margin="0,-10,0,0"
                                 FontSize="Small"
                                 Placeholder="Enter Height"
-                                TextColor="{StaticResource Primary-Green}"
+                                TextColor="{DynamicResource Primary-Green}"
                                 WidthRequest="20" />
                         </StackLayout>
                     </FlexLayout>
@@ -170,7 +159,7 @@
                     <Label
                         FontSize="Small"
                         Text="New Password:"
-                        TextColor="{StaticResource LightTextColor}" />
+                        TextColor="{DynamicResource TextColor}" />
 
                     <Entry
                         x:Name="Password"
@@ -178,20 +167,20 @@
                         FontSize="Small"
                         IsPassword="True"
                         Placeholder="Enter Your New Password"
-                        TextColor="{StaticResource Primary-Green}"
+                        TextColor="{DynamicResource Primary-Green}"
                         WidthRequest="20" />
 
                     <Button
                         x:Name="Save_Changes"
                         Margin="40,20,40,20"
                         Padding="0,0,0,0"
-                        BackgroundColor="{StaticResource Primary-Green}"
+                        BackgroundColor="{DynamicResource Primary-Green}"
                         Clicked="Save_Changes_Clicked"
                         CornerRadius="10"
                         FontSize="Medium"
                         HeightRequest="60"
                         Text="Save Changes"
-                        TextColor="White"
+                        TextColor="{DynamicResource BtnHeaderText}"
                         WidthRequest="50" />
                 </StackLayout>
             </StackLayout>

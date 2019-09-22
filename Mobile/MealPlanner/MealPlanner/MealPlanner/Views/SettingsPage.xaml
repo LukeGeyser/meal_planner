@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MealPlanner.Views.SettingsPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    BackgroundColor="{DynamicResource BackGroundColor}"
+    mc:Ignorable="d">
+
+    <ContentPage.Content>
+        <StackLayout Margin="5,0,5,10">
+            <Frame
+                Margin="0,0,0,10"
+                BackgroundColor="{DynamicResource Primary-Green}"
+                CornerRadius="10">
+
+                <Label
+                    FontAttributes="Bold"
+                    FontSize="32"
+                    HorizontalOptions="Center"
+                    HorizontalTextAlignment="Center"
+                    Text="Settings"
+                    TextColor="{DynamicResource BtnHeaderText}"
+                    VerticalTextAlignment="Center" />
+            </Frame>
+
+            <TableView BackgroundColor="{DynamicResource BackGroundColor}" Intent="Settings">
+                <TableRoot TextColor="{DynamicResource TextColor}">
+                    <TableSection Title="Theme Settings" TextColor="{DynamicResource TextColor}">
+                        <SwitchCell
+                            x:Name="DarkMode"
+                            OnChanged="DarkMode_OnChanged"
+                            Text="Dark Mode" />
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

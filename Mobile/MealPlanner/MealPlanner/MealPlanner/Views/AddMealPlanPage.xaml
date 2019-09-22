@@ -5,6 +5,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    BackgroundColor="{DynamicResource BackGroundColor}"
     mc:Ignorable="d">
 
     <ContentPage.Resources>
@@ -14,7 +15,7 @@
             <Color x:Key="LightTextColor">#2d2d2d</Color>
             <Color x:Key="OffWhiteTextColor">#ebebeb</Color>
             <Color x:Key="alert">#db5151</Color>
-            <Color x:Key="dark-theme-grey">#2d2d2d</Color>
+            <Color x:Key="LightThemeTextColor">#2d2d2d</Color>
         </ResourceDictionary>
     </ContentPage.Resources>
 
@@ -22,15 +23,15 @@
         <ScrollView>
             <StackLayout Padding="5,0,5,10">
 
-                <Frame BackgroundColor="{StaticResource Primary-Green}" CornerRadius="10">
+                <Frame BackgroundColor="{DynamicResource Primary-Green}" CornerRadius="10">
 
                     <Label
                         FontAttributes="Bold"
                         FontSize="32"
                         HorizontalOptions="Center"
                         HorizontalTextAlignment="Center"
-                        Text="Add Allergy Item"
-                        TextColor="{StaticResource OffWhiteTextColor}"
+                        Text="Add Meal Plan Item"
+                        TextColor="{DynamicResource BtnHeaderText}"
                         VerticalTextAlignment="Center" />
 
                 </Frame>
@@ -42,14 +43,14 @@
                         <Label
                             FontSize="Medium"
                             Text="Meal Plan Name:"
-                            TextColor="{StaticResource dark-theme-grey}"
+                            TextColor="{DynamicResource TextColor}"
                             VerticalOptions="Center" />
 
                         <Entry
                             x:Name="MealPlanName"
                             FontSize="Medium"
                             HorizontalOptions="FillAndExpand"
-                            TextColor="{StaticResource dark-theme-grey}"
+                            TextColor="{DynamicResource Primary-Green}"
                             VerticalOptions="Center" />
 
                     </StackLayout>
@@ -59,7 +60,7 @@
                         Margin="0,20,0,0"
                         FontSize="Medium"
                         Text="Meal Plan Description : "
-                        TextColor="{StaticResource dark-theme-grey}"
+                        TextColor="{DynamicResource TextColor}"
                         VerticalOptions="Center" />
 
                     <Editor
@@ -69,14 +70,14 @@
                         IsSpellCheckEnabled="True"
                         IsTextPredictionEnabled="True"
                         Placeholder="Description"
-                        TextColor="{StaticResource dark-theme-grey}" />
+                        TextColor="{DynamicResource Primary-Green}" />
 
                     <!--  ADVANTAGES  -->
                     <Label
                         Margin="0,20,0,0"
                         FontSize="Medium"
                         Text="Meal Plan Advantages : "
-                        TextColor="{StaticResource dark-theme-grey}"
+                        TextColor="{DynamicResource TextColor}"
                         VerticalOptions="Center" />
 
                     <Editor
@@ -86,14 +87,14 @@
                         IsSpellCheckEnabled="True"
                         IsTextPredictionEnabled="True"
                         Placeholder="Advantages"
-                        TextColor="{StaticResource dark-theme-grey}" />
+                        TextColor="{DynamicResource Primary-Green}" />
 
                     <!--  DISADVANTAGES  -->
                     <Label
                         Margin="0,20,0,0"
                         FontSize="Medium"
                         Text="Meal Plan Disadvantages : "
-                        TextColor="{StaticResource dark-theme-grey}"
+                        TextColor="{DynamicResource TextColor}"
                         VerticalOptions="Center" />
 
                     <Editor
@@ -103,12 +104,12 @@
                         IsSpellCheckEnabled="True"
                         IsTextPredictionEnabled="True"
                         Placeholder="Disadvantages"
-                        TextColor="{StaticResource dark-theme-grey}" />
+                        TextColor="{DynamicResource Primary-Green}" />
 
                     <Button
                         x:Name="AddMealPlan"
                         Margin="0,15,0,0"
-                        BackgroundColor="{StaticResource Primary-Green}"
+                        BackgroundColor="{DynamicResource Primary-Green}"
                         Clicked="AddMealPlan_Clicked"
                         CornerRadius="10"
                         FontAttributes="Bold"
@@ -116,7 +117,7 @@
                         HeightRequest="80"
                         HorizontalOptions="Center"
                         Text="Add Meal Plan"
-                        TextColor="{StaticResource OffWhiteTextColor}"
+                        TextColor="{DynamicResource BtnHeaderText}"
                         WidthRequest="160" />
 
                 </StackLayout>

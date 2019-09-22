@@ -5,6 +5,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    BackgroundColor="{DynamicResource BackGroundColor}"
     mc:Ignorable="d">
 
     <ContentPage.Resources>
@@ -31,34 +32,34 @@
                 FontSize="Large"
                 HorizontalOptions="Center"
                 Text="Personal Infomation"
-                TextColor="{StaticResource Primary-Green}" />
+                TextColor="{DynamicResource Primary-Green}" />
 
             <!--  FIRTNAME  -->
             <Label
                 FontSize="Medium"
                 Text="First Name:"
-                TextColor="{StaticResource LightTextColor}" />
+                TextColor="{DynamicResource TextColor}" />
 
             <!--  FIRTNAME  -->
             <Entry
                 x:Name="FName"
                 FontSize="Medium"
                 Placeholder="Enter Your First Name"
-                TextColor="{StaticResource Primary-Green}"
+                TextColor="{DynamicResource Primary-Green}"
                 WidthRequest="20" />
 
             <!--  SURNAME  -->
             <Label
                 FontSize="Medium"
                 Text="Last Name:"
-                TextColor="{StaticResource LightTextColor}" />
+                TextColor="{DynamicResource TextColor}" />
 
             <!--  SURNAME  -->
             <Entry
                 x:Name="LName"
                 FontSize="Medium"
                 Placeholder="Enter Your Last Name"
-                TextColor="{StaticResource Primary-Green}"
+                TextColor="{DynamicResource Primary-Green}"
                 WidthRequest="20" />
 
 
@@ -66,28 +67,28 @@
             <Label
                 FontSize="Medium"
                 Text="Email Address:"
-                TextColor="{StaticResource LightTextColor}" />
+                TextColor="{DynamicResource TextColor}" />
 
             <!--  EMAIL ADDRESS  -->
             <Entry
                 x:Name="Email"
                 FontSize="Medium"
                 Placeholder="Enter Your Email Address"
-                TextColor="{StaticResource Primary-Green}"
+                TextColor="{DynamicResource Primary-Green}"
                 WidthRequest="20" />
 
             <!--  Phone Number  -->
             <Label
                 FontSize="Medium"
                 Text="Phone Number:"
-                TextColor="{StaticResource LightTextColor}" />
+                TextColor="{DynamicResource TextColor}" />
 
             <!--  Phone Number  -->
             <Entry
                 x:Name="Phone"
                 FontSize="Medium"
                 Placeholder="Enter Your Phone Number"
-                TextColor="{StaticResource Primary-Green}"
+                TextColor="{DynamicResource Primary-Green}"
                 WidthRequest="20" />
 
             <FlexLayout
@@ -99,26 +100,26 @@
                     x:Name="Back"
                     Margin="0,5,0,0"
                     Padding="0,0,0,0"
-                    BackgroundColor="{StaticResource Primary-Green}"
+                    BackgroundColor="{DynamicResource Primary-Green}"
                     Clicked="Back_Clicked"
                     CornerRadius="10"
                     FontSize="Medium"
                     HeightRequest="60"
                     Text="Back"
-                    TextColor="White"
+                    TextColor="{DynamicResource BtnHeaderText}"
                     WidthRequest="120" />
 
                 <Button
                     x:Name="Next"
                     Margin="10,5,0,0"
                     Padding="0,0,0,0"
-                    BackgroundColor="{StaticResource Primary-Green}"
+                    BackgroundColor="{DynamicResource Primary-Green}"
                     Clicked="Next_Clicked"
                     CornerRadius="10"
                     FontSize="Medium"
                     HeightRequest="60"
                     Text="Next"
-                    TextColor="White"
+                    TextColor="{DynamicResource BtnHeaderText}"
                     WidthRequest="120" />
             </FlexLayout>
 

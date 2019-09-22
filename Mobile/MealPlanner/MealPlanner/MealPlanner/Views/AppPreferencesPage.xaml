@@ -9,18 +9,9 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:vm="clr-namespace:MealPlanner.Models"
     Title="App Preferences"
+    BackgroundColor="{DynamicResource BackGroundColor}"
     mc:Ignorable="d">
 
-    <ContentPage.Resources>
-        <ResourceDictionary>
-            <Color x:Key="Primary-Green">#669e2f</Color>
-            <Color x:Key="Accent">#669e2f</Color>
-            <Color x:Key="LightTextColor">#2d2d2d</Color>
-            <Color x:Key="OffWhiteTextColor">#ebebeb</Color>
-            <Color x:Key="alert">#db5151</Color>
-            <Color x:Key="dark-theme-grey">#2d2d2d</Color>
-        </ResourceDictionary>
-    </ContentPage.Resources>
 
     <ContentPage.Content>
         <StackLayout Margin="5,5,5,5">
@@ -28,12 +19,12 @@
             <!--  ALERGIES  -->
             <Frame
                 Padding="0,2,0,2"
-                BackgroundColor="{StaticResource Primary-Green}"
+                BackgroundColor="{DynamicResource Primary-Green}"
                 CornerRadius="10">
                 <Label
                     FontSize="Title"
                     HorizontalOptions="Center"
-                    TextColor="{StaticResource OffWhiteTextColor}">
+                    TextColor="{DynamicResource BtnHeaderText}">
                     Please Select Your Allergies
                 </Label>
             </Frame>
@@ -54,7 +45,7 @@
                     Grid.Row="0"
                     Grid.Column="0"
                     Padding="1"
-                    BorderColor="{StaticResource dark-theme-grey}"
+                    BorderColor="{DynamicResource BorderColor}"
                     CornerRadius="10"
                     IsClippedToBounds="True">
                     <ListView
@@ -62,10 +53,11 @@
                         Grid.Row="0"
                         Grid.Column="0"
                         x:FieldModifier="public"
+                        BackgroundColor="{DynamicResource List-BackGroundColor}"
                         ItemSelected="AllergiesList_ItemSelected"
                         ItemsSource="{Binding Alergies}"
                         RowHeight="50"
-                        SeparatorColor="{StaticResource Primary-Green}">
+                        SeparatorColor="{DynamicResource Primary-Green}">
 
                         <ListView.ItemTemplate>
                             <DataTemplate>
@@ -81,6 +73,7 @@
                                             FontAttributes="Bold"
                                             FontSize="Small"
                                             Text="{Binding Name}"
+                                            TextColor="{DynamicResource TextColor}"
                                             VerticalOptions="Center"
                                             VerticalTextAlignment="Center" />
                                     </Grid>
@@ -109,7 +102,7 @@
                     Grid.Row="1"
                     Grid.Column="1"
                     Padding="0"
-                    BackgroundColor="{StaticResource Primary-Green}"
+                    BackgroundColor="{DynamicResource Primary-Green}"
                     Clicked="AddAllergy_Clicked"
                     CornerRadius="10"
                     FontAttributes="Bold"
@@ -117,7 +110,7 @@
                     HeightRequest="40"
                     HorizontalOptions="Center"
                     Text="+"
-                    TextColor="{StaticResource OffWhiteTextColor}"
+                    TextColor="{DynamicResource BtnHeaderText}"
                     VerticalOptions="End"
                     WidthRequest="100" />
 
@@ -126,12 +119,12 @@
             <!--  MEAL PLANS  -->
             <Frame
                 Padding="0,2,0,2"
-                BackgroundColor="{StaticResource Primary-Green}"
+                BackgroundColor="{DynamicResource Primary-Green}"
                 CornerRadius="10">
                 <Label
                     FontSize="Title"
                     HorizontalOptions="Center"
-                    TextColor="{StaticResource OffWhiteTextColor}">
+                    TextColor="{DynamicResource BtnHeaderText}">
                     Please Select Your Meal Plan
                 </Label>
             </Frame>
@@ -152,7 +145,7 @@
                     Grid.Row="0"
                     Grid.Column="0"
                     Padding="1"
-                    BorderColor="{StaticResource dark-theme-grey}"
+                    BorderColor="{DynamicResource BorderColor}"
                     CornerRadius="10"
                     IsClippedToBounds="True">
                     <ListView
@@ -160,10 +153,11 @@
                         Grid.Row="0"
                         Grid.Column="0"
                         x:FieldModifier="public"
+                        BackgroundColor="{DynamicResource List-BackGroundColor}"
                         ItemSelected="MealPlanList_ItemSelected"
                         ItemsSource="{Binding MealPlans}"
                         RowHeight="50"
-                        SeparatorColor="{StaticResource Primary-Green}">
+                        SeparatorColor="{DynamicResource Primary-Green}">
 
                         <ListView.ItemTemplate>
                             <DataTemplate>
@@ -179,6 +173,7 @@
                                             FontAttributes="Bold"
                                             FontSize="Small"
                                             Text="{Binding Name}"
+                                            TextColor="{DynamicResource TextColor}"
                                             VerticalOptions="Center"
                                             VerticalTextAlignment="Center" />
                                     </Grid>
@@ -248,28 +243,28 @@
                     <Button
                         x:Name="AddMealPlan"
                         Padding="0"
-                        BackgroundColor="{StaticResource Primary-Green}"
+                        BackgroundColor="{DynamicResource Primary-Green}"
                         Clicked="AddMealPlan_Clicked"
                         CornerRadius="10"
                         FontAttributes="Bold"
                         FontSize="Small"
                         HeightRequest="40"
                         Text="+"
-                        TextColor="{StaticResource OffWhiteTextColor}"
+                        TextColor="{DynamicResource BtnHeaderText}"
                         VerticalOptions="End"
                         WidthRequest="100" />
 
                     <Button
                         x:Name="Save"
                         Padding="0"
-                        BackgroundColor="{StaticResource Primary-Green}"
+                        BackgroundColor="{DynamicResource Primary-Green}"
                         Clicked="Save_Clicked"
                         CornerRadius="10"
                         FontAttributes="Bold"
                         FontSize="Small"
                         HeightRequest="40"
                         Text="Save"
-                        TextColor="{StaticResource OffWhiteTextColor}"
+                        TextColor="{DynamicResource BtnHeaderText}"
                         VerticalOptions="End"
                         WidthRequest="100" />
                 </StackLayout>

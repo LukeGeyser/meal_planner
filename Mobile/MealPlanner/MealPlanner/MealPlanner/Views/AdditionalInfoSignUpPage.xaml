@@ -5,6 +5,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    BackgroundColor="{DynamicResource ebebeb}"
     mc:Ignorable="d">
     <ContentPage.Resources>
         <ResourceDictionary>
@@ -31,39 +32,39 @@
                     FontSize="Large"
                     HorizontalOptions="Center"
                     Text="Additional Infomation"
-                    TextColor="{StaticResource Primary-Green}" />
+                    TextColor="{DynamicResource Primary-Green}" />
 
                 <!--  DATE OF BIRTH  -->
                 <Label
                     FontSize="Medium"
                     Text="Date Of Birth:"
-                    TextColor="{StaticResource LightTextColor}" />
+                    TextColor="{DynamicResource TextColor}" />
 
                 <!--  DATE OF BIRTH  -->
                 <DatePicker
                     x:Name="DOB"
                     FontSize="Medium"
-                    TextColor="{StaticResource Primary-Green}" />
+                    TextColor="{DynamicResource Primary-Green}" />
 
                 <!--  USERNAME  -->
                 <Label
                     FontSize="Medium"
                     Text="Weight:"
-                    TextColor="{StaticResource LightTextColor}" />
+                    TextColor="{DynamicResource TextColor}" />
 
                 <!--  USERNAME  -->
                 <Entry
                     x:Name="Weight"
                     FontSize="Medium"
                     Placeholder="Enter Your Weight"
-                    TextColor="{StaticResource Primary-Green}"
+                    TextColor="{DynamicResource Primary-Green}"
                     WidthRequest="20" />
 
                 <!--  PASSWORD  -->
                 <Label
                     FontSize="Medium"
                     Text="Height:"
-                    TextColor="{StaticResource LightTextColor}" />
+                    TextColor="{DynamicResource TextColor}" />
 
                 <!--  PASSWORD  -->
                 <Entry
@@ -71,7 +72,7 @@
                     Margin="0,0,0,10"
                     FontSize="Medium"
                     Placeholder="Enter Your Height"
-                    TextColor="{StaticResource Primary-Green}"
+                    TextColor="{DynamicResource Primary-Green}"
                     WidthRequest="20" />
 
                 <FlexLayout
@@ -83,26 +84,26 @@
                         x:Name="Back"
                         Margin="0,5,0,0"
                         Padding="0,0,0,0"
-                        BackgroundColor="{StaticResource Primary-Green}"
+                        BackgroundColor="{DynamicResource Primary-Green}"
                         Clicked="Back_Clicked"
                         CornerRadius="10"
                         FontSize="Medium"
                         HeightRequest="60"
                         Text="Back"
-                        TextColor="White"
+                        TextColor="{DynamicResource BtnHeaderText}"
                         WidthRequest="120" />
 
                     <Button
                         x:Name="Finish"
                         Margin="10,5,0,0"
                         Padding="0,0,0,0"
-                        BackgroundColor="{StaticResource Primary-Green}"
+                        BackgroundColor="{DynamicResource Primary-Green}"
                         Clicked="Finish_Clicked"
                         CornerRadius="10"
                         FontSize="Medium"
                         HeightRequest="60"
                         Text="Finish"
-                        TextColor="White"
+                        TextColor="{DynamicResource BtnHeaderText}"
                         WidthRequest="120" />
                 </FlexLayout>
 

@@ -6,23 +6,13 @@
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:vm="clr-namespace:MealPlanner.ViewModels"
+    BackgroundColor="{DynamicResource BackGroundColor}"
     mc:Ignorable="d">
-
-    <ContentPage.Resources>
-        <ResourceDictionary>
-            <Color x:Key="Primary-Green">#669e2f</Color>
-            <Color x:Key="Accent">#669e2f</Color>
-            <Color x:Key="LightTextColor">#2d2d2d</Color>
-            <Color x:Key="OffWhiteTextColor">#ebebeb</Color>
-            <Color x:Key="alert">#db5151</Color>
-            <Color x:Key="dark-theme-grey">#2d2d2d</Color>
-        </ResourceDictionary>
-    </ContentPage.Resources>
 
     <ContentPage.Content>
         <StackLayout Margin="5,0,5,0">
 
-            <Frame BackgroundColor="{StaticResource Primary-Green}" CornerRadius="10">
+            <Frame BackgroundColor="{DynamicResource Primary-Green}" CornerRadius="10">
 
                 <Label
                     FontAttributes="Bold"
@@ -30,7 +20,7 @@
                     HorizontalOptions="Center"
                     HorizontalTextAlignment="Center"
                     Text="Store Locator"
-                    TextColor="{StaticResource OffWhiteTextColor}"
+                    TextColor="{DynamicResource BtnHeaderText}"
                     VerticalTextAlignment="Center" />
 
             </Frame>
@@ -39,7 +29,8 @@
                 x:Name="StorePicker"
                 Title="Select a Store"
                 FontSize="Medium"
-                SelectedIndexChanged="StorePicker_SelectedIndexChanged">
+                SelectedIndexChanged="StorePicker_SelectedIndexChanged"
+                TextColor="{DynamicResource TextColor}">
                 <Picker.Items>
                     <x:String>WoolWorths</x:String>
                     <x:String>Pick n Pay</x:String>
@@ -52,9 +43,12 @@
                 x:Name="NearYou"
                 FontAttributes="Bold"
                 FontSize="Large"
-                TextColor="{StaticResource Primary-Green}" />
+                TextColor="{DynamicResource Primary-Green}" />
 
-            <ListView ItemsSource="{Binding DisplayingList}" RowHeight="100">
+            <ListView
+                BackgroundColor="{DynamicResource List-BackGroundColor}"
+                ItemsSource="{Binding DisplayingList}"
+                RowHeight="100">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell Tapped="ViewCell_Tapped">
@@ -79,7 +73,7 @@
                                         FontAttributes="Bold"
                                         FontSize="Medium"
                                         Text="{Binding Name}"
-                                        TextColor="{StaticResource dark-theme-grey}"
+                                        TextColor="{DynamicResource TextColor}"
                                         VerticalTextAlignment="Center" />
 
                                     <Label

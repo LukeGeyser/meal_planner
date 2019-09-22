@@ -42,6 +42,10 @@
       "frameworks": {
         "monoandroid81": {
           "dependencies": {
+            "Xam.Plugins.Settings": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "Xamarin.Android.Support.Core.Utils": {
               "target": "Package",
               "version": "[28.0.0.3, )"
@@ -146,6 +150,10 @@
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.6.1, )"
+            },
+            "Xam.Plugins.Settings": {
+              "target": "Package",
+              "version": "[3.1.1, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

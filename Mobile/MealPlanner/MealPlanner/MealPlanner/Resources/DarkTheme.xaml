@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary
+    x:Class="MealPlanner.Resources.DarkTheme"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Color x:Key="Primary-Green">#669e2f</Color>
+    <Color x:Key="Accent">#669e2f</Color>
+    <Color x:Key="BackGroundColor">#404040</Color>
+    <Color x:Key="List-BackGroundColor">#636363</Color>
+    <Color x:Key="BorderColor">#fafafa</Color>
+    <Color x:Key="alert">#db5151</Color>
+    <Color x:Key="TextColor">#fafafa</Color>
+    <Color x:Key="ImageBackColor">#2d2d2d</Color>
+    <Color x:Key="BarBackGround">#2d2d2d</Color>
+    <Color x:Key="BarText">#ebebeb</Color>
+    <Color x:Key="BtnHeaderText">#ebebeb</Color>
+
+    <Color x:Key="NavigationPrimary">#669e2f</Color>
+    <Style TargetType="NavigationPage">
+        <Setter Property="BarBackgroundColor" Value="{DynamicResource NavigationPrimary}" />
+        <Setter Property="BarTextColor" Value="White" />
+    </Style>
+
+</ResourceDictionary>

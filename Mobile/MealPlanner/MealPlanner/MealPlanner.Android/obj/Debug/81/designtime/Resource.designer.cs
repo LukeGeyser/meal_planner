@@ -5133,28 +5133,31 @@ namespace MealPlanner.Droid
 			public const int profile = 2131165496;
 			
 			// aapt resource value: 0x7F070139
-			public const int spa = 2131165497;
+			public const int settings = 2131165497;
 			
 			// aapt resource value: 0x7F07013A
-			public const int tooltip_frame_dark = 2131165498;
+			public const int spa = 2131165498;
 			
 			// aapt resource value: 0x7F07013B
-			public const int tooltip_frame_light = 2131165499;
+			public const int tooltip_frame_dark = 2131165499;
 			
 			// aapt resource value: 0x7F07013C
-			public const int veg = 2131165500;
+			public const int tooltip_frame_light = 2131165500;
 			
 			// aapt resource value: 0x7F07013D
-			public const int weightGain = 2131165501;
+			public const int veg = 2131165501;
 			
 			// aapt resource value: 0x7F07013E
-			public const int weightLoss = 2131165502;
+			public const int weightGain = 2131165502;
 			
 			// aapt resource value: 0x7F07013F
-			public const int woolworths = 2131165503;
+			public const int weightLoss = 2131165503;
 			
 			// aapt resource value: 0x7F070140
-			public const int xamarin_logo = 2131165504;
+			public const int woolworths = 2131165504;
+			
+			// aapt resource value: 0x7F070141
+			public const int xamarin_logo = 2131165505;
 			
 			static Drawable()
 			{

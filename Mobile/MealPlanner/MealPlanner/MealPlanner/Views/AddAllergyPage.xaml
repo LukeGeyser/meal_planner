@@ -5,23 +5,13 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    BackgroundColor="{DynamicResource BackGroundColor}"
     mc:Ignorable="d">
-
-    <ContentPage.Resources>
-        <ResourceDictionary>
-            <Color x:Key="Primary-Green">#669e2f</Color>
-            <Color x:Key="Accent">#669e2f</Color>
-            <Color x:Key="LightTextColor">#2d2d2d</Color>
-            <Color x:Key="OffWhiteTextColor">#ebebeb</Color>
-            <Color x:Key="alert">#db5151</Color>
-            <Color x:Key="dark-theme-grey">#2d2d2d</Color>
-        </ResourceDictionary>
-    </ContentPage.Resources>
 
     <ContentPage.Content>
         <StackLayout Padding="5,0,5,0">
 
-            <Frame BackgroundColor="{StaticResource Primary-Green}" CornerRadius="10">
+            <Frame BackgroundColor="{DynamicResource Primary-Green}" CornerRadius="10">
 
                 <Label
                     FontAttributes="Bold"
@@ -29,7 +19,7 @@
                     HorizontalOptions="Center"
                     HorizontalTextAlignment="Center"
                     Text="Add Allergy Item"
-                    TextColor="{StaticResource OffWhiteTextColor}"
+                    TextColor="{DynamicResource BtnHeaderText}"
                     VerticalTextAlignment="Center" />
 
             </Frame>
@@ -41,14 +31,14 @@
                     <Label
                         FontSize="Medium"
                         Text="Allergy Name:"
-                        TextColor="{StaticResource dark-theme-grey}"
+                        TextColor="{DynamicResource TextColor}"
                         VerticalOptions="Center" />
 
                     <Entry
                         x:Name="AllergyName"
                         FontSize="Medium"
                         HorizontalOptions="FillAndExpand"
-                        TextColor="{StaticResource dark-theme-grey}"
+                        TextColor="{DynamicResource TextColor}"
                         VerticalOptions="Center" />
 
                 </StackLayout>
@@ -57,7 +47,7 @@
                     Margin="0,20,0,0"
                     FontSize="Medium"
                     Text="Allergy Description : "
-                    TextColor="{StaticResource dark-theme-grey}"
+                    TextColor="{DynamicResource TextColor}"
                     VerticalOptions="Center" />
 
                 <Editor
@@ -67,12 +57,12 @@
                     IsSpellCheckEnabled="True"
                     IsTextPredictionEnabled="True"
                     Placeholder="Description"
-                    TextColor="{StaticResource dark-theme-grey}" />
+                    TextColor="{DynamicResource TextColor}" />
 
                 <Button
                     x:Name="AddAllergy"
                     Margin="0,15,0,0"
-                    BackgroundColor="{StaticResource Primary-Green}"
+                    BackgroundColor="{DynamicResource Primary-Green}"
                     Clicked="AddAllergy_Clicked"
                     CornerRadius="10"
                     FontAttributes="Bold"
@@ -80,7 +70,7 @@
                     HeightRequest="80"
                     HorizontalOptions="Center"
                     Text="Add Allergy"
-                    TextColor="{StaticResource OffWhiteTextColor}"
+                    TextColor="{DynamicResource BtnHeaderText}"
                     WidthRequest="160" />
 
             </StackLayout>
