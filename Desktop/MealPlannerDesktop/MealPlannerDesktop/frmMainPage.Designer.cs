@@ -107,6 +107,7 @@
             this.PricetoolStripMenuItem2.Name = "PricetoolStripMenuItem2";
             this.PricetoolStripMenuItem2.Size = new System.Drawing.Size(123, 27);
             this.PricetoolStripMenuItem2.Text = "Price Check";
+            this.PricetoolStripMenuItem2.Click += new System.EventHandler(this.PricetoolStripMenuItem2_Click);
             // 
             // browseShopsMenuItem
             // 

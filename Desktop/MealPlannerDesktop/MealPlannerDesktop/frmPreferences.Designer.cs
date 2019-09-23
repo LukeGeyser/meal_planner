@@ -232,7 +232,10 @@
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmPreferences";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "App Preferences";
             this.Load += new System.EventHandler(this.frmPreferences_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();

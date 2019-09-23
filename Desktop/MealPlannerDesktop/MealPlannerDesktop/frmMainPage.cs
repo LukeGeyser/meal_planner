@@ -139,5 +139,19 @@ namespace MealPlannerDesktop
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void PricetoolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                frmProducts pds = new frmProducts();
+                pds.Show();
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }

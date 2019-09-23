@@ -514,5 +514,66 @@ namespace MealPlannerDesktop
                 conn.Close();
             }
         }
+
+        public static List<Products> GetAllProducts()
+        {
+            List<Products> products = new List<Products>();
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT * FROM tblProducts", conn);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    products.Add(new Products(Convert.ToInt32(reader["ProductID"])
+                        , reader["ProductName"].ToString(), reader["Category"].ToString()
+                        , reader["Description"].ToString(), reader["NutritionalValue"].ToString()
+                        , reader["ProductImage"].ToString()));
+                }
+                cmd.Dispose();
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message, "Database error occurred", MessageBoxButtons.OK
+                    , MessageBoxIcon.Error);
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return products;
+        }
+
+        public static List<ShopsPrices> GetPriceComparison(int ProductID)
+        {
+            List<ShopsPrices> prices = new List<ShopsPrices>();
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT tblShops.ShopName, tblShopProducts.Price" +
+                    " FROM tblShops INNER JOIN(tblShopProducts INNER JOIN tblProducts" +
+                    " ON tblShopProducts.ProductID = tblProducts.ProductID) ON" +
+                    " tblShops.ShopID = tblShopProducts.ShopID WHERE tblProducts.ProductID = @ID", conn);
+                cmd.Parameters.AddWithValue("@ID", ProductID);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    prices.Add(new ShopsPrices(reader["ShopName"].ToString()
+                        , Convert.ToDouble(reader["Price"])));
+                }
+                cmd.Dispose();
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message, "Database error occurred", MessageBoxButtons.OK
+                    , MessageBoxIcon.Error);
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return prices;
+        }
+
     }
 }

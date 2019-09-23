@@ -316,6 +316,12 @@
     <Compile Include="frmPreferences.Designer.cs">
       <DependentUpon>frmPreferences.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProducts.Designer.cs">
+      <DependentUpon>frmProducts.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmProfile.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -354,6 +360,7 @@
     <Compile Include="SecurityService.cs" />
     <Compile Include="ShopProducts.cs" />
     <Compile Include="Shops.cs" />
+    <Compile Include="ShopsPrices.cs" />
     <Compile Include="StoreNearYou.cs" />
     <Compile Include="User.cs" />
     <Compile Include="UserAllergies.cs" />
@@ -378,6 +385,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmPreferences.resx">
       <DependentUpon>frmPreferences.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProducts.resx">
+      <DependentUpon>frmProducts.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmProfile.resx">
       <DependentUpon>frmProfile.cs</DependentUpon>

@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmProgress));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.pbLogo = new System.Windows.Forms.PictureBox();
             this.chProgress = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.lblWeight = new System.Windows.Forms.Label();
@@ -54,20 +54,20 @@
             // 
             // chProgress
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chProgress.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            this.chProgress.Legends.Add(legend2);
+            chartArea1.Name = "ChartArea1";
+            this.chProgress.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chProgress.Legends.Add(legend1);
             this.chProgress.Location = new System.Drawing.Point(12, 190);
             this.chProgress.Name = "chProgress";
             this.chProgress.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None;
             this.chProgress.PaletteCustomColors = new System.Drawing.Color[] {
         System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(183)))), ((int)(((byte)(43)))))};
-            series2.ChartArea = "ChartArea1";
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.chProgress.Series.Add(series2);
-            this.chProgress.Size = new System.Drawing.Size(910, 287);
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chProgress.Series.Add(series1);
+            this.chProgress.Size = new System.Drawing.Size(901, 287);
             this.chProgress.TabIndex = 11;
             this.chProgress.Text = "chart1";
             // 
@@ -109,6 +109,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmProgress";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Track Progress";
             this.Load += new System.EventHandler(this.frmProgress_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
