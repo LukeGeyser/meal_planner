@@ -242,6 +242,7 @@
             this.btnShopAvailability.TabIndex = 57;
             this.btnShopAvailability.Text = "View Stores in your Area";
             this.btnShopAvailability.UseVisualStyleBackColor = false;
+            this.btnShopAvailability.Click += new System.EventHandler(this.BtnShopAvailability_Click);
             // 
             // lstPrices
             // 

@@ -79,7 +79,18 @@ namespace MealPlannerDesktop
             catch (Exception) { }
         }
 
-
-
+        private void BtnShopAvailability_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                frmFindShops shops = new frmFindShops();
+                shops.Show();
+                this.Close();
+            }
+            catch (Exception err)
+            {
+                MessageBox.Show(err.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }

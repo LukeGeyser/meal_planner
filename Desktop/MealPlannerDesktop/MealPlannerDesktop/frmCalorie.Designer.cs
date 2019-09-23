@@ -38,6 +38,7 @@
             this.nudMeal = new System.Windows.Forms.NumericUpDown();
             this.btnBack = new System.Windows.Forms.Button();
             this.pbLogo = new System.Windows.Forms.PictureBox();
+            this.lblDescribe = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.nudMeal)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             this.SuspendLayout();
@@ -56,7 +57,7 @@
             // 
             this.lblCalMeal.AutoSize = true;
             this.lblCalMeal.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCalMeal.Location = new System.Drawing.Point(22, 315);
+            this.lblCalMeal.Location = new System.Drawing.Point(22, 344);
             this.lblCalMeal.Name = "lblCalMeal";
             this.lblCalMeal.Size = new System.Drawing.Size(152, 21);
             this.lblCalMeal.TabIndex = 1;
@@ -67,7 +68,7 @@
             this.btnCalc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(183)))), ((int)(((byte)(43)))));
             this.btnCalc.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCalc.ForeColor = System.Drawing.Color.White;
-            this.btnCalc.Location = new System.Drawing.Point(126, 249);
+            this.btnCalc.Location = new System.Drawing.Point(117, 277);
             this.btnCalc.Name = "btnCalc";
             this.btnCalc.Size = new System.Drawing.Size(137, 45);
             this.btnCalc.TabIndex = 2;
@@ -86,8 +87,9 @@
             // txtCalMeal
             // 
             this.txtCalMeal.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCalMeal.Location = new System.Drawing.Point(274, 312);
+            this.txtCalMeal.Location = new System.Drawing.Point(274, 341);
             this.txtCalMeal.Name = "txtCalMeal";
+            this.txtCalMeal.ReadOnly = true;
             this.txtCalMeal.Size = new System.Drawing.Size(71, 29);
             this.txtCalMeal.TabIndex = 4;
             // 
@@ -95,7 +97,7 @@
             // 
             this.lblMeal.AutoSize = true;
             this.lblMeal.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeal.Location = new System.Drawing.Point(22, 200);
+            this.lblMeal.Location = new System.Drawing.Point(22, 229);
             this.lblMeal.Name = "lblMeal";
             this.lblMeal.Size = new System.Drawing.Size(211, 21);
             this.lblMeal.TabIndex = 5;
@@ -104,7 +106,7 @@
             // nudMeal
             // 
             this.nudMeal.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudMeal.Location = new System.Drawing.Point(274, 198);
+            this.nudMeal.Location = new System.Drawing.Point(274, 227);
             this.nudMeal.Name = "nudMeal";
             this.nudMeal.Size = new System.Drawing.Size(71, 29);
             this.nudMeal.TabIndex = 6;
@@ -114,7 +116,7 @@
             this.btnBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(183)))), ((int)(((byte)(43)))));
             this.btnBack.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBack.ForeColor = System.Drawing.Color.White;
-            this.btnBack.Location = new System.Drawing.Point(126, 359);
+            this.btnBack.Location = new System.Drawing.Point(117, 384);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(137, 45);
             this.btnBack.TabIndex = 7;
@@ -134,12 +136,23 @@
             this.pbLogo.TabIndex = 8;
             this.pbLogo.TabStop = false;
             // 
+            // lblDescribe
+            // 
+            this.lblDescribe.ForeColor = System.Drawing.Color.Green;
+            this.lblDescribe.Location = new System.Drawing.Point(55, 172);
+            this.lblDescribe.Name = "lblDescribe";
+            this.lblDescribe.Size = new System.Drawing.Size(250, 35);
+            this.lblDescribe.TabIndex = 9;
+            this.lblDescribe.Text = "Daily Calorie need is calculated based on your Height, Weight and Age";
+            this.lblDescribe.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
             // frmCalorie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(378, 416);
+            this.ClientSize = new System.Drawing.Size(378, 450);
+            this.Controls.Add(this.lblDescribe);
             this.Controls.Add(this.pbLogo);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.nudMeal);
@@ -175,5 +188,6 @@
         private System.Windows.Forms.NumericUpDown nudMeal;
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.PictureBox pbLogo;
+        private System.Windows.Forms.Label lblDescribe;
     }
 }
