@@ -296,7 +296,18 @@ namespace MealPlannerDesktop
 
         private void BtnProducts_Click(object sender, EventArgs e)
         {
-
+            try
+            {
+                var current = (Recipes)bs.Current;
+                frmProducts.filter = current.RecipeName;
+                frmProducts pds = new frmProducts();
+                pds.Show();
+                this.Close();
+            }
+            catch (Exception err)
+            {
+                MessageBox.Show(err.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

@@ -575,5 +575,35 @@ namespace MealPlannerDesktop
             return prices;
         }
 
+        public static List<RecipeProducts> GetRecipeProducts(int recipeID)
+        {
+            List<RecipeProducts> products = new List<RecipeProducts>();
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT tblRecipes.RecipeID,tblRecipeProducts.ProductID" +
+                    " FROM tblRecipes INNER JOIN tblRecipeProducts ON tblRecipes.RecipeID ="
+                    + " tblRecipeProducts.RecipeID WHERE tblRecipeProducts.RecipeID = @ID", conn);
+                cmd.Parameters.AddWithValue("@ID", recipeID);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    products.Add(new RecipeProducts(Convert.ToInt32(reader["RecipeID"])
+                        , Convert.ToInt32(reader["ProductID"])));
+                }
+                cmd.Dispose();
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message, "Database error occurred", MessageBoxButtons.OK
+                    , MessageBoxIcon.Error);
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return products;
+        }
+
     }
 }
