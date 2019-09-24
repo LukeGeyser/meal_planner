@@ -36,6 +36,9 @@
             this.chProgress = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.lblWeight = new System.Windows.Forms.Label();
             this.btnBack = new System.Windows.Forms.Button();
+            this.lblTodayWeight = new System.Windows.Forms.Label();
+            this.txtWeight = new System.Windows.Forms.TextBox();
+            this.btnSubmit = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chProgress)).BeginInit();
             this.SuspendLayout();
@@ -45,9 +48,9 @@
             this.pbLogo.BackColor = System.Drawing.Color.White;
             this.pbLogo.Image = ((System.Drawing.Image)(resources.GetObject("pbLogo.Image")));
             this.pbLogo.InitialImage = null;
-            this.pbLogo.Location = new System.Drawing.Point(12, 12);
+            this.pbLogo.Location = new System.Drawing.Point(54, 12);
             this.pbLogo.Name = "pbLogo";
-            this.pbLogo.Size = new System.Drawing.Size(776, 127);
+            this.pbLogo.Size = new System.Drawing.Size(175, 127);
             this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbLogo.TabIndex = 10;
             this.pbLogo.TabStop = false;
@@ -67,7 +70,7 @@
             series1.Legend = "Legend1";
             series1.Name = "Series1";
             this.chProgress.Series.Add(series1);
-            this.chProgress.Size = new System.Drawing.Size(901, 287);
+            this.chProgress.Size = new System.Drawing.Size(878, 287);
             this.chProgress.TabIndex = 11;
             this.chProgress.Text = "chart1";
             // 
@@ -75,7 +78,7 @@
             // 
             this.lblWeight.AutoSize = true;
             this.lblWeight.Font = new System.Drawing.Font("Times New Roman", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWeight.Location = new System.Drawing.Point(12, 142);
+            this.lblWeight.Location = new System.Drawing.Point(34, 151);
             this.lblWeight.Name = "lblWeight";
             this.lblWeight.Size = new System.Drawing.Size(228, 36);
             this.lblWeight.TabIndex = 12;
@@ -86,7 +89,7 @@
             this.btnBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(183)))), ((int)(((byte)(43)))));
             this.btnBack.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBack.ForeColor = System.Drawing.Color.White;
-            this.btnBack.Location = new System.Drawing.Point(320, 483);
+            this.btnBack.Location = new System.Drawing.Point(603, 475);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(140, 60);
             this.btnBack.TabIndex = 13;
@@ -94,12 +97,46 @@
             this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
+            // lblTodayWeight
+            // 
+            this.lblTodayWeight.AutoSize = true;
+            this.lblTodayWeight.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTodayWeight.Location = new System.Drawing.Point(299, 24);
+            this.lblTodayWeight.Name = "lblTodayWeight";
+            this.lblTodayWeight.Size = new System.Drawing.Size(214, 27);
+            this.lblTodayWeight.TabIndex = 14;
+            this.lblTodayWeight.Text = "Enter today\'s weight:";
+            // 
+            // txtWeight
+            // 
+            this.txtWeight.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtWeight.Location = new System.Drawing.Point(304, 54);
+            this.txtWeight.Name = "txtWeight";
+            this.txtWeight.Size = new System.Drawing.Size(201, 32);
+            this.txtWeight.TabIndex = 15;
+            // 
+            // btnSubmit
+            // 
+            this.btnSubmit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(183)))), ((int)(((byte)(43)))));
+            this.btnSubmit.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSubmit.ForeColor = System.Drawing.Color.White;
+            this.btnSubmit.Location = new System.Drawing.Point(335, 92);
+            this.btnSubmit.Name = "btnSubmit";
+            this.btnSubmit.Size = new System.Drawing.Size(140, 39);
+            this.btnSubmit.TabIndex = 16;
+            this.btnSubmit.Text = "Submit";
+            this.btnSubmit.UseVisualStyleBackColor = false;
+            this.btnSubmit.Click += new System.EventHandler(this.BtnSubmit_Click);
+            // 
             // frmProgress
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(800, 547);
+            this.ClientSize = new System.Drawing.Size(782, 547);
+            this.Controls.Add(this.btnSubmit);
+            this.Controls.Add(this.txtWeight);
+            this.Controls.Add(this.lblTodayWeight);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.lblWeight);
             this.Controls.Add(this.chProgress);
@@ -125,5 +162,8 @@
         private System.Windows.Forms.DataVisualization.Charting.Chart chProgress;
         private System.Windows.Forms.Label lblWeight;
         private System.Windows.Forms.Button btnBack;
+        private System.Windows.Forms.Label lblTodayWeight;
+        private System.Windows.Forms.TextBox txtWeight;
+        private System.Windows.Forms.Button btnSubmit;
     }
 }

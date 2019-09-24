@@ -499,9 +499,10 @@ namespace MealPlannerDesktop
             try
             {
                 conn.Open();
-                SqlCommand cmd = new SqlCommand("INSERT INTO tblProgress(Username, Weight) Values(@user, @weight)", conn);
+                SqlCommand cmd = new SqlCommand("INSERT INTO tblProgress(Username, Weight,Date) Values(@user, @weight,@date)", conn);
                 cmd.Parameters.AddWithValue("@user", username);
                 cmd.Parameters.AddWithValue("@weight", weight);
+                cmd.Parameters.AddWithValue("@date", DateTime.Now);
                 cmd.ExecuteNonQuery();
             }
             catch (Exception error)

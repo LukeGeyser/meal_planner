@@ -19,7 +19,7 @@ namespace MealPlannerDesktop
             InitializeComponent();
         }
 
-        private void frmProgress_Load(object sender, EventArgs e)
+        private void DisplayProgress()
         {
             try
             {
@@ -39,7 +39,7 @@ namespace MealPlannerDesktop
                         }
                     }
                     chProgress.DataSource = ds;
-                    chProgress.Series["Series1"].XValueMember = "Username";
+                    chProgress.Series["Series1"].XValueMember = "Date";
                     chProgress.Series["Series1"].YValueMembers = "Weight";
                     chProgress.Series["Series1"].ChartType = SeriesChartType.Line;
                     conn.Close();
@@ -58,14 +58,13 @@ namespace MealPlannerDesktop
             {
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            
         }
-        #region
-        private void button1_Click(object sender, EventArgs e)
+
+        private void frmProgress_Load(object sender, EventArgs e)
         {
-           
+            DisplayProgress();
+            btnSubmit.Enabled = true;
         }
-        #endregion
 
         private void btnBack_Click(object sender, EventArgs e)
         {
@@ -79,6 +78,27 @@ namespace MealPlannerDesktop
             {
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void BtnSubmit_Click(object sender, EventArgs e)
+        {
+            double weight = 0;
+            try
+            {
+                weight = Convert.ToDouble(txtWeight.Text);
+            }
+            catch(Exception)
+            {
+                MessageBox.Show("Please input a valid weight", "Error", MessageBoxButtons.OK
+                    , MessageBoxIcon.Error);
+            }
+
+            DataHandler.UpdateUserProgress(frmSignIn.SuccessfulLogin.Username, weight);
+            DisplayProgress();
+            txtWeight.Clear();
+            btnSubmit.Enabled = false;
+            MessageBox.Show("Progress Updated", "Submit Weight", MessageBoxButtons.OK
+                , MessageBoxIcon.Information);
         }
     }
 }
