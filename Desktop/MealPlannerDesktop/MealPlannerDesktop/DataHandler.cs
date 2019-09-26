@@ -117,6 +117,7 @@ namespace MealPlannerDesktop
             }
         }
 
+        //Return a list of all allergies saved in database
         public static List<Allergies> GetAllAllergies()
         {
             List<Allergies> allergies = new List<Allergies>();
@@ -145,6 +146,7 @@ namespace MealPlannerDesktop
 
         }
 
+        //Return a list of all allergies specified by the user in app preferences
         public static List<UserAllergies> GetSelectedAllergies(string username)
         {
             List<UserAllergies> chosen = new List<UserAllergies>();
@@ -174,6 +176,7 @@ namespace MealPlannerDesktop
             return chosen;
         }
 
+        //Return a list of all mealplans saved in database
         public static List<MealPlans> GetAllMealPlans()
         {
             List<MealPlans> plans = new List<MealPlans>();
@@ -202,6 +205,7 @@ namespace MealPlannerDesktop
             return plans;
         }
 
+        //Return a list of all mealplans specified by the user in app preferences
         public static List<UserMealPlan> GetSelectedMealPlans(string username)
         {
             List<UserMealPlan> plans = new List<UserMealPlan>();
@@ -231,6 +235,7 @@ namespace MealPlannerDesktop
             return plans;
         }
 
+        //Add a new allergy to the database
         public static void AddAllergy(Allergies allergie)
         {
             try
@@ -255,6 +260,7 @@ namespace MealPlannerDesktop
             }
         }
 
+        //Add a new mealplan to the database
         public static void AddMealPlan(MealPlans meal)
         {
             try
@@ -281,6 +287,7 @@ namespace MealPlannerDesktop
             }
         }
 
+        //Before saving new app preferences, all previous app preferences must be deleted
         public static void RemoveAllPreferences(string username)
         {
             try
@@ -306,6 +313,7 @@ namespace MealPlannerDesktop
             }
         }
 
+        //Add a new allergy to the list of selected app preferences
         public static void AddSelectedAllergy(string username, Allergies chosen)
         {
             try
@@ -329,6 +337,7 @@ namespace MealPlannerDesktop
             }
         }
 
+        //Add a new mealplan to the list of selected app preferences
         public static void AddSelectedMealplans(string username, MealPlans chosen)
         {
             try
@@ -352,7 +361,7 @@ namespace MealPlannerDesktop
             }
         }
 
-
+        //Returns a list of all recipes saved in the database
         public static List<Recipes> GetAllRecipes()
         {
             List<Recipes> recipes = new List<Recipes>();
@@ -382,6 +391,7 @@ namespace MealPlannerDesktop
             return recipes;
         }
 
+        //Return a list of all mealplan IDs corresponding to the selected recipe
         public static List<RecipeMealPlans> GetRecipeMealplans(int recipeID)
         {
             List<RecipeMealPlans> plans = new List<RecipeMealPlans>();
@@ -411,6 +421,7 @@ namespace MealPlannerDesktop
             return plans;
         }
 
+        //Return a list of all allergy IDs corresponding to the selected recipe
         public static List<RecipeAllergies> GetRecipeAllergies(int recipeID)
         {
             List<RecipeAllergies> allergies = new List<RecipeAllergies>();
@@ -440,6 +451,7 @@ namespace MealPlannerDesktop
             return allergies;
         }
 
+        //Return a list of all recipes and their corresponding allergies
         public static List<RecipeAllergies> GetRecipeAllergiesAll()
         {
             List<RecipeAllergies> allergies = new List<RecipeAllergies>();
@@ -467,6 +479,7 @@ namespace MealPlannerDesktop
             return allergies;
         }
 
+        //Return a list of all recipes and their corresponding mealplans
         public static List<RecipeMealPlans> GetAllRecipeMealplans()
         {
             List<RecipeMealPlans> plans = new List<RecipeMealPlans>();
@@ -494,6 +507,7 @@ namespace MealPlannerDesktop
             return plans;
         }
 
+        //Enter today's weight into the database
         public static void UpdateUserProgress(string username, double weight)
         {
             try
@@ -516,6 +530,7 @@ namespace MealPlannerDesktop
             }
         }
 
+        //Returns a list of all products in the database
         public static List<Products> GetAllProducts()
         {
             List<Products> products = new List<Products>();
@@ -545,6 +560,8 @@ namespace MealPlannerDesktop
             return products;
         }
 
+        //Returns a list of all the shops where a particular product is available and 
+        //the price of the product at that shop
         public static List<ShopsPrices> GetPriceComparison(int ProductID)
         {
             List<ShopsPrices> prices = new List<ShopsPrices>();
@@ -576,6 +593,7 @@ namespace MealPlannerDesktop
             return prices;
         }
 
+        //Return a list of all products required for a particular recipe
         public static List<RecipeProducts> GetRecipeProducts(int recipeID)
         {
             List<RecipeProducts> products = new List<RecipeProducts>();
