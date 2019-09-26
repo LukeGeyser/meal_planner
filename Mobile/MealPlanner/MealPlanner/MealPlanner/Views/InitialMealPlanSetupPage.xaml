@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MealPlanner.Views.InitialMealPlanSetupPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <ContentPage.Content>
+        <StackLayout Margin="10,20,10,0">
+            <Frame BackgroundColor="{DynamicResource Primary-Green}" CornerRadius="10">
+
+                <Label
+                    FontAttributes="Bold"
+                    FontSize="28"
+                    HorizontalOptions="Center"
+                    HorizontalTextAlignment="Center"
+                    Text="Lets set up your Meal Plans"
+                    TextColor="{DynamicResource BtnHeaderText}"
+                    VerticalTextAlignment="Center" />
+
+            </Frame>
+
+            <Label
+                Margin="0,20,0,0"
+                FontAttributes="Bold"
+                FontSize="16"
+                HorizontalTextAlignment="Center"
+                Text="Select your Meal Plans so that we can take them into Consideration when preparing optimized meal plans for you"
+                TextColor="{DynamicResource Primary-Green}" />
+
+            <Grid Margin="30,20,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="200" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="100" />
+                </Grid.ColumnDefinitions>
+
+                <Frame
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Padding="1"
+                    BorderColor="{DynamicResource BorderColor}"
+                    CornerRadius="10"
+                    IsClippedToBounds="True">
+                    <ListView
+                        x:Name="MealPlanList"
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        x:FieldModifier="public"
+                        BackgroundColor="{DynamicResource List-BackGroundColor}"
+                        ItemSelected="MealPlanList_ItemSelected"
+                        ItemsSource="{Binding MealPlans}"
+                        RowHeight="65"
+                        SeparatorColor="{DynamicResource Primary-Green}">
+
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell Tapped="ViewCell_Tapped">
+                                    <Grid Padding="5,10">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="70" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <CheckBox IsChecked="{Binding IsChecked}" IsEnabled="False" />
+                                        <Label
+                                            Grid.Column="1"
+                                            FontAttributes="Bold"
+                                            FontSize="Small"
+                                            Text="{Binding Name}"
+                                            TextColor="{DynamicResource TextColor}"
+                                            VerticalOptions="Center"
+                                            VerticalTextAlignment="Center" />
+                                    </Grid>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </Frame>
+
+                <Image
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    HeightRequest="30"
+                    HorizontalOptions="Center"
+                    Source="information.png"
+                    VerticalOptions="Center">
+
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="MealPlanInfo" Tapped="MealPlanInfo_Tapped" />
+                    </Image.GestureRecognizers>
+
+                </Image>
+
+                <!--  LAYOUT FOR ADVANTAGES / DISADVANTAGES  -->
+                <StackLayout
+                    Grid.Row="1"
+                    HorizontalOptions="Center"
+                    Orientation="Horizontal"
+                    VerticalOptions="Center">
+
+                    <!--  Display Advantages for Meal Plan  -->
+                    <Image
+                        Grid.Row="0"
+                        Grid.Column="1"
+                        Margin="10,10,20,0"
+                        HeightRequest="40"
+                        HorizontalOptions="Center"
+                        Source="advantage.png"
+                        VerticalOptions="Center">
+
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="MealPlanAdvantages" Tapped="MealPlanAdvantages_Tapped" />
+                        </Image.GestureRecognizers>
+
+                    </Image>
+
+                    <!--  Display Disadvantages for Meal Plan  -->
+                    <Image
+                        Grid.Row="0"
+                        Grid.Column="1"
+                        Margin="20,10,10,0"
+                        HeightRequest="40"
+                        HorizontalOptions="Center"
+                        Source="disadvantage.png"
+                        VerticalOptions="Center">
+
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="MealPlanDisadvantages" Tapped="MealPlanDisadvantages_Tapped" />
+                        </Image.GestureRecognizers>
+
+                    </Image>
+
+                </StackLayout>
+
+            </Grid>
+
+            <Button
+                x:Name="Save"
+                Margin="30,15,30,0"
+                Padding="0,0,0,0"
+                BackgroundColor="{DynamicResource Primary-Green}"
+                Clicked="Save_Clicked"
+                CornerRadius="10"
+                FontSize="Medium"
+                HeightRequest="60"
+                Text="Save"
+                TextColor="{DynamicResource BtnHeaderText}"
+                WidthRequest="120" />
+
+            <Label
+                Margin="0,20,0,0"
+                FontAttributes="Bold"
+                FontSize="14"
+                HorizontalTextAlignment="Center"
+                Text="You can always update these preferences in the App Preferences Section Under your Profile!"
+                TextColor="{DynamicResource Primary-Green}" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

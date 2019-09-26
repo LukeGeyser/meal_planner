@@ -25,7 +25,7 @@ namespace MealPlanner.Services
 
             conn = new SqlConnection(cb.ConnectionString);
         }
-
+         
         public async Task GetAllUsers(List<User> users)
         {
             try

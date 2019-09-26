@@ -69,3 +69,4 @@ C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Resources\DarkTheme.xaml.g.cs
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\XamlC.stamp
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\InitialAllergySetupPage.xaml.g.cs
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\InitialMealPlanSetupPage.xaml.g.cs
