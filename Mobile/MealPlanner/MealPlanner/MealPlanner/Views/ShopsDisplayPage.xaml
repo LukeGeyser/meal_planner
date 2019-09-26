@@ -46,7 +46,9 @@
                 TextColor="{DynamicResource Primary-Green}" />
 
             <ListView
+                x:Name="ShopsDisplayed"
                 BackgroundColor="{DynamicResource List-BackGroundColor}"
+                ItemSelected="ShopsDisplayed_ItemSelected"
                 ItemsSource="{Binding DisplayingList}"
                 RowHeight="100">
                 <ListView.ItemTemplate>

@@ -155,7 +155,13 @@ namespace MealPlanner.Views
             }
         }
 
+        private async void ShopsDisplayed_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            await Navigation.PushAsync(new SelectedShopDetailsPage(DisplayingList[e.SelectedItemIndex]));
+        }
+
         #endregion
+
 
     }
 }

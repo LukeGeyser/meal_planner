@@ -129,6 +129,11 @@
       </Properties>
     </XamlFileMeta>
     <XamlFileMeta>
+      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\SelectedShopDetailsPage.xaml</FilePath>
+      <Hash>3C-FD-44-30-3B-AB-85-37-D2-83-DE-5F-A5-B4-7D-03</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
       <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\SettingsPage.xaml</FilePath>
       <Hash>87-8F-29-0E-2D-A6-22-43-D1-C0-BC-63-8A-84-06-80</Hash>
       <Properties>
@@ -137,7 +142,7 @@
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\ShopsDisplayPage.xaml</FilePath>
-      <Hash>EE-4D-CC-A5-62-37-52-BC-AF-DE-DF-77-56-BC-11-C3</Hash>
+      <Hash>C2-CC-CE-8E-2A-F9-E9-66-1F-04-D5-1D-D0-EA-13-3C</Hash>
       <Properties>
         <string>BackgroundColor</string>
       </Properties>
