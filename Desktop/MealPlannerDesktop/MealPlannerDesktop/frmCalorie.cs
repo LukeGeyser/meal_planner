@@ -37,9 +37,14 @@ namespace MealPlannerDesktop
         {
             try
             {
+                //Use current user's weight and height for calculations
+
                 double weight = Convert.ToDouble(frmSignIn.weight);
                 double height = Convert.ToDouble(frmSignIn.height);
                 int age = int.Parse(frmSignIn.age);
+
+                //Formula for calculating daily calorie requirement
+
                 double calorie = ((10 * weight + (6.25 * height) - (5 * age)) - 161);
                 txtCal.Text = calorie.ToString();
 
@@ -75,9 +80,13 @@ namespace MealPlannerDesktop
                 double height = Convert.ToDouble(txtBmiHeight.Text);
                 double weight = Convert.ToDouble(txtBmiWeight.Text);
 
+                //Formula for calculating Body Mass Index
+
                 double BMI = weight / (height * height);
 
                 lblBMI.Text = string.Format("Your BMI: {0:0.00}", BMI);
+
+                //Evaluation of Body Mass Index
 
                 string status = "";
                 if (BMI < 18.5)

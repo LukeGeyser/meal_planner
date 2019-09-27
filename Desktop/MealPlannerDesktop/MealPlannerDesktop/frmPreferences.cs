@@ -21,6 +21,8 @@ namespace MealPlannerDesktop
 
         private void frmPreferences_Load(object sender, EventArgs e)
         {
+
+            //Populate lists with allergies and mealplans from database
             try
             {
                 allergies = DataHandler.GetAllAllergies();
@@ -45,6 +47,9 @@ namespace MealPlannerDesktop
 
         private void btnCreate_Click(object sender, EventArgs e)
         {
+            //Remove any previous preferences and save selected allergy and mealplan preferences
+            //to database
+
             try
             {
                 DataHandler.RemoveAllPreferences(frmSignUp.username);
@@ -79,19 +84,11 @@ namespace MealPlannerDesktop
             }
         }
 
-        #region
-        private void btnAddAllergy_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void lstMealplans_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-        #endregion
-
         private void lstMealplans_Click(object sender, EventArgs e)
         {
+
+            //Display mealplan description, advantages and disadvantages when 
+            //mealplan is selected in listbox
             try
             {
                 if (lstMealplans.SelectedIndex < mealplans.Count &&
@@ -110,6 +107,7 @@ namespace MealPlannerDesktop
 
         private void lstAllergies_Click(object sender, EventArgs e)
         {
+            //Display allergy description when allergy is selected in listbox
             try
             {
                 if (lstAllergies.SelectedIndex < allergies.Count && lstAllergies.SelectedIndex > -1)

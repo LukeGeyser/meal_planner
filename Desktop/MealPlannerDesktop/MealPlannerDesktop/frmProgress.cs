@@ -21,6 +21,8 @@ namespace MealPlannerDesktop
 
         private void DisplayProgress()
         {
+            //Obtain previous weight values from database and display values on chart
+            //according to date
             try
             {
                 SqlConnection conn = new SqlConnection("Data Source=meal-planner.database.windows.net"
@@ -83,6 +85,7 @@ namespace MealPlannerDesktop
         private void BtnSubmit_Click(object sender, EventArgs e)
         {
             double weight = 0;
+            //Check whether valid weight has been entered
             try
             {
                 weight = Convert.ToDouble(txtWeight.Text);
@@ -93,6 +96,7 @@ namespace MealPlannerDesktop
                     , MessageBoxIcon.Error);
             }
 
+            //Save new progress in database and update chart
             DataHandler.UpdateUserProgress(frmSignIn.SuccessfulLogin.Username, weight);
             DisplayProgress();
             txtWeight.Clear();

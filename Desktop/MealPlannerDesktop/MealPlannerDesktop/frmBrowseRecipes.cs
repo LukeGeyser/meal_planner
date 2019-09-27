@@ -23,8 +23,7 @@ namespace MealPlannerDesktop
 
         private void CreateBindings(List<Recipes> rec)
         {
-            // AllRecipes = DataHandler.GetAllRecipes();
-            // bs.DataSource = AllRecipes;
+            //Display search results using Databindings
             bs.DataSource = rec;
             if(bs.Count == 0)
             {
@@ -51,6 +50,8 @@ namespace MealPlannerDesktop
 
         private void LinkData()
         {
+            //Display allergies and mealplans related to the visible recipe
+
             Recipes current = (Recipes)bs.Current;
             List<RecipeMealPlans> mealplans = DataHandler.GetRecipeMealplans(current.RecipeID);
             lstMealplans.Items.Clear();
@@ -69,6 +70,7 @@ namespace MealPlannerDesktop
 
         private MealPlans SearchMealPlan(int mealPlanID)
         {
+            //Find details of specific mealplan
             List<MealPlans> plans = DataHandler.GetAllMealPlans();
             MealPlans foundPlan = null;
             bool found = false;
@@ -90,6 +92,8 @@ namespace MealPlannerDesktop
 
         private Allergies SearchAllergy(int allergyID)
         {
+            //Find details of specific allergy
+
             List<Allergies> allergies = DataHandler.GetAllAllergies();
             Allergies foundAllergy = null;
             bool found = false;
@@ -144,14 +148,18 @@ namespace MealPlannerDesktop
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
+            //Search for specific recipes. Type 'All' to display all recipes found in database.
+            //Also displays recipes related to app preferences chosen by user by comparing allegies and
+            //mealplans of the recipe to user selections
+
             try
             {
-                if (radAll.Checked == true && (txtRecipeName.Text == "All" || txtRecipeName.Text == ""))
+                if (radAll.Checked == true && (txtRecipeName.Text.ToUpper() == "ALL" || txtRecipeName.Text == ""))
                 {
                     AllRecipes = DataHandler.GetAllRecipes();
                     CreateBindings(AllRecipes);
                 }
-                else if (radPreference.Checked == true && (txtRecipeName.Text == "All" || txtRecipeName.Text == ""))
+                else if (radPreference.Checked == true && (txtRecipeName.Text.ToUpper() == "ALL" || txtRecipeName.Text == ""))
                 {
 
                     string user = frmSignIn.SuccessfulLogin.Username;
@@ -179,7 +187,6 @@ namespace MealPlannerDesktop
                                 if (item.AllergyID == un.AllergyID)
                                 {
                                     Console.WriteLine("Allergy ID:" + item.AllergyID.ToString());
-                                    //MessageBox.Show(item.AllergyID.ToString(), "Allergy ID", MessageBoxButtons.OK, MessageBoxIcon.Information);
                                     ID.Add(item);
                                 }
                             }
@@ -201,12 +208,6 @@ namespace MealPlannerDesktop
                                         contains = true;
                                     }
 
-                                    //if (recipe.RecipeID != invalid.RecipeID)
-                                    //{
-                                    //    Console.WriteLine("Valid recipe based on allergies: " + recipe.RecipeName);
-                                    //    //MessageBox.Show(recipe.RecipeName, "Valid recipe based on allergies", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                                    //    UserV.Add(recipe);
-                                    //}
                                 }
                                 if(contains == false)
                                 {
@@ -224,7 +225,6 @@ namespace MealPlannerDesktop
                                 if (meal.MealPlanID == userm.MealPlanID)
                                 {
                                     Console.WriteLine("Meal Plan ID: " + meal.MealPlanID.ToString());
-                                    //MessageBox.Show(meal.MealPlanID.ToString(), "Meal Plan ID", MessageBoxButtons.OK, MessageBoxIcon.Information);
                                     recM.Add(meal);
                                 }
                             }
@@ -238,7 +238,6 @@ namespace MealPlannerDesktop
                                 if (frec.RecipeID == mealID.RecipeID)
                                 {
                                     Console.WriteLine("Recipe with suitable meal plan: " + frec.RecipeName);
-                                    //MessageBox.Show(frec.RecipeName, "Recipe with suitable meal plan", MessageBoxButtons.OK, MessageBoxIcon.Information);
                                     final.Add(frec);
                                 }
                             }
@@ -252,7 +251,6 @@ namespace MealPlannerDesktop
                                 if (v.RecipeID == r.RecipeID)
                                 {
                                     Console.WriteLine("Final recipe to use: " + v.RecipeName);
-                                    //MessageBox.Show(v.RecipeName, "Final recipe to use", MessageBoxButtons.OK, MessageBoxIcon.Information);
                                     AllUse.Add(v);
                                 }
                             }
@@ -262,6 +260,8 @@ namespace MealPlannerDesktop
                 }
                 else
                 {
+                    //Custom search. Match typed recipe name to all available recipes in the database
+
                     AllRecipes = DataHandler.GetAllRecipes();
                     List<Recipes> FoundRecipes = new List<Recipes>();
                     bool found = false;
@@ -279,10 +279,7 @@ namespace MealPlannerDesktop
                             count++;
                         }
                     }
-                    if(found == true)
-                    {
-                        CreateBindings(FoundRecipes);
-                    }
+                    CreateBindings(FoundRecipes);
                                        
                 }
                 MessageBox.Show("Search Complete!", "Search", MessageBoxButtons.OK
@@ -296,6 +293,8 @@ namespace MealPlannerDesktop
 
         private void BtnProducts_Click(object sender, EventArgs e)
         {
+            //Set filter for product list to display products required for current recipe
+
             try
             {
                 var current = (Recipes)bs.Current;

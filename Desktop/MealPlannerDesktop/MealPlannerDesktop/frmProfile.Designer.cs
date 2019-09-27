@@ -513,7 +513,6 @@
             this.lstAllergies.Size = new System.Drawing.Size(258, 85);
             this.lstAllergies.TabIndex = 0;
             this.lstAllergies.Click += new System.EventHandler(this.LstAllergies_Click);
-            this.lstAllergies.Enter += new System.EventHandler(this.LstAllergies_Enter);
             // 
             // pbLogo
             // 

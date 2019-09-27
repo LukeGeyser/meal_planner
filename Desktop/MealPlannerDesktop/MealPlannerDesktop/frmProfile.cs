@@ -39,6 +39,7 @@ namespace MealPlannerDesktop
 
         private void FrmProfile_Load(object sender, EventArgs e)
         {
+            //Display currently signed in user information as saved in database
             try
             {
                 txtName.Text = frmSignIn.SuccessfulLogin.FirstName;
@@ -49,6 +50,8 @@ namespace MealPlannerDesktop
                 txtWeight.Text = frmSignIn.SuccessfulLogin.Weight.ToString();
                 txtHeight.Text = frmSignIn.SuccessfulLogin.Height.ToString();
 
+                //Display all allergies and mealplans as well as all previously
+                //selected alergies and mealplans
                 allergies = DataHandler.GetAllAllergies();
                 selectedAllegies = DataHandler.GetSelectedAllergies(frmSignIn.SuccessfulLogin.Username);
                 lstAllergies.Items.Clear();
@@ -103,22 +106,43 @@ namespace MealPlannerDesktop
 
         private void BtnApply_Click(object sender, EventArgs e)
         {
+            //Validate whether acceptable information has been provided by user
             try
             {
                 if (string.IsNullOrEmpty(txtName.Text) || (string.IsNullOrEmpty(txtSurname.Text) || string.IsNullOrEmpty(txtWeight.Text) || string.IsNullOrEmpty(txtHeight.Text) ||
                    string.IsNullOrEmpty(txtPassword.Text) || string.IsNullOrEmpty(txtConfirmP.Text) || string.IsNullOrEmpty(txtName.Text) || string.IsNullOrEmpty(txtPhone.Text) ||
                    string.IsNullOrEmpty(txtEmail.Text)))
                 {
-                    MessageBox.Show("Please make sure all details are entered.", "Missing Information", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    throw new CustomException("Please make sure all details are entered.");
                 }
                 else
                 {
+                    //Encrypts the user's password using the SecurityService class
+                    //and save the encrypted information in the database
                     User NUser = SecurityService.EncryptNewPassword(new User(frmSignIn.SuccessfulLogin.Username
                     , txtPassword.Text));
                     NUser.FirstName = txtName.Text;
                     NUser.LastName = txtSurname.Text;
-                    NUser.Phone = txtPhone.Text;
 
+                    //Check whether valid phone number entered
+                    if (txtPhone.Text.Length == 10)
+                    {
+                        bool valid = txtPhone.Text.All(Char.IsDigit);
+                        if (valid == true)
+                        {
+                            NUser.Phone = txtPhone.Text;
+                        }
+                        else
+                        {
+                            throw new CustomException("Invalid phone number provided.");
+                        }
+                    }
+                    else
+                    {
+                        throw new CustomException("Invalid phone number provided.");
+                    }
+
+                    //Check whether email address is valid
                     if (IsValidEmail(txtEmail.Text))
                     {
                         NUser.Email = txtEmail.Text;
@@ -161,14 +185,10 @@ namespace MealPlannerDesktop
             return new EmailAddressAttribute().IsValid(source);
         }
 
-        private void LstAllergies_Enter(object sender, EventArgs e)
-        {
-            
-
-        }
 
         private void LstAllergies_Click(object sender, EventArgs e)
         {
+            //Display allergy description if allergy is selected in listbox
             try
             {
                 if (lstAllergies.SelectedIndex < allergies.Count &&
@@ -185,6 +205,8 @@ namespace MealPlannerDesktop
 
         private void LstMealplans_Click(object sender, EventArgs e)
         {
+            //Display mealplan description,advantages and disadvantages if mealplan
+            //is selected in listbox
             try
             {
                 if (lstMealplans.SelectedIndex < mealplans.Count &&
@@ -231,6 +253,8 @@ namespace MealPlannerDesktop
 
         private void BtnSavePreferences_Click(object sender, EventArgs e)
         {
+            //Delete all previously selected preferences and then save new 
+            //selected allergies and mealplans in database
             try
             {
                 DataHandler.RemoveAllPreferences(frmSignIn.SuccessfulLogin.Username);

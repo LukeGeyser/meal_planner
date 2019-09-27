@@ -37,11 +37,31 @@ namespace MealPlannerDesktop
             try
             {
                 check = DataHandler.getUsers();
+
+                //Encrypt the user's password
                 User NUser = SecurityService.EncryptNewPassword(new User(txtUsername.Text,txtPassword.Text));
                 NUser.FirstName = txtName.Text;
                 NUser.LastName = txtSurname.Text;
-                NUser.Phone = txtPhone.Text;
 
+                //Check whether valid phone number entered
+                if (txtPhone.Text.Length == 10)
+                {
+                    bool valid = txtPhone.Text.All(Char.IsDigit);
+                    if (valid == true)
+                    {
+                        NUser.Phone = txtPhone.Text;
+                    }
+                    else
+                    {
+                        throw new CustomException("Invalid phone number provided.");
+                    }
+                }
+                else
+                {
+                    throw new CustomException("Invalid phone number provided.");
+                }
+
+                //Check whether email address is valid
                 if (IsValidEmail(txtEmail.Text))
                 {
                     NUser.Email = txtEmail.Text;
@@ -55,6 +75,7 @@ namespace MealPlannerDesktop
                 NUser.Weight = double.Parse(txtWeight.Text);
                 NUser.Height = double.Parse(txtHeight.Text);
 
+                //Validate whether acceptable information has been provided by user
                 if (string.IsNullOrEmpty(txtName.Text) || (string.IsNullOrEmpty(txtSurname.Text)|| string.IsNullOrEmpty(txtWeight.Text)|| string.IsNullOrEmpty(txtHeight.Text) ||
                     string.IsNullOrEmpty(txtPassword.Text)|| string.IsNullOrEmpty(txtConfirmP.Text)|| string.IsNullOrEmpty(txtName.Text)|| string.IsNullOrEmpty(txtPhone.Text)||
                     string.IsNullOrEmpty(txtEmail.Text)))
@@ -65,6 +86,8 @@ namespace MealPlannerDesktop
                 {
                     foreach (var item in check)
                     {
+                        //Check whether username already exists in database as it is used as
+                        //the primary key
                         if (item.Username == txtUsername.Text)
                         {
                             DialogResult r = MessageBox.Show("Username already exists.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -76,6 +99,8 @@ namespace MealPlannerDesktop
                         }
                         else if (txtPassword.Text == txtConfirmP.Text)
                         {
+
+                            //Save user information to database
                             username = txtUsername.Text;
                             DataHandler.UpdateUserProgress(NUser.Username, NUser.Weight);
                             DataHandler.SignUpUser(NUser);

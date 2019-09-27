@@ -56,14 +56,13 @@
             this.lstMealplans.Size = new System.Drawing.Size(258, 88);
             this.lstMealplans.TabIndex = 40;
             this.lstMealplans.Click += new System.EventHandler(this.lstMealplans_Click);
-            this.lstMealplans.SelectedIndexChanged += new System.EventHandler(this.lstMealplans_SelectedIndexChanged);
             // 
             // btnCreate
             // 
             this.btnCreate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(183)))), ((int)(((byte)(43)))));
             this.btnCreate.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCreate.ForeColor = System.Drawing.Color.White;
-            this.btnCreate.Location = new System.Drawing.Point(593, 393);
+            this.btnCreate.Location = new System.Drawing.Point(587, 396);
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.Size = new System.Drawing.Size(195, 49);
             this.btnCreate.TabIndex = 39;

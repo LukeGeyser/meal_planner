@@ -95,7 +95,7 @@
             this.btnBack.TabIndex = 14;
             this.btnBack.Text = "Back";
             this.btnBack.UseVisualStyleBackColor = false;
-            this.btnBack.Click += new System.EventHandler(this.button1_Click);
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // txtName
             // 
@@ -134,6 +134,7 @@
             this.Name = "frmAddAllergy";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add New Allergy";
+            this.Load += new System.EventHandler(this.FrmAddAllergy_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

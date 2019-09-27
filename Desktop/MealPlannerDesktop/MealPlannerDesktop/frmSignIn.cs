@@ -14,6 +14,8 @@ namespace MealPlannerDesktop
     {
         List<User> userList = DataHandler.getUsers();
         User loggedInUser;
+
+        //SuccessfulLogin is used to identify user throughout application
         public static User SuccessfulLogin;
 
         public frmSignIn()
@@ -23,15 +25,23 @@ namespace MealPlannerDesktop
 
         private void btnSignUp_Click(object sender, EventArgs e)
         {
-            frmSignUp frs = new frmSignUp();
-            frs.Show();
-            this.Hide();
+            try
+            {
+                frmSignUp frs = new frmSignUp();
+                frs.Show();
+                this.Hide();
+            }
+            catch(Exception err)
+            {
+                MessageBox.Show(err.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void FrmSignIn_Load(object sender, EventArgs e)
         {
             
         }
+
         public static string weight="";
         public static string height="";
         public static string age = "";

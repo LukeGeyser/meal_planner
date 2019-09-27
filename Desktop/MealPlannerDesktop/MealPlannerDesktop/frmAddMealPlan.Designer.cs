@@ -46,9 +46,9 @@
             // rtbDesc
             // 
             this.rtbDesc.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rtbDesc.Location = new System.Drawing.Point(12, 236);
+            this.rtbDesc.Location = new System.Drawing.Point(12, 222);
             this.rtbDesc.Name = "rtbDesc";
-            this.rtbDesc.Size = new System.Drawing.Size(337, 152);
+            this.rtbDesc.Size = new System.Drawing.Size(337, 166);
             this.rtbDesc.TabIndex = 21;
             this.rtbDesc.Text = "";
             // 
@@ -64,7 +64,7 @@
             // 
             this.lblDescription.AutoSize = true;
             this.lblDescription.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDescription.Location = new System.Drawing.Point(12, 210);
+            this.lblDescription.Location = new System.Drawing.Point(12, 196);
             this.lblDescription.Name = "lblDescription";
             this.lblDescription.Size = new System.Drawing.Size(205, 23);
             this.lblDescription.TabIndex = 19;
@@ -87,7 +87,7 @@
             this.pbLogo.InitialImage = null;
             this.pbLogo.Location = new System.Drawing.Point(12, 12);
             this.pbLogo.Name = "pbLogo";
-            this.pbLogo.Size = new System.Drawing.Size(772, 90);
+            this.pbLogo.Size = new System.Drawing.Size(713, 90);
             this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbLogo.TabIndex = 17;
             this.pbLogo.TabStop = false;
@@ -96,7 +96,7 @@
             // 
             this.lblAdvantage.AutoSize = true;
             this.lblAdvantage.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAdvantage.Location = new System.Drawing.Point(424, 123);
+            this.lblAdvantage.Location = new System.Drawing.Point(365, 123);
             this.lblAdvantage.Name = "lblAdvantage";
             this.lblAdvantage.Size = new System.Drawing.Size(109, 23);
             this.lblAdvantage.TabIndex = 22;
@@ -106,7 +106,7 @@
             // 
             this.lblDisadvantage.AutoSize = true;
             this.lblDisadvantage.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDisadvantage.Location = new System.Drawing.Point(424, 263);
+            this.lblDisadvantage.Location = new System.Drawing.Point(365, 263);
             this.lblDisadvantage.Name = "lblDisadvantage";
             this.lblDisadvantage.Size = new System.Drawing.Size(137, 23);
             this.lblDisadvantage.TabIndex = 23;
@@ -115,7 +115,7 @@
             // rtbAdvantage
             // 
             this.rtbAdvantage.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rtbAdvantage.Location = new System.Drawing.Point(428, 149);
+            this.rtbAdvantage.Location = new System.Drawing.Point(369, 149);
             this.rtbAdvantage.Name = "rtbAdvantage";
             this.rtbAdvantage.Size = new System.Drawing.Size(356, 99);
             this.rtbAdvantage.TabIndex = 24;
@@ -124,7 +124,7 @@
             // rtbDisadvantage
             // 
             this.rtbDisadvantage.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rtbDisadvantage.Location = new System.Drawing.Point(428, 289);
+            this.rtbDisadvantage.Location = new System.Drawing.Point(369, 289);
             this.rtbDisadvantage.Name = "rtbDisadvantage";
             this.rtbDisadvantage.Size = new System.Drawing.Size(356, 99);
             this.rtbDisadvantage.TabIndex = 25;
@@ -148,7 +148,7 @@
             this.btnAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(183)))), ((int)(((byte)(43)))));
             this.btnAdd.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.ForeColor = System.Drawing.Color.White;
-            this.btnAdd.Location = new System.Drawing.Point(651, 406);
+            this.btnAdd.Location = new System.Drawing.Point(592, 406);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(133, 32);
             this.btnAdd.TabIndex = 28;
@@ -161,7 +161,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(796, 450);
+            this.ClientSize = new System.Drawing.Size(737, 450);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.rtbDisadvantage);
@@ -179,6 +179,7 @@
             this.Name = "frmAddMealPlan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add New Meal Plan";
+            this.Load += new System.EventHandler(this.FrmAddMealPlan_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -15,6 +15,8 @@ namespace MealPlannerDesktop
 {
     public partial class frmFindShops : Form
     {
+        //Collections to hold results from MapAPI
+
         private ObservableCollection<Result> WoolworthsResults { get; set; }
         private ObservableCollection<Result> PicknPayResults { get; set; }
         private ObservableCollection<Result> SpaResults { get; set; }
@@ -30,6 +32,9 @@ namespace MealPlannerDesktop
 
         private double latitude = 0;
         private double longitute = 0;
+
+        //GeoCoordinateWatcher is a Geolocation service for visual studio 
+        //to access their location.
         private GeoCoordinateWatcher watcher = new GeoCoordinateWatcher();
 
         public frmFindShops()
@@ -41,7 +46,7 @@ namespace MealPlannerDesktop
         {
             if (e.Status == GeoPositionStatus.Ready)
             {
-                MessageBox.Show("Watcher is ready. First location: The current location is: " +
+              Console.WriteLine("Watcher is ready. First location: The current location is: " +
               watcher.Position.Location.Latitude + "/" +
               watcher.Position.Location.Longitude + ".");
             }
@@ -49,7 +54,7 @@ namespace MealPlannerDesktop
 
         private static void GeoPositionChanged(object sender, GeoPositionChangedEventArgs<GeoCoordinate> e)
         {
-            MessageBox.Show("The current location is: " +
+            Console.WriteLine("The current location is: " +
                 e.Position.Location.Latitude + "/" +
                 e.Position.Location.Longitude + ".");
         }
@@ -58,12 +63,14 @@ namespace MealPlannerDesktop
         {
             GeoCoordinateWatcher watcher = new GeoCoordinateWatcher();
             bool found = false;
+            int stopSearch = 0;
             while(found == false)
             {
+                //Continuously search for device location until location is found.
 
                 watcher.TryStart(false, TimeSpan.FromMilliseconds(2000));
                 GeoCoordinate coord = watcher.Position.Location;
-
+                stopSearch++;
                 Console.WriteLine("status: " + watcher.Status.ToString());
 
                 if (coord.IsUnknown != true)
@@ -78,6 +85,10 @@ namespace MealPlannerDesktop
                 else
                 {
                     Console.WriteLine("Unknown latitude and longitude.");
+                }
+                if(stopSearch >= 100)
+                {
+                    found = true;
                 }
             }
 
@@ -95,6 +106,8 @@ namespace MealPlannerDesktop
 
         private async void PopulateStores()
         {
+            //Populate collections with results from MapAPI class
+
             await mapsAPI.PopulateMaps(WoolworthsResults, Convert.ToDouble(latitude), 
                 Convert.ToDouble(longitute), "woolworths");
             await mapsAPI.PopulateMaps(PicknPayResults, Convert.ToDouble(latitude),
@@ -108,6 +121,9 @@ namespace MealPlannerDesktop
 
         private List<StoreNearYou> GenerateDisplayingList(ObservableCollection<Result> results)
         {
+            //Generate output to display to customer: store name, distance from device
+            //and whether store is open now.
+
             displayingList.Clear();
             DisplayStores.Clear();
             foreach (var item in results)
@@ -144,6 +160,8 @@ namespace MealPlannerDesktop
 
         private double GetDistanceFromStore(double sLatitude, double sLongitude, double eLatitude, double eLongitude)
         {
+            //Calculate distance between store and location of device
+
             var sCoords = new GeoCoordinate(sLatitude, sLongitude);
             var eCoords = new GeoCoordinate(eLatitude, eLongitude);
             return sCoords.GetDistanceTo(eCoords) / 1000;
@@ -155,6 +173,9 @@ namespace MealPlannerDesktop
             {
                 bs.DataSource = null;
                 dgvStoresDisplay.DataSource = null;
+
+                //Display logos and results based on selected choice in comboBox
+
                 switch (cbxStoreName.SelectedIndex)
                 {
                     case 0:

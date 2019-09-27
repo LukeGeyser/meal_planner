@@ -17,6 +17,7 @@ namespace MealPlannerDesktop
             InitializeComponent();
         }
 
+        //Populate array with slideshow image names
         string[] slideshowImages = new string[]
         {
             "slide1.jpg","slide2.jpg","slide3.jpg","slide4.jpg","slide5.jpg"
@@ -24,7 +25,8 @@ namespace MealPlannerDesktop
         int count = 0;
         private void TmrSlideshow_Tick(object sender, EventArgs e)
         {
-          
+            //Timer tick interval set to 2000 milliseconds. Will change slideshow image 
+            //with every tick
             if(count < slideshowImages.Length)
             {
                 picSlideShow.ImageLocation = slideshowImages[count];
@@ -76,6 +78,8 @@ namespace MealPlannerDesktop
         {
             tmrSlideshow.Interval = 2000;
             tmrSlideshow.Enabled = true;
+
+            //Display username of customer logged in on frmSignIn
             lblWelcome.Text = "Welcome " + frmSignIn.SuccessfulLogin.Username;
         }
 
@@ -107,10 +111,6 @@ namespace MealPlannerDesktop
             }
         }
 
-        private void pbLogo_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void BrowseShopsMenuItem_Click(object sender, EventArgs e)
         {

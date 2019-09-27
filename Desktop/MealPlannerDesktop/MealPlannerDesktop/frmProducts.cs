@@ -41,6 +41,9 @@ namespace MealPlannerDesktop
 
         private void DetermineDataSource()
         {
+            //Determine filter for bindingsource to only display required products.
+            //If no products are included in the filter, all products are displayed.
+
             if (cbxRecipeFilter.Text == "All Recipes" || cbxRecipeFilter.Text == "")
             {
                 filter = "All";
@@ -81,36 +84,61 @@ namespace MealPlannerDesktop
                         count++;
                     }
                 }
-
-                bs.DataSource = filtered;
+                if (filtered.Count > 0)
+                {
+                    bs.DataSource = filtered;
+                }
+                else
+                {
+                    MessageBox.Show("No products found matching this recipe. Displaying all products."
+                        , "Filter Products", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    bs.DataSource = products;
+                }
             }
         }
 
         private void LinkData()
         {
-            DetermineDataSource();
-            lblProductName.DataBindings.Clear();
-            txtCategory.DataBindings.Clear();
-            txtDescription.DataBindings.Clear();
-            txtValue.DataBindings.Clear();
-            picProductImage.DataBindings.Clear();
-            lblProductName.DataBindings.Add("Text", bs, "ProductName");
-            txtCategory.DataBindings.Add("Text", bs, "Category");
-            txtDescription.DataBindings.Add("Text", bs, "Description");
-            txtValue.DataBindings.Add("Text", bs, "NutritionalValue");
-            picProductImage.DataBindings.Add("ImageLocation", bs, "ProductImage");
+            //Set up databindings for all user interface elements
+            try
+            {
+                DetermineDataSource();
+                lblProductName.DataBindings.Clear();
+                txtCategory.DataBindings.Clear();
+                txtDescription.DataBindings.Clear();
+                txtValue.DataBindings.Clear();
+                picProductImage.DataBindings.Clear();
+                lblProductName.DataBindings.Add("Text", bs, "ProductName");
+                txtCategory.DataBindings.Add("Text", bs, "Category");
+                txtDescription.DataBindings.Add("Text", bs, "Description");
+                txtValue.DataBindings.Add("Text", bs, "NutritionalValue");
+                picProductImage.DataBindings.Add("ImageLocation", bs, "ProductImage");
 
-            lblProductsFound.Text = bs.Count + " products found.";
-            filter = "";
+                lblProductsFound.Text = bs.Count + " products found.";
+                filter = "";
+            }
+            catch (Exception err)
+            {
+                MessageBox.Show(err.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void ShowComparison()
         {
-            var current = (Products)bs.Current;
-            lstPrices.DataSource = null;
-            List<ShopsPrices> prices = DataHandler.GetPriceComparison(current.ProductID);
-            lstPrices.DataSource = prices;
-            lstPrices.Columns["Productprice"].DefaultCellStyle.Format = "c";
+            //Call DataHandler method to return prices of products at available stores
+            //in a currency format.
+            try
+            {
+                var current = (Products)bs.Current;
+                lstPrices.DataSource = null;
+                List<ShopsPrices> prices = DataHandler.GetPriceComparison(current.ProductID);
+                lstPrices.DataSource = prices;
+                lstPrices.Columns["Productprice"].DefaultCellStyle.Format = "c";
+            }
+            catch (Exception err)
+            {
+                MessageBox.Show(err.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void FrmProducts_Load(object sender, EventArgs e)
@@ -162,6 +190,8 @@ namespace MealPlannerDesktop
 
         private void CbxRecipeFilter_SelectedIndexChanged(object sender, EventArgs e)
         {
+            //Set filter to name of recipe chosen
+
             filter = cbxRecipeFilter.Items[cbxRecipeFilter.SelectedIndex].ToString();
             LinkData();
         }

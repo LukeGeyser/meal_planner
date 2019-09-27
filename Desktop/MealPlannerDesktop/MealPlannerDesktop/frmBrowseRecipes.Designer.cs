@@ -69,7 +69,7 @@
             this.pbLogo.BackColor = System.Drawing.Color.White;
             this.pbLogo.Image = ((System.Drawing.Image)(resources.GetObject("pbLogo.Image")));
             this.pbLogo.InitialImage = null;
-            this.pbLogo.Location = new System.Drawing.Point(1, 2);
+            this.pbLogo.Location = new System.Drawing.Point(12, 3);
             this.pbLogo.Name = "pbLogo";
             this.pbLogo.Size = new System.Drawing.Size(136, 90);
             this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
