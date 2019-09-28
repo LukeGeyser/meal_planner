@@ -655,3 +655,4 @@ C:\Users\kalan\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlan
 C:\Users\Janay Sander\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\MealPlannerDesktop.frmPreferences.resources
 C:\Users\Janay Sander\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\MealPlannerDesktop.frmProgress.resources
 C:\Users\Janay Sander\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\MealPlannerDesktop.frmProducts.resources
+C:\Users\kalan\Documents\GitHub\meal_planner\Desktop\MealPlannerDesktop\MealPlannerDesktop\obj\Debug\MealPlannerDesktop.frmProducts.resources
