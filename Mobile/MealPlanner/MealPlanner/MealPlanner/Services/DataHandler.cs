@@ -11,7 +11,6 @@ namespace MealPlanner.Services
 {
     class DataHandler
     {
-
         private SqlConnection conn;
         private SqlDataReader dr = null;
 
