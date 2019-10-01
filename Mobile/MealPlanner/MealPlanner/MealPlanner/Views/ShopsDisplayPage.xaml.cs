@@ -117,7 +117,8 @@ namespace MealPlanner.Views
                     Icon_Source = Icon_Source,
                     open_Text = (item.opening_hours == null ? false : true) ? "Open Now" : "Closed",
                     ColorHex = (item.opening_hours == null ? false : true) ? "#669e2f" : "#db5151",
-                    Distance = "Around " + GetDistanceFromStore(location.Latitude, location.Longitude, item.geometry.location.lat, item.geometry.location.lng).ToString("0") + "km from you"
+                    Distance = "Around " + GetDistanceFromStore(location.Latitude, location.Longitude, item.geometry.location.lat, item.geometry.location.lng).ToString("0") + "km from you",
+                    Photo_Details = item.photos == null ? "store.jpg" : mapsAPI.GetPhotoString(item.photos[0].height, item.photos[0].photo_reference)
                 });
             }
             NearYou.Text = Title + " near you:";
@@ -161,7 +162,6 @@ namespace MealPlanner.Views
         }
 
         #endregion
-
 
     }
 }

@@ -9,6 +9,7 @@ using System.Runtime.Serialization.Json;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using Xamarin.Forms;
 using static MealPlanner.Models.MapResultDataWrapper;
 
 namespace MealPlanner.Services
@@ -17,7 +18,11 @@ namespace MealPlanner.Services
     {
         private string url = String.Format("https://maps.googleapis.com/maps/api/place/nearbysearch/json?");
 
+        private string photos_Url = String.Format("https://maps.googleapis.com/maps/api/place/photo?");
+
         private const string _PrivateKey = "AIzaSyCxTWHUpzXjM1twanD2-wMkYCBRnx7v7DE";
+
+        #region Search For Stores Functions
 
         public async Task PopulateMaps(ObservableCollection<Result> stores, double lat, double lon, string shopName)
         {
@@ -52,6 +57,26 @@ namespace MealPlanner.Services
             var result = (RootObject)serializer.ReadObject(ms);
             return result;
         }
+
+        #endregion
+
+
+        #region Get Selected Stores Photos
+
+        public string GetPhotoString(int maxheight, string reference)
+        {
+            var photo = CallGoogleMapPhotoAPIAsync(photos_Url, maxheight, reference);
+
+            return photo;
+        }
+
+        public static string CallGoogleMapPhotoAPIAsync(string url, int maxheight, string reference)
+        {
+            string completeUrl = String.Format("{0}maxheight={1}&photoreference={2}&key={3}", url, maxheight, reference, _PrivateKey);
+            return completeUrl;
+        }
+
+        #endregion
 
     }
 }

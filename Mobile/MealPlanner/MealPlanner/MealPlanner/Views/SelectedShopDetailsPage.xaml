@@ -11,7 +11,7 @@
             <Image
                 Margin="0"
                 HorizontalOptions="FillAndExpand"
-                Source="store.jpg" />
+                Source="{Binding storeInfoViewModel.Photo_Details}" />
 
             <Label
                 FontSize="24"

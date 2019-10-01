@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Text;
+using static MealPlanner.Models.MapResultDataWrapper;
 
 namespace MealPlanner.ViewModels
 {
@@ -20,6 +21,7 @@ namespace MealPlanner.ViewModels
         private int user_ratings_total { get; set; }
         private string vicinity { get; set; }
         private string icon_Source { get; set; }
+        private string photo_Details { get; set; }
 
         public string open_Text { get; set; }
         public string ColorHex { get; set; }
@@ -130,6 +132,15 @@ namespace MealPlanner.ViewModels
             set
             {
                 icon_Source = value;
+                OnPropertyChanged();
+            }
+        }
+        public String Photo_Details
+        {
+            get { return photo_Details; }
+            set
+            {
+                photo_Details = value;
                 OnPropertyChanged();
             }
         }
