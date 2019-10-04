@@ -188,7 +188,7 @@
             this.picProductImage.Location = new System.Drawing.Point(344, 12);
             this.picProductImage.Name = "picProductImage";
             this.picProductImage.Size = new System.Drawing.Size(136, 126);
-            this.picProductImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picProductImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picProductImage.TabIndex = 2;
             this.picProductImage.TabStop = false;
             // 
