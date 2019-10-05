@@ -40,10 +40,10 @@
                             RowDefinition="0"
                             TargetType="{x:Type local:ProfilePage}" />
                         <vm:HomeMenuItem
-                            Title="Calorie Calculator"
+                            Title="Calculators"
                             IconSource="calculator.png"
                             RowDefinition="0"
-                            TargetType="{x:Type local:CalorieCalculatorPage}" />
+                            TargetType="{x:Type local:CalculatorTabbedPages}" />
                         <vm:HomeMenuItem
                             Title="Store Locator"
                             IconSource="location.png"
