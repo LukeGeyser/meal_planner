@@ -78,35 +78,32 @@ namespace MealPlanner.Views
 
             weight = loggedInUser.Weight;
             height = loggedInUser.Height;
-            bmi = 0;
-            bmi_Status = "dadad";
 
             BindingContext = this;
         }
 
         private void Calculate_Clicked(object sender, EventArgs e)
         {
-            weight = 2000;
-            bmi = weight / (height * height);
+            Bmi = weight / (height * height);
 
             if (bmi < 18.5)
             {
-                bmi_Status = "You are underweight!";
+                Bmi_Status = "You are underweight!";
                 Status_Color = "#db5151";
             }
             else if (bmi >= 18.5 && bmi < 25)
             {
-                bmi_Status = "You are healthy!";
+                Bmi_Status = "You are healthy!";
                 Status_Color = "#669e2f";
             }
             else if (bmi >= 25 && bmi < 30)
             {
-                bmi_Status = "You are overweight!";
+                Bmi_Status = "You are overweight!";
                 Status_Color = "#3bb5d4";
             }
             else
             {
-                bmi_Status = "Your are obese!";
+                Bmi_Status = "Your are obese!";
                 Status_Color = "#b537db";
             }
         }

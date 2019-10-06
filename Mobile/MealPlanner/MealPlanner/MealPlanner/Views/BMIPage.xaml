@@ -38,8 +38,8 @@
                     FontSize="Medium"
                     HorizontalOptions="EndAndExpand"
                     HorizontalTextAlignment="Center"
-                    IsReadOnly="True"
-                    Text="{Binding Height_Local}"
+                    IsReadOnly="False"
+                    Text="{Binding Height_Local, StringFormat='{0:n} M'}"
                     TextColor="{DynamicResource Primary-Green}"
                     VerticalOptions="Center"
                     WidthRequest="120" />
@@ -61,7 +61,7 @@
                     HorizontalOptions="EndAndExpand"
                     HorizontalTextAlignment="Center"
                     IsReadOnly="True"
-                    Text="{Binding Weight_Local}"
+                    Text="{Binding Weight_Local, StringFormat='{0:N} Kg'}"
                     TextColor="{DynamicResource Primary-Green}"
                     VerticalOptions="Center"
                     WidthRequest="120" />
@@ -105,8 +105,8 @@
                     x:Name="BMI"
                     FontSize="32"
                     HorizontalOptions="EndAndExpand"
-                    Text="{Binding Bmi}"
-                    TextColor="{DynamicResource Primary-Green}"
+                    Text="{Binding Bmi, StringFormat='{0:N}'}"
+                    TextColor="{DynamicResource TextColor}"
                     VerticalOptions="Center" />
 
             </StackLayout>
@@ -125,7 +125,7 @@
 
                 <Label
                     x:Name="Status"
-                    FontSize="32"
+                    FontSize="21"
                     HorizontalOptions="EndAndExpand"
                     Text="{Binding Bmi_Status}"
                     TextColor="{Binding Status_Color}"

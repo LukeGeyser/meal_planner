@@ -66,7 +66,7 @@ namespace MealPlanner.Views
                             {
                                 Application.Current.MainPage = new HomePage();
                             });
-                            
+
                         }
                         else if (loggedInUser.Password != attemptLogin.Password)
                         {
@@ -76,7 +76,7 @@ namespace MealPlanner.Views
                                 Sign_In.IsEnabled = true;
                                 Sign_Up.IsEnabled = true;
                             });
-                            
+
                         }
                     }
                     else if (!userList.Any(user => user.Username == Username.Text && user.Password == Password.Text))

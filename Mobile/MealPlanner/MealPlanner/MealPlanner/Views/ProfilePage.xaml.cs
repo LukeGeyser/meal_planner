@@ -58,29 +58,22 @@ namespace MealPlanner.Views
                     }
                     else if (IsValidEmail(Email.Text) == true)
                     {
-                        if (Regex.IsMatch(Height.Text, @"^\d+$") == false || Regex.IsMatch(Weight.Text, @"^\d+$") == false)
+                        await dh.UpdateUserDetails(SignInPage.loggedInUser = SecurityService.EncryptNewPassword(new User()
                         {
-                            Device.BeginInvokeOnMainThread(() =>
-                            {
-                                DisplayAlert("Field Input Invalid", "Weight or Height input is incorrect...", "Got it!");
-                            });
-                        }
-                            
-                        else if (Regex.IsMatch(Height.Text, @"^\d+$") == true || Regex.IsMatch(Weight.Text, @"^\d+$") == true)
+                            Firstname = SignInPage.loggedInUser.Firstname,
+                            Lastname = SignInPage.loggedInUser.Lastname,
+                            Username = SignInPage.loggedInUser.Username,
+                            Password = Password.Text,
+                            Email = Email.Text,
+                            Dob = DOB.Date,
+                            PhoneNumber = Phone.Text,
+                            Height = double.Parse(Height.Text),
+                            Weight = double.Parse(Weight.Text)
+                        }));
+                        Device.BeginInvokeOnMainThread(() =>
                         {
-                            await dh.UpdateUserDetails(SignInPage.loggedInUser = SecurityService.EncryptNewPassword(new User()
-                            {
-                                Firstname = SignInPage.loggedInUser.Firstname,
-                                Lastname = SignInPage.loggedInUser.Lastname,
-                                Username = SignInPage.loggedInUser.Username,
-                                Password = Password.Text,
-                                Email = Email.Text,
-                                Dob = DOB.Date,
-                                PhoneNumber = Phone.Text,
-                                Height = double.Parse(Height.Text),
-                                Weight = double.Parse(Weight.Text)
-                            }));
-                        }
+                            DisplayAlert("Success", "Updated User Info", "Got it");
+                        });
                     }
                 }
             });
