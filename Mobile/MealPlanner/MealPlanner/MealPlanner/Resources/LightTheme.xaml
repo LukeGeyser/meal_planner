@@ -18,6 +18,7 @@
     <Color x:Key="BarBackGround">#2d2d2d</Color>
     <Color x:Key="BarText">#ebebeb</Color>
     <Color x:Key="BtnHeaderText">#ebebeb</Color>
+    <Color x:Key="ChartColor">#669e2f</Color>
 
     <Color x:Key="NavigationPrimary">#669e2f</Color>
     <Style TargetType="NavigationPage">

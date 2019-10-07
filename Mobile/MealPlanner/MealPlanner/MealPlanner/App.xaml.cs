@@ -22,6 +22,7 @@ namespace MealPlanner
 
         public App()
         {
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("MTUzNDI5QDMxMzcyZTMzMmUzMENnaHg1VnR0N0JCVVc1Wk9pWmhkcGgzUW1jWmpSK3Y5VHYvZzFub05Ya2c9");
             InitializeComponent();
 
             //DependencyService.Register<MockDataStore>();

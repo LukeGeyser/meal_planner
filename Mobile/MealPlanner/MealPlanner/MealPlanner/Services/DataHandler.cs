@@ -6,6 +6,7 @@ using MealPlanner.Models;
 using System.Diagnostics;
 using System.Threading.Tasks;
 using System.Collections.ObjectModel;
+using System.Data;
 
 namespace MealPlanner.Services
 {
@@ -24,7 +25,41 @@ namespace MealPlanner.Services
 
             conn = new SqlConnection(cb.ConnectionString);
         }
-         
+
+        public List<ProgressEntry> GetProgress(User user)
+        {
+            //Obtain previous weight values from database and display values on chart
+            //according to date
+            List<ProgressEntry> pg = new List<ProgressEntry>();
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT * FROM tblProgress WHERE Username=@user", conn);
+                cmd.Parameters.AddWithValue("@user", user.Username);
+                dr = cmd.ExecuteReader();
+
+                while (dr.Read())
+                {
+                    pg.Add(new ProgressEntry()
+                    {
+                        Username = dr[0].ToString(),
+                        Weight = double.Parse(dr[1].ToString()),
+                        Dob = Convert.ToDateTime(dr[2].ToString())
+                    });
+                }
+                conn.Close();
+            }
+            catch (Exception)
+            {
+            }
+            finally
+            {
+                conn.Close();
+            }
+
+            return pg;
+        }
+
         public async Task GetAllUsers(List<User> users)
         {
             try
@@ -104,6 +139,27 @@ namespace MealPlanner.Services
                 cmd.Parameters.AddWithValue("@email", Person.Email);
                 cmd.Parameters.AddWithValue("@phone", Person.PhoneNumber);
                 cmd.Parameters.AddWithValue("@salt", Person.Salt);
+                cmd.Parameters.AddWithValue("@user", Person.Username);
+                cmd.ExecuteNonQuery();
+            }
+            catch (Exception)
+            {
+
+            }
+            finally
+            {
+                if (conn != null)
+                    conn.Close();
+            }
+        }
+
+        public void UpdateUserWeight(User Person)
+        {
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("UPDATE tblUsers SET Weight=@weight WHERE Username = @user", conn);
+                cmd.Parameters.AddWithValue("@weight", Person.Weight);
                 cmd.Parameters.AddWithValue("@user", Person.Username);
                 cmd.ExecuteNonQuery();
             }

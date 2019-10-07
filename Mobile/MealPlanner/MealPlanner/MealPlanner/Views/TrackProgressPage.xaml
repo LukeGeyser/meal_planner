@@ -5,14 +5,137 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:chart="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:local="clr-namespace:MealPlanner.ViewModels"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
     <ContentPage.Content>
+
         <StackLayout>
 
-            <chart:SfChart />
+            <StackLayout Margin="50,5,15,0" Orientation="Horizontal">
 
+                <Label
+                    FontSize="Medium"
+                    Text="Enter New Weight "
+                    TextColor="{DynamicResource TextColor}"
+                    VerticalOptions="Center" />
+
+                <Entry
+                    x:Name="Weight"
+                    FontSize="Medium"
+                    HorizontalOptions="EndAndExpand"
+                    HorizontalTextAlignment="Center"
+                    Text="{Binding Height_Local, StringFormat='{0:n} kg'}"
+                    TextColor="{DynamicResource Primary-Green}"
+                    VerticalOptions="Center"
+                    WidthRequest="120" />
+
+            </StackLayout>
+
+            <Button
+                x:Name="Update"
+                Margin="125,10,125,10"
+                Padding="0,0,0,0"
+                BackgroundColor="{DynamicResource Primary-Green}"
+                Clicked="Update_Clicked"
+                CornerRadius="10"
+                FontSize="Small"
+                HeightRequest="30"
+                Text="Update"
+                TextColor="{DynamicResource BtnHeaderText}"
+                WidthRequest="50" />
+
+            <chart:SfChart
+                Grid.Row="0"
+                Margin="10,0,10,10"
+                AreaBackgroundColor="{DynamicResource BackGroundColor}"
+                AreaBorderColor="{DynamicResource BackGroundColor}"
+                AreaBorderWidth="0"
+                BackgroundColor="{DynamicResource BackGroundColor}"
+                EnableSeriesSelection="True"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand">
+
+                <chart:SfChart.Title>
+                    <chart:ChartTitle
+                        BackgroundColor="{DynamicResource BackGroundColor}"
+                        FontSize="21"
+                        Text="Your Weight Progress"
+                        TextColor="{DynamicResource Primary-Green}" />
+                </chart:SfChart.Title>
+
+                <chart:SfChart.Legend>
+                    <chart:ChartLegend />
+                </chart:SfChart.Legend>
+
+                <chart:SfChart.PrimaryAxis>
+
+                    <chart:CategoryAxis LabelPlacement="BetweenTicks">
+
+                        <chart:CategoryAxis.Title>
+
+                            <chart:ChartAxisTitle Text="Date" />
+
+                        </chart:CategoryAxis.Title>
+
+                    </chart:CategoryAxis>
+
+                </chart:SfChart.PrimaryAxis>
+
+
+
+                <chart:SfChart.SecondaryAxis>
+
+                    <chart:NumericalAxis>
+
+                        <chart:NumericalAxis.Title>
+
+                            <chart:ChartAxisTitle Text="Weight" />
+
+                        </chart:NumericalAxis.Title>
+
+                    </chart:NumericalAxis>
+
+                </chart:SfChart.SecondaryAxis>
+
+                <chart:SfChart.ChartBehaviors>
+                    <chart:ChartZoomPanBehavior />
+                </chart:SfChart.ChartBehaviors>
+
+
+                <chart:SplineSeries
+                    ItemsSource="{Binding Progress}"
+                    Label="Weight Over Time"
+                    XBindingPath="Dob"
+                    YBindingPath="Weight"
+                    Color="{DynamicResource ChartColor}">
+
+                    <chart:SplineSeries.DataMarker>
+
+                        <chart:ChartDataMarker ShowLabel="True">
+
+                            <chart:ChartDataMarker.LabelStyle>
+
+                                <chart:DataMarkerLabelStyle
+                                    BackgroundColor="{DynamicResource BackGroundColor}"
+                                    BorderColor="{DynamicResource BorderColor}"
+                                    FontAttributes="Bold"
+                                    FontSize="12"
+                                    LabelPosition="Auto"
+                                    TextColor="{DynamicResource BorderColor}" />
+
+                            </chart:ChartDataMarker.LabelStyle>
+
+                        </chart:ChartDataMarker>
+
+                    </chart:SplineSeries.DataMarker>
+
+                </chart:SplineSeries>
+
+            </chart:SfChart>
         </StackLayout>
+
+
     </ContentPage.Content>
 </ContentPage>
