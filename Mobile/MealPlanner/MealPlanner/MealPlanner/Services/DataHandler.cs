@@ -389,5 +389,113 @@ namespace MealPlanner.Services
             }
         }
 
+        public void UpdateUserProgress(string username, double weight)
+        {
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("INSERT INTO tblProgress(Username, Weight,Date) Values(@user, @weight,@date)", conn);
+                cmd.Parameters.AddWithValue("@user", username);
+                cmd.Parameters.AddWithValue("@weight", weight);
+                cmd.Parameters.AddWithValue("@date", DateTime.Now);
+                cmd.ExecuteNonQuery();
+            }
+            catch (Exception error)
+            {
+
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+
+        public List<Products> GetAllProducts()
+        {
+            List<Products> products = new List<Products>();
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT * FROM tblProducts", conn);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    products.Add(new Products(Convert.ToInt32(reader["ProductID"])
+                        , reader["ProductName"].ToString(), reader["Category"].ToString()
+                        , reader["Description"].ToString(), reader["NutritionalValue"].ToString()
+                        , reader["ProductImage"].ToString()));
+                }
+                cmd.Dispose();
+            }
+            catch (Exception error)
+            {
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return products;
+        }
+
+        //Returns a list of all the shops where a particular product is available and 
+        //the price of the product at that shop
+        public List<ShopsPrices> GetPriceComparison(int ProductID)
+        {
+            List<ShopsPrices> prices = new List<ShopsPrices>();
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT tblShops.ShopName, tblShopProducts.Price" +
+                    " FROM tblShops INNER JOIN(tblShopProducts INNER JOIN tblProducts" +
+                    " ON tblShopProducts.ProductID = tblProducts.ProductID) ON" +
+                    " tblShops.ShopID = tblShopProducts.ShopID WHERE tblProducts.ProductID = @ID", conn);
+                cmd.Parameters.AddWithValue("@ID", ProductID);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    prices.Add(new ShopsPrices(reader["ShopName"].ToString()
+                        , Convert.ToDouble(reader["Price"])));
+                }
+                cmd.Dispose();
+            }
+            catch (Exception error)
+            {
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return prices;
+        }
+
+        //Return a list of all products required for a particular recipe
+        public List<RecipeProducts> GetRecipeProducts(int recipeID)
+        {
+            List<RecipeProducts> products = new List<RecipeProducts>();
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT tblRecipes.RecipeID,tblRecipeProducts.ProductID" +
+                    " FROM tblRecipes INNER JOIN tblRecipeProducts ON tblRecipes.RecipeID ="
+                    + " tblRecipeProducts.RecipeID WHERE tblRecipeProducts.RecipeID = @ID", conn);
+                cmd.Parameters.AddWithValue("@ID", recipeID);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    products.Add(new RecipeProducts(Convert.ToInt32(reader["RecipeID"])
+                        , Convert.ToInt32(reader["ProductID"])));
+                }
+                cmd.Dispose();
+            }
+            catch (Exception error)
+            {
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return products;
+        }
+
     }
 }

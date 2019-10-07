@@ -26,7 +26,7 @@
                 x:Name="listView"
                 x:FieldModifier="public"
                 BackgroundColor="{DynamicResource BackGroundColor}"
-                RowHeight="70">
+                RowHeight="60">
                 <ListView.ItemsSource>
                     <x:Array Type="{x:Type vm:HomeMenuItem}">
                         <vm:HomeMenuItem
@@ -50,9 +50,14 @@
                             RowDefinition="0"
                             TargetType="{x:Type local:ShopsDisplayPage}" />
                         <vm:HomeMenuItem
+                            Title="Track Progress"
+                            IconSource="progress.png"
+                            RowDefinition="0"
+                            TargetType="{x:Type local:TrackProgressPage}" />
+                        <vm:HomeMenuItem
                             Title="Settings"
                             IconSource="settings.png"
-                            RowDefinition="0"
+                            RowDefinition="2"
                             TargetType="{x:Type local:SettingsPage}" />
                     </x:Array>
                 </ListView.ItemsSource>

@@ -38,7 +38,7 @@
                     FontSize="Medium"
                     HorizontalOptions="EndAndExpand"
                     HorizontalTextAlignment="Center"
-                    IsReadOnly="False"
+                    IsReadOnly="True"
                     Text="{Binding Height_Local, StringFormat='{0:n} M'}"
                     TextColor="{DynamicResource Primary-Green}"
                     VerticalOptions="Center"

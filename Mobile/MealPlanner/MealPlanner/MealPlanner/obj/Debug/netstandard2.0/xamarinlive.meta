@@ -54,7 +54,7 @@
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\BMIPage.xaml</FilePath>
-      <Hash>39-7A-B8-FD-11-24-2D-75-F7-47-2E-7F-33-F0-DE-F0</Hash>
+      <Hash>C7-34-B5-4D-EF-68-64-83-19-E8-FA-46-F8-AB-93-D1</Hash>
       <Properties>
         <string>Title</string>
       </Properties>
@@ -123,7 +123,7 @@
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\MenuPage.xaml</FilePath>
-      <Hash>B0-19-DF-FD-23-53-D9-04-7F-55-9B-23-A5-91-43-CB</Hash>
+      <Hash>95-4C-4E-44-41-A9-50-4E-83-D1-C8-57-6F-10-87-D8</Hash>
       <Properties>
         <string>Title</string>
         <string>BackgroundColor</string>
@@ -177,6 +177,11 @@
       <Properties>
         <string>BackgroundColor</string>
       </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\TrackProgressPage.xaml</FilePath>
+      <Hash>6C-2C-62-69-8C-7C-BF-B7-8D-AB-64-CF-FF-C1-32-BE</Hash>
+      <Properties />
     </XamlFileMeta>
   </Files>
 </XamlProjectMeta>

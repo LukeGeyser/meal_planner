@@ -1209,3 +1209,4 @@ C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\background.png
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\gradient.png
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\store.jpg
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\progress.png

@@ -57,9 +57,13 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "Syncfusion.Xamarin.SfChart": {
+              "target": "Package",
+              "version": "[17.3.0.14, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
-              "version": "[4.6.1, )"
+              "version": "[4.7.0, )"
             },
             "Xam.Plugins.Settings": {
               "target": "Package",
@@ -79,7 +83,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.2.0.815419, )"
+              "version": "[4.2.0.848062, )"
             },
             "XamlStyler.Console": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
