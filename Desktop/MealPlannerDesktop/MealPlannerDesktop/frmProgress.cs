@@ -96,13 +96,27 @@ namespace MealPlannerDesktop
                     , MessageBoxIcon.Error);
             }
 
-            //Save new progress in database and update chart
-            DataHandler.UpdateUserProgress(frmSignIn.SuccessfulLogin.Username, weight);
-            DisplayProgress();
-            txtWeight.Clear();
-            btnSubmit.Enabled = false;
-            MessageBox.Show("Progress Updated", "Submit Weight", MessageBoxButtons.OK
-                , MessageBoxIcon.Information);
+            List<string> dates = DataHandler.GetUserDates(frmSignIn.SuccessfulLogin.Username);
+
+            if (dates.Contains(Convert.ToString(DateTime.Today)))
+            {
+                //checks if user had already udated their weight that day
+                MessageBox.Show("Cannot update weight more than once a day", "Submit Weight", MessageBoxButtons.OK
+                , MessageBoxIcon.Error);
+                txtWeight.Clear();
+                btnSubmit.Enabled = false;
+            }
+            else
+            {
+                //Save new progress in database and update chart
+                DataHandler.UpdateUserProgress(frmSignIn.SuccessfulLogin.Username, weight);
+                DataHandler.UpdateUserWeight(weight, frmSignIn.SuccessfulLogin.Username);
+                DisplayProgress();
+                txtWeight.Clear();
+                btnSubmit.Enabled = false;
+                MessageBox.Show("Progress Updated", "Submit Weight", MessageBoxButtons.OK
+                    , MessageBoxIcon.Information);
+            }            
         }
     }
 }

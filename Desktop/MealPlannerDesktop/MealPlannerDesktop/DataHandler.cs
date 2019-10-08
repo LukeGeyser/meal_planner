@@ -623,6 +623,89 @@ namespace MealPlannerDesktop
             }
             return products;
         }
+        //updates the user's weight in their profile when changed on progress page
+        public static void UpdateUserWeight(double weight, string user)
+        {
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("UPDATE tblUsers SET Weight=@weight WHERE Username = @user", conn);
+                cmd.Parameters.AddWithValue("@user", user);
+                cmd.Parameters.AddWithValue("@weight", weight);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Weight Successfully Updated.", "Apply Changes"
+                    , MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message, "Database error occurred", MessageBoxButtons.OK
+                    , MessageBoxIcon.Error);
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+        //gets all the dates that the user's weight was updated on
+        public static List<string> GetUserDates(string user)
+        {
+            List<string> dates = new List<string>();
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT * FROM tblProgress WHERE Username=@user", conn);
+                cmd.Parameters.AddWithValue("@user", user);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    dates.Add((Convert.ToString(reader["Date"])));
+                }
+                cmd.Dispose();
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message, "Database error occurred", MessageBoxButtons.OK
+                    , MessageBoxIcon.Error);
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return dates;
+        }
 
+        public static User GetUserInfo(string user)
+        {
+            User newUser = new User();
+            try
+            {                
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT * FROM tblUsers WHERE Username=@user", conn);
+                cmd.Parameters.AddWithValue("@user", user);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    newUser.Username = reader["Username"].ToString();
+                    newUser.FirstName = reader["FirstName"].ToString();
+                    newUser.LastName = reader["LastName"].ToString();
+                    newUser.DOB = Convert.ToDateTime(reader["DOB"].ToString());
+                    newUser.Weight = double.Parse(reader["Weight"].ToString());
+                    newUser.Height = double.Parse(reader["Height"].ToString());
+                    newUser.Email = reader["Email"].ToString();
+                    newUser.Phone = reader["Phone"].ToString();
+                }
+                cmd.Dispose();
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message, "Database error occurred", MessageBoxButtons.OK
+                    , MessageBoxIcon.Error);
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return newUser;
+        }
     }
 }

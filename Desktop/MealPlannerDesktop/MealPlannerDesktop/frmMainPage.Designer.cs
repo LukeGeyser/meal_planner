@@ -42,9 +42,10 @@
             this.pbLogo = new System.Windows.Forms.PictureBox();
             this.picSlideShow = new System.Windows.Forms.PictureBox();
             this.lblQuote = new System.Windows.Forms.Label();
-            this.lblQuoteTitle = new System.Windows.Forms.Label();
             this.tmrSlideshow = new System.Windows.Forms.Timer(this.components);
             this.lblWelcome = new System.Windows.Forms.Label();
+            this.lblQuoteAuthor = new System.Windows.Forms.Label();
+            this.tmrQuotes = new System.Windows.Forms.Timer(this.components);
             this.menuChoices.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSlideShow)).BeginInit();
@@ -160,22 +161,12 @@
             // lblQuote
             // 
             this.lblQuote.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQuote.Location = new System.Drawing.Point(62, 176);
+            this.lblQuote.Location = new System.Drawing.Point(41, 126);
             this.lblQuote.Name = "lblQuote";
-            this.lblQuote.Size = new System.Drawing.Size(194, 181);
+            this.lblQuote.Size = new System.Drawing.Size(239, 161);
             this.lblQuote.TabIndex = 7;
             this.lblQuote.Text = "“By choosing healthy over skinny, you are choosing self-love over self-judgement." +
-    "”  —Steve Maraboli";
-            // 
-            // lblQuoteTitle
-            // 
-            this.lblQuoteTitle.AutoSize = true;
-            this.lblQuoteTitle.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQuoteTitle.Location = new System.Drawing.Point(40, 134);
-            this.lblQuoteTitle.Name = "lblQuoteTitle";
-            this.lblQuoteTitle.Size = new System.Drawing.Size(216, 31);
-            this.lblQuoteTitle.TabIndex = 8;
-            this.lblQuoteTitle.Text = "Quote of the day:";
+    "” ";
             // 
             // tmrSlideshow
             // 
@@ -192,14 +183,30 @@
             this.lblWelcome.TabIndex = 9;
             this.lblWelcome.Text = "Welcome {Username}";
             // 
+            // lblQuoteAuthor
+            // 
+            this.lblQuoteAuthor.AutoSize = true;
+            this.lblQuoteAuthor.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblQuoteAuthor.Location = new System.Drawing.Point(113, 298);
+            this.lblQuoteAuthor.Name = "lblQuoteAuthor";
+            this.lblQuoteAuthor.Size = new System.Drawing.Size(138, 21);
+            this.lblQuoteAuthor.TabIndex = 10;
+            this.lblQuoteAuthor.Text = " - Steve Maraboli";
+            // 
+            // tmrQuotes
+            // 
+            this.tmrQuotes.Enabled = true;
+            this.tmrQuotes.Interval = 30000;
+            this.tmrQuotes.Tick += new System.EventHandler(this.TmrQuotes_Tick);
+            // 
             // frmMainPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(183)))), ((int)(((byte)(43)))));
             this.ClientSize = new System.Drawing.Size(867, 493);
+            this.Controls.Add(this.lblQuoteAuthor);
             this.Controls.Add(this.lblWelcome);
-            this.Controls.Add(this.lblQuoteTitle);
             this.Controls.Add(this.lblQuote);
             this.Controls.Add(this.picSlideShow);
             this.Controls.Add(this.pbLogo);
@@ -233,11 +240,12 @@
         private System.Windows.Forms.ToolStripMenuItem PricetoolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem CalorietoolStripMenuItem1;
         private System.Windows.Forms.Label lblQuote;
-        private System.Windows.Forms.Label lblQuoteTitle;
         private System.Windows.Forms.Timer tmrSlideshow;
         private System.Windows.Forms.ToolStripMenuItem updateMyDetailsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem trackMyProgressToolStripMenuItem;
         private System.Windows.Forms.Label lblWelcome;
         private System.Windows.Forms.ToolStripMenuItem browseShopsMenuItem;
+        private System.Windows.Forms.Label lblQuoteAuthor;
+        private System.Windows.Forms.Timer tmrQuotes;
     }
 }
