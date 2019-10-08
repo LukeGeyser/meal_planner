@@ -233,6 +233,18 @@
                         TextColor="{DynamicResource BtnHeaderText}" />
                 </Frame>
                 <!--  TIPS FOR WEIGHT GAIN CONTENT  -->
+                <ListView
+                    BackgroundColor="{DynamicResource List-BackGroundColor}"
+                    Rotation="270"
+                    RowHeight="150">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell Tapped="ViewCell_Tapped">
+                                <Grid Rotation="90" />
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
 
                 <!--  TIPS FOR WEIGHT LOSS  -->
                 <Frame

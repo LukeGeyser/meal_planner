@@ -17,7 +17,7 @@ namespace MealPlanner.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MainPage : ContentPage
     {
-
+        ViewCell lastCell;
         public MainPage()
         {
             InitializeComponent();
@@ -85,5 +85,16 @@ namespace MealPlanner.Views
 
         #endregion
 
+        private void ViewCell_Tapped(object sender, EventArgs e)
+        {
+            if (lastCell != null)
+                lastCell.View.BackgroundColor = Color.Transparent;
+            var viewCell = (ViewCell)sender;
+            if (viewCell.View != null)
+            {
+                viewCell.View.BackgroundColor = Color.FromHex("#d4d4d4");
+                lastCell = viewCell;
+            }
+        }
     }
 }
