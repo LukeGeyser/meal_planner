@@ -74,7 +74,7 @@ namespace MealPlanner.Models
             public string vicinity { get; set; }
         }
 
-        public class RootObject
+        public class RootObjectMap
         {
             public List<object> html_attributions { get; set; }
             public List<Result> results { get; set; }

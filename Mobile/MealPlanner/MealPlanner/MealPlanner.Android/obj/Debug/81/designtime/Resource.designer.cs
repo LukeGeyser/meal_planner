@@ -26,6 +26,2266 @@ namespace MealPlanner.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_fade_in = global::MealPlanner.Droid.Resource.Animation.abc_fade_in;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_fade_out = global::MealPlanner.Droid.Resource.Animation.abc_fade_out;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::MealPlanner.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_popup_enter = global::MealPlanner.Droid.Resource.Animation.abc_popup_enter;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_popup_exit = global::MealPlanner.Droid.Resource.Animation.abc_popup_exit;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::MealPlanner.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_slide_in_bottom = global::MealPlanner.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_slide_in_top = global::MealPlanner.Droid.Resource.Animation.abc_slide_in_top;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_slide_out_bottom = global::MealPlanner.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_slide_out_top = global::MealPlanner.Droid.Resource.Animation.abc_slide_out_top;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::MealPlanner.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::MealPlanner.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.design_snackbar_in = global::MealPlanner.Droid.Resource.Animation.design_snackbar_in;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.design_snackbar_out = global::MealPlanner.Droid.Resource.Animation.design_snackbar_out;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.tooltip_enter = global::MealPlanner.Droid.Resource.Animation.tooltip_enter;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.tooltip_exit = global::MealPlanner.Droid.Resource.Animation.tooltip_exit;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animator.design_appbar_state_list_animator = global::MealPlanner.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarDivider = global::MealPlanner.Droid.Resource.Attribute.actionBarDivider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarItemBackground = global::MealPlanner.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarPopupTheme = global::MealPlanner.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarSize = global::MealPlanner.Droid.Resource.Attribute.actionBarSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarSplitStyle = global::MealPlanner.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarStyle = global::MealPlanner.Droid.Resource.Attribute.actionBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarTabBarStyle = global::MealPlanner.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarTabStyle = global::MealPlanner.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarTabTextStyle = global::MealPlanner.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarTheme = global::MealPlanner.Droid.Resource.Attribute.actionBarTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarWidgetTheme = global::MealPlanner.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionButtonStyle = global::MealPlanner.Droid.Resource.Attribute.actionButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionDropDownStyle = global::MealPlanner.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionLayout = global::MealPlanner.Droid.Resource.Attribute.actionLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionMenuTextAppearance = global::MealPlanner.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionMenuTextColor = global::MealPlanner.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeBackground = global::MealPlanner.Droid.Resource.Attribute.actionModeBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::MealPlanner.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeCloseDrawable = global::MealPlanner.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeCopyDrawable = global::MealPlanner.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeCutDrawable = global::MealPlanner.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeFindDrawable = global::MealPlanner.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModePasteDrawable = global::MealPlanner.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModePopupWindowStyle = global::MealPlanner.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::MealPlanner.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeShareDrawable = global::MealPlanner.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeSplitBackground = global::MealPlanner.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeStyle = global::MealPlanner.Droid.Resource.Attribute.actionModeStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::MealPlanner.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionOverflowButtonStyle = global::MealPlanner.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionOverflowMenuStyle = global::MealPlanner.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionProviderClass = global::MealPlanner.Droid.Resource.Attribute.actionProviderClass;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionViewClass = global::MealPlanner.Droid.Resource.Attribute.actionViewClass;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.activityChooserViewStyle = global::MealPlanner.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::MealPlanner.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.alertDialogCenterButtons = global::MealPlanner.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.alertDialogStyle = global::MealPlanner.Droid.Resource.Attribute.alertDialogStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.alertDialogTheme = global::MealPlanner.Droid.Resource.Attribute.alertDialogTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.allowStacking = global::MealPlanner.Droid.Resource.Attribute.allowStacking;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.alpha = global::MealPlanner.Droid.Resource.Attribute.alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.alphabeticModifiers = global::MealPlanner.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.arrowHeadLength = global::MealPlanner.Droid.Resource.Attribute.arrowHeadLength;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.arrowShaftLength = global::MealPlanner.Droid.Resource.Attribute.arrowShaftLength;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::MealPlanner.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.autoSizeMaxTextSize = global::MealPlanner.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.autoSizeMinTextSize = global::MealPlanner.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.autoSizePresetSizes = global::MealPlanner.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.autoSizeStepGranularity = global::MealPlanner.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.autoSizeTextType = global::MealPlanner.Droid.Resource.Attribute.autoSizeTextType;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.background = global::MealPlanner.Droid.Resource.Attribute.background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.backgroundSplit = global::MealPlanner.Droid.Resource.Attribute.backgroundSplit;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.backgroundStacked = global::MealPlanner.Droid.Resource.Attribute.backgroundStacked;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.backgroundTint = global::MealPlanner.Droid.Resource.Attribute.backgroundTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.backgroundTintMode = global::MealPlanner.Droid.Resource.Attribute.backgroundTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.barLength = global::MealPlanner.Droid.Resource.Attribute.barLength;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.behavior_autoHide = global::MealPlanner.Droid.Resource.Attribute.behavior_autoHide;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.behavior_hideable = global::MealPlanner.Droid.Resource.Attribute.behavior_hideable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.behavior_overlapTop = global::MealPlanner.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.behavior_peekHeight = global::MealPlanner.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.behavior_skipCollapsed = global::MealPlanner.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.borderlessButtonStyle = global::MealPlanner.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.borderWidth = global::MealPlanner.Droid.Resource.Attribute.borderWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.bottomSheetDialogTheme = global::MealPlanner.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.bottomSheetStyle = global::MealPlanner.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonBarButtonStyle = global::MealPlanner.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::MealPlanner.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::MealPlanner.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::MealPlanner.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonBarStyle = global::MealPlanner.Droid.Resource.Attribute.buttonBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonGravity = global::MealPlanner.Droid.Resource.Attribute.buttonGravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonPanelSideLayout = global::MealPlanner.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonStyle = global::MealPlanner.Droid.Resource.Attribute.buttonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonStyleSmall = global::MealPlanner.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonTint = global::MealPlanner.Droid.Resource.Attribute.buttonTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonTintMode = global::MealPlanner.Droid.Resource.Attribute.buttonTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.cardBackgroundColor = global::MealPlanner.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.cardCornerRadius = global::MealPlanner.Droid.Resource.Attribute.cardCornerRadius;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.cardElevation = global::MealPlanner.Droid.Resource.Attribute.cardElevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.cardMaxElevation = global::MealPlanner.Droid.Resource.Attribute.cardMaxElevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.cardPreventCornerOverlap = global::MealPlanner.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.cardUseCompatPadding = global::MealPlanner.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.checkboxStyle = global::MealPlanner.Droid.Resource.Attribute.checkboxStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.checkedTextViewStyle = global::MealPlanner.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.closeIcon = global::MealPlanner.Droid.Resource.Attribute.closeIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.closeItemLayout = global::MealPlanner.Droid.Resource.Attribute.closeItemLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.collapseContentDescription = global::MealPlanner.Droid.Resource.Attribute.collapseContentDescription;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.collapsedTitleGravity = global::MealPlanner.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::MealPlanner.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.collapseIcon = global::MealPlanner.Droid.Resource.Attribute.collapseIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.color = global::MealPlanner.Droid.Resource.Attribute.color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorAccent = global::MealPlanner.Droid.Resource.Attribute.colorAccent;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorBackgroundFloating = global::MealPlanner.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorButtonNormal = global::MealPlanner.Droid.Resource.Attribute.colorButtonNormal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorControlActivated = global::MealPlanner.Droid.Resource.Attribute.colorControlActivated;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorControlHighlight = global::MealPlanner.Droid.Resource.Attribute.colorControlHighlight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorControlNormal = global::MealPlanner.Droid.Resource.Attribute.colorControlNormal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorError = global::MealPlanner.Droid.Resource.Attribute.colorError;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorPrimary = global::MealPlanner.Droid.Resource.Attribute.colorPrimary;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorPrimaryDark = global::MealPlanner.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorSwitchThumbNormal = global::MealPlanner.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.commitIcon = global::MealPlanner.Droid.Resource.Attribute.commitIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentDescription = global::MealPlanner.Droid.Resource.Attribute.contentDescription;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentInsetEnd = global::MealPlanner.Droid.Resource.Attribute.contentInsetEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentInsetEndWithActions = global::MealPlanner.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentInsetLeft = global::MealPlanner.Droid.Resource.Attribute.contentInsetLeft;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentInsetRight = global::MealPlanner.Droid.Resource.Attribute.contentInsetRight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentInsetStart = global::MealPlanner.Droid.Resource.Attribute.contentInsetStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentInsetStartWithNavigation = global::MealPlanner.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentPadding = global::MealPlanner.Droid.Resource.Attribute.contentPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentPaddingBottom = global::MealPlanner.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentPaddingLeft = global::MealPlanner.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentPaddingRight = global::MealPlanner.Droid.Resource.Attribute.contentPaddingRight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentPaddingTop = global::MealPlanner.Droid.Resource.Attribute.contentPaddingTop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentScrim = global::MealPlanner.Droid.Resource.Attribute.contentScrim;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.controlBackground = global::MealPlanner.Droid.Resource.Attribute.controlBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.counterEnabled = global::MealPlanner.Droid.Resource.Attribute.counterEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.counterMaxLength = global::MealPlanner.Droid.Resource.Attribute.counterMaxLength;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.counterOverflowTextAppearance = global::MealPlanner.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.counterTextAppearance = global::MealPlanner.Droid.Resource.Attribute.counterTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.customNavigationLayout = global::MealPlanner.Droid.Resource.Attribute.customNavigationLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.defaultQueryHint = global::MealPlanner.Droid.Resource.Attribute.defaultQueryHint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.dialogPreferredPadding = global::MealPlanner.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.dialogTheme = global::MealPlanner.Droid.Resource.Attribute.dialogTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.displayOptions = global::MealPlanner.Droid.Resource.Attribute.displayOptions;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.divider = global::MealPlanner.Droid.Resource.Attribute.divider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.dividerHorizontal = global::MealPlanner.Droid.Resource.Attribute.dividerHorizontal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.dividerPadding = global::MealPlanner.Droid.Resource.Attribute.dividerPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.dividerVertical = global::MealPlanner.Droid.Resource.Attribute.dividerVertical;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.drawableSize = global::MealPlanner.Droid.Resource.Attribute.drawableSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.drawerArrowStyle = global::MealPlanner.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::MealPlanner.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.dropDownListViewStyle = global::MealPlanner.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.editTextBackground = global::MealPlanner.Droid.Resource.Attribute.editTextBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.editTextColor = global::MealPlanner.Droid.Resource.Attribute.editTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.editTextStyle = global::MealPlanner.Droid.Resource.Attribute.editTextStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.elevation = global::MealPlanner.Droid.Resource.Attribute.elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.errorEnabled = global::MealPlanner.Droid.Resource.Attribute.errorEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.errorTextAppearance = global::MealPlanner.Droid.Resource.Attribute.errorTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::MealPlanner.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expanded = global::MealPlanner.Droid.Resource.Attribute.expanded;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expandedTitleGravity = global::MealPlanner.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expandedTitleMargin = global::MealPlanner.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expandedTitleMarginBottom = global::MealPlanner.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expandedTitleMarginEnd = global::MealPlanner.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expandedTitleMarginStart = global::MealPlanner.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expandedTitleMarginTop = global::MealPlanner.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expandedTitleTextAppearance = global::MealPlanner.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.externalRouteEnabledDrawable = global::MealPlanner.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fabSize = global::MealPlanner.Droid.Resource.Attribute.fabSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fastScrollEnabled = global::MealPlanner.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::MealPlanner.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::MealPlanner.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable = global::MealPlanner.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable = global::MealPlanner.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.font = global::MealPlanner.Droid.Resource.Attribute.font;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontFamily = global::MealPlanner.Droid.Resource.Attribute.fontFamily;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontProviderAuthority = global::MealPlanner.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontProviderCerts = global::MealPlanner.Droid.Resource.Attribute.fontProviderCerts;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontProviderFetchStrategy = global::MealPlanner.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontProviderFetchTimeout = global::MealPlanner.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontProviderPackage = global::MealPlanner.Droid.Resource.Attribute.fontProviderPackage;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontProviderQuery = global::MealPlanner.Droid.Resource.Attribute.fontProviderQuery;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontStyle = global::MealPlanner.Droid.Resource.Attribute.fontStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontWeight = global::MealPlanner.Droid.Resource.Attribute.fontWeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.foregroundInsidePadding = global::MealPlanner.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.gapBetweenBars = global::MealPlanner.Droid.Resource.Attribute.gapBetweenBars;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.goIcon = global::MealPlanner.Droid.Resource.Attribute.goIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.headerLayout = global::MealPlanner.Droid.Resource.Attribute.headerLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.height = global::MealPlanner.Droid.Resource.Attribute.height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.hideOnContentScroll = global::MealPlanner.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.hintAnimationEnabled = global::MealPlanner.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.hintEnabled = global::MealPlanner.Droid.Resource.Attribute.hintEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.hintTextAppearance = global::MealPlanner.Droid.Resource.Attribute.hintTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.homeAsUpIndicator = global::MealPlanner.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.homeLayout = global::MealPlanner.Droid.Resource.Attribute.homeLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.icon = global::MealPlanner.Droid.Resource.Attribute.icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.iconifiedByDefault = global::MealPlanner.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.iconTint = global::MealPlanner.Droid.Resource.Attribute.iconTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.iconTintMode = global::MealPlanner.Droid.Resource.Attribute.iconTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.imageButtonStyle = global::MealPlanner.Droid.Resource.Attribute.imageButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.indeterminateProgressStyle = global::MealPlanner.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.initialActivityCount = global::MealPlanner.Droid.Resource.Attribute.initialActivityCount;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.insetForeground = global::MealPlanner.Droid.Resource.Attribute.insetForeground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.isLightTheme = global::MealPlanner.Droid.Resource.Attribute.isLightTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.itemBackground = global::MealPlanner.Droid.Resource.Attribute.itemBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.itemIconTint = global::MealPlanner.Droid.Resource.Attribute.itemIconTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.itemPadding = global::MealPlanner.Droid.Resource.Attribute.itemPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.itemTextAppearance = global::MealPlanner.Droid.Resource.Attribute.itemTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.itemTextColor = global::MealPlanner.Droid.Resource.Attribute.itemTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.keylines = global::MealPlanner.Droid.Resource.Attribute.keylines;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout = global::MealPlanner.Droid.Resource.Attribute.layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layoutManager = global::MealPlanner.Droid.Resource.Attribute.layoutManager;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_anchor = global::MealPlanner.Droid.Resource.Attribute.layout_anchor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_anchorGravity = global::MealPlanner.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_behavior = global::MealPlanner.Droid.Resource.Attribute.layout_behavior;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_collapseMode = global::MealPlanner.Droid.Resource.Attribute.layout_collapseMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::MealPlanner.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_dodgeInsetEdges = global::MealPlanner.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_insetEdge = global::MealPlanner.Droid.Resource.Attribute.layout_insetEdge;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_keyline = global::MealPlanner.Droid.Resource.Attribute.layout_keyline;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_scrollFlags = global::MealPlanner.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_scrollInterpolator = global::MealPlanner.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::MealPlanner.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listDividerAlertDialog = global::MealPlanner.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listItemLayout = global::MealPlanner.Droid.Resource.Attribute.listItemLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listLayout = global::MealPlanner.Droid.Resource.Attribute.listLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listMenuViewStyle = global::MealPlanner.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listPopupWindowStyle = global::MealPlanner.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listPreferredItemHeight = global::MealPlanner.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::MealPlanner.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::MealPlanner.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::MealPlanner.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::MealPlanner.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.logo = global::MealPlanner.Droid.Resource.Attribute.logo;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.logoDescription = global::MealPlanner.Droid.Resource.Attribute.logoDescription;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.maxActionInlineWidth = global::MealPlanner.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.maxButtonHeight = global::MealPlanner.Droid.Resource.Attribute.maxButtonHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.measureWithLargestChild = global::MealPlanner.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable = global::MealPlanner.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteButtonStyle = global::MealPlanner.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteButtonTint = global::MealPlanner.Droid.Resource.Attribute.mediaRouteButtonTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteCloseDrawable = global::MealPlanner.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::MealPlanner.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable = global::MealPlanner.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRoutePauseDrawable = global::MealPlanner.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRoutePlayDrawable = global::MealPlanner.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::MealPlanner.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::MealPlanner.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteStopDrawable = global::MealPlanner.Droid.Resource.Attribute.mediaRouteStopDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteTheme = global::MealPlanner.Droid.Resource.Attribute.mediaRouteTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteTvIconDrawable = global::MealPlanner.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.menu = global::MealPlanner.Droid.Resource.Attribute.menu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.multiChoiceItemLayout = global::MealPlanner.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.navigationContentDescription = global::MealPlanner.Droid.Resource.Attribute.navigationContentDescription;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.navigationIcon = global::MealPlanner.Droid.Resource.Attribute.navigationIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.navigationMode = global::MealPlanner.Droid.Resource.Attribute.navigationMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.numericModifiers = global::MealPlanner.Droid.Resource.Attribute.numericModifiers;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.overlapAnchor = global::MealPlanner.Droid.Resource.Attribute.overlapAnchor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.paddingBottomNoButtons = global::MealPlanner.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.paddingEnd = global::MealPlanner.Droid.Resource.Attribute.paddingEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.paddingStart = global::MealPlanner.Droid.Resource.Attribute.paddingStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.paddingTopNoTitle = global::MealPlanner.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.panelBackground = global::MealPlanner.Droid.Resource.Attribute.panelBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.panelMenuListTheme = global::MealPlanner.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.panelMenuListWidth = global::MealPlanner.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.passwordToggleContentDescription = global::MealPlanner.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.passwordToggleDrawable = global::MealPlanner.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.passwordToggleEnabled = global::MealPlanner.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.passwordToggleTint = global::MealPlanner.Droid.Resource.Attribute.passwordToggleTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.passwordToggleTintMode = global::MealPlanner.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.popupMenuStyle = global::MealPlanner.Droid.Resource.Attribute.popupMenuStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.popupTheme = global::MealPlanner.Droid.Resource.Attribute.popupTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.popupWindowStyle = global::MealPlanner.Droid.Resource.Attribute.popupWindowStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.preserveIconSpacing = global::MealPlanner.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.pressedTranslationZ = global::MealPlanner.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.progressBarPadding = global::MealPlanner.Droid.Resource.Attribute.progressBarPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.progressBarStyle = global::MealPlanner.Droid.Resource.Attribute.progressBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.queryBackground = global::MealPlanner.Droid.Resource.Attribute.queryBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.queryHint = global::MealPlanner.Droid.Resource.Attribute.queryHint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.radioButtonStyle = global::MealPlanner.Droid.Resource.Attribute.radioButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.ratingBarStyle = global::MealPlanner.Droid.Resource.Attribute.ratingBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.ratingBarStyleIndicator = global::MealPlanner.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.ratingBarStyleSmall = global::MealPlanner.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.reverseLayout = global::MealPlanner.Droid.Resource.Attribute.reverseLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.rippleColor = global::MealPlanner.Droid.Resource.Attribute.rippleColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.scrimAnimationDuration = global::MealPlanner.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.scrimVisibleHeightTrigger = global::MealPlanner.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.searchHintIcon = global::MealPlanner.Droid.Resource.Attribute.searchHintIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.searchIcon = global::MealPlanner.Droid.Resource.Attribute.searchIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.searchViewStyle = global::MealPlanner.Droid.Resource.Attribute.searchViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.seekBarStyle = global::MealPlanner.Droid.Resource.Attribute.seekBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.selectableItemBackground = global::MealPlanner.Droid.Resource.Attribute.selectableItemBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::MealPlanner.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.showAsAction = global::MealPlanner.Droid.Resource.Attribute.showAsAction;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.showDividers = global::MealPlanner.Droid.Resource.Attribute.showDividers;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.showText = global::MealPlanner.Droid.Resource.Attribute.showText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.showTitle = global::MealPlanner.Droid.Resource.Attribute.showTitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.singleChoiceItemLayout = global::MealPlanner.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.spanCount = global::MealPlanner.Droid.Resource.Attribute.spanCount;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.spinBars = global::MealPlanner.Droid.Resource.Attribute.spinBars;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::MealPlanner.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.spinnerStyle = global::MealPlanner.Droid.Resource.Attribute.spinnerStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.splitTrack = global::MealPlanner.Droid.Resource.Attribute.splitTrack;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.srcCompat = global::MealPlanner.Droid.Resource.Attribute.srcCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.stackFromEnd = global::MealPlanner.Droid.Resource.Attribute.stackFromEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.state_above_anchor = global::MealPlanner.Droid.Resource.Attribute.state_above_anchor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.state_collapsed = global::MealPlanner.Droid.Resource.Attribute.state_collapsed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.state_collapsible = global::MealPlanner.Droid.Resource.Attribute.state_collapsible;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.statusBarBackground = global::MealPlanner.Droid.Resource.Attribute.statusBarBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.statusBarScrim = global::MealPlanner.Droid.Resource.Attribute.statusBarScrim;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.subMenuArrow = global::MealPlanner.Droid.Resource.Attribute.subMenuArrow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.submitBackground = global::MealPlanner.Droid.Resource.Attribute.submitBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.subtitle = global::MealPlanner.Droid.Resource.Attribute.subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.subtitleTextAppearance = global::MealPlanner.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.subtitleTextColor = global::MealPlanner.Droid.Resource.Attribute.subtitleTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.subtitleTextStyle = global::MealPlanner.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.suggestionRowLayout = global::MealPlanner.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.switchMinWidth = global::MealPlanner.Droid.Resource.Attribute.switchMinWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.switchPadding = global::MealPlanner.Droid.Resource.Attribute.switchPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.switchStyle = global::MealPlanner.Droid.Resource.Attribute.switchStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.switchTextAppearance = global::MealPlanner.Droid.Resource.Attribute.switchTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabBackground = global::MealPlanner.Droid.Resource.Attribute.tabBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabContentStart = global::MealPlanner.Droid.Resource.Attribute.tabContentStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabGravity = global::MealPlanner.Droid.Resource.Attribute.tabGravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabIndicatorColor = global::MealPlanner.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabIndicatorHeight = global::MealPlanner.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabMaxWidth = global::MealPlanner.Droid.Resource.Attribute.tabMaxWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabMinWidth = global::MealPlanner.Droid.Resource.Attribute.tabMinWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabMode = global::MealPlanner.Droid.Resource.Attribute.tabMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabPadding = global::MealPlanner.Droid.Resource.Attribute.tabPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabPaddingBottom = global::MealPlanner.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabPaddingEnd = global::MealPlanner.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabPaddingStart = global::MealPlanner.Droid.Resource.Attribute.tabPaddingStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabPaddingTop = global::MealPlanner.Droid.Resource.Attribute.tabPaddingTop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabSelectedTextColor = global::MealPlanner.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabTextAppearance = global::MealPlanner.Droid.Resource.Attribute.tabTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabTextColor = global::MealPlanner.Droid.Resource.Attribute.tabTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAllCaps = global::MealPlanner.Droid.Resource.Attribute.textAllCaps;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::MealPlanner.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAppearanceListItem = global::MealPlanner.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAppearanceListItemSecondary = global::MealPlanner.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAppearanceListItemSmall = global::MealPlanner.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAppearancePopupMenuHeader = global::MealPlanner.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::MealPlanner.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::MealPlanner.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::MealPlanner.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textColorAlertDialogListItem = global::MealPlanner.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textColorError = global::MealPlanner.Droid.Resource.Attribute.textColorError;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textColorSearchUrl = global::MealPlanner.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.theme = global::MealPlanner.Droid.Resource.Attribute.theme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.thickness = global::MealPlanner.Droid.Resource.Attribute.thickness;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.thumbTextPadding = global::MealPlanner.Droid.Resource.Attribute.thumbTextPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.thumbTint = global::MealPlanner.Droid.Resource.Attribute.thumbTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.thumbTintMode = global::MealPlanner.Droid.Resource.Attribute.thumbTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tickMark = global::MealPlanner.Droid.Resource.Attribute.tickMark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tickMarkTint = global::MealPlanner.Droid.Resource.Attribute.tickMarkTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tickMarkTintMode = global::MealPlanner.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tint = global::MealPlanner.Droid.Resource.Attribute.tint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tintMode = global::MealPlanner.Droid.Resource.Attribute.tintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.title = global::MealPlanner.Droid.Resource.Attribute.title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleEnabled = global::MealPlanner.Droid.Resource.Attribute.titleEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleMargin = global::MealPlanner.Droid.Resource.Attribute.titleMargin;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleMarginBottom = global::MealPlanner.Droid.Resource.Attribute.titleMarginBottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleMarginEnd = global::MealPlanner.Droid.Resource.Attribute.titleMarginEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleMargins = global::MealPlanner.Droid.Resource.Attribute.titleMargins;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleMarginStart = global::MealPlanner.Droid.Resource.Attribute.titleMarginStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleMarginTop = global::MealPlanner.Droid.Resource.Attribute.titleMarginTop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleTextAppearance = global::MealPlanner.Droid.Resource.Attribute.titleTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleTextColor = global::MealPlanner.Droid.Resource.Attribute.titleTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleTextStyle = global::MealPlanner.Droid.Resource.Attribute.titleTextStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.toolbarId = global::MealPlanner.Droid.Resource.Attribute.toolbarId;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::MealPlanner.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.toolbarStyle = global::MealPlanner.Droid.Resource.Attribute.toolbarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tooltipForegroundColor = global::MealPlanner.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tooltipFrameBackground = global::MealPlanner.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tooltipText = global::MealPlanner.Droid.Resource.Attribute.tooltipText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.track = global::MealPlanner.Droid.Resource.Attribute.track;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.trackTint = global::MealPlanner.Droid.Resource.Attribute.trackTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.trackTintMode = global::MealPlanner.Droid.Resource.Attribute.trackTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.useCompatPadding = global::MealPlanner.Droid.Resource.Attribute.useCompatPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.voiceIcon = global::MealPlanner.Droid.Resource.Attribute.voiceIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowActionBar = global::MealPlanner.Droid.Resource.Attribute.windowActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowActionBarOverlay = global::MealPlanner.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowActionModeOverlay = global::MealPlanner.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowFixedHeightMajor = global::MealPlanner.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowFixedHeightMinor = global::MealPlanner.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowFixedWidthMajor = global::MealPlanner.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowFixedWidthMinor = global::MealPlanner.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowMinWidthMajor = global::MealPlanner.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowMinWidthMinor = global::MealPlanner.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowNoTitle = global::MealPlanner.Droid.Resource.Attribute.windowNoTitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::MealPlanner.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::MealPlanner.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::MealPlanner.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::MealPlanner.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::MealPlanner.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::MealPlanner.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::MealPlanner.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_btn_colored_borderless_text_material = global::MealPlanner.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_btn_colored_text_material = global::MealPlanner.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_color_highlight_material = global::MealPlanner.Droid.Resource.Color.abc_color_highlight_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_hint_foreground_material_dark = global::MealPlanner.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_hint_foreground_material_light = global::MealPlanner.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_input_method_navigation_guard = global::MealPlanner.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::MealPlanner.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::MealPlanner.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_primary_text_material_dark = global::MealPlanner.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_primary_text_material_light = global::MealPlanner.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_search_url_text = global::MealPlanner.Droid.Resource.Color.abc_search_url_text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_search_url_text_normal = global::MealPlanner.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_search_url_text_pressed = global::MealPlanner.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_search_url_text_selected = global::MealPlanner.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_secondary_text_material_dark = global::MealPlanner.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_secondary_text_material_light = global::MealPlanner.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_tint_btn_checkable = global::MealPlanner.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_tint_default = global::MealPlanner.Droid.Resource.Color.abc_tint_default;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_tint_edittext = global::MealPlanner.Droid.Resource.Color.abc_tint_edittext;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_tint_seek_thumb = global::MealPlanner.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_tint_spinner = global::MealPlanner.Droid.Resource.Color.abc_tint_spinner;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_tint_switch_track = global::MealPlanner.Droid.Resource.Color.abc_tint_switch_track;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.accent_material_dark = global::MealPlanner.Droid.Resource.Color.accent_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.accent_material_light = global::MealPlanner.Droid.Resource.Color.accent_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.background_floating_material_dark = global::MealPlanner.Droid.Resource.Color.background_floating_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.background_floating_material_light = global::MealPlanner.Droid.Resource.Color.background_floating_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.background_material_dark = global::MealPlanner.Droid.Resource.Color.background_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.background_material_light = global::MealPlanner.Droid.Resource.Color.background_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::MealPlanner.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.bright_foreground_disabled_material_light = global::MealPlanner.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::MealPlanner.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.bright_foreground_inverse_material_light = global::MealPlanner.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.bright_foreground_material_dark = global::MealPlanner.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.bright_foreground_material_light = global::MealPlanner.Droid.Resource.Color.bright_foreground_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.button_material_dark = global::MealPlanner.Droid.Resource.Color.button_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.button_material_light = global::MealPlanner.Droid.Resource.Color.button_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.cardview_dark_background = global::MealPlanner.Droid.Resource.Color.cardview_dark_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.cardview_light_background = global::MealPlanner.Droid.Resource.Color.cardview_light_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.cardview_shadow_end_color = global::MealPlanner.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.cardview_shadow_start_color = global::MealPlanner.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_bottom_navigation_shadow_color = global::MealPlanner.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_error = global::MealPlanner.Droid.Resource.Color.design_error;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_fab_shadow_end_color = global::MealPlanner.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_fab_shadow_mid_color = global::MealPlanner.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_fab_shadow_start_color = global::MealPlanner.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::MealPlanner.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::MealPlanner.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::MealPlanner.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::MealPlanner.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_snackbar_background_color = global::MealPlanner.Droid.Resource.Color.design_snackbar_background_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_tint_password_toggle = global::MealPlanner.Droid.Resource.Color.design_tint_password_toggle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::MealPlanner.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.dim_foreground_disabled_material_light = global::MealPlanner.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.dim_foreground_material_dark = global::MealPlanner.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.dim_foreground_material_light = global::MealPlanner.Droid.Resource.Color.dim_foreground_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.error_color_material = global::MealPlanner.Droid.Resource.Color.error_color_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.foreground_material_dark = global::MealPlanner.Droid.Resource.Color.foreground_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.foreground_material_light = global::MealPlanner.Droid.Resource.Color.foreground_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.highlighted_text_material_dark = global::MealPlanner.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.highlighted_text_material_light = global::MealPlanner.Droid.Resource.Color.highlighted_text_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_blue_grey_800 = global::MealPlanner.Droid.Resource.Color.material_blue_grey_800;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_blue_grey_900 = global::MealPlanner.Droid.Resource.Color.material_blue_grey_900;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_blue_grey_950 = global::MealPlanner.Droid.Resource.Color.material_blue_grey_950;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_deep_teal_200 = global::MealPlanner.Droid.Resource.Color.material_deep_teal_200;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_deep_teal_500 = global::MealPlanner.Droid.Resource.Color.material_deep_teal_500;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_grey_100 = global::MealPlanner.Droid.Resource.Color.material_grey_100;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_grey_300 = global::MealPlanner.Droid.Resource.Color.material_grey_300;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_grey_50 = global::MealPlanner.Droid.Resource.Color.material_grey_50;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_grey_600 = global::MealPlanner.Droid.Resource.Color.material_grey_600;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_grey_800 = global::MealPlanner.Droid.Resource.Color.material_grey_800;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_grey_850 = global::MealPlanner.Droid.Resource.Color.material_grey_850;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_grey_900 = global::MealPlanner.Droid.Resource.Color.material_grey_900;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.notification_action_color_filter = global::MealPlanner.Droid.Resource.Color.notification_action_color_filter;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.notification_icon_bg_color = global::MealPlanner.Droid.Resource.Color.notification_icon_bg_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.notification_material_background_media_default_color = global::MealPlanner.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.primary_dark_material_dark = global::MealPlanner.Droid.Resource.Color.primary_dark_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.primary_dark_material_light = global::MealPlanner.Droid.Resource.Color.primary_dark_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.primary_material_dark = global::MealPlanner.Droid.Resource.Color.primary_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.primary_material_light = global::MealPlanner.Droid.Resource.Color.primary_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.primary_text_default_material_dark = global::MealPlanner.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.primary_text_default_material_light = global::MealPlanner.Droid.Resource.Color.primary_text_default_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.primary_text_disabled_material_dark = global::MealPlanner.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.primary_text_disabled_material_light = global::MealPlanner.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.ripple_material_dark = global::MealPlanner.Droid.Resource.Color.ripple_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.ripple_material_light = global::MealPlanner.Droid.Resource.Color.ripple_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.secondary_text_default_material_dark = global::MealPlanner.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.secondary_text_default_material_light = global::MealPlanner.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.secondary_text_disabled_material_dark = global::MealPlanner.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.secondary_text_disabled_material_light = global::MealPlanner.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::MealPlanner.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.switch_thumb_disabled_material_light = global::MealPlanner.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.switch_thumb_material_dark = global::MealPlanner.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.switch_thumb_material_light = global::MealPlanner.Droid.Resource.Color.switch_thumb_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.switch_thumb_normal_material_dark = global::MealPlanner.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.switch_thumb_normal_material_light = global::MealPlanner.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.tooltip_background_dark = global::MealPlanner.Droid.Resource.Color.tooltip_background_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.tooltip_background_light = global::MealPlanner.Droid.Resource.Color.tooltip_background_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::MealPlanner.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::MealPlanner.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::MealPlanner.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::MealPlanner.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::MealPlanner.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_elevation_material = global::MealPlanner.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::MealPlanner.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::MealPlanner.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::MealPlanner.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_progress_bar_size = global::MealPlanner.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::MealPlanner.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::MealPlanner.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::MealPlanner.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::MealPlanner.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_button_min_height_material = global::MealPlanner.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_button_min_width_material = global::MealPlanner.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::MealPlanner.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::MealPlanner.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::MealPlanner.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::MealPlanner.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::MealPlanner.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::MealPlanner.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::MealPlanner.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::MealPlanner.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_control_corner_material = global::MealPlanner.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_control_inset_material = global::MealPlanner.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_control_padding_material = global::MealPlanner.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::MealPlanner.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::MealPlanner.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::MealPlanner.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::MealPlanner.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::MealPlanner.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::MealPlanner.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_min_width_major = global::MealPlanner.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::MealPlanner.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_padding_material = global::MealPlanner.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::MealPlanner.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_title_divider_material = global::MealPlanner.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::MealPlanner.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::MealPlanner.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::MealPlanner.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::MealPlanner.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::MealPlanner.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::MealPlanner.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::MealPlanner.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::MealPlanner.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_floating_window_z = global::MealPlanner.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::MealPlanner.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_panel_menu_list_width = global::MealPlanner.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_progress_bar_height_material = global::MealPlanner.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_search_view_preferred_height = global::MealPlanner.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_search_view_preferred_width = global::MealPlanner.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::MealPlanner.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::MealPlanner.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::MealPlanner.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_switch_padding = global::MealPlanner.Droid.Resource.Dimension.abc_switch_padding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_body_1_material = global::MealPlanner.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_body_2_material = global::MealPlanner.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_button_material = global::MealPlanner.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_caption_material = global::MealPlanner.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_display_1_material = global::MealPlanner.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_display_2_material = global::MealPlanner.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_display_3_material = global::MealPlanner.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_display_4_material = global::MealPlanner.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_headline_material = global::MealPlanner.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_large_material = global::MealPlanner.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_medium_material = global::MealPlanner.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_menu_header_material = global::MealPlanner.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_menu_material = global::MealPlanner.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_small_material = global::MealPlanner.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_subhead_material = global::MealPlanner.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::MealPlanner.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_title_material = global::MealPlanner.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::MealPlanner.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::MealPlanner.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.cardview_default_elevation = global::MealPlanner.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.cardview_default_radius = global::MealPlanner.Droid.Resource.Dimension.cardview_default_radius;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.compat_button_inset_horizontal_material = global::MealPlanner.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.compat_button_inset_vertical_material = global::MealPlanner.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.compat_button_padding_horizontal_material = global::MealPlanner.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.compat_button_padding_vertical_material = global::MealPlanner.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.compat_control_corner_material = global::MealPlanner.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_appbar_elevation = global::MealPlanner.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::MealPlanner.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_active_text_size = global::MealPlanner.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_elevation = global::MealPlanner.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_height = global::MealPlanner.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_item_max_width = global::MealPlanner.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_item_min_width = global::MealPlanner.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_margin = global::MealPlanner.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_shadow_height = global::MealPlanner.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_text_size = global::MealPlanner.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::MealPlanner.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min = global::MealPlanner.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_fab_border_width = global::MealPlanner.Droid.Resource.Dimension.design_fab_border_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_fab_elevation = global::MealPlanner.Droid.Resource.Dimension.design_fab_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_fab_image_size = global::MealPlanner.Droid.Resource.Dimension.design_fab_image_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_fab_size_mini = global::MealPlanner.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_fab_size_normal = global::MealPlanner.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::MealPlanner.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_navigation_elevation = global::MealPlanner.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_navigation_icon_padding = global::MealPlanner.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_navigation_icon_size = global::MealPlanner.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_navigation_max_width = global::MealPlanner.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_navigation_padding_bottom = global::MealPlanner.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::MealPlanner.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::MealPlanner.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::MealPlanner.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_elevation = global::MealPlanner.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::MealPlanner.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_max_width = global::MealPlanner.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_min_width = global::MealPlanner.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::MealPlanner.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::MealPlanner.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::MealPlanner.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_text_size = global::MealPlanner.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_tab_max_width = global::MealPlanner.Droid.Resource.Dimension.design_tab_max_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::MealPlanner.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_tab_text_size = global::MealPlanner.Droid.Resource.Dimension.design_tab_text_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_tab_text_size_2line = global::MealPlanner.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.disabled_alpha_material_dark = global::MealPlanner.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.disabled_alpha_material_light = global::MealPlanner.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.fastscroll_default_thickness = global::MealPlanner.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.fastscroll_margin = global::MealPlanner.Droid.Resource.Dimension.fastscroll_margin;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.fastscroll_minimum_range = global::MealPlanner.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.highlight_alpha_material_colored = global::MealPlanner.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.highlight_alpha_material_dark = global::MealPlanner.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.highlight_alpha_material_light = global::MealPlanner.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.hint_alpha_material_dark = global::MealPlanner.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.hint_alpha_material_light = global::MealPlanner.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.hint_pressed_alpha_material_dark = global::MealPlanner.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.hint_pressed_alpha_material_light = global::MealPlanner.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::MealPlanner.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::MealPlanner.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::MealPlanner.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height = global::MealPlanner.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::MealPlanner.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height = global::MealPlanner.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::MealPlanner.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.mr_dialog_fixed_width_major = global::MealPlanner.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.mr_dialog_fixed_width_minor = global::MealPlanner.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_action_icon_size = global::MealPlanner.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_action_text_size = global::MealPlanner.Droid.Resource.Dimension.notification_action_text_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_big_circle_margin = global::MealPlanner.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_content_margin_start = global::MealPlanner.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_large_icon_height = global::MealPlanner.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_large_icon_width = global::MealPlanner.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_main_column_padding_top = global::MealPlanner.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_media_narrow_margin = global::MealPlanner.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_right_icon_size = global::MealPlanner.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_right_side_padding_top = global::MealPlanner.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_small_icon_background_padding = global::MealPlanner.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_small_icon_size_as_large = global::MealPlanner.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_subtext_size = global::MealPlanner.Droid.Resource.Dimension.notification_subtext_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_top_pad = global::MealPlanner.Droid.Resource.Dimension.notification_top_pad;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_top_pad_large_text = global::MealPlanner.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_corner_radius = global::MealPlanner.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_horizontal_padding = global::MealPlanner.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_margin = global::MealPlanner.Droid.Resource.Dimension.tooltip_margin;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::MealPlanner.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_precise_anchor_threshold = global::MealPlanner.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_vertical_padding = global::MealPlanner.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_y_offset_non_touch = global::MealPlanner.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_y_offset_touch = global::MealPlanner.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::MealPlanner.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::MealPlanner.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_borderless_material = global::MealPlanner.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_check_material = global::MealPlanner.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::MealPlanner.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::MealPlanner.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_colored_material = global::MealPlanner.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::MealPlanner.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_radio_material = global::MealPlanner.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::MealPlanner.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::MealPlanner.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::MealPlanner.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::MealPlanner.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::MealPlanner.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_cab_background_top_material = global::MealPlanner.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::MealPlanner.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_control_background_material = global::MealPlanner.Droid.Resource.Drawable.abc_control_background_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_dialog_material_background = global::MealPlanner.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_edit_text_material = global::MealPlanner.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_ab_back_material = global::MealPlanner.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::MealPlanner.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_clear_material = global::MealPlanner.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::MealPlanner.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_go_search_api_material = global::MealPlanner.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::MealPlanner.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::MealPlanner.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_menu_overflow_material = global::MealPlanner.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::MealPlanner.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::MealPlanner.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::MealPlanner.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_search_api_material = global::MealPlanner.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::MealPlanner.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::MealPlanner.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_star_black_48dp = global::MealPlanner.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::MealPlanner.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::MealPlanner.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_star_half_black_48dp = global::MealPlanner.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_voice_search_api_material = global::MealPlanner.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_item_background_holo_dark = global::MealPlanner.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_item_background_holo_light = global::MealPlanner.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::MealPlanner.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_focused_holo = global::MealPlanner.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_longpressed_holo = global::MealPlanner.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::MealPlanner.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::MealPlanner.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::MealPlanner.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::MealPlanner.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::MealPlanner.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::MealPlanner.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::MealPlanner.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_selector_holo_light = global::MealPlanner.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::MealPlanner.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::MealPlanner.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::MealPlanner.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ratingbar_material = global::MealPlanner.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ratingbar_small_material = global::MealPlanner.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::MealPlanner.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::MealPlanner.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::MealPlanner.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::MealPlanner.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::MealPlanner.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::MealPlanner.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_seekbar_tick_mark_material = global::MealPlanner.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_seekbar_track_material = global::MealPlanner.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::MealPlanner.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::MealPlanner.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_switch_thumb_material = global::MealPlanner.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::MealPlanner.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_tab_indicator_material = global::MealPlanner.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::MealPlanner.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::MealPlanner.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::MealPlanner.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::MealPlanner.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::MealPlanner.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_textfield_search_material = global::MealPlanner.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_text_cursor_material = global::MealPlanner.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::MealPlanner.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::MealPlanner.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::MealPlanner.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::MealPlanner.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::MealPlanner.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::MealPlanner.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_vector_test = global::MealPlanner.Droid.Resource.Drawable.abc_vector_test;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.avd_hide_password = global::MealPlanner.Droid.Resource.Drawable.avd_hide_password;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.avd_show_password = global::MealPlanner.Droid.Resource.Drawable.avd_show_password;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.bottom_shadow = global::MealPlanner.Droid.Resource.Drawable.bottom_shadow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.design_bottom_navigation_item_background = global::MealPlanner.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.design_fab_background = global::MealPlanner.Droid.Resource.Drawable.design_fab_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.design_ic_visibility = global::MealPlanner.Droid.Resource.Drawable.design_ic_visibility;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.design_ic_visibility_off = global::MealPlanner.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.design_password_eye = global::MealPlanner.Droid.Resource.Drawable.design_password_eye;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.design_snackbar_background = global::MealPlanner.Droid.Resource.Drawable.design_snackbar_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_audiotrack_dark = global::MealPlanner.Droid.Resource.Drawable.ic_audiotrack_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_audiotrack_light = global::MealPlanner.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_dialog_close_dark = global::MealPlanner.Droid.Resource.Drawable.ic_dialog_close_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_dialog_close_light = global::MealPlanner.Droid.Resource.Drawable.ic_dialog_close_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_00 = global::MealPlanner.Droid.Resource.Drawable.ic_group_collapse_00;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_01 = global::MealPlanner.Droid.Resource.Drawable.ic_group_collapse_01;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_02 = global::MealPlanner.Droid.Resource.Drawable.ic_group_collapse_02;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_03 = global::MealPlanner.Droid.Resource.Drawable.ic_group_collapse_03;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_04 = global::MealPlanner.Droid.Resource.Drawable.ic_group_collapse_04;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_05 = global::MealPlanner.Droid.Resource.Drawable.ic_group_collapse_05;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_06 = global::MealPlanner.Droid.Resource.Drawable.ic_group_collapse_06;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_07 = global::MealPlanner.Droid.Resource.Drawable.ic_group_collapse_07;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_08 = global::MealPlanner.Droid.Resource.Drawable.ic_group_collapse_08;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_09 = global::MealPlanner.Droid.Resource.Drawable.ic_group_collapse_09;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_10 = global::MealPlanner.Droid.Resource.Drawable.ic_group_collapse_10;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_11 = global::MealPlanner.Droid.Resource.Drawable.ic_group_collapse_11;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_12 = global::MealPlanner.Droid.Resource.Drawable.ic_group_collapse_12;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_13 = global::MealPlanner.Droid.Resource.Drawable.ic_group_collapse_13;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_14 = global::MealPlanner.Droid.Resource.Drawable.ic_group_collapse_14;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_15 = global::MealPlanner.Droid.Resource.Drawable.ic_group_collapse_15;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_00 = global::MealPlanner.Droid.Resource.Drawable.ic_group_expand_00;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_01 = global::MealPlanner.Droid.Resource.Drawable.ic_group_expand_01;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_02 = global::MealPlanner.Droid.Resource.Drawable.ic_group_expand_02;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_03 = global::MealPlanner.Droid.Resource.Drawable.ic_group_expand_03;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_04 = global::MealPlanner.Droid.Resource.Drawable.ic_group_expand_04;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_05 = global::MealPlanner.Droid.Resource.Drawable.ic_group_expand_05;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_06 = global::MealPlanner.Droid.Resource.Drawable.ic_group_expand_06;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_07 = global::MealPlanner.Droid.Resource.Drawable.ic_group_expand_07;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_08 = global::MealPlanner.Droid.Resource.Drawable.ic_group_expand_08;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_09 = global::MealPlanner.Droid.Resource.Drawable.ic_group_expand_09;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_10 = global::MealPlanner.Droid.Resource.Drawable.ic_group_expand_10;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_11 = global::MealPlanner.Droid.Resource.Drawable.ic_group_expand_11;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_12 = global::MealPlanner.Droid.Resource.Drawable.ic_group_expand_12;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_13 = global::MealPlanner.Droid.Resource.Drawable.ic_group_expand_13;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_14 = global::MealPlanner.Droid.Resource.Drawable.ic_group_expand_14;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_15 = global::MealPlanner.Droid.Resource.Drawable.ic_group_expand_15;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_media_pause_dark = global::MealPlanner.Droid.Resource.Drawable.ic_media_pause_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_media_pause_light = global::MealPlanner.Droid.Resource.Drawable.ic_media_pause_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_media_play_dark = global::MealPlanner.Droid.Resource.Drawable.ic_media_play_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_media_play_light = global::MealPlanner.Droid.Resource.Drawable.ic_media_play_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_media_stop_dark = global::MealPlanner.Droid.Resource.Drawable.ic_media_stop_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_media_stop_light = global::MealPlanner.Droid.Resource.Drawable.ic_media_stop_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_00_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_00_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_01_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_01_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_02_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_02_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_03_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_03_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_04_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_04_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_05_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_05_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_06_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_06_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_07_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_07_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_08_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_08_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_09_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_09_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_10_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_10_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_11_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_11_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_12_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_12_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_13_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_13_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_14_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_14_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_15_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_15_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_16_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_16_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_17_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_17_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_18_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_18_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_19_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_19_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_20_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_20_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_21_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_21_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_22_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_22_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_23_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_23_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_23_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_23_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_24_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_24_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_24_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_24_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_25_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_25_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_25_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_25_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_26_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_26_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_26_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_26_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_27_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_27_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_27_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_27_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_28_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_28_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_28_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_28_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_29_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_29_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_29_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_29_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_30_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_30_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_30_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connected_30_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_00_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_01_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_02_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_03_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_04_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_05_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_06_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_07_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_08_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_09_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_10_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_11_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_12_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_13_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_14_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_15_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_16_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_17_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_18_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_19_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_20_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_21_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_22_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_23_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_23_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_23_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_23_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_24_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_24_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_24_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_24_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_25_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_25_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_25_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_25_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_26_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_26_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_26_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_26_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_27_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_27_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_27_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_27_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_28_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_28_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_28_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_28_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_29_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_29_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_29_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_29_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_30_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_30_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_30_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_connecting_30_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_disabled_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_disabled_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_disabled_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_disconnected_dark = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_disconnected_light = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_grey = global::MealPlanner.Droid.Resource.Drawable.ic_mr_button_grey;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_vol_type_speaker_dark = global::MealPlanner.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark = global::MealPlanner.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_vol_type_speaker_group_light = global::MealPlanner.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_vol_type_speaker_light = global::MealPlanner.Droid.Resource.Drawable.ic_vol_type_speaker_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_vol_type_tv_dark = global::MealPlanner.Droid.Resource.Drawable.ic_vol_type_tv_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_vol_type_tv_light = global::MealPlanner.Droid.Resource.Drawable.ic_vol_type_tv_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_button_connected_dark = global::MealPlanner.Droid.Resource.Drawable.mr_button_connected_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_button_connected_light = global::MealPlanner.Droid.Resource.Drawable.mr_button_connected_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_button_connecting_dark = global::MealPlanner.Droid.Resource.Drawable.mr_button_connecting_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_button_connecting_light = global::MealPlanner.Droid.Resource.Drawable.mr_button_connecting_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_button_dark = global::MealPlanner.Droid.Resource.Drawable.mr_button_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_button_light = global::MealPlanner.Droid.Resource.Drawable.mr_button_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_dialog_close_dark = global::MealPlanner.Droid.Resource.Drawable.mr_dialog_close_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_dialog_close_light = global::MealPlanner.Droid.Resource.Drawable.mr_dialog_close_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_dialog_material_background_dark = global::MealPlanner.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_dialog_material_background_light = global::MealPlanner.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_group_collapse = global::MealPlanner.Droid.Resource.Drawable.mr_group_collapse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_group_expand = global::MealPlanner.Droid.Resource.Drawable.mr_group_expand;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_media_pause_dark = global::MealPlanner.Droid.Resource.Drawable.mr_media_pause_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_media_pause_light = global::MealPlanner.Droid.Resource.Drawable.mr_media_pause_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_media_play_dark = global::MealPlanner.Droid.Resource.Drawable.mr_media_play_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_media_play_light = global::MealPlanner.Droid.Resource.Drawable.mr_media_play_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_media_stop_dark = global::MealPlanner.Droid.Resource.Drawable.mr_media_stop_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_media_stop_light = global::MealPlanner.Droid.Resource.Drawable.mr_media_stop_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark = global::MealPlanner.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_vol_type_audiotrack_light = global::MealPlanner.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.navigation_empty_icon = global::MealPlanner.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_action_background = global::MealPlanner.Droid.Resource.Drawable.notification_action_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_bg = global::MealPlanner.Droid.Resource.Drawable.notification_bg;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_bg_low = global::MealPlanner.Droid.Resource.Drawable.notification_bg_low;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_bg_low_normal = global::MealPlanner.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_bg_low_pressed = global::MealPlanner.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_bg_normal = global::MealPlanner.Droid.Resource.Drawable.notification_bg_normal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_bg_normal_pressed = global::MealPlanner.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_icon_background = global::MealPlanner.Droid.Resource.Drawable.notification_icon_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_template_icon_bg = global::MealPlanner.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_template_icon_low_bg = global::MealPlanner.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_tile_bg = global::MealPlanner.Droid.Resource.Drawable.notification_tile_bg;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::MealPlanner.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.tooltip_frame_dark = global::MealPlanner.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.tooltip_frame_light = global::MealPlanner.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.top_shadow = global::MealPlanner.Droid.Resource.Drawable.top_shadow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action0 = global::MealPlanner.Droid.Resource.Id.action0;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.actions = global::MealPlanner.Droid.Resource.Id.actions;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_bar = global::MealPlanner.Droid.Resource.Id.action_bar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_bar_activity_content = global::MealPlanner.Droid.Resource.Id.action_bar_activity_content;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_bar_container = global::MealPlanner.Droid.Resource.Id.action_bar_container;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_bar_root = global::MealPlanner.Droid.Resource.Id.action_bar_root;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_bar_spinner = global::MealPlanner.Droid.Resource.Id.action_bar_spinner;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_bar_subtitle = global::MealPlanner.Droid.Resource.Id.action_bar_subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_bar_title = global::MealPlanner.Droid.Resource.Id.action_bar_title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_container = global::MealPlanner.Droid.Resource.Id.action_container;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_context_bar = global::MealPlanner.Droid.Resource.Id.action_context_bar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_divider = global::MealPlanner.Droid.Resource.Id.action_divider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_image = global::MealPlanner.Droid.Resource.Id.action_image;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_menu_divider = global::MealPlanner.Droid.Resource.Id.action_menu_divider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_menu_presenter = global::MealPlanner.Droid.Resource.Id.action_menu_presenter;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_mode_bar_stub = global::MealPlanner.Droid.Resource.Id.action_mode_bar_stub;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_mode_close_button = global::MealPlanner.Droid.Resource.Id.action_mode_close_button;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_text = global::MealPlanner.Droid.Resource.Id.action_text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.activity_chooser_view_content = global::MealPlanner.Droid.Resource.Id.activity_chooser_view_content;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.add = global::MealPlanner.Droid.Resource.Id.add;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.alertTitle = global::MealPlanner.Droid.Resource.Id.alertTitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.all = global::MealPlanner.Droid.Resource.Id.all;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.ALT = global::MealPlanner.Droid.Resource.Id.ALT;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.always = global::MealPlanner.Droid.Resource.Id.always;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.async = global::MealPlanner.Droid.Resource.Id.async;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.auto = global::MealPlanner.Droid.Resource.Id.auto;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.beginning = global::MealPlanner.Droid.Resource.Id.beginning;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.blocking = global::MealPlanner.Droid.Resource.Id.blocking;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.bottom = global::MealPlanner.Droid.Resource.Id.bottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.buttonPanel = global::MealPlanner.Droid.Resource.Id.buttonPanel;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.cancel_action = global::MealPlanner.Droid.Resource.Id.cancel_action;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.center = global::MealPlanner.Droid.Resource.Id.center;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.center_horizontal = global::MealPlanner.Droid.Resource.Id.center_horizontal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.center_vertical = global::MealPlanner.Droid.Resource.Id.center_vertical;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.checkbox = global::MealPlanner.Droid.Resource.Id.checkbox;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.chronometer = global::MealPlanner.Droid.Resource.Id.chronometer;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.clip_horizontal = global::MealPlanner.Droid.Resource.Id.clip_horizontal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.clip_vertical = global::MealPlanner.Droid.Resource.Id.clip_vertical;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.collapseActionView = global::MealPlanner.Droid.Resource.Id.collapseActionView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.container = global::MealPlanner.Droid.Resource.Id.container;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.contentPanel = global::MealPlanner.Droid.Resource.Id.contentPanel;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.coordinator = global::MealPlanner.Droid.Resource.Id.coordinator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.CTRL = global::MealPlanner.Droid.Resource.Id.CTRL;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.custom = global::MealPlanner.Droid.Resource.Id.custom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.customPanel = global::MealPlanner.Droid.Resource.Id.customPanel;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.decor_content_parent = global::MealPlanner.Droid.Resource.Id.decor_content_parent;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.default_activity_button = global::MealPlanner.Droid.Resource.Id.default_activity_button;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.design_bottom_sheet = global::MealPlanner.Droid.Resource.Id.design_bottom_sheet;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.design_menu_item_action_area_stub = global::MealPlanner.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.design_menu_item_text = global::MealPlanner.Droid.Resource.Id.design_menu_item_text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.design_navigation_view = global::MealPlanner.Droid.Resource.Id.design_navigation_view;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.disableHome = global::MealPlanner.Droid.Resource.Id.disableHome;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.edit_query = global::MealPlanner.Droid.Resource.Id.edit_query;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.end = global::MealPlanner.Droid.Resource.Id.end;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.end_padder = global::MealPlanner.Droid.Resource.Id.end_padder;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.enterAlways = global::MealPlanner.Droid.Resource.Id.enterAlways;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.enterAlwaysCollapsed = global::MealPlanner.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.exitUntilCollapsed = global::MealPlanner.Droid.Resource.Id.exitUntilCollapsed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.expanded_menu = global::MealPlanner.Droid.Resource.Id.expanded_menu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.expand_activities_button = global::MealPlanner.Droid.Resource.Id.expand_activities_button;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.fill = global::MealPlanner.Droid.Resource.Id.fill;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.fill_horizontal = global::MealPlanner.Droid.Resource.Id.fill_horizontal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.fill_vertical = global::MealPlanner.Droid.Resource.Id.fill_vertical;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.@fixed = global::MealPlanner.Droid.Resource.Id.@fixed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.forever = global::MealPlanner.Droid.Resource.Id.forever;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.FUNCTION = global::MealPlanner.Droid.Resource.Id.FUNCTION;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.ghost_view = global::MealPlanner.Droid.Resource.Id.ghost_view;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.home = global::MealPlanner.Droid.Resource.Id.home;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.homeAsUp = global::MealPlanner.Droid.Resource.Id.homeAsUp;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.icon = global::MealPlanner.Droid.Resource.Id.icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.icon_group = global::MealPlanner.Droid.Resource.Id.icon_group;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.ifRoom = global::MealPlanner.Droid.Resource.Id.ifRoom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.image = global::MealPlanner.Droid.Resource.Id.image;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.info = global::MealPlanner.Droid.Resource.Id.info;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.italic = global::MealPlanner.Droid.Resource.Id.italic;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.item_touch_helper_previous_elevation = global::MealPlanner.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.largeLabel = global::MealPlanner.Droid.Resource.Id.largeLabel;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.left = global::MealPlanner.Droid.Resource.Id.left;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.line1 = global::MealPlanner.Droid.Resource.Id.line1;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.line3 = global::MealPlanner.Droid.Resource.Id.line3;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.listMode = global::MealPlanner.Droid.Resource.Id.listMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.list_item = global::MealPlanner.Droid.Resource.Id.list_item;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.masked = global::MealPlanner.Droid.Resource.Id.masked;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.media_actions = global::MealPlanner.Droid.Resource.Id.media_actions;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.message = global::MealPlanner.Droid.Resource.Id.message;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.META = global::MealPlanner.Droid.Resource.Id.META;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.middle = global::MealPlanner.Droid.Resource.Id.middle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mini = global::MealPlanner.Droid.Resource.Id.mini;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_art = global::MealPlanner.Droid.Resource.Id.mr_art;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_chooser_list = global::MealPlanner.Droid.Resource.Id.mr_chooser_list;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_chooser_route_desc = global::MealPlanner.Droid.Resource.Id.mr_chooser_route_desc;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_chooser_route_icon = global::MealPlanner.Droid.Resource.Id.mr_chooser_route_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_chooser_route_name = global::MealPlanner.Droid.Resource.Id.mr_chooser_route_name;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_chooser_title = global::MealPlanner.Droid.Resource.Id.mr_chooser_title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_close = global::MealPlanner.Droid.Resource.Id.mr_close;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_control_divider = global::MealPlanner.Droid.Resource.Id.mr_control_divider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_control_playback_ctrl = global::MealPlanner.Droid.Resource.Id.mr_control_playback_ctrl;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_control_subtitle = global::MealPlanner.Droid.Resource.Id.mr_control_subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_control_title = global::MealPlanner.Droid.Resource.Id.mr_control_title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_control_title_container = global::MealPlanner.Droid.Resource.Id.mr_control_title_container;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_custom_control = global::MealPlanner.Droid.Resource.Id.mr_custom_control;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_default_control = global::MealPlanner.Droid.Resource.Id.mr_default_control;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_dialog_area = global::MealPlanner.Droid.Resource.Id.mr_dialog_area;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_expandable_area = global::MealPlanner.Droid.Resource.Id.mr_expandable_area;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_group_expand_collapse = global::MealPlanner.Droid.Resource.Id.mr_group_expand_collapse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_media_main_control = global::MealPlanner.Droid.Resource.Id.mr_media_main_control;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_name = global::MealPlanner.Droid.Resource.Id.mr_name;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_playback_control = global::MealPlanner.Droid.Resource.Id.mr_playback_control;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_title_bar = global::MealPlanner.Droid.Resource.Id.mr_title_bar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_volume_control = global::MealPlanner.Droid.Resource.Id.mr_volume_control;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_volume_group_list = global::MealPlanner.Droid.Resource.Id.mr_volume_group_list;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_volume_item_icon = global::MealPlanner.Droid.Resource.Id.mr_volume_item_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_volume_slider = global::MealPlanner.Droid.Resource.Id.mr_volume_slider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.multiply = global::MealPlanner.Droid.Resource.Id.multiply;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.navigation_header_container = global::MealPlanner.Droid.Resource.Id.navigation_header_container;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.never = global::MealPlanner.Droid.Resource.Id.never;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.none = global::MealPlanner.Droid.Resource.Id.none;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.normal = global::MealPlanner.Droid.Resource.Id.normal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.notification_background = global::MealPlanner.Droid.Resource.Id.notification_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.notification_main_column = global::MealPlanner.Droid.Resource.Id.notification_main_column;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.notification_main_column_container = global::MealPlanner.Droid.Resource.Id.notification_main_column_container;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.parallax = global::MealPlanner.Droid.Resource.Id.parallax;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.parentPanel = global::MealPlanner.Droid.Resource.Id.parentPanel;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.parent_matrix = global::MealPlanner.Droid.Resource.Id.parent_matrix;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.pin = global::MealPlanner.Droid.Resource.Id.pin;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.progress_circular = global::MealPlanner.Droid.Resource.Id.progress_circular;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.progress_horizontal = global::MealPlanner.Droid.Resource.Id.progress_horizontal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.radio = global::MealPlanner.Droid.Resource.Id.radio;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.right = global::MealPlanner.Droid.Resource.Id.right;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.right_icon = global::MealPlanner.Droid.Resource.Id.right_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.right_side = global::MealPlanner.Droid.Resource.Id.right_side;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.save_image_matrix = global::MealPlanner.Droid.Resource.Id.save_image_matrix;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.save_non_transition_alpha = global::MealPlanner.Droid.Resource.Id.save_non_transition_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.save_scale_type = global::MealPlanner.Droid.Resource.Id.save_scale_type;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.screen = global::MealPlanner.Droid.Resource.Id.screen;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.scroll = global::MealPlanner.Droid.Resource.Id.scroll;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.scrollable = global::MealPlanner.Droid.Resource.Id.scrollable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.scrollIndicatorDown = global::MealPlanner.Droid.Resource.Id.scrollIndicatorDown;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.scrollIndicatorUp = global::MealPlanner.Droid.Resource.Id.scrollIndicatorUp;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.scrollView = global::MealPlanner.Droid.Resource.Id.scrollView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_badge = global::MealPlanner.Droid.Resource.Id.search_badge;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_bar = global::MealPlanner.Droid.Resource.Id.search_bar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_button = global::MealPlanner.Droid.Resource.Id.search_button;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_close_btn = global::MealPlanner.Droid.Resource.Id.search_close_btn;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_edit_frame = global::MealPlanner.Droid.Resource.Id.search_edit_frame;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_go_btn = global::MealPlanner.Droid.Resource.Id.search_go_btn;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_mag_icon = global::MealPlanner.Droid.Resource.Id.search_mag_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_plate = global::MealPlanner.Droid.Resource.Id.search_plate;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_src_text = global::MealPlanner.Droid.Resource.Id.search_src_text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_voice_btn = global::MealPlanner.Droid.Resource.Id.search_voice_btn;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.select_dialog_listview = global::MealPlanner.Droid.Resource.Id.select_dialog_listview;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.SHIFT = global::MealPlanner.Droid.Resource.Id.SHIFT;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.shortcut = global::MealPlanner.Droid.Resource.Id.shortcut;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.showCustom = global::MealPlanner.Droid.Resource.Id.showCustom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.showHome = global::MealPlanner.Droid.Resource.Id.showHome;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.showTitle = global::MealPlanner.Droid.Resource.Id.showTitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.smallLabel = global::MealPlanner.Droid.Resource.Id.smallLabel;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.snackbar_action = global::MealPlanner.Droid.Resource.Id.snackbar_action;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.snackbar_text = global::MealPlanner.Droid.Resource.Id.snackbar_text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.snap = global::MealPlanner.Droid.Resource.Id.snap;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.spacer = global::MealPlanner.Droid.Resource.Id.spacer;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.split_action_bar = global::MealPlanner.Droid.Resource.Id.split_action_bar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.src_atop = global::MealPlanner.Droid.Resource.Id.src_atop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.src_in = global::MealPlanner.Droid.Resource.Id.src_in;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.src_over = global::MealPlanner.Droid.Resource.Id.src_over;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.start = global::MealPlanner.Droid.Resource.Id.start;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.status_bar_latest_event_content = global::MealPlanner.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.submenuarrow = global::MealPlanner.Droid.Resource.Id.submenuarrow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.submit_area = global::MealPlanner.Droid.Resource.Id.submit_area;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.SYM = global::MealPlanner.Droid.Resource.Id.SYM;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.tabMode = global::MealPlanner.Droid.Resource.Id.tabMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.tag_transition_group = global::MealPlanner.Droid.Resource.Id.tag_transition_group;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.text = global::MealPlanner.Droid.Resource.Id.text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.text2 = global::MealPlanner.Droid.Resource.Id.text2;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.textinput_counter = global::MealPlanner.Droid.Resource.Id.textinput_counter;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.textinput_error = global::MealPlanner.Droid.Resource.Id.textinput_error;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.textSpacerNoButtons = global::MealPlanner.Droid.Resource.Id.textSpacerNoButtons;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.textSpacerNoTitle = global::MealPlanner.Droid.Resource.Id.textSpacerNoTitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.text_input_password_toggle = global::MealPlanner.Droid.Resource.Id.text_input_password_toggle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.time = global::MealPlanner.Droid.Resource.Id.time;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.title = global::MealPlanner.Droid.Resource.Id.title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.titleDividerNoCustom = global::MealPlanner.Droid.Resource.Id.titleDividerNoCustom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.title_template = global::MealPlanner.Droid.Resource.Id.title_template;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.top = global::MealPlanner.Droid.Resource.Id.top;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.topPanel = global::MealPlanner.Droid.Resource.Id.topPanel;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.touch_outside = global::MealPlanner.Droid.Resource.Id.touch_outside;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.transition_current_scene = global::MealPlanner.Droid.Resource.Id.transition_current_scene;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.transition_layout_save = global::MealPlanner.Droid.Resource.Id.transition_layout_save;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.transition_position = global::MealPlanner.Droid.Resource.Id.transition_position;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.transition_scene_layoutid_cache = global::MealPlanner.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.transition_transform = global::MealPlanner.Droid.Resource.Id.transition_transform;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.uniform = global::MealPlanner.Droid.Resource.Id.uniform;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.up = global::MealPlanner.Droid.Resource.Id.up;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.useLogo = global::MealPlanner.Droid.Resource.Id.useLogo;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.view_offset_helper = global::MealPlanner.Droid.Resource.Id.view_offset_helper;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.visible = global::MealPlanner.Droid.Resource.Id.visible;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.volume_item_container = global::MealPlanner.Droid.Resource.Id.volume_item_container;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.withText = global::MealPlanner.Droid.Resource.Id.withText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.wrap_content = global::MealPlanner.Droid.Resource.Id.wrap_content;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.abc_config_activityDefaultDur = global::MealPlanner.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.abc_config_activityShortDur = global::MealPlanner.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.app_bar_elevation_anim_duration = global::MealPlanner.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.bottom_sheet_slide_duration = global::MealPlanner.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.cancel_button_image_alpha = global::MealPlanner.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.config_tooltipAnimTime = global::MealPlanner.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.design_snackbar_text_max_lines = global::MealPlanner.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.hide_password_duration = global::MealPlanner.Droid.Resource.Integer.hide_password_duration;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::MealPlanner.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::MealPlanner.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::MealPlanner.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.show_password_duration = global::MealPlanner.Droid.Resource.Integer.show_password_duration;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::MealPlanner.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Interpolator.mr_fast_out_slow_in = global::MealPlanner.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Interpolator.mr_linear_out_slow_in = global::MealPlanner.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_action_bar_title_item = global::MealPlanner.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_action_bar_up_container = global::MealPlanner.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_action_menu_item_layout = global::MealPlanner.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_action_menu_layout = global::MealPlanner.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_action_mode_bar = global::MealPlanner.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_action_mode_close_item_material = global::MealPlanner.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_activity_chooser_view = global::MealPlanner.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::MealPlanner.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::MealPlanner.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_alert_dialog_material = global::MealPlanner.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_alert_dialog_title_material = global::MealPlanner.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_dialog_title_material = global::MealPlanner.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_expanded_menu_layout = global::MealPlanner.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::MealPlanner.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_list_menu_item_icon = global::MealPlanner.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_list_menu_item_layout = global::MealPlanner.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_list_menu_item_radio = global::MealPlanner.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_popup_menu_header_item_layout = global::MealPlanner.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_popup_menu_item_layout = global::MealPlanner.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_screen_content_include = global::MealPlanner.Droid.Resource.Layout.abc_screen_content_include;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_screen_simple = global::MealPlanner.Droid.Resource.Layout.abc_screen_simple;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::MealPlanner.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_screen_toolbar = global::MealPlanner.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::MealPlanner.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_search_view = global::MealPlanner.Droid.Resource.Layout.abc_search_view;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_select_dialog_material = global::MealPlanner.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_bottom_navigation_item = global::MealPlanner.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_bottom_sheet_dialog = global::MealPlanner.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_layout_snackbar = global::MealPlanner.Droid.Resource.Layout.design_layout_snackbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_layout_snackbar_include = global::MealPlanner.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_layout_tab_icon = global::MealPlanner.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_layout_tab_text = global::MealPlanner.Droid.Resource.Layout.design_layout_tab_text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_menu_item_action_area = global::MealPlanner.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_navigation_item = global::MealPlanner.Droid.Resource.Layout.design_navigation_item;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_navigation_item_header = global::MealPlanner.Droid.Resource.Layout.design_navigation_item_header;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_navigation_item_separator = global::MealPlanner.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_navigation_item_subheader = global::MealPlanner.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_navigation_menu = global::MealPlanner.Droid.Resource.Layout.design_navigation_menu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_navigation_menu_item = global::MealPlanner.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_text_input_password_icon = global::MealPlanner.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.mr_chooser_dialog = global::MealPlanner.Droid.Resource.Layout.mr_chooser_dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.mr_chooser_list_item = global::MealPlanner.Droid.Resource.Layout.mr_chooser_list_item;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.mr_controller_material_dialog_b = global::MealPlanner.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.mr_controller_volume_item = global::MealPlanner.Droid.Resource.Layout.mr_controller_volume_item;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.mr_playback_control = global::MealPlanner.Droid.Resource.Layout.mr_playback_control;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.mr_volume_control = global::MealPlanner.Droid.Resource.Layout.mr_volume_control;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_action = global::MealPlanner.Droid.Resource.Layout.notification_action;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_action_tombstone = global::MealPlanner.Droid.Resource.Layout.notification_action_tombstone;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_media_action = global::MealPlanner.Droid.Resource.Layout.notification_media_action;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_media_cancel_action = global::MealPlanner.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_big_media = global::MealPlanner.Droid.Resource.Layout.notification_template_big_media;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_big_media_custom = global::MealPlanner.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_big_media_narrow = global::MealPlanner.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_big_media_narrow_custom = global::MealPlanner.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_custom_big = global::MealPlanner.Droid.Resource.Layout.notification_template_custom_big;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_icon_group = global::MealPlanner.Droid.Resource.Layout.notification_template_icon_group;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_lines_media = global::MealPlanner.Droid.Resource.Layout.notification_template_lines_media;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_media = global::MealPlanner.Droid.Resource.Layout.notification_template_media;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_media_custom = global::MealPlanner.Droid.Resource.Layout.notification_template_media_custom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_part_chronometer = global::MealPlanner.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_part_time = global::MealPlanner.Droid.Resource.Layout.notification_template_part_time;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.select_dialog_item_material = global::MealPlanner.Droid.Resource.Layout.select_dialog_item_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.select_dialog_multichoice_material = global::MealPlanner.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.select_dialog_singlechoice_material = global::MealPlanner.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::MealPlanner.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.tooltip = global::MealPlanner.Droid.Resource.Layout.tooltip;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_action_bar_home_description = global::MealPlanner.Droid.Resource.String.abc_action_bar_home_description;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_action_bar_up_description = global::MealPlanner.Droid.Resource.String.abc_action_bar_up_description;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_action_menu_overflow_description = global::MealPlanner.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_action_mode_done = global::MealPlanner.Droid.Resource.String.abc_action_mode_done;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_activitychooserview_choose_application = global::MealPlanner.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_activity_chooser_view_see_all = global::MealPlanner.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_capital_off = global::MealPlanner.Droid.Resource.String.abc_capital_off;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_capital_on = global::MealPlanner.Droid.Resource.String.abc_capital_on;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_font_family_body_1_material = global::MealPlanner.Droid.Resource.String.abc_font_family_body_1_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_font_family_body_2_material = global::MealPlanner.Droid.Resource.String.abc_font_family_body_2_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_font_family_button_material = global::MealPlanner.Droid.Resource.String.abc_font_family_button_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_font_family_caption_material = global::MealPlanner.Droid.Resource.String.abc_font_family_caption_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_font_family_display_1_material = global::MealPlanner.Droid.Resource.String.abc_font_family_display_1_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_font_family_display_2_material = global::MealPlanner.Droid.Resource.String.abc_font_family_display_2_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_font_family_display_3_material = global::MealPlanner.Droid.Resource.String.abc_font_family_display_3_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_font_family_display_4_material = global::MealPlanner.Droid.Resource.String.abc_font_family_display_4_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_font_family_headline_material = global::MealPlanner.Droid.Resource.String.abc_font_family_headline_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_font_family_menu_material = global::MealPlanner.Droid.Resource.String.abc_font_family_menu_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_font_family_subhead_material = global::MealPlanner.Droid.Resource.String.abc_font_family_subhead_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_font_family_title_material = global::MealPlanner.Droid.Resource.String.abc_font_family_title_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_searchview_description_clear = global::MealPlanner.Droid.Resource.String.abc_searchview_description_clear;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_searchview_description_query = global::MealPlanner.Droid.Resource.String.abc_searchview_description_query;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_searchview_description_search = global::MealPlanner.Droid.Resource.String.abc_searchview_description_search;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_searchview_description_submit = global::MealPlanner.Droid.Resource.String.abc_searchview_description_submit;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_searchview_description_voice = global::MealPlanner.Droid.Resource.String.abc_searchview_description_voice;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_search_hint = global::MealPlanner.Droid.Resource.String.abc_search_hint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_shareactionprovider_share_with = global::MealPlanner.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::MealPlanner.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_toolbar_collapse_description = global::MealPlanner.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.appbar_scrolling_view_behavior = global::MealPlanner.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.app_name = global::MealPlanner.Droid.Resource.String.app_name;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.bottom_sheet_behavior = global::MealPlanner.Droid.Resource.String.bottom_sheet_behavior;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.character_counter_pattern = global::MealPlanner.Droid.Resource.String.character_counter_pattern;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.hello = global::MealPlanner.Droid.Resource.String.hello;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_button_content_description = global::MealPlanner.Droid.Resource.String.mr_button_content_description;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_cast_button_connected = global::MealPlanner.Droid.Resource.String.mr_cast_button_connected;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_cast_button_connecting = global::MealPlanner.Droid.Resource.String.mr_cast_button_connecting;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_cast_button_disconnected = global::MealPlanner.Droid.Resource.String.mr_cast_button_disconnected;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_chooser_searching = global::MealPlanner.Droid.Resource.String.mr_chooser_searching;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_chooser_title = global::MealPlanner.Droid.Resource.String.mr_chooser_title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_album_art = global::MealPlanner.Droid.Resource.String.mr_controller_album_art;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_casting_screen = global::MealPlanner.Droid.Resource.String.mr_controller_casting_screen;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_close_description = global::MealPlanner.Droid.Resource.String.mr_controller_close_description;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_collapse_group = global::MealPlanner.Droid.Resource.String.mr_controller_collapse_group;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_disconnect = global::MealPlanner.Droid.Resource.String.mr_controller_disconnect;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_expand_group = global::MealPlanner.Droid.Resource.String.mr_controller_expand_group;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_no_info_available = global::MealPlanner.Droid.Resource.String.mr_controller_no_info_available;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_no_media_selected = global::MealPlanner.Droid.Resource.String.mr_controller_no_media_selected;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_pause = global::MealPlanner.Droid.Resource.String.mr_controller_pause;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_play = global::MealPlanner.Droid.Resource.String.mr_controller_play;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_stop = global::MealPlanner.Droid.Resource.String.mr_controller_stop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_stop_casting = global::MealPlanner.Droid.Resource.String.mr_controller_stop_casting;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_volume_slider = global::MealPlanner.Droid.Resource.String.mr_controller_volume_slider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_system_route_name = global::MealPlanner.Droid.Resource.String.mr_system_route_name;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_user_route_category_name = global::MealPlanner.Droid.Resource.String.mr_user_route_category_name;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.password_toggle_content_description = global::MealPlanner.Droid.Resource.String.password_toggle_content_description;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.path_password_eye = global::MealPlanner.Droid.Resource.String.path_password_eye;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.path_password_eye_mask_strike_through = global::MealPlanner.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.path_password_eye_mask_visible = global::MealPlanner.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.path_password_strike_through = global::MealPlanner.Droid.Resource.String.path_password_strike_through;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.search_menu_title = global::MealPlanner.Droid.Resource.String.search_menu_title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.status_bar_notification_info_overflow = global::MealPlanner.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.AlertDialog_AppCompat = global::MealPlanner.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::MealPlanner.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Animation_AppCompat_Dialog = global::MealPlanner.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::MealPlanner.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Animation_AppCompat_Tooltip = global::MealPlanner.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::MealPlanner.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::MealPlanner.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::MealPlanner.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::MealPlanner.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::MealPlanner.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip = global::MealPlanner.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_CardView = global::MealPlanner.Droid.Resource.Style.Base_CardView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::MealPlanner.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::MealPlanner.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::MealPlanner.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::MealPlanner.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::MealPlanner.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::MealPlanner.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::MealPlanner.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::MealPlanner.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::MealPlanner.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::MealPlanner.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat = global::MealPlanner.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::MealPlanner.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::MealPlanner.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::MealPlanner.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::MealPlanner.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::MealPlanner.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::MealPlanner.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::MealPlanner.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::MealPlanner.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::MealPlanner.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::MealPlanner.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::MealPlanner.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::MealPlanner.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::MealPlanner.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog = global::MealPlanner.Droid.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::MealPlanner.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::MealPlanner.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::MealPlanner.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::MealPlanner.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V14_Widget_Design_AppBarLayout = global::MealPlanner.Droid.Resource.Style.Base_V14_Widget_Design_AppBarLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::MealPlanner.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::MealPlanner.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::MealPlanner.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::MealPlanner.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::MealPlanner.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V21_Widget_Design_AppBarLayout = global::MealPlanner.Droid.Resource.Style.Base_V21_Widget_Design_AppBarLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::MealPlanner.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::MealPlanner.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::MealPlanner.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::MealPlanner.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V26_Theme_AppCompat = global::MealPlanner.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light = global::MealPlanner.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::MealPlanner.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V26_Widget_Design_AppBarLayout = global::MealPlanner.Droid.Resource.Style.Base_V26_Widget_Design_AppBarLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::MealPlanner.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::MealPlanner.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::MealPlanner.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::MealPlanner.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::MealPlanner.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::MealPlanner.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::MealPlanner.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::MealPlanner.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::MealPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_Design_AppBarLayout = global::MealPlanner.Droid.Resource.Style.Base_Widget_Design_AppBarLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::MealPlanner.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.CardView = global::MealPlanner.Droid.Resource.Style.CardView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.CardView_Dark = global::MealPlanner.Droid.Resource.Style.CardView_Dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.CardView_Light = global::MealPlanner.Droid.Resource.Style.CardView_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_AppCompat = global::MealPlanner.Droid.Resource.Style.Platform_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_AppCompat_Light = global::MealPlanner.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::MealPlanner.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::MealPlanner.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::MealPlanner.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_V11_AppCompat = global::MealPlanner.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_V11_AppCompat_Light = global::MealPlanner.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_V14_AppCompat = global::MealPlanner.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_V14_AppCompat_Light = global::MealPlanner.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_V21_AppCompat = global::MealPlanner.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_V21_AppCompat_Light = global::MealPlanner.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_V25_AppCompat = global::MealPlanner.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_V25_AppCompat_Light = global::MealPlanner.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::MealPlanner.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::MealPlanner.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::MealPlanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::MealPlanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::MealPlanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::MealPlanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::MealPlanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::MealPlanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::MealPlanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::MealPlanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::MealPlanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::MealPlanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::MealPlanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::MealPlanner.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::MealPlanner.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::MealPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification = global::MealPlanner.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Info = global::MealPlanner.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::MealPlanner.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::MealPlanner.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::MealPlanner.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Media = global::MealPlanner.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Time = global::MealPlanner.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::MealPlanner.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Title = global::MealPlanner.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::MealPlanner.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::MealPlanner.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Design_Counter = global::MealPlanner.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::MealPlanner.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Design_Error = global::MealPlanner.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Design_Hint = global::MealPlanner.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::MealPlanner.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Design_Tab = global::MealPlanner.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::MealPlanner.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::MealPlanner.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_MediaRouter_Title = global::MealPlanner.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::MealPlanner.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::MealPlanner.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::MealPlanner.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat = global::MealPlanner.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::MealPlanner.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::MealPlanner.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::MealPlanner.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::MealPlanner.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::MealPlanner.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::MealPlanner.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::MealPlanner.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light = global::MealPlanner.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat = global::MealPlanner.Droid.Resource.Style.Theme_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::MealPlanner.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight = global::MealPlanner.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::MealPlanner.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::MealPlanner.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::MealPlanner.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::MealPlanner.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::MealPlanner.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::MealPlanner.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Dialog = global::MealPlanner.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::MealPlanner.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::MealPlanner.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::MealPlanner.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Light = global::MealPlanner.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::MealPlanner.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::MealPlanner.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::MealPlanner.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::MealPlanner.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::MealPlanner.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::MealPlanner.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::MealPlanner.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_Design = global::MealPlanner.Droid.Resource.Style.Theme_Design;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::MealPlanner.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_Design_Light = global::MealPlanner.Droid.Resource.Style.Theme_Design_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::MealPlanner.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::MealPlanner.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_Design_NoActionBar = global::MealPlanner.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_MediaRouter = global::MealPlanner.Droid.Resource.Style.Theme_MediaRouter;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_MediaRouter_Light = global::MealPlanner.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel = global::MealPlanner.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::MealPlanner.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Button = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_EditText = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ListMenuView = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ListView = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_SearchView = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Spinner = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::MealPlanner.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Compat_NotificationActionContainer = global::MealPlanner.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Compat_NotificationActionText = global::MealPlanner.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_AppBarLayout = global::MealPlanner.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_BottomNavigationView = global::MealPlanner.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::MealPlanner.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::MealPlanner.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_CoordinatorLayout = global::MealPlanner.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::MealPlanner.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_NavigationView = global::MealPlanner.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::MealPlanner.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_Snackbar = global::MealPlanner.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_TabLayout = global::MealPlanner.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_TextInputLayout = global::MealPlanner.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::MealPlanner.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::MealPlanner.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar = global::MealPlanner.Droid.Resource.Styleable.ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBarLayout = global::MealPlanner.Droid.Resource.Styleable.ActionBarLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::MealPlanner.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_background = global::MealPlanner.Droid.Resource.Styleable.ActionBar_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::MealPlanner.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::MealPlanner.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::MealPlanner.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::MealPlanner.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::MealPlanner.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::MealPlanner.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::MealPlanner.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::MealPlanner.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::MealPlanner.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_displayOptions = global::MealPlanner.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_divider = global::MealPlanner.Droid.Resource.Styleable.ActionBar_divider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_elevation = global::MealPlanner.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_height = global::MealPlanner.Droid.Resource.Styleable.ActionBar_height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::MealPlanner.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::MealPlanner.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_homeLayout = global::MealPlanner.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_icon = global::MealPlanner.Droid.Resource.Styleable.ActionBar_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::MealPlanner.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_itemPadding = global::MealPlanner.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_logo = global::MealPlanner.Droid.Resource.Styleable.ActionBar_logo;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_navigationMode = global::MealPlanner.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_popupTheme = global::MealPlanner.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::MealPlanner.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::MealPlanner.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_subtitle = global::MealPlanner.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::MealPlanner.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_title = global::MealPlanner.Droid.Resource.Styleable.ActionBar_title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::MealPlanner.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMenuItemView = global::MealPlanner.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::MealPlanner.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMenuView = global::MealPlanner.Droid.Resource.Styleable.ActionMenuView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMode = global::MealPlanner.Droid.Resource.Styleable.ActionMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMode_background = global::MealPlanner.Droid.Resource.Styleable.ActionMode_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::MealPlanner.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::MealPlanner.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMode_height = global::MealPlanner.Droid.Resource.Styleable.ActionMode_height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::MealPlanner.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::MealPlanner.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActivityChooserView = global::MealPlanner.Droid.Resource.Styleable.ActivityChooserView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::MealPlanner.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::MealPlanner.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AlertDialog = global::MealPlanner.Droid.Resource.Styleable.AlertDialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AlertDialog_android_layout = global::MealPlanner.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::MealPlanner.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::MealPlanner.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AlertDialog_listLayout = global::MealPlanner.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::MealPlanner.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AlertDialog_showTitle = global::MealPlanner.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::MealPlanner.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout = global::MealPlanner.Droid.Resource.Styleable.AppBarLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayoutStates = global::MealPlanner.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::MealPlanner.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::MealPlanner.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout_android_background = global::MealPlanner.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::MealPlanner.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::MealPlanner.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout_elevation = global::MealPlanner.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout_expanded = global::MealPlanner.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout_Layout = global::MealPlanner.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::MealPlanner.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::MealPlanner.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatImageView = global::MealPlanner.Droid.Resource.Styleable.AppCompatImageView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatImageView_android_src = global::MealPlanner.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::MealPlanner.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatImageView_tint = global::MealPlanner.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatImageView_tintMode = global::MealPlanner.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatSeekBar = global::MealPlanner.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb = global::MealPlanner.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatSeekBar_tickMark = global::MealPlanner.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::MealPlanner.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::MealPlanner.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextHelper = global::MealPlanner.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::MealPlanner.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::MealPlanner.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::MealPlanner.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::MealPlanner.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::MealPlanner.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::MealPlanner.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::MealPlanner.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView = global::MealPlanner.Droid.Resource.Styleable.AppCompatTextView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::MealPlanner.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::MealPlanner.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::MealPlanner.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::MealPlanner.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::MealPlanner.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::MealPlanner.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView_fontFamily = global::MealPlanner.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::MealPlanner.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorError = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::MealPlanner.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomNavigationView = global::MealPlanner.Droid.Resource.Styleable.BottomNavigationView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomNavigationView_elevation = global::MealPlanner.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomNavigationView_itemBackground = global::MealPlanner.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomNavigationView_itemIconTint = global::MealPlanner.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomNavigationView_itemTextColor = global::MealPlanner.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomNavigationView_menu = global::MealPlanner.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomSheetBehavior_Layout = global::MealPlanner.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::MealPlanner.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::MealPlanner.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::MealPlanner.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ButtonBarLayout = global::MealPlanner.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::MealPlanner.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView = global::MealPlanner.Droid.Resource.Styleable.CardView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_android_minHeight = global::MealPlanner.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_android_minWidth = global::MealPlanner.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::MealPlanner.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_cardCornerRadius = global::MealPlanner.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_cardElevation = global::MealPlanner.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_cardMaxElevation = global::MealPlanner.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::MealPlanner.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::MealPlanner.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_contentPadding = global::MealPlanner.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::MealPlanner.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::MealPlanner.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_contentPaddingRight = global::MealPlanner.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_contentPaddingTop = global::MealPlanner.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout = global::MealPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::MealPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::MealPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::MealPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::MealPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::MealPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::MealPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::MealPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::MealPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::MealPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::MealPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout = global::MealPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::MealPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::MealPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::MealPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::MealPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::MealPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::MealPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::MealPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::MealPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ColorStateListItem = global::MealPlanner.Droid.Resource.Styleable.ColorStateListItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ColorStateListItem_alpha = global::MealPlanner.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ColorStateListItem_android_alpha = global::MealPlanner.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ColorStateListItem_android_color = global::MealPlanner.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CompoundButton = global::MealPlanner.Droid.Resource.Styleable.CompoundButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CompoundButton_android_button = global::MealPlanner.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CompoundButton_buttonTint = global::MealPlanner.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::MealPlanner.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout = global::MealPlanner.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::MealPlanner.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout = global::MealPlanner.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::MealPlanner.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::MealPlanner.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::MealPlanner.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::MealPlanner.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::MealPlanner.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::MealPlanner.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::MealPlanner.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::MealPlanner.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DesignTheme = global::MealPlanner.Droid.Resource.Styleable.DesignTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::MealPlanner.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::MealPlanner.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DesignTheme_textColorError = global::MealPlanner.Droid.Resource.Styleable.DesignTheme_textColorError;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle = global::MealPlanner.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::MealPlanner.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::MealPlanner.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::MealPlanner.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle_color = global::MealPlanner.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::MealPlanner.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::MealPlanner.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::MealPlanner.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::MealPlanner.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton = global::MealPlanner.Droid.Resource.Styleable.FloatingActionButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::MealPlanner.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::MealPlanner.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::MealPlanner.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::MealPlanner.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::MealPlanner.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_elevation = global::MealPlanner.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::MealPlanner.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::MealPlanner.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::MealPlanner.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::MealPlanner.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamily = global::MealPlanner.Droid.Resource.Styleable.FontFamily;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamilyFont = global::MealPlanner.Droid.Resource.Styleable.FontFamilyFont;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamilyFont_android_font = global::MealPlanner.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle = global::MealPlanner.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight = global::MealPlanner.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamilyFont_font = global::MealPlanner.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamilyFont_fontStyle = global::MealPlanner.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamilyFont_fontWeight = global::MealPlanner.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamily_fontProviderAuthority = global::MealPlanner.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamily_fontProviderCerts = global::MealPlanner.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::MealPlanner.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::MealPlanner.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamily_fontProviderPackage = global::MealPlanner.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamily_fontProviderQuery = global::MealPlanner.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ForegroundLinearLayout = global::MealPlanner.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::MealPlanner.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::MealPlanner.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::MealPlanner.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat = global::MealPlanner.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::MealPlanner.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::MealPlanner.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::MealPlanner.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::MealPlanner.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::MealPlanner.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::MealPlanner.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::MealPlanner.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::MealPlanner.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::MealPlanner.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::MealPlanner.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::MealPlanner.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::MealPlanner.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::MealPlanner.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::MealPlanner.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ListPopupWindow = global::MealPlanner.Droid.Resource.Styleable.ListPopupWindow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::MealPlanner.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::MealPlanner.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MediaRouteButton = global::MealPlanner.Droid.Resource.Styleable.MediaRouteButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MediaRouteButton_android_minHeight = global::MealPlanner.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MediaRouteButton_android_minWidth = global::MealPlanner.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::MealPlanner.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint = global::MealPlanner.Droid.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuGroup = global::MealPlanner.Droid.Resource.Styleable.MenuGroup;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::MealPlanner.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuGroup_android_enabled = global::MealPlanner.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuGroup_android_id = global::MealPlanner.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::MealPlanner.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::MealPlanner.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuGroup_android_visible = global::MealPlanner.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem = global::MealPlanner.Droid.Resource.Styleable.MenuItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_actionLayout = global::MealPlanner.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::MealPlanner.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_actionViewClass = global::MealPlanner.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_alphabeticModifiers = global::MealPlanner.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::MealPlanner.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_checkable = global::MealPlanner.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_checked = global::MealPlanner.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_enabled = global::MealPlanner.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_icon = global::MealPlanner.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_id = global::MealPlanner.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::MealPlanner.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::MealPlanner.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_onClick = global::MealPlanner.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::MealPlanner.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_title = global::MealPlanner.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::MealPlanner.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_visible = global::MealPlanner.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_contentDescription = global::MealPlanner.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_iconTint = global::MealPlanner.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_iconTintMode = global::MealPlanner.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_numericModifiers = global::MealPlanner.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_showAsAction = global::MealPlanner.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_tooltipText = global::MealPlanner.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView = global::MealPlanner.Droid.Resource.Styleable.MenuView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_android_headerBackground = global::MealPlanner.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::MealPlanner.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_android_itemBackground = global::MealPlanner.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::MealPlanner.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::MealPlanner.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::MealPlanner.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::MealPlanner.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::MealPlanner.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_subMenuArrow = global::MealPlanner.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView = global::MealPlanner.Droid.Resource.Styleable.NavigationView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_android_background = global::MealPlanner.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::MealPlanner.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::MealPlanner.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_elevation = global::MealPlanner.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_headerLayout = global::MealPlanner.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_itemBackground = global::MealPlanner.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_itemIconTint = global::MealPlanner.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::MealPlanner.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_itemTextColor = global::MealPlanner.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_menu = global::MealPlanner.Droid.Resource.Styleable.NavigationView_menu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.PopupWindow = global::MealPlanner.Droid.Resource.Styleable.PopupWindow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.PopupWindowBackgroundState = global::MealPlanner.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::MealPlanner.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::MealPlanner.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::MealPlanner.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::MealPlanner.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecycleListView = global::MealPlanner.Droid.Resource.Styleable.RecycleListView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::MealPlanner.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::MealPlanner.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView = global::MealPlanner.Droid.Resource.Styleable.RecyclerView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability = global::MealPlanner.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_android_orientation = global::MealPlanner.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled = global::MealPlanner.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::MealPlanner.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::MealPlanner.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::MealPlanner.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::MealPlanner.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_layoutManager = global::MealPlanner.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::MealPlanner.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_spanCount = global::MealPlanner.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::MealPlanner.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::MealPlanner.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::MealPlanner.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ScrollingViewBehavior_Layout = global::MealPlanner.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::MealPlanner.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView = global::MealPlanner.Droid.Resource.Styleable.SearchView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_android_focusable = global::MealPlanner.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_android_imeOptions = global::MealPlanner.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_android_inputType = global::MealPlanner.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_android_maxWidth = global::MealPlanner.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_closeIcon = global::MealPlanner.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_commitIcon = global::MealPlanner.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::MealPlanner.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_goIcon = global::MealPlanner.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::MealPlanner.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_layout = global::MealPlanner.Droid.Resource.Styleable.SearchView_layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_queryBackground = global::MealPlanner.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_queryHint = global::MealPlanner.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_searchHintIcon = global::MealPlanner.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_searchIcon = global::MealPlanner.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_submitBackground = global::MealPlanner.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::MealPlanner.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_voiceIcon = global::MealPlanner.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SnackbarLayout = global::MealPlanner.Droid.Resource.Styleable.SnackbarLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::MealPlanner.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SnackbarLayout_elevation = global::MealPlanner.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::MealPlanner.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Spinner = global::MealPlanner.Droid.Resource.Styleable.Spinner;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::MealPlanner.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Spinner_android_entries = global::MealPlanner.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Spinner_android_popupBackground = global::MealPlanner.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Spinner_android_prompt = global::MealPlanner.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Spinner_popupTheme = global::MealPlanner.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat = global::MealPlanner.Droid.Resource.Styleable.SwitchCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::MealPlanner.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::MealPlanner.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::MealPlanner.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_showText = global::MealPlanner.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::MealPlanner.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::MealPlanner.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::MealPlanner.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::MealPlanner.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::MealPlanner.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_thumbTint = global::MealPlanner.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_thumbTintMode = global::MealPlanner.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_track = global::MealPlanner.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_trackTint = global::MealPlanner.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::MealPlanner.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabItem = global::MealPlanner.Droid.Resource.Styleable.TabItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabItem_android_icon = global::MealPlanner.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabItem_android_layout = global::MealPlanner.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabItem_android_text = global::MealPlanner.Droid.Resource.Styleable.TabItem_android_text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout = global::MealPlanner.Droid.Resource.Styleable.TabLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabBackground = global::MealPlanner.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabContentStart = global::MealPlanner.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabGravity = global::MealPlanner.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::MealPlanner.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::MealPlanner.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::MealPlanner.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::MealPlanner.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabMode = global::MealPlanner.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabPadding = global::MealPlanner.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::MealPlanner.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::MealPlanner.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::MealPlanner.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::MealPlanner.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::MealPlanner.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::MealPlanner.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabTextColor = global::MealPlanner.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance = global::MealPlanner.Droid.Resource.Styleable.TextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_fontFamily = global::MealPlanner.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::MealPlanner.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::MealPlanner.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::MealPlanner.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::MealPlanner.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_textColor = global::MealPlanner.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_textColorHint = global::MealPlanner.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_textColorLink = global::MealPlanner.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_textSize = global::MealPlanner.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::MealPlanner.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_typeface = global::MealPlanner.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_fontFamily = global::MealPlanner.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::MealPlanner.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout = global::MealPlanner.Droid.Resource.Styleable.TextInputLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_android_hint = global::MealPlanner.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::MealPlanner.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::MealPlanner.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::MealPlanner.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::MealPlanner.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::MealPlanner.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::MealPlanner.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::MealPlanner.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::MealPlanner.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::MealPlanner.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::MealPlanner.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::MealPlanner.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::MealPlanner.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::MealPlanner.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint = global::MealPlanner.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::MealPlanner.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar = global::MealPlanner.Droid.Resource.Styleable.Toolbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_android_gravity = global::MealPlanner.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_android_minHeight = global::MealPlanner.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_buttonGravity = global::MealPlanner.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::MealPlanner.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_collapseIcon = global::MealPlanner.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::MealPlanner.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::MealPlanner.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::MealPlanner.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::MealPlanner.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::MealPlanner.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::MealPlanner.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_logo = global::MealPlanner.Droid.Resource.Styleable.Toolbar_logo;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_logoDescription = global::MealPlanner.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::MealPlanner.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::MealPlanner.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_navigationIcon = global::MealPlanner.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_popupTheme = global::MealPlanner.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_subtitle = global::MealPlanner.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::MealPlanner.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::MealPlanner.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_title = global::MealPlanner.Droid.Resource.Styleable.Toolbar_title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_titleMargin = global::MealPlanner.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::MealPlanner.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::MealPlanner.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_titleMargins = global::MealPlanner.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::MealPlanner.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::MealPlanner.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::MealPlanner.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_titleTextColor = global::MealPlanner.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.View = global::MealPlanner.Droid.Resource.Styleable.View;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ViewBackgroundHelper = global::MealPlanner.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::MealPlanner.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::MealPlanner.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::MealPlanner.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ViewStubCompat = global::MealPlanner.Droid.Resource.Styleable.ViewStubCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ViewStubCompat_android_id = global::MealPlanner.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::MealPlanner.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::MealPlanner.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.View_android_focusable = global::MealPlanner.Droid.Resource.Styleable.View_android_focusable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.View_android_theme = global::MealPlanner.Droid.Resource.Styleable.View_android_theme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.View_paddingEnd = global::MealPlanner.Droid.Resource.Styleable.View_paddingEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.View_paddingStart = global::MealPlanner.Droid.Resource.Styleable.View_paddingStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.View_theme = global::MealPlanner.Droid.Resource.Styleable.View_theme;
 			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar1 = global::MealPlanner.Droid.Resource.Drawable.Avatar1;
 			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar10 = global::MealPlanner.Droid.Resource.Drawable.Avatar10;
 			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar11 = global::MealPlanner.Droid.Resource.Drawable.Avatar11;
@@ -4633,730 +6893,736 @@ namespace MealPlanner.Droid
 			public const int background = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int calculator = 2131165301;
+			public const int bottom_shadow = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int checkers = 2131165302;
+			public const int calculator = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int design_bottom_navigation_item_background = 2131165303;
+			public const int checkers = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int design_fab_background = 2131165304;
+			public const int design_bottom_navigation_item_background = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int design_ic_visibility = 2131165305;
+			public const int design_fab_background = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int design_ic_visibility_off = 2131165306;
+			public const int design_ic_visibility = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int design_password_eye = 2131165307;
+			public const int design_ic_visibility_off = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int design_snackbar_background = 2131165308;
+			public const int design_password_eye = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int disadvantage = 2131165309;
+			public const int design_snackbar_background = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int gradient = 2131165310;
+			public const int disadvantage = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int home = 2131165311;
+			public const int gradient = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int icon = 2131165312;
+			public const int home = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int ic_audiotrack_dark = 2131165313;
+			public const int icon = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int ic_audiotrack_light = 2131165314;
+			public const int ic_audiotrack_dark = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int ic_dialog_close_dark = 2131165315;
+			public const int ic_audiotrack_light = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int ic_dialog_close_light = 2131165316;
+			public const int ic_dialog_close_dark = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int ic_group_collapse_00 = 2131165317;
+			public const int ic_dialog_close_light = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int ic_group_collapse_01 = 2131165318;
+			public const int ic_group_collapse_00 = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int ic_group_collapse_02 = 2131165319;
+			public const int ic_group_collapse_01 = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int ic_group_collapse_03 = 2131165320;
+			public const int ic_group_collapse_02 = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int ic_group_collapse_04 = 2131165321;
+			public const int ic_group_collapse_03 = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int ic_group_collapse_05 = 2131165322;
+			public const int ic_group_collapse_04 = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int ic_group_collapse_06 = 2131165323;
+			public const int ic_group_collapse_05 = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int ic_group_collapse_07 = 2131165324;
+			public const int ic_group_collapse_06 = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int ic_group_collapse_08 = 2131165325;
+			public const int ic_group_collapse_07 = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int ic_group_collapse_09 = 2131165326;
+			public const int ic_group_collapse_08 = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int ic_group_collapse_10 = 2131165327;
+			public const int ic_group_collapse_09 = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int ic_group_collapse_11 = 2131165328;
+			public const int ic_group_collapse_10 = 2131165328;
 			
 			// aapt resource value: 0x7F070091
-			public const int ic_group_collapse_12 = 2131165329;
+			public const int ic_group_collapse_11 = 2131165329;
 			
 			// aapt resource value: 0x7F070092
-			public const int ic_group_collapse_13 = 2131165330;
+			public const int ic_group_collapse_12 = 2131165330;
 			
 			// aapt resource value: 0x7F070093
-			public const int ic_group_collapse_14 = 2131165331;
+			public const int ic_group_collapse_13 = 2131165331;
 			
 			// aapt resource value: 0x7F070094
-			public const int ic_group_collapse_15 = 2131165332;
+			public const int ic_group_collapse_14 = 2131165332;
 			
 			// aapt resource value: 0x7F070095
-			public const int ic_group_expand_00 = 2131165333;
+			public const int ic_group_collapse_15 = 2131165333;
 			
 			// aapt resource value: 0x7F070096
-			public const int ic_group_expand_01 = 2131165334;
+			public const int ic_group_expand_00 = 2131165334;
 			
 			// aapt resource value: 0x7F070097
-			public const int ic_group_expand_02 = 2131165335;
+			public const int ic_group_expand_01 = 2131165335;
 			
 			// aapt resource value: 0x7F070098
-			public const int ic_group_expand_03 = 2131165336;
+			public const int ic_group_expand_02 = 2131165336;
 			
 			// aapt resource value: 0x7F070099
-			public const int ic_group_expand_04 = 2131165337;
+			public const int ic_group_expand_03 = 2131165337;
 			
 			// aapt resource value: 0x7F07009A
-			public const int ic_group_expand_05 = 2131165338;
+			public const int ic_group_expand_04 = 2131165338;
 			
 			// aapt resource value: 0x7F07009B
-			public const int ic_group_expand_06 = 2131165339;
+			public const int ic_group_expand_05 = 2131165339;
 			
 			// aapt resource value: 0x7F07009C
-			public const int ic_group_expand_07 = 2131165340;
+			public const int ic_group_expand_06 = 2131165340;
 			
 			// aapt resource value: 0x7F07009D
-			public const int ic_group_expand_08 = 2131165341;
+			public const int ic_group_expand_07 = 2131165341;
 			
 			// aapt resource value: 0x7F07009E
-			public const int ic_group_expand_09 = 2131165342;
+			public const int ic_group_expand_08 = 2131165342;
 			
 			// aapt resource value: 0x7F07009F
-			public const int ic_group_expand_10 = 2131165343;
+			public const int ic_group_expand_09 = 2131165343;
 			
 			// aapt resource value: 0x7F0700A0
-			public const int ic_group_expand_11 = 2131165344;
+			public const int ic_group_expand_10 = 2131165344;
 			
 			// aapt resource value: 0x7F0700A1
-			public const int ic_group_expand_12 = 2131165345;
+			public const int ic_group_expand_11 = 2131165345;
 			
 			// aapt resource value: 0x7F0700A2
-			public const int ic_group_expand_13 = 2131165346;
+			public const int ic_group_expand_12 = 2131165346;
 			
 			// aapt resource value: 0x7F0700A3
-			public const int ic_group_expand_14 = 2131165347;
+			public const int ic_group_expand_13 = 2131165347;
 			
 			// aapt resource value: 0x7F0700A4
-			public const int ic_group_expand_15 = 2131165348;
+			public const int ic_group_expand_14 = 2131165348;
 			
 			// aapt resource value: 0x7F0700A5
-			public const int ic_media_pause_dark = 2131165349;
+			public const int ic_group_expand_15 = 2131165349;
 			
 			// aapt resource value: 0x7F0700A6
-			public const int ic_media_pause_light = 2131165350;
+			public const int ic_media_pause_dark = 2131165350;
 			
 			// aapt resource value: 0x7F0700A7
-			public const int ic_media_play_dark = 2131165351;
+			public const int ic_media_pause_light = 2131165351;
 			
 			// aapt resource value: 0x7F0700A8
-			public const int ic_media_play_light = 2131165352;
+			public const int ic_media_play_dark = 2131165352;
 			
 			// aapt resource value: 0x7F0700A9
-			public const int ic_media_stop_dark = 2131165353;
+			public const int ic_media_play_light = 2131165353;
 			
 			// aapt resource value: 0x7F0700AA
-			public const int ic_media_stop_light = 2131165354;
+			public const int ic_media_stop_dark = 2131165354;
 			
 			// aapt resource value: 0x7F0700AB
-			public const int ic_mr_button_connected_00_dark = 2131165355;
+			public const int ic_media_stop_light = 2131165355;
 			
 			// aapt resource value: 0x7F0700AC
-			public const int ic_mr_button_connected_00_light = 2131165356;
+			public const int ic_mr_button_connected_00_dark = 2131165356;
 			
 			// aapt resource value: 0x7F0700AD
-			public const int ic_mr_button_connected_01_dark = 2131165357;
+			public const int ic_mr_button_connected_00_light = 2131165357;
 			
 			// aapt resource value: 0x7F0700AE
-			public const int ic_mr_button_connected_01_light = 2131165358;
+			public const int ic_mr_button_connected_01_dark = 2131165358;
 			
 			// aapt resource value: 0x7F0700AF
-			public const int ic_mr_button_connected_02_dark = 2131165359;
+			public const int ic_mr_button_connected_01_light = 2131165359;
 			
 			// aapt resource value: 0x7F0700B0
-			public const int ic_mr_button_connected_02_light = 2131165360;
+			public const int ic_mr_button_connected_02_dark = 2131165360;
 			
 			// aapt resource value: 0x7F0700B1
-			public const int ic_mr_button_connected_03_dark = 2131165361;
+			public const int ic_mr_button_connected_02_light = 2131165361;
 			
 			// aapt resource value: 0x7F0700B2
-			public const int ic_mr_button_connected_03_light = 2131165362;
+			public const int ic_mr_button_connected_03_dark = 2131165362;
 			
 			// aapt resource value: 0x7F0700B3
-			public const int ic_mr_button_connected_04_dark = 2131165363;
+			public const int ic_mr_button_connected_03_light = 2131165363;
 			
 			// aapt resource value: 0x7F0700B4
-			public const int ic_mr_button_connected_04_light = 2131165364;
+			public const int ic_mr_button_connected_04_dark = 2131165364;
 			
 			// aapt resource value: 0x7F0700B5
-			public const int ic_mr_button_connected_05_dark = 2131165365;
+			public const int ic_mr_button_connected_04_light = 2131165365;
 			
 			// aapt resource value: 0x7F0700B6
-			public const int ic_mr_button_connected_05_light = 2131165366;
+			public const int ic_mr_button_connected_05_dark = 2131165366;
 			
 			// aapt resource value: 0x7F0700B7
-			public const int ic_mr_button_connected_06_dark = 2131165367;
+			public const int ic_mr_button_connected_05_light = 2131165367;
 			
 			// aapt resource value: 0x7F0700B8
-			public const int ic_mr_button_connected_06_light = 2131165368;
+			public const int ic_mr_button_connected_06_dark = 2131165368;
 			
 			// aapt resource value: 0x7F0700B9
-			public const int ic_mr_button_connected_07_dark = 2131165369;
+			public const int ic_mr_button_connected_06_light = 2131165369;
 			
 			// aapt resource value: 0x7F0700BA
-			public const int ic_mr_button_connected_07_light = 2131165370;
+			public const int ic_mr_button_connected_07_dark = 2131165370;
 			
 			// aapt resource value: 0x7F0700BB
-			public const int ic_mr_button_connected_08_dark = 2131165371;
+			public const int ic_mr_button_connected_07_light = 2131165371;
 			
 			// aapt resource value: 0x7F0700BC
-			public const int ic_mr_button_connected_08_light = 2131165372;
+			public const int ic_mr_button_connected_08_dark = 2131165372;
 			
 			// aapt resource value: 0x7F0700BD
-			public const int ic_mr_button_connected_09_dark = 2131165373;
+			public const int ic_mr_button_connected_08_light = 2131165373;
 			
 			// aapt resource value: 0x7F0700BE
-			public const int ic_mr_button_connected_09_light = 2131165374;
+			public const int ic_mr_button_connected_09_dark = 2131165374;
 			
 			// aapt resource value: 0x7F0700BF
-			public const int ic_mr_button_connected_10_dark = 2131165375;
+			public const int ic_mr_button_connected_09_light = 2131165375;
 			
 			// aapt resource value: 0x7F0700C0
-			public const int ic_mr_button_connected_10_light = 2131165376;
+			public const int ic_mr_button_connected_10_dark = 2131165376;
 			
 			// aapt resource value: 0x7F0700C1
-			public const int ic_mr_button_connected_11_dark = 2131165377;
+			public const int ic_mr_button_connected_10_light = 2131165377;
 			
 			// aapt resource value: 0x7F0700C2
-			public const int ic_mr_button_connected_11_light = 2131165378;
+			public const int ic_mr_button_connected_11_dark = 2131165378;
 			
 			// aapt resource value: 0x7F0700C3
-			public const int ic_mr_button_connected_12_dark = 2131165379;
+			public const int ic_mr_button_connected_11_light = 2131165379;
 			
 			// aapt resource value: 0x7F0700C4
-			public const int ic_mr_button_connected_12_light = 2131165380;
+			public const int ic_mr_button_connected_12_dark = 2131165380;
 			
 			// aapt resource value: 0x7F0700C5
-			public const int ic_mr_button_connected_13_dark = 2131165381;
+			public const int ic_mr_button_connected_12_light = 2131165381;
 			
 			// aapt resource value: 0x7F0700C6
-			public const int ic_mr_button_connected_13_light = 2131165382;
+			public const int ic_mr_button_connected_13_dark = 2131165382;
 			
 			// aapt resource value: 0x7F0700C7
-			public const int ic_mr_button_connected_14_dark = 2131165383;
+			public const int ic_mr_button_connected_13_light = 2131165383;
 			
 			// aapt resource value: 0x7F0700C8
-			public const int ic_mr_button_connected_14_light = 2131165384;
+			public const int ic_mr_button_connected_14_dark = 2131165384;
 			
 			// aapt resource value: 0x7F0700C9
-			public const int ic_mr_button_connected_15_dark = 2131165385;
+			public const int ic_mr_button_connected_14_light = 2131165385;
 			
 			// aapt resource value: 0x7F0700CA
-			public const int ic_mr_button_connected_15_light = 2131165386;
+			public const int ic_mr_button_connected_15_dark = 2131165386;
 			
 			// aapt resource value: 0x7F0700CB
-			public const int ic_mr_button_connected_16_dark = 2131165387;
+			public const int ic_mr_button_connected_15_light = 2131165387;
 			
 			// aapt resource value: 0x7F0700CC
-			public const int ic_mr_button_connected_16_light = 2131165388;
+			public const int ic_mr_button_connected_16_dark = 2131165388;
 			
 			// aapt resource value: 0x7F0700CD
-			public const int ic_mr_button_connected_17_dark = 2131165389;
+			public const int ic_mr_button_connected_16_light = 2131165389;
 			
 			// aapt resource value: 0x7F0700CE
-			public const int ic_mr_button_connected_17_light = 2131165390;
+			public const int ic_mr_button_connected_17_dark = 2131165390;
 			
 			// aapt resource value: 0x7F0700CF
-			public const int ic_mr_button_connected_18_dark = 2131165391;
+			public const int ic_mr_button_connected_17_light = 2131165391;
 			
 			// aapt resource value: 0x7F0700D0
-			public const int ic_mr_button_connected_18_light = 2131165392;
+			public const int ic_mr_button_connected_18_dark = 2131165392;
 			
 			// aapt resource value: 0x7F0700D1
-			public const int ic_mr_button_connected_19_dark = 2131165393;
+			public const int ic_mr_button_connected_18_light = 2131165393;
 			
 			// aapt resource value: 0x7F0700D2
-			public const int ic_mr_button_connected_19_light = 2131165394;
+			public const int ic_mr_button_connected_19_dark = 2131165394;
 			
 			// aapt resource value: 0x7F0700D3
-			public const int ic_mr_button_connected_20_dark = 2131165395;
+			public const int ic_mr_button_connected_19_light = 2131165395;
 			
 			// aapt resource value: 0x7F0700D4
-			public const int ic_mr_button_connected_20_light = 2131165396;
+			public const int ic_mr_button_connected_20_dark = 2131165396;
 			
 			// aapt resource value: 0x7F0700D5
-			public const int ic_mr_button_connected_21_dark = 2131165397;
+			public const int ic_mr_button_connected_20_light = 2131165397;
 			
 			// aapt resource value: 0x7F0700D6
-			public const int ic_mr_button_connected_21_light = 2131165398;
+			public const int ic_mr_button_connected_21_dark = 2131165398;
 			
 			// aapt resource value: 0x7F0700D7
-			public const int ic_mr_button_connected_22_dark = 2131165399;
+			public const int ic_mr_button_connected_21_light = 2131165399;
 			
 			// aapt resource value: 0x7F0700D8
-			public const int ic_mr_button_connected_22_light = 2131165400;
+			public const int ic_mr_button_connected_22_dark = 2131165400;
 			
 			// aapt resource value: 0x7F0700D9
-			public const int ic_mr_button_connected_23_dark = 2131165401;
+			public const int ic_mr_button_connected_22_light = 2131165401;
 			
 			// aapt resource value: 0x7F0700DA
-			public const int ic_mr_button_connected_23_light = 2131165402;
+			public const int ic_mr_button_connected_23_dark = 2131165402;
 			
 			// aapt resource value: 0x7F0700DB
-			public const int ic_mr_button_connected_24_dark = 2131165403;
+			public const int ic_mr_button_connected_23_light = 2131165403;
 			
 			// aapt resource value: 0x7F0700DC
-			public const int ic_mr_button_connected_24_light = 2131165404;
+			public const int ic_mr_button_connected_24_dark = 2131165404;
 			
 			// aapt resource value: 0x7F0700DD
-			public const int ic_mr_button_connected_25_dark = 2131165405;
+			public const int ic_mr_button_connected_24_light = 2131165405;
 			
 			// aapt resource value: 0x7F0700DE
-			public const int ic_mr_button_connected_25_light = 2131165406;
+			public const int ic_mr_button_connected_25_dark = 2131165406;
 			
 			// aapt resource value: 0x7F0700DF
-			public const int ic_mr_button_connected_26_dark = 2131165407;
+			public const int ic_mr_button_connected_25_light = 2131165407;
 			
 			// aapt resource value: 0x7F0700E0
-			public const int ic_mr_button_connected_26_light = 2131165408;
+			public const int ic_mr_button_connected_26_dark = 2131165408;
 			
 			// aapt resource value: 0x7F0700E1
-			public const int ic_mr_button_connected_27_dark = 2131165409;
+			public const int ic_mr_button_connected_26_light = 2131165409;
 			
 			// aapt resource value: 0x7F0700E2
-			public const int ic_mr_button_connected_27_light = 2131165410;
+			public const int ic_mr_button_connected_27_dark = 2131165410;
 			
 			// aapt resource value: 0x7F0700E3
-			public const int ic_mr_button_connected_28_dark = 2131165411;
+			public const int ic_mr_button_connected_27_light = 2131165411;
 			
 			// aapt resource value: 0x7F0700E4
-			public const int ic_mr_button_connected_28_light = 2131165412;
+			public const int ic_mr_button_connected_28_dark = 2131165412;
 			
 			// aapt resource value: 0x7F0700E5
-			public const int ic_mr_button_connected_29_dark = 2131165413;
+			public const int ic_mr_button_connected_28_light = 2131165413;
 			
 			// aapt resource value: 0x7F0700E6
-			public const int ic_mr_button_connected_29_light = 2131165414;
+			public const int ic_mr_button_connected_29_dark = 2131165414;
 			
 			// aapt resource value: 0x7F0700E7
-			public const int ic_mr_button_connected_30_dark = 2131165415;
+			public const int ic_mr_button_connected_29_light = 2131165415;
 			
 			// aapt resource value: 0x7F0700E8
-			public const int ic_mr_button_connected_30_light = 2131165416;
+			public const int ic_mr_button_connected_30_dark = 2131165416;
 			
 			// aapt resource value: 0x7F0700E9
-			public const int ic_mr_button_connecting_00_dark = 2131165417;
+			public const int ic_mr_button_connected_30_light = 2131165417;
 			
 			// aapt resource value: 0x7F0700EA
-			public const int ic_mr_button_connecting_00_light = 2131165418;
+			public const int ic_mr_button_connecting_00_dark = 2131165418;
 			
 			// aapt resource value: 0x7F0700EB
-			public const int ic_mr_button_connecting_01_dark = 2131165419;
+			public const int ic_mr_button_connecting_00_light = 2131165419;
 			
 			// aapt resource value: 0x7F0700EC
-			public const int ic_mr_button_connecting_01_light = 2131165420;
+			public const int ic_mr_button_connecting_01_dark = 2131165420;
 			
 			// aapt resource value: 0x7F0700ED
-			public const int ic_mr_button_connecting_02_dark = 2131165421;
+			public const int ic_mr_button_connecting_01_light = 2131165421;
 			
 			// aapt resource value: 0x7F0700EE
-			public const int ic_mr_button_connecting_02_light = 2131165422;
+			public const int ic_mr_button_connecting_02_dark = 2131165422;
 			
 			// aapt resource value: 0x7F0700EF
-			public const int ic_mr_button_connecting_03_dark = 2131165423;
+			public const int ic_mr_button_connecting_02_light = 2131165423;
 			
 			// aapt resource value: 0x7F0700F0
-			public const int ic_mr_button_connecting_03_light = 2131165424;
+			public const int ic_mr_button_connecting_03_dark = 2131165424;
 			
 			// aapt resource value: 0x7F0700F1
-			public const int ic_mr_button_connecting_04_dark = 2131165425;
+			public const int ic_mr_button_connecting_03_light = 2131165425;
 			
 			// aapt resource value: 0x7F0700F2
-			public const int ic_mr_button_connecting_04_light = 2131165426;
+			public const int ic_mr_button_connecting_04_dark = 2131165426;
 			
 			// aapt resource value: 0x7F0700F3
-			public const int ic_mr_button_connecting_05_dark = 2131165427;
+			public const int ic_mr_button_connecting_04_light = 2131165427;
 			
 			// aapt resource value: 0x7F0700F4
-			public const int ic_mr_button_connecting_05_light = 2131165428;
+			public const int ic_mr_button_connecting_05_dark = 2131165428;
 			
 			// aapt resource value: 0x7F0700F5
-			public const int ic_mr_button_connecting_06_dark = 2131165429;
+			public const int ic_mr_button_connecting_05_light = 2131165429;
 			
 			// aapt resource value: 0x7F0700F6
-			public const int ic_mr_button_connecting_06_light = 2131165430;
+			public const int ic_mr_button_connecting_06_dark = 2131165430;
 			
 			// aapt resource value: 0x7F0700F7
-			public const int ic_mr_button_connecting_07_dark = 2131165431;
+			public const int ic_mr_button_connecting_06_light = 2131165431;
 			
 			// aapt resource value: 0x7F0700F8
-			public const int ic_mr_button_connecting_07_light = 2131165432;
+			public const int ic_mr_button_connecting_07_dark = 2131165432;
 			
 			// aapt resource value: 0x7F0700F9
-			public const int ic_mr_button_connecting_08_dark = 2131165433;
+			public const int ic_mr_button_connecting_07_light = 2131165433;
 			
 			// aapt resource value: 0x7F0700FA
-			public const int ic_mr_button_connecting_08_light = 2131165434;
+			public const int ic_mr_button_connecting_08_dark = 2131165434;
 			
 			// aapt resource value: 0x7F0700FB
-			public const int ic_mr_button_connecting_09_dark = 2131165435;
+			public const int ic_mr_button_connecting_08_light = 2131165435;
 			
 			// aapt resource value: 0x7F0700FC
-			public const int ic_mr_button_connecting_09_light = 2131165436;
+			public const int ic_mr_button_connecting_09_dark = 2131165436;
 			
 			// aapt resource value: 0x7F0700FD
-			public const int ic_mr_button_connecting_10_dark = 2131165437;
+			public const int ic_mr_button_connecting_09_light = 2131165437;
 			
 			// aapt resource value: 0x7F0700FE
-			public const int ic_mr_button_connecting_10_light = 2131165438;
+			public const int ic_mr_button_connecting_10_dark = 2131165438;
 			
 			// aapt resource value: 0x7F0700FF
-			public const int ic_mr_button_connecting_11_dark = 2131165439;
+			public const int ic_mr_button_connecting_10_light = 2131165439;
 			
 			// aapt resource value: 0x7F070100
-			public const int ic_mr_button_connecting_11_light = 2131165440;
+			public const int ic_mr_button_connecting_11_dark = 2131165440;
 			
 			// aapt resource value: 0x7F070101
-			public const int ic_mr_button_connecting_12_dark = 2131165441;
+			public const int ic_mr_button_connecting_11_light = 2131165441;
 			
 			// aapt resource value: 0x7F070102
-			public const int ic_mr_button_connecting_12_light = 2131165442;
+			public const int ic_mr_button_connecting_12_dark = 2131165442;
 			
 			// aapt resource value: 0x7F070103
-			public const int ic_mr_button_connecting_13_dark = 2131165443;
+			public const int ic_mr_button_connecting_12_light = 2131165443;
 			
 			// aapt resource value: 0x7F070104
-			public const int ic_mr_button_connecting_13_light = 2131165444;
+			public const int ic_mr_button_connecting_13_dark = 2131165444;
 			
 			// aapt resource value: 0x7F070105
-			public const int ic_mr_button_connecting_14_dark = 2131165445;
+			public const int ic_mr_button_connecting_13_light = 2131165445;
 			
 			// aapt resource value: 0x7F070106
-			public const int ic_mr_button_connecting_14_light = 2131165446;
+			public const int ic_mr_button_connecting_14_dark = 2131165446;
 			
 			// aapt resource value: 0x7F070107
-			public const int ic_mr_button_connecting_15_dark = 2131165447;
+			public const int ic_mr_button_connecting_14_light = 2131165447;
 			
 			// aapt resource value: 0x7F070108
-			public const int ic_mr_button_connecting_15_light = 2131165448;
+			public const int ic_mr_button_connecting_15_dark = 2131165448;
 			
 			// aapt resource value: 0x7F070109
-			public const int ic_mr_button_connecting_16_dark = 2131165449;
+			public const int ic_mr_button_connecting_15_light = 2131165449;
 			
 			// aapt resource value: 0x7F07010A
-			public const int ic_mr_button_connecting_16_light = 2131165450;
+			public const int ic_mr_button_connecting_16_dark = 2131165450;
 			
 			// aapt resource value: 0x7F07010B
-			public const int ic_mr_button_connecting_17_dark = 2131165451;
+			public const int ic_mr_button_connecting_16_light = 2131165451;
 			
 			// aapt resource value: 0x7F07010C
-			public const int ic_mr_button_connecting_17_light = 2131165452;
+			public const int ic_mr_button_connecting_17_dark = 2131165452;
 			
 			// aapt resource value: 0x7F07010D
-			public const int ic_mr_button_connecting_18_dark = 2131165453;
+			public const int ic_mr_button_connecting_17_light = 2131165453;
 			
 			// aapt resource value: 0x7F07010E
-			public const int ic_mr_button_connecting_18_light = 2131165454;
+			public const int ic_mr_button_connecting_18_dark = 2131165454;
 			
 			// aapt resource value: 0x7F07010F
-			public const int ic_mr_button_connecting_19_dark = 2131165455;
+			public const int ic_mr_button_connecting_18_light = 2131165455;
 			
 			// aapt resource value: 0x7F070110
-			public const int ic_mr_button_connecting_19_light = 2131165456;
+			public const int ic_mr_button_connecting_19_dark = 2131165456;
 			
 			// aapt resource value: 0x7F070111
-			public const int ic_mr_button_connecting_20_dark = 2131165457;
+			public const int ic_mr_button_connecting_19_light = 2131165457;
 			
 			// aapt resource value: 0x7F070112
-			public const int ic_mr_button_connecting_20_light = 2131165458;
+			public const int ic_mr_button_connecting_20_dark = 2131165458;
 			
 			// aapt resource value: 0x7F070113
-			public const int ic_mr_button_connecting_21_dark = 2131165459;
+			public const int ic_mr_button_connecting_20_light = 2131165459;
 			
 			// aapt resource value: 0x7F070114
-			public const int ic_mr_button_connecting_21_light = 2131165460;
+			public const int ic_mr_button_connecting_21_dark = 2131165460;
 			
 			// aapt resource value: 0x7F070115
-			public const int ic_mr_button_connecting_22_dark = 2131165461;
+			public const int ic_mr_button_connecting_21_light = 2131165461;
 			
 			// aapt resource value: 0x7F070116
-			public const int ic_mr_button_connecting_22_light = 2131165462;
+			public const int ic_mr_button_connecting_22_dark = 2131165462;
 			
 			// aapt resource value: 0x7F070117
-			public const int ic_mr_button_connecting_23_dark = 2131165463;
+			public const int ic_mr_button_connecting_22_light = 2131165463;
 			
 			// aapt resource value: 0x7F070118
-			public const int ic_mr_button_connecting_23_light = 2131165464;
+			public const int ic_mr_button_connecting_23_dark = 2131165464;
 			
 			// aapt resource value: 0x7F070119
-			public const int ic_mr_button_connecting_24_dark = 2131165465;
+			public const int ic_mr_button_connecting_23_light = 2131165465;
 			
 			// aapt resource value: 0x7F07011A
-			public const int ic_mr_button_connecting_24_light = 2131165466;
+			public const int ic_mr_button_connecting_24_dark = 2131165466;
 			
 			// aapt resource value: 0x7F07011B
-			public const int ic_mr_button_connecting_25_dark = 2131165467;
+			public const int ic_mr_button_connecting_24_light = 2131165467;
 			
 			// aapt resource value: 0x7F07011C
-			public const int ic_mr_button_connecting_25_light = 2131165468;
+			public const int ic_mr_button_connecting_25_dark = 2131165468;
 			
 			// aapt resource value: 0x7F07011D
-			public const int ic_mr_button_connecting_26_dark = 2131165469;
+			public const int ic_mr_button_connecting_25_light = 2131165469;
 			
 			// aapt resource value: 0x7F07011E
-			public const int ic_mr_button_connecting_26_light = 2131165470;
+			public const int ic_mr_button_connecting_26_dark = 2131165470;
 			
 			// aapt resource value: 0x7F07011F
-			public const int ic_mr_button_connecting_27_dark = 2131165471;
+			public const int ic_mr_button_connecting_26_light = 2131165471;
 			
 			// aapt resource value: 0x7F070120
-			public const int ic_mr_button_connecting_27_light = 2131165472;
+			public const int ic_mr_button_connecting_27_dark = 2131165472;
 			
 			// aapt resource value: 0x7F070121
-			public const int ic_mr_button_connecting_28_dark = 2131165473;
+			public const int ic_mr_button_connecting_27_light = 2131165473;
 			
 			// aapt resource value: 0x7F070122
-			public const int ic_mr_button_connecting_28_light = 2131165474;
+			public const int ic_mr_button_connecting_28_dark = 2131165474;
 			
 			// aapt resource value: 0x7F070123
-			public const int ic_mr_button_connecting_29_dark = 2131165475;
+			public const int ic_mr_button_connecting_28_light = 2131165475;
 			
 			// aapt resource value: 0x7F070124
-			public const int ic_mr_button_connecting_29_light = 2131165476;
+			public const int ic_mr_button_connecting_29_dark = 2131165476;
 			
 			// aapt resource value: 0x7F070125
-			public const int ic_mr_button_connecting_30_dark = 2131165477;
+			public const int ic_mr_button_connecting_29_light = 2131165477;
 			
 			// aapt resource value: 0x7F070126
-			public const int ic_mr_button_connecting_30_light = 2131165478;
+			public const int ic_mr_button_connecting_30_dark = 2131165478;
 			
 			// aapt resource value: 0x7F070127
-			public const int ic_mr_button_disabled_dark = 2131165479;
+			public const int ic_mr_button_connecting_30_light = 2131165479;
 			
 			// aapt resource value: 0x7F070128
-			public const int ic_mr_button_disabled_light = 2131165480;
+			public const int ic_mr_button_disabled_dark = 2131165480;
 			
 			// aapt resource value: 0x7F070129
-			public const int ic_mr_button_disconnected_dark = 2131165481;
+			public const int ic_mr_button_disabled_light = 2131165481;
 			
 			// aapt resource value: 0x7F07012A
-			public const int ic_mr_button_disconnected_light = 2131165482;
+			public const int ic_mr_button_disconnected_dark = 2131165482;
 			
 			// aapt resource value: 0x7F07012B
-			public const int ic_mr_button_grey = 2131165483;
+			public const int ic_mr_button_disconnected_light = 2131165483;
 			
 			// aapt resource value: 0x7F07012C
-			public const int ic_vol_type_speaker_dark = 2131165484;
+			public const int ic_mr_button_grey = 2131165484;
 			
 			// aapt resource value: 0x7F07012D
-			public const int ic_vol_type_speaker_group_dark = 2131165485;
+			public const int ic_vol_type_speaker_dark = 2131165485;
 			
 			// aapt resource value: 0x7F07012E
-			public const int ic_vol_type_speaker_group_light = 2131165486;
+			public const int ic_vol_type_speaker_group_dark = 2131165486;
 			
 			// aapt resource value: 0x7F07012F
-			public const int ic_vol_type_speaker_light = 2131165487;
+			public const int ic_vol_type_speaker_group_light = 2131165487;
 			
 			// aapt resource value: 0x7F070130
-			public const int ic_vol_type_tv_dark = 2131165488;
+			public const int ic_vol_type_speaker_light = 2131165488;
 			
 			// aapt resource value: 0x7F070131
-			public const int ic_vol_type_tv_light = 2131165489;
+			public const int ic_vol_type_tv_dark = 2131165489;
 			
 			// aapt resource value: 0x7F070132
-			public const int information = 2131165490;
+			public const int ic_vol_type_tv_light = 2131165490;
 			
 			// aapt resource value: 0x7F070133
-			public const int inputlayout_togglecollapseicon = 2131165491;
+			public const int information = 2131165491;
 			
 			// aapt resource value: 0x7F070134
-			public const int inputlayout_togglevisibleicon = 2131165492;
+			public const int inputlayout_togglecollapseicon = 2131165492;
 			
 			// aapt resource value: 0x7F070135
-			public const int input_layout_drop_down_icon = 2131165493;
+			public const int inputlayout_togglevisibleicon = 2131165493;
 			
 			// aapt resource value: 0x7F070136
-			public const int loading = 2131165494;
+			public const int input_layout_drop_down_icon = 2131165494;
 			
 			// aapt resource value: 0x7F070137
-			public const int location = 2131165495;
+			public const int loading = 2131165495;
 			
 			// aapt resource value: 0x7F070138
-			public const int mr_button_connected_dark = 2131165496;
+			public const int location = 2131165496;
 			
 			// aapt resource value: 0x7F070139
-			public const int mr_button_connected_light = 2131165497;
+			public const int mr_button_connected_dark = 2131165497;
 			
 			// aapt resource value: 0x7F07013A
-			public const int mr_button_connecting_dark = 2131165498;
+			public const int mr_button_connected_light = 2131165498;
 			
 			// aapt resource value: 0x7F07013B
-			public const int mr_button_connecting_light = 2131165499;
+			public const int mr_button_connecting_dark = 2131165499;
 			
 			// aapt resource value: 0x7F07013C
-			public const int mr_button_dark = 2131165500;
+			public const int mr_button_connecting_light = 2131165500;
 			
 			// aapt resource value: 0x7F07013D
-			public const int mr_button_light = 2131165501;
+			public const int mr_button_dark = 2131165501;
 			
 			// aapt resource value: 0x7F07013E
-			public const int mr_dialog_close_dark = 2131165502;
+			public const int mr_button_light = 2131165502;
 			
 			// aapt resource value: 0x7F07013F
-			public const int mr_dialog_close_light = 2131165503;
+			public const int mr_dialog_close_dark = 2131165503;
 			
 			// aapt resource value: 0x7F070140
-			public const int mr_dialog_material_background_dark = 2131165504;
+			public const int mr_dialog_close_light = 2131165504;
 			
 			// aapt resource value: 0x7F070141
-			public const int mr_dialog_material_background_light = 2131165505;
+			public const int mr_dialog_material_background_dark = 2131165505;
 			
 			// aapt resource value: 0x7F070142
-			public const int mr_group_collapse = 2131165506;
+			public const int mr_dialog_material_background_light = 2131165506;
 			
 			// aapt resource value: 0x7F070143
-			public const int mr_group_expand = 2131165507;
+			public const int mr_group_collapse = 2131165507;
 			
 			// aapt resource value: 0x7F070144
-			public const int mr_media_pause_dark = 2131165508;
+			public const int mr_group_expand = 2131165508;
 			
 			// aapt resource value: 0x7F070145
-			public const int mr_media_pause_light = 2131165509;
+			public const int mr_media_pause_dark = 2131165509;
 			
 			// aapt resource value: 0x7F070146
-			public const int mr_media_play_dark = 2131165510;
+			public const int mr_media_pause_light = 2131165510;
 			
 			// aapt resource value: 0x7F070147
-			public const int mr_media_play_light = 2131165511;
+			public const int mr_media_play_dark = 2131165511;
 			
 			// aapt resource value: 0x7F070148
-			public const int mr_media_stop_dark = 2131165512;
+			public const int mr_media_play_light = 2131165512;
 			
 			// aapt resource value: 0x7F070149
-			public const int mr_media_stop_light = 2131165513;
+			public const int mr_media_stop_dark = 2131165513;
 			
 			// aapt resource value: 0x7F07014A
-			public const int mr_vol_type_audiotrack_dark = 2131165514;
+			public const int mr_media_stop_light = 2131165514;
 			
 			// aapt resource value: 0x7F07014B
-			public const int mr_vol_type_audiotrack_light = 2131165515;
+			public const int mr_vol_type_audiotrack_dark = 2131165515;
 			
 			// aapt resource value: 0x7F07014C
-			public const int navigation_empty_icon = 2131165516;
+			public const int mr_vol_type_audiotrack_light = 2131165516;
 			
 			// aapt resource value: 0x7F07014D
-			public const int notification_action_background = 2131165517;
+			public const int navigation_empty_icon = 2131165517;
 			
 			// aapt resource value: 0x7F07014E
-			public const int notification_bg = 2131165518;
+			public const int notification_action_background = 2131165518;
 			
 			// aapt resource value: 0x7F07014F
-			public const int notification_bg_low = 2131165519;
+			public const int notification_bg = 2131165519;
 			
 			// aapt resource value: 0x7F070150
-			public const int notification_bg_low_normal = 2131165520;
+			public const int notification_bg_low = 2131165520;
 			
 			// aapt resource value: 0x7F070151
-			public const int notification_bg_low_pressed = 2131165521;
+			public const int notification_bg_low_normal = 2131165521;
 			
 			// aapt resource value: 0x7F070152
-			public const int notification_bg_normal = 2131165522;
+			public const int notification_bg_low_pressed = 2131165522;
 			
 			// aapt resource value: 0x7F070153
-			public const int notification_bg_normal_pressed = 2131165523;
+			public const int notification_bg_normal = 2131165523;
 			
 			// aapt resource value: 0x7F070154
-			public const int notification_icon_background = 2131165524;
+			public const int notification_bg_normal_pressed = 2131165524;
 			
 			// aapt resource value: 0x7F070155
-			public const int notification_template_icon_bg = 2131165525;
+			public const int notification_icon_background = 2131165525;
 			
 			// aapt resource value: 0x7F070156
-			public const int notification_template_icon_low_bg = 2131165526;
+			public const int notification_template_icon_bg = 2131165526;
 			
 			// aapt resource value: 0x7F070157
-			public const int notification_tile_bg = 2131165527;
+			public const int notification_template_icon_low_bg = 2131165527;
 			
 			// aapt resource value: 0x7F070158
-			public const int notify_panel_notification_icon_bg = 2131165528;
+			public const int notification_tile_bg = 2131165528;
 			
 			// aapt resource value: 0x7F070159
-			public const int pesc = 2131165529;
+			public const int notify_panel_notification_icon_bg = 2131165529;
 			
 			// aapt resource value: 0x7F07015A
-			public const int picknpay = 2131165530;
+			public const int pesc = 2131165530;
 			
 			// aapt resource value: 0x7F07015B
-			public const int profile = 2131165531;
+			public const int picknpay = 2131165531;
 			
 			// aapt resource value: 0x7F07015C
-			public const int progress = 2131165532;
+			public const int profile = 2131165532;
 			
 			// aapt resource value: 0x7F07015D
-			public const int settings = 2131165533;
+			public const int progress = 2131165533;
 			
 			// aapt resource value: 0x7F07015E
-			public const int spa = 2131165534;
+			public const int settings = 2131165534;
 			
 			// aapt resource value: 0x7F07015F
-			public const int store = 2131165535;
+			public const int spa = 2131165535;
 			
 			// aapt resource value: 0x7F070160
-			public const int tooltip_frame_dark = 2131165536;
+			public const int store = 2131165536;
 			
 			// aapt resource value: 0x7F070161
-			public const int tooltip_frame_light = 2131165537;
+			public const int tooltip_frame_dark = 2131165537;
 			
 			// aapt resource value: 0x7F070162
-			public const int veg = 2131165538;
+			public const int tooltip_frame_light = 2131165538;
 			
 			// aapt resource value: 0x7F070163
-			public const int weightGain = 2131165539;
+			public const int top_shadow = 2131165539;
 			
 			// aapt resource value: 0x7F070164
-			public const int weightLoss = 2131165540;
+			public const int veg = 2131165540;
 			
 			// aapt resource value: 0x7F070165
-			public const int woolworths = 2131165541;
+			public const int weightGain = 2131165541;
 			
 			// aapt resource value: 0x7F070166
-			public const int xamarin_logo = 2131165542;
+			public const int weightLoss = 2131165542;
+			
+			// aapt resource value: 0x7F070167
+			public const int woolworths = 2131165543;
+			
+			// aapt resource value: 0x7F070168
+			public const int xamarin_logo = 2131165544;
 			
 			static Drawable()
 			{
@@ -6520,130 +8786,136 @@ namespace MealPlanner.Droid
 			public const int appbar_scrolling_view_behavior = 2131558429;
 			
 			// aapt resource value: 0x7F0D001E
-			public const int bottom_sheet_behavior = 2131558430;
+			public const int app_name = 2131558430;
 			
 			// aapt resource value: 0x7F0D001F
-			public const int character_counter_pattern = 2131558431;
+			public const int bottom_sheet_behavior = 2131558431;
 			
 			// aapt resource value: 0x7F0D0020
-			public const int mr_button_content_description = 2131558432;
+			public const int character_counter_pattern = 2131558432;
 			
 			// aapt resource value: 0x7F0D0021
-			public const int mr_cast_button_connected = 2131558433;
+			public const int hello = 2131558433;
 			
 			// aapt resource value: 0x7F0D0022
-			public const int mr_cast_button_connecting = 2131558434;
+			public const int mr_button_content_description = 2131558434;
 			
 			// aapt resource value: 0x7F0D0023
-			public const int mr_cast_button_disconnected = 2131558435;
+			public const int mr_cast_button_connected = 2131558435;
 			
 			// aapt resource value: 0x7F0D0024
-			public const int mr_chooser_searching = 2131558436;
+			public const int mr_cast_button_connecting = 2131558436;
 			
 			// aapt resource value: 0x7F0D0025
-			public const int mr_chooser_title = 2131558437;
+			public const int mr_cast_button_disconnected = 2131558437;
 			
 			// aapt resource value: 0x7F0D0026
-			public const int mr_controller_album_art = 2131558438;
+			public const int mr_chooser_searching = 2131558438;
 			
 			// aapt resource value: 0x7F0D0027
-			public const int mr_controller_casting_screen = 2131558439;
+			public const int mr_chooser_title = 2131558439;
 			
 			// aapt resource value: 0x7F0D0028
-			public const int mr_controller_close_description = 2131558440;
+			public const int mr_controller_album_art = 2131558440;
 			
 			// aapt resource value: 0x7F0D0029
-			public const int mr_controller_collapse_group = 2131558441;
+			public const int mr_controller_casting_screen = 2131558441;
 			
 			// aapt resource value: 0x7F0D002A
-			public const int mr_controller_disconnect = 2131558442;
+			public const int mr_controller_close_description = 2131558442;
 			
 			// aapt resource value: 0x7F0D002B
-			public const int mr_controller_expand_group = 2131558443;
+			public const int mr_controller_collapse_group = 2131558443;
 			
 			// aapt resource value: 0x7F0D002C
-			public const int mr_controller_no_info_available = 2131558444;
+			public const int mr_controller_disconnect = 2131558444;
 			
 			// aapt resource value: 0x7F0D002D
-			public const int mr_controller_no_media_selected = 2131558445;
+			public const int mr_controller_expand_group = 2131558445;
 			
 			// aapt resource value: 0x7F0D002E
-			public const int mr_controller_pause = 2131558446;
+			public const int mr_controller_no_info_available = 2131558446;
 			
 			// aapt resource value: 0x7F0D002F
-			public const int mr_controller_play = 2131558447;
+			public const int mr_controller_no_media_selected = 2131558447;
 			
 			// aapt resource value: 0x7F0D0030
-			public const int mr_controller_stop = 2131558448;
+			public const int mr_controller_pause = 2131558448;
 			
 			// aapt resource value: 0x7F0D0031
-			public const int mr_controller_stop_casting = 2131558449;
+			public const int mr_controller_play = 2131558449;
 			
 			// aapt resource value: 0x7F0D0032
-			public const int mr_controller_volume_slider = 2131558450;
+			public const int mr_controller_stop = 2131558450;
 			
 			// aapt resource value: 0x7F0D0033
-			public const int mr_system_route_name = 2131558451;
+			public const int mr_controller_stop_casting = 2131558451;
 			
 			// aapt resource value: 0x7F0D0034
-			public const int mr_user_route_category_name = 2131558452;
+			public const int mr_controller_volume_slider = 2131558452;
 			
 			// aapt resource value: 0x7F0D0035
-			public const int password_toggle_content_description = 2131558453;
+			public const int mr_system_route_name = 2131558453;
 			
 			// aapt resource value: 0x7F0D0036
-			public const int path_password_eye = 2131558454;
+			public const int mr_user_route_category_name = 2131558454;
 			
 			// aapt resource value: 0x7F0D0037
-			public const int path_password_eye_mask_strike_through = 2131558455;
+			public const int password_toggle_content_description = 2131558455;
 			
 			// aapt resource value: 0x7F0D0038
-			public const int path_password_eye_mask_visible = 2131558456;
+			public const int path_password_eye = 2131558456;
 			
 			// aapt resource value: 0x7F0D0039
-			public const int path_password_strike_through = 2131558457;
+			public const int path_password_eye_mask_strike_through = 2131558457;
 			
 			// aapt resource value: 0x7F0D003A
-			public const int q = 2131558458;
+			public const int path_password_eye_mask_visible = 2131558458;
 			
 			// aapt resource value: 0x7F0D003B
-			public const int quarter = 2131558459;
+			public const int path_password_strike_through = 2131558459;
 			
 			// aapt resource value: 0x7F0D003C
-			public const int search_menu_title = 2131558460;
+			public const int q = 2131558460;
 			
 			// aapt resource value: 0x7F0D003D
-			public const int sfchart_close_label = 2131558461;
+			public const int quarter = 2131558461;
 			
 			// aapt resource value: 0x7F0D003E
-			public const int sfchart_decrease_label = 2131558462;
+			public const int search_menu_title = 2131558462;
 			
 			// aapt resource value: 0x7F0D003F
-			public const int sfchart_high_label = 2131558463;
+			public const int sfchart_close_label = 2131558463;
 			
 			// aapt resource value: 0x7F0D0040
-			public const int sfchart_increase_label = 2131558464;
+			public const int sfchart_decrease_label = 2131558464;
 			
 			// aapt resource value: 0x7F0D0041
-			public const int sfchart_low_label = 2131558465;
+			public const int sfchart_high_label = 2131558465;
 			
 			// aapt resource value: 0x7F0D0042
-			public const int sfchart_open_label = 2131558466;
+			public const int sfchart_increase_label = 2131558466;
 			
 			// aapt resource value: 0x7F0D0043
-			public const int sfchart_others_label = 2131558467;
+			public const int sfchart_low_label = 2131558467;
 			
 			// aapt resource value: 0x7F0D0044
-			public const int sfchart_total_label = 2131558468;
+			public const int sfchart_open_label = 2131558468;
 			
 			// aapt resource value: 0x7F0D0045
-			public const int status_bar_notification_info_overflow = 2131558469;
+			public const int sfchart_others_label = 2131558469;
 			
 			// aapt resource value: 0x7F0D0046
-			public const int w = 2131558470;
+			public const int sfchart_total_label = 2131558470;
 			
 			// aapt resource value: 0x7F0D0047
-			public const int week = 2131558471;
+			public const int status_bar_notification_info_overflow = 2131558471;
+			
+			// aapt resource value: 0x7F0D0048
+			public const int w = 2131558472;
+			
+			// aapt resource value: 0x7F0D0049
+			public const int week = 2131558473;
 			
 			static String()
 			{

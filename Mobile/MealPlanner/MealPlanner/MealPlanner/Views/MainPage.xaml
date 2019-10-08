@@ -233,18 +233,24 @@
                         TextColor="{DynamicResource BtnHeaderText}" />
                 </Frame>
                 <!--  TIPS FOR WEIGHT GAIN CONTENT  -->
-                <ListView
+                <CollectionView
                     BackgroundColor="{DynamicResource List-BackGroundColor}"
-                    Rotation="270"
-                    RowHeight="150">
-                    <ListView.ItemTemplate>
+                    HeightRequest="150"
+                    ItemsLayout="HorizontalList"
+                    ItemsSource="{Binding WeightGainTip}">
+                    <CollectionView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell Tapped="ViewCell_Tapped">
-                                <Grid Rotation="90" />
+                                <Frame BorderColor="{DynamicResource BorderColor}" CornerRadius="10">
+                                    <Label TextColor="Black" />
+                                </Frame>
                             </ViewCell>
                         </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+
+
 
                 <!--  TIPS FOR WEIGHT LOSS  -->
                 <Frame

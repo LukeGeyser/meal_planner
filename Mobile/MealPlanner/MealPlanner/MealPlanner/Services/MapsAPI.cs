@@ -46,15 +46,15 @@ namespace MealPlanner.Services
             return await response.Content.ReadAsStringAsync();
         }
 
-        private static async Task<RootObject> GetMapResiltDataWrapperAsync(string url, double lat, double lon, string shopName)
+        private static async Task<RootObjectMap> GetMapResiltDataWrapperAsync(string url, double lat, double lon, string shopName)
         {
             var jsonMessage = await CallGoogleMapAPIAsync(url, lat, lon, shopName);
 
             // Response -> string / json -> deserialize
-            var serializer = new DataContractJsonSerializer(typeof(RootObject));
+            var serializer = new DataContractJsonSerializer(typeof(RootObjectMap));
             var ms = new MemoryStream(Encoding.UTF8.GetBytes(jsonMessage));
 
-            var result = (RootObject)serializer.ReadObject(ms);
+            var result = (RootObjectMap)serializer.ReadObject(ms);
             return result;
         }
 

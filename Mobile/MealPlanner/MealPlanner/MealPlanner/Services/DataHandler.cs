@@ -574,5 +574,33 @@ namespace MealPlanner.Services
             return products;
         }
 
+        public ObservableCollection<WeightGainTips> GetWeightGainTips()
+        {
+            ObservableCollection<WeightGainTips> weightGainTips = new ObservableCollection<WeightGainTips>();
+            try
+            {
+                conn.Open();
+                SqlCommand cmdSelectAll = new SqlCommand("SELECT * FROM tblWeightGainTips", conn);
+                dr = cmdSelectAll.ExecuteReader();
+
+                while (dr.Read())
+                {
+                    weightGainTips.Add(new WeightGainTips(dr[0].ToString()));
+                }
+                cmdSelectAll.Dispose();
+            }
+            catch (Exception e)
+            {
+                // Throw an Error
+                Debug.WriteLine(e.Message);
+            }
+            finally
+            {
+                if (conn != null)
+                    conn.Close();
+            }
+            return weightGainTips;
+        }
+
     }
 }

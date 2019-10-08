@@ -18,6 +18,7 @@ namespace MealPlanner.Droid
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            global::Xamarin.Forms.Forms.SetFlags("CollectionView_Experimental");
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
 

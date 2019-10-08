@@ -1,4 +1,5 @@
-﻿using MealPlanner.Services;
+﻿using MealPlanner.Models;
+using MealPlanner.Services;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -17,16 +18,34 @@ namespace MealPlanner.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MainPage : ContentPage
     {
+
         ViewCell lastCell;
+
+        private ObservableCollection<WeightGainTips> weightGainTips;
+        public ObservableCollection<WeightGainTips> WeightGainTip
+        {
+            get { return weightGainTips; }
+            set
+            {
+                weightGainTips = value;
+                OnPropertyChanged();
+            }
+        }
+
         public MainPage()
         {
             InitializeComponent();
+
+            WeightGainTip = new ObservableCollection<WeightGainTips>();
 
             Device.BeginInvokeOnMainThread(() =>
             {
                 CenterLabels();
             });
-            
+
+            weightGainTips = new DataHandler().GetWeightGainTips();
+
+            BindingContext = this;
         }
 
         #region Private Helpers

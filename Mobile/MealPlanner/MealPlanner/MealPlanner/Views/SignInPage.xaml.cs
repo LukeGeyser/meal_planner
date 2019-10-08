@@ -23,7 +23,6 @@ namespace MealPlanner.Views
         List<User> userList = App.users;
         public static User loggedInUser;
         //DataHandler dataHandler = new DataHandler();
-
         #endregion
 
 
