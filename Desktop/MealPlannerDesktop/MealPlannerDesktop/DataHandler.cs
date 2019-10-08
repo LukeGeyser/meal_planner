@@ -673,7 +673,7 @@ namespace MealPlannerDesktop
             }
             return dates;
         }
-
+        //gets a specific users information
         public static User GetUserInfo(string user)
         {
             User newUser = new User();

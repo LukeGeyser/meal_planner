@@ -50,13 +50,6 @@ namespace MealPlannerDesktop
                 txtEmail.Text = nUser.Email;
                 txtWeight.Text = nUser.Weight.ToString();
                 txtHeight.Text = nUser.Height.ToString();
-                //txtName.Text = frmSignIn.SuccessfulLogin.FirstName;
-                //txtSurname.Text = frmSignIn.SuccessfulLogin.LastName;
-                //dtpDOB.Value = frmSignIn.SuccessfulLogin.DOB;
-                //txtPhone.Text = frmSignIn.SuccessfulLogin.Phone;
-                //txtEmail.Text = frmSignIn.SuccessfulLogin.Email;
-                //txtWeight.Text = frmSignIn.SuccessfulLogin.Weight.ToString();
-                //txtHeight.Text = frmSignIn.SuccessfulLogin.Height.ToString();
 
                 //Display all allergies and mealplans as well as all previously
                 //selected alergies and mealplans
