@@ -17,6 +17,8 @@ namespace MealPlannerDesktop
             InitializeComponent();
         }
 
+        List<Quote> quotes = FileHandler.GetQuotes();
+
         //Populate array with slideshow image names
         string[] slideshowImages = new string[]
         {
@@ -78,6 +80,8 @@ namespace MealPlannerDesktop
         {
             tmrSlideshow.Interval = 2000;
             tmrSlideshow.Enabled = true;
+            tmrQuotes.Interval = 30000;
+            tmrQuotes.Enabled = true;
 
             //Display username of customer logged in on frmSignIn
             lblWelcome.Text = "Welcome " + frmSignIn.SuccessfulLogin.Username;
@@ -152,6 +156,22 @@ namespace MealPlannerDesktop
             {
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+        int quoteIndex = 0;
+        private void TmrQuotes_Tick(object sender, EventArgs e)
+        {
+            if(quoteIndex < quotes.Count)
+            {
+                lblQuote.Text = "\"" + quotes[quoteIndex]._Quote + "\"";
+                lblQuoteAuthor.Text = "- " + quotes[quoteIndex]._Author;
+            }
+            else
+            {
+                quoteIndex = 0;
+                lblQuote.Text = "\"" + quotes[quoteIndex]._Quote + "\"";
+                lblQuoteAuthor.Text = "- " + quotes[quoteIndex]._Author;
+            }
+            quoteIndex++;
         }
     }
 }

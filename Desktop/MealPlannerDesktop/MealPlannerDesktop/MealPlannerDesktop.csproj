@@ -273,6 +273,7 @@
   <ItemGroup>
     <Compile Include="CustomException.cs" />
     <Compile Include="DisplayStoreInfoViewModel.cs" />
+    <Compile Include="FileHandler.cs" />
     <Compile Include="frmAddAllergy.cs">
       <SubType>Form</SubType>
     </Compile>
