@@ -59,6 +59,11 @@ namespace MealPlanner.Models
         /// </summary>
         private string salt;
 
+        /// <summary>
+        /// Private User Previous Weight Update
+        /// </summary>
+        private DateTime previousWeightUpdate;
+
         #endregion
 
         #region Public Properties
@@ -151,6 +156,12 @@ namespace MealPlanner.Models
         {
             get => salt;
             set => salt = value;
+        }
+
+        public DateTime PreviousWeightUpdate
+        {
+            get => previousWeightUpdate;
+            set => previousWeightUpdate = value;
         }
 
         #endregion

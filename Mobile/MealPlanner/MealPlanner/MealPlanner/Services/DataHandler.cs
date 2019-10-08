@@ -153,6 +153,27 @@ namespace MealPlanner.Services
             }
         }
 
+        public async Task UpdateUserPreviosWeight(User Person, DateTime PreviousWeightUpdate)
+        {
+            try
+            {
+                await conn.OpenAsync();
+                SqlCommand cmd = new SqlCommand("UPDATE tblUsers SET PreviousWeightUpdate=@prevWeight WHERE Username = @user", conn);
+                cmd.Parameters.AddWithValue("@prevWeight", PreviousWeightUpdate);
+                cmd.Parameters.AddWithValue("@user", Person.Username);
+                cmd.ExecuteNonQuery();
+            }
+            catch (Exception)
+            {
+
+            }
+            finally
+            {
+                if (conn != null)
+                    conn.Close();
+            }
+        }
+
         public void UpdateUserWeight(User Person)
         {
             try

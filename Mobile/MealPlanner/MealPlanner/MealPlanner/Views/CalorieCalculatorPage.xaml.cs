@@ -25,7 +25,7 @@ namespace MealPlanner.Views
 
         private void Minus_Clicked(object sender, EventArgs e)
         {
-            if ((mealsPerDay -= 1) <= 0)
+            if ((mealsPerDay == 1))
             {
                 MealsPerDay.Text = "0";
                 mealsPerDay = 0;

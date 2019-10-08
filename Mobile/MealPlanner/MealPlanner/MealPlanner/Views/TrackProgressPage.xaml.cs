@@ -49,20 +49,33 @@ namespace MealPlanner.Views
 
         private void Update_Clicked(object sender, EventArgs e)
         {
-            double weight = 0;
-            try
+            if (SignInPage.loggedInUser.PreviousWeightUpdate == null || (DateTime.Now.Subtract(SignInPage.loggedInUser.PreviousWeightUpdate).TotalDays) >= 1)
             {
-                weight = Convert.ToDouble(Weight.Text);
-            }
-            catch (Exception)
-            {
-                DisplayAlert("Oops", "Please Enter a Numeric value for Weight", "Got it!");
-            }
-            new DataHandler().UpdateUserProgress(SignInPage.loggedInUser.Username, weight);
-            SignInPage.loggedInUser.Weight = weight;
-            new DataHandler().UpdateUserWeight(SignInPage.loggedInUser);
+                double weight = 0;
+                try
+                {
+                    weight = Convert.ToDouble(Weight.Text);
+                }
+                catch (Exception)
+                {
+                    DisplayAlert("Oops", "Please Enter a Numeric value for Weight", "Got it!");
+                }
+                new DataHandler().UpdateUserProgress(SignInPage.loggedInUser.Username, weight);
+                Task.Run(async () =>
+                {
+                    await new DataHandler().UpdateUserPreviosWeight(SignInPage.loggedInUser, DateTime.Now);
+                });
+                SignInPage.loggedInUser.PreviousWeightUpdate = DateTime.Now;
+                SignInPage.loggedInUser.Weight = weight;
+                new DataHandler().UpdateUserWeight(SignInPage.loggedInUser);
 
-            Progress = new DataHandler().GetProgress(SignInPage.loggedInUser);
+                Progress = new DataHandler().GetProgress(SignInPage.loggedInUser);
+            }
+            else if ((DateTime.Now.Subtract(SignInPage.loggedInUser.PreviousWeightUpdate).TotalDays) < 1)
+            {
+                DisplayAlert("Oops...", "You can only update your Wight every 24 hours", "Got it!");
+            }
+            
         }
     }
 }
