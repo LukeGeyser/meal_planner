@@ -52,7 +52,7 @@ namespace MealPlanner.Views
                 }
                 else if (DOB.Date != null && Height.Text != null && Weight != null)
                 {
-                    if (Regex.IsMatch(Height.Text, @"^\d+$") == false || Regex.IsMatch(Weight.Text, @"^\d+$") == false)
+                    if (Regex.IsMatch(Weight.Text, @"^\d+$") == false)
                     {
                         Device.BeginInvokeOnMainThread(() =>
                         {
@@ -61,7 +61,7 @@ namespace MealPlanner.Views
                             Finish.IsEnabled = true;
                         });
                     }
-                    else if (Regex.IsMatch(Height.Text, @"^\d+$") == true || Regex.IsMatch(Weight.Text, @"^\d+$") == true)
+                    else if (Regex.IsMatch(Weight.Text, @"^\d+$") == true)
                     {
                         signUpUser.Dob = DOB.Date;
                         signUpUser.Weight = double.Parse(Weight.Text);

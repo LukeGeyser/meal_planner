@@ -69,6 +69,14 @@
               "target": "Package",
               "version": "[17.3.0.14, )"
             },
+            "Syncfusion.Xamarin.SfRadialMenu": {
+              "target": "Package",
+              "version": "[17.3.0.14, )"
+            },
+            "Syncfusion.Xamarin.SfRating": {
+              "target": "Package",
+              "version": "[17.3.0.14, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.7.0, )"

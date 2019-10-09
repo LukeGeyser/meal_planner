@@ -623,6 +623,32 @@
           "lib/netstandard2.0/Syncfusion.SfChart.XForms.dll": {}
         }
       },
+      "Syncfusion.Xamarin.SfRadialMenu/17.3.0.14": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.3.0.14",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.SfRadialMenu.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfRadialMenu.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfRating/17.3.0.14": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.3.0.14",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.SfRating.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfRating.XForms.dll": {}
+        }
+      },
       "System.AppContext/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -2173,6 +2199,63 @@
         "lib/uap10.0/Syncfusion.SfChart.XForms.xml",
         "syncfusion.xamarin.sfchart.17.3.0.14.nupkg.sha512",
         "syncfusion.xamarin.sfchart.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.SfRadialMenu/17.3.0.14": {
+      "sha512": "1OiA3AU5iEw+N7nyRsU5qEHzOS5nPgKuPgNgQOPSbEz39yc0zDzKtHfIA+sbZJSHVxodv7EKIaz4FW0XxOinbA==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfradialmenu/17.3.0.14",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.SfRadialMenu.Android.XML",
+        "lib/MonoAndroid10/Syncfusion.SfRadialMenu.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfRadialMenu.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfRadialMenu.XForms.XML",
+        "lib/MonoAndroid10/Syncfusion.SfRadialMenu.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfRadialMenu.XForms.XML",
+        "lib/Xamarin.iOS10/Syncfusion.SfRadialMenu.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfRadialMenu.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfRadialMenu.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfRadialMenu.iOS.xml",
+        "lib/netstandard2.0/Syncfusion.SfRadialMenu.XForms.XML",
+        "lib/netstandard2.0/Syncfusion.SfRadialMenu.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfRadialMenu.XForms.XML",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfRadialMenu.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfRadialMenu.XForms.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfRadialMenu.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfRadialMenu.XForms.XML",
+        "lib/uap10.0/Syncfusion.SfRadialMenu.XForms.dll",
+        "syncfusion.xamarin.sfradialmenu.17.3.0.14.nupkg.sha512",
+        "syncfusion.xamarin.sfradialmenu.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.SfRating/17.3.0.14": {
+      "sha512": "/y/xHDbr6aKQma3NOG3ifTl4oJnSPsRkhRzhDA1mNrNW0f6n+wJCh0cKVqVxJXCBaH0204s3Sf9G6P7G6fxudw==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfrating/17.3.0.14",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.SfRating.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfRating.Android.xml",
+        "lib/MonoAndroid10/Syncfusion.SfRating.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfRating.XForms.XML",
+        "lib/MonoAndroid10/Syncfusion.SfRating.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfRating.XForms.XML",
+        "lib/Xamarin.iOS10/Syncfusion.SfRating.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfRating.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfRating.iOS.dll",
+        "lib/netstandard2.0/Syncfusion.SfRating.XForms.XML",
+        "lib/netstandard2.0/Syncfusion.SfRating.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfRating.XForms.XML",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfRating.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfRating.XForms.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfRating.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfRating.XForms.XML",
+        "lib/uap10.0/Syncfusion.SfRating.XForms.dll",
+        "syncfusion.xamarin.sfrating.17.3.0.14.nupkg.sha512",
+        "syncfusion.xamarin.sfrating.nuspec"
       ]
     },
     "System.AppContext/4.1.0": {
@@ -4897,6 +4980,8 @@
       "Newtonsoft.Json >= 12.0.2",
       "Sharpnado.Forms.HorizontalListView >= 1.3.0",
       "Syncfusion.Xamarin.SfChart >= 17.3.0.14",
+      "Syncfusion.Xamarin.SfRadialMenu >= 17.3.0.14",
+      "Syncfusion.Xamarin.SfRating >= 17.3.0.14",
       "System.Data.SqlClient >= 4.7.0",
       "Xam.Plugins.Settings >= 3.1.1",
       "Xamarin.Essentials >= 1.3.1",
@@ -4973,6 +5058,14 @@
             "version": "[1.3.0, )"
           },
           "Syncfusion.Xamarin.SfChart": {
+            "target": "Package",
+            "version": "[17.3.0.14, )"
+          },
+          "Syncfusion.Xamarin.SfRadialMenu": {
+            "target": "Package",
+            "version": "[17.3.0.14, )"
+          },
+          "Syncfusion.Xamarin.SfRating": {
             "target": "Package",
             "version": "[17.3.0.14, )"
           },

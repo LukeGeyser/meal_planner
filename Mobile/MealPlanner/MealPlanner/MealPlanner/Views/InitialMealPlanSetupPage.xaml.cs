@@ -88,8 +88,6 @@ namespace MealPlanner.Views
         {
             Task.Run(async () =>
             {
-                await dh.RemoveAllPreferences(SignInPage.loggedInUser.Username);
-
                 for (int i = 0; i < mealPlans.Count; i++)
                 {
                     if (mealPlans[i].IsChecked == true)
@@ -104,6 +102,12 @@ namespace MealPlanner.Views
                         });
                     }
                 }
+                new DataHandler().UpdateUserProgress(SignInPage.loggedInUser.Username, SignInPage.loggedInUser.Weight);
+            });
+            Device.BeginInvokeOnMainThread(() =>
+            {
+                DisplayAlert("Success!", "Account Created successfully", "Got it");
+                Application.Current.MainPage = new HomePage();
             });
         }
 

@@ -76,7 +76,7 @@ namespace MealPlanner.Views
                     }
                 }
             });
-            
+
         }
 
         private void AllergiesInfo_Tapped(object sender, EventArgs e)
@@ -107,7 +107,6 @@ namespace MealPlanner.Views
         {
             Task.Run(async () =>
             {
-                await dh.RemoveAllPreferences(SignInPage.loggedInUser.Username);
                 for (int i = 0; i < allergies.Count; i++)
                 {
                     if (allergies[i].IsChecked == true)
@@ -120,6 +119,10 @@ namespace MealPlanner.Views
                         });
                     }
                 }
+            });
+            Device.BeginInvokeOnMainThread(() =>
+            {
+                Application.Current.MainPage = new InitialMealPlanSetupPage();
             });
         }
     }

@@ -233,7 +233,7 @@
                         TextColor="{DynamicResource BtnHeaderText}" />
                 </Frame>
                 <!--  TIPS FOR WEIGHT GAIN CONTENT  -->
-                <CollectionView
+                <!--<CollectionView
                     BackgroundColor="{DynamicResource List-BackGroundColor}"
                     HeightRequest="150"
                     ItemsLayout="HorizontalList"
@@ -247,7 +247,7 @@
                             </ViewCell>
                         </DataTemplate>
                     </CollectionView.ItemTemplate>
-                </CollectionView>
+                </CollectionView>-->
 
 
 

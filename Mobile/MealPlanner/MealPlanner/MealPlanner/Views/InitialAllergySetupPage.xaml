@@ -15,7 +15,7 @@
                     FontSize="28"
                     HorizontalOptions="Center"
                     HorizontalTextAlignment="Center"
-                    Text="Lets set up you Allergies"
+                    Text="Lets set up your Allergies"
                     TextColor="{DynamicResource BtnHeaderText}"
                     VerticalTextAlignment="Center" />
 

@@ -5,19 +5,221 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:radial="clr-namespace:Syncfusion.SfRadialMenu.XForms;assembly=Syncfusion.SfRadialMenu.XForms"
+    xmlns:rating="clr-namespace:Syncfusion.SfRating.XForms;assembly=Syncfusion.SfRating.XForms"
     mc:Ignorable="d">
     <ContentPage.Content>
-        <StackLayout>
-            <Image
-                Margin="0"
-                HorizontalOptions="FillAndExpand"
-                Source="{Binding storeInfoViewModel.Photo_Details}" />
+        <ScrollView>
+            <StackLayout>
 
-            <Label
-                FontSize="24"
-                Text="{Binding storeInfoViewModel.Name}"
-                TextColor="{DynamicResource Primary-Green}" />
+                <!--  Selected Store Image  -->
+                <Image
+                    Margin="0"
+                    HorizontalOptions="FillAndExpand"
+                    Source="{Binding storeInfoViewModel.Photo_Details}" />
 
-        </StackLayout>
+                <!--  Frame To Display Store Name  -->
+                <Frame
+                    Margin="0,-40,0,0"
+                    BackgroundColor="{DynamicResource BackGroundColor}"
+                    BorderColor="{DynamicResource BackGroundColor}"
+                    CornerRadius="30"
+                    HasShadow="False"
+                    HorizontalOptions="FillAndExpand">
+                    <Label
+                        FontSize="24"
+                        HorizontalTextAlignment="Center"
+                        Text="{Binding storeInfoViewModel.Name}"
+                        TextColor="{DynamicResource TextColor}" />
+                </Frame>
+
+                <!--  Actual Rating Stars  -->
+                <rating:SfRating
+                    Margin="0,10,0,0"
+                    HorizontalOptions="Center"
+                    ItemCount="5"
+                    ItemSize="30"
+                    ItemSpacing="20"
+                    Precision="Exact"
+                    ReadOnly="True"
+                    TooltipBackgroundColor="{DynamicResource BackGroundColor}"
+                    TooltipPlacement="TopLeft"
+                    TooltipTextColor="{DynamicResource TextColor}"
+                    Value="{Binding storeInfoViewModel.Rating}">
+                    <rating:SfRating.RatingSettings>
+                        <rating:SfRatingSettings
+                            RatedFill="{DynamicResource RatingColor}"
+                            RatedStroke="{DynamicResource RatingColor}"
+                            RatedStrokeWidth="2"
+                            UnRatedFill="{DynamicResource BackGroundColor}"
+                            UnRatedStroke="{DynamicResource BorderColor}"
+                            UnRatedStrokeWidth="2" />
+                    </rating:SfRating.RatingSettings>
+                </rating:SfRating>
+
+                <!--  Rating Text  -->
+                <Label
+                    Margin="0,10,0,0"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Center"
+                    Text="{Binding RatingString}"
+                    TextColor="{DynamicResource TextColor}" />
+
+                <!--  Opening Hours  -->
+                <Label
+                    Margin="0,10,0,10"
+                    FontAttributes="Bold"
+                    FontSize="32"
+                    HorizontalOptions="Center"
+                    Text="{Binding storeInfoViewModel.open_Text}"
+                    TextColor="{Binding storeInfoViewModel.ColorHex}" />
+
+                <!--  Seperator  -->
+                <BoxView
+                    Margin="30,0,30,0"
+                    BackgroundColor="{DynamicResource BorderColor}"
+                    HeightRequest="1"
+                    Opacity="0.1" />
+
+                <!--  Extra Store Details  -->
+                <StackLayout Margin="30,10,30,10">
+                    <Label
+                        FontAttributes="Bold"
+                        FontSize="Medium"
+                        Text="EXTRA STORE DETAILS:"
+                        TextColor="{DynamicResource TextColor}" />
+
+                    <!--  Lat and Long Details  -->
+                    <Grid Margin="0,20,0,0" HorizontalOptions="Center">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="20" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100" />
+                            <ColumnDefinition Width="100" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            HorizontalTextAlignment="Center"
+                            Text="Latitude:" />
+                        <Label
+                            Grid.Row="0"
+                            Grid.Column="1"
+                            HorizontalTextAlignment="Center"
+                            Text="Longitude:" />
+                        <Label
+                            Grid.Row="1"
+                            Grid.Column="0"
+                            Margin="0,5,0,0"
+                            HorizontalTextAlignment="Center"
+                            Text="{Binding storeInfoViewModel.Lat}"
+                            TextColor="{DynamicResource Primary-Green}" />
+                        <Label
+                            Grid.Row="1"
+                            Grid.Column="1"
+                            Margin="0,5,0,0"
+                            HorizontalTextAlignment="Center"
+                            Text="{Binding storeInfoViewModel.Lng}"
+                            TextColor="{DynamicResource Primary-Green}" />
+                    </Grid>
+
+                    <!--  Price Rating Details  -->
+                    <Grid Margin="0,20,0,0" HorizontalOptions="Center">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label Grid.Column="0" Text="Price Rating: " />
+
+                        <Label
+                            Grid.Column="1"
+                            Text="{Binding PriceRating}"
+                            TextColor="{Binding PriceRatingHex}" />
+                    </Grid>
+
+                    <!--  Vicinity  -->
+                    <Label
+                        Margin="0,20,0,0"
+                        FontAttributes="Bold"
+                        HorizontalOptions="Center"
+                        HorizontalTextAlignment="Center"
+                        Text="{Binding storeInfoViewModel.Vicinity}" />
+
+                    <!--  Distance  -->
+                    <Label
+                        Margin="0,20,0,0"
+                        HorizontalOptions="Center"
+                        Text="{Binding storeInfoViewModel.Distance}" />
+
+                    <!--  Links Grid  -->
+                    <Grid Margin="0,20,0,10" HorizontalOptions="Center">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="70" />
+                            <ColumnDefinition Width="70" />
+                            <ColumnDefinition Width="70" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50" />
+                        </Grid.RowDefinitions>
+
+                        <ImageButton
+                            x:Name="Phone"
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            Aspect="AspectFit"
+                            BackgroundColor="{DynamicResource BackGroundColor}"
+                            Clicked="Phone_Clicked"
+                            CornerRadius="25"
+                            HorizontalOptions="Center"
+                            Source="phone.png"
+                            VerticalOptions="CenterAndExpand" />
+                        <ImageButton
+                            x:Name="Email"
+                            Grid.Row="0"
+                            Grid.Column="1"
+                            Aspect="AspectFit"
+                            BackgroundColor="{DynamicResource BackGroundColor}"
+                            Clicked="Email_Clicked"
+                            CornerRadius="30"
+                            HorizontalOptions="Center"
+                            Source="email.png"
+                            VerticalOptions="CenterAndExpand" />
+                        <ImageButton
+                            x:Name="Website"
+                            Grid.Row="0"
+                            Grid.Column="2"
+                            Aspect="AspectFit"
+                            BackgroundColor="{DynamicResource BackGroundColor}"
+                            Clicked="Website_Clicked"
+                            CornerRadius="25"
+                            HorizontalOptions="Center"
+                            Source="website.png"
+                            VerticalOptions="CenterAndExpand" />
+
+                    </Grid>
+
+                </StackLayout>
+
+                <!--  Seperator  -->
+                <BoxView
+                    Margin="30,0,30,0"
+                    BackgroundColor="{DynamicResource BorderColor}"
+                    HeightRequest="1"
+                    Opacity="0.1" />
+
+                <StackLayout Margin="30,10,30,10">
+                    <Label
+                        FontAttributes="Bold"
+                        FontSize="Medium"
+                        Text="STORE FOOD PRODUCTS:"
+                        TextColor="{DynamicResource TextColor}" />
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
