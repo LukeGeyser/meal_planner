@@ -7,6 +7,7 @@ using System.Diagnostics;
 using System.Threading.Tasks;
 using System.Collections.ObjectModel;
 using System.Data;
+using MealPlanner.ViewModels;
 
 namespace MealPlanner.Services
 {
@@ -487,24 +488,25 @@ namespace MealPlanner.Services
             }
         }
 
-        public List<Products> GetAllProducts()
+        public async Task<Products> GetSpecificProducts(int productID)
         {
-            List<Products> products = new List<Products>();
+            Products products = new Products();
             try
             {
-                conn.Open();
-                SqlCommand cmd = new SqlCommand("SELECT * FROM tblProducts", conn);
+                await conn.OpenAsync();
+                SqlCommand cmd = new SqlCommand("SELECT * FROM tblProducts WHERE ProductID=@id", conn);
+                cmd.Parameters.AddWithValue("@id", productID);
                 SqlDataReader reader = cmd.ExecuteReader();
-                while (reader.Read())
+                while (await reader.ReadAsync())
                 {
-                    products.Add(new Products(Convert.ToInt32(reader["ProductID"])
+                    products = new Products(Convert.ToInt32(reader["ProductID"])
                         , reader["ProductName"].ToString(), reader["Category"].ToString()
                         , reader["Description"].ToString(), reader["NutritionalValue"].ToString()
-                        , reader["ProductImage"].ToString()));
+                        , reader["ProductImage"].ToString());
                 }
                 cmd.Dispose();
             }
-            catch (Exception error)
+            catch (Exception)
             {
             }
             finally
@@ -546,18 +548,18 @@ namespace MealPlanner.Services
         }
 
         //Return a list of all products required for a particular recipe
-        public List<RecipeProducts> GetRecipeProducts(int recipeID)
+        public async Task<List<RecipeProducts>> GetRecipeProducts(int recipeID)
         {
             List<RecipeProducts> products = new List<RecipeProducts>();
             try
             {
-                conn.Open();
+                await conn.OpenAsync();
                 SqlCommand cmd = new SqlCommand("SELECT tblRecipes.RecipeID,tblRecipeProducts.ProductID" +
                     " FROM tblRecipes INNER JOIN tblRecipeProducts ON tblRecipes.RecipeID ="
                     + " tblRecipeProducts.RecipeID WHERE tblRecipeProducts.RecipeID = @ID", conn);
                 cmd.Parameters.AddWithValue("@ID", recipeID);
                 SqlDataReader reader = cmd.ExecuteReader();
-                while (reader.Read())
+                while (await reader.ReadAsync())
                 {
                     products.Add(new RecipeProducts(Convert.ToInt32(reader["RecipeID"])
                         , Convert.ToInt32(reader["ProductID"])));
@@ -760,6 +762,37 @@ namespace MealPlanner.Services
                     conn.Close();
             }
             return plans;
+        }
+
+        /// <summary>
+        /// Returns a list of all recipes saved in the database
+        /// </summary>
+        /// <returns></returns>
+        public async Task<List<RecipesViewModel>> GetAllRecipes()
+        {
+            List<RecipesViewModel> recipes = new List<RecipesViewModel>();
+            try
+            {
+                await conn.OpenAsync();
+                SqlCommand cmd = new SqlCommand("SELECT * FROM tblRecipes", conn);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (await reader.ReadAsync())
+                {
+                    recipes.Add(new RecipesViewModel(Convert.ToInt32(reader["RecipeID"])
+                        , reader["RecipeName"].ToString(), reader["ShortDescription"].ToString(),
+                        reader["Instructions"].ToString(), reader["Difficulty"].ToString()
+                        , Convert.ToInt32(reader["TimeToPrepare"]), reader["ImagePreview"].ToString()));
+                }
+                cmd.Dispose();
+            }
+            catch (Exception)
+            {
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return recipes;
         }
 
     }

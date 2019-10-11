@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MealPlanner.Models
 {
-    class Products
+    public class Products
     {
         private int productID;
         private string productName, category, description, nutritionalValue, productImage;

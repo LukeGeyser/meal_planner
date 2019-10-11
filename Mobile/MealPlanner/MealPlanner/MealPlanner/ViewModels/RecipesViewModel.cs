@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MealPlanner.Models;
+using MealPlanner.Services;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -16,8 +18,9 @@ namespace MealPlanner.ViewModels
         private string instructions { get; set; }
         private string difficulty { get; set; }
         private int timeToPrepare { get; set; }
-        private string columnMappingPath { get; set; }
+        private string imagePreview { get; set; }
 
+        private List<Products> products { get; set; }
 
         public int RecipeID
         {
@@ -73,12 +76,22 @@ namespace MealPlanner.ViewModels
                 OnPropertyChanged();
             }
         }
-        public string ColumnMappingPath
+        public string ImagePreview
         {
-            get { return columnMappingPath; }
+            get { return imagePreview; }
             set
             {
-                columnMappingPath = value;
+                imagePreview = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public List<Products> Products
+        {
+            get { return products; }
+            set
+            {
+                products = value;
                 OnPropertyChanged();
             }
         }
@@ -88,7 +101,7 @@ namespace MealPlanner.ViewModels
 
         }
 
-        public RecipesViewModel(int id, string name, string des, string instruct, string difficult, int time)
+        public RecipesViewModel(int id, string name, string des, string instruct, string difficult, int time, string imagePreview)
         {
             recipeID = id;
             recipeName = name;
@@ -96,6 +109,20 @@ namespace MealPlanner.ViewModels
             instructions = instruct;
             difficulty = difficult;
             timeToPrepare = time;
+            this.imagePreview = imagePreview;
+            //GetRecipeProducts();
+        }
+
+        public async Task GetRecipeProducts()
+        {
+            await Task.Run(async () =>
+            {
+                List<RecipeProducts> temp = await (new DataHandler().GetRecipeProducts(this.recipeID));
+                foreach (var item in temp)
+                {
+                    products.Add(await (new DataHandler().GetSpecificProducts(item.ProductID)));
+                }
+            });
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
