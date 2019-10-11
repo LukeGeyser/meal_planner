@@ -564,7 +564,7 @@ namespace MealPlanner.Services
                 }
                 cmd.Dispose();
             }
-            catch (Exception error)
+            catch (Exception)
             {
             }
             finally
@@ -600,6 +600,166 @@ namespace MealPlanner.Services
                     conn.Close();
             }
             return weightGainTips;
+        }
+
+        // Returns a shope object that holds Contact Info of a selected Store
+        public Shops GetShopsDetails(string storeName)
+        {
+            Shops shop = new Shops();
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT * FROM tblShops WHERE ShopName=@name", conn);
+                cmd.Parameters.AddWithValue("@name", storeName);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    shop = new Shops()
+                    {
+                        ShopID = int.Parse(reader[0].ToString()),
+                        ShopName = reader[1].ToString(),
+                        Phone = reader[2].ToString(),
+                        Email = reader[3].ToString(),
+                        Website = reader[4].ToString()
+                    };
+                }
+                cmd.Dispose();
+            }
+            catch (Exception)
+            {
+            }
+            finally
+            {
+                if (conn != null)
+                    conn.Close();
+            }
+            return shop;
+        }
+
+        /// <summary>
+        /// Return a list of all mealplan IDs corresponding to the selected recipe
+        /// </summary>
+        /// <param name="recipeID"></param>
+        /// <returns></returns>
+        public List<RecipeMealPlans> GetRecipeMealplans(int recipeID)
+        {
+            List<RecipeMealPlans> plans = new List<RecipeMealPlans>();
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT * FROM tblRecipeMealPlans WHERE "
+                    + "RecipeID = @id", conn);
+                cmd.Parameters.AddWithValue("@id", recipeID);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    plans.Add(new RecipeMealPlans(Convert.ToInt32(reader["RecipeID"])
+                        , Convert.ToInt32(reader["MealPlanID"])));
+                }
+                cmd.Dispose();
+            }
+            catch (Exception)
+            {
+            }
+            finally
+            {
+                if (conn != null)
+                    conn.Close();
+            }
+            return plans;
+        }
+
+        /// <summary>
+        /// Return a list of all allergy IDs corresponding to the selected recipe
+        /// </summary>
+        /// <param name="recipeID"></param>
+        /// <returns></returns>
+        public List<RecipeAllergies> GetRecipeAllergies(int recipeID)
+        {
+            List<RecipeAllergies> allergies = new List<RecipeAllergies>();
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT * FROM tblRecipeAllergies WHERE "
+                    + "RecipeID = @id", conn);
+                cmd.Parameters.AddWithValue("@id", recipeID);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    allergies.Add(new RecipeAllergies(Convert.ToInt32(reader["RecipeID"])
+                        , Convert.ToInt32(reader["AllergyID"])));
+                }
+                cmd.Dispose();
+            }
+            catch (Exception)
+            {
+            }
+            finally
+            {
+                if (conn != null)
+                    conn.Close();
+            }
+            return allergies;
+        }
+
+        /// <summary>
+        /// Return a list of all recipes and their corresponding allergies
+        /// </summary>
+        /// <returns></returns>
+        public List<RecipeAllergies> GetRecipeAllergiesAll()
+        {
+            List<RecipeAllergies> allergies = new List<RecipeAllergies>();
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT * FROM tblRecipeAllergies", conn);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    allergies.Add(new RecipeAllergies(Convert.ToInt32(reader["RecipeID"])
+                        , Convert.ToInt32(reader["AllergyID"])));
+                }
+                cmd.Dispose();
+            }
+            catch (Exception)
+            {
+            }
+            finally
+            {
+                if (conn != null)
+                    conn.Close();
+            }
+            return allergies;
+        }
+
+        /// <summary>
+        /// Return a list of all recipes and their corresponding mealplans
+        /// </summary>
+        /// <returns></returns>
+        public List<RecipeMealPlans> GetAllRecipeMealplans()
+        {
+            List<RecipeMealPlans> plans = new List<RecipeMealPlans>();
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT * FROM tblRecipeMealPlans", conn);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    plans.Add(new RecipeMealPlans(Convert.ToInt32(reader["RecipeID"])
+                        , Convert.ToInt32(reader["MealPlanID"])));
+                }
+                cmd.Dispose();
+            }
+            catch (Exception)
+            {
+            }
+            finally
+            {
+                if (conn != null)
+                    conn.Close();
+            }
+            return plans;
         }
 
     }

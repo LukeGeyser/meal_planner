@@ -97,7 +97,7 @@ namespace MealPlanner.Views
             await mapsAPI.PopulateMaps(CheckersResults, location.Latitude, location.Longitude, "checkers");
         }
 
-        private void GenerateDisplayingList(ObservableCollection<Result> results, string Icon_Source, string Title, string selectedStorePicture)
+        private void GenerateDisplayingList(ObservableCollection<Result> results, string Icon_Source, string Title, string selectedStorePicture, string storeID)
         {
             displayingList.Clear();
             foreach (var item in results)
@@ -118,7 +118,8 @@ namespace MealPlanner.Views
                     open_Text = (item.opening_hours == null ? false : true) ? "Open Now" : "Closed",
                     ColorHex = (item.opening_hours == null ? false : true) ? "#669e2f" : "#db5151",
                     Distance = "Around " + GetDistanceFromStore(location.Latitude, location.Longitude, item.geometry.location.lat, item.geometry.location.lng).ToString("0") + "km from you",
-                    Photo_Details = selectedStorePicture
+                    Photo_Details = selectedStorePicture,
+                    StoreID = storeID
                 });
             }
             NearYou.Text = Title + " near you:";
@@ -138,10 +139,10 @@ namespace MealPlanner.Views
         private void StorePicker_SelectedIndexChanged(object sender, EventArgs e)
         {
             storeSelected = StorePicker.SelectedItem.ToString();
-            if (storeSelected == "WoolWorths") GenerateDisplayingList(WoolworthsResults, "woolworths.png", "WoolWorths", "woolworthsstore.jpg");
-            else if (storeSelected == "Pick n Pay") GenerateDisplayingList(PicknPayResults, "picknpay.png", "Pick n Pay's", "picknpaystore.jpg");
-            else if (storeSelected == "Spar") GenerateDisplayingList(SpaResults, "spa.png", "Spa's", "spastore.jpg");
-            else if (storeSelected == "Checkers") GenerateDisplayingList(CheckersResults, "checkers.png", "Checkers", "checkersstore.jpg");
+            if (storeSelected == "WoolWorths") GenerateDisplayingList(WoolworthsResults, "woolworths.png", "WoolWorths", "woolworthsstore.jpg", "Woolworths");
+            else if (storeSelected == "Pick n Pay") GenerateDisplayingList(PicknPayResults, "picknpay.png", "Pick n Pay's", "picknpaystore.jpg", "Pick n Pay");
+            else if (storeSelected == "Spar") GenerateDisplayingList(SpaResults, "spa.png", "Spar's", "spastore.jpg", "Spar");
+            else if (storeSelected == "Checkers") GenerateDisplayingList(CheckersResults, "checkers.png", "Checkers", "checkersstore.jpg", "Checkers");
         }
 
         private void ViewCell_Tapped(object sender, EventArgs e)

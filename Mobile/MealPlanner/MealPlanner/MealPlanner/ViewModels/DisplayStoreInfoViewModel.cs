@@ -22,6 +22,7 @@ namespace MealPlanner.ViewModels
         private string vicinity { get; set; }
         private string icon_Source { get; set; }
         private string photo_Details { get; set; }
+        private string storeID { get; set; }
 
         public string open_Text { get; set; }
         public string ColorHex { get; set; }
@@ -141,6 +142,15 @@ namespace MealPlanner.ViewModels
             set
             {
                 photo_Details = value;
+                OnPropertyChanged();
+            }
+        }
+        public String StoreID
+        {
+            get { return storeID; }
+            set
+            {
+                storeID = value;
                 OnPropertyChanged();
             }
         }

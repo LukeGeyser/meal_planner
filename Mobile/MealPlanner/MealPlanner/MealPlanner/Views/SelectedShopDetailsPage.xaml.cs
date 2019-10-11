@@ -1,4 +1,6 @@
-﻿using MealPlanner.ViewModels;
+﻿using MealPlanner.Models;
+using MealPlanner.Services;
+using MealPlanner.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,10 +23,14 @@ namespace MealPlanner.Views
 
         public string PriceRatingHex { get; set; }
 
+        public Shops Shops { get; set; }
+
         public SelectedShopDetailsPage(DisplayStoreInfoViewModel viewModel)
         {
             InitializeComponent();
             storeInfoViewModel = viewModel;
+
+            Shops = new DataHandler().GetShopsDetails(storeInfoViewModel.StoreID);
 
             RatingString = storeInfoViewModel.Rating == 0 ? "No Ratings For This Store..." : $"Rating: {storeInfoViewModel.Rating}";
 
@@ -62,7 +68,7 @@ namespace MealPlanner.Views
 
         private async void Phone_Clicked(object sender, EventArgs e)
         {
-            await Call("0742001318");
+            await Call(Shops.Phone);
         }
 
         private async Task Call(string number)
@@ -80,12 +86,12 @@ namespace MealPlanner.Views
 
         private void Email_Clicked(object sender, EventArgs e)
         {
-            Device.OpenUri(new Uri("mailto:geyserlg@gmail.com"));
+            Device.OpenUri(new Uri($"mailto:{Shops.Email}"));
         }
 
         private async void Website_Clicked(object sender, EventArgs e)
         {
-            await Browser.OpenAsync("https://google.com", new BrowserLaunchOptions
+            await Browser.OpenAsync($"{Shops.Website}", new BrowserLaunchOptions
             {
                 LaunchMode = BrowserLaunchMode.SystemPreferred,
                 TitleMode = BrowserTitleMode.Show,

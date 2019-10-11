@@ -55,6 +55,11 @@
                             RowDefinition="0"
                             TargetType="{x:Type local:TrackProgressPage}" />
                         <vm:HomeMenuItem
+                            Title="Recipes"
+                            IconSource="recipe.png"
+                            RowDefinition="2"
+                            TargetType="{x:Type local:RecipesPage}" />
+                        <vm:HomeMenuItem
                             Title="Settings"
                             IconSource="settings.png"
                             RowDefinition="2"

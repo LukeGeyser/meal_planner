@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace MealPlanner.Models
 {
-    class Shops
+    public class Shops
     {
         private int shopID;
-        private string shopName, managerName, phone, email;
+        private string shopName, website, phone, email;
 
         public int ShopID { get => shopID; set => shopID = value; }
         public string ShopName { get => shopName; set => shopName = value; }
-        public string ManagerName { get => managerName; set => managerName = value; }
+        public string Website { get => website; set => website = value; }
         public string Phone { get => phone; set => phone = value; }
         public string Email { get => email; set => email = value; }
 
@@ -22,11 +22,11 @@ namespace MealPlanner.Models
 
         }
 
-        public Shops(int id, string name, string manager, string phn, string em)
+        public Shops(int id, string name, string website, string phn, string em)
         {
             shopID = id;
             shopName = name;
-            managerName = manager;
+            this.website = website;
             phone = phn;
             email = em;
         }

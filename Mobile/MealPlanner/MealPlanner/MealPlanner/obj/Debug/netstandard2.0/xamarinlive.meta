@@ -123,7 +123,7 @@
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\MenuPage.xaml</FilePath>
-      <Hash>95-4C-4E-44-41-A9-50-4E-83-D1-C8-57-6F-10-87-D8</Hash>
+      <Hash>CD-99-AF-A8-75-E9-5F-82-7F-BC-30-56-3F-31-0F-90</Hash>
       <Properties>
         <string>Title</string>
         <string>BackgroundColor</string>
@@ -143,6 +143,11 @@
         <string>BarBackgroundColor</string>
         <string>BarTextColor</string>
       </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\RecipesPage.xaml</FilePath>
+      <Hash>59-F5-B9-B3-07-82-92-39-27-29-E5-7B-4E-77-8F-FA</Hash>
+      <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\SelectedShopDetailsPage.xaml</FilePath>

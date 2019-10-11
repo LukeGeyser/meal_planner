@@ -73,4 +73,5 @@ C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\CalculatorTabbedPages.xaml.g.cs
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\BMIPage.xaml.g.cs
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\TrackProgressPage.xaml.g.cs
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\RecipesPage.xaml.g.cs
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\XamlC.stamp

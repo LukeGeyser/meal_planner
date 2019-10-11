@@ -69,6 +69,10 @@
               "target": "Package",
               "version": "[17.3.0.14, )"
             },
+            "Syncfusion.Xamarin.SfKanban": {
+              "target": "Package",
+              "version": "[17.3.0.14, )"
+            },
             "Syncfusion.Xamarin.SfRadialMenu": {
               "target": "Package",
               "version": "[17.3.0.14, )"
