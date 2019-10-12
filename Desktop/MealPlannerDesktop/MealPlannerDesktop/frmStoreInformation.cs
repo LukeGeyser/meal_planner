@@ -160,7 +160,10 @@ namespace MealPlannerDesktop
                 MessageBox.Show("Contact Number: " + Shops.Phone + "."
                     , "Phone", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            catch (Exception) { }
+            catch (Exception exm)
+            {
+                MessageBox.Show(exm.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void PicEmail_Click(object sender, EventArgs e)
@@ -172,7 +175,10 @@ namespace MealPlannerDesktop
                 MessageBox.Show("Email Address: " + Shops.Email + "."
                     , "Email", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            catch (Exception) { }
+            catch (Exception exm)
+            {
+                MessageBox.Show(exm.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
         //goes to website of the store
         private void PicInternet_Click(object sender, EventArgs e)
