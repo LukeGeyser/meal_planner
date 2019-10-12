@@ -27,6 +27,16 @@ namespace MealPlannerDesktop
         public string open_Text { get; set; }
         public string ColorHex { get; set; }
 
+
+        public string StoreID
+        {
+            get { return storeID; }
+            set
+            {
+                storeID = value;
+                OnPropertyChanged();
+            }
+        }
         public string Photo_Details
         {
             get { return photo_Details; }

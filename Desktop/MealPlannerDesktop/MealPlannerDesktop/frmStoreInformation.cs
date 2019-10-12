@@ -30,7 +30,7 @@ namespace MealPlannerDesktop
             InitializeComponent();
             storeInfoViewModel = viewModel;
 
-            Shops = new DataHandler().GetShopsDetails(storeInfoViewModel.Id);
+            Shops = new DataHandler().GetShopsDetails(storeInfoViewModel.StoreID);
 
 
             RatingString = storeInfoViewModel.Rating == 0 ? "No Ratings For This Store..." : $"Rating: {storeInfoViewModel.Rating}";
@@ -163,6 +163,8 @@ namespace MealPlannerDesktop
 
         private void PicEmail_Click(object sender, EventArgs e)
         {
+            //Still trying to figure out how to open in mail application
+
             try
             {
                 MessageBox.Show("Email Address: " + Shops.Email + "."
@@ -173,6 +175,8 @@ namespace MealPlannerDesktop
 
         private void PicInternet_Click(object sender, EventArgs e)
         {
+            //Still trying to figure out how to open on internet browser.
+
             try
             {
                 MessageBox.Show("Web Site: " + Shops.Website + "."
