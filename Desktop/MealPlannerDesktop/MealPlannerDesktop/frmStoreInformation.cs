@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
+using System.Net.Mail;
 
 namespace MealPlannerDesktop
 {
@@ -32,7 +34,7 @@ namespace MealPlannerDesktop
 
             Shops = new DataHandler().GetShopsDetails(storeInfoViewModel.StoreID);
 
-
+            lblStoreName.Text = Shops.ShopName;
             RatingString = storeInfoViewModel.Rating == 0 ? "No Ratings For This Store..." : $"Rating: {storeInfoViewModel.Rating}";
             //Display Rating Stars
             #region
@@ -158,31 +160,42 @@ namespace MealPlannerDesktop
                 MessageBox.Show("Contact Number: " + Shops.Phone + "."
                     , "Phone", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            catch (Exception) { }
+            catch (Exception exm)
+            {
+                MessageBox.Show(exm.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void PicEmail_Click(object sender, EventArgs e)
         {
-            //Still trying to figure out how to open in mail application
-
+           //send user to the gmail link & displays the email for the shop
             try
             {
+                Process.Start("https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin");
                 MessageBox.Show("Email Address: " + Shops.Email + "."
                     , "Email", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            catch (Exception) { }
+            catch (Exception exm)
+            {
+                MessageBox.Show(exm.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
-
+        //goes to website of the store
         private void PicInternet_Click(object sender, EventArgs e)
         {
-            //Still trying to figure out how to open on internet browser.
-
             try
             {
-                MessageBox.Show("Web Site: " + Shops.Website + "."
-                    , "Internet", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Process.Start(Shops.Website);              
             }
-            catch (Exception) { }
+            catch (Exception exm)
+            {
+                MessageBox.Show(exm.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void lblStoreName_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
