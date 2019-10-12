@@ -119,7 +119,7 @@ namespace MealPlannerDesktop
         }
 
 
-        private List<StoreNearYou> GenerateDisplayingList(ObservableCollection<Result> results)
+        private List<StoreNearYou> GenerateDisplayingList(ObservableCollection<Result> results, string storeID)
         {
             //Generate output to display to customer: store name, distance from device
             //and whether store is open now.
@@ -144,8 +144,9 @@ namespace MealPlannerDesktop
                     open_Text = (item.opening_hours == null ? false : true) ? "Open Now" : "Closed",
                     ColorHex = (item.opening_hours == null ? false : true) ? "#669e2f" : "#db5151",
                     Distance = "Around " + GetDistanceFromStore(Convert.ToDouble(latitude), Convert.ToDouble(longitute),
-                    item.geometry.location.lat, item.geometry.location.lng).ToString("0") + "km from you"
-                });
+                    item.geometry.location.lat, item.geometry.location.lng).ToString("0") + "km from you",
+                    StoreID = storeID
+                }); ;
             }
             for(var i = 0; i < displayingList.Count; i++)
             {
@@ -180,19 +181,19 @@ namespace MealPlannerDesktop
                 {
                     case 0:
                         pbStoreLogo.ImageLocation = "woolworths.jpg";
-                        bs.DataSource = GenerateDisplayingList(WoolworthsResults);
+                        bs.DataSource = GenerateDisplayingList(WoolworthsResults,"Woolworths");
                         break;
                     case 1:
                         pbStoreLogo.ImageLocation = "picknpay.jpg";
-                        bs.DataSource = GenerateDisplayingList(PicknPayResults);
+                        bs.DataSource = GenerateDisplayingList(PicknPayResults, "Pick n Pay");
                         break;
                     case 2:
                         pbStoreLogo.ImageLocation = "spar.jpg";
-                        bs.DataSource = GenerateDisplayingList(SpaResults);
+                        bs.DataSource = GenerateDisplayingList(SpaResults,"Spar");
                         break;
                     case 3:
                         pbStoreLogo.ImageLocation = "checkers.jpg";
-                        bs.DataSource = GenerateDisplayingList(CheckersResults);
+                        bs.DataSource = GenerateDisplayingList(CheckersResults,"Checkers");
                         break;
                     default:
                         pbStoreLogo.ImageLocation = "selectShop.png";
