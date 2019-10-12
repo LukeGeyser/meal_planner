@@ -342,6 +342,12 @@
     <Compile Include="frmSignIn.Designer.cs">
       <DependentUpon>frmSignIn.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmStoreInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStoreInformation.Designer.cs">
+      <DependentUpon>frmStoreInformation.cs</DependentUpon>
+    </Compile>
     <Compile Include="Location.cs" />
     <Compile Include="MapResultDataWrapper.cs" />
     <Compile Include="MapsAPI.cs" />
@@ -396,6 +402,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmProgress.resx">
       <DependentUpon>frmProgress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStoreInformation.resx">
+      <DependentUpon>frmStoreInformation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

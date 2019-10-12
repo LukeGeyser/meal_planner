@@ -222,5 +222,43 @@ namespace MealPlannerDesktop
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void DgvStoresDisplay_CellEnter(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void BtnMore_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                var current = (StoreNearYou)bs.Current;
+                bool found = false;
+                int counter = 0;
+                while(found == false && counter < displayingList.Count)
+                {
+                    if(displayingList[counter].Name == current.Name)
+                    {
+                        found = true;
+                        frmStoreInformation info = new frmStoreInformation(displayingList[counter]);
+                        info.Show();
+                        this.Close();
+                    }
+                    else
+                    {
+                        counter++;
+                    }
+                }
+                if(found == false)
+                {
+                    MessageBox.Show("Please select a store first.", "More Information"
+                        , MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }

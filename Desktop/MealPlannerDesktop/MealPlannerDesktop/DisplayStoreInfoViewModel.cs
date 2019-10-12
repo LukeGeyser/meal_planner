@@ -22,9 +22,20 @@ namespace MealPlannerDesktop
         private int user_ratings_total { get; set; }
         private string vicinity { get; set; }
         private string icon_Source { get; set; }
-
+        private string photo_Details { get; set; }
+        private string storeID { get; set; }
         public string open_Text { get; set; }
         public string ColorHex { get; set; }
+
+        public string Photo_Details
+        {
+            get { return photo_Details; }
+            set
+            {
+                photo_Details = value;
+                OnPropertyChanged();
+            }
+        }
 
 
         public String Id

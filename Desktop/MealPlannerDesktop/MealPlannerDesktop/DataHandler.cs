@@ -707,5 +707,39 @@ namespace MealPlannerDesktop
             }
             return newUser;
         }
+
+        // Returns a shope object that holds Contact Info of a selected Store
+        public Shops GetShopsDetails(string storeName)
+        {
+            Shops shop = new Shops();
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT * FROM tblShops WHERE ShopName=@name", conn);
+                cmd.Parameters.AddWithValue("@name", storeName);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    shop = new Shops()
+                    {
+                        ShopID = int.Parse(reader[0].ToString()),
+                        ShopName = reader[1].ToString(),
+                        Phone = reader[2].ToString(),
+                        Email = reader[3].ToString(),
+                        Website = reader[4].ToString()
+                    };
+                }
+                cmd.Dispose();
+            }
+            catch (Exception)
+            {
+            }
+            finally
+            {
+                if (conn != null)
+                    conn.Close();
+            }
+            return shop;
+        }
     }
 }
