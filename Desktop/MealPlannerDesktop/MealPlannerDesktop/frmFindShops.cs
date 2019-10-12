@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using static MealPlannerDesktop.MapResultDataWrapper;
 using System.Device.Location;
+using System.Diagnostics;
 
 namespace MealPlannerDesktop
 {
@@ -46,9 +47,15 @@ namespace MealPlannerDesktop
         {
             if (e.Status == GeoPositionStatus.Ready)
             {
-              Console.WriteLine("Watcher is ready. First location: The current location is: " +
-              watcher.Position.Location.Latitude + "/" +
-              watcher.Position.Location.Longitude + ".");
+                if (watcher.Position.Location.IsUnknown)
+                {
+                    Debug.WriteLine("Cannot find location");
+                }
+                else
+                {
+                    Debug.WriteLine("Lat: " + watcher.Position.Location.Latitude.ToString());
+                    Debug.WriteLine("Lon: " + watcher.Position.Location.Longitude.ToString());
+                }
             }
         }
 
@@ -61,7 +68,7 @@ namespace MealPlannerDesktop
 
         private void FrmFindShops_Load(object sender, EventArgs e)
         {
-            GeoCoordinateWatcher watcher = new GeoCoordinateWatcher();
+            watcher.StatusChanged += Watcher_StatusChanged;
             bool found = false;
             int stopSearch = 0;
             while(found == false)
@@ -71,11 +78,11 @@ namespace MealPlannerDesktop
                 watcher.TryStart(false, TimeSpan.FromMilliseconds(2000));
                 GeoCoordinate coord = watcher.Position.Location;
                 stopSearch++;
-                Console.WriteLine("status: " + watcher.Status.ToString());
+                Debug.WriteLine("status: " + watcher.Status.ToString());
 
                 if (coord.IsUnknown != true)
                 {
-                    Console.WriteLine("Lat: {0}, Long: {1}",
+                    Debug.WriteLine("Lat: {0}, Long: {1}",
                         coord.Latitude,
                         coord.Longitude);
                     latitude = coord.Latitude;
@@ -84,7 +91,7 @@ namespace MealPlannerDesktop
                 }
                 else
                 {
-                    Console.WriteLine("Unknown latitude and longitude.");
+                    Debug.WriteLine("Unknown latitude and longitude.");
                 }
                 if(stopSearch >= 100)
                 {
