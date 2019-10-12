@@ -18,37 +18,76 @@ namespace MealPlanner.Views
     public partial class RecipesPage : ContentPage
     {
 
-        List<RecipesViewModel> allRecipes { get; set; }
+        private ObservableCollection<RecipesViewModel> allRecipes { get; set; }
+        public ObservableCollection<RecipesViewModel> AllRecipes
+        {
+            get { return allRecipes; }
+            set
+            {
+                allRecipes = value;
+                OnPropertyChanged();
+            }
+        }
+
+        private List<Products> allProducts { get; set; }
         List<RecipeMealPlans> recipeMealPlans { get; set; }
         List<RecipeAllergies> recipeAllergies { get; set; }
-        List<Products> products { get; set; }
+
 
         public RecipesPage()
         {
             InitializeComponent();
+            AllRecipes = new ObservableCollection<RecipesViewModel>();
             Task.Run(async () =>
             {
-                allRecipes = await(new DataHandler().GetAllRecipes());
-            });
+                List<RecipesViewModel> recipes = await new DataHandler().GetAllRecipes();
+                AddToObservableRecipes(recipes);
+                allProducts = await new DataHandler().GetAllProducts();
 
-            Task.Run(async () =>
-            {
                 foreach (var item in allRecipes)
                 {
-                    await item.GetRecipeProducts();
+                    item.Products = await GetRecipeProducts(item.RecipeID);
                 }
+
+                Device.BeginInvokeOnMainThread(() =>
+                {
+                    DisplayAlert("", $"{allRecipes.Count}", "k");
+                });
+
+
+                BindingContext = this;
             });
-
-            //DisplayAlert($"{allRecipes[0].Products[0].ProductID}", $"{allRecipes.Count}", "k");
-
-            BindingContext = this;
         }
 
         #region Private Helpers
 
-        private void AllRecipes()
+        private void AddToObservableRecipes(List<RecipesViewModel> recipes)
         {
-            //allRecipes = new DataHandler().GetAllRecipes();
+            foreach (var item in recipes)
+            {
+                AllRecipes.Add(item);
+            }
+        }
+
+        public async Task<List<Products>> GetRecipeProducts(int recipeID)
+        {
+            List<Products> p = new List<Products>();
+            await Task.Run(async () =>
+            {
+                List<RecipeProducts> temp = await new DataHandler().GetRecipeProducts(recipeID);
+
+                foreach (var prod in allProducts)
+                {
+                    foreach (var item in temp)
+                    {
+                        if (prod.ProductID == item.ProductID)
+                        {
+                            p.Add(prod);
+                        }
+                    }
+                }
+            });
+            return p;
         }
 
         #endregion
