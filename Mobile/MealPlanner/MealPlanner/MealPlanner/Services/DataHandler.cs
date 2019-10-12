@@ -488,21 +488,20 @@ namespace MealPlanner.Services
             }
         }
 
-        public async Task<Products> GetSpecificProducts(int productID)
+        public async Task<List<Products>> GetAllProducts()
         {
-            Products products = new Products();
+            List<Products> products = new List<Products>();
             try
             {
                 await conn.OpenAsync();
-                SqlCommand cmd = new SqlCommand("SELECT * FROM tblProducts WHERE ProductID=@id", conn);
-                cmd.Parameters.AddWithValue("@id", productID);
+                SqlCommand cmd = new SqlCommand("SELECT * FROM tblProducts", conn);
                 SqlDataReader reader = cmd.ExecuteReader();
                 while (await reader.ReadAsync())
                 {
-                    products = new Products(Convert.ToInt32(reader["ProductID"])
+                    products.Add(new Products(Convert.ToInt32(reader["ProductID"])
                         , reader["ProductName"].ToString(), reader["Category"].ToString()
                         , reader["Description"].ToString(), reader["NutritionalValue"].ToString()
-                        , reader["ProductImage"].ToString());
+                        , reader["ProductImage"].ToString()));
                 }
                 cmd.Dispose();
             }
@@ -775,7 +774,7 @@ namespace MealPlanner.Services
             {
                 await conn.OpenAsync();
                 SqlCommand cmd = new SqlCommand("SELECT * FROM tblRecipes", conn);
-                SqlDataReader reader = cmd.ExecuteReader();
+                SqlDataReader reader = await cmd.ExecuteReaderAsync();
                 while (await reader.ReadAsync())
                 {
                     recipes.Add(new RecipesViewModel(Convert.ToInt32(reader["RecipeID"])

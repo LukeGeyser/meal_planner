@@ -2435,9 +2435,6 @@ namespace MealPlanner.Droid
 			global::Syncfusion.SfKanban.XForms.Droid.Resource.Id.tagsLayout = global::MealPlanner.Droid.Resource.Id.tagsLayout;
 			global::Syncfusion.SfKanban.XForms.Droid.Resource.Id.photo = global::MealPlanner.Droid.Resource.Id.photo;
 			global::Syncfusion.SfKanban.XForms.Droid.Resource.Id.description = global::MealPlanner.Droid.Resource.Id.description;
-			global::Syncfusion.ListView.XForms.Android.Resource.String.ApplicationName = global::MealPlanner.Droid.Resource.String.ApplicationName;
-			global::Syncfusion.ListView.XForms.Android.Resource.String.Hello = global::MealPlanner.Droid.Resource.String.Hello;
-			global::Syncfusion.ListView.XForms.Android.Resource.String.Load_More = global::MealPlanner.Droid.Resource.String.Load_More;
 			global::Syncfusion.SfRadialMenu.Android.Resource.Attribute.radialAnimationDuration = global::MealPlanner.Droid.Resource.Attribute.radialAnimationDuration;
 			global::Syncfusion.SfRadialMenu.Android.Resource.Attribute.radialCenterButtonBackText = global::MealPlanner.Droid.Resource.Attribute.radialCenterButtonBackText;
 			global::Syncfusion.SfRadialMenu.Android.Resource.Attribute.radialCenterButtonBackTextColor = global::MealPlanner.Droid.Resource.Attribute.radialCenterButtonBackTextColor;
@@ -9253,15 +9250,6 @@ namespace MealPlanner.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f0c003e
-			public const int ApplicationName = 2131492926;
-			
-			// aapt resource value: 0x7f0c003d
-			public const int Hello = 2131492925;
-			
-			// aapt resource value: 0x7f0c003f
-			public const int Load_More = 2131492927;
-			
 			// aapt resource value: 0x7f0c0015
 			public const int abc_action_bar_home_description = 2131492885;
 			
@@ -9349,8 +9337,8 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0c0025
 			public const int abc_toolbar_collapse_description = 2131492901;
 			
-			// aapt resource value: 0x7f0c0050
-			public const int app_name = 2131492944;
+			// aapt resource value: 0x7f0c004d
+			public const int app_name = 2131492941;
 			
 			// aapt resource value: 0x7f0c0033
 			public const int appbar_scrolling_view_behavior = 2131492915;
@@ -9361,8 +9349,8 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0c0035
 			public const int character_counter_pattern = 2131492917;
 			
-			// aapt resource value: 0x7f0c004f
-			public const int hello = 2131492943;
+			// aapt resource value: 0x7f0c004c
+			public const int hello = 2131492940;
 			
 			// aapt resource value: 0x7f0c003c
 			public const int library_name = 2131492924;
@@ -9445,56 +9433,56 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0c003a
 			public const int path_password_strike_through = 2131492922;
 			
-			// aapt resource value: 0x7f0c0044
-			public const int q = 2131492932;
+			// aapt resource value: 0x7f0c0041
+			public const int q = 2131492929;
 			
-			// aapt resource value: 0x7f0c0043
-			public const int quarter = 2131492931;
+			// aapt resource value: 0x7f0c0040
+			public const int quarter = 2131492928;
 			
 			// aapt resource value: 0x7f0c0026
 			public const int search_menu_title = 2131492902;
 			
-			// aapt resource value: 0x7f0c004a
-			public const int sfchart_close_label = 2131492938;
-			
-			// aapt resource value: 0x7f0c004d
-			public const int sfchart_decrease_label = 2131492941;
-			
 			// aapt resource value: 0x7f0c0047
-			public const int sfchart_high_label = 2131492935;
+			public const int sfchart_close_label = 2131492935;
 			
-			// aapt resource value: 0x7f0c004c
-			public const int sfchart_increase_label = 2131492940;
+			// aapt resource value: 0x7f0c004a
+			public const int sfchart_decrease_label = 2131492938;
 			
-			// aapt resource value: 0x7f0c0048
-			public const int sfchart_low_label = 2131492936;
+			// aapt resource value: 0x7f0c0044
+			public const int sfchart_high_label = 2131492932;
 			
 			// aapt resource value: 0x7f0c0049
-			public const int sfchart_open_label = 2131492937;
+			public const int sfchart_increase_label = 2131492937;
+			
+			// aapt resource value: 0x7f0c0045
+			public const int sfchart_low_label = 2131492933;
+			
+			// aapt resource value: 0x7f0c0046
+			public const int sfchart_open_label = 2131492934;
+			
+			// aapt resource value: 0x7f0c0048
+			public const int sfchart_others_label = 2131492936;
 			
 			// aapt resource value: 0x7f0c004b
-			public const int sfchart_others_label = 2131492939;
+			public const int sfchart_total_label = 2131492939;
 			
-			// aapt resource value: 0x7f0c004e
-			public const int sfchart_total_label = 2131492942;
+			// aapt resource value: 0x7f0c003d
+			public const int sfkanban_itemscount_label = 2131492925;
 			
-			// aapt resource value: 0x7f0c0040
-			public const int sfkanban_itemscount_label = 2131492928;
+			// aapt resource value: 0x7f0c003f
+			public const int sfkanban_max_label = 2131492927;
 			
-			// aapt resource value: 0x7f0c0042
-			public const int sfkanban_max_label = 2131492930;
-			
-			// aapt resource value: 0x7f0c0041
-			public const int sfkanban_min_label = 2131492929;
+			// aapt resource value: 0x7f0c003e
+			public const int sfkanban_min_label = 2131492926;
 			
 			// aapt resource value: 0x7f0c003b
 			public const int status_bar_notification_info_overflow = 2131492923;
 			
-			// aapt resource value: 0x7f0c0046
-			public const int w = 2131492934;
+			// aapt resource value: 0x7f0c0043
+			public const int w = 2131492931;
 			
-			// aapt resource value: 0x7f0c0045
-			public const int week = 2131492933;
+			// aapt resource value: 0x7f0c0042
+			public const int week = 2131492930;
 			
 			static String()
 			{

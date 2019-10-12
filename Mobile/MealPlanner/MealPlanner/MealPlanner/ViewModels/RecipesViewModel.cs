@@ -110,19 +110,7 @@ namespace MealPlanner.ViewModels
             difficulty = difficult;
             timeToPrepare = time;
             this.imagePreview = imagePreview;
-            //GetRecipeProducts();
-        }
-
-        public async Task GetRecipeProducts()
-        {
-            await Task.Run(async () =>
-            {
-                List<RecipeProducts> temp = await (new DataHandler().GetRecipeProducts(this.recipeID));
-                foreach (var item in temp)
-                {
-                    products.Add(await (new DataHandler().GetSpecificProducts(item.ProductID)));
-                }
-            });
+            Products = new List<Products>();
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
