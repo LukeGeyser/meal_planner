@@ -100,6 +100,7 @@
             this.lblStoreName.TabIndex = 58;
             this.lblStoreName.Text = "Woolworths - Boksburg";
             this.lblStoreName.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.lblStoreName.Click += new System.EventHandler(this.lblStoreName_Click);
             // 
             // picRatingStars
             // 
