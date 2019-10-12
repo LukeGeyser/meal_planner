@@ -478,7 +478,7 @@ namespace MealPlanner.Services
                 cmd.Parameters.AddWithValue("@date", DateTime.Now);
                 cmd.ExecuteNonQuery();
             }
-            catch (Exception)
+            catch (Exception error)
             {
 
             }
@@ -537,7 +537,7 @@ namespace MealPlanner.Services
                 }
                 cmd.Dispose();
             }
-            catch (Exception)
+            catch (Exception error)
             {
             }
             finally

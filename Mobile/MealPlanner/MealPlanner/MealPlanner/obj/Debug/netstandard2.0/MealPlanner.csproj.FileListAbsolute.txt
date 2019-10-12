@@ -1,41 +1,77 @@
+C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner\bin\Debug\netstandard2.0\MealPlanner.deps.json
+C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner\bin\Debug\netstandard2.0\MealPlanner.dll
+C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner\bin\Debug\netstandard2.0\MealPlanner.pdb
+C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\MealPlanner.csproj.CoreCompileInputs.cache
+C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\MealPlanner.AssemblyInfoInputs.cache
+C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\MealPlanner.AssemblyInfo.cs
+C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\MealPlanner.dll
+C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\MealPlanner.pdb
+C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\bin\Debug\netstandard2.0\MealPlanner.deps.json
+C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\bin\Debug\netstandard2.0\MealPlanner.dll
+C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\bin\Debug\netstandard2.0\MealPlanner.pdb
+C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\SignInPage.xaml.g.cs
+C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\MealPlanner.csproj.CoreCompileInputs.cache
+C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\MealPlanner.AssemblyInfoInputs.cache
+C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\MealPlanner.AssemblyInfo.cs
+C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\XamlC.stamp
+C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\MealPlanner.dll
+C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\MealPlanner.pdb
+C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\MealPlanner.csprojAssemblyReference.cache
+C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\meal_planner\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\SignUpPage.xaml.g.cs
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\bin\Debug\netstandard2.0\MealPlanner.deps.json
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\bin\Debug\netstandard2.0\MealPlanner.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\bin\Debug\netstandard2.0\MealPlanner.pdb
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\bin\Debug\netstandard2.0\Mono.Android.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\bin\Debug\netstandard2.0\Mono.Android.pdb
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\MealPlanner.csprojAssemblyReference.cache
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Resources\DarkTheme.xaml.g.cs
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Resources\LightTheme.xaml.g.cs
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\AddAllergyPage.xaml.g.cs
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\AdditionalInfoSignUpPage.xaml.g.cs
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\AddMealPlanPage.xaml.g.cs
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\AppPreferencesPage.xaml.g.cs
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\BMIPage.xaml.g.cs
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\CalculatorTabbedPages.xaml.g.cs
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\CalorieCalculatorPage.xaml.g.cs
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\ClientDetailsSignUpPage.xaml.g.cs
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\InitialAllergySetupPage.xaml.g.cs
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\InitialMealPlanSetupPage.xaml.g.cs
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\ProfilePage.xaml.g.cs
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\RecipesPage.xaml.g.cs
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\SelectedShopDetailsPage.xaml.g.cs
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\SettingsPage.xaml.g.cs
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\ShopsDisplayPage.xaml.g.cs
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\SignInPage.xaml.g.cs
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\SignUpPage.xaml.g.cs
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\TrackProgressPage.xaml.g.cs
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\MealPlanner.csproj.CoreCompileInputs.cache
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\MealPlanner.AssemblyInfoInputs.cache
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\MealPlanner.AssemblyInfo.cs
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\XamlC.stamp
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\MealPlanner.csproj.CopyComplete
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\MealPlanner.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\MealPlanner.pdb
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\SettingsPage.xaml.g.cs
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Resources\LightTheme.xaml.g.cs
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Resources\DarkTheme.xaml.g.cs
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\InitialAllergySetupPage.xaml.g.cs
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\InitialMealPlanSetupPage.xaml.g.cs
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\SelectedShopDetailsPage.xaml.g.cs
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\CalculatorTabbedPages.xaml.g.cs
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\BMIPage.xaml.g.cs
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\TrackProgressPage.xaml.g.cs
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\Views\RecipesPage.xaml.g.cs
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\obj\Debug\netstandard2.0\XamlC.stamp
