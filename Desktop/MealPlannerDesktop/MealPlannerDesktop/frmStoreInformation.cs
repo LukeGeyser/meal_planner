@@ -24,17 +24,15 @@ namespace MealPlannerDesktop
 
         Shops Shops { get; set; }
 
-        string[] StoreImages = { "woolworthsStore.jpg", "picknpayStore.jpeg", "sparStore.jpg"
-                ,"checkersStore.jpg" };
-
+        
         public frmStoreInformation(DisplayStoreInfoViewModel viewModel)
         {
             InitializeComponent();
             storeInfoViewModel = viewModel;
 
             Shops = new DataHandler().GetShopsDetails(storeInfoViewModel.StoreID);
-
             lblStoreName.Text = Shops.ShopName;
+
             RatingString = storeInfoViewModel.Rating == 0 ? "No Ratings For This Store..." : $"Rating: {storeInfoViewModel.Rating}";
             //Display Rating Stars
             #region
@@ -96,7 +94,6 @@ namespace MealPlannerDesktop
             lblLatitude.Text = storeInfoViewModel.Lat.ToString();
             lblLongitude.Text = storeInfoViewModel.Lng.ToString();
 
-
             storeInfoViewModel.Vicinity = "Near " + storeInfoViewModel.Vicinity;
             lblNear.Text = storeInfoViewModel.Vicinity;
 
@@ -131,12 +128,40 @@ namespace MealPlannerDesktop
 
             lblDistance.Text = storeInfoViewModel.Distance;
         }
-
-       
-
+        
+        //displays the correct store front image
         private void FrmStoreInformation_Load(object sender, EventArgs e)
         {
+            //string[] StoreImages = { "woolworthsStore.jpg", "picknpayStore.jpeg", "sparStore.jpg"
+            //    ,"checkersStore.jpg" };
+            try
+            {
+                Image wool = Image.FromFile("woolworthsStore.jpg");
+                Image spar = Image.FromFile("sparStore.jpg");
+                Image pnp = Image.FromFile("picknpayStore.jpg");
+                Image check = Image.FromFile("checkersStore.jpg");
 
+                if (lblStoreName.Text == "Woolworths")
+                {
+                    picStoreFront.Image = wool;
+                }
+                else if (lblStoreName.Text == "Spar")
+                {
+                    picStoreFront.Image = spar;
+                }
+                else if (lblStoreName.Text == "Pick n Pay")
+                {
+                    picStoreFront.Image = pnp;
+                }
+                else if (lblStoreName.Text == "Checkers")
+                {
+                    picStoreFront.Image = check;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void BtnBack_Click(object sender, EventArgs e)
