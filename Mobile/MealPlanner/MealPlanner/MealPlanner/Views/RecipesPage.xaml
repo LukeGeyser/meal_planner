@@ -5,6 +5,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:button="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:list="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
     xmlns:local="clr-namespace:MealPlanner.ViewModels"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
@@ -36,7 +37,33 @@
 
             </Grid>
 
-            <!--<list:SfListView x:Name="listview" ItemsSource="{Binding AllRecipes}" />-->
+            <!--<list:SfListView ItemsSource="{Binding outerList}">
+
+                <list:SfListView.ItemTemplate>
+
+                    <DataTemplate>
+
+                        <Grid>
+
+                            <Label />
+
+                            <list:SfListView ItemsSource="{Binding innerList}">
+                                <list:SfListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <Grid>
+                                            <Label />
+                                        </Grid>
+                                    </DataTemplate>
+                                </list:SfListView.ItemTemplate>
+                            </list:SfListView>
+
+                        </Grid>
+
+                    </DataTemplate>
+
+                </list:SfListView.ItemTemplate>
+
+            </list:SfListView>-->
 
         </StackLayout>
 

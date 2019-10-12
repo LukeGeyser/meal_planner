@@ -146,7 +146,11 @@
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\RecipesPage.xaml</FilePath>
+<<<<<<< HEAD
       <Hash>D5-F8-DE-3F-C9-ED-26-FC-0E-AD-E8-2C-FE-A4-04-22</Hash>
+=======
+      <Hash>3A-C6-63-70-9C-45-47-9C-8F-BE-E8-A2-18-10-CD-A6</Hash>
+>>>>>>> parent of 66ba4f0... Updating Recipes Tab
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
