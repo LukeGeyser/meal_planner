@@ -1,580 +1,3 @@
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\bin\Debug\MealPlanner.Android.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\bin\Debug\MealPlanner.Android.pdb
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\bin\Debug\com.companyname.MealPlanner.apk
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\bin\Debug\com.companyname.MealPlanner-Signed.apk
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\bin\Debug\MealPlanner.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\bin\Debug\MealPlanner.pdb
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\build.props
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\adb.props
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\MealPlanner.Android.csprojAssemblyReference.cache
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_BuildLibraryImportsCache.stamp
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\resourcepaths.cache
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res.flag
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\R.cs.flag
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\MealPlanner.Android.csproj.CoreCompileInputs.cache
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\XamlC.stamp
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\MealPlanner.Android.csproj.CopyComplete
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\MealPlanner.Android.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\MealPlanner.Android.pdb
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\bin\com.companyname.MealPlanner.apk
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\layout\tabbar.xml
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\layout\toolbar.xml
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\values\styles.xml
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\values\colors.xml
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\mipmap-anydpi-v26\icon.xml
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\mipmap-anydpi-v26\icon_round.xml
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\mipmap-hdpi\icon.png
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\mipmap-hdpi\launcher_foreground.png
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\mipmap-mdpi\icon.png
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\mipmap-mdpi\launcher_foreground.png
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\mipmap-xhdpi\icon.png
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\mipmap-xhdpi\launcher_foreground.png
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\mipmap-xxhdpi\icon.png
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\mipmap-xxhdpi\launcher_foreground.png
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\mipmap-xxxhdpi\icon.png
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\mipmap-xxxhdpi\launcher_foreground.png
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\xamarin_logo.png
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\R.txt
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\uploadflags.txt
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\resolvedassemblies.hash
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\MealPlanner.Android.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\FormsViewGroup.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Java.Interop.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\MealPlanner.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Mono.Android.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\mscorlib.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Core.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Numerics.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Numerics.Vectors.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Runtime.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Xml.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Xml.Linq.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Arch.Core.Common.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Arch.Lifecycle.Common.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Arch.Lifecycle.Runtime.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.Animated.Vector.Drawable.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.Annotations.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.Compat.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.Core.UI.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.Core.Utils.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.CustomTabs.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.Design.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.Fragment.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.Media.Compat.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.Transition.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.v4.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.v7.AppCompat.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.v7.CardView.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.v7.MediaRouter.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.v7.Palette.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.v7.RecyclerView.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.Vector.Drawable.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Essentials.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Forms.Core.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Forms.Platform.Android.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Forms.Platform.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Forms.Xaml.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\netstandard.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Data.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Transactions.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Drawing.Common.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.IO.Compression.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.IO.Compression.FileSystem.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.ComponentModel.Composition.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Net.Http.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Runtime.Serialization.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.ServiceModel.Internals.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Web.Services.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Mono.Security.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\MealPlanner.Android.pdb
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\FormsViewGroup.pdb
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Mono.Android.pdb
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Forms.Core.pdb
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Forms.Platform.Android.pdb
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Forms.Xaml.pdb
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\MealPlanner.dll.mdb
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Essentials.dll.mdb
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\link.flag
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\FormsViewGroup.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\FormsViewGroup.pdb
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Java.Interop.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\MealPlanner.Android.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\MealPlanner.Android.pdb
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\MealPlanner.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\MealPlanner.dll.mdb
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Mono.Android.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Mono.Android.pdb
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Mono.Security.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\mscorlib.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\netstandard.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.ComponentModel.Composition.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Core.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Data.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Drawing.Common.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.IO.Compression.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.IO.Compression.FileSystem.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Net.Http.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Numerics.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Numerics.Vectors.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Runtime.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Runtime.Serialization.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.ServiceModel.Internals.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Transactions.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Web.Services.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Xml.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Xml.Linq.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Arch.Core.Common.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Arch.Lifecycle.Common.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Arch.Lifecycle.Runtime.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Animated.Vector.Drawable.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Annotations.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Compat.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Core.UI.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Core.Utils.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.CustomTabs.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Design.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Fragment.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Media.Compat.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Transition.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v4.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.AppCompat.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.CardView.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.MediaRouter.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.Palette.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Essentials.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Essentials.dll.mdb
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.dll
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
-C:\Users\User-pc\Desktop\UNIVERSITY WORK\SECOND YEAR BC\INL281\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\bin\Debug\MealPlanner.dll.mdb
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\bin\Debug\MealPlanner.Android.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\bin\Debug\MealPlanner.Android.pdb
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\bin\Debug\com.companyname.MealPlanner.apk
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\bin\Debug\com.companyname.MealPlanner-Signed.apk
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\bin\Debug\MealPlanner.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\bin\Debug\MealPlanner.pdb
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\build.props
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\adb.props
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\MealPlanner.Android.csprojAssemblyReference.cache
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_BuildLibraryImportsCache.stamp
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\resourcepaths.cache
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res.flag
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\R.cs.flag
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\MealPlanner.Android.csproj.CoreCompileInputs.cache
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\XamlC.stamp
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\MealPlanner.Android.csproj.CopyComplete
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\MealPlanner.Android.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\MealPlanner.Android.pdb
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\bin\com.companyname.MealPlanner.apk
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\layout\tabbar.xml
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\layout\toolbar.xml
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\values\styles.xml
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\values\colors.xml
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\mipmap-anydpi-v26\icon.xml
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\mipmap-anydpi-v26\icon_round.xml
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\mipmap-hdpi\icon.png
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\mipmap-hdpi\launcher_foreground.png
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\mipmap-mdpi\icon.png
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\mipmap-mdpi\launcher_foreground.png
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\mipmap-xhdpi\icon.png
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\mipmap-xhdpi\launcher_foreground.png
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\mipmap-xxhdpi\icon.png
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\mipmap-xxhdpi\launcher_foreground.png
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\mipmap-xxxhdpi\icon.png
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\mipmap-xxxhdpi\launcher_foreground.png
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\xamarin_logo.png
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\R.txt
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\uploadflags.txt
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\resolvedassemblies.hash
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\MealPlanner.Android.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\FormsViewGroup.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Java.Interop.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\MealPlanner.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Mono.Android.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\mscorlib.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Core.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Numerics.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Numerics.Vectors.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Runtime.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Xml.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Xml.Linq.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Arch.Core.Common.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Arch.Lifecycle.Common.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Arch.Lifecycle.Runtime.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.Animated.Vector.Drawable.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.Annotations.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.Compat.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.Core.UI.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.Core.Utils.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.CustomTabs.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.Design.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.Fragment.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.Media.Compat.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.Transition.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.v4.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.v7.AppCompat.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.v7.CardView.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.v7.MediaRouter.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.v7.Palette.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.v7.RecyclerView.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Android.Support.Vector.Drawable.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Essentials.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Forms.Core.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Forms.Platform.Android.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Forms.Platform.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Forms.Xaml.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\netstandard.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Data.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Transactions.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Drawing.Common.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.IO.Compression.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.IO.Compression.FileSystem.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.ComponentModel.Composition.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Net.Http.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Runtime.Serialization.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.ServiceModel.Internals.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Web.Services.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Mono.Security.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\MealPlanner.Android.pdb
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\FormsViewGroup.pdb
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Mono.Android.pdb
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Forms.Core.pdb
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Forms.Platform.Android.pdb
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Forms.Xaml.pdb
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\MealPlanner.dll.mdb
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Essentials.dll.mdb
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\link.flag
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\FormsViewGroup.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\FormsViewGroup.pdb
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Java.Interop.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\machine.config
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\MealPlanner.Android.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\MealPlanner.Android.pdb
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\MealPlanner.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\MealPlanner.dll.mdb
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Mono.Android.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Mono.Security.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\mscorlib.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\netstandard.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.ComponentModel.Composition.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Core.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Data.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Drawing.Common.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.IO.Compression.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.IO.Compression.FileSystem.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Net.Http.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Numerics.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Numerics.Vectors.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Runtime.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Runtime.Serialization.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.ServiceModel.Internals.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Transactions.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Web.Services.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Xml.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Xml.Linq.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Arch.Core.Common.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Arch.Lifecycle.Common.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Arch.Lifecycle.Runtime.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Animated.Vector.Drawable.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Annotations.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Compat.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Core.UI.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Core.Utils.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.CustomTabs.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Design.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Fragment.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Media.Compat.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Transition.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v4.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.AppCompat.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.CardView.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.MediaRouter.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.Palette.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Essentials.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Essentials.dll.mdb
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.dll
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\MonoRuntimeProvider.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\bin\mono.android.jar
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\static.flag
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\buildid.txt
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v7\widget\ActionMenuView_OnMenuItemClickListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v7\widget\ContentFrameLayout_OnAttachListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v7\widget\FitWindowsViewGroup_OnFitSystemWindowsListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v7\widget\MenuItemHoverListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v7\widget\PopupMenu_OnDismissListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v7\widget\PopupMenu_OnMenuItemClickListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v7\widget\RecyclerView_ItemAnimator_ItemAnimatorFinishedListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v7\widget\RecyclerView_OnChildAttachStateChangeListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v7\widget\RecyclerView_OnItemTouchListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v7\widget\RecyclerView_RecyclerListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v7\widget\SearchView_OnCloseListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v7\widget\SearchView_OnQueryTextListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v7\widget\SearchView_OnSuggestionListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v7\widget\ShareActionProvider_OnShareTargetSelectedListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v7\widget\Toolbar_OnMenuItemClickListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v7\widget\ViewStubCompat_OnInflateListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v7\media\RemotePlaybackClient_OnMessageReceivedListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v7\graphics\Palette_PaletteAsyncListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v7\app\ActionBar_OnMenuVisibilityListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v7\app\ActionBar_OnNavigationListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v7\app\ActionBar_TabListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\widget\DrawerLayout_DrawerListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\widget\NestedScrollView_OnScrollChangeListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\widget\SlidingPaneLayout_PanelSlideListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\widget\SwipeRefreshLayout_OnRefreshListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\view\accessibility\AccessibilityManagerCompat_AccessibilityStateChangeListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\view\accessibility\AccessibilityManagerCompat_TouchExplorationStateChangeListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\view\ActionProvider_SubUiVisibilityListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\view\ActionProvider_VisibilityListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\view\AsyncLayoutInflater_OnInflateFinishedListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\view\MenuItemCompat_OnActionExpandListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\view\OnApplyWindowInsetsListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\view\ViewPager_OnAdapterChangeListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\view\ViewPager_OnPageChangeListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\view\ViewPropertyAnimatorListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\view\ViewPropertyAnimatorUpdateListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\os\CancellationSignal_OnCancelListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\v7\widget\Toolbar_NavigationOnClickEventDispatcher.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\media\session\MediaSessionCompat_OnActiveChangeListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\v7\recyclerview\R.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\v7\mediarouter\R.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\content\Loader_OnLoadCanceledListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\content\Loader_OnLoadCompleteListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\v7\cardview\R.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\app\FragmentManager_OnBackStackChangedListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\app\SharedElementCallback_OnSharedElementsReadyListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\v7\appcompat\R.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\v7\app\AlertDialog_IDialogInterfaceOnCancelListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\v7\app\AlertDialog_IDialogInterfaceOnClickListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\v7\app\AlertDialog_IDialogInterfaceOnMultiChoiceClickListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\transition\Transition_TransitionListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ActionSheetRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ActivityIndicatorRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\AHorizontalScrollView.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\AndroidActivity.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\BaseCellView.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\BorderDrawable.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\BoxRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ButtonRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ButtonRenderer_ButtonClickListener.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ButtonRenderer_ButtonTouchListener.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\CarouselPageAdapter.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\CarouselPageRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\CarouselViewRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\CellAdapter.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\CellRenderer_RendererHolder.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\CenterSnapHelper.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\CircularProgress.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\CollectionViewRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ColorChangeRevealDrawable.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ConditionalFocusLayout.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ContainerView.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\CustomFrameLayout.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\DataChangeObserver.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\DatePickerRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\DatePickerRendererBase_1.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\EdgeSnapHelper.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\EditorEditText.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\EditorRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\EditorRendererBase_1.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\EmptyViewAdapter.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\EmptyViewAdapter_EmptyViewHolder.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\EndSingleSnapHelper.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\EndSnapHelper.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\EntryCellEditText.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\EntryCellView.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\EntryEditText.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\EntryRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\EntryRendererBase_1.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\FormattedStringExtensions_FontSpan.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\FormattedStringExtensions_LineHeightSpan.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\FormattedStringExtensions_TextDecorationSpan.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\FormsAppCompatActivity.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\FormsApplicationActivity.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\FormsEditText.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\FormsEditTextBase.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\FormsImageView.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\FormsSeekBar.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\FormsTextView.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\FormsWebChromeClient.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\FormsWebViewClient.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\FrameRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\FrameRenderer_FrameDrawable.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\GenericAnimatorListener.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\GenericMenuClickListener.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\GestureManager_TapAndPanGestureDetector.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\GroupedListViewAdapter.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ImageButtonRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ImageRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\InnerGestureListener.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\InnerScaleListener.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ItemContentView.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ItemsViewAdapter.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ItemsViewRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\LabelRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ListViewAdapter.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ListViewRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ListViewRenderer_Container.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\LocalizedDigitsKeyListener.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\MasterDetailContainer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\MasterDetailRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\NativeViewWrapperRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\NavigationRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\NongreedySnapHelper.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ObjectJavaBox_1.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\OpenGLViewRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\OpenGLViewRenderer_Renderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\PageContainer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\PageExtensions_EmbeddedFragment.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\PageExtensions_EmbeddedSupportFragment.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\PageRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\PickerEditText.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\PickerManager_PickerListener.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\PickerRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\PlatformRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\Platform_DefaultRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\PositionalSmoothScroller.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\PowerSaveModeBroadcastReceiver.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ProgressBarRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ScrollViewContainer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ScrollViewRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\SearchBarRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\SelectableItemsViewAdapter.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\SelectableItemsViewRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\SelectableViewHolder.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ShellContentFragment.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ShellFlyoutContentRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ShellFlyoutRecyclerAdapter.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ShellFlyoutRecyclerAdapter_ElementViewHolder.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ShellFlyoutRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ShellFlyoutTemplatedContentRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ShellFlyoutTemplatedContentRenderer_HeaderContainer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ShellFragmentPagerAdapter.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ShellItemRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ShellItemRendererBase.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ShellPageContainer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ShellRenderer_SplitDrawable.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ShellSearchView.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ShellSearchViewAdapter.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ShellSearchViewAdapter_CustomFilter.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ShellSearchViewAdapter_ObjectWrapper.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ShellSearchView_ClipDrawableWrapper.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ShellSectionRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ShellToolbarTracker.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\SingleSnapHelper.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\SizedItemContentView.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\SliderRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\StartSingleSnapHelper.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\StartSnapHelper.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\StepperRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\StepperRendererManager_StepperListener.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\SwitchCellView.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\SwitchRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\TabbedRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\TableViewModelRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\TableViewRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\TemplatedItemViewHolder.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\TextCellRenderer_TextCellView.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\TextViewHolder.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\TimePickerRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\TimePickerRendererBase_1.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ViewCellRenderer_ViewCellContainer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ViewCellRenderer_ViewCellContainer_LongPressGestureListener.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ViewRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ViewRenderer_2.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\VisualElementRenderer_1.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\VisualElementTracker_AttachTracker.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\WebViewRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\WebViewRenderer_JavascriptResult.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\design\widget\AppBarLayout_OnOffsetChangedListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\design\widget\BottomNavigationView_OnNavigationItemReselectedListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\design\widget\BottomNavigationView_OnNavigationItemSelectedListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\design\widget\NavigationView_OnNavigationItemSelectedListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\design\widget\SwipeDismissBehavior_OnDismissListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\design\widget\TabLayout_OnTabSelectedListenerImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\transition\R.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\mediacompat\R.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\design\widget\Snackbar_SnackbarActionClickImplementor.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\design\R.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\app\ApplicationRegistration.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\customtabs\CustomTabsClient_CustomTabsCallbackImpl.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\ButtonRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\CarouselPageRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\FormsFragmentPagerAdapter_1.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\FormsViewPager.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\FragmentContainer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\FrameRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\MasterDetailContainer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\MasterDetailPageRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\NavigationPageRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\NavigationPageRenderer_ClickListener.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\NavigationPageRenderer_Container.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\NavigationPageRenderer_DrawerMultiplexedListener.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\PickerRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\PickerRendererBase_1.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\Platform_ModalContainer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\ShellFragmentContainer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\SwitchRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\TabbedPageRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\ViewRenderer_2.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5dcb6eccdc824e0677ffae8ccdde42930\CustomTabsServiceConnectionImpl.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5dcb6eccdc824e0677ffae8ccdde42930\KeepAliveService.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\compat\R.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\MonoPackageManager_Resources.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md56ab376c17c2947710e7c18e43599a63d\MainActivity.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\AccelerometerListener.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\ActivityLifecycleContextListener.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\BarometerListener.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\BatteryBroadcastReceiver.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\ConnectivityBroadcastReceiver.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\EnergySaverBroadcastReceiver.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\GyroscopeListener.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\Listener.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\MagnetometerListener.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\OrientationSensorListener.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\SensorListener.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\SingleLocationListener.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\TextToSpeechImplementation.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5f92e0daf340890c9667469657ee2ece8\ButtonRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5f92e0daf340890c9667469657ee2ece8\FrameRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5f92e0daf340890c9667469657ee2ece8\ImageRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5f92e0daf340890c9667469657ee2ece8\LabelRenderer.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\bin\packaged_resources
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\com\companyname\mealplanner\R.java
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\bin\classes.dex
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_BuildAdditionalResourcesCache.stamp
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_CleanIntermediateIfNuGetsChange.stamp
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_CompileToDalvik.stamp
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_ConvertCustomView.stamp
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_CopyIntermediateAssemblies.stamp
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_CopyMdbFiles.stamp
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_CopyPdbFiles.stamp
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_GenerateJavaStubs.stamp
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_GeneratePackageManagerJava.stamp
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_ResolveLibraryProjectImports.stamp
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Mono.Android.pdb
-C:\meal_planner\MealPlanner\MealPlanner\MealPlanner.Android\bin\Debug\MealPlanner.dll.mdb
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\mscorlib.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\bin\Debug\MealPlanner.Android.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\bin\Debug\MealPlanner.Android.pdb
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\bin\Debug\com.companyname.MealPlanner.apk
@@ -629,6 +52,19 @@ C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\checkers.png
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\spa.png
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\loading.gif
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\settings.png
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\background.png
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\gradient.png
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\store.jpg
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\progress.png
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\checkersstore.jpg
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\picknpaystore.jpg
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\spastore.jpg
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\woolworthsstore.jpg
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\phone.png
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\email.png
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\website.png
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\recipe.png
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\R.txt
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\uploadflags.txt
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\resolvedassemblies.hash
@@ -676,7 +112,31 @@ C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Mono.Android.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\mscorlib.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Newtonsoft.Json.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Plugin.Settings.Abstractions.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Plugin.Settings.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Sharpnado.Infrastructure.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Sharpnado.Presentation.Forms.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Sharpnado.Presentation.Forms.Droid.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\SkiaSharp.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.Buttons.XForms.Android.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.Buttons.XForms.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.Core.XForms.Android.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.Core.XForms.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.DataSource.Portable.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.GridCommon.Portable.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.Licensing.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.SfChart.XForms.Android.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.SfChart.XForms.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.SfKanban.XForms.Android.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.SfKanban.XForms.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.SfListView.XForms.Android.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.SfListView.XForms.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.SfRadialMenu.Android.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.SfRadialMenu.XForms.Android.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.SfRadialMenu.XForms.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.SfRating.Android.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.SfRating.XForms.Android.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.SfRating.XForms.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Buffers.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Core.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Diagnostics.DiagnosticSource.dll
@@ -749,6 +209,11 @@ C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.IO.FileSystem.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Runtime.InteropServices.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.IO.FileSystem.Primitives.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Dynamic.Runtime.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Linq.Expressions.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Microsoft.CSharp.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Linq.Queryable.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.ComponentModel.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Diagnostics.Tracing.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Mono.Security.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\MealPlanner.Android.pdb
@@ -760,11 +225,16 @@ C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\FFImageLoading.Svg.Platform.pdb
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\FormsViewGroup.pdb
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Mono.Android.pdb
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Sharpnado.Infrastructure.pdb
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Sharpnado.Presentation.Forms.pdb
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Essentials.pdb
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Forms.Core.pdb
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Forms.Platform.Android.pdb
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Xamarin.Forms.Xaml.pdb
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\MealPlanner.dll.mdb
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Plugin.Settings.Abstractions.dll.mdb
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Plugin.Settings.dll.mdb
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Sharpnado.Presentation.Forms.Droid.dll.mdb
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\link.flag
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\FFImageLoading.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\FFImageLoading.Forms.dll
@@ -802,6 +272,7 @@ C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Microsoft.AspNetCore.Routing.Abstractions.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Microsoft.AspNetCore.Routing.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Microsoft.AspNetCore.WebUtilities.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Microsoft.CSharp.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Microsoft.DotNet.PlatformAbstractions.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Microsoft.Extensions.DependencyInjection.Abstractions.dll
@@ -819,15 +290,46 @@ C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Mono.Android.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Mono.Android.pdb
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Mono.Security.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\mscorlib.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\netstandard.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Newtonsoft.Json.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Plugin.Settings.Abstractions.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Plugin.Settings.Abstractions.dll.mdb
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Plugin.Settings.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Plugin.Settings.dll.mdb
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Sharpnado.Infrastructure.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Sharpnado.Infrastructure.pdb
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Sharpnado.Presentation.Forms.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Sharpnado.Presentation.Forms.Droid.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Sharpnado.Presentation.Forms.Droid.dll.mdb
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Sharpnado.Presentation.Forms.pdb
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\SkiaSharp.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.Buttons.XForms.Android.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.Buttons.XForms.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.Core.XForms.Android.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.Core.XForms.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.DataSource.Portable.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.GridCommon.Portable.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.Licensing.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.SfChart.XForms.Android.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.SfChart.XForms.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.SfKanban.XForms.Android.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.SfKanban.XForms.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.SfListView.XForms.Android.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.SfListView.XForms.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.SfRadialMenu.Android.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.SfRadialMenu.XForms.Android.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.SfRadialMenu.XForms.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.SfRating.Android.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.SfRating.XForms.Android.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.SfRating.XForms.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.AppContext.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Buffers.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Collections.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.ComponentModel.Annotations.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.ComponentModel.Composition.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.ComponentModel.DataAnnotations.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.ComponentModel.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Core.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Data.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Data.SqlClient.dll
@@ -836,6 +338,7 @@ C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Diagnostics.Tracing.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Drawing.Common.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Dynamic.Runtime.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Globalization.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.IO.Compression.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.IO.Compression.FileSystem.dll
@@ -843,6 +346,8 @@ C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.IO.FileSystem.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.IO.FileSystem.Primitives.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Linq.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Linq.Expressions.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Linq.Queryable.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Memory.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Net.Http.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Net.Primitives.dll
@@ -929,6 +434,8 @@ C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\widget\NestedScrollView_OnScrollChangeListenerImplementor.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\widget\SlidingPaneLayout_PanelSlideListenerImplementor.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\widget\SwipeRefreshLayout_OnRefreshListenerImplementor.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5193b86d17702d224a499fe6d922d7b53\SfChartExt.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5193b86d17702d224a499fe6d922d7b53\SfChartRenderer.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\view\accessibility\AccessibilityManagerCompat_AccessibilityStateChangeListenerImplementor.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\view\accessibility\AccessibilityManagerCompat_TouchExplorationStateChangeListenerImplementor.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\view\ActionProvider_SubUiVisibilityListenerImplementor.java
@@ -940,23 +447,6 @@ C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\view\ViewPager_OnPageChangeListenerImplementor.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\view\ViewPropertyAnimatorListenerImplementor.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\view\ViewPropertyAnimatorUpdateListenerImplementor.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\os\CancellationSignal_OnCancelListenerImplementor.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\media\session\MediaSessionCompat_OnActiveChangeListenerImplementor.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\content\Loader_OnLoadCanceledListenerImplementor.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\content\Loader_OnLoadCompleteListenerImplementor.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\app\FragmentManager_OnBackStackChangedListenerImplementor.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\app\SharedElementCallback_OnSharedElementsReadyListenerImplementor.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\v7\widget\Toolbar_NavigationOnClickEventDispatcher.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\v7\recyclerview\R.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\transition\Transition_TransitionListenerImplementor.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\v7\mediarouter\R.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\design\widget\AppBarLayout_OnOffsetChangedListenerImplementor.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\design\widget\BottomNavigationView_OnNavigationItemReselectedListenerImplementor.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\design\widget\BottomNavigationView_OnNavigationItemSelectedListenerImplementor.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\design\widget\NavigationView_OnNavigationItemSelectedListenerImplementor.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\design\widget\SwipeDismissBehavior_OnDismissListenerImplementor.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\design\widget\TabLayout_OnTabSelectedListenerImplementor.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\v7\cardview\R.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ActionSheetRenderer.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\ActivityIndicatorRenderer.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\AHorizontalScrollView.java
@@ -1106,123 +596,24 @@ C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\VisualElementTracker_AttachTracker.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\WebViewRenderer.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51558244f76c53b6aeda52c8a337f2c37\WebViewRenderer_JavascriptResult.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\v7\appcompat\R.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\v7\app\AlertDialog_IDialogInterfaceOnCancelListenerImplementor.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\v7\app\AlertDialog_IDialogInterfaceOnClickListenerImplementor.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\v7\app\AlertDialog_IDialogInterfaceOnMultiChoiceClickListenerImplementor.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\transition\R.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\app\ApplicationRegistration.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\os\CancellationSignal_OnCancelListenerImplementor.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\media\session\MediaSessionCompat_OnActiveChangeListenerImplementor.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md502be9c66b0fa458cda86488a47aefb89\GestureListener.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md502be9c66b0fa458cda86488a47aefb89\SfEffectsViewRenderer.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\ffimageloading\views\ImageViewAsync.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\mediacompat\R.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\ffimageloading\cross\MvxCachedImageView.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\ffimageloading\cross\MvxSvgCachedImageView.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\design\widget\Snackbar_SnackbarActionClickImplementor.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\MonoPackageManager_Resources.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\design\R.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\ButtonRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\CarouselPageRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\FormsFragmentPagerAdapter_1.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\FormsViewPager.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\FragmentContainer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\FrameRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\MasterDetailContainer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\MasterDetailPageRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\NavigationPageRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\NavigationPageRenderer_ClickListener.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\NavigationPageRenderer_Container.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\NavigationPageRenderer_DrawerMultiplexedListener.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\PickerRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\PickerRendererBase_1.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\Platform_ModalContainer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\ShellFragmentContainer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\SwitchRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\TabbedPageRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\ViewRenderer_2.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\AccelerometerListener.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\ActivityLifecycleContextListener.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\BarometerListener.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\BatteryBroadcastReceiver.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\ConnectivityBroadcastReceiver.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\EnergySaverBroadcastReceiver.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\GyroscopeListener.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\Listener.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\MagnetometerListener.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\OrientationSensorListener.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\SensorListener.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\SingleLocationListener.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\TextToSpeechImplementation.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5fe8996628db2722b2645843f91097c26\CachedImageFastRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5fe8996628db2722b2645843f91097c26\CachedImageRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5fe8996628db2722b2645843f91097c26\CachedImageView.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\customtabs\CustomTabsClient_CustomTabsCallbackImpl.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5adcd58131f4046b9abfeb77bd8cc5019\FFAnimatedDrawable.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5adcd58131f4046b9abfeb77bd8cc5019\FFBitmapDrawable.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5adcd58131f4046b9abfeb77bd8cc5019\SelfDisposingBitmapDrawable.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5f92e0daf340890c9667469657ee2ece8\ButtonRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5f92e0daf340890c9667469657ee2ece8\FrameRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5f92e0daf340890c9667469657ee2ece8\ImageRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5f92e0daf340890c9667469657ee2ece8\LabelRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\content\Loader_OnLoadCanceledListenerImplementor.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\content\Loader_OnLoadCompleteListenerImplementor.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md56ab376c17c2947710e7c18e43599a63d\MainActivity.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md56ab376c17c2947710e7c18e43599a63d\NestedScrolDroid.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\compat\R.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5423e3a95c357eb7d6aad61b4f54abbd4\RecyclerViewScrollListener.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5dcb6eccdc824e0677ffae8ccdde42930\CustomTabsServiceConnectionImpl.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5dcb6eccdc824e0677ffae8ccdde42930\KeepAliveService.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5a0a6d252fe95a949244d2744b3db206e\LRUCache.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\bin\packaged_resources
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\com\companyname\mealplanner\R.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\bin\classes.dex
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_BuildAdditionalResourcesCache.stamp
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_CleanIntermediateIfNuGetsChange.stamp
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_CompileToDalvik.stamp
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_ConvertCustomView.stamp
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_CopyIntermediateAssemblies.stamp
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_CopyMdbFiles.stamp
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_CopyPdbFiles.stamp
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_GenerateJavaStubs.stamp
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_GeneratePackageManagerJava.stamp
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_ResolveLibraryProjectImports.stamp
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\bin\Debug\MealPlanner.dll.mdb
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\settings.png
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Plugin.Settings.Abstractions.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Plugin.Settings.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Plugin.Settings.Abstractions.dll.mdb
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Plugin.Settings.dll.mdb
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Plugin.Settings.Abstractions.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Plugin.Settings.Abstractions.dll.mdb
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Plugin.Settings.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Plugin.Settings.dll.mdb
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\background.png
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\gradient.png
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\store.jpg
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\progress.png
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.Core.XForms.Android.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.Core.XForms.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.Licensing.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.SfChart.XForms.Android.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.SfChart.XForms.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.Core.XForms.Android.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.Core.XForms.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.Licensing.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.SfChart.XForms.Android.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.SfChart.XForms.dll
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md512f24a8d9ca88b39a9f9b82e0a920f06\GridLinesRenderer.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md512f24a8d9ca88b39a9f9b82e0a920f06\LabelsRenderer.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md512f24a8d9ca88b39a9f9b82e0a920f06\SfDateTimeRangeNavigator.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md512f24a8d9ca88b39a9f9b82e0a920f06\ThumbRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5037fcd973d9535e70a1630896b137ccb\SfShimmerRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md502be9c66b0fa458cda86488a47aefb89\GestureListener.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md502be9c66b0fa458cda86488a47aefb89\SfEffectsViewRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md533c0a8921e4153237a3ffec26b3759de\SfBorderRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md525515aaea8e1e7b653700744ebd40935\InputLayoutBorder.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md525515aaea8e1e7b653700744ebd40935\InputLayoutBorderRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md525515aaea8e1e7b653700744ebd40935\InputLayoutToggleViewRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md525515aaea8e1e7b653700744ebd40935\InputLayoutToggleViewRenderer_GestureListener.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md525515aaea8e1e7b653700744ebd40935\SfTextInputLayoutRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5193b86d17702d224a499fe6d922d7b53\SfChartExt.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5193b86d17702d224a499fe6d922d7b53\SfChartRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5cc7ee65a25332fd36b10cc55814247de\SfGradientViewRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5c567af560b5ba33724b908af7e9af13e\SfRangeNavigatorRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\app\FragmentManager_OnBackStackChangedListenerImplementor.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\v4\app\SharedElementCallback_OnSharedElementsReadyListenerImplementor.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\ffimageloading\cross\MvxCachedImageView.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\ffimageloading\cross\MvxSvgCachedImageView.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md50809aeb1e626953fd9f07284e93c04bb\AndroidMaterialFrameRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md50809aeb1e626953fd9f07284e93c04bb\AndroidShadowBoxViewRenderer.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md561c7616142430b792c2b57a6f32fcc1a\ChartAnimator.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md561c7616142430b792c2b57a6f32fcc1a\ChartAnnotationRenderer.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md561c7616142430b792c2b57a6f32fcc1a\ChartAnnotationView.java
@@ -1247,20 +638,52 @@ C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md561c7616142430b792c2b57a6f32fcc1a\SfChart.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md561c7616142430b792c2b57a6f32fcc1a\TechnicalIndicatorRenderer.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md561c7616142430b792c2b57a6f32fcc1a\TooltipView.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Sharpnado.Infrastructure.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Sharpnado.Presentation.Forms.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Sharpnado.Presentation.Forms.Droid.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Sharpnado.Infrastructure.pdb
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Sharpnado.Presentation.Forms.pdb
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Sharpnado.Presentation.Forms.Droid.dll.mdb
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Sharpnado.Infrastructure.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Sharpnado.Infrastructure.pdb
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Sharpnado.Presentation.Forms.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Sharpnado.Presentation.Forms.Droid.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Sharpnado.Presentation.Forms.Droid.dll.mdb
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Sharpnado.Presentation.Forms.pdb
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md50809aeb1e626953fd9f07284e93c04bb\AndroidMaterialFrameRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md50809aeb1e626953fd9f07284e93c04bb\AndroidShadowBoxViewRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\transition\Transition_TransitionListenerImplementor.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5048335796d6a848447231107a6de4b57\DragIndicatorViewRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5048335796d6a848447231107a6de4b57\DragItemViewRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5048335796d6a848447231107a6de4b57\ExtendedScrollViewRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5048335796d6a848447231107a6de4b57\ListViewItemRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5048335796d6a848447231107a6de4b57\MaterialSfListViewRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5048335796d6a848447231107a6de4b57\SfListViewControlRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5048335796d6a848447231107a6de4b57\SwipeViewRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\design\widget\AppBarLayout_OnOffsetChangedListenerImplementor.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\design\widget\BottomNavigationView_OnNavigationItemReselectedListenerImplementor.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\design\widget\BottomNavigationView_OnNavigationItemSelectedListenerImplementor.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\design\widget\NavigationView_OnNavigationItemSelectedListenerImplementor.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\design\widget\SwipeDismissBehavior_OnDismissListenerImplementor.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\support\design\widget\TabLayout_OnTabSelectedListenerImplementor.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5037fcd973d9535e70a1630896b137ccb\SfShimmerRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\AccelerometerListener.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\ActivityLifecycleContextListener.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\BarometerListener.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\BatteryBroadcastReceiver.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\ConnectivityBroadcastReceiver.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\EnergySaverBroadcastReceiver.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\GyroscopeListener.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\Listener.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\MagnetometerListener.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\OrientationSensorListener.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\SensorListener.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\SingleLocationListener.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d630c3d3bfb5f5558520331566132d97\TextToSpeechImplementation.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5cc7ee65a25332fd36b10cc55814247de\SfGradientViewRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\android\app\ApplicationRegistration.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\v7\widget\Toolbar_NavigationOnClickEventDispatcher.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md552cceaad93f74aa004b5608c07905243\Border.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md552cceaad93f74aa004b5608c07905243\ContainerLayout.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md552cceaad93f74aa004b5608c07905243\CustomHorizontalScrollView.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md552cceaad93f74aa004b5608c07905243\SegmentView.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md552cceaad93f74aa004b5608c07905243\SelectionStrip.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md552cceaad93f74aa004b5608c07905243\SfCheckBox.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md552cceaad93f74aa004b5608c07905243\SfCheckBox_SfSavedState.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md552cceaad93f74aa004b5608c07905243\SfCheckBox_SfSavedState_SavedStateCreator.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md552cceaad93f74aa004b5608c07905243\SfSegmentedControl.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md552cceaad93f74aa004b5608c07905243\ViewLayout.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5c5908a95b4533328fcb7ad148d447e07\LinearLayoutExt.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5c5908a95b4533328fcb7ad148d447e07\NativeKanbanExt.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5c5908a95b4533328fcb7ad148d447e07\SfKanbanRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\v7\recyclerview\R.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\mono\MonoPackageManager_Resources.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md54d4a5cd7b1153e9de4a2e3782bf80f5b\AndroidHorizontalListViewRenderer.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md54d4a5cd7b1153e9de4a2e3782bf80f5b\AndroidHorizontalListViewRenderer_DragAnDropItemTouchHelperCallback.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md54d4a5cd7b1153e9de4a2e3782bf80f5b\AndroidHorizontalListViewRenderer_EmptyViewHolder.java
@@ -1273,43 +696,77 @@ C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md54d4a5cd7b1153e9de4a2e3782bf80f5b\SlowRecyclerView.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md54d4a5cd7b1153e9de4a2e3782bf80f5b\SpaceItemDecoration.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md54d4a5cd7b1153e9de4a2e3782bf80f5b\StartSnapHelper.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\checkersstore.jpg
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\picknpaystore.jpg
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\spastore.jpg
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\woolworthsstore.jpg
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.SfRating.Android.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.SfRating.XForms.Android.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.SfRating.XForms.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.SfRating.Android.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.SfRating.XForms.Android.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.SfRating.XForms.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\v7\mediarouter\R.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5c567af560b5ba33724b908af7e9af13e\SfRangeNavigatorRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5fe8996628db2722b2645843f91097c26\CachedImageFastRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5fe8996628db2722b2645843f91097c26\CachedImageRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5fe8996628db2722b2645843f91097c26\CachedImageView.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\v7\cardview\R.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5423e3a95c357eb7d6aad61b4f54abbd4\RecyclerViewScrollListener.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\v7\appcompat\R.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5f92e0daf340890c9667469657ee2ece8\ButtonRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5f92e0daf340890c9667469657ee2ece8\FrameRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5f92e0daf340890c9667469657ee2ece8\ImageRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5f92e0daf340890c9667469657ee2ece8\LabelRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md533c0a8921e4153237a3ffec26b3759de\SfBorderRenderer.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5ae25172f2afba05f97bf9f7772c54c7a\SfRating.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5ae25172f2afba05f97bf9f7772c54c7a\SfRatingItem.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d84329fe1f1cacfd0229db8af3abb2b7\SfRatingRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.SfRadialMenu.Android.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.SfRadialMenu.XForms.Android.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.SfRadialMenu.XForms.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.SfRadialMenu.Android.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.SfRadialMenu.XForms.Android.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.SfRadialMenu.XForms.dll
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\v7\app\AlertDialog_IDialogInterfaceOnCancelListenerImplementor.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\v7\app\AlertDialog_IDialogInterfaceOnClickListenerImplementor.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\v7\app\AlertDialog_IDialogInterfaceOnMultiChoiceClickListenerImplementor.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5f7dbe3b1e8d67fa05ca94fce6a500b14\SfCheckBoxMaterialDesignRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5f7dbe3b1e8d67fa05ca94fce6a500b14\SfCheckBoxRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5f7dbe3b1e8d67fa05ca94fce6a500b14\SfRadioButtonMaterialDesignRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5f7dbe3b1e8d67fa05ca94fce6a500b14\SfRadioButtonRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md525515aaea8e1e7b653700744ebd40935\InputLayoutBorder.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md525515aaea8e1e7b653700744ebd40935\InputLayoutBorderRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md525515aaea8e1e7b653700744ebd40935\InputLayoutToggleViewRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md525515aaea8e1e7b653700744ebd40935\InputLayoutToggleViewRenderer_GestureListener.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md525515aaea8e1e7b653700744ebd40935\SfTextInputLayoutRenderer.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5ee096730639e76fc0ad8d62908f2626b\CircleLayout.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5ee096730639e76fc0ad8d62908f2626b\ItemView.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5ee096730639e76fc0ad8d62908f2626b\RadialMenuRenderer.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5ee096730639e76fc0ad8d62908f2626b\RoundButton.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5ee096730639e76fc0ad8d62908f2626b\SfRadialMenu.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5ee096730639e76fc0ad8d62908f2626b\SfRadialMenuItem.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\transition\R.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5adcd58131f4046b9abfeb77bd8cc5019\FFAnimatedDrawable.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5adcd58131f4046b9abfeb77bd8cc5019\FFBitmapDrawable.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5adcd58131f4046b9abfeb77bd8cc5019\SelfDisposingBitmapDrawable.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5dfe043ac93bcf5a305ff004f0c205e34\SfSegmentedControlRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5dfe043ac93bcf5a305ff004f0c205e34\SfSwitchElementViewRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5dfe043ac93bcf5a305ff004f0c205e34\SfTouchEffectMaterialDesignRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5dfe043ac93bcf5a305ff004f0c205e34\TouchEffectRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\mediacompat\R.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\design\widget\Snackbar_SnackbarActionClickImplementor.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51db6fa615bab3e24d57fb30c9f78700f\SfRadialMenuRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\phone.png
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\email.png
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\website.png
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\res\drawable\recipe.png
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.SfKanban.XForms.Android.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.SfKanban.XForms.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.SfKanban.XForms.Android.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.SfKanban.XForms.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5c5908a95b4533328fcb7ad148d447e07\LinearLayoutExt.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5c5908a95b4533328fcb7ad148d447e07\NativeKanbanExt.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5c5908a95b4533328fcb7ad148d447e07\SfKanbanRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5a0a6d252fe95a949244d2744b3db206e\LRUCache.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\design\R.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5dcb6eccdc824e0677ffae8ccdde42930\CustomTabsServiceConnectionImpl.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5dcb6eccdc824e0677ffae8ccdde42930\KeepAliveService.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\ButtonRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\CarouselPageRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\FormsFragmentPagerAdapter_1.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\FormsViewPager.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\FragmentContainer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\FrameRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\MasterDetailContainer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\MasterDetailPageRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\NavigationPageRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\NavigationPageRenderer_ClickListener.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\NavigationPageRenderer_Container.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\NavigationPageRenderer_DrawerMultiplexedListener.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\PickerRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\PickerRendererBase_1.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\Platform_ModalContainer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\ShellFragmentContainer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\SwitchRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\TabbedPageRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md58432a647068b097f9637064b8985a5e0\ViewRenderer_2.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\customtabs\CustomTabsClient_CustomTabsCallbackImpl.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5d84329fe1f1cacfd0229db8af3abb2b7\SfRatingRenderer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\android\support\compat\R.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md571192af886245c53680d1a17a4136954\ViewContainer.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51aaee5d27a322f373d49f926f7249eb2\AutoScrollColumnByRunnable.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51aaee5d27a322f373d49f926f7249eb2\AutoScrollPositionByRunnable.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51aaee5d27a322f373d49f926f7249eb2\ImageDownloaderTask.java
@@ -1325,51 +782,17 @@ C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51aaee5d27a322f373d49f926f7249eb2\KanbanScrollView.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51aaee5d27a322f373d49f926f7249eb2\SfKanban.java
 C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md51aaee5d27a322f373d49f926f7249eb2\TouchListener.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.DataSource.Portable.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.GridCommon.Portable.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.SfListView.XForms.Android.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.SfListView.XForms.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Dynamic.Runtime.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Linq.Expressions.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Microsoft.CSharp.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.Linq.Queryable.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\System.ComponentModel.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Microsoft.CSharp.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.DataSource.Portable.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.GridCommon.Portable.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.SfListView.XForms.Android.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.SfListView.XForms.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.ComponentModel.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Dynamic.Runtime.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Linq.Expressions.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\System.Linq.Queryable.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5048335796d6a848447231107a6de4b57\DragIndicatorViewRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5048335796d6a848447231107a6de4b57\DragItemViewRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5048335796d6a848447231107a6de4b57\ExtendedScrollViewRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5048335796d6a848447231107a6de4b57\ListViewItemRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5048335796d6a848447231107a6de4b57\MaterialSfListViewRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5048335796d6a848447231107a6de4b57\SfListViewControlRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5048335796d6a848447231107a6de4b57\SwipeViewRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.Buttons.XForms.Android.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\linksrc\Syncfusion.Buttons.XForms.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.Buttons.XForms.Android.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\assets\Syncfusion.Buttons.XForms.dll
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md552cceaad93f74aa004b5608c07905243\Border.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md552cceaad93f74aa004b5608c07905243\ContainerLayout.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md552cceaad93f74aa004b5608c07905243\CustomHorizontalScrollView.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md552cceaad93f74aa004b5608c07905243\SegmentView.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md552cceaad93f74aa004b5608c07905243\SelectionStrip.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md552cceaad93f74aa004b5608c07905243\SfCheckBox.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md552cceaad93f74aa004b5608c07905243\SfCheckBox_SfSavedState.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md552cceaad93f74aa004b5608c07905243\SfCheckBox_SfSavedState_SavedStateCreator.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md552cceaad93f74aa004b5608c07905243\SfSegmentedControl.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md552cceaad93f74aa004b5608c07905243\ViewLayout.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5f7dbe3b1e8d67fa05ca94fce6a500b14\SfCheckBoxMaterialDesignRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5f7dbe3b1e8d67fa05ca94fce6a500b14\SfCheckBoxRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5f7dbe3b1e8d67fa05ca94fce6a500b14\SfRadioButtonMaterialDesignRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5f7dbe3b1e8d67fa05ca94fce6a500b14\SfRadioButtonRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5dfe043ac93bcf5a305ff004f0c205e34\SfSegmentedControlRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5dfe043ac93bcf5a305ff004f0c205e34\SfSwitchElementViewRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5dfe043ac93bcf5a305ff004f0c205e34\SfTouchEffectMaterialDesignRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md5dfe043ac93bcf5a305ff004f0c205e34\TouchEffectRenderer.java
-C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\md571192af886245c53680d1a17a4136954\ViewContainer.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\bin\packaged_resources
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\src\com\companyname\mealplanner\R.java
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\android\bin\classes.dex
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_BuildAdditionalResourcesCache.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_CleanIntermediateIfNuGetsChange.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_CompileToDalvik.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_ConvertCustomView.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_CopyIntermediateAssemblies.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_CopyMdbFiles.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_CopyPdbFiles.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_GenerateJavaStubs.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_GeneratePackageManagerJava.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\obj\Debug\81\stamp\_ResolveLibraryProjectImports.stamp
+C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner.Android\bin\Debug\MealPlanner.dll.mdb
