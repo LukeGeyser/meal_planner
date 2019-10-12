@@ -87,6 +87,7 @@ namespace MealPlannerDesktop
                         coord.Longitude);
                     latitude = coord.Latitude;
                     longitute = coord.Longitude;
+
                     found = true;
                 }
                 else

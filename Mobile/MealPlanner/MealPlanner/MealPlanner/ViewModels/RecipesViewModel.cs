@@ -117,11 +117,7 @@ namespace MealPlanner.ViewModels
         {
             await Task.Run(async () =>
             {
-                List<RecipeProducts> temp = await (new DataHandler().GetRecipeProducts(this.recipeID));
-                foreach (var item in temp)
-                {
-                    products.Add(await (new DataHandler().GetSpecificProducts(item.ProductID)));
-                }
+                
             });
         }
 

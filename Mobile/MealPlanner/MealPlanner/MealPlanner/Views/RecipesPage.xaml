@@ -37,33 +37,7 @@
 
             </Grid>
 
-            <!--<list:SfListView ItemsSource="{Binding outerList}">
-
-                <list:SfListView.ItemTemplate>
-
-                    <DataTemplate>
-
-                        <Grid>
-
-                            <Label />
-
-                            <list:SfListView ItemsSource="{Binding innerList}">
-                                <list:SfListView.ItemTemplate>
-                                    <DataTemplate>
-                                        <Grid>
-                                            <Label />
-                                        </Grid>
-                                    </DataTemplate>
-                                </list:SfListView.ItemTemplate>
-                            </list:SfListView>
-
-                        </Grid>
-
-                    </DataTemplate>
-
-                </list:SfListView.ItemTemplate>
-
-            </list:SfListView>-->
+            <!--<list:SfListView ItemsSource="{Binding AllRecipes}" />-->
 
         </StackLayout>
 
