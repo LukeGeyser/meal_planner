@@ -261,3 +261,4 @@ __pycache__/
 *.pyc
 Desktop/MealPlannerDesktop/.vs/MealPlannerDesktop/v16/.suo
 Mobile/MealPlanner/.vs/MealPlanner/v16/
+*.lock
