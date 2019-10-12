@@ -4,15 +4,17 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:button="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+    xmlns:card="clr-namespace:Syncfusion.XForms.Cards;assembly=Syncfusion.Cards.XForms"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:list="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
     xmlns:local="clr-namespace:MealPlanner.ViewModels"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:popup="clr-namespace:Syncfusion.XForms.PopupLayout;assembly=Syncfusion.SfPopupLayout.XForms"
     mc:Ignorable="d">
 
     <ContentPage.Content>
 
-        <StackLayout>
+        <StackLayout BackgroundColor="{DynamicResource BackGroundColor}">
 
             <Grid Margin="10">
 
@@ -37,7 +39,61 @@
 
             </Grid>
 
-            <!--<list:SfListView ItemsSource="{Binding AllRecipes}" />-->
+            <!--<ListView ItemsSource="{Binding AllRecipes}" RowHeight="100">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout>
+                                <Label Text="{Binding RecipeName}" />
+                                <Button Clicked="Button_Clicked" Text="CLick me" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>-->
+
+            <card:SfCardLayout
+                BackgroundColor="{DynamicResource BackGroundColor}"
+                BindableLayout.ItemsSource="{Binding AllRecipes}"
+                HeightRequest="500"
+                SwipeDirection="Left"
+                VerticalOptions="Center">
+
+                <BindableLayout.ItemTemplate>
+                    <DataTemplate>
+                        <card:SfCardView HasShadow="True" ShadowColor="{DynamicResource BorderColor}">
+                            <StackLayout>
+
+                                <Frame
+                                    Margin="0"
+                                    Padding="0"
+                                    HeightRequest="200">
+                                    <Image Aspect="AspectFill" Source="{Binding ImagePreview}" />
+                                </Frame>
+
+
+                                <!--  Frame To Display Store Name  -->
+                                <!--
+                                <Frame
+                                    Margin="0,-40,0,0"
+                                    BackgroundColor="{DynamicResource BackGroundColor}"
+                                    BorderColor="{DynamicResource BackGroundColor}"
+                                    CornerRadius="30"
+                                    HasShadow="False"
+                                    HorizontalOptions="FillAndExpand">
+                                    <Label
+                                        FontSize="24"
+                                        HorizontalTextAlignment="Center"
+                                        Text="{Binding RecipeName}"
+                                        TextColor="{DynamicResource TextColor}" />
+                                </Frame>-->
+
+                            </StackLayout>
+                        </card:SfCardView>
+                    </DataTemplate>
+                </BindableLayout.ItemTemplate>
+
+            </card:SfCardLayout>
 
         </StackLayout>
 

@@ -53,10 +53,8 @@ namespace MealPlanner.Views
                 {
                     DisplayAlert("", $"{allRecipes.Count}", "k");
                 });
-
-
-                BindingContext = this;
             });
+            BindingContext = this;
         }
 
         #region Private Helpers

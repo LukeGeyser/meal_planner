@@ -69,6 +69,10 @@
               "target": "Package",
               "version": "[17.3.0.14, )"
             },
+            "Syncfusion.Xamarin.Cards": {
+              "target": "Package",
+              "version": "[17.3.0.14, )"
+            },
             "Syncfusion.Xamarin.SfChart": {
               "target": "Package",
               "version": "[17.3.0.14, )"
@@ -78,6 +82,10 @@
               "version": "[17.3.0.14, )"
             },
             "Syncfusion.Xamarin.SfListView": {
+              "target": "Package",
+              "version": "[17.3.0.14, )"
+            },
+            "Syncfusion.Xamarin.SfPopupLayout": {
               "target": "Package",
               "version": "[17.3.0.14, )"
             },

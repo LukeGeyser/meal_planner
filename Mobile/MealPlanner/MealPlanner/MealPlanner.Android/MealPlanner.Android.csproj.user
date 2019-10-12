@@ -4,5 +4,6 @@
     <SelectedDevice>Samsung SM-J400F</SelectedDevice>
     <DefaultDevice>Android_Accelerated_x86_Oreo</DefaultDevice>
     <AndroidDesignerPreferredTheme>Theme.AppCompat.Light.NoActionBar</AndroidDesignerPreferredTheme>
+    <ProjectView>ProjectFiles</ProjectView>
   </PropertyGroup>
 </Project>

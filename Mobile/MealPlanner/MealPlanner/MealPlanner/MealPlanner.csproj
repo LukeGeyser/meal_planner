@@ -24,9 +24,11 @@
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
     <PackageReference Include="Sharpnado.Forms.HorizontalListView" Version="1.3.0" />
     <PackageReference Include="Syncfusion.Xamarin.Buttons" Version="17.3.0.14" />
+    <PackageReference Include="Syncfusion.Xamarin.Cards" Version="17.3.0.14" />
     <PackageReference Include="Syncfusion.Xamarin.SfChart" Version="17.3.0.14" />
     <PackageReference Include="Syncfusion.Xamarin.SfKanban" Version="17.3.0.14" />
     <PackageReference Include="Syncfusion.Xamarin.SfListView" Version="17.3.0.14" />
+    <PackageReference Include="Syncfusion.Xamarin.SfPopupLayout" Version="17.3.0.14" />
     <PackageReference Include="Syncfusion.Xamarin.SfRadialMenu" Version="17.3.0.14" />
     <PackageReference Include="Syncfusion.Xamarin.SfRating" Version="17.3.0.14" />
     <PackageReference Include="System.Data.SqlClient" Version="4.7.0" />

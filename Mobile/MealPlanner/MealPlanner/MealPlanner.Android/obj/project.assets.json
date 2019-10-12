@@ -508,6 +508,21 @@
           "lib/MonoAndroid10/Syncfusion.Buttons.XForms.dll": {}
         }
       },
+      "Syncfusion.Xamarin.Cards/17.3.0.14": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.3.0.14",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "compile": {
+          "lib/MonoAndroid10/Syncfusion.Cards.XForms.Android.dll": {},
+          "lib/MonoAndroid10/Syncfusion.Cards.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Syncfusion.Cards.XForms.Android.dll": {},
+          "lib/MonoAndroid10/Syncfusion.Cards.XForms.dll": {}
+        }
+      },
       "Syncfusion.Xamarin.Core/17.3.0.14": {
         "type": "package",
         "dependencies": {
@@ -586,6 +601,21 @@
         "runtime": {
           "lib/MonoAndroid10/Syncfusion.SfListView.XForms.Android.dll": {},
           "lib/MonoAndroid10/Syncfusion.SfListView.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfPopupLayout/17.3.0.14": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.3.0.14",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "compile": {
+          "lib/MonoAndroid10/Syncfusion.SfPopupLayout.XForms.Android.dll": {},
+          "lib/MonoAndroid10/Syncfusion.SfPopupLayout.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Syncfusion.SfPopupLayout.XForms.Android.dll": {},
+          "lib/MonoAndroid10/Syncfusion.SfPopupLayout.XForms.dll": {}
         }
       },
       "Syncfusion.Xamarin.SfRadialMenu/17.3.0.14": {
@@ -1275,9 +1305,11 @@
           "Newtonsoft.Json": "12.0.2",
           "Sharpnado.Forms.HorizontalListView": "1.3.0",
           "Syncfusion.Xamarin.Buttons": "17.3.0.14",
+          "Syncfusion.Xamarin.Cards": "17.3.0.14",
           "Syncfusion.Xamarin.SfChart": "17.3.0.14",
           "Syncfusion.Xamarin.SfKanban": "17.3.0.14",
           "Syncfusion.Xamarin.SfListView": "17.3.0.14",
+          "Syncfusion.Xamarin.SfPopupLayout": "17.3.0.14",
           "Syncfusion.Xamarin.SfRadialMenu": "17.3.0.14",
           "Syncfusion.Xamarin.SfRating": "17.3.0.14",
           "System.Data.SqlClient": "4.7.0",
@@ -1899,6 +1931,31 @@
         "syncfusion.xamarin.buttons.nuspec"
       ]
     },
+    "Syncfusion.Xamarin.Cards/17.3.0.14": {
+      "sha512": "j1oHn78S6XI3+B+kCa1UBzuY4ZK9S9sDYmVuynCiGo2KaraFtIXJttUXWUJ3HdmOEBhR6mHvoiY/CNp6n3GObw==",
+      "type": "package",
+      "path": "syncfusion.xamarin.cards/17.3.0.14",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.Cards.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.Cards.XForms.dll",
+        "lib/MonoAndroid10/Syncfusion.Cards.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.Cards.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Cards.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Cards.XForms.xml",
+        "lib/netstandard2.0/Syncfusion.Cards.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.Cards.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Cards.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Cards.XForms.xml",
+        "lib/uap10.0/Syncfusion.Cards.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.Cards.XForms.UWP.xml",
+        "lib/uap10.0/Syncfusion.Cards.XForms.dll",
+        "lib/uap10.0/Syncfusion.Cards.XForms.xml",
+        "syncfusion.xamarin.cards.17.3.0.14.nupkg.sha512",
+        "syncfusion.xamarin.cards.nuspec"
+      ]
+    },
     "Syncfusion.Xamarin.Core/17.3.0.14": {
       "sha512": "V6efm13cI4m7LjjTlToddEccPdo/WqliXg3HJQ2rLc2ITFrIiTTqgcnNX/ofKxm/oZKil2iY1YOzcW3h/SNghA==",
       "type": "package",
@@ -2051,6 +2108,39 @@
         "lib/uap10.0/Syncfusion.SfListView.XForms.xml",
         "syncfusion.xamarin.sflistview.17.3.0.14.nupkg.sha512",
         "syncfusion.xamarin.sflistview.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.SfPopupLayout/17.3.0.14": {
+      "sha512": "GChM6QoqX1IM+knPz4zCXULYuvGNt83UjiHtmdQ1AVZzZitAMagKWEnGdtOTAIlVOoBSqsqCWrf+kUdDChYsdw==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfpopuplayout/17.3.0.14",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.SfPopupLayout.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfPopupLayout.XForms.dll",
+        "lib/MonoAndroid10/Syncfusion.SfPopupLayout.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.SfPopupLayout.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfPopupLayout.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfPopupLayout.XForms.xml",
+        "lib/netstandard2.0/Syncfusion.SfPopupLayout.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.SfPopupLayout.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfPopupLayout.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfPopupLayout.XForms.xml",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.UWP.pri",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.UWP/Properties/Syncfusion.SfPopupLayout.XForms.UWP.rd.xml",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.UWP/Resources/popup_forms_dark_theme_close_icon.png",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.UWP/Resources/popup_forms_light_theme_close_icon.png",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.UWP/Resources/popup_forms_uwp_close_icon.png",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.UWP/Syncfusion.SfPopupLayout.XForms.UWP/Resources/popup_forms_dark_theme_close_icon.png",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.UWP/Syncfusion.SfPopupLayout.XForms.UWP/Resources/popup_forms_light_theme_close_icon.png",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.UWP/Syncfusion.SfPopupLayout.XForms.UWP/Resources/popup_forms_uwp_close_icon.png",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfPopupLayout.XForms.xml",
+        "syncfusion.xamarin.sfpopuplayout.17.3.0.14.nupkg.sha512",
+        "syncfusion.xamarin.sfpopuplayout.nuspec"
       ]
     },
     "Syncfusion.Xamarin.SfRadialMenu/17.3.0.14": {
@@ -4192,9 +4282,11 @@
       "MealPlanner >= 1.0.0",
       "Sharpnado.Forms.HorizontalListView >= 1.3.0",
       "Syncfusion.Xamarin.Buttons >= 17.3.0.14",
+      "Syncfusion.Xamarin.Cards >= 17.3.0.14",
       "Syncfusion.Xamarin.SfChart >= 17.3.0.14",
       "Syncfusion.Xamarin.SfKanban >= 17.3.0.14",
       "Syncfusion.Xamarin.SfListView >= 17.3.0.14",
+      "Syncfusion.Xamarin.SfPopupLayout >= 17.3.0.14",
       "Syncfusion.Xamarin.SfRadialMenu >= 17.3.0.14",
       "Syncfusion.Xamarin.SfRating >= 17.3.0.14",
       "Xam.Plugins.Settings >= 3.1.1",
@@ -4261,6 +4353,10 @@
             "target": "Package",
             "version": "[17.3.0.14, )"
           },
+          "Syncfusion.Xamarin.Cards": {
+            "target": "Package",
+            "version": "[17.3.0.14, )"
+          },
           "Syncfusion.Xamarin.SfChart": {
             "target": "Package",
             "version": "[17.3.0.14, )"
@@ -4270,6 +4366,10 @@
             "version": "[17.3.0.14, )"
           },
           "Syncfusion.Xamarin.SfListView": {
+            "target": "Package",
+            "version": "[17.3.0.14, )"
+          },
+          "Syncfusion.Xamarin.SfPopupLayout": {
             "target": "Package",
             "version": "[17.3.0.14, )"
           },
