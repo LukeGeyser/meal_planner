@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using static MealPlannerDesktop.MapResultDataWrapper;
 using System.Device.Location;
 using System.Diagnostics;
+using System.Threading;
 
 namespace MealPlannerDesktop
 {
@@ -98,6 +99,7 @@ namespace MealPlannerDesktop
                 {
                     found = true;
                 }
+                Thread.Sleep(100);
             }
 
 
