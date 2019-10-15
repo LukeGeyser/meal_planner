@@ -23,14 +23,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "monoandroid81"
+          "monoandroid90"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "monoandroid81": {
+          "monoandroid90": {
             "projectReferences": {
               "C:\\meal_planner\\Mobile\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj": {
                 "projectPath": "C:\\meal_planner\\Mobile\\MealPlanner\\MealPlanner\\MealPlanner\\MealPlanner.csproj"
@@ -40,7 +40,7 @@
         }
       },
       "frameworks": {
-        "monoandroid81": {
+        "monoandroid90": {
           "dependencies": {
             "Sharpnado.Forms.HorizontalListView": {
               "target": "Package",
@@ -48,35 +48,35 @@
             },
             "Syncfusion.Xamarin.Buttons": {
               "target": "Package",
-              "version": "[17.3.0.14, )"
+              "version": "[17.3.0.17, )"
             },
             "Syncfusion.Xamarin.Cards": {
               "target": "Package",
-              "version": "[17.3.0.14, )"
+              "version": "[17.3.0.17, )"
             },
             "Syncfusion.Xamarin.SfChart": {
               "target": "Package",
-              "version": "[17.3.0.14, )"
+              "version": "[17.3.0.17, )"
             },
             "Syncfusion.Xamarin.SfKanban": {
               "target": "Package",
-              "version": "[17.3.0.14, )"
+              "version": "[17.3.0.17, )"
             },
             "Syncfusion.Xamarin.SfListView": {
               "target": "Package",
-              "version": "[17.3.0.14, )"
+              "version": "[17.3.0.17, )"
             },
             "Syncfusion.Xamarin.SfPopupLayout": {
               "target": "Package",
-              "version": "[17.3.0.14, )"
+              "version": "[17.3.0.17, )"
             },
             "Syncfusion.Xamarin.SfRadialMenu": {
               "target": "Package",
-              "version": "[17.3.0.14, )"
+              "version": "[17.3.0.17, )"
             },
             "Syncfusion.Xamarin.SfRating": {
               "target": "Package",
-              "version": "[17.3.0.14, )"
+              "version": "[17.3.0.17, )"
             },
             "Xam.Plugins.Settings": {
               "target": "Package",
