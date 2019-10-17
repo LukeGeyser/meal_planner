@@ -49,10 +49,7 @@ namespace MealPlanner.Views
                     item.Products = await GetRecipeProducts(item.RecipeID);
                 }
 
-                Device.BeginInvokeOnMainThread(() =>
-                {
-                    DisplayAlert("", $"{allRecipes.Count}", "k");
-                });
+                DisplayAlert("", $"{allRecipes.Count}", "k");
             });
             BindingContext = this;
         }

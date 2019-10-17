@@ -39,20 +39,27 @@
 
             </Grid>
 
-            <!--<ListView ItemsSource="{Binding AllRecipes}" RowHeight="100">
-                <ListView.ItemTemplate>
+            <list:SfListView AutoFitMode="Height" ItemsSource="{Binding AllRecipes}">
+                <list:SfListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <StackLayout>
-                                <Label Text="{Binding RecipeName}" />
-                                <Button Clicked="Button_Clicked" Text="CLick me" />
-                            </StackLayout>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="70" />
+                                    <RowDefinition Height="70" />
+                                </Grid.RowDefinitions>
+                                <Label
+                                    Grid.Row="0"
+                                    Text="{Binding RecipeName}"
+                                    TextColor="Black" />
+                                <Label Grid.Row="1" Text="WOKRING" />
+                            </Grid>
                         </ViewCell>
                     </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>-->
+                </list:SfListView.ItemTemplate>
+            </list:SfListView>
 
-            <card:SfCardLayout
+            <!--<card:SfCardLayout
                 BackgroundColor="{DynamicResource BackGroundColor}"
                 BindableLayout.ItemsSource="{Binding AllRecipes}"
                 HeightRequest="500"
@@ -72,8 +79,9 @@
                                 </Frame>
 
 
-                                <!--  Frame To Display Store Name  -->
-                                <!--
+            -->
+            <!--  Frame To Display Store Name  -->
+            <!--
                                 <Frame
                                     Margin="0,-40,0,0"
                                     BackgroundColor="{DynamicResource BackGroundColor}"
@@ -87,13 +95,14 @@
                                         Text="{Binding RecipeName}"
                                         TextColor="{DynamicResource TextColor}" />
                                 </Frame>-->
+            <!--
 
                             </StackLayout>
                         </card:SfCardView>
                     </DataTemplate>
                 </BindableLayout.ItemTemplate>
 
-            </card:SfCardLayout>
+            </card:SfCardLayout>-->
 
         </StackLayout>
 
