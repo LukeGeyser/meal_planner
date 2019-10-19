@@ -193,35 +193,35 @@
             },
             "Syncfusion.Xamarin.Buttons": {
               "target": "Package",
-              "version": "[17.3.0.14, )"
+              "version": "[17.3.0.17, )"
             },
             "Syncfusion.Xamarin.Cards": {
               "target": "Package",
-              "version": "[17.3.0.14, )"
+              "version": "[17.3.0.17, )"
             },
             "Syncfusion.Xamarin.SfChart": {
               "target": "Package",
-              "version": "[17.3.0.14, )"
+              "version": "[17.3.0.17, )"
             },
             "Syncfusion.Xamarin.SfKanban": {
               "target": "Package",
-              "version": "[17.3.0.14, )"
+              "version": "[17.3.0.17, )"
             },
             "Syncfusion.Xamarin.SfListView": {
               "target": "Package",
-              "version": "[17.3.0.14, )"
+              "version": "[17.3.0.17, )"
             },
             "Syncfusion.Xamarin.SfPopupLayout": {
               "target": "Package",
-              "version": "[17.3.0.14, )"
+              "version": "[17.3.0.17, )"
             },
             "Syncfusion.Xamarin.SfRadialMenu": {
               "target": "Package",
-              "version": "[17.3.0.14, )"
+              "version": "[17.3.0.17, )"
             },
             "Syncfusion.Xamarin.SfRating": {
               "target": "Package",
-              "version": "[17.3.0.14, )"
+              "version": "[17.3.0.17, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",

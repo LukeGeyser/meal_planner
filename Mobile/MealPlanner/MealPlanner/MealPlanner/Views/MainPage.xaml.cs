@@ -43,8 +43,12 @@ namespace MealPlanner.Views
                 CenterLabels();
             });
 
-            weightGainTips = new DataHandler().GetWeightGainTips();
-
+            Task.Run(async () =>
+            {
+                await SignInPage.loggedInUser.GetUserMealPlanAllergies();
+                weightGainTips = new DataHandler().GetWeightGainTips();
+            });
+            
             BindingContext = this;
         }
 

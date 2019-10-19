@@ -1,7 +1,9 @@
-﻿using System;
+﻿using MealPlanner.Services;
+using System;
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace MealPlanner.Models
 {
@@ -63,6 +65,16 @@ namespace MealPlanner.Models
         /// Private User Previous Weight Update
         /// </summary>
         private DateTime previousWeightUpdate;
+
+        /// <summary>
+        /// Private List of User Allergies
+        /// </summary>
+        private List<UserAllergies> allergies;
+
+        /// <summary>
+        /// Private List of User Meal Plans
+        /// </summary>
+        private List<UserMealPlan> mealPlans;
 
         #endregion
 
@@ -164,6 +176,24 @@ namespace MealPlanner.Models
             set => previousWeightUpdate = value;
         }
 
+        /// <summary>
+        /// Public List of User Allergies
+        /// </summary>
+        public List<UserAllergies> Allergies
+        {
+            get => allergies;
+            set => allergies = value;
+        }
+
+        /// <summary>
+        /// Public List of User Meal Plans
+        /// </summary>
+        public List<UserMealPlan> MealPlans
+        {
+            get => mealPlans;
+            set => mealPlans = value;
+        }
+
         #endregion
 
         #region Constructors
@@ -254,6 +284,12 @@ namespace MealPlanner.Models
             int age = Convert.ToInt32(Math.Floor(days / 365.25));
 
             return age;
+        }
+
+        public async Task GetUserMealPlanAllergies()
+        {
+            Allergies = await new DataHandler().GetSelectedAllergies(username);
+            MealPlans = await new DataHandler().GetSelectedMealPlans(username);
         }
 
         #endregion

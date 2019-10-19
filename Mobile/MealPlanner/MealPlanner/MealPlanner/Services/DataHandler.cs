@@ -707,15 +707,15 @@ namespace MealPlanner.Services
         /// Return a list of all recipes and their corresponding allergies
         /// </summary>
         /// <returns></returns>
-        public List<RecipeAllergies> GetRecipeAllergiesAll()
+        public async Task<List<RecipeAllergies>> GetRecipeAllergiesAll()
         {
             List<RecipeAllergies> allergies = new List<RecipeAllergies>();
             try
             {
-                conn.Open();
+                await conn.OpenAsync();
                 SqlCommand cmd = new SqlCommand("SELECT * FROM tblRecipeAllergies", conn);
                 SqlDataReader reader = cmd.ExecuteReader();
-                while (reader.Read())
+                while (await reader.ReadAsync())
                 {
                     allergies.Add(new RecipeAllergies(Convert.ToInt32(reader["RecipeID"])
                         , Convert.ToInt32(reader["AllergyID"])));
@@ -737,15 +737,15 @@ namespace MealPlanner.Services
         /// Return a list of all recipes and their corresponding mealplans
         /// </summary>
         /// <returns></returns>
-        public List<RecipeMealPlans> GetAllRecipeMealplans()
+        public async Task<List<RecipeMealPlans>> GetAllRecipeMealplans()
         {
             List<RecipeMealPlans> plans = new List<RecipeMealPlans>();
             try
             {
-                conn.Open();
+                await conn.OpenAsync();
                 SqlCommand cmd = new SqlCommand("SELECT * FROM tblRecipeMealPlans", conn);
                 SqlDataReader reader = cmd.ExecuteReader();
-                while (reader.Read())
+                while (await reader.ReadAsync())
                 {
                     plans.Add(new RecipeMealPlans(Convert.ToInt32(reader["RecipeID"])
                         , Convert.ToInt32(reader["MealPlanID"])));

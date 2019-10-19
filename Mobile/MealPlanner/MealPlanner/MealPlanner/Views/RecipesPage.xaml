@@ -4,10 +4,8 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:button="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
-    xmlns:card="clr-namespace:Syncfusion.XForms.Cards;assembly=Syncfusion.Cards.XForms"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:list="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
-    xmlns:local="clr-namespace:MealPlanner.ViewModels"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:popup="clr-namespace:Syncfusion.XForms.PopupLayout;assembly=Syncfusion.SfPopupLayout.XForms"
     mc:Ignorable="d">
@@ -18,6 +16,10 @@
 
             <Grid Margin="10">
 
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto" />
+                </Grid.RowDefinitions>
+
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="50" />
@@ -25,14 +27,23 @@
                 </Grid.ColumnDefinitions>
 
                 <Label
+                    Grid.Row="0"
+                    FontAttributes="Bold"
                     HorizontalOptions="Center"
-                    Text="Show According to User Preference (ie MealPlans and Allergies)"
-                    VerticalOptions="Center" />
+                    HorizontalTextAlignment="Center"
+                    Text="Show According to your User Preferences (MealPlans and Allergies)"
+                    TextColor="{DynamicResource Primary-Green}"
+                    VerticalOptions="Center"
+                    VerticalTextAlignment="Center" />
 
                 <button:SfSwitch
+                    x:Name="Preferences"
+                    Grid.Row="0"
                     Grid.Column="2"
                     HeightRequest="50"
                     HorizontalOptions="Center"
+                    IsOn="{Binding PreferencesEnabled}"
+                    StateChanging="Preferences_StateChanging"
                     VerticalOptions="Center"
                     VisualType="Default"
                     WidthRequest="50" />
@@ -43,66 +54,68 @@
                 <list:SfListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <Grid>
+                            <Grid Padding="5,5">
                                 <Grid.RowDefinitions>
-                                    <RowDefinition Height="70" />
-                                    <RowDefinition Height="70" />
+                                    <RowDefinition Height="80" />
                                 </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="80" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="80" />
+                                </Grid.ColumnDefinitions>
+
+                                <Frame
+                                    Margin="0"
+                                    Padding="0"
+                                    BorderColor="{DynamicResource BackGroundColor}"
+                                    CornerRadius="10"
+                                    HasShadow="False"
+                                    IsClippedToBounds="True">
+                                    <Image
+                                        Grid.Column="0"
+                                        Aspect="AspectFill"
+                                        HeightRequest="50"
+                                        Source="{Binding ImagePreview}" />
+                                </Frame>
+
+                                <Grid Grid.Column="1" Padding="0">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*" />
+                                        <RowDefinition Height="15" />
+                                        <RowDefinition Height="10" />
+                                    </Grid.RowDefinitions>
+
+                                    <Label
+                                        Grid.Row="0"
+                                        Margin="0"
+                                        FontAttributes="Bold"
+                                        FontSize="Small"
+                                        Text="{Binding RecipeName}"
+                                        TextColor="{DynamicResource TextColor}"
+                                        VerticalTextAlignment="Center" />
+
+                                    <Label
+                                        Grid.Row="1"
+                                        Margin="0"
+                                        FontSize="Micro"
+                                        Text="Tap For More Infomation..."
+                                        VerticalTextAlignment="Center" />
+                                </Grid>
+
                                 <Label
-                                    Grid.Row="0"
-                                    Text="{Binding RecipeName}"
-                                    TextColor="Black" />
-                                <Label Grid.Row="1" Text="WOKRING" />
+                                    Grid.Column="2"
+                                    FontSize="Small"
+                                    HorizontalOptions="Center"
+                                    HorizontalTextAlignment="Center"
+                                    Text="{Binding Difficulty}"
+                                    TextColor="{Binding DifficultyColor}"
+                                    VerticalTextAlignment="Center" />
+
                             </Grid>
                         </ViewCell>
                     </DataTemplate>
                 </list:SfListView.ItemTemplate>
             </list:SfListView>
-
-            <!--<card:SfCardLayout
-                BackgroundColor="{DynamicResource BackGroundColor}"
-                BindableLayout.ItemsSource="{Binding AllRecipes}"
-                HeightRequest="500"
-                SwipeDirection="Left"
-                VerticalOptions="Center">
-
-                <BindableLayout.ItemTemplate>
-                    <DataTemplate>
-                        <card:SfCardView HasShadow="True" ShadowColor="{DynamicResource BorderColor}">
-                            <StackLayout>
-
-                                <Frame
-                                    Margin="0"
-                                    Padding="0"
-                                    HeightRequest="200">
-                                    <Image Aspect="AspectFill" Source="{Binding ImagePreview}" />
-                                </Frame>
-
-
-            -->
-            <!--  Frame To Display Store Name  -->
-            <!--
-                                <Frame
-                                    Margin="0,-40,0,0"
-                                    BackgroundColor="{DynamicResource BackGroundColor}"
-                                    BorderColor="{DynamicResource BackGroundColor}"
-                                    CornerRadius="30"
-                                    HasShadow="False"
-                                    HorizontalOptions="FillAndExpand">
-                                    <Label
-                                        FontSize="24"
-                                        HorizontalTextAlignment="Center"
-                                        Text="{Binding RecipeName}"
-                                        TextColor="{DynamicResource TextColor}" />
-                                </Frame>-->
-            <!--
-
-                            </StackLayout>
-                        </card:SfCardView>
-                    </DataTemplate>
-                </BindableLayout.ItemTemplate>
-
-            </card:SfCardLayout>-->
 
         </StackLayout>
 

@@ -19,6 +19,7 @@ namespace MealPlanner.ViewModels
         private string difficulty { get; set; }
         private int timeToPrepare { get; set; }
         private string imagePreview { get; set; }
+        private string difficultyColor { get; set; }
 
         private List<Products> products { get; set; }
 
@@ -96,6 +97,16 @@ namespace MealPlanner.ViewModels
             }
         }
 
+        public string DifficultyColor
+        {
+            get { return difficultyColor; }
+            set
+            {
+                difficultyColor = value;
+                OnPropertyChanged();
+            }
+        }
+
         public RecipesViewModel()
         {
 
@@ -110,15 +121,24 @@ namespace MealPlanner.ViewModels
             difficulty = difficult;
             timeToPrepare = time;
             this.imagePreview = imagePreview;
-            //GetRecipeProducts();
+            difficultyColor = ChoseDifficultyColor();
         }
 
-        public async Task GetRecipeProducts()
+        private string ChoseDifficultyColor()
         {
-            await Task.Run(async () =>
+            if (difficulty == "Easy")
             {
-                
-            });
+                return "#669e2f";
+            }
+            else if (difficulty == "Medium")
+            {
+                return "#ffb73b";
+            }
+            else if (difficulty == "Hard")
+            {
+                return "#db5151";
+            }
+            else return "#2d2d2d";
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
