@@ -132,8 +132,6 @@ namespace MealPlannerDesktop
         //displays the correct store front image
         private void FrmStoreInformation_Load(object sender, EventArgs e)
         {
-            //string[] StoreImages = { "woolworthsStore.jpg", "picknpayStore.jpeg", "sparStore.jpg"
-            //    ,"checkersStore.jpg" };
             try
             {
                 Image wool = Image.FromFile("woolworthsStore.jpg");
