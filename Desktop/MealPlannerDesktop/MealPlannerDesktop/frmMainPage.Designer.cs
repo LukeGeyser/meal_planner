@@ -46,9 +46,11 @@
             this.lblWelcome = new System.Windows.Forms.Label();
             this.lblQuoteAuthor = new System.Windows.Forms.Label();
             this.tmrQuotes = new System.Windows.Forms.Timer(this.components);
+            this.imgHelp = new System.Windows.Forms.PictureBox();
             this.menuChoices.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSlideShow)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgHelp)).BeginInit();
             this.SuspendLayout();
             // 
             // menuChoices
@@ -199,12 +201,25 @@
             this.tmrQuotes.Interval = 30000;
             this.tmrQuotes.Tick += new System.EventHandler(this.TmrQuotes_Tick);
             // 
+            // imgHelp
+            // 
+            this.imgHelp.BackColor = System.Drawing.Color.White;
+            this.imgHelp.Image = ((System.Drawing.Image)(resources.GetObject("imgHelp.Image")));
+            this.imgHelp.Location = new System.Drawing.Point(802, 431);
+            this.imgHelp.Name = "imgHelp";
+            this.imgHelp.Size = new System.Drawing.Size(53, 50);
+            this.imgHelp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imgHelp.TabIndex = 11;
+            this.imgHelp.TabStop = false;
+            this.imgHelp.Click += new System.EventHandler(this.ImgHelp_Click);
+            // 
             // frmMainPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(183)))), ((int)(((byte)(43)))));
             this.ClientSize = new System.Drawing.Size(867, 493);
+            this.Controls.Add(this.imgHelp);
             this.Controls.Add(this.lblQuoteAuthor);
             this.Controls.Add(this.lblWelcome);
             this.Controls.Add(this.lblQuote);
@@ -224,6 +239,7 @@
             this.menuChoices.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSlideShow)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgHelp)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -247,5 +263,6 @@
         private System.Windows.Forms.ToolStripMenuItem browseShopsMenuItem;
         private System.Windows.Forms.Label lblQuoteAuthor;
         private System.Windows.Forms.Timer tmrQuotes;
+        private System.Windows.Forms.PictureBox imgHelp;
     }
 }

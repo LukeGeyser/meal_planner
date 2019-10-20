@@ -173,5 +173,23 @@ namespace MealPlannerDesktop
             }
             quoteIndex++;
         }
+
+        private void ImgHelp_Click(object sender, EventArgs e)
+        {
+            string message = "Welcome to Eat Right, Pay Light...your personal mealplanner" +
+                " and dietary manager.\nUsing this desktop version, the following functionalities" +
+                " are available to you:\n\n- My Profile:\nUpdate My Details = Make changes to your " +
+                "personal and contact details or update your app preferences.\nTrack my Progress = " +
+                "Enter your daily weight and see your progress graphed visually.\n\n- Browse Recipes:\n" +
+                "View recipes available according to particular mealplans and allergies.\n\n" +
+                "- Price Check:\nCompare the prices of ingredients or products used in the recipes " +
+                "at available stores.\n\n- Find Stores:\nFind stores in your area and view contact " +
+                "details and rating information regarding the store.\n\n- Calorie Calculator:\n" +
+                "Calculate your daily calorie need and calories required for each meal. Calculate " +
+                "your Body Mass Index to rate your health.\n\nFor more information, please visit " +
+                "eatrightpaylight.com.\n\tHappy Mealplanning!";
+
+            MessageBox.Show(message, "Help", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }
