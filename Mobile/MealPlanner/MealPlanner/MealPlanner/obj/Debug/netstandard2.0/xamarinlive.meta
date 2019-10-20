@@ -146,7 +146,12 @@
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\RecipesPage.xaml</FilePath>
-      <Hash>11-F9-B9-AA-91-81-C0-6C-0E-C1-98-67-B8-B2-B3-72</Hash>
+      <Hash>A5-05-2B-22-C0-F2-E0-81-06-FE-CE-D5-1A-E7-73-76</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\meal_planner\Mobile\MealPlanner\MealPlanner\MealPlanner\Views\SelectedRecipePage.xaml</FilePath>
+      <Hash>30-8E-DF-28-1B-EC-66-DB-05-3B-A5-7C-D0-74-7E-3D</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>

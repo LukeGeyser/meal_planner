@@ -50,7 +50,18 @@
 
             </Grid>
 
-            <list:SfListView AutoFitMode="Height" ItemsSource="{Binding AllRecipes}">
+            <!--  Seperator  -->
+            <BoxView
+                Margin="30,0,30,0"
+                BackgroundColor="{DynamicResource BorderColor}"
+                HeightRequest="1"
+                Opacity="0.1" />
+
+            <list:SfListView
+                x:Name="RecipesListView"
+                AutoFitMode="Height"
+                ItemsSource="{Binding AllRecipes}"
+                SelectionChanged="RecipesListView_SelectionChanged">
                 <list:SfListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>

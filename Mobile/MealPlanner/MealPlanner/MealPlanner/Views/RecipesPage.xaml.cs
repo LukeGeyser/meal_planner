@@ -80,7 +80,6 @@ namespace MealPlanner.Views
             {
                 AllRecipes.Add(item);
             }
-            int d = 2;
         }
 
         private async Task<List<Products>> GetRecipeProducts(int recipeID)
@@ -120,7 +119,19 @@ namespace MealPlanner.Views
                 {
                     if (recipeAllergiesList[i].AllergyID == SignInPage.loggedInUser.Allergies[j].AllergyID)
                     {
-                        recipes.RemoveAt(recipes.FindIndex(res => res.RecipeID == recipeAllergiesList[i].RecipeID));
+                        try
+                        {
+                            recipes.RemoveAt(recipes.FindIndex(res => res.RecipeID == recipeAllergiesList[i].RecipeID));
+                        }
+                        catch (ArgumentOutOfRangeException)
+                        {
+                            // Doing Nothing because this is when it tries to Delete an already deleted Item due to trying to filter
+                            // recipes to fit user preferences
+                        }
+                        catch (Exception)
+                        {
+                            await DisplayAlert("Ooops...", "Looks like something went wrong!", "Got it!");
+                        }
                     }
                 }
             }
@@ -171,6 +182,11 @@ namespace MealPlanner.Views
             Preferences.IsBusy = false;
         }
 
-        
+        private async void RecipesListView_SelectionChanged(object sender, Syncfusion.ListView.XForms.ItemSelectionChangedEventArgs e)
+        {
+            var items = e.AddedItems;
+            var index = RecipesListView.DataSource.DisplayItems.IndexOf(items[0]);
+            await Navigation.PushAsync(new SelectedRecipePage(AllRecipes[index]));
+        }
     }
 }
