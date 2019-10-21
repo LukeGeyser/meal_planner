@@ -2395,327 +2395,6 @@ namespace MealPlanner.Droid
 			global::Syncfusion.SfChart.XForms.Droid.Resource.String.sfchart_increase_label = global::MealPlanner.Droid.Resource.String.sfchart_increase_label;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.String.sfchart_decrease_label = global::MealPlanner.Droid.Resource.String.sfchart_decrease_label;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.String.sfchart_total_label = global::MealPlanner.Droid.Resource.String.sfchart_total_label;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.barPointerColor = global::MealPlanner.Droid.Resource.Attribute.barPointerColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.barPointerCornerRadius = global::MealPlanner.Droid.Resource.Attribute.barPointerCornerRadius;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.barPointerCornerRadiusType = global::MealPlanner.Droid.Resource.Attribute.barPointerCornerRadiusType;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.barPointerStrokeWidth = global::MealPlanner.Droid.Resource.Attribute.barPointerStrokeWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.barPointerValue = global::MealPlanner.Droid.Resource.Attribute.barPointerValue;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.characterHeight = global::MealPlanner.Droid.Resource.Attribute.characterHeight;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.characterSpacing = global::MealPlanner.Droid.Resource.Attribute.characterSpacing;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.characterStrokeColor = global::MealPlanner.Droid.Resource.Attribute.characterStrokeColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.characterType = global::MealPlanner.Droid.Resource.Attribute.characterType;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.characterWidth = global::MealPlanner.Droid.Resource.Attribute.characterWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularGaugeScaleDirection = global::MealPlanner.Droid.Resource.Attribute.circularGaugeScaleDirection;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleInterval = global::MealPlanner.Droid.Resource.Attribute.circularScaleInterval;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleLabelOffset = global::MealPlanner.Droid.Resource.Attribute.circularScaleLabelOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleLabelPostfix = global::MealPlanner.Droid.Resource.Attribute.circularScaleLabelPostfix;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleLabelPrefix = global::MealPlanner.Droid.Resource.Attribute.circularScaleLabelPrefix;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleLabelTextColor = global::MealPlanner.Droid.Resource.Attribute.circularScaleLabelTextColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleLabelTextSize = global::MealPlanner.Droid.Resource.Attribute.circularScaleLabelTextSize;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleMajorTickColor = global::MealPlanner.Droid.Resource.Attribute.circularScaleMajorTickColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleMajorTickOffset = global::MealPlanner.Droid.Resource.Attribute.circularScaleMajorTickOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleMaximumLabels = global::MealPlanner.Droid.Resource.Attribute.circularScaleMaximumLabels;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleMinorTickColor = global::MealPlanner.Droid.Resource.Attribute.circularScaleMinorTickColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleMinorTickOffset = global::MealPlanner.Droid.Resource.Attribute.circularScaleMinorTickOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleMinorTicksPerInterval = global::MealPlanner.Droid.Resource.Attribute.circularScaleMinorTicksPerInterval;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleRangeColor = global::MealPlanner.Droid.Resource.Attribute.circularScaleRangeColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleRangeEndValue = global::MealPlanner.Droid.Resource.Attribute.circularScaleRangeEndValue;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleRangeOffset = global::MealPlanner.Droid.Resource.Attribute.circularScaleRangeOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleRangeStartValue = global::MealPlanner.Droid.Resource.Attribute.circularScaleRangeStartValue;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleShowLabels = global::MealPlanner.Droid.Resource.Attribute.circularScaleShowLabels;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleShowTicks = global::MealPlanner.Droid.Resource.Attribute.circularScaleShowTicks;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.dimmedSegmentAlpha = global::MealPlanner.Droid.Resource.Attribute.dimmedSegmentAlpha;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.dimmedSegmentColor = global::MealPlanner.Droid.Resource.Attribute.dimmedSegmentColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.gaugeCircularCoefficient = global::MealPlanner.Droid.Resource.Attribute.gaugeCircularCoefficient;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.gaugeHeaderAlignment = global::MealPlanner.Droid.Resource.Attribute.gaugeHeaderAlignment;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.gaugeHorizontalHeaderPosition = global::MealPlanner.Droid.Resource.Attribute.gaugeHorizontalHeaderPosition;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.gaugeText = global::MealPlanner.Droid.Resource.Attribute.gaugeText;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.gaugeTextColor = global::MealPlanner.Droid.Resource.Attribute.gaugeTextColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.gaugeTextSize = global::MealPlanner.Droid.Resource.Attribute.gaugeTextSize;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.gaugeVerticalHeaderPosition = global::MealPlanner.Droid.Resource.Attribute.gaugeVerticalHeaderPosition;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.markerPointerColor = global::MealPlanner.Droid.Resource.Attribute.markerPointerColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.markerPointerHeight = global::MealPlanner.Droid.Resource.Attribute.markerPointerHeight;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.markerPointerOffset = global::MealPlanner.Droid.Resource.Attribute.markerPointerOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.markerPointerValue = global::MealPlanner.Droid.Resource.Attribute.markerPointerValue;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.markerPointerWidth = global::MealPlanner.Droid.Resource.Attribute.markerPointerWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.markerShape = global::MealPlanner.Droid.Resource.Attribute.markerShape;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.maximumLabels = global::MealPlanner.Droid.Resource.Attribute.maximumLabels;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerColor = global::MealPlanner.Droid.Resource.Attribute.needlePointerColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerKnobColor = global::MealPlanner.Droid.Resource.Attribute.needlePointerKnobColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerKnobRadius = global::MealPlanner.Droid.Resource.Attribute.needlePointerKnobRadius;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerKnobStrokeColor = global::MealPlanner.Droid.Resource.Attribute.needlePointerKnobStrokeColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerKnobStrokeWidth = global::MealPlanner.Droid.Resource.Attribute.needlePointerKnobStrokeWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerLengthFactor = global::MealPlanner.Droid.Resource.Attribute.needlePointerLengthFactor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerTailColor = global::MealPlanner.Droid.Resource.Attribute.needlePointerTailColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerTailLengthFactor = global::MealPlanner.Droid.Resource.Attribute.needlePointerTailLengthFactor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerTailStrokeColor = global::MealPlanner.Droid.Resource.Attribute.needlePointerTailStrokeColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerTailStrokeWidth = global::MealPlanner.Droid.Resource.Attribute.needlePointerTailStrokeWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerType = global::MealPlanner.Droid.Resource.Attribute.needlePointerType;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerValue = global::MealPlanner.Droid.Resource.Attribute.needlePointerValue;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerWidth = global::MealPlanner.Droid.Resource.Attribute.needlePointerWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangeColor = global::MealPlanner.Droid.Resource.Attribute.rangeColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangeEndValue = global::MealPlanner.Droid.Resource.Attribute.rangeEndValue;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangeEndWidth = global::MealPlanner.Droid.Resource.Attribute.rangeEndWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangeInnerEndOffset = global::MealPlanner.Droid.Resource.Attribute.rangeInnerEndOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangeInnerStartOffset = global::MealPlanner.Droid.Resource.Attribute.rangeInnerStartOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangeOffset = global::MealPlanner.Droid.Resource.Attribute.rangeOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangeOuterEndOffset = global::MealPlanner.Droid.Resource.Attribute.rangeOuterEndOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangeOuterStartOffset = global::MealPlanner.Droid.Resource.Attribute.rangeOuterStartOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangePointerCap = global::MealPlanner.Droid.Resource.Attribute.rangePointerCap;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangePointerColor = global::MealPlanner.Droid.Resource.Attribute.rangePointerColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangePointerEndOffset = global::MealPlanner.Droid.Resource.Attribute.rangePointerEndOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangePointerOffset = global::MealPlanner.Droid.Resource.Attribute.rangePointerOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangePointerStartOffset = global::MealPlanner.Droid.Resource.Attribute.rangePointerStartOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangePointerStartValue = global::MealPlanner.Droid.Resource.Attribute.rangePointerStartValue;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangePointerValue = global::MealPlanner.Droid.Resource.Attribute.rangePointerValue;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangePointerWidth = global::MealPlanner.Droid.Resource.Attribute.rangePointerWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangeStartValue = global::MealPlanner.Droid.Resource.Attribute.rangeStartValue;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangeStartWidth = global::MealPlanner.Droid.Resource.Attribute.rangeStartWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangeWidth = global::MealPlanner.Droid.Resource.Attribute.rangeWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleAutoAngle = global::MealPlanner.Droid.Resource.Attribute.scaleAutoAngle;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleAutoInterval = global::MealPlanner.Droid.Resource.Attribute.scaleAutoInterval;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleBarColor = global::MealPlanner.Droid.Resource.Attribute.scaleBarColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleBarLength = global::MealPlanner.Droid.Resource.Attribute.scaleBarLength;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleBarSize = global::MealPlanner.Droid.Resource.Attribute.scaleBarSize;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleCornerRadius = global::MealPlanner.Droid.Resource.Attribute.scaleCornerRadius;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleCornerRadiusType = global::MealPlanner.Droid.Resource.Attribute.scaleCornerRadiusType;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleDirection = global::MealPlanner.Droid.Resource.Attribute.scaleDirection;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleEndAngle = global::MealPlanner.Droid.Resource.Attribute.scaleEndAngle;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleEndOffset = global::MealPlanner.Droid.Resource.Attribute.scaleEndOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleEndValue = global::MealPlanner.Droid.Resource.Attribute.scaleEndValue;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleInterval = global::MealPlanner.Droid.Resource.Attribute.scaleInterval;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleLabelColor = global::MealPlanner.Droid.Resource.Attribute.scaleLabelColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleLabelFontSize = global::MealPlanner.Droid.Resource.Attribute.scaleLabelFontSize;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleLabelOffset = global::MealPlanner.Droid.Resource.Attribute.scaleLabelOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleLabelPostfix = global::MealPlanner.Droid.Resource.Attribute.scaleLabelPostfix;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleLabelPrefix = global::MealPlanner.Droid.Resource.Attribute.scaleLabelPrefix;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMajorTickColor = global::MealPlanner.Droid.Resource.Attribute.scaleMajorTickColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMajorTickEndOffset = global::MealPlanner.Droid.Resource.Attribute.scaleMajorTickEndOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMajorTickLength = global::MealPlanner.Droid.Resource.Attribute.scaleMajorTickLength;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMajorTickOffset = global::MealPlanner.Droid.Resource.Attribute.scaleMajorTickOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMajorTickSize = global::MealPlanner.Droid.Resource.Attribute.scaleMajorTickSize;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMajorTickStartOffset = global::MealPlanner.Droid.Resource.Attribute.scaleMajorTickStartOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMajorTickStrokeWidth = global::MealPlanner.Droid.Resource.Attribute.scaleMajorTickStrokeWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMajorTickWidth = global::MealPlanner.Droid.Resource.Attribute.scaleMajorTickWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMaximum = global::MealPlanner.Droid.Resource.Attribute.scaleMaximum;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinimum = global::MealPlanner.Droid.Resource.Attribute.scaleMinimum;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTickColor = global::MealPlanner.Droid.Resource.Attribute.scaleMinorTickColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTickEndOffset = global::MealPlanner.Droid.Resource.Attribute.scaleMinorTickEndOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTickLength = global::MealPlanner.Droid.Resource.Attribute.scaleMinorTickLength;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTickOffset = global::MealPlanner.Droid.Resource.Attribute.scaleMinorTickOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTickSize = global::MealPlanner.Droid.Resource.Attribute.scaleMinorTickSize;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTickStartOffset = global::MealPlanner.Droid.Resource.Attribute.scaleMinorTickStartOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTickStrokeWidth = global::MealPlanner.Droid.Resource.Attribute.scaleMinorTickStrokeWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTickWidth = global::MealPlanner.Droid.Resource.Attribute.scaleMinorTickWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTicksPerInterval = global::MealPlanner.Droid.Resource.Attribute.scaleMinorTicksPerInterval;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleNumberofDecimalDigits = global::MealPlanner.Droid.Resource.Attribute.scaleNumberofDecimalDigits;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleOffset = global::MealPlanner.Droid.Resource.Attribute.scaleOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleOpposedPosition = global::MealPlanner.Droid.Resource.Attribute.scaleOpposedPosition;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleOrientation = global::MealPlanner.Droid.Resource.Attribute.scaleOrientation;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleRadiusFactor = global::MealPlanner.Droid.Resource.Attribute.scaleRadiusFactor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleRimColor = global::MealPlanner.Droid.Resource.Attribute.scaleRimColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleRimWidth = global::MealPlanner.Droid.Resource.Attribute.scaleRimWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleShowFirstLabel = global::MealPlanner.Droid.Resource.Attribute.scaleShowFirstLabel;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleShowLabels = global::MealPlanner.Droid.Resource.Attribute.scaleShowLabels;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleShowLastLabel = global::MealPlanner.Droid.Resource.Attribute.scaleShowLastLabel;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleShowRim = global::MealPlanner.Droid.Resource.Attribute.scaleShowRim;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleShowTicks = global::MealPlanner.Droid.Resource.Attribute.scaleShowTicks;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleStartAngle = global::MealPlanner.Droid.Resource.Attribute.scaleStartAngle;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleStartOffset = global::MealPlanner.Droid.Resource.Attribute.scaleStartOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleStartValue = global::MealPlanner.Droid.Resource.Attribute.scaleStartValue;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.segmentStrokeWidth = global::MealPlanner.Droid.Resource.Attribute.segmentStrokeWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.symbolPointerColor = global::MealPlanner.Droid.Resource.Attribute.symbolPointerColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.symbolPointerOffset = global::MealPlanner.Droid.Resource.Attribute.symbolPointerOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.symbolPointerStrokeWidth = global::MealPlanner.Droid.Resource.Attribute.symbolPointerStrokeWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.symbolPointerValue = global::MealPlanner.Droid.Resource.Attribute.symbolPointerValue;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.symbolPosition = global::MealPlanner.Droid.Resource.Attribute.symbolPosition;
-			global::Com.Syncfusion.Gauges.Resource.Dimension.pading_bottom = global::MealPlanner.Droid.Resource.Dimension.pading_bottom;
-			global::Com.Syncfusion.Gauges.Resource.Dimension.pading_top = global::MealPlanner.Droid.Resource.Dimension.pading_top;
-			global::Com.Syncfusion.Gauges.Resource.Id.anticlockwise = global::MealPlanner.Droid.Resource.Id.anticlockwise;
-			global::Com.Syncfusion.Gauges.Resource.Id.away = global::MealPlanner.Droid.Resource.Id.away;
-			global::Com.Syncfusion.Gauges.Resource.Id.backward = global::MealPlanner.Droid.Resource.Id.backward;
-			global::Com.Syncfusion.Gauges.Resource.Id.bar = global::MealPlanner.Droid.Resource.Id.bar;
-			global::Com.Syncfusion.Gauges.Resource.Id.both = global::MealPlanner.Droid.Resource.Id.both;
-			global::Com.Syncfusion.Gauges.Resource.Id.circle = global::MealPlanner.Droid.Resource.Id.circle;
-			global::Com.Syncfusion.Gauges.Resource.Id.clockwise = global::MealPlanner.Droid.Resource.Id.clockwise;
-			global::Com.Syncfusion.Gauges.Resource.Id.diamond = global::MealPlanner.Droid.Resource.Id.diamond;
-			global::Com.Syncfusion.Gauges.Resource.Id.eightCrossEightDotMatrix = global::MealPlanner.Droid.Resource.Id.eightCrossEightDotMatrix;
-			global::Com.Syncfusion.Gauges.Resource.Id.eightsegment = global::MealPlanner.Droid.Resource.Id.eightsegment;
-			global::Com.Syncfusion.Gauges.Resource.Id.end = global::MealPlanner.Droid.Resource.Id.end;
-			global::Com.Syncfusion.Gauges.Resource.Id.far = global::MealPlanner.Droid.Resource.Id.far;
-			global::Com.Syncfusion.Gauges.Resource.Id.forward = global::MealPlanner.Droid.Resource.Id.forward;
-			global::Com.Syncfusion.Gauges.Resource.Id.fourteensegment = global::MealPlanner.Droid.Resource.Id.fourteensegment;
-			global::Com.Syncfusion.Gauges.Resource.Id.gaugeBottom = global::MealPlanner.Droid.Resource.Id.gaugeBottom;
-			global::Com.Syncfusion.Gauges.Resource.Id.gaugeBottomLeft = global::MealPlanner.Droid.Resource.Id.gaugeBottomLeft;
-			global::Com.Syncfusion.Gauges.Resource.Id.gaugeBottomRight = global::MealPlanner.Droid.Resource.Id.gaugeBottomRight;
-			global::Com.Syncfusion.Gauges.Resource.Id.gaugeCenter = global::MealPlanner.Droid.Resource.Id.gaugeCenter;
-			global::Com.Syncfusion.Gauges.Resource.Id.gaugeCustom = global::MealPlanner.Droid.Resource.Id.gaugeCustom;
-			global::Com.Syncfusion.Gauges.Resource.Id.gaugeHorizontalHeaderCenter = global::MealPlanner.Droid.Resource.Id.gaugeHorizontalHeaderCenter;
-			global::Com.Syncfusion.Gauges.Resource.Id.gaugeHorizontalHeaderEnd = global::MealPlanner.Droid.Resource.Id.gaugeHorizontalHeaderEnd;
-			global::Com.Syncfusion.Gauges.Resource.Id.gaugeHorizontalHeaderStart = global::MealPlanner.Droid.Resource.Id.gaugeHorizontalHeaderStart;
-			global::Com.Syncfusion.Gauges.Resource.Id.gaugeLeft = global::MealPlanner.Droid.Resource.Id.gaugeLeft;
-			global::Com.Syncfusion.Gauges.Resource.Id.gaugeRight = global::MealPlanner.Droid.Resource.Id.gaugeRight;
-			global::Com.Syncfusion.Gauges.Resource.Id.gaugeTop = global::MealPlanner.Droid.Resource.Id.gaugeTop;
-			global::Com.Syncfusion.Gauges.Resource.Id.gaugeTopLeft = global::MealPlanner.Droid.Resource.Id.gaugeTopLeft;
-			global::Com.Syncfusion.Gauges.Resource.Id.gaugeTopRight = global::MealPlanner.Droid.Resource.Id.gaugeTopRight;
-			global::Com.Syncfusion.Gauges.Resource.Id.gaugeVerticalHeaderCenter = global::MealPlanner.Droid.Resource.Id.gaugeVerticalHeaderCenter;
-			global::Com.Syncfusion.Gauges.Resource.Id.gaugeVerticalHeaderEnd = global::MealPlanner.Droid.Resource.Id.gaugeVerticalHeaderEnd;
-			global::Com.Syncfusion.Gauges.Resource.Id.gaugeVerticalHeaderStart = global::MealPlanner.Droid.Resource.Id.gaugeVerticalHeaderStart;
-			global::Com.Syncfusion.Gauges.Resource.Id.horizontal = global::MealPlanner.Droid.Resource.Id.horizontal;
-			global::Com.Syncfusion.Gauges.Resource.Id.image = global::MealPlanner.Droid.Resource.Id.image;
-			global::Com.Syncfusion.Gauges.Resource.Id.invertedTriangle = global::MealPlanner.Droid.Resource.Id.invertedTriangle;
-			global::Com.Syncfusion.Gauges.Resource.Id.none = global::MealPlanner.Droid.Resource.Id.none;
-			global::Com.Syncfusion.Gauges.Resource.Id.rectangle = global::MealPlanner.Droid.Resource.Id.rectangle;
-			global::Com.Syncfusion.Gauges.Resource.Id.rootLayout = global::MealPlanner.Droid.Resource.Id.rootLayout;
-			global::Com.Syncfusion.Gauges.Resource.Id.segmentFourteen = global::MealPlanner.Droid.Resource.Id.segmentFourteen;
-			global::Com.Syncfusion.Gauges.Resource.Id.segmentSeven = global::MealPlanner.Droid.Resource.Id.segmentSeven;
-			global::Com.Syncfusion.Gauges.Resource.Id.segmentSixteen = global::MealPlanner.Droid.Resource.Id.segmentSixteen;
-			global::Com.Syncfusion.Gauges.Resource.Id.sevensegment = global::MealPlanner.Droid.Resource.Id.sevensegment;
-			global::Com.Syncfusion.Gauges.Resource.Id.sixteensegment = global::MealPlanner.Droid.Resource.Id.sixteensegment;
-			global::Com.Syncfusion.Gauges.Resource.Id.start = global::MealPlanner.Droid.Resource.Id.start;
-			global::Com.Syncfusion.Gauges.Resource.Id.triangle = global::MealPlanner.Droid.Resource.Id.triangle;
-			global::Com.Syncfusion.Gauges.Resource.Id.vertical = global::MealPlanner.Droid.Resource.Id.vertical;
-			global::Com.Syncfusion.Gauges.Resource.Layout.circulargauge_layout = global::MealPlanner.Droid.Resource.Layout.circulargauge_layout;
-			global::Com.Syncfusion.Gauges.Resource.Layout.digitalgauge_layout = global::MealPlanner.Droid.Resource.Layout.digitalgauge_layout;
-			global::Com.Syncfusion.Gauges.Resource.String.ApplicationName = global::MealPlanner.Droid.Resource.String.ApplicationName;
-			global::Com.Syncfusion.Gauges.Resource.String.Hello = global::MealPlanner.Droid.Resource.String.Hello;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularGaugeScaleDirection = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_circularGaugeScaleDirection;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleInterval = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_circularScaleInterval;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleLabelOffset = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_circularScaleLabelOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleLabelPostfix = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_circularScaleLabelPostfix;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleLabelPrefix = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_circularScaleLabelPrefix;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleLabelTextColor = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_circularScaleLabelTextColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleLabelTextSize = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_circularScaleLabelTextSize;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleMajorTickColor = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_circularScaleMajorTickColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleMajorTickOffset = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_circularScaleMajorTickOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleMaximumLabels = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_circularScaleMaximumLabels;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleMinorTickColor = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_circularScaleMinorTickColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleMinorTickOffset = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_circularScaleMinorTickOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleMinorTicksPerInterval = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_circularScaleMinorTicksPerInterval;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleRangeColor = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_circularScaleRangeColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleRangeEndValue = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_circularScaleRangeEndValue;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleRangeOffset = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_circularScaleRangeOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleRangeStartValue = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_circularScaleRangeStartValue;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleShowLabels = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_circularScaleShowLabels;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleShowTicks = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_circularScaleShowTicks;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_gaugeCircularCoefficient = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_gaugeCircularCoefficient;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_gaugeHeaderAlignment = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_gaugeHeaderAlignment;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_gaugeHorizontalHeaderPosition = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_gaugeHorizontalHeaderPosition;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_gaugeText = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_gaugeText;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_gaugeTextColor = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_gaugeTextColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_gaugeTextSize = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_gaugeTextSize;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_gaugeVerticalHeaderPosition = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_gaugeVerticalHeaderPosition;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_markerPointerColor = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_markerPointerColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_markerPointerHeight = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_markerPointerHeight;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_markerPointerOffset = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_markerPointerOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_markerPointerValue = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_markerPointerValue;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_markerPointerWidth = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_markerPointerWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_markerShape = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_markerShape;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerColor = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_needlePointerColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerKnobColor = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_needlePointerKnobColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerKnobRadius = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_needlePointerKnobRadius;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerKnobStrokeColor = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_needlePointerKnobStrokeColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerKnobStrokeWidth = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_needlePointerKnobStrokeWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerLengthFactor = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_needlePointerLengthFactor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerTailColor = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_needlePointerTailColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerTailLengthFactor = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_needlePointerTailLengthFactor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerTailStrokeColor = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_needlePointerTailStrokeColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerTailStrokeWidth = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_needlePointerTailStrokeWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerType = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_needlePointerType;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerValue = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_needlePointerValue;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerWidth = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_needlePointerWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangeInnerEndOffset = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_rangeInnerEndOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangeInnerStartOffset = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_rangeInnerStartOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangeOuterEndOffset = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_rangeOuterEndOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangeOuterStartOffset = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_rangeOuterStartOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangePointerCap = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_rangePointerCap;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangePointerColor = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_rangePointerColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangePointerEndOffset = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_rangePointerEndOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangePointerOffset = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_rangePointerOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangePointerStartOffset = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_rangePointerStartOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangePointerStartValue = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_rangePointerStartValue;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangePointerValue = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_rangePointerValue;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangePointerWidth = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_rangePointerWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangeWidth = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_rangeWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleAutoAngle = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_scaleAutoAngle;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleAutoInterval = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_scaleAutoInterval;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleEndAngle = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_scaleEndAngle;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleEndOffset = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_scaleEndOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleEndValue = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_scaleEndValue;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleMajorTickEndOffset = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_scaleMajorTickEndOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleMajorTickSize = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_scaleMajorTickSize;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleMajorTickStartOffset = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_scaleMajorTickStartOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleMajorTickWidth = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_scaleMajorTickWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleMinorTickEndOffset = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_scaleMinorTickEndOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleMinorTickSize = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_scaleMinorTickSize;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleMinorTickStartOffset = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_scaleMinorTickStartOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleMinorTickWidth = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_scaleMinorTickWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleNumberofDecimalDigits = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_scaleNumberofDecimalDigits;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleRadiusFactor = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_scaleRadiusFactor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleRimColor = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_scaleRimColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleRimWidth = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_scaleRimWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleShowFirstLabel = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_scaleShowFirstLabel;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleShowLastLabel = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_scaleShowLastLabel;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleShowRim = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_scaleShowRim;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleStartAngle = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_scaleStartAngle;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleStartOffset = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_scaleStartOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleStartValue = global::MealPlanner.Droid.Resource.Styleable.SfCircularGauge_scaleStartValue;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfDigitalGauge = global::MealPlanner.Droid.Resource.Styleable.SfDigitalGauge;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfDigitalGauge_characterHeight = global::MealPlanner.Droid.Resource.Styleable.SfDigitalGauge_characterHeight;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfDigitalGauge_characterSpacing = global::MealPlanner.Droid.Resource.Styleable.SfDigitalGauge_characterSpacing;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfDigitalGauge_characterStrokeColor = global::MealPlanner.Droid.Resource.Styleable.SfDigitalGauge_characterStrokeColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfDigitalGauge_characterType = global::MealPlanner.Droid.Resource.Styleable.SfDigitalGauge_characterType;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfDigitalGauge_characterWidth = global::MealPlanner.Droid.Resource.Styleable.SfDigitalGauge_characterWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfDigitalGauge_dimmedSegmentAlpha = global::MealPlanner.Droid.Resource.Styleable.SfDigitalGauge_dimmedSegmentAlpha;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfDigitalGauge_dimmedSegmentColor = global::MealPlanner.Droid.Resource.Styleable.SfDigitalGauge_dimmedSegmentColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfDigitalGauge_segmentStrokeWidth = global::MealPlanner.Droid.Resource.Styleable.SfDigitalGauge_segmentStrokeWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_barPointerColor = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_barPointerColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_barPointerCornerRadius = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_barPointerCornerRadius;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_barPointerCornerRadiusType = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_barPointerCornerRadiusType;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_barPointerStrokeWidth = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_barPointerStrokeWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_barPointerValue = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_barPointerValue;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_maximumLabels = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_maximumLabels;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_rangeColor = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_rangeColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_rangeEndValue = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_rangeEndValue;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_rangeEndWidth = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_rangeEndWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_rangeOffset = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_rangeOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_rangeStartValue = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_rangeStartValue;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_rangeStartWidth = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_rangeStartWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleBarColor = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_scaleBarColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleBarLength = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_scaleBarLength;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleBarSize = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_scaleBarSize;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleCornerRadius = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_scaleCornerRadius;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleCornerRadiusType = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_scaleCornerRadiusType;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleDirection = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_scaleDirection;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleInterval = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_scaleInterval;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleLabelColor = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_scaleLabelColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleLabelFontSize = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_scaleLabelFontSize;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleLabelOffset = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_scaleLabelOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleLabelPostfix = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_scaleLabelPostfix;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleLabelPrefix = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_scaleLabelPrefix;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMajorTickColor = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_scaleMajorTickColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMajorTickLength = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_scaleMajorTickLength;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMajorTickOffset = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_scaleMajorTickOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMajorTickStrokeWidth = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_scaleMajorTickStrokeWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMaximum = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_scaleMaximum;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMinimum = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_scaleMinimum;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMinorTickColor = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_scaleMinorTickColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMinorTickLength = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_scaleMinorTickLength;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMinorTickOffset = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_scaleMinorTickOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMinorTickStrokeWidth = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_scaleMinorTickStrokeWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMinorTicksPerInterval = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_scaleMinorTicksPerInterval;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleOffset = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_scaleOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleOpposedPosition = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_scaleOpposedPosition;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleOrientation = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_scaleOrientation;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleShowLabels = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_scaleShowLabels;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleShowTicks = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_scaleShowTicks;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_symbolPointerColor = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_symbolPointerColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_symbolPointerOffset = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_symbolPointerOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_symbolPointerStrokeWidth = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_symbolPointerStrokeWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_symbolPointerValue = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_symbolPointerValue;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_symbolPosition = global::MealPlanner.Droid.Resource.Styleable.SfLinearGauge_symbolPosition;
 			global::Syncfusion.SfKanban.XForms.Droid.Resource.Drawable.defaultphoto = global::MealPlanner.Droid.Resource.Drawable.defaultphoto;
 			global::Syncfusion.SfKanban.XForms.Droid.Resource.Drawable.errorimage = global::MealPlanner.Droid.Resource.Drawable.errorimage;
 			global::Syncfusion.SfKanban.XForms.Droid.Resource.Drawable.kanban_collapse = global::MealPlanner.Droid.Resource.Drawable.kanban_collapse;
@@ -5932,21 +5611,6 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0100db
 			public const int barLength = 2130772187;
 			
-			// aapt resource value: 0x7f010285
-			public const int barPointerColor = 2130772613;
-			
-			// aapt resource value: 0x7f010288
-			public const int barPointerCornerRadius = 2130772616;
-			
-			// aapt resource value: 0x7f010287
-			public const int barPointerCornerRadiusType = 2130772615;
-			
-			// aapt resource value: 0x7f010286
-			public const int barPointerStrokeWidth = 2130772614;
-			
-			// aapt resource value: 0x7f010284
-			public const int barPointerValue = 2130772612;
-			
 			// aapt resource value: 0x7f01018c
 			public const int behavior_autoHide = 2130772364;
 			
@@ -6067,26 +5731,11 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f010017
 			public const int cardViewStyle = 2130771991;
 			
-			// aapt resource value: 0x7f010290
-			public const int characterHeight = 2130772624;
-			
-			// aapt resource value: 0x7f010291
-			public const int characterSpacing = 2130772625;
-			
-			// aapt resource value: 0x7f01028f
-			public const int characterStrokeColor = 2130772623;
-			
-			// aapt resource value: 0x7f010296
-			public const int characterType = 2130772630;
-			
-			// aapt resource value: 0x7f010292
-			public const int characterWidth = 2130772626;
-			
 			// aapt resource value: 0x7f0100c3
 			public const int checkboxStyle = 2130772163;
 			
-			// aapt resource value: 0x7f01029a
-			public const int @checked = 2130772634;
+			// aapt resource value: 0x7f010214
+			public const int @checked = 2130772500;
 			
 			// aapt resource value: 0x7f010173
 			public const int checkedChip = 2130772339;
@@ -6156,63 +5805,6 @@ namespace MealPlanner.Droid
 			
 			// aapt resource value: 0x7f010124
 			public const int chipStyle = 2130772260;
-			
-			// aapt resource value: 0x7f010218
-			public const int circularGaugeScaleDirection = 2130772504;
-			
-			// aapt resource value: 0x7f010216
-			public const int circularScaleInterval = 2130772502;
-			
-			// aapt resource value: 0x7f010227
-			public const int circularScaleLabelOffset = 2130772519;
-			
-			// aapt resource value: 0x7f010225
-			public const int circularScaleLabelPostfix = 2130772517;
-			
-			// aapt resource value: 0x7f010224
-			public const int circularScaleLabelPrefix = 2130772516;
-			
-			// aapt resource value: 0x7f010228
-			public const int circularScaleLabelTextColor = 2130772520;
-			
-			// aapt resource value: 0x7f010226
-			public const int circularScaleLabelTextSize = 2130772518;
-			
-			// aapt resource value: 0x7f01022a
-			public const int circularScaleMajorTickColor = 2130772522;
-			
-			// aapt resource value: 0x7f01022c
-			public const int circularScaleMajorTickOffset = 2130772524;
-			
-			// aapt resource value: 0x7f010238
-			public const int circularScaleMaximumLabels = 2130772536;
-			
-			// aapt resource value: 0x7f010230
-			public const int circularScaleMinorTickColor = 2130772528;
-			
-			// aapt resource value: 0x7f010232
-			public const int circularScaleMinorTickOffset = 2130772530;
-			
-			// aapt resource value: 0x7f010237
-			public const int circularScaleMinorTicksPerInterval = 2130772535;
-			
-			// aapt resource value: 0x7f010242
-			public const int circularScaleRangeColor = 2130772546;
-			
-			// aapt resource value: 0x7f01023f
-			public const int circularScaleRangeEndValue = 2130772543;
-			
-			// aapt resource value: 0x7f010241
-			public const int circularScaleRangeOffset = 2130772545;
-			
-			// aapt resource value: 0x7f01023e
-			public const int circularScaleRangeStartValue = 2130772542;
-			
-			// aapt resource value: 0x7f010239
-			public const int circularScaleShowLabels = 2130772537;
-			
-			// aapt resource value: 0x7f01023a
-			public const int circularScaleShowTicks = 2130772538;
 			
 			// aapt resource value: 0x7f0100f4
 			public const int closeIcon = 2130772212;
@@ -6337,8 +5929,8 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f010193
 			public const int cornerRadius = 2130772371;
 			
-			// aapt resource value: 0x7f010299
-			public const int cornerradius = 2130772633;
+			// aapt resource value: 0x7f010213
+			public const int cornerradius = 2130772499;
 			
 			// aapt resource value: 0x7f0101c2
 			public const int counterEnabled = 2130772418;
@@ -6366,12 +5958,6 @@ namespace MealPlanner.Droid
 			
 			// aapt resource value: 0x7f010084
 			public const int dialogTheme = 2130772100;
-			
-			// aapt resource value: 0x7f010295
-			public const int dimmedSegmentAlpha = 2130772629;
-			
-			// aapt resource value: 0x7f010294
-			public const int dimmedSegmentColor = 2130772628;
 			
 			// aapt resource value: 0x7f010028
 			public const int displayOptions = 2130772008;
@@ -6532,27 +6118,6 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0100d8
 			public const int gapBetweenBars = 2130772184;
 			
-			// aapt resource value: 0x7f010211
-			public const int gaugeCircularCoefficient = 2130772497;
-			
-			// aapt resource value: 0x7f01021e
-			public const int gaugeHeaderAlignment = 2130772510;
-			
-			// aapt resource value: 0x7f010219
-			public const int gaugeHorizontalHeaderPosition = 2130772505;
-			
-			// aapt resource value: 0x7f01021b
-			public const int gaugeText = 2130772507;
-			
-			// aapt resource value: 0x7f01021d
-			public const int gaugeTextColor = 2130772509;
-			
-			// aapt resource value: 0x7f01021c
-			public const int gaugeTextSize = 2130772508;
-			
-			// aapt resource value: 0x7f01021a
-			public const int gaugeVerticalHeaderPosition = 2130772506;
-			
 			// aapt resource value: 0x7f0100f5
 			public const int goIcon = 2130772213;
 			
@@ -6640,8 +6205,8 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f010025
 			public const int isLightTheme = 2130772005;
 			
-			// aapt resource value: 0x7f010298
-			public const int isthreestate = 2130772632;
+			// aapt resource value: 0x7f010212
+			public const int isthreestate = 2130772498;
 			
 			// aapt resource value: 0x7f010197
 			public const int itemBackground = 2130772375;
@@ -6772,24 +6337,6 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f010116
 			public const int logoDescription = 2130772246;
 			
-			// aapt resource value: 0x7f01025e
-			public const int markerPointerColor = 2130772574;
-			
-			// aapt resource value: 0x7f01025f
-			public const int markerPointerHeight = 2130772575;
-			
-			// aapt resource value: 0x7f010261
-			public const int markerPointerOffset = 2130772577;
-			
-			// aapt resource value: 0x7f01025c
-			public const int markerPointerValue = 2130772572;
-			
-			// aapt resource value: 0x7f010260
-			public const int markerPointerWidth = 2130772576;
-			
-			// aapt resource value: 0x7f01025d
-			public const int markerShape = 2130772573;
-			
 			// aapt resource value: 0x7f010128
 			public const int materialButtonStyle = 2130772264;
 			
@@ -6804,9 +6351,6 @@ namespace MealPlanner.Droid
 			
 			// aapt resource value: 0x7f01018b
 			public const int maxImageSize = 2130772363;
-			
-			// aapt resource value: 0x7f010278
-			public const int maximumLabels = 2130772600;
 			
 			// aapt resource value: 0x7f0100dd
 			public const int measureWithLargestChild = 2130772189;
@@ -6867,45 +6411,6 @@ namespace MealPlanner.Droid
 			
 			// aapt resource value: 0x7f01012a
 			public const int navigationViewStyle = 2130772266;
-			
-			// aapt resource value: 0x7f010249
-			public const int needlePointerColor = 2130772553;
-			
-			// aapt resource value: 0x7f01024e
-			public const int needlePointerKnobColor = 2130772558;
-			
-			// aapt resource value: 0x7f01024c
-			public const int needlePointerKnobRadius = 2130772556;
-			
-			// aapt resource value: 0x7f01024d
-			public const int needlePointerKnobStrokeColor = 2130772557;
-			
-			// aapt resource value: 0x7f01024f
-			public const int needlePointerKnobStrokeWidth = 2130772559;
-			
-			// aapt resource value: 0x7f01024b
-			public const int needlePointerLengthFactor = 2130772555;
-			
-			// aapt resource value: 0x7f010250
-			public const int needlePointerTailColor = 2130772560;
-			
-			// aapt resource value: 0x7f010251
-			public const int needlePointerTailLengthFactor = 2130772561;
-			
-			// aapt resource value: 0x7f010253
-			public const int needlePointerTailStrokeColor = 2130772563;
-			
-			// aapt resource value: 0x7f010252
-			public const int needlePointerTailStrokeWidth = 2130772562;
-			
-			// aapt resource value: 0x7f010248
-			public const int needlePointerType = 2130772552;
-			
-			// aapt resource value: 0x7f010247
-			public const int needlePointerValue = 2130772551;
-			
-			// aapt resource value: 0x7f01024a
-			public const int needlePointerWidth = 2130772554;
 			
 			// aapt resource value: 0x7f0100e1
 			public const int numericModifiers = 2130772193;
@@ -7057,63 +6562,6 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0100c6
 			public const int radioButtonStyle = 2130772166;
 			
-			// aapt resource value: 0x7f010283
-			public const int rangeColor = 2130772611;
-			
-			// aapt resource value: 0x7f01027f
-			public const int rangeEndValue = 2130772607;
-			
-			// aapt resource value: 0x7f010281
-			public const int rangeEndWidth = 2130772609;
-			
-			// aapt resource value: 0x7f010244
-			public const int rangeInnerEndOffset = 2130772548;
-			
-			// aapt resource value: 0x7f010243
-			public const int rangeInnerStartOffset = 2130772547;
-			
-			// aapt resource value: 0x7f010282
-			public const int rangeOffset = 2130772610;
-			
-			// aapt resource value: 0x7f010246
-			public const int rangeOuterEndOffset = 2130772550;
-			
-			// aapt resource value: 0x7f010245
-			public const int rangeOuterStartOffset = 2130772549;
-			
-			// aapt resource value: 0x7f01025b
-			public const int rangePointerCap = 2130772571;
-			
-			// aapt resource value: 0x7f010256
-			public const int rangePointerColor = 2130772566;
-			
-			// aapt resource value: 0x7f01025a
-			public const int rangePointerEndOffset = 2130772570;
-			
-			// aapt resource value: 0x7f010258
-			public const int rangePointerOffset = 2130772568;
-			
-			// aapt resource value: 0x7f010259
-			public const int rangePointerStartOffset = 2130772569;
-			
-			// aapt resource value: 0x7f010254
-			public const int rangePointerStartValue = 2130772564;
-			
-			// aapt resource value: 0x7f010255
-			public const int rangePointerValue = 2130772565;
-			
-			// aapt resource value: 0x7f010257
-			public const int rangePointerWidth = 2130772567;
-			
-			// aapt resource value: 0x7f01027e
-			public const int rangeStartValue = 2130772606;
-			
-			// aapt resource value: 0x7f010280
-			public const int rangeStartWidth = 2130772608;
-			
-			// aapt resource value: 0x7f010240
-			public const int rangeWidth = 2130772544;
-			
 			// aapt resource value: 0x7f0100c7
 			public const int ratingBarStyle = 2130772167;
 			
@@ -7165,159 +6613,6 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f01012b
 			public const int rippleColor = 2130772267;
 			
-			// aapt resource value: 0x7f010223
-			public const int scaleAutoAngle = 2130772515;
-			
-			// aapt resource value: 0x7f010217
-			public const int scaleAutoInterval = 2130772503;
-			
-			// aapt resource value: 0x7f01026d
-			public const int scaleBarColor = 2130772589;
-			
-			// aapt resource value: 0x7f01026f
-			public const int scaleBarLength = 2130772591;
-			
-			// aapt resource value: 0x7f01026e
-			public const int scaleBarSize = 2130772590;
-			
-			// aapt resource value: 0x7f01027c
-			public const int scaleCornerRadius = 2130772604;
-			
-			// aapt resource value: 0x7f01027b
-			public const int scaleCornerRadiusType = 2130772603;
-			
-			// aapt resource value: 0x7f01027a
-			public const int scaleDirection = 2130772602;
-			
-			// aapt resource value: 0x7f010213
-			public const int scaleEndAngle = 2130772499;
-			
-			// aapt resource value: 0x7f010222
-			public const int scaleEndOffset = 2130772514;
-			
-			// aapt resource value: 0x7f010215
-			public const int scaleEndValue = 2130772501;
-			
-			// aapt resource value: 0x7f010264
-			public const int scaleInterval = 2130772580;
-			
-			// aapt resource value: 0x7f010270
-			public const int scaleLabelColor = 2130772592;
-			
-			// aapt resource value: 0x7f010273
-			public const int scaleLabelFontSize = 2130772595;
-			
-			// aapt resource value: 0x7f010274
-			public const int scaleLabelOffset = 2130772596;
-			
-			// aapt resource value: 0x7f010272
-			public const int scaleLabelPostfix = 2130772594;
-			
-			// aapt resource value: 0x7f010271
-			public const int scaleLabelPrefix = 2130772593;
-			
-			// aapt resource value: 0x7f010266
-			public const int scaleMajorTickColor = 2130772582;
-			
-			// aapt resource value: 0x7f01022e
-			public const int scaleMajorTickEndOffset = 2130772526;
-			
-			// aapt resource value: 0x7f010265
-			public const int scaleMajorTickLength = 2130772581;
-			
-			// aapt resource value: 0x7f010268
-			public const int scaleMajorTickOffset = 2130772584;
-			
-			// aapt resource value: 0x7f010229
-			public const int scaleMajorTickSize = 2130772521;
-			
-			// aapt resource value: 0x7f01022d
-			public const int scaleMajorTickStartOffset = 2130772525;
-			
-			// aapt resource value: 0x7f010267
-			public const int scaleMajorTickStrokeWidth = 2130772583;
-			
-			// aapt resource value: 0x7f01022b
-			public const int scaleMajorTickWidth = 2130772523;
-			
-			// aapt resource value: 0x7f010263
-			public const int scaleMaximum = 2130772579;
-			
-			// aapt resource value: 0x7f010262
-			public const int scaleMinimum = 2130772578;
-			
-			// aapt resource value: 0x7f01026a
-			public const int scaleMinorTickColor = 2130772586;
-			
-			// aapt resource value: 0x7f010234
-			public const int scaleMinorTickEndOffset = 2130772532;
-			
-			// aapt resource value: 0x7f010269
-			public const int scaleMinorTickLength = 2130772585;
-			
-			// aapt resource value: 0x7f01026c
-			public const int scaleMinorTickOffset = 2130772588;
-			
-			// aapt resource value: 0x7f01022f
-			public const int scaleMinorTickSize = 2130772527;
-			
-			// aapt resource value: 0x7f010233
-			public const int scaleMinorTickStartOffset = 2130772531;
-			
-			// aapt resource value: 0x7f01026b
-			public const int scaleMinorTickStrokeWidth = 2130772587;
-			
-			// aapt resource value: 0x7f010231
-			public const int scaleMinorTickWidth = 2130772529;
-			
-			// aapt resource value: 0x7f010277
-			public const int scaleMinorTicksPerInterval = 2130772599;
-			
-			// aapt resource value: 0x7f01023d
-			public const int scaleNumberofDecimalDigits = 2130772541;
-			
-			// aapt resource value: 0x7f01027d
-			public const int scaleOffset = 2130772605;
-			
-			// aapt resource value: 0x7f010279
-			public const int scaleOpposedPosition = 2130772601;
-			
-			// aapt resource value: 0x7f01028e
-			public const int scaleOrientation = 2130772622;
-			
-			// aapt resource value: 0x7f01023c
-			public const int scaleRadiusFactor = 2130772540;
-			
-			// aapt resource value: 0x7f010235
-			public const int scaleRimColor = 2130772533;
-			
-			// aapt resource value: 0x7f010236
-			public const int scaleRimWidth = 2130772534;
-			
-			// aapt resource value: 0x7f01021f
-			public const int scaleShowFirstLabel = 2130772511;
-			
-			// aapt resource value: 0x7f010275
-			public const int scaleShowLabels = 2130772597;
-			
-			// aapt resource value: 0x7f010220
-			public const int scaleShowLastLabel = 2130772512;
-			
-			// aapt resource value: 0x7f01023b
-			public const int scaleShowRim = 2130772539;
-			
-			// aapt resource value: 0x7f010276
-			public const int scaleShowTicks = 2130772598;
-			
-			// aapt resource value: 0x7f010212
-			public const int scaleStartAngle = 2130772498;
-			
-			// aapt resource value: 0x7f010221
-			public const int scaleStartOffset = 2130772513;
-			
-			// aapt resource value: 0x7f010214
-			public const int scaleStartValue = 2130772500;
-			
 			// aapt resource value: 0x7f01017f
 			public const int scrimAnimationDuration = 2130772351;
 			
@@ -7339,44 +6634,41 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0100ca
 			public const int seekBarStyle = 2130772170;
 			
-			// aapt resource value: 0x7f01029c
-			public const int segmentBackColor = 2130772636;
+			// aapt resource value: 0x7f010216
+			public const int segmentBackColor = 2130772502;
 			
-			// aapt resource value: 0x7f01029d
-			public const int segmentBorderColor = 2130772637;
+			// aapt resource value: 0x7f010217
+			public const int segmentBorderColor = 2130772503;
 			
-			// aapt resource value: 0x7f01029e
-			public const int segmentBorderThickness = 2130772638;
+			// aapt resource value: 0x7f010218
+			public const int segmentBorderThickness = 2130772504;
 			
-			// aapt resource value: 0x7f01029f
-			public const int segmentColor = 2130772639;
+			// aapt resource value: 0x7f010219
+			public const int segmentColor = 2130772505;
 			
-			// aapt resource value: 0x7f0102a4
-			public const int segmentCornerRadius = 2130772644;
+			// aapt resource value: 0x7f01021e
+			public const int segmentCornerRadius = 2130772510;
 			
-			// aapt resource value: 0x7f0102a6
-			public const int segmentDisplayMode = 2130772646;
+			// aapt resource value: 0x7f010220
+			public const int segmentDisplayMode = 2130772512;
 			
-			// aapt resource value: 0x7f0102a5
-			public const int segmentPosition = 2130772645;
+			// aapt resource value: 0x7f01021f
+			public const int segmentPosition = 2130772511;
 			
-			// aapt resource value: 0x7f01029b
-			public const int segmentSelectedIndex = 2130772635;
+			// aapt resource value: 0x7f010215
+			public const int segmentSelectedIndex = 2130772501;
 			
-			// aapt resource value: 0x7f0102a3
-			public const int segmentStrokeThickness = 2130772643;
+			// aapt resource value: 0x7f01021d
+			public const int segmentStrokeThickness = 2130772509;
 			
-			// aapt resource value: 0x7f010293
-			public const int segmentStrokeWidth = 2130772627;
+			// aapt resource value: 0x7f01021b
+			public const int segmentedHeight = 2130772507;
 			
-			// aapt resource value: 0x7f0102a1
-			public const int segmentedHeight = 2130772641;
+			// aapt resource value: 0x7f01021a
+			public const int segmentedPadding = 2130772506;
 			
-			// aapt resource value: 0x7f0102a0
-			public const int segmentedPadding = 2130772640;
-			
-			// aapt resource value: 0x7f0102a2
-			public const int segmentedWidth = 2130772642;
+			// aapt resource value: 0x7f01021c
+			public const int segmentedWidth = 2130772508;
 			
 			// aapt resource value: 0x7f01008f
 			public const int selectableItemBackground = 2130772111;
@@ -7444,8 +6736,8 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f010142
 			public const int state_collapsible = 2130772290;
 			
-			// aapt resource value: 0x7f010297
-			public const int state_indeterminate = 2130772631;
+			// aapt resource value: 0x7f010211
+			public const int state_indeterminate = 2130772497;
 			
 			// aapt resource value: 0x7f010144
 			public const int state_liftable = 2130772292;
@@ -7497,21 +6789,6 @@ namespace MealPlanner.Droid
 			
 			// aapt resource value: 0x7f010103
 			public const int switchTextAppearance = 2130772227;
-			
-			// aapt resource value: 0x7f01028a
-			public const int symbolPointerColor = 2130772618;
-			
-			// aapt resource value: 0x7f01028c
-			public const int symbolPointerOffset = 2130772620;
-			
-			// aapt resource value: 0x7f01028b
-			public const int symbolPointerStrokeWidth = 2130772619;
-			
-			// aapt resource value: 0x7f010289
-			public const int symbolPointerValue = 2130772617;
-			
-			// aapt resource value: 0x7f01028d
-			public const int symbolPosition = 2130772621;
 			
 			// aapt resource value: 0x7f0101a4
 			public const int tabBackground = 2130772388;
@@ -8665,8 +7942,8 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0a009a
 			public const int design_textinput_caption_translate_y = 2131361946;
 			
-			// aapt resource value: 0x7f0a00e5
-			public const int disabledAlpha = 2131362021;
+			// aapt resource value: 0x7f0a00e3
+			public const int disabledAlpha = 2131362019;
 			
 			// aapt resource value: 0x7f0a005a
 			public const int disabled_alpha_material_dark = 2131361882;
@@ -8919,12 +8196,6 @@ namespace MealPlanner.Droid
 			
 			// aapt resource value: 0x7f0a00e2
 			public const int notification_top_pad_large_text = 2131362018;
-			
-			// aapt resource value: 0x7f0a00e4
-			public const int pading_bottom = 2131362020;
-			
-			// aapt resource value: 0x7f0a00e3
-			public const int pading_top = 2131362019;
 			
 			// aapt resource value: 0x7f0a006b
 			public const int subtitle_corner_radius = 2131361899;
@@ -10275,8 +9546,8 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0b0039
 			public const int ALT = 2131427385;
 			
-			// aapt resource value: 0x7f0b014f
-			public const int BorderView = 2131427663;
+			// aapt resource value: 0x7f0b0128
+			public const int BorderView = 2131427624;
 			
 			// aapt resource value: 0x7f0b003a
 			public const int CTRL = 2131427386;
@@ -10305,41 +9576,41 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0b006d
 			public const int TopLeft = 2131427437;
 			
-			// aapt resource value: 0x7f0b0131
-			public const int action0 = 2131427633;
+			// aapt resource value: 0x7f0b010a
+			public const int action0 = 2131427594;
 			
-			// aapt resource value: 0x7f0b00bc
-			public const int action_bar = 2131427516;
+			// aapt resource value: 0x7f0b0099
+			public const int action_bar = 2131427481;
 			
 			// aapt resource value: 0x7f0b0001
 			public const int action_bar_activity_content = 2131427329;
 			
-			// aapt resource value: 0x7f0b00bb
-			public const int action_bar_container = 2131427515;
+			// aapt resource value: 0x7f0b0098
+			public const int action_bar_container = 2131427480;
 			
-			// aapt resource value: 0x7f0b00b7
-			public const int action_bar_root = 2131427511;
+			// aapt resource value: 0x7f0b0094
+			public const int action_bar_root = 2131427476;
 			
 			// aapt resource value: 0x7f0b0002
 			public const int action_bar_spinner = 2131427330;
 			
+			// aapt resource value: 0x7f0b0077
+			public const int action_bar_subtitle = 2131427447;
+			
+			// aapt resource value: 0x7f0b0076
+			public const int action_bar_title = 2131427446;
+			
+			// aapt resource value: 0x7f0b0107
+			public const int action_container = 2131427591;
+			
 			// aapt resource value: 0x7f0b009a
-			public const int action_bar_subtitle = 2131427482;
+			public const int action_context_bar = 2131427482;
 			
-			// aapt resource value: 0x7f0b0099
-			public const int action_bar_title = 2131427481;
+			// aapt resource value: 0x7f0b010e
+			public const int action_divider = 2131427598;
 			
-			// aapt resource value: 0x7f0b012e
-			public const int action_container = 2131427630;
-			
-			// aapt resource value: 0x7f0b00bd
-			public const int action_context_bar = 2131427517;
-			
-			// aapt resource value: 0x7f0b0135
-			public const int action_divider = 2131427637;
-			
-			// aapt resource value: 0x7f0b012f
-			public const int action_image = 2131427631;
+			// aapt resource value: 0x7f0b0108
+			public const int action_image = 2131427592;
 			
 			// aapt resource value: 0x7f0b0003
 			public const int action_menu_divider = 2131427331;
@@ -10347,29 +9618,29 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0b0004
 			public const int action_menu_presenter = 2131427332;
 			
-			// aapt resource value: 0x7f0b00b9
-			public const int action_mode_bar = 2131427513;
+			// aapt resource value: 0x7f0b0096
+			public const int action_mode_bar = 2131427478;
 			
-			// aapt resource value: 0x7f0b00b8
-			public const int action_mode_bar_stub = 2131427512;
+			// aapt resource value: 0x7f0b0095
+			public const int action_mode_bar_stub = 2131427477;
 			
-			// aapt resource value: 0x7f0b009b
-			public const int action_mode_close_button = 2131427483;
+			// aapt resource value: 0x7f0b0078
+			public const int action_mode_close_button = 2131427448;
 			
-			// aapt resource value: 0x7f0b0130
-			public const int action_text = 2131427632;
+			// aapt resource value: 0x7f0b0109
+			public const int action_text = 2131427593;
 			
-			// aapt resource value: 0x7f0b013e
-			public const int actions = 2131427646;
+			// aapt resource value: 0x7f0b0117
+			public const int actions = 2131427607;
 			
-			// aapt resource value: 0x7f0b009c
-			public const int activity_chooser_view_content = 2131427484;
+			// aapt resource value: 0x7f0b0079
+			public const int activity_chooser_view_content = 2131427449;
 			
 			// aapt resource value: 0x7f0b002e
 			public const int add = 2131427374;
 			
-			// aapt resource value: 0x7f0b00ae
-			public const int alertTitle = 2131427502;
+			// aapt resource value: 0x7f0b008b
+			public const int alertTitle = 2131427467;
 			
 			// aapt resource value: 0x7f0b0064
 			public const int all = 2131427428;
@@ -10377,11 +9648,8 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0b003f
 			public const int always = 2131427391;
 			
-			// aapt resource value: 0x7f0b00de
-			public const int annotationLayout = 2131427550;
-			
-			// aapt resource value: 0x7f0b0070
-			public const int anticlockwise = 2131427440;
+			// aapt resource value: 0x7f0b00bb
+			public const int annotationLayout = 2131427515;
 			
 			// aapt resource value: 0x7f0b0065
 			public const int async = 2131427429;
@@ -10389,17 +9657,8 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0b004d
 			public const int auto = 2131427405;
 			
-			// aapt resource value: 0x7f0b008c
-			public const int away = 2131427468;
-			
-			// aapt resource value: 0x7f0b00db
-			public const int axisLayout = 2131427547;
-			
-			// aapt resource value: 0x7f0b008a
-			public const int backward = 2131427466;
-			
-			// aapt resource value: 0x7f0b0082
-			public const int bar = 2131427458;
+			// aapt resource value: 0x7f0b00b8
+			public const int axisLayout = 2131427512;
 			
 			// aapt resource value: 0x7f0b0036
 			public const int beginning = 2131427382;
@@ -10407,47 +9666,44 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0b0066
 			public const int blocking = 2131427430;
 			
-			// aapt resource value: 0x7f0b0097
-			public const int border = 2131427479;
-			
-			// aapt resource value: 0x7f0b0084
-			public const int both = 2131427460;
+			// aapt resource value: 0x7f0b0073
+			public const int border = 2131427443;
 			
 			// aapt resource value: 0x7f0b0044
 			public const int bottom = 2131427396;
 			
-			// aapt resource value: 0x7f0b0142
-			public const int bottom_labels = 2131427650;
+			// aapt resource value: 0x7f0b011b
+			public const int bottom_labels = 2131427611;
 			
-			// aapt resource value: 0x7f0b00cc
-			public const int bottomtab_navarea = 2131427532;
+			// aapt resource value: 0x7f0b00a9
+			public const int bottomtab_navarea = 2131427497;
 			
-			// aapt resource value: 0x7f0b00cd
-			public const int bottomtab_tabbar = 2131427533;
+			// aapt resource value: 0x7f0b00aa
+			public const int bottomtab_tabbar = 2131427498;
 			
-			// aapt resource value: 0x7f0b00cf
-			public const int browser_actions_header_text = 2131427535;
+			// aapt resource value: 0x7f0b00ac
+			public const int browser_actions_header_text = 2131427500;
 			
-			// aapt resource value: 0x7f0b00d1
-			public const int browser_actions_menu_item_icon = 2131427537;
+			// aapt resource value: 0x7f0b00ae
+			public const int browser_actions_menu_item_icon = 2131427502;
 			
-			// aapt resource value: 0x7f0b00d2
-			public const int browser_actions_menu_item_text = 2131427538;
+			// aapt resource value: 0x7f0b00af
+			public const int browser_actions_menu_item_text = 2131427503;
 			
-			// aapt resource value: 0x7f0b00d0
-			public const int browser_actions_menu_items = 2131427536;
+			// aapt resource value: 0x7f0b00ad
+			public const int browser_actions_menu_items = 2131427501;
 			
-			// aapt resource value: 0x7f0b00ce
-			public const int browser_actions_menu_view = 2131427534;
+			// aapt resource value: 0x7f0b00ab
+			public const int browser_actions_menu_view = 2131427499;
 			
-			// aapt resource value: 0x7f0b00a1
-			public const int buttonPanel = 2131427489;
+			// aapt resource value: 0x7f0b007e
+			public const int buttonPanel = 2131427454;
 			
-			// aapt resource value: 0x7f0b0132
-			public const int cancel_action = 2131427634;
+			// aapt resource value: 0x7f0b010b
+			public const int cancel_action = 2131427595;
 			
-			// aapt resource value: 0x7f0b00d3
-			public const int cardView = 2131427539;
+			// aapt resource value: 0x7f0b00b0
+			public const int cardView = 2131427504;
 			
 			// aapt resource value: 0x7f0b004c
 			public const int center = 2131427404;
@@ -10458,23 +9714,20 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0b0052
 			public const int center_vertical = 2131427410;
 			
-			// aapt resource value: 0x7f0b00dd
-			public const int chartBehaviorLayout = 2131427549;
+			// aapt resource value: 0x7f0b00ba
+			public const int chartBehaviorLayout = 2131427514;
 			
-			// aapt resource value: 0x7f0b00e1
-			public const int chartLegendScrollView = 2131427553;
+			// aapt resource value: 0x7f0b00be
+			public const int chartLegendScrollView = 2131427518;
 			
-			// aapt resource value: 0x7f0b00b5
-			public const int checkbox = 2131427509;
+			// aapt resource value: 0x7f0b0092
+			public const int checkbox = 2131427474;
 			
-			// aapt resource value: 0x7f0b0094
-			public const int @checked = 2131427476;
+			// aapt resource value: 0x7f0b0070
+			public const int @checked = 2131427440;
 			
-			// aapt resource value: 0x7f0b013a
-			public const int chronometer = 2131427642;
-			
-			// aapt resource value: 0x7f0b0085
-			public const int circle = 2131427461;
+			// aapt resource value: 0x7f0b0113
+			public const int chronometer = 2131427603;
 			
 			// aapt resource value: 0x7f0b0061
 			public const int clip_horizontal = 2131427425;
@@ -10482,77 +9735,65 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0b0062
 			public const int clip_vertical = 2131427426;
 			
-			// aapt resource value: 0x7f0b0071
-			public const int clockwise = 2131427441;
-			
 			// aapt resource value: 0x7f0b0040
 			public const int collapseActionView = 2131427392;
 			
-			// aapt resource value: 0x7f0b00ef
-			public const int container = 2131427567;
+			// aapt resource value: 0x7f0b00cc
+			public const int container = 2131427532;
 			
-			// aapt resource value: 0x7f0b00b1
-			public const int content = 2131427505;
+			// aapt resource value: 0x7f0b008e
+			public const int content = 2131427470;
 			
-			// aapt resource value: 0x7f0b00a4
-			public const int contentPanel = 2131427492;
+			// aapt resource value: 0x7f0b0081
+			public const int contentPanel = 2131427457;
 			
-			// aapt resource value: 0x7f0b00f0
-			public const int coordinator = 2131427568;
+			// aapt resource value: 0x7f0b00cd
+			public const int coordinator = 2131427533;
 			
-			// aapt resource value: 0x7f0b00ab
-			public const int custom = 2131427499;
+			// aapt resource value: 0x7f0b0088
+			public const int custom = 2131427464;
 			
-			// aapt resource value: 0x7f0b00aa
-			public const int customPanel = 2131427498;
+			// aapt resource value: 0x7f0b0087
+			public const int customPanel = 2131427463;
 			
-			// aapt resource value: 0x7f0b00d9
-			public const int dataMarkerLayout = 2131427545;
+			// aapt resource value: 0x7f0b00b6
+			public const int dataMarkerLayout = 2131427510;
 			
-			// aapt resource value: 0x7f0b00ba
-			public const int decor_content_parent = 2131427514;
+			// aapt resource value: 0x7f0b0097
+			public const int decor_content_parent = 2131427479;
 			
-			// aapt resource value: 0x7f0b009e
-			public const int default_activity_button = 2131427486;
+			// aapt resource value: 0x7f0b007b
+			public const int default_activity_button = 2131427451;
 			
-			// aapt resource value: 0x7f0b00ea
-			public const int description = 2131427562;
+			// aapt resource value: 0x7f0b00c7
+			public const int description = 2131427527;
 			
-			// aapt resource value: 0x7f0b00f2
-			public const int design_bottom_sheet = 2131427570;
+			// aapt resource value: 0x7f0b00cf
+			public const int design_bottom_sheet = 2131427535;
 			
-			// aapt resource value: 0x7f0b00f7
-			public const int design_menu_item_action_area = 2131427575;
+			// aapt resource value: 0x7f0b00d4
+			public const int design_menu_item_action_area = 2131427540;
 			
-			// aapt resource value: 0x7f0b00f6
-			public const int design_menu_item_action_area_stub = 2131427574;
+			// aapt resource value: 0x7f0b00d3
+			public const int design_menu_item_action_area_stub = 2131427539;
 			
-			// aapt resource value: 0x7f0b00f5
-			public const int design_menu_item_text = 2131427573;
+			// aapt resource value: 0x7f0b00d2
+			public const int design_menu_item_text = 2131427538;
 			
-			// aapt resource value: 0x7f0b00f4
-			public const int design_navigation_view = 2131427572;
-			
-			// aapt resource value: 0x7f0b0086
-			public const int diamond = 2131427462;
+			// aapt resource value: 0x7f0b00d1
+			public const int design_navigation_view = 2131427537;
 			
 			// aapt resource value: 0x7f0b0027
 			public const int disableHome = 2131427367;
 			
-			// aapt resource value: 0x7f0b00be
-			public const int edit_query = 2131427518;
-			
-			// aapt resource value: 0x7f0b0090
-			public const int eightCrossEightDotMatrix = 2131427472;
-			
-			// aapt resource value: 0x7f0b00fa
-			public const int eightsegment = 2131427578;
+			// aapt resource value: 0x7f0b009b
+			public const int edit_query = 2131427483;
 			
 			// aapt resource value: 0x7f0b0037
 			public const int end = 2131427383;
 			
-			// aapt resource value: 0x7f0b0140
-			public const int end_padder = 2131427648;
+			// aapt resource value: 0x7f0b0119
+			public const int end_padder = 2131427609;
 			
 			// aapt resource value: 0x7f0b0046
 			public const int enterAlways = 2131427398;
@@ -10566,14 +9807,11 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0b0048
 			public const int exitUntilCollapsed = 2131427400;
 			
-			// aapt resource value: 0x7f0b009d
-			public const int expand_activities_button = 2131427485;
+			// aapt resource value: 0x7f0b007a
+			public const int expand_activities_button = 2131427450;
 			
-			// aapt resource value: 0x7f0b00b4
-			public const int expanded_menu = 2131427508;
-			
-			// aapt resource value: 0x7f0b008d
-			public const int far = 2131427469;
+			// aapt resource value: 0x7f0b0091
+			public const int expanded_menu = 2131427473;
 			
 			// aapt resource value: 0x7f0b005e
 			public const int fill = 2131427422;
@@ -10590,86 +9828,32 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0b005c
 			public const int @fixed = 2131427420;
 			
-			// aapt resource value: 0x7f0b00fd
-			public const int flyoutcontent_appbar = 2131427581;
+			// aapt resource value: 0x7f0b00d6
+			public const int flyoutcontent_appbar = 2131427542;
 			
-			// aapt resource value: 0x7f0b00fe
-			public const int flyoutcontent_recycler = 2131427582;
+			// aapt resource value: 0x7f0b00d7
+			public const int flyoutcontent_recycler = 2131427543;
 			
 			// aapt resource value: 0x7f0b0067
 			public const int forever = 2131427431;
 			
-			// aapt resource value: 0x7f0b008b
-			public const int forward = 2131427467;
-			
-			// aapt resource value: 0x7f0b00fb
-			public const int fourteensegment = 2131427579;
-			
-			// aapt resource value: 0x7f0b0078
-			public const int gaugeBottom = 2131427448;
-			
-			// aapt resource value: 0x7f0b0079
-			public const int gaugeBottomLeft = 2131427449;
-			
-			// aapt resource value: 0x7f0b007a
-			public const int gaugeBottomRight = 2131427450;
-			
-			// aapt resource value: 0x7f0b007b
-			public const int gaugeCenter = 2131427451;
-			
-			// aapt resource value: 0x7f0b007c
-			public const int gaugeCustom = 2131427452;
-			
-			// aapt resource value: 0x7f0b0072
-			public const int gaugeHorizontalHeaderCenter = 2131427442;
-			
-			// aapt resource value: 0x7f0b0073
-			public const int gaugeHorizontalHeaderEnd = 2131427443;
-			
-			// aapt resource value: 0x7f0b0074
-			public const int gaugeHorizontalHeaderStart = 2131427444;
-			
-			// aapt resource value: 0x7f0b007d
-			public const int gaugeLeft = 2131427453;
-			
-			// aapt resource value: 0x7f0b007e
-			public const int gaugeRight = 2131427454;
-			
-			// aapt resource value: 0x7f0b007f
-			public const int gaugeTop = 2131427455;
-			
-			// aapt resource value: 0x7f0b0080
-			public const int gaugeTopLeft = 2131427456;
-			
-			// aapt resource value: 0x7f0b0081
-			public const int gaugeTopRight = 2131427457;
-			
-			// aapt resource value: 0x7f0b0075
-			public const int gaugeVerticalHeaderCenter = 2131427445;
-			
-			// aapt resource value: 0x7f0b0076
-			public const int gaugeVerticalHeaderEnd = 2131427446;
-			
-			// aapt resource value: 0x7f0b0077
-			public const int gaugeVerticalHeaderStart = 2131427447;
-			
 			// aapt resource value: 0x7f0b000a
 			public const int ghost_view = 2131427338;
 			
-			// aapt resource value: 0x7f0b00d6
-			public const int gridLineLayout = 2131427542;
+			// aapt resource value: 0x7f0b00b3
+			public const int gridLineLayout = 2131427507;
 			
-			// aapt resource value: 0x7f0b0143
-			public const int gridLinesLayout = 2131427651;
+			// aapt resource value: 0x7f0b011c
+			public const int gridLinesLayout = 2131427612;
 			
-			// aapt resource value: 0x7f0b00b0
-			public const int group_divider = 2131427504;
+			// aapt resource value: 0x7f0b008d
+			public const int group_divider = 2131427469;
 			
 			// aapt resource value: 0x7f0b006a
 			public const int half = 2131427434;
 			
-			// aapt resource value: 0x7f0b00e8
-			public const int header = 2131427560;
+			// aapt resource value: 0x7f0b00c5
+			public const int header = 2131427525;
 			
 			// aapt resource value: 0x7f0b0005
 			public const int home = 2131427333;
@@ -10677,35 +9861,29 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0b0028
 			public const int homeAsUp = 2131427368;
 			
-			// aapt resource value: 0x7f0b008e
-			public const int horizontal = 2131427470;
+			// aapt resource value: 0x7f0b007d
+			public const int icon = 2131427453;
 			
-			// aapt resource value: 0x7f0b00a0
-			public const int icon = 2131427488;
+			// aapt resource value: 0x7f0b00c1
+			public const int iconView = 2131427521;
 			
-			// aapt resource value: 0x7f0b00e4
-			public const int iconView = 2131427556;
-			
-			// aapt resource value: 0x7f0b013f
-			public const int icon_group = 2131427647;
+			// aapt resource value: 0x7f0b0118
+			public const int icon_group = 2131427608;
 			
 			// aapt resource value: 0x7f0b0041
 			public const int ifRoom = 2131427393;
 			
-			// aapt resource value: 0x7f0b0087
-			public const int image = 2131427463;
+			// aapt resource value: 0x7f0b0074
+			public const int image = 2131427444;
 			
-			// aapt resource value: 0x7f0b0098
-			public const int imagewithtext = 2131427480;
+			// aapt resource value: 0x7f0b0075
+			public const int imagewithtext = 2131427445;
 			
-			// aapt resource value: 0x7f0b0095
-			public const int indeterminate = 2131427477;
+			// aapt resource value: 0x7f0b0071
+			public const int indeterminate = 2131427441;
 			
-			// aapt resource value: 0x7f0b013b
-			public const int info = 2131427643;
-			
-			// aapt resource value: 0x7f0b0088
-			public const int invertedTriangle = 2131427464;
+			// aapt resource value: 0x7f0b0114
+			public const int info = 2131427604;
 			
 			// aapt resource value: 0x7f0b0068
 			public const int italic = 2131427432;
@@ -10713,32 +9891,32 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0b0000
 			public const int item_touch_helper_previous_elevation = 2131427328;
 			
-			// aapt resource value: 0x7f0b00e5
-			public const int label = 2131427557;
+			// aapt resource value: 0x7f0b00c2
+			public const int label = 2131427522;
 			
 			// aapt resource value: 0x7f0b004e
 			public const int labeled = 2131427406;
 			
-			// aapt resource value: 0x7f0b00ee
-			public const int largeLabel = 2131427566;
+			// aapt resource value: 0x7f0b00cb
+			public const int largeLabel = 2131427531;
 			
 			// aapt resource value: 0x7f0b0054
 			public const int left = 2131427412;
 			
-			// aapt resource value: 0x7f0b00e0
-			public const int legendHeader = 2131427552;
+			// aapt resource value: 0x7f0b00bd
+			public const int legendHeader = 2131427517;
 			
-			// aapt resource value: 0x7f0b00e3
-			public const int legendItemsLayout = 2131427555;
+			// aapt resource value: 0x7f0b00c0
+			public const int legendItemsLayout = 2131427520;
 			
-			// aapt resource value: 0x7f0b00dc
-			public const int legendLayout = 2131427548;
+			// aapt resource value: 0x7f0b00b9
+			public const int legendLayout = 2131427513;
 			
-			// aapt resource value: 0x7f0b00e2
-			public const int legendScrollView = 2131427554;
+			// aapt resource value: 0x7f0b00bf
+			public const int legendScrollView = 2131427519;
 			
-			// aapt resource value: 0x7f0b00df
-			public const int legendViewGroup = 2131427551;
+			// aapt resource value: 0x7f0b00bc
+			public const int legendViewGroup = 2131427516;
 			
 			// aapt resource value: 0x7f0b001c
 			public const int line1 = 2131427356;
@@ -10749,29 +9927,29 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0b0024
 			public const int listMode = 2131427364;
 			
-			// aapt resource value: 0x7f0b009f
-			public const int list_item = 2131427487;
+			// aapt resource value: 0x7f0b007c
+			public const int list_item = 2131427452;
 			
-			// aapt resource value: 0x7f0b0145
-			public const int main_appbar = 2131427653;
+			// aapt resource value: 0x7f0b011e
+			public const int main_appbar = 2131427614;
 			
-			// aapt resource value: 0x7f0b0147
-			public const int main_tablayout = 2131427655;
+			// aapt resource value: 0x7f0b0120
+			public const int main_tablayout = 2131427616;
 			
-			// aapt resource value: 0x7f0b0146
-			public const int main_toolbar = 2131427654;
+			// aapt resource value: 0x7f0b011f
+			public const int main_toolbar = 2131427615;
 			
-			// aapt resource value: 0x7f0b0148
-			public const int main_viewpager = 2131427656;
+			// aapt resource value: 0x7f0b0121
+			public const int main_viewpager = 2131427617;
 			
-			// aapt resource value: 0x7f0b014e
-			public const int masked = 2131427662;
+			// aapt resource value: 0x7f0b0127
+			public const int masked = 2131427623;
 			
-			// aapt resource value: 0x7f0b0134
-			public const int media_actions = 2131427636;
+			// aapt resource value: 0x7f0b010d
+			public const int media_actions = 2131427597;
 			
-			// aapt resource value: 0x7f0b00cb
-			public const int message = 2131427531;
+			// aapt resource value: 0x7f0b00a8
+			public const int message = 2131427496;
 			
 			// aapt resource value: 0x7f0b0038
 			public const int middle = 2131427384;
@@ -10779,143 +9957,143 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0b0059
 			public const int mini = 2131427417;
 			
-			// aapt resource value: 0x7f0b011b
-			public const int mr_art = 2131427611;
+			// aapt resource value: 0x7f0b00f4
+			public const int mr_art = 2131427572;
 			
-			// aapt resource value: 0x7f0b010c
-			public const int mr_cast_checkbox = 2131427596;
+			// aapt resource value: 0x7f0b00e5
+			public const int mr_cast_checkbox = 2131427557;
 			
-			// aapt resource value: 0x7f0b0105
-			public const int mr_cast_close_button = 2131427589;
+			// aapt resource value: 0x7f0b00de
+			public const int mr_cast_close_button = 2131427550;
 			
-			// aapt resource value: 0x7f0b0100
-			public const int mr_cast_group_icon = 2131427584;
+			// aapt resource value: 0x7f0b00d9
+			public const int mr_cast_group_icon = 2131427545;
 			
-			// aapt resource value: 0x7f0b0101
-			public const int mr_cast_group_name = 2131427585;
+			// aapt resource value: 0x7f0b00da
+			public const int mr_cast_group_name = 2131427546;
 			
-			// aapt resource value: 0x7f0b00ff
-			public const int mr_cast_list = 2131427583;
+			// aapt resource value: 0x7f0b00d8
+			public const int mr_cast_list = 2131427544;
 			
-			// aapt resource value: 0x7f0b0104
-			public const int mr_cast_meta = 2131427588;
+			// aapt resource value: 0x7f0b00dd
+			public const int mr_cast_meta = 2131427549;
 			
-			// aapt resource value: 0x7f0b0106
-			public const int mr_cast_meta_art = 2131427590;
+			// aapt resource value: 0x7f0b00df
+			public const int mr_cast_meta_art = 2131427551;
 			
-			// aapt resource value: 0x7f0b0108
-			public const int mr_cast_meta_subtitle = 2131427592;
+			// aapt resource value: 0x7f0b00e1
+			public const int mr_cast_meta_subtitle = 2131427553;
 			
-			// aapt resource value: 0x7f0b0107
-			public const int mr_cast_meta_title = 2131427591;
+			// aapt resource value: 0x7f0b00e0
+			public const int mr_cast_meta_title = 2131427552;
 			
-			// aapt resource value: 0x7f0b010a
-			public const int mr_cast_route_icon = 2131427594;
+			// aapt resource value: 0x7f0b00e3
+			public const int mr_cast_route_icon = 2131427555;
 			
-			// aapt resource value: 0x7f0b010b
-			public const int mr_cast_route_name = 2131427595;
+			// aapt resource value: 0x7f0b00e4
+			public const int mr_cast_route_name = 2131427556;
 			
-			// aapt resource value: 0x7f0b0109
-			public const int mr_cast_stop_button = 2131427593;
+			// aapt resource value: 0x7f0b00e2
+			public const int mr_cast_stop_button = 2131427554;
 			
-			// aapt resource value: 0x7f0b010d
-			public const int mr_cast_volume_layout = 2131427597;
+			// aapt resource value: 0x7f0b00e6
+			public const int mr_cast_volume_layout = 2131427558;
 			
-			// aapt resource value: 0x7f0b010e
-			public const int mr_cast_volume_slider = 2131427598;
+			// aapt resource value: 0x7f0b00e7
+			public const int mr_cast_volume_slider = 2131427559;
 			
-			// aapt resource value: 0x7f0b0110
-			public const int mr_chooser_list = 2131427600;
+			// aapt resource value: 0x7f0b00e9
+			public const int mr_chooser_list = 2131427561;
 			
-			// aapt resource value: 0x7f0b0113
-			public const int mr_chooser_route_desc = 2131427603;
+			// aapt resource value: 0x7f0b00ec
+			public const int mr_chooser_route_desc = 2131427564;
 			
-			// aapt resource value: 0x7f0b0111
-			public const int mr_chooser_route_icon = 2131427601;
+			// aapt resource value: 0x7f0b00ea
+			public const int mr_chooser_route_icon = 2131427562;
 			
-			// aapt resource value: 0x7f0b0112
-			public const int mr_chooser_route_name = 2131427602;
+			// aapt resource value: 0x7f0b00eb
+			public const int mr_chooser_route_name = 2131427563;
 			
-			// aapt resource value: 0x7f0b010f
-			public const int mr_chooser_title = 2131427599;
+			// aapt resource value: 0x7f0b00e8
+			public const int mr_chooser_title = 2131427560;
 			
-			// aapt resource value: 0x7f0b0118
-			public const int mr_close = 2131427608;
+			// aapt resource value: 0x7f0b00f1
+			public const int mr_close = 2131427569;
 			
-			// aapt resource value: 0x7f0b011e
-			public const int mr_control_divider = 2131427614;
-			
-			// aapt resource value: 0x7f0b0129
-			public const int mr_control_playback_ctrl = 2131427625;
-			
-			// aapt resource value: 0x7f0b012c
-			public const int mr_control_subtitle = 2131427628;
-			
-			// aapt resource value: 0x7f0b012b
-			public const int mr_control_title = 2131427627;
-			
-			// aapt resource value: 0x7f0b012a
-			public const int mr_control_title_container = 2131427626;
-			
-			// aapt resource value: 0x7f0b0119
-			public const int mr_custom_control = 2131427609;
-			
-			// aapt resource value: 0x7f0b011a
-			public const int mr_default_control = 2131427610;
-			
-			// aapt resource value: 0x7f0b0115
-			public const int mr_dialog_area = 2131427605;
-			
-			// aapt resource value: 0x7f0b0124
-			public const int mr_dialog_header_name = 2131427620;
-			
-			// aapt resource value: 0x7f0b0114
-			public const int mr_expandable_area = 2131427604;
-			
-			// aapt resource value: 0x7f0b012d
-			public const int mr_group_expand_collapse = 2131427629;
+			// aapt resource value: 0x7f0b00f7
+			public const int mr_control_divider = 2131427575;
 			
 			// aapt resource value: 0x7f0b0102
-			public const int mr_group_volume_route_name = 2131427586;
+			public const int mr_control_playback_ctrl = 2131427586;
+			
+			// aapt resource value: 0x7f0b0105
+			public const int mr_control_subtitle = 2131427589;
+			
+			// aapt resource value: 0x7f0b0104
+			public const int mr_control_title = 2131427588;
 			
 			// aapt resource value: 0x7f0b0103
-			public const int mr_group_volume_slider = 2131427587;
+			public const int mr_control_title_container = 2131427587;
 			
-			// aapt resource value: 0x7f0b011c
-			public const int mr_media_main_control = 2131427612;
+			// aapt resource value: 0x7f0b00f2
+			public const int mr_custom_control = 2131427570;
 			
-			// aapt resource value: 0x7f0b0117
-			public const int mr_name = 2131427607;
+			// aapt resource value: 0x7f0b00f3
+			public const int mr_default_control = 2131427571;
 			
-			// aapt resource value: 0x7f0b0125
-			public const int mr_picker_close_button = 2131427621;
+			// aapt resource value: 0x7f0b00ee
+			public const int mr_dialog_area = 2131427566;
 			
-			// aapt resource value: 0x7f0b0126
-			public const int mr_picker_list = 2131427622;
+			// aapt resource value: 0x7f0b00fd
+			public const int mr_dialog_header_name = 2131427581;
 			
-			// aapt resource value: 0x7f0b0127
-			public const int mr_picker_route_icon = 2131427623;
+			// aapt resource value: 0x7f0b00ed
+			public const int mr_expandable_area = 2131427565;
 			
-			// aapt resource value: 0x7f0b0128
-			public const int mr_picker_route_name = 2131427624;
+			// aapt resource value: 0x7f0b0106
+			public const int mr_group_expand_collapse = 2131427590;
 			
-			// aapt resource value: 0x7f0b011d
-			public const int mr_playback_control = 2131427613;
+			// aapt resource value: 0x7f0b00db
+			public const int mr_group_volume_route_name = 2131427547;
 			
-			// aapt resource value: 0x7f0b0116
-			public const int mr_title_bar = 2131427606;
+			// aapt resource value: 0x7f0b00dc
+			public const int mr_group_volume_slider = 2131427548;
 			
-			// aapt resource value: 0x7f0b011f
-			public const int mr_volume_control = 2131427615;
+			// aapt resource value: 0x7f0b00f5
+			public const int mr_media_main_control = 2131427573;
 			
-			// aapt resource value: 0x7f0b0120
-			public const int mr_volume_group_list = 2131427616;
+			// aapt resource value: 0x7f0b00f0
+			public const int mr_name = 2131427568;
 			
-			// aapt resource value: 0x7f0b0122
-			public const int mr_volume_item_icon = 2131427618;
+			// aapt resource value: 0x7f0b00fe
+			public const int mr_picker_close_button = 2131427582;
 			
-			// aapt resource value: 0x7f0b0123
-			public const int mr_volume_slider = 2131427619;
+			// aapt resource value: 0x7f0b00ff
+			public const int mr_picker_list = 2131427583;
+			
+			// aapt resource value: 0x7f0b0100
+			public const int mr_picker_route_icon = 2131427584;
+			
+			// aapt resource value: 0x7f0b0101
+			public const int mr_picker_route_name = 2131427585;
+			
+			// aapt resource value: 0x7f0b00f6
+			public const int mr_playback_control = 2131427574;
+			
+			// aapt resource value: 0x7f0b00ef
+			public const int mr_title_bar = 2131427567;
+			
+			// aapt resource value: 0x7f0b00f8
+			public const int mr_volume_control = 2131427576;
+			
+			// aapt resource value: 0x7f0b00f9
+			public const int mr_volume_group_list = 2131427577;
+			
+			// aapt resource value: 0x7f0b00fb
+			public const int mr_volume_item_icon = 2131427579;
+			
+			// aapt resource value: 0x7f0b00fc
+			public const int mr_volume_slider = 2131427580;
 			
 			// aapt resource value: 0x7f0b0014
 			public const int mtrl_child_content_container = 2131427348;
@@ -10926,8 +10104,8 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0b002f
 			public const int multiply = 2131427375;
 			
-			// aapt resource value: 0x7f0b00f3
-			public const int navigation_header_container = 2131427571;
+			// aapt resource value: 0x7f0b00d0
+			public const int navigation_header_container = 2131427536;
 			
 			// aapt resource value: 0x7f0b0042
 			public const int never = 2131427394;
@@ -10938,14 +10116,14 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0b0025
 			public const int normal = 2131427365;
 			
-			// aapt resource value: 0x7f0b013d
-			public const int notification_background = 2131427645;
+			// aapt resource value: 0x7f0b0116
+			public const int notification_background = 2131427606;
 			
-			// aapt resource value: 0x7f0b0137
-			public const int notification_main_column = 2131427639;
+			// aapt resource value: 0x7f0b0110
+			public const int notification_main_column = 2131427600;
 			
-			// aapt resource value: 0x7f0b0136
-			public const int notification_main_column_container = 2131427638;
+			// aapt resource value: 0x7f0b010f
+			public const int notification_main_column_container = 2131427599;
 			
 			// aapt resource value: 0x7f0b0060
 			public const int outline = 2131427424;
@@ -10953,14 +10131,14 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0b0057
 			public const int parallax = 2131427415;
 			
-			// aapt resource value: 0x7f0b00a3
-			public const int parentPanel = 2131427491;
+			// aapt resource value: 0x7f0b0080
+			public const int parentPanel = 2131427456;
 			
 			// aapt resource value: 0x7f0b000b
 			public const int parent_matrix = 2131427339;
 			
-			// aapt resource value: 0x7f0b00e9
-			public const int photo = 2131427561;
+			// aapt resource value: 0x7f0b00c6
+			public const int photo = 2131427526;
 			
 			// aapt resource value: 0x7f0b0058
 			public const int pin = 2131427416;
@@ -10971,26 +10149,23 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0b0007
 			public const int progress_horizontal = 2131427335;
 			
-			// aapt resource value: 0x7f0b00b6
-			public const int radio = 2131427510;
+			// aapt resource value: 0x7f0b0093
+			public const int radio = 2131427475;
 			
-			// aapt resource value: 0x7f0b0089
-			public const int rectangle = 2131427465;
-			
-			// aapt resource value: 0x7f0b00e7
-			public const int reportCard = 2131427559;
+			// aapt resource value: 0x7f0b00c4
+			public const int reportCard = 2131427524;
 			
 			// aapt resource value: 0x7f0b0055
 			public const int right = 2131427413;
 			
-			// aapt resource value: 0x7f0b013c
-			public const int right_icon = 2131427644;
+			// aapt resource value: 0x7f0b0115
+			public const int right_icon = 2131427605;
 			
-			// aapt resource value: 0x7f0b0138
-			public const int right_side = 2131427640;
+			// aapt resource value: 0x7f0b0111
+			public const int right_side = 2131427601;
 			
-			// aapt resource value: 0x7f0b00d4
-			public const int rootLayout = 2131427540;
+			// aapt resource value: 0x7f0b00b1
+			public const int rootLayout = 2131427505;
 			
 			// aapt resource value: 0x7f0b000c
 			public const int save_image_matrix = 2131427340;
@@ -11007,77 +10182,65 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0b0049
 			public const int scroll = 2131427401;
 			
-			// aapt resource value: 0x7f0b00a9
-			public const int scrollIndicatorDown = 2131427497;
+			// aapt resource value: 0x7f0b0086
+			public const int scrollIndicatorDown = 2131427462;
 			
-			// aapt resource value: 0x7f0b00a5
-			public const int scrollIndicatorUp = 2131427493;
+			// aapt resource value: 0x7f0b0082
+			public const int scrollIndicatorUp = 2131427458;
 			
-			// aapt resource value: 0x7f0b00a6
-			public const int scrollView = 2131427494;
+			// aapt resource value: 0x7f0b0083
+			public const int scrollView = 2131427459;
 			
 			// aapt resource value: 0x7f0b005d
 			public const int scrollable = 2131427421;
 			
-			// aapt resource value: 0x7f0b00c0
-			public const int search_badge = 2131427520;
+			// aapt resource value: 0x7f0b009d
+			public const int search_badge = 2131427485;
 			
-			// aapt resource value: 0x7f0b00bf
-			public const int search_bar = 2131427519;
+			// aapt resource value: 0x7f0b009c
+			public const int search_bar = 2131427484;
 			
-			// aapt resource value: 0x7f0b00c1
-			public const int search_button = 2131427521;
+			// aapt resource value: 0x7f0b009e
+			public const int search_button = 2131427486;
 			
-			// aapt resource value: 0x7f0b00c6
-			public const int search_close_btn = 2131427526;
+			// aapt resource value: 0x7f0b00a3
+			public const int search_close_btn = 2131427491;
 			
-			// aapt resource value: 0x7f0b00c2
-			public const int search_edit_frame = 2131427522;
+			// aapt resource value: 0x7f0b009f
+			public const int search_edit_frame = 2131427487;
 			
-			// aapt resource value: 0x7f0b00c8
-			public const int search_go_btn = 2131427528;
+			// aapt resource value: 0x7f0b00a5
+			public const int search_go_btn = 2131427493;
 			
-			// aapt resource value: 0x7f0b00c3
-			public const int search_mag_icon = 2131427523;
+			// aapt resource value: 0x7f0b00a0
+			public const int search_mag_icon = 2131427488;
 			
-			// aapt resource value: 0x7f0b00c4
-			public const int search_plate = 2131427524;
+			// aapt resource value: 0x7f0b00a1
+			public const int search_plate = 2131427489;
 			
-			// aapt resource value: 0x7f0b00c5
-			public const int search_src_text = 2131427525;
+			// aapt resource value: 0x7f0b00a2
+			public const int search_src_text = 2131427490;
 			
-			// aapt resource value: 0x7f0b00c9
-			public const int search_voice_btn = 2131427529;
+			// aapt resource value: 0x7f0b00a6
+			public const int search_voice_btn = 2131427494;
 			
-			// aapt resource value: 0x7f0b0091
-			public const int segmentFourteen = 2131427473;
-			
-			// aapt resource value: 0x7f0b0092
-			public const int segmentSeven = 2131427474;
-			
-			// aapt resource value: 0x7f0b0093
-			public const int segmentSixteen = 2131427475;
-			
-			// aapt resource value: 0x7f0b00ca
-			public const int select_dialog_listview = 2131427530;
+			// aapt resource value: 0x7f0b00a7
+			public const int select_dialog_listview = 2131427495;
 			
 			// aapt resource value: 0x7f0b004f
 			public const int selected = 2131427407;
 			
-			// aapt resource value: 0x7f0b00d8
-			public const int seriesLayout = 2131427544;
+			// aapt resource value: 0x7f0b00b5
+			public const int seriesLayout = 2131427509;
 			
-			// aapt resource value: 0x7f0b00f9
-			public const int sevensegment = 2131427577;
+			// aapt resource value: 0x7f0b0122
+			public const int shellcontent_appbar = 2131427618;
 			
-			// aapt resource value: 0x7f0b0149
-			public const int shellcontent_appbar = 2131427657;
+			// aapt resource value: 0x7f0b0123
+			public const int shellcontent_toolbar = 2131427619;
 			
-			// aapt resource value: 0x7f0b014a
-			public const int shellcontent_toolbar = 2131427658;
-			
-			// aapt resource value: 0x7f0b00b2
-			public const int shortcut = 2131427506;
+			// aapt resource value: 0x7f0b008f
+			public const int shortcut = 2131427471;
 			
 			// aapt resource value: 0x7f0b002a
 			public const int showCustom = 2131427370;
@@ -11088,14 +10251,11 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0b002c
 			public const int showTitle = 2131427372;
 			
-			// aapt resource value: 0x7f0b00fc
-			public const int sixteensegment = 2131427580;
+			// aapt resource value: 0x7f0b0124
+			public const int sliding_tabs = 2131427620;
 			
-			// aapt resource value: 0x7f0b014b
-			public const int sliding_tabs = 2131427659;
-			
-			// aapt resource value: 0x7f0b00ed
-			public const int smallLabel = 2131427565;
+			// aapt resource value: 0x7f0b00ca
+			public const int smallLabel = 2131427530;
 			
 			// aapt resource value: 0x7f0b0016
 			public const int snackbar_action = 2131427350;
@@ -11109,8 +10269,8 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0b004b
 			public const int snapMargins = 2131427403;
 			
-			// aapt resource value: 0x7f0b00a2
-			public const int spacer = 2131427490;
+			// aapt resource value: 0x7f0b007f
+			public const int spacer = 2131427455;
 			
 			// aapt resource value: 0x7f0b0008
 			public const int split_action_bar = 2131427336;
@@ -11130,26 +10290,26 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0b0056
 			public const int start = 2131427414;
 			
-			// aapt resource value: 0x7f0b00ec
-			public const int status = 2131427564;
+			// aapt resource value: 0x7f0b00c9
+			public const int status = 2131427529;
 			
-			// aapt resource value: 0x7f0b0133
-			public const int status_bar_latest_event_content = 2131427635;
+			// aapt resource value: 0x7f0b010c
+			public const int status_bar_latest_event_content = 2131427596;
 			
 			// aapt resource value: 0x7f0b005b
 			public const int stretch = 2131427419;
 			
-			// aapt resource value: 0x7f0b00d7
-			public const int stripLinesLayout = 2131427543;
+			// aapt resource value: 0x7f0b00b4
+			public const int stripLinesLayout = 2131427508;
 			
-			// aapt resource value: 0x7f0b00b3
-			public const int submenuarrow = 2131427507;
+			// aapt resource value: 0x7f0b0090
+			public const int submenuarrow = 2131427472;
 			
-			// aapt resource value: 0x7f0b00c7
-			public const int submit_area = 2131427527;
+			// aapt resource value: 0x7f0b00a4
+			public const int submit_area = 2131427492;
 			
-			// aapt resource value: 0x7f0b00e6
-			public const int syncfusionDefaultCard = 2131427558;
+			// aapt resource value: 0x7f0b00c3
+			public const int syncfusionDefaultCard = 2131427523;
 			
 			// aapt resource value: 0x7f0b0026
 			public const int tabMode = 2131427366;
@@ -11163,11 +10323,11 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0b0020
 			public const int tag_unhandled_key_listeners = 2131427360;
 			
-			// aapt resource value: 0x7f0b00eb
-			public const int tagsLayout = 2131427563;
+			// aapt resource value: 0x7f0b00c8
+			public const int tagsLayout = 2131427528;
 			
-			// aapt resource value: 0x7f0b00da
-			public const int technicalIndicatorLayout = 2131427546;
+			// aapt resource value: 0x7f0b00b7
+			public const int technicalIndicatorLayout = 2131427511;
 			
 			// aapt resource value: 0x7f0b0021
 			public const int text = 2131427361;
@@ -11175,17 +10335,17 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0b0022
 			public const int text2 = 2131427362;
 			
-			// aapt resource value: 0x7f0b00a8
-			public const int textSpacerNoButtons = 2131427496;
+			// aapt resource value: 0x7f0b0085
+			public const int textSpacerNoButtons = 2131427461;
 			
-			// aapt resource value: 0x7f0b00a7
-			public const int textSpacerNoTitle = 2131427495;
+			// aapt resource value: 0x7f0b0084
+			public const int textSpacerNoTitle = 2131427460;
 			
 			// aapt resource value: 0x7f0b005a
 			public const int textStart = 2131427418;
 			
-			// aapt resource value: 0x7f0b00f8
-			public const int text_input_password_toggle = 2131427576;
+			// aapt resource value: 0x7f0b00d5
+			public const int text_input_password_toggle = 2131427541;
 			
 			// aapt resource value: 0x7f0b0018
 			public const int textinput_counter = 2131427352;
@@ -11196,38 +10356,38 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0b001a
 			public const int textinput_helper_text = 2131427354;
 			
-			// aapt resource value: 0x7f0b0144
-			public const int thumbLayout = 2131427652;
+			// aapt resource value: 0x7f0b011d
+			public const int thumbLayout = 2131427613;
 			
-			// aapt resource value: 0x7f0b0139
-			public const int time = 2131427641;
+			// aapt resource value: 0x7f0b0112
+			public const int time = 2131427602;
 			
 			// aapt resource value: 0x7f0b0023
 			public const int title = 2131427363;
 			
-			// aapt resource value: 0x7f0b00af
-			public const int titleDividerNoCustom = 2131427503;
+			// aapt resource value: 0x7f0b008c
+			public const int titleDividerNoCustom = 2131427468;
 			
-			// aapt resource value: 0x7f0b00d5
-			public const int titleLayout = 2131427541;
+			// aapt resource value: 0x7f0b00b2
+			public const int titleLayout = 2131427506;
 			
-			// aapt resource value: 0x7f0b00ad
-			public const int title_template = 2131427501;
+			// aapt resource value: 0x7f0b008a
+			public const int title_template = 2131427466;
 			
-			// aapt resource value: 0x7f0b014c
-			public const int toolbar = 2131427660;
+			// aapt resource value: 0x7f0b0125
+			public const int toolbar = 2131427621;
 			
 			// aapt resource value: 0x7f0b0045
 			public const int top = 2131427397;
 			
-			// aapt resource value: 0x7f0b00ac
-			public const int topPanel = 2131427500;
+			// aapt resource value: 0x7f0b0089
+			public const int topPanel = 2131427465;
 			
-			// aapt resource value: 0x7f0b0141
-			public const int top_labels = 2131427649;
+			// aapt resource value: 0x7f0b011a
+			public const int top_labels = 2131427610;
 			
-			// aapt resource value: 0x7f0b00f1
-			public const int touch_outside = 2131427569;
+			// aapt resource value: 0x7f0b00ce
+			public const int touch_outside = 2131427534;
 			
 			// aapt resource value: 0x7f0b000f
 			public const int transition_current_scene = 2131427343;
@@ -11244,11 +10404,8 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0b0013
 			public const int transition_transform = 2131427347;
 			
-			// aapt resource value: 0x7f0b0083
-			public const int triangle = 2131427459;
-			
-			// aapt resource value: 0x7f0b0096
-			public const int @unchecked = 2131427478;
+			// aapt resource value: 0x7f0b0072
+			public const int @unchecked = 2131427442;
 			
 			// aapt resource value: 0x7f0b0034
 			public const int uniform = 2131427380;
@@ -11262,17 +10419,14 @@ namespace MealPlanner.Droid
 			// aapt resource value: 0x7f0b002d
 			public const int useLogo = 2131427373;
 			
-			// aapt resource value: 0x7f0b008f
-			public const int vertical = 2131427471;
-			
 			// aapt resource value: 0x7f0b001b
 			public const int view_offset_helper = 2131427355;
 			
-			// aapt resource value: 0x7f0b014d
-			public const int visible = 2131427661;
+			// aapt resource value: 0x7f0b0126
+			public const int visible = 2131427622;
 			
-			// aapt resource value: 0x7f0b0121
-			public const int volume_item_container = 2131427617;
+			// aapt resource value: 0x7f0b00fa
+			public const int volume_item_container = 2131427578;
 			
 			// aapt resource value: 0x7f0b0043
 			public const int withText = 2131427395;
@@ -11515,178 +10669,172 @@ namespace MealPlanner.Droid
 			public const int chart_legend_item = 2130968610;
 			
 			// aapt resource value: 0x7f040023
-			public const int circulargauge_layout = 2130968611;
+			public const int DefaultCardView = 2130968611;
 			
 			// aapt resource value: 0x7f040024
-			public const int DefaultCardView = 2130968612;
+			public const int design_bottom_navigation_item = 2130968612;
 			
 			// aapt resource value: 0x7f040025
-			public const int design_bottom_navigation_item = 2130968613;
+			public const int design_bottom_sheet_dialog = 2130968613;
 			
 			// aapt resource value: 0x7f040026
-			public const int design_bottom_sheet_dialog = 2130968614;
+			public const int design_layout_snackbar = 2130968614;
 			
 			// aapt resource value: 0x7f040027
-			public const int design_layout_snackbar = 2130968615;
+			public const int design_layout_snackbar_include = 2130968615;
 			
 			// aapt resource value: 0x7f040028
-			public const int design_layout_snackbar_include = 2130968616;
+			public const int design_layout_tab_icon = 2130968616;
 			
 			// aapt resource value: 0x7f040029
-			public const int design_layout_tab_icon = 2130968617;
+			public const int design_layout_tab_text = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
-			public const int design_layout_tab_text = 2130968618;
+			public const int design_menu_item_action_area = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int design_menu_item_action_area = 2130968619;
+			public const int design_navigation_item = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int design_navigation_item = 2130968620;
+			public const int design_navigation_item_header = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int design_navigation_item_header = 2130968621;
+			public const int design_navigation_item_separator = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int design_navigation_item_separator = 2130968622;
+			public const int design_navigation_item_subheader = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int design_navigation_item_subheader = 2130968623;
+			public const int design_navigation_menu = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int design_navigation_menu = 2130968624;
+			public const int design_navigation_menu_item = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int design_navigation_menu_item = 2130968625;
+			public const int design_text_input_password_icon = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int design_text_input_password_icon = 2130968626;
+			public const int FlyoutContent = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public const int digitalgauge_layout = 2130968627;
+			public const int mr_cast_dialog = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public const int FlyoutContent = 2130968628;
+			public const int mr_cast_group_item = 2130968628;
 			
 			// aapt resource value: 0x7f040035
-			public const int mr_cast_dialog = 2130968629;
+			public const int mr_cast_group_volume_item = 2130968629;
 			
 			// aapt resource value: 0x7f040036
-			public const int mr_cast_group_item = 2130968630;
+			public const int mr_cast_media_metadata = 2130968630;
 			
 			// aapt resource value: 0x7f040037
-			public const int mr_cast_group_volume_item = 2130968631;
+			public const int mr_cast_route_item = 2130968631;
 			
 			// aapt resource value: 0x7f040038
-			public const int mr_cast_media_metadata = 2130968632;
+			public const int mr_chooser_dialog = 2130968632;
 			
 			// aapt resource value: 0x7f040039
-			public const int mr_cast_route_item = 2130968633;
+			public const int mr_chooser_list_item = 2130968633;
 			
 			// aapt resource value: 0x7f04003a
-			public const int mr_chooser_dialog = 2130968634;
+			public const int mr_controller_material_dialog_b = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int mr_chooser_list_item = 2130968635;
+			public const int mr_controller_volume_item = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int mr_controller_material_dialog_b = 2130968636;
+			public const int mr_dialog_header_item = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int mr_controller_volume_item = 2130968637;
+			public const int mr_picker_dialog = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int mr_dialog_header_item = 2130968638;
+			public const int mr_picker_route_item = 2130968638;
 			
 			// aapt resource value: 0x7f04003f
-			public const int mr_picker_dialog = 2130968639;
+			public const int mr_playback_control = 2130968639;
 			
 			// aapt resource value: 0x7f040040
-			public const int mr_picker_route_item = 2130968640;
+			public const int mr_volume_control = 2130968640;
 			
 			// aapt resource value: 0x7f040041
-			public const int mr_playback_control = 2130968641;
+			public const int mtrl_layout_snackbar = 2130968641;
 			
 			// aapt resource value: 0x7f040042
-			public const int mr_volume_control = 2130968642;
+			public const int mtrl_layout_snackbar_include = 2130968642;
 			
 			// aapt resource value: 0x7f040043
-			public const int mtrl_layout_snackbar = 2130968643;
+			public const int notification_action = 2130968643;
 			
 			// aapt resource value: 0x7f040044
-			public const int mtrl_layout_snackbar_include = 2130968644;
+			public const int notification_action_tombstone = 2130968644;
 			
 			// aapt resource value: 0x7f040045
-			public const int notification_action = 2130968645;
+			public const int notification_media_action = 2130968645;
 			
 			// aapt resource value: 0x7f040046
-			public const int notification_action_tombstone = 2130968646;
+			public const int notification_media_cancel_action = 2130968646;
 			
 			// aapt resource value: 0x7f040047
-			public const int notification_media_action = 2130968647;
+			public const int notification_template_big_media = 2130968647;
 			
 			// aapt resource value: 0x7f040048
-			public const int notification_media_cancel_action = 2130968648;
+			public const int notification_template_big_media_custom = 2130968648;
 			
 			// aapt resource value: 0x7f040049
-			public const int notification_template_big_media = 2130968649;
+			public const int notification_template_big_media_narrow = 2130968649;
 			
 			// aapt resource value: 0x7f04004a
-			public const int notification_template_big_media_custom = 2130968650;
+			public const int notification_template_big_media_narrow_custom = 2130968650;
 			
 			// aapt resource value: 0x7f04004b
-			public const int notification_template_big_media_narrow = 2130968651;
+			public const int notification_template_custom_big = 2130968651;
 			
 			// aapt resource value: 0x7f04004c
-			public const int notification_template_big_media_narrow_custom = 2130968652;
+			public const int notification_template_icon_group = 2130968652;
 			
 			// aapt resource value: 0x7f04004d
-			public const int notification_template_custom_big = 2130968653;
+			public const int notification_template_lines_media = 2130968653;
 			
 			// aapt resource value: 0x7f04004e
-			public const int notification_template_icon_group = 2130968654;
+			public const int notification_template_media = 2130968654;
 			
 			// aapt resource value: 0x7f04004f
-			public const int notification_template_lines_media = 2130968655;
+			public const int notification_template_media_custom = 2130968655;
 			
 			// aapt resource value: 0x7f040050
-			public const int notification_template_media = 2130968656;
+			public const int notification_template_part_chronometer = 2130968656;
 			
 			// aapt resource value: 0x7f040051
-			public const int notification_template_media_custom = 2130968657;
+			public const int notification_template_part_time = 2130968657;
 			
 			// aapt resource value: 0x7f040052
-			public const int notification_template_part_chronometer = 2130968658;
+			public const int range_navigator_layout = 2130968658;
 			
 			// aapt resource value: 0x7f040053
-			public const int notification_template_part_time = 2130968659;
+			public const int RootLayout = 2130968659;
 			
 			// aapt resource value: 0x7f040054
-			public const int range_navigator_layout = 2130968660;
+			public const int select_dialog_item_material = 2130968660;
 			
 			// aapt resource value: 0x7f040055
-			public const int RootLayout = 2130968661;
+			public const int select_dialog_multichoice_material = 2130968661;
 			
 			// aapt resource value: 0x7f040056
-			public const int select_dialog_item_material = 2130968662;
+			public const int select_dialog_singlechoice_material = 2130968662;
 			
 			// aapt resource value: 0x7f040057
-			public const int select_dialog_multichoice_material = 2130968663;
+			public const int ShellContent = 2130968663;
 			
 			// aapt resource value: 0x7f040058
-			public const int select_dialog_singlechoice_material = 2130968664;
+			public const int support_simple_spinner_dropdown_item = 2130968664;
 			
 			// aapt resource value: 0x7f040059
-			public const int ShellContent = 2130968665;
+			public const int Tabbar = 2130968665;
 			
 			// aapt resource value: 0x7f04005a
-			public const int support_simple_spinner_dropdown_item = 2130968666;
-			
-			// aapt resource value: 0x7f04005b
-			public const int Tabbar = 2130968667;
-			
-			// aapt resource value: 0x7f04005c
-			public const int Toolbar = 2130968668;
+			public const int Toolbar = 2130968666;
 			
 			static Layout()
 			{
@@ -14998,7 +14146,7 @@ namespace MealPlanner.Droid
 			public const int DesignTheme_bottomSheetStyle = 1;
 			
 			public static int[] DrawableStates = new int[] {
-					2130772631};
+					2130772497};
 			
 			// aapt resource value: 0
 			public const int DrawableStates_state_indeterminate = 0;
@@ -15906,9 +15054,9 @@ namespace MealPlanner.Droid
 			public const int SearchView_voiceIcon = 12;
 			
 			public static int[] SfCheckBox = new int[] {
-					2130772632,
-					2130772633,
-					2130772634};
+					2130772498,
+					2130772499,
+					2130772500};
 			
 			// aapt resource value: 2
 			public const int SfCheckBox_checked = 2;
@@ -15918,548 +15066,6 @@ namespace MealPlanner.Droid
 			
 			// aapt resource value: 0
 			public const int SfCheckBox_isthreestate = 0;
-			
-			public static int[] SfCircularGauge = new int[] {
-					2130772497,
-					2130772498,
-					2130772499,
-					2130772500,
-					2130772501,
-					2130772502,
-					2130772503,
-					2130772504,
-					2130772505,
-					2130772506,
-					2130772507,
-					2130772508,
-					2130772509,
-					2130772510,
-					2130772511,
-					2130772512,
-					2130772513,
-					2130772514,
-					2130772515,
-					2130772516,
-					2130772517,
-					2130772518,
-					2130772519,
-					2130772520,
-					2130772521,
-					2130772522,
-					2130772523,
-					2130772524,
-					2130772525,
-					2130772526,
-					2130772527,
-					2130772528,
-					2130772529,
-					2130772530,
-					2130772531,
-					2130772532,
-					2130772533,
-					2130772534,
-					2130772535,
-					2130772536,
-					2130772537,
-					2130772538,
-					2130772539,
-					2130772540,
-					2130772541,
-					2130772542,
-					2130772543,
-					2130772544,
-					2130772545,
-					2130772546,
-					2130772547,
-					2130772548,
-					2130772549,
-					2130772550,
-					2130772551,
-					2130772552,
-					2130772553,
-					2130772554,
-					2130772555,
-					2130772556,
-					2130772557,
-					2130772558,
-					2130772559,
-					2130772560,
-					2130772561,
-					2130772562,
-					2130772563,
-					2130772564,
-					2130772565,
-					2130772566,
-					2130772567,
-					2130772568,
-					2130772569,
-					2130772570,
-					2130772571,
-					2130772572,
-					2130772573,
-					2130772574,
-					2130772575,
-					2130772576,
-					2130772577};
-			
-			// aapt resource value: 7
-			public const int SfCircularGauge_circularGaugeScaleDirection = 7;
-			
-			// aapt resource value: 5
-			public const int SfCircularGauge_circularScaleInterval = 5;
-			
-			// aapt resource value: 22
-			public const int SfCircularGauge_circularScaleLabelOffset = 22;
-			
-			// aapt resource value: 20
-			public const int SfCircularGauge_circularScaleLabelPostfix = 20;
-			
-			// aapt resource value: 19
-			public const int SfCircularGauge_circularScaleLabelPrefix = 19;
-			
-			// aapt resource value: 23
-			public const int SfCircularGauge_circularScaleLabelTextColor = 23;
-			
-			// aapt resource value: 21
-			public const int SfCircularGauge_circularScaleLabelTextSize = 21;
-			
-			// aapt resource value: 25
-			public const int SfCircularGauge_circularScaleMajorTickColor = 25;
-			
-			// aapt resource value: 27
-			public const int SfCircularGauge_circularScaleMajorTickOffset = 27;
-			
-			// aapt resource value: 39
-			public const int SfCircularGauge_circularScaleMaximumLabels = 39;
-			
-			// aapt resource value: 31
-			public const int SfCircularGauge_circularScaleMinorTickColor = 31;
-			
-			// aapt resource value: 33
-			public const int SfCircularGauge_circularScaleMinorTickOffset = 33;
-			
-			// aapt resource value: 38
-			public const int SfCircularGauge_circularScaleMinorTicksPerInterval = 38;
-			
-			// aapt resource value: 49
-			public const int SfCircularGauge_circularScaleRangeColor = 49;
-			
-			// aapt resource value: 46
-			public const int SfCircularGauge_circularScaleRangeEndValue = 46;
-			
-			// aapt resource value: 48
-			public const int SfCircularGauge_circularScaleRangeOffset = 48;
-			
-			// aapt resource value: 45
-			public const int SfCircularGauge_circularScaleRangeStartValue = 45;
-			
-			// aapt resource value: 40
-			public const int SfCircularGauge_circularScaleShowLabels = 40;
-			
-			// aapt resource value: 41
-			public const int SfCircularGauge_circularScaleShowTicks = 41;
-			
-			// aapt resource value: 0
-			public const int SfCircularGauge_gaugeCircularCoefficient = 0;
-			
-			// aapt resource value: 13
-			public const int SfCircularGauge_gaugeHeaderAlignment = 13;
-			
-			// aapt resource value: 8
-			public const int SfCircularGauge_gaugeHorizontalHeaderPosition = 8;
-			
-			// aapt resource value: 10
-			public const int SfCircularGauge_gaugeText = 10;
-			
-			// aapt resource value: 12
-			public const int SfCircularGauge_gaugeTextColor = 12;
-			
-			// aapt resource value: 11
-			public const int SfCircularGauge_gaugeTextSize = 11;
-			
-			// aapt resource value: 9
-			public const int SfCircularGauge_gaugeVerticalHeaderPosition = 9;
-			
-			// aapt resource value: 77
-			public const int SfCircularGauge_markerPointerColor = 77;
-			
-			// aapt resource value: 78
-			public const int SfCircularGauge_markerPointerHeight = 78;
-			
-			// aapt resource value: 80
-			public const int SfCircularGauge_markerPointerOffset = 80;
-			
-			// aapt resource value: 75
-			public const int SfCircularGauge_markerPointerValue = 75;
-			
-			// aapt resource value: 79
-			public const int SfCircularGauge_markerPointerWidth = 79;
-			
-			// aapt resource value: 76
-			public const int SfCircularGauge_markerShape = 76;
-			
-			// aapt resource value: 56
-			public const int SfCircularGauge_needlePointerColor = 56;
-			
-			// aapt resource value: 61
-			public const int SfCircularGauge_needlePointerKnobColor = 61;
-			
-			// aapt resource value: 59
-			public const int SfCircularGauge_needlePointerKnobRadius = 59;
-			
-			// aapt resource value: 60
-			public const int SfCircularGauge_needlePointerKnobStrokeColor = 60;
-			
-			// aapt resource value: 62
-			public const int SfCircularGauge_needlePointerKnobStrokeWidth = 62;
-			
-			// aapt resource value: 58
-			public const int SfCircularGauge_needlePointerLengthFactor = 58;
-			
-			// aapt resource value: 63
-			public const int SfCircularGauge_needlePointerTailColor = 63;
-			
-			// aapt resource value: 64
-			public const int SfCircularGauge_needlePointerTailLengthFactor = 64;
-			
-			// aapt resource value: 66
-			public const int SfCircularGauge_needlePointerTailStrokeColor = 66;
-			
-			// aapt resource value: 65
-			public const int SfCircularGauge_needlePointerTailStrokeWidth = 65;
-			
-			// aapt resource value: 55
-			public const int SfCircularGauge_needlePointerType = 55;
-			
-			// aapt resource value: 54
-			public const int SfCircularGauge_needlePointerValue = 54;
-			
-			// aapt resource value: 57
-			public const int SfCircularGauge_needlePointerWidth = 57;
-			
-			// aapt resource value: 51
-			public const int SfCircularGauge_rangeInnerEndOffset = 51;
-			
-			// aapt resource value: 50
-			public const int SfCircularGauge_rangeInnerStartOffset = 50;
-			
-			// aapt resource value: 53
-			public const int SfCircularGauge_rangeOuterEndOffset = 53;
-			
-			// aapt resource value: 52
-			public const int SfCircularGauge_rangeOuterStartOffset = 52;
-			
-			// aapt resource value: 74
-			public const int SfCircularGauge_rangePointerCap = 74;
-			
-			// aapt resource value: 69
-			public const int SfCircularGauge_rangePointerColor = 69;
-			
-			// aapt resource value: 73
-			public const int SfCircularGauge_rangePointerEndOffset = 73;
-			
-			// aapt resource value: 71
-			public const int SfCircularGauge_rangePointerOffset = 71;
-			
-			// aapt resource value: 72
-			public const int SfCircularGauge_rangePointerStartOffset = 72;
-			
-			// aapt resource value: 67
-			public const int SfCircularGauge_rangePointerStartValue = 67;
-			
-			// aapt resource value: 68
-			public const int SfCircularGauge_rangePointerValue = 68;
-			
-			// aapt resource value: 70
-			public const int SfCircularGauge_rangePointerWidth = 70;
-			
-			// aapt resource value: 47
-			public const int SfCircularGauge_rangeWidth = 47;
-			
-			// aapt resource value: 18
-			public const int SfCircularGauge_scaleAutoAngle = 18;
-			
-			// aapt resource value: 6
-			public const int SfCircularGauge_scaleAutoInterval = 6;
-			
-			// aapt resource value: 2
-			public const int SfCircularGauge_scaleEndAngle = 2;
-			
-			// aapt resource value: 17
-			public const int SfCircularGauge_scaleEndOffset = 17;
-			
-			// aapt resource value: 4
-			public const int SfCircularGauge_scaleEndValue = 4;
-			
-			// aapt resource value: 29
-			public const int SfCircularGauge_scaleMajorTickEndOffset = 29;
-			
-			// aapt resource value: 24
-			public const int SfCircularGauge_scaleMajorTickSize = 24;
-			
-			// aapt resource value: 28
-			public const int SfCircularGauge_scaleMajorTickStartOffset = 28;
-			
-			// aapt resource value: 26
-			public const int SfCircularGauge_scaleMajorTickWidth = 26;
-			
-			// aapt resource value: 35
-			public const int SfCircularGauge_scaleMinorTickEndOffset = 35;
-			
-			// aapt resource value: 30
-			public const int SfCircularGauge_scaleMinorTickSize = 30;
-			
-			// aapt resource value: 34
-			public const int SfCircularGauge_scaleMinorTickStartOffset = 34;
-			
-			// aapt resource value: 32
-			public const int SfCircularGauge_scaleMinorTickWidth = 32;
-			
-			// aapt resource value: 44
-			public const int SfCircularGauge_scaleNumberofDecimalDigits = 44;
-			
-			// aapt resource value: 43
-			public const int SfCircularGauge_scaleRadiusFactor = 43;
-			
-			// aapt resource value: 36
-			public const int SfCircularGauge_scaleRimColor = 36;
-			
-			// aapt resource value: 37
-			public const int SfCircularGauge_scaleRimWidth = 37;
-			
-			// aapt resource value: 14
-			public const int SfCircularGauge_scaleShowFirstLabel = 14;
-			
-			// aapt resource value: 15
-			public const int SfCircularGauge_scaleShowLastLabel = 15;
-			
-			// aapt resource value: 42
-			public const int SfCircularGauge_scaleShowRim = 42;
-			
-			// aapt resource value: 1
-			public const int SfCircularGauge_scaleStartAngle = 1;
-			
-			// aapt resource value: 16
-			public const int SfCircularGauge_scaleStartOffset = 16;
-			
-			// aapt resource value: 3
-			public const int SfCircularGauge_scaleStartValue = 3;
-			
-			public static int[] SfDigitalGauge = new int[] {
-					2130772623,
-					2130772624,
-					2130772625,
-					2130772626,
-					2130772627,
-					2130772628,
-					2130772629,
-					2130772630};
-			
-			// aapt resource value: 1
-			public const int SfDigitalGauge_characterHeight = 1;
-			
-			// aapt resource value: 2
-			public const int SfDigitalGauge_characterSpacing = 2;
-			
-			// aapt resource value: 0
-			public const int SfDigitalGauge_characterStrokeColor = 0;
-			
-			// aapt resource value: 7
-			public const int SfDigitalGauge_characterType = 7;
-			
-			// aapt resource value: 3
-			public const int SfDigitalGauge_characterWidth = 3;
-			
-			// aapt resource value: 6
-			public const int SfDigitalGauge_dimmedSegmentAlpha = 6;
-			
-			// aapt resource value: 5
-			public const int SfDigitalGauge_dimmedSegmentColor = 5;
-			
-			// aapt resource value: 4
-			public const int SfDigitalGauge_segmentStrokeWidth = 4;
-			
-			public static int[] SfLinearGauge = new int[] {
-					2130772578,
-					2130772579,
-					2130772580,
-					2130772581,
-					2130772582,
-					2130772583,
-					2130772584,
-					2130772585,
-					2130772586,
-					2130772587,
-					2130772588,
-					2130772589,
-					2130772590,
-					2130772591,
-					2130772592,
-					2130772593,
-					2130772594,
-					2130772595,
-					2130772596,
-					2130772597,
-					2130772598,
-					2130772599,
-					2130772600,
-					2130772601,
-					2130772602,
-					2130772603,
-					2130772604,
-					2130772605,
-					2130772606,
-					2130772607,
-					2130772608,
-					2130772609,
-					2130772610,
-					2130772611,
-					2130772612,
-					2130772613,
-					2130772614,
-					2130772615,
-					2130772616,
-					2130772617,
-					2130772618,
-					2130772619,
-					2130772620,
-					2130772621,
-					2130772622};
-			
-			// aapt resource value: 35
-			public const int SfLinearGauge_barPointerColor = 35;
-			
-			// aapt resource value: 38
-			public const int SfLinearGauge_barPointerCornerRadius = 38;
-			
-			// aapt resource value: 37
-			public const int SfLinearGauge_barPointerCornerRadiusType = 37;
-			
-			// aapt resource value: 36
-			public const int SfLinearGauge_barPointerStrokeWidth = 36;
-			
-			// aapt resource value: 34
-			public const int SfLinearGauge_barPointerValue = 34;
-			
-			// aapt resource value: 22
-			public const int SfLinearGauge_maximumLabels = 22;
-			
-			// aapt resource value: 33
-			public const int SfLinearGauge_rangeColor = 33;
-			
-			// aapt resource value: 29
-			public const int SfLinearGauge_rangeEndValue = 29;
-			
-			// aapt resource value: 31
-			public const int SfLinearGauge_rangeEndWidth = 31;
-			
-			// aapt resource value: 32
-			public const int SfLinearGauge_rangeOffset = 32;
-			
-			// aapt resource value: 28
-			public const int SfLinearGauge_rangeStartValue = 28;
-			
-			// aapt resource value: 30
-			public const int SfLinearGauge_rangeStartWidth = 30;
-			
-			// aapt resource value: 11
-			public const int SfLinearGauge_scaleBarColor = 11;
-			
-			// aapt resource value: 13
-			public const int SfLinearGauge_scaleBarLength = 13;
-			
-			// aapt resource value: 12
-			public const int SfLinearGauge_scaleBarSize = 12;
-			
-			// aapt resource value: 26
-			public const int SfLinearGauge_scaleCornerRadius = 26;
-			
-			// aapt resource value: 25
-			public const int SfLinearGauge_scaleCornerRadiusType = 25;
-			
-			// aapt resource value: 24
-			public const int SfLinearGauge_scaleDirection = 24;
-			
-			// aapt resource value: 2
-			public const int SfLinearGauge_scaleInterval = 2;
-			
-			// aapt resource value: 14
-			public const int SfLinearGauge_scaleLabelColor = 14;
-			
-			// aapt resource value: 17
-			public const int SfLinearGauge_scaleLabelFontSize = 17;
-			
-			// aapt resource value: 18
-			public const int SfLinearGauge_scaleLabelOffset = 18;
-			
-			// aapt resource value: 16
-			public const int SfLinearGauge_scaleLabelPostfix = 16;
-			
-			// aapt resource value: 15
-			public const int SfLinearGauge_scaleLabelPrefix = 15;
-			
-			// aapt resource value: 4
-			public const int SfLinearGauge_scaleMajorTickColor = 4;
-			
-			// aapt resource value: 3
-			public const int SfLinearGauge_scaleMajorTickLength = 3;
-			
-			// aapt resource value: 6
-			public const int SfLinearGauge_scaleMajorTickOffset = 6;
-			
-			// aapt resource value: 5
-			public const int SfLinearGauge_scaleMajorTickStrokeWidth = 5;
-			
-			// aapt resource value: 1
-			public const int SfLinearGauge_scaleMaximum = 1;
-			
-			// aapt resource value: 0
-			public const int SfLinearGauge_scaleMinimum = 0;
-			
-			// aapt resource value: 8
-			public const int SfLinearGauge_scaleMinorTickColor = 8;
-			
-			// aapt resource value: 7
-			public const int SfLinearGauge_scaleMinorTickLength = 7;
-			
-			// aapt resource value: 10
-			public const int SfLinearGauge_scaleMinorTickOffset = 10;
-			
-			// aapt resource value: 9
-			public const int SfLinearGauge_scaleMinorTickStrokeWidth = 9;
-			
-			// aapt resource value: 21
-			public const int SfLinearGauge_scaleMinorTicksPerInterval = 21;
-			
-			// aapt resource value: 27
-			public const int SfLinearGauge_scaleOffset = 27;
-			
-			// aapt resource value: 23
-			public const int SfLinearGauge_scaleOpposedPosition = 23;
-			
-			// aapt resource value: 44
-			public const int SfLinearGauge_scaleOrientation = 44;
-			
-			// aapt resource value: 19
-			public const int SfLinearGauge_scaleShowLabels = 19;
-			
-			// aapt resource value: 20
-			public const int SfLinearGauge_scaleShowTicks = 20;
-			
-			// aapt resource value: 40
-			public const int SfLinearGauge_symbolPointerColor = 40;
-			
-			// aapt resource value: 42
-			public const int SfLinearGauge_symbolPointerOffset = 42;
-			
-			// aapt resource value: 41
-			public const int SfLinearGauge_symbolPointerStrokeWidth = 41;
-			
-			// aapt resource value: 39
-			public const int SfLinearGauge_symbolPointerValue = 39;
-			
-			// aapt resource value: 43
-			public const int SfLinearGauge_symbolPosition = 43;
 			
 			public static int[] SfRadialMenu = new int[] {
 					2130772471,
@@ -16618,18 +15224,18 @@ namespace MealPlanner.Droid
 			public const int SfRating_ratingUnratedStrokeWidth = 8;
 			
 			public static int[] SfSegmentedControl = new int[] {
-					2130772635,
-					2130772636,
-					2130772637,
-					2130772638,
-					2130772639,
-					2130772640,
-					2130772641,
-					2130772642,
-					2130772643,
-					2130772644,
-					2130772645,
-					2130772646};
+					2130772501,
+					2130772502,
+					2130772503,
+					2130772504,
+					2130772505,
+					2130772506,
+					2130772507,
+					2130772508,
+					2130772509,
+					2130772510,
+					2130772511,
+					2130772512};
 			
 			// aapt resource value: 1
 			public const int SfSegmentedControl_segmentBackColor = 1;

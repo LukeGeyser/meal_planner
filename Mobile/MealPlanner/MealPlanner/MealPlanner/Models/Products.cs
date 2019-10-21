@@ -29,7 +29,7 @@ namespace MealPlanner.Models
             productName = name;
             category = cat;
             description = des;
-            nutrition = nutritionalValue;
+            nutritionalValue = nutrition;
             productImage = image;
         }
     }

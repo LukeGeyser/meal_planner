@@ -495,7 +495,7 @@ namespace MealPlanner.Services
             {
                 await conn.OpenAsync();
                 SqlCommand cmd = new SqlCommand("SELECT * FROM tblProducts", conn);
-                SqlDataReader reader = await cmd.ExecuteReaderAsync();
+                SqlDataReader reader = cmd.ExecuteReader();
                 while (await reader.ReadAsync())
                 {
                     products.Add(new Products(Convert.ToInt32(reader["ProductID"])

@@ -108,6 +108,7 @@
                                     <Label
                                         Grid.Row="1"
                                         Margin="0"
+                                        FontAttributes="Italic"
                                         FontSize="Micro"
                                         Text="Tap For More Infomation..."
                                         VerticalTextAlignment="Center" />
