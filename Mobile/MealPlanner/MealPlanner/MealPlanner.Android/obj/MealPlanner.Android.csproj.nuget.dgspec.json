@@ -58,10 +58,6 @@
               "target": "Package",
               "version": "[17.3.0.17, )"
             },
-            "Syncfusion.Xamarin.SfGauge": {
-              "target": "Package",
-              "version": "[17.3.0.17, )"
-            },
             "Syncfusion.Xamarin.SfKanban": {
               "target": "Package",
               "version": "[17.3.0.17, )"
@@ -204,10 +200,6 @@
               "version": "[17.3.0.17, )"
             },
             "Syncfusion.Xamarin.SfChart": {
-              "target": "Package",
-              "version": "[17.3.0.17, )"
-            },
-            "Syncfusion.Xamarin.SfGauge": {
               "target": "Package",
               "version": "[17.3.0.17, )"
             },

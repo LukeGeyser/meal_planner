@@ -4,7 +4,6 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-    xmlns:linear="clr-namespace:Syncfusion.SfGauge.XForms;assembly=Syncfusion.SfGauge.XForms"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     <ContentPage.Content>
@@ -30,8 +29,6 @@
                         Text="{Binding RecipeInfoViewModel.RecipeName}"
                         TextColor="{DynamicResource TextColor}" />
                 </Frame>
-
-
 
             </StackLayout>
         </ScrollView>

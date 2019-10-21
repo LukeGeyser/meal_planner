@@ -571,23 +571,6 @@
           "lib/MonoAndroid10/Syncfusion.SfChart.XForms.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfGauge/17.3.0.17": {
-        "type": "package",
-        "dependencies": {
-          "Syncfusion.Xamarin.Core": "17.3.0.17",
-          "Xamarin.Forms": "3.6.0.344457"
-        },
-        "compile": {
-          "lib/MonoAndroid10/Syncfusion.SfGauge.Android.dll": {},
-          "lib/MonoAndroid10/Syncfusion.SfGauge.XForms.Android.dll": {},
-          "lib/MonoAndroid10/Syncfusion.SfGauge.XForms.dll": {}
-        },
-        "runtime": {
-          "lib/MonoAndroid10/Syncfusion.SfGauge.Android.dll": {},
-          "lib/MonoAndroid10/Syncfusion.SfGauge.XForms.Android.dll": {},
-          "lib/MonoAndroid10/Syncfusion.SfGauge.XForms.dll": {}
-        }
-      },
       "Syncfusion.Xamarin.SfKanban/17.3.0.17": {
         "type": "package",
         "dependencies": {
@@ -1779,7 +1762,6 @@
           "Syncfusion.Xamarin.Buttons": "17.3.0.17",
           "Syncfusion.Xamarin.Cards": "17.3.0.17",
           "Syncfusion.Xamarin.SfChart": "17.3.0.17",
-          "Syncfusion.Xamarin.SfGauge": "17.3.0.17",
           "Syncfusion.Xamarin.SfKanban": "17.3.0.17",
           "Syncfusion.Xamarin.SfListView": "17.3.0.17",
           "Syncfusion.Xamarin.SfPopupLayout": "17.3.0.17",
@@ -2529,35 +2511,6 @@
         "lib/uap10.0/Syncfusion.SfChart.XForms.xml",
         "syncfusion.xamarin.sfchart.17.3.0.17.nupkg.sha512",
         "syncfusion.xamarin.sfchart.nuspec"
-      ]
-    },
-    "Syncfusion.Xamarin.SfGauge/17.3.0.17": {
-      "sha512": "E/OHJKuDzux6nZ8lqpIYVtcYNa9PHCTffBi3smJOe/iKe6fuCL5li75Hd915bFc8wZyd3GySetuVe+0YUfcogQ==",
-      "type": "package",
-      "path": "syncfusion.xamarin.sfgauge/17.3.0.17",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/MonoAndroid10/Syncfusion.SfGauge.Android.dll",
-        "lib/MonoAndroid10/Syncfusion.SfGauge.Android.xml",
-        "lib/MonoAndroid10/Syncfusion.SfGauge.XForms.Android.dll",
-        "lib/MonoAndroid10/Syncfusion.SfGauge.XForms.dll",
-        "lib/MonoAndroid10/Syncfusion.SfGauge.XForms.xml",
-        "lib/Xamarin.iOS10/Syncfusion.SfGauge.XForms.dll",
-        "lib/Xamarin.iOS10/Syncfusion.SfGauge.XForms.iOS.dll",
-        "lib/Xamarin.iOS10/Syncfusion.SfGauge.XForms.xml",
-        "lib/Xamarin.iOS10/Syncfusion.SfGauge.iOS.dll",
-        "lib/Xamarin.iOS10/Syncfusion.SfGauge.iOS.xml",
-        "lib/netstandard2.0/Syncfusion.SfGauge.XForms.dll",
-        "lib/netstandard2.0/Syncfusion.SfGauge.XForms.xml",
-        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfGauge.XForms.dll",
-        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfGauge.XForms.xml",
-        "lib/uap10.0/Syncfusion.SfGauge.XForms.UWP.XML",
-        "lib/uap10.0/Syncfusion.SfGauge.XForms.UWP.dll",
-        "lib/uap10.0/Syncfusion.SfGauge.XForms.dll",
-        "lib/uap10.0/Syncfusion.SfGauge.XForms.xml",
-        "syncfusion.xamarin.sfgauge.17.3.0.17.nupkg.sha512",
-        "syncfusion.xamarin.sfgauge.nuspec"
       ]
     },
     "Syncfusion.Xamarin.SfKanban/17.3.0.17": {
@@ -5132,7 +5085,6 @@
       "Syncfusion.Xamarin.Buttons >= 17.3.0.17",
       "Syncfusion.Xamarin.Cards >= 17.3.0.17",
       "Syncfusion.Xamarin.SfChart >= 17.3.0.17",
-      "Syncfusion.Xamarin.SfGauge >= 17.3.0.17",
       "Syncfusion.Xamarin.SfKanban >= 17.3.0.17",
       "Syncfusion.Xamarin.SfListView >= 17.3.0.17",
       "Syncfusion.Xamarin.SfPopupLayout >= 17.3.0.17",
@@ -5207,10 +5159,6 @@
             "version": "[17.3.0.17, )"
           },
           "Syncfusion.Xamarin.SfChart": {
-            "target": "Package",
-            "version": "[17.3.0.17, )"
-          },
-          "Syncfusion.Xamarin.SfGauge": {
             "target": "Package",
             "version": "[17.3.0.17, )"
           },

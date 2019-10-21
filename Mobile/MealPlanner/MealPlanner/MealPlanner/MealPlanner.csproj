@@ -26,7 +26,6 @@
     <PackageReference Include="Syncfusion.Xamarin.Buttons" Version="17.3.0.17" />
     <PackageReference Include="Syncfusion.Xamarin.Cards" Version="17.3.0.17" />
     <PackageReference Include="Syncfusion.Xamarin.SfChart" Version="17.3.0.17" />
-    <PackageReference Include="Syncfusion.Xamarin.SfGauge" Version="17.3.0.17" />
     <PackageReference Include="Syncfusion.Xamarin.SfKanban" Version="17.3.0.17" />
     <PackageReference Include="Syncfusion.Xamarin.SfListView" Version="17.3.0.17" />
     <PackageReference Include="Syncfusion.Xamarin.SfPopupLayout" Version="17.3.0.17" />

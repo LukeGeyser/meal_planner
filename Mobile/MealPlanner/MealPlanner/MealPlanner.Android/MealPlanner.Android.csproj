@@ -66,9 +66,6 @@
     <PackageReference Include="Syncfusion.Xamarin.SfChart">
       <Version>17.3.0.17</Version>
     </PackageReference>
-    <PackageReference Include="Syncfusion.Xamarin.SfGauge">
-      <Version>17.3.0.17</Version>
-    </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfKanban">
       <Version>17.3.0.17</Version>
     </PackageReference>
