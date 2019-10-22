@@ -136,19 +136,52 @@ namespace MealPlanner.Views
                 }
             }
 
+            for (int i = 0; i < recipeMealPlans.Count; i++)
+            {
+                for (int j = 0; j < SignInPage.loggedInUser.MealPlans.Count; j++)
+                {
+                    if (recipeMealPlans[i].MealPlanID == SignInPage.loggedInUser.MealPlans[j].MealPlanID)
+                    {
+                        try
+                        {
+                            recipes.RemoveAt(recipes.FindIndex(res => res.RecipeID == recipeMealPlans[i].RecipeID));
+                        }
+                        catch (ArgumentOutOfRangeException)
+                        {
+                            // Doing Nothing because this is when it tries to Delete an already deleted Item due to trying to filter
+                            // recipes to fit user preferences
+                        }
+                        catch (Exception)
+                        {
+                            await DisplayAlert("Ooops...", "Looks like something went wrong!", "Got it!");
+                        }
+                    }
+                }
+            }
+
             AddToObservableRecipes(recipes);
         }
 
         private async Task PrepareWithoutUserPreferences()
         {
-            List<RecipesViewModel> recipes = await new DataHandler().GetAllRecipes();
-            AddToObservableRecipes(recipes);
-            allProducts = await new DataHandler().GetAllProducts();
-
-            foreach (var item in allRecipes)
+            if (App.allRecipesLocal == null)
             {
-                item.Products = await GetRecipeProducts(item.RecipeID);
+                List<RecipesViewModel> recipes = await new DataHandler().GetAllRecipes();
+                AddToObservableRecipes(recipes);
+                allProducts = await new DataHandler().GetAllProducts();
+
+                foreach (var item in allRecipes)
+                {
+                    item.Products = await GetRecipeProducts(item.RecipeID);
+                }
+                App.allRecipesLocal = recipes;
             }
+            else if (App.allRecipesLocal != null)
+            {
+                List<RecipesViewModel> recipes = App.allRecipesLocal;
+                AddToObservableRecipes(recipes);
+            }
+            
         }
 
         private async Task<List<RecipesViewModel>> GetRecipes()

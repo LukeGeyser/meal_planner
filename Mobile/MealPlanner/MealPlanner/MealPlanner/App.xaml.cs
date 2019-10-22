@@ -10,6 +10,7 @@ using MealPlanner.Models;
 using System.Collections.ObjectModel;
 using static MealPlanner.Models.MapResultDataWrapper;
 using System.Threading.Tasks;
+using MealPlanner.ViewModels;
 
 namespace MealPlanner
 {
@@ -18,7 +19,8 @@ namespace MealPlanner
         Page currentPage = null;
         DataHandler dataHandler = new DataHandler();
         public static List<User> users = new List<User>();
-        
+
+        public static List<RecipesViewModel> allRecipesLocal { get; set; }
 
         public App()
         {
