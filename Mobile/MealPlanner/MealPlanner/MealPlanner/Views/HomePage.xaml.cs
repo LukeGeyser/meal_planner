@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -14,6 +15,7 @@ namespace MealPlanner.Views
     public partial class HomePage : MasterDetailPage
     {
         Dictionary<int, NavigationPage> MenuPages = new Dictionary<int, NavigationPage>();
+
         public HomePage()
         {
             InitializeComponent();
@@ -21,19 +23,36 @@ namespace MealPlanner.Views
             MasterBehavior = MasterBehavior.Popover;
 
             masterPage.listView.ItemSelected += OnItemSelected;
-
-            //MenuPages.Add((int)MenuItemType.Browse, (NavigationPage)Detail);
         }
 
-        private void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
+        private async void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             var item = e.SelectedItem as HomeMenuItem;
+            var selectedItem = ((ListView)sender).SelectedItem;
             if (item != null)
             {
-                Detail = new NavigationPage((Page)Activator.CreateInstance(item.TargetType))
+                if (item.Title == ("Logout"))
                 {
-                    BarBackgroundColor = Color.FromHex("#fafafa")
-                };
+                    bool answer = await DisplayAlert("Warning", "Are you sure you want to exit the Application?", "Yes", "No");
+                    switch (answer)
+                    {
+                        case true:
+                            SignInPage.loggedInUser = null;
+                            Application.Current.MainPage = new SignInPage();
+                            break;
+                        case false:
+                            break;
+                        default:
+                            break;
+                    }
+                }
+                else
+                {
+                    Detail = new NavigationPage((Page)Activator.CreateInstance(item.TargetType))
+                    {
+                        BarBackgroundColor = Color.FromHex("#fafafa")
+                    };
+                }
                 masterPage.listView.SelectedItem = null;
                 IsPresented = false;
             }

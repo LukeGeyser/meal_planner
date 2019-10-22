@@ -8,8 +8,10 @@ namespace MealPlanner.Models
 {
     public class WeightGainTips : INotifyPropertyChanged
     {
+        public string TipId { get; set; }
+
         private string tip { get; set; }
-        public String Tip
+        public string Tip
         {
             get { return tip; }
             set

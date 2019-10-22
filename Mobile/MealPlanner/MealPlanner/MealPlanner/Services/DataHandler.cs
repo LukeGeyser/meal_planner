@@ -575,9 +575,9 @@ namespace MealPlanner.Services
             return products;
         }
 
-        public ObservableCollection<WeightGainTips> GetWeightGainTips()
+        public List<WeightGainTips> GetWeightGainTips()
         {
-            ObservableCollection<WeightGainTips> weightGainTips = new ObservableCollection<WeightGainTips>();
+            List<WeightGainTips> weightGainTips = new List<WeightGainTips>();
             try
             {
                 conn.Open();

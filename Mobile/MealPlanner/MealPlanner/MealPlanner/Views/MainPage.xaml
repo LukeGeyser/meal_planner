@@ -233,22 +233,50 @@
                         TextColor="{DynamicResource BtnHeaderText}" />
                 </Frame>
                 <!--  TIPS FOR WEIGHT GAIN CONTENT  -->
-                <!--<CollectionView
-                    BackgroundColor="{DynamicResource List-BackGroundColor}"
-                    HeightRequest="150"
-                    ItemsLayout="HorizontalList"
-                    ItemsSource="{Binding WeightGainTip}">
-                    <CollectionView.ItemTemplate>
-                        <DataTemplate>
-                            <ViewCell Tapped="ViewCell_Tapped">
-                                <Frame BorderColor="{DynamicResource BorderColor}" CornerRadius="10">
-                                    <Label TextColor="Black" />
-                                </Frame>
-                            </ViewCell>
-                        </DataTemplate>
-                    </CollectionView.ItemTemplate>
-                </CollectionView>-->
 
+                <Grid Margin="5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="150" />
+                    </Grid.RowDefinitions>
+
+                    <CarouselView
+                        x:Name="WeightGainTipsCarouselView"
+                        Grid.Row="0"
+                        HorizontalScrollBarVisibility="Always"
+                        ItemsSource="{Binding WeightGainTips}"
+                        VerticalScrollBarVisibility="Never">
+                        <CarouselView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid HorizontalOptions="Center" VerticalOptions="Center">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="20" />
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+
+                                    <Label
+                                        Grid.Row="0"
+                                        FontAttributes="Italic"
+                                        FontSize="Small"
+                                        Text="{Binding TipId}"
+                                        VerticalTextAlignment="Center" />
+
+                                    <Label
+                                        Grid.Row="1"
+                                        Margin="10,0"
+                                        FontAttributes="Bold"
+                                        FontSize="18"
+                                        HorizontalOptions="Center"
+                                        HorizontalTextAlignment="Center"
+                                        Text="{Binding Tip}"
+                                        TextColor="{DynamicResource Primary-Green}"
+                                        VerticalOptions="Center"
+                                        VerticalTextAlignment="Center" />
+                                </Grid>
+                            </DataTemplate>
+                        </CarouselView.ItemTemplate>
+                    </CarouselView>
+
+                </Grid>
 
 
 

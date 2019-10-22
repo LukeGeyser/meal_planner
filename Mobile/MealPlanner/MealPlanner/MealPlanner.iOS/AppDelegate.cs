@@ -1,3 +1,5 @@
+using Syncfusion.SfCarousel.XForms.iOS;
+using Syncfusion.XForms.iOS.PopupLayout;
 using Syncfusion.SfGauge.XForms.iOS;
 using System;
 using System.Collections.Generic;
@@ -24,6 +26,8 @@ namespace MealPlanner.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
 global::Xamarin.Forms.Forms.Init();
+SfCarouselRenderer.Init();
+SfPopupLayoutRenderer.Init();
 SfLinearGaugeRenderer.Init();
             LoadApplication(new App());
 

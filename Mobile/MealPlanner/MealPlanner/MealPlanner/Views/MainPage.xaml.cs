@@ -20,9 +20,9 @@ namespace MealPlanner.Views
     {
 
         ViewCell lastCell;
-
+        List<WeightGainTips> weightGainTipsList { get; set; }
         private ObservableCollection<WeightGainTips> weightGainTips;
-        public ObservableCollection<WeightGainTips> WeightGainTip
+        public ObservableCollection<WeightGainTips> WeightGainTips
         {
             get { return weightGainTips; }
             set
@@ -36,7 +36,7 @@ namespace MealPlanner.Views
         {
             InitializeComponent();
 
-            WeightGainTip = new ObservableCollection<WeightGainTips>();
+            WeightGainTips = new ObservableCollection<WeightGainTips>();
 
             Device.BeginInvokeOnMainThread(() =>
             {
@@ -46,10 +46,32 @@ namespace MealPlanner.Views
             Task.Run(async () =>
             {
                 await SignInPage.loggedInUser.GetUserMealPlanAllergies();
-                weightGainTips = new DataHandler().GetWeightGainTips();
+                weightGainTipsList = new DataHandler().GetWeightGainTips();
+                ConvertToObservable(weightGainTipsList);
             });
             
             BindingContext = this;
+
+            Device.StartTimer(TimeSpan.FromSeconds(5), (Func<bool>)(() =>
+            {
+
+                WeightGainTipsCarouselView.Position = (WeightGainTipsCarouselView.Position + 1) % WeightGainTips.Count;
+
+                return true;
+            }));
+        }
+
+        private void ConvertToObservable(List<WeightGainTips> weightGainTipsList)
+        {
+            int counter = 1;
+            foreach (var item in weightGainTipsList)
+            {
+                WeightGainTips.Add(new WeightGainTips(item.Tip)
+                {
+                    TipId = "Tip #: " + counter
+                });
+                counter++;
+            }
         }
 
         #region Private Helpers

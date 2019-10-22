@@ -64,6 +64,7 @@
                             IconSource="settings.png"
                             RowDefinition="2"
                             TargetType="{x:Type local:SettingsPage}" />
+                        <vm:HomeMenuItem Title="Logout" IconSource="exit.png" />
                     </x:Array>
                 </ListView.ItemsSource>
                 <ListView.ItemTemplate>

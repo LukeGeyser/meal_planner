@@ -43,10 +43,6 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
-            "LiveXAML": {
-              "target": "Package",
-              "version": "[2.1.73, )"
-            },
             "Microsoft.AspNetCore.Mvc.DataAnnotations": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -67,35 +63,35 @@
             },
             "Syncfusion.Xamarin.Buttons": {
               "target": "Package",
-              "version": "[17.3.0.17, )"
+              "version": "[17.3.0.19, )"
             },
             "Syncfusion.Xamarin.Cards": {
               "target": "Package",
-              "version": "[17.3.0.17, )"
+              "version": "[17.3.0.19, )"
             },
             "Syncfusion.Xamarin.SfChart": {
               "target": "Package",
-              "version": "[17.3.0.17, )"
+              "version": "[17.3.0.19, )"
             },
             "Syncfusion.Xamarin.SfKanban": {
               "target": "Package",
-              "version": "[17.3.0.17, )"
+              "version": "[17.3.0.19, )"
             },
             "Syncfusion.Xamarin.SfListView": {
               "target": "Package",
-              "version": "[17.3.0.17, )"
+              "version": "[17.3.0.19, )"
             },
             "Syncfusion.Xamarin.SfPopupLayout": {
               "target": "Package",
-              "version": "[17.3.0.17, )"
+              "version": "[17.3.0.19, )"
             },
             "Syncfusion.Xamarin.SfRadialMenu": {
               "target": "Package",
-              "version": "[17.3.0.17, )"
+              "version": "[17.3.0.19, )"
             },
             "Syncfusion.Xamarin.SfRating": {
               "target": "Package",
-              "version": "[17.3.0.17, )"
+              "version": "[17.3.0.19, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
@@ -119,7 +115,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.2.0.848062, )"
+              "version": "[4.3.0.908675, )"
             },
             "XamlStyler.Console": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
