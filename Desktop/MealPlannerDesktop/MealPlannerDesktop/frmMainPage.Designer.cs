@@ -47,6 +47,8 @@
             this.lblQuoteAuthor = new System.Windows.Forms.Label();
             this.tmrQuotes = new System.Windows.Forms.Timer(this.components);
             this.imgHelp = new System.Windows.Forms.PictureBox();
+            this.productsForEachRecipeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.searchForProductToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuChoices.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSlideShow)).BeginInit();
@@ -106,6 +108,9 @@
             // 
             // PricetoolStripMenuItem2
             // 
+            this.PricetoolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.productsForEachRecipeToolStripMenuItem,
+            this.searchForProductToolStripMenuItem});
             this.PricetoolStripMenuItem2.ForeColor = System.Drawing.Color.Green;
             this.PricetoolStripMenuItem2.Name = "PricetoolStripMenuItem2";
             this.PricetoolStripMenuItem2.Size = new System.Drawing.Size(123, 27);
@@ -213,6 +218,22 @@
             this.imgHelp.TabStop = false;
             this.imgHelp.Click += new System.EventHandler(this.ImgHelp_Click);
             // 
+            // productsForEachRecipeToolStripMenuItem
+            // 
+            this.productsForEachRecipeToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
+            this.productsForEachRecipeToolStripMenuItem.Name = "productsForEachRecipeToolStripMenuItem";
+            this.productsForEachRecipeToolStripMenuItem.Size = new System.Drawing.Size(284, 28);
+            this.productsForEachRecipeToolStripMenuItem.Text = "Products for each recipe";
+            this.productsForEachRecipeToolStripMenuItem.Click += new System.EventHandler(this.productsForEachRecipeToolStripMenuItem_Click);
+            // 
+            // searchForProductToolStripMenuItem
+            // 
+            this.searchForProductToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
+            this.searchForProductToolStripMenuItem.Name = "searchForProductToolStripMenuItem";
+            this.searchForProductToolStripMenuItem.Size = new System.Drawing.Size(284, 28);
+            this.searchForProductToolStripMenuItem.Text = "Search for product";
+            this.searchForProductToolStripMenuItem.Click += new System.EventHandler(this.searchForProductToolStripMenuItem_Click);
+            // 
             // frmMainPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -264,5 +285,7 @@
         private System.Windows.Forms.Label lblQuoteAuthor;
         private System.Windows.Forms.Timer tmrQuotes;
         private System.Windows.Forms.PictureBox imgHelp;
+        private System.Windows.Forms.ToolStripMenuItem productsForEachRecipeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem searchForProductToolStripMenuItem;
     }
 }

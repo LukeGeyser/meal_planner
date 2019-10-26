@@ -146,16 +146,7 @@ namespace MealPlannerDesktop
 
         private void PricetoolStripMenuItem2_Click(object sender, EventArgs e)
         {
-            try
-            {
-                frmProducts pds = new frmProducts();
-                pds.Show();
-                this.Close();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+          
         }
         int quoteIndex = 0;
         private void TmrQuotes_Tick(object sender, EventArgs e)
@@ -190,6 +181,35 @@ namespace MealPlannerDesktop
                 "eatrightpaylight.com.\n\tHappy Mealplanning!";
 
             MessageBox.Show(message, "Help", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void productsForEachRecipeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                frmProducts pds = new frmProducts();
+                pds.Show();
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void searchForProductToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                frmProductsPrice pds = new frmProductsPrice();
+                pds.Show();
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
         }
     }
 }
