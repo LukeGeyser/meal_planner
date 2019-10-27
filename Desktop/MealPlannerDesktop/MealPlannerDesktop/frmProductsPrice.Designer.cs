@@ -111,10 +111,10 @@
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.lstPrices.DefaultCellStyle = dataGridViewCellStyle1;
-            this.lstPrices.Location = new System.Drawing.Point(12, 291);
+            this.lstPrices.Location = new System.Drawing.Point(12, 290);
             this.lstPrices.Name = "lstPrices";
             this.lstPrices.ReadOnly = true;
-            this.lstPrices.Size = new System.Drawing.Size(414, 172);
+            this.lstPrices.Size = new System.Drawing.Size(414, 173);
             this.lstPrices.TabIndex = 61;
             // 
             // frmProductsPrice
