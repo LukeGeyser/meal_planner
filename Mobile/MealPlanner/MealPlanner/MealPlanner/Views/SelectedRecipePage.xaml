@@ -38,13 +38,89 @@
                     HeightRequest="1"
                     Opacity="0.1" />
 
-                <!--  Extra Store Details  -->
+                <!--  Extra Recipe Details  -->
                 <StackLayout Margin="30,10,30,10">
                     <Label
                         FontAttributes="Bold"
                         FontSize="Medium"
                         Text="EXTRA RECIPE DETAILS:"
                         TextColor="{DynamicResource TextColor}" />
+
+                    <StackLayout>
+
+                        <StackLayout
+                            Margin="0,10,0,0"
+                            HorizontalOptions="Center"
+                            Orientation="Horizontal">
+                            <Grid>
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="35" />
+                                    <RowDefinition Height="35" />
+                                </Grid.RowDefinitions>
+
+                                <Label
+                                    Grid.Row="0"
+                                    Grid.Column="0"
+                                    FontSize="Body"
+                                    HorizontalOptions="Center"
+                                    Text="Time To Prepare:"
+                                    TextColor="{DynamicResource TextColor}" />
+
+                                <Label
+                                    Grid.Row="1"
+                                    Grid.Column="0"
+                                    FontSize="Subtitle"
+                                    HorizontalOptions="Center"
+                                    Text="{Binding RecipeInfoViewModel.TimeToPrepare}"
+                                    TextColor="{DynamicResource Primary-Green}" />
+
+
+                                <Label
+                                    Grid.Row="0"
+                                    Grid.Column="1"
+                                    FontSize="Body"
+                                    HorizontalOptions="Center"
+                                    Text="Difficulty:"
+                                    TextColor="{DynamicResource TextColor}" />
+
+                                <Label
+                                    Grid.Row="1"
+                                    Grid.Column="1"
+                                    FontSize="Subtitle"
+                                    HorizontalOptions="Center"
+                                    Text="{Binding RecipeInfoViewModel.Difficulty}"
+                                    TextColor="{Binding RecipeInfoViewModel.DifficultyColor}" />
+
+                            </Grid>
+
+                        </StackLayout>
+
+                        <Label
+                            Margin="0,5,0,0"
+                            FontAttributes="Bold"
+                            FontSize="Subtitle"
+                            Text="Recipe Description:"
+                            TextColor="{DynamicResource TextColor}" />
+
+                        <Label Text="{Binding RecipeInfoViewModel.ShortDescription}" />
+
+                        <Label
+                            Margin="0,20,0,0"
+                            FontAttributes="Bold"
+                            FontSize="Subtitle"
+                            Text="Recipe Instructions:"
+                            TextColor="{DynamicResource TextColor}" />
+
+                        <Label Text="{Binding RecipeInfoViewModel.Instructions}" />
+
+                    </StackLayout>
+
                 </StackLayout>
 
                 <!--  Seperator  -->
@@ -54,6 +130,7 @@
                     HeightRequest="1"
                     Opacity="0.1" />
 
+                <!--  Recipe Products  -->
                 <StackLayout Margin="30,10,30,10">
                     <Label
                         FontAttributes="Bold"
