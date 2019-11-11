@@ -45,9 +45,19 @@ namespace MealPlanner.Views
 
             Task.Run(async () =>
             {
-                await SignInPage.loggedInUser.GetUserMealPlanAllergies();
-                weightGainTipsList = new DataHandler().GetWeightGainTips();
-                ConvertToObservable(weightGainTipsList);
+                if (App.WeightGainTipsList == null)
+                {
+                    await SignInPage.loggedInUser.GetUserMealPlanAllergies();
+                    weightGainTipsList = new DataHandler().GetWeightGainTips();
+                    ConvertToObservable(weightGainTipsList);
+                    App.WeightGainTipsList = weightGainTipsList;
+                }
+                else if (App.WeightGainTipsList != null)
+                {
+                    weightGainTipsList = App.WeightGainTipsList;
+                    ConvertToObservable(weightGainTipsList);
+                }
+                
             });
             
             BindingContext = this;
